@@ -77,13 +77,13 @@ describe('the Stripe webhook', () => {
         name: 'Ada Reader',
         street1: '1 Test Street',
         city: 'London',
+        state_code: 'Greater London',
         postcode: 'N1 9GU',
         country_code: 'GB',
         phone_number: '+442079460000',
         email: 'reader@example.com',
       },
     })
-    expect(order.body.shipping_address).not.toHaveProperty('state_code')
     expect(calls.find((call) => call.url.includes('postmarkapp.com'))!.body).toMatchObject({
       To: 'reader@example.com',
       Subject: 'Your copy of Seasoned is off to the printer',

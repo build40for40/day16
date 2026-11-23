@@ -152,8 +152,7 @@ function printJob(session: CheckoutSession, env: Env) {
       street1: address.line1,
       street2: address.line2 ?? undefined,
       city: address.city,
-      // Stripe sends a code where Lulu needs one (US, CA, AU) and a county or province name elsewhere, which Lulu rejects.
-      state_code: /^[A-Z]{2,3}$/.test(address.state ?? '') ? address.state! : undefined,
+      state_code: address.state ?? undefined,
       postcode: address.postal_code,
       country_code: address.country,
       phone_number: phone,
