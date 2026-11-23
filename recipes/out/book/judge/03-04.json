@@ -1,43 +1,43 @@
 {
  "day": 63,
- "title": "Orange and rhubarb compote with yoghurt",
+ "title": "Orange and apricot compote with yoghurt",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Oranges, rhubarb, honey, almonds, Greek yoghurt and cinnamon are all plain whole foods a grandparent would keep."
+   "reason": "Oranges, dried apricots, honey, Greek yoghurt, almonds and cinnamon are all plain larder and fridge foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Forced rhubarb, oranges, almonds and Greek yoghurt are all everyday stock at Tesco in March."
+   "reason": "Every ingredient is an everyday item on Tesco shelves at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "Only a small pan, a frying pan, a knife and a zester or grater are needed, and peeling oranges with a knife is within a beginner's reach."
+   "reason": "It needs one small pan and a sharp knife, and cutting away orange peel and pith is within a confident beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "Rhubarb simmered for 5 minutes with orange juice, honey and cinnamon, then served over 125g of yoghurt each with almonds, gives a balanced, sensibly sized breakfast for four."
+   "reason": "Four oranges, 150g apricots, 500g yoghurt and 50g almonds make a sensible breakfast for four, and a 10-minute simmer in 200ml water will plump the apricots into a light syrup."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Zesting and peeling four oranges, chopping the rhubarb and almonds fits in 15 minutes, and a 5 minute simmer plus toasting the almonds fits 10."
+   "reason": "Toasting the almonds, halving the apricots, zesting, and peeling and slicing four oranges fit believably in 12 minutes, and the 10-minute simmer matches the cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and the cinnamon is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, nothing unlisted is used beyond water, and flaked almonds are the same food as the almonds id."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm compote suits early March, and oranges lead both the title and the dish, alongside forced rhubarb."
+   "reason": "Oranges are at their best in early March and they make up the bulk of this warm compote, which suits a chilly morning."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear and in plain British English."
+   "reason": "The steps are short, clear and in plain British English, with no fancy or preachy language."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Fruit, protein-rich yoghurt and nuts with a little honey make a proper breakfast a family would happily repeat."
+   "reason": "Fruit with a generous serving of Greek yoghurt and toasted almonds gives a filling breakfast with protein, and only a modest tablespoon of honey."
   }
  }
 }

@@ -17,17 +17,17 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Orange and rhubarb compote with yoghurt",
+  "title": "Orange and apricot compote with yoghurt",
   "meal": "breakfast",
-  "dish_form": "fruit compote with yoghurt",
+  "dish_form": "fruit compote",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
    "one small pan",
-   "a small frying pan"
+   "a sharp knife"
   ],
-  "prep_minutes": 15,
+  "prep_minutes": 12,
   "cook_minutes": 10,
   "time_note": "",
   "best_time": "morning",
@@ -40,24 +40,24 @@
   ],
   "ingredients": [
    {
+    "id": "almonds",
+    "quantity": "50g",
+    "name": "flaked almonds"
+   },
+   {
     "id": "oranges",
     "quantity": "4",
     "name": "oranges"
    },
    {
-    "id": "rhubarb",
-    "quantity": "400g",
-    "name": "rhubarb"
+    "id": "dried-apricots",
+    "quantity": "150g",
+    "name": "dried apricots"
    },
    {
     "id": "honey",
-    "quantity": "2 tbsp",
+    "quantity": "1 tbsp",
     "name": "honey"
-   },
-   {
-    "id": "almonds",
-    "quantity": "50g",
-    "name": "almonds"
    },
    {
     "id": "greek-yoghurt",
@@ -66,10 +66,10 @@
    }
   ],
   "steps": [
-   "Zest one orange. Cut the peel from all four, then slice into rounds, saving the juice.",
-   "Simmer the rhubarb, cut into short lengths, with the honey, zest, juice and a pinch of cinnamon for 5 minutes, until just tender.",
-   "Take off the heat and stir in the orange slices.",
-   "Toast the chopped almonds in a dry pan until golden. Spoon the warm compote over bowls of yoghurt and scatter with the almonds."
+   "Toast the almonds in a dry pan until golden, then tip out.",
+   "Zest one orange into the pan. Add the halved apricots, honey, a pinch of cinnamon and 200ml water. Simmer for 10 minutes, until plump and syrupy.",
+   "Cut the peel and pith from all the oranges and slice into rounds, saving the juice.",
+   "Stir the oranges and juice into the warm apricots. Spoon over yoghurt and scatter with almonds."
   ]
  },
  "attempts": 1,

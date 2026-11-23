@@ -81,7 +81,7 @@ export function recipeUser(slot, { taken = [], rejected } = {}) {
 
   let message = `${lines.join("\n")}\n\nFresh list for ${MONTHS[slot.month - 1]}:\n\n${freshList(slot.month)}`;
   if (taken.length) {
-    message += `\n\nThese pages already exist with the same hero, so make something clearly different:\n${taken.map((title) => `- ${title}`).join("\n")}`;
+    message += `\n\nThese pages already exist with the same hero or for the same meal, so make something clearly different from all of them:\n${taken.map((title) => `- ${title}`).join("\n")}`;
   }
   if (rejected) {
     message += `\n\nYour last attempt at this page was rejected by the book's checks:\n${rejected.failures.map((failure) => `- ${failure.message}`).join("\n")}\n\nThe rejected page:\n${JSON.stringify(rejected.recipe)}\n\nWrite the whole page again with those problems fixed. Change the dish if that is the cleanest fix.`;

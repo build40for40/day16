@@ -17,31 +17,26 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Clementine and rhubarb baked oats",
+  "title": "Clementine and chocolate baked oats",
   "meal": "breakfast",
   "dish_form": "baked oats",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "a baking dish",
    "a mixing bowl",
-   "a grater",
-   "a whisk"
+   "a whisk",
+   "a baking dish"
   ],
   "prep_minutes": 15,
   "cook_minutes": 35,
   "time_note": "",
   "best_time": "morning",
-  "freezes": false,
+  "freezes": true,
   "seasoning": [
    {
     "id": "cinnamon",
     "name": "cinnamon"
-   },
-   {
-    "id": "ground-ginger",
-    "name": "ground ginger"
    },
    {
     "id": "salt",
@@ -51,7 +46,7 @@
   "ingredients": [
    {
     "id": "butter",
-    "quantity": "15g",
+    "quantity": "10g",
     "name": "butter"
    },
    {
@@ -85,21 +80,27 @@
     "name": "baking powder"
    },
    {
-    "id": "rhubarb",
-    "quantity": "200g",
-    "name": "forced rhubarb"
+    "id": "dark-chocolate",
+    "quantity": "50g",
+    "name": "dark chocolate"
    },
    {
-    "id": "natural-yoghurt",
+    "id": "hazelnuts",
+    "quantity": "40g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "greek-yoghurt",
     "quantity": "200g",
-    "name": "natural yoghurt"
+    "name": "Greek yoghurt"
    }
   ],
   "steps": [
-   "Heat the oven to 190°C (170°C fan) and butter the baking dish.",
-   "Zest and juice two clementines into a bowl. Whisk in the eggs, milk, honey, 1 tsp cinnamon and a pinch of ginger.",
-   "Stir in the oats, baking powder and a pinch of salt. Fold in the rhubarb, cut into short lengths, and tip into the dish.",
-   "Lay the other clementines, peeled and sliced, on top. Bake for 35 minutes until set and golden. Serve with yoghurt."
+   "Heat the oven to 190°C (170°C fan). Butter a baking dish.",
+   "Zest 2 clementines into a bowl. Whisk in the eggs, milk, honey, 1 tsp cinnamon and a pinch of salt.",
+   "Stir in the oats, baking powder and chopped chocolate. Pour into the dish.",
+   "Top with the zested clementines, peeled and sliced, and the chopped hazelnuts. Bake for 30 to 35 minutes, until set.",
+   "Serve warm with yoghurt and the remaining clementines in segments."
   ]
  },
  "attempts": 1,

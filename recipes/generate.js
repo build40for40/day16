@@ -26,7 +26,7 @@ console.log(`Writing ${todo.length} pages into the "${options.set}" set with ${M
 
 await pool(todo, options.concurrency, async (slot) => {
   const taken = [...existing.values()]
-    .filter((page) => page.slot.day !== slot.day && page.slot.heroes[0] === slot.heroes[0])
+    .filter((page) => page.slot.day !== slot.day && (page.slot.heroes[0] === slot.heroes[0] || page.slot.meal === slot.meal))
     .map((page) => page.recipe.title);
   let rejected = options.fix ? { recipe: existing.get(slot.day).recipe, failures: judgeFailures.get(slot.day) } : undefined;
   let page;

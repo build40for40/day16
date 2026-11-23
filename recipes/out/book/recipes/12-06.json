@@ -17,22 +17,27 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Pear and clementine crumble with hazelnuts",
+  "title": "Clementine rice pudding pots",
   "meal": "snack",
-  "dish_form": "crumble",
+  "dish_form": "fruit pot",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "oven",
   "utensils": [
    "a baking dish",
-   "a mixing bowl"
+   "a grater",
+   "a small bowl"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 30,
+  "prep_minutes": 10,
+  "cook_minutes": 120,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
   "seasoning": [
+   {
+    "id": "nutmeg",
+    "name": "nutmeg"
+   },
    {
     "id": "cinnamon",
     "name": "cinnamon"
@@ -40,9 +45,24 @@
   ],
   "ingredients": [
    {
-    "id": "pears",
-    "quantity": "4",
-    "name": "pears"
+    "id": "butter",
+    "quantity": "15g",
+    "name": "butter"
+   },
+   {
+    "id": "pudding-rice",
+    "quantity": "100g",
+    "name": "pudding rice"
+   },
+   {
+    "id": "caster-sugar",
+    "quantity": "30g",
+    "name": "caster sugar"
+   },
+   {
+    "id": "milk",
+    "quantity": "850ml",
+    "name": "whole milk"
    },
    {
     "id": "clementines",
@@ -55,36 +75,17 @@
     "name": "honey"
    },
    {
-    "id": "butter",
-    "quantity": "60g",
-    "name": "cold butter"
-   },
-   {
-    "id": "ground-almonds",
-    "quantity": "100g",
-    "name": "ground almonds"
-   },
-   {
-    "id": "demerara-sugar",
-    "quantity": "40g",
-    "name": "demerara sugar"
-   },
-   {
-    "id": "hazelnuts",
-    "quantity": "50g",
-    "name": "hazelnuts"
-   },
-   {
-    "id": "greek-yoghurt",
-    "quantity": "200g",
-    "name": "Greek yoghurt"
+    "id": "almonds",
+    "quantity": "30g",
+    "name": "flaked almonds"
    }
   ],
   "steps": [
-   "Heat the oven to 190°C (170°C fan). Toss the cored, chunked pears and peeled, sliced clementines in a baking dish with the honey.",
-   "Rub the butter into the almonds and sugar until crumbly. Stir in the chopped hazelnuts and 1 tsp cinnamon.",
-   "Scatter over the fruit and bake for 25 to 30 minutes, until golden and bubbling at the edges.",
-   "Serve warm with spoonfuls of yoghurt."
+   "Heat the oven to 150°C (130°C fan). Butter a baking dish.",
+   "Stir in the rice, sugar, milk, zest of 2 clementines and a grating of nutmeg. Dot with the rest of the butter.",
+   "Bake for 2 hours, until thick and creamy under a golden skin.",
+   "Peel and slice the other clementines. Toss with the honey, the juice of the zested ones and a pinch of cinnamon.",
+   "Spoon the rice into pots and top with the clementines and almonds."
   ]
  },
  "attempts": 1,

@@ -17,21 +17,26 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Mushroom, kale and butter bean hash with eggs",
+  "title": "Beetroot and mushroom hash with feta and eggs",
   "meal": "breakfast",
   "dish_form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "one large frying pan with a lid"
+   "one large frying pan with a lid",
+   "a grater"
   ],
-  "prep_minutes": 10,
-  "cook_minutes": 15,
+  "prep_minutes": 15,
+  "cook_minutes": 20,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
   "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
    {
     "id": "salt",
     "name": "salt"
@@ -39,21 +44,13 @@
    {
     "id": "black-pepper",
     "name": "black pepper"
-   },
-   {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
-   },
-   {
-    "id": "thyme",
-    "name": "thyme"
    }
   ],
   "ingredients": [
    {
-    "id": "rapeseed-oil",
-    "quantity": "2 tbsp",
-    "name": "rapeseed oil"
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
    },
    {
     "id": "red-onions",
@@ -62,35 +59,35 @@
    },
    {
     "id": "mushrooms",
-    "quantity": "400g",
+    "quantity": "300g",
     "name": "mushrooms"
    },
    {
-    "id": "garlic",
-    "quantity": "2 cloves",
-    "name": "garlic"
+    "id": "potatoes",
+    "quantity": "500g",
+    "name": "potatoes"
    },
    {
-    "id": "butter-beans",
-    "quantity": "2 tins",
-    "name": "butter beans"
-   },
-   {
-    "id": "kale",
-    "quantity": "100g",
-    "name": "kale"
+    "id": "beetroot",
+    "quantity": "2",
+    "name": "raw beetroot"
    },
    {
     "id": "eggs",
     "quantity": "4",
     "name": "eggs"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
    }
   ],
   "steps": [
-   "Fry the sliced onion and mushrooms in the oil over a high heat for 6 minutes, until browned.",
-   "Add the sliced garlic, thyme leaves, 1 tsp paprika and drained beans. Fry for 3 minutes, pressing some beans flat.",
-   "Stir in the shredded kale with a splash of water until wilted. Season.",
-   "Make four hollows, crack in the eggs, cover and cook for 4 to 5 minutes, until the whites set."
+   "Warm the oil in a large frying pan. Fry the sliced onion and mushrooms for 5 minutes, until golden.",
+   "Add the coarsely grated potatoes and beetroot with the thyme leaves. Season and fry for 12 to 15 minutes, turning now and then, until tender and crisp in places.",
+   "Make four hollows, crack in the eggs, cover and cook for 4 to 5 minutes, until the whites are set.",
+   "Crumble over the feta and finish with plenty of pepper."
   ]
  },
  "attempts": 1,

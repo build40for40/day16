@@ -17,28 +17,24 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Ham, cheddar and Bramley breakfast loaf",
+  "title": "Savoury baked oats with ham, leek and Bramley",
   "meal": "breakfast",
-  "dish_form": "breakfast loaf",
+  "dish_form": "baked oats",
   "diet": "meat",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "a 900g loaf tin",
+   "a baking dish",
    "a mixing bowl",
-   "a jug",
+   "a whisk",
    "a grater"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 70,
-  "time_note": "bake the night before",
+  "prep_minutes": 15,
+  "cook_minutes": 45,
+  "time_note": "",
   "best_time": "morning",
   "freezes": true,
   "seasoning": [
-   {
-    "id": "sage",
-    "name": "sage"
-   },
    {
     "id": "salt",
     "name": "salt"
@@ -46,18 +42,47 @@
    {
     "id": "black-pepper",
     "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
    }
   ],
   "ingredients": [
    {
-    "id": "self-raising-flour",
-    "quantity": "250g",
-    "name": "self-raising flour"
+    "id": "leeks",
+    "quantity": "1",
+    "name": "leek"
    },
    {
-    "id": "bramley-apples",
-    "quantity": "1",
-    "name": "large Bramley apple"
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "eggs",
+    "quantity": "3",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "400ml",
+    "name": "milk"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
    },
    {
     "id": "ham",
@@ -65,42 +90,27 @@
     "name": "cooked ham"
    },
    {
-    "id": "cheddar",
-    "quantity": "100g",
-    "name": "mature cheddar"
-   },
-   {
-    "id": "eggs",
+    "id": "bramley-apples",
     "quantity": "2",
-    "name": "eggs"
+    "name": "Bramley apples"
    },
    {
-    "id": "milk",
-    "quantity": "200ml",
-    "name": "milk"
-   },
-   {
-    "id": "rapeseed-oil",
-    "quantity": "75ml",
-    "name": "rapeseed oil"
-   },
-   {
-    "id": "english-mustard",
-    "quantity": "1 tsp",
-    "name": "English mustard"
+    "id": "cheddar",
+    "quantity": "80g",
+    "name": "Cheddar"
    }
   ],
   "steps": [
-   "Heat the oven to 190°C (170°C fan). Oil and line the loaf tin.",
-   "Mix the flour, a pinch of salt and plenty of pepper. Stir in the grated apple, chopped ham, 6 chopped sage leaves and most of the cheese.",
-   "Whisk the eggs, milk, oil and mustard, then fold in until just combined.",
-   "Spoon in, top with the rest of the cheese and bake for 50 minutes, until golden and firm. Cool for 20 minutes before slicing."
+   "Heat the oven to 200°C (180°C fan). Roast the sliced leek with the butter in a baking dish for 10 minutes.",
+   "Whisk the eggs, milk, mustard, thyme leaves, salt and pepper.",
+   "Stir in the oats, baking powder, diced ham, peeled grated apples and most of the grated Cheddar.",
+   "Pour over the leeks, top with the rest of the cheese and bake for 30 to 35 minutes, until set and golden."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The time note is over 30 characters."
+   "The method is 82 words and runs 1 lines past the bottom of the page. Cut about 6 words."
   ]
  ],
  "failures": [],

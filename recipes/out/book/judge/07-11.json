@@ -1,43 +1,43 @@
 {
  "day": 192,
- "title": "Whiting on toast with aubergine and runner beans",
+ "title": "Mackerel on smoky aubergine toast",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or a plain store-cupboard staple such as capers, olive oil and crusty bread, with no jars, stock pots or packet mixes."
+   "reason": "Everything is whole food or a plain staple: aubergines, mackerel, runner beans, Greek yoghurt, bread, oil and spices."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Aubergines, runner beans, tomatoes, basil and whiting fillets are all everyday-priced items at a mainstream supermarket in July."
+   "reason": "Fresh mackerel fillets, aubergines and runner beans are everyday July items in Tesco and similar supermarkets."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only two frying pans, a knife, a board and a toaster or grill, and pan-frying fish fillets is within a confident beginner's reach."
+   "reason": "It needs only a roasting tray, a saucepan and a frying pan, and the techniques are simple roasting, mashing, boiling and pan-frying."
   },
   "works": {
    "pass": true,
-   "reason": "Two aubergines with four tomatoes, 200g runner beans and four fillets on four slices of toast is a sensible lunch for four, and the frying times would cook everything through without burning."
+   "reason": "Two roasted aubergines mashed with yoghurt make enough spread for four slices, and the mackerel and bean timings are sound; toasting the bread is a detail any cook will fill in."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Cubing aubergines, slicing beans and garlic and chopping tomatoes, plus tending the frying pans, fits within the 40 minutes printed in total for a standard pace."
+   "reason": "Twenty minutes of active work covers slicing the beans, mashing, frying the fish and toasting, and the 35-minute cook time matches the aubergine roast."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the lemon, basil and chilli flakes, appears in the steps, and nothing unlisted is used."
+   "reason": "Every listed item, including lemon, mint and smoked paprika (called just 'paprika' in step 3), is used, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm aubergine, tomato and runner bean pile on toast suits a July lunch, and the aubergine makes up the bulk of the dish rather than a garnish."
+   "reason": "It is a light, warm summer lunch for July, and the soft roasted aubergine spread forms the base of every slice rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, brief British English that a neighbour could follow without any restaurant jargon."
+   "reason": "The steps are short and clear, in plain British English, with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a proper meal of fish, plenty of vegetables and bread that a family would happily eat again."
+   "reason": "Oily fish, vegetables and yoghurt on crusty toast make a satisfying, balanced lunch a family would happily eat again."
   }
  }
 }

@@ -1,43 +1,43 @@
 {
  "day": 156,
- "title": "Pollock on tomato and butter beans",
+ "title": "Tomato and Puy lentil pot with hake",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Every ingredient is a plain kitchen staple, and vegetable stock and tinned butter beans are both allowed."
+   "reason": "Everything is a whole food or a plain store cupboard staple: lentils, stock, onion, tomatoes, fish."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Pollock fillets, butter beans, tomatoes and spinach are everyday items in any mainstream supermarket."
+   "reason": "Hake fillets, Puy lentils, spinach and the rest are all stocked by Tesco at an everyday price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a wide lidded pan, and gently steaming fish on top of a sauce is well within a beginner's reach."
+   "reason": "One wide lidded pan and simple simmering and steaming are well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "The quantities suit four, the liquid is sensible for a bean base and 6 to 8 minutes covered will cook the pollock through."
+   "reason": "The 200g lentils to 700ml stock plus 600g tomatoes cooks through in about 25 minutes, and the hake steams on top in 6 to 8 minutes, making a sound four portion lunch."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes of prep covers slicing the onion and garlic and chopping 600g of tomatoes, and the steps add up to roughly 30 minutes of cooking."
+   "reason": "20 minutes covers slicing an onion, chopping 600g tomatoes and the garlic, and the 5, 25 and 8 minute stages roughly match the 35 minute cook."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including the paprika, basil and lemon, is used, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A light tomato and bean pot with basil suits early June, and the tomatoes cook down to form the base of the dish rather than garnishing it."
+   "reason": "The fresh tomatoes make the sauce that carries the dish, and a light fish and lentil pot suits an early June lunch."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear British English with no restaurant language."
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Fish, beans, tomatoes and spinach make a filling, balanced meal a family would happily eat."
+   "reason": "It is a filling plate of lentils, vegetables and fish that a family would happily eat again."
   }
  }
 }
