@@ -4,6 +4,7 @@
 //   node pages/build.ts --in <dir>      read recipe JSON from another folder
 //   node pages/build.ts --out <dir>     write the pages somewhere else
 //   node pages/build.ts --pictures <dir>  folder of pictures named like the recipes (11-06.jpg)
+//   node pages/build.ts --first-side left  put day 1 on a left-hand page (the default is right)
 //
 // It writes one HTML file per recipe and a book.html holding every page in date
 // order, ready to print to PDF at A5. Needs Node 22.18 or newer, which runs
@@ -44,7 +45,8 @@ interface RecipeFile {
 }
 
 // The page is A5: 148 x 210 mm, which is 559 x 794 CSS pixels.
-// The right hand edge is what you see when you flick through the book.
+// The outer edge is what you see when you flick through the book: on the right of a
+// right-hand page and on the left of a left-hand page. Everything else keeps its place.
 const YEAR_LINE_TOP = 170;
 const YEAR_LINE_HEIGHT = 432;
 const SEASONS = ["winter", "spring", "summer", "autumn", "winter"] as const;
@@ -81,6 +83,14 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 .today{position:absolute;right:24px;width:7px;height:7px;border-radius:50%;background:#1b1a17}
 .time{position:absolute;right:28px;top:668px;display:flex;flex-direction:column;align-items:flex-end;font-size:13px;line-height:24px;color:#767676}
 .time .on{color:#1b1a17;font-weight:700}
+.verso .content{left:89px}
+.verso .picture{margin-left:30px}
+.verso .date{right:auto;left:28px;text-align:left}
+.verso .season{right:auto;left:44px}
+.verso .year{right:auto;left:27px}
+.verso .gone{right:auto;left:26px}
+.verso .today{right:auto;left:24px}
+.verso .time{right:auto;left:28px;align-items:flex-start}
 @page{size:148mm 210mm;margin:0}
 @media print{.page{break-after:page}}
 `;
@@ -118,7 +128,16 @@ function timeBucket(total: number): number {
   return 90;
 }
 
-function page(file: RecipeFile, picture: string | null): string {
+type Side = "left" | "right";
+
+// Day 1 sits on a right-hand page unless --first-side says otherwise, and the sides alternate from there.
+function sideOf(day: number, firstSide: Side): Side {
+  const sameAsFirst = day % 2 === 1;
+  if (firstSide === "right") return sameAsFirst ? "right" : "left";
+  return sameAsFirst ? "left" : "right";
+}
+
+function page(file: RecipeFile, picture: string | null, side: Side): string {
   const { slot, recipe } = file;
   const [dayOfMonth, month] = slot.label.split(" ");
   const total = recipe.prep_minutes + recipe.cook_minutes;
@@ -130,7 +149,7 @@ function page(file: RecipeFile, picture: string | null): string {
     ? `<img class="picture" src="${escapeHtml(picture)}" alt="">`
     : `<div class="picture" role="img" aria-label="Picture to come">picture</div>`;
 
-  return `<div class="page">
+  return `<div class="page${side === "left" ? " verso" : ""}">
 <div class="content">
 ${image}
 <h1>${escapeHtml(recipe.title)}</h1>
@@ -187,6 +206,7 @@ function option(name: string, fallback: string): string {
 const inDir = resolve(option("in", "recipes/out/sample/recipes"));
 const outDir = resolve(option("out", "pages/out"));
 const pictureDir = resolve(option("pictures", "pictures"));
+const firstSide: Side = option("first-side", "right") === "left" ? "left" : "right";
 
 mkdirSync(outDir, { recursive: true });
 
@@ -199,7 +219,7 @@ const pages: string[] = [];
 for (const { key, data } of files) {
   const picturePath = join(pictureDir, `${key}.jpg`);
   const picture = existsSync(picturePath) ? relative(outDir, picturePath) : null;
-  const html = page(data, picture);
+  const html = page(data, picture, sideOf(data.slot.day, firstSide));
   pages.push(html);
   writeFileSync(join(outDir, `${key}.html`), document(`Seasoned: ${data.slot.label}`, [html]));
 }

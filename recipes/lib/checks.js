@@ -142,7 +142,7 @@ export function hardChecks(candidate, slot) {
     fail("method_overflow", `The method is ${size.methodWords} words and runs ${overBy(size.methodPx)} lines past the bottom of the page. Cut about ${overBy(size.methodPx) * 6} words.`);
   }
   if (size.listPx > size.room) {
-    fail("ingredients_overflow", `The ingredients and seasoning run ${overBy(size.listPx)} lines past the bottom of the page. The column is about 22 characters wide, so shorten the lines that wrap or use fewer.`);
+    fail("column_overflow", `The ingredients and seasoning run ${overBy(size.listPx)} lines past the bottom of the page. The column is about 22 characters wide, so shorten the lines that wrap or use fewer.`);
   }
   if (size.titleLines > limits.max_title_lines) fail("long_title", `The title takes ${size.titleLines} lines and the page fits ${limits.max_title_lines}.`);
   if (size.utensilLines > limits.max_utensils_lines) fail("long_utensils", `The utensils take ${size.utensilLines} lines and the page fits ${limits.max_utensils_lines}.`);

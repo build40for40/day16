@@ -67,7 +67,13 @@ const planted = [
     hard: ["too_many_ingredients"],
     change: add({ id: "carrots", quantity: "2", name: "carrots" }, { id: "celeriac", quantity: "1/2", name: "celeriac" }, { id: "kale", quantity: "200g", name: "kale" }),
   },
-  { name: "Ingredient lines overflow the column", hard: ["ingredients_overflow"], change: (r) => r.ingredients.forEach((item) => (item.name = `${item.name}, washed and roughly chopped`)) },
+  { name: "Ingredient lines overflow the column", hard: ["column_overflow"], change: (r) => r.ingredients.forEach((item) => (item.name = `${item.name}, washed and roughly chopped`)) },
+  { name: "Ingredients and seasoning overflow their shared column", hard: ["column_overflow"], change: (r) => {
+      r.title = "Leek, potato and butter bean stew with wholegrain mustard";
+      r.ingredients.push({ id: "carrots", quantity: "2", name: "carrots" });
+      r.seasoning.push({ id: "cumin", name: "cumin" }, { id: "smoked-paprika", name: "smoked paprika" });
+    },
+  },
   { name: "Method overflows the page", hard: ["method_overflow"], change: (r) => (r.steps = r.steps.map((step) => `${step} Take your time over this and keep an eye on the pan so that nothing catches on the bottom.`)) },
   { name: "Salt listed as an ingredient", hard: ["seasoning_list"], change: add({ id: "salt", quantity: "1 tsp", name: "salt" }) },
   { name: "Dash joining clauses", hard: ["dashes"], change: (r) => (r.steps[3] = "Off the heat, stir in the crème fraîche — season well.") },
