@@ -5,6 +5,8 @@ Day 16 of 40 for 40, built live on Twitch on Monday 23 November 2026. The proble
 - **Form factors:** game, data viz, book.
 - **Name:** the app doesn't have one yet, so the repo is `day16` until it does. Once it's named, anything web-facing is served at `build40for40.com/<app>/`.
 
+- **Web page:** `index.html` is the single-page book site (one free seasonal recipe a day, or buy the book for all 365), with five skins switched from the top right. It's served at `build40for40.com/day16/` by copying it to `public/day16/index.html` in the `site` repo and merging that PR.
+
 Shared 40 for 40 context lives in `../AGENTS.md`.
 
 ## The problem
