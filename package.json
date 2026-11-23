@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "npm run build:site && npm run wrangler -- dev",
-    "build": "npm run build:site && npm run ebook",
+    "build": "npm run build:site && npm run ebook && npm run epub",
     "build:site": "tsc && node build.ts",
     "ebook": "node book/build.ts --ebook",
+    "epub": "node book/epub.ts",
     "test": "vitest run",
     "wrangler": "env -u CLOUDFLARE_API_KEY -u CLOUDFLARE_EMAIL wrangler --profile 40for40",
     "deploy": "npm run build && npm run wrangler -- deploy",
