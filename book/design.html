@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Seasoned Book Design</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap">
+<style>
+/* Layout: a quiet reading page; three cover options on a table, then an interior spread, then the spec. Single look by choice (books are objects). */
+:root{
+  --table:#e9e5dc; --ink:#23201a; --mute:#6d675a; --rule:#c9c2b0;
+  --green:#1c392d; --gold:#c8a55e; --gold2:#ecd69a; --gold3:#9c7a35;
+  --ivory:#f2ebd9; --oxblood:#6e1f24; --navy:#15233f;
+  --paper:#f7f1e1;
+  --display:'Cormorant Garamond','Cormorant',Garamond,'Times New Roman',serif;
+  --text:'EB Garamond',Garamond,'Times New Roman',serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--table);color:var(--ink);font-family:var(--text);font-size:18px;line-height:1.5;margin:0;
+  padding-block:48px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+h1,h2{font-family:var(--display);font-weight:500;margin:0;text-wrap:balance}
+h1{font-size:clamp(34px,6vw,56px);line-height:1.05}
+h2{font-size:28px}
+.eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+.lede{max-width:60ch;color:var(--mute);margin:12px 0 0}
+.covers{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:36px}
+figure{margin:0;display:flex;flex-direction:column;gap:14px;min-width:0}
+figcaption b{font-family:var(--display);font-size:22px;font-weight:600;display:block}
+figcaption span{color:var(--mute);font-size:16px}
+.cover{container-type:inline-size;aspect-ratio:2/3;width:100%;position:relative;overflow:hidden;border-radius:2px 5px 5px 2px;
+  box-shadow:0 1px 0 rgba(255,255,255,.4) inset,-3px 0 0 rgba(0,0,0,.18) inset,0 22px 30px -14px rgba(30,25,15,.55),0 3px 6px rgba(30,25,15,.25)}
+.cover .in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;text-align:center}
+.foil{background:linear-gradient(100deg,var(--gold3),var(--gold2) 35%,var(--gold) 55%,var(--gold3));-webkit-background-clip:text;background-clip:text;color:transparent}
+svg{display:block}
+/* A */
+.a{background:var(--green);background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.03) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(0,0,0,.05) 0 1px,transparent 1px 3px)}
+.a .frame{position:absolute;inset:5.5cqw;border:.5cqw solid var(--gold);outline:.3cqw solid var(--gold);outline-offset:-2cqw;opacity:.9}
+.a .in{padding:13cqw 12cqw 12cqw;justify-content:space-between}
+.a .k{font-family:var(--display);font-size:3.3cqw;letter-spacing:.32em;text-transform:uppercase;font-weight:600}
+.a .wr{width:56cqw}
+.a .t{font-family:var(--display);font-weight:600;font-size:10.5cqw;line-height:1.02;letter-spacing:.14em;text-transform:uppercase}
+.a .s{font-family:var(--display);font-style:italic;font-size:4.6cqw;margin-top:2.6cqw;color:var(--gold2)}
+.a .au{font-family:var(--display);font-size:3.3cqw;line-height:1.7;letter-spacing:.24em;text-transform:uppercase;font-weight:600}
+/* B */
+.b{background:var(--ivory);background-image:radial-gradient(120% 80% at 50% 0,rgba(255,255,255,.5),transparent 60%)}
+.b .frame{position:absolute;inset:6cqw;border:.5cqw solid var(--oxblood)}
+.b .frame::after{content:"";position:absolute;inset:1.4cqw;border:.2cqw solid var(--oxblood)}
+.b .in{padding:15cqw 12cqw 13cqw;justify-content:space-between;color:var(--oxblood)}
+.b .au{font-family:var(--display);font-size:3.3cqw;line-height:1.7;letter-spacing:.26em;text-transform:uppercase;font-weight:600}
+.b .t{font-family:var(--display);font-style:italic;font-weight:500;font-size:19cqw;line-height:.95}
+.b .s{font-size:4.4cqw;line-height:1.35;max-width:62cqw;font-style:italic}
+.b .ed{font-family:var(--display);font-size:3.2cqw;letter-spacing:.3em;text-transform:uppercase;font-weight:600}
+.b .sp{width:60cqw}
+/* C */
+.c{background:var(--navy);background-image:radial-gradient(90% 60% at 50% 38%,rgba(255,255,255,.06),transparent 70%)}
+.c .frame{position:absolute;inset:5.5cqw;border:.35cqw solid var(--gold);opacity:.9}
+.c .in{padding:12cqw 10cqw 11cqw;justify-content:space-between}
+.c .au{font-family:var(--display);font-size:3.3cqw;line-height:1.7;letter-spacing:.24em;text-transform:uppercase;font-weight:600}
+.c .ring{width:74cqw}
+.c .t{font-family:var(--display);font-weight:600;font-size:10.5cqw;letter-spacing:.16em;text-transform:uppercase;line-height:1.1}
+.c .s{font-family:var(--display);font-style:italic;font-size:4.4cqw;color:var(--gold2);margin-top:1.6cqw}
+/* interior */
+.spread{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:880px;margin:0 auto;width:100%;box-shadow:0 22px 34px -16px rgba(30,25,15,.5);position:relative}
+.spread::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:36px;transform:translateX(-50%);pointer-events:none;
+  background:linear-gradient(90deg,transparent,rgba(60,45,20,.14) 46%,rgba(60,45,20,.22) 50%,rgba(60,45,20,.14) 54%,transparent)}
+.pg{container-type:inline-size;background:var(--paper);aspect-ratio:2/3;position:relative;color:#26221a;min-width:0}
+.pg .in{position:absolute;inset:0;padding:9cqw 10cqw 8cqw;display:flex;flex-direction:column}
+.rh{display:flex;justify-content:space-between;font-family:var(--display);font-size:2.9cqw;letter-spacing:.22em;text-transform:uppercase;color:#6b6350}
+.L .in{align-items:center;text-align:center}
+.L .mo{font-family:var(--display);font-size:4.2cqw;letter-spacing:.4em;text-transform:uppercase;margin-top:17cqw;font-weight:600}
+.L .num{font-family:var(--display);font-size:46cqw;line-height:.9;font-weight:500;margin-top:2cqw}
+.L .dy{font-style:italic;font-size:4.4cqw;color:#6b6350;margin-top:1cqw}
+.L .rl{width:14cqw;height:.3cqw;background:var(--oxblood);margin:7cqw 0}
+.L .ep{font-family:var(--display);font-style:italic;font-size:6.2cqw;line-height:1.25;max-width:68cqw;text-wrap:balance}
+.L .ss{margin-top:auto;font-size:3.5cqw;line-height:1.6;color:#4d4738}
+.L .ss b{display:block;font-family:var(--display);font-size:2.9cqw;letter-spacing:.26em;text-transform:uppercase;color:var(--oxblood);margin-bottom:1.4cqw}
+.R .tt{font-family:var(--display);font-style:italic;font-size:8cqw;line-height:1.02;margin-top:11cqw;font-weight:500;text-wrap:balance}
+.R .mt{font-size:3.3cqw;letter-spacing:.2em;text-transform:uppercase;color:#6b6350;margin:3cqw 0 5cqw}
+.R ul{list-style:none;margin:0;padding:0;font-size:3.7cqw;line-height:1.7}
+.R li{display:flex;gap:1.4cqw;align-items:baseline}
+.R li i{flex:1;border-bottom:.25cqw dotted #a89f88;transform:translateY(-.8cqw)}
+.R li em{font-style:normal;color:#6b6350;font-size:3.2cqw;font-variant-numeric:tabular-nums}
+.R p{font-size:3.75cqw;line-height:1.5;margin:5cqw 0 0;text-align:justify;hyphens:auto}
+.R p::first-letter{font-family:var(--display);float:left;font-size:13cqw;line-height:.78;padding:.8cqw 1.4cqw 0 0;color:var(--oxblood);font-weight:500}
+.R .ft{margin-top:auto;display:flex;justify-content:space-between;font-size:3cqw;font-style:italic;color:#6b6350;border-top:.25cqw solid #c7bda5;padding-top:2.4cqw}
+.T .in{align-items:center;text-align:center;justify-content:center}
+.T .ti{font-family:var(--display);font-style:italic;font-weight:500;font-size:17cqw;line-height:1;color:var(--oxblood)}
+.T .st{font-family:var(--display);font-style:italic;font-size:5.2cqw;line-height:1.3;max-width:64cqw;margin-top:4cqw;text-wrap:balance}
+.T .na{font-family:var(--display);font-size:3.4cqw;line-height:1.9;letter-spacing:.26em;text-transform:uppercase;font-weight:600;margin-top:7cqw}
+.T .sp2{width:36cqw;margin-top:6cqw}
+.C .in,.N .in{justify-content:flex-end}
+.C .in{gap:0;padding-top:7cqw;padding-bottom:7cqw}
+.C p,.N p{font-size:2.45cqw;line-height:1.42;margin:0 0 1.9cqw;text-align:left;hyphens:auto}
+.C b,.N b{display:block;font-family:var(--display);font-size:2.8cqw;letter-spacing:.24em;text-transform:uppercase;color:#1a1815;margin-bottom:2cqw;font-weight:600}
+.C .big{font-size:3cqw;font-family:var(--display);font-weight:600;margin-bottom:2.4cqw}
+.C .nh{margin-top:2.6cqw;margin-bottom:1.4cqw}
+.C,.C b{color:#1a1815}
+.N .in{justify-content:flex-start;padding-top:14cqw}
+.N p{font-size:3.35cqw;line-height:1.55;margin-bottom:3.4cqw}
+.spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px 36px;max-width:880px;margin:0 auto;width:100%}
+.spec h3{font-family:var(--display);font-size:20px;font-weight:600;margin:0 0 6px}
+.spec p{margin:0;color:#4d4738;font-size:17px}
+.pick{border-top:1px solid var(--rule);padding-top:28px;max-width:62ch}
+.pick p{margin:10px 0 0}
+@media (max-width:640px){.spread{grid-template-columns:1fr;gap:24px;box-shadow:none}.spread::after{display:none}.pg{box-shadow:0 14px 24px -14px rgba(30,25,15,.5)}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Day 16 · the book</div>
+    <h1>Seasoned, bound like a classic</h1>
+    <p class="lede">Three cover directions, one interior, and the print specification. Every one is a clothbound book with a serif, a symmetrical layout and no photography, the way a Daily Stoic or an Everyman edition is made.</p>
+  </header>
+
+  <section class="covers" aria-label="Cover options">
+    <figure>
+      <div class="cover a" id="ca">
+        <div class="frame"></div>
+        <div class="in">
+          <div class="k foil">A recipe for every day</div>
+          <svg class="wr" viewBox="0 0 200 200" id="wreathA" aria-hidden="true">
+            <text x="100" y="113" text-anchor="middle" font-family="Cormorant Garamond,serif" font-weight="600" font-size="25" letter-spacing="3" fill="url(#gA)">CCCLXV</text>
+            <defs><linearGradient id="gA" x1="0" x2="1"><stop offset="0" stop-color="#9c7a35"/><stop offset=".4" stop-color="#ecd69a"/><stop offset="1" stop-color="#b8924a"/></linearGradient></defs>
+          </svg>
+          <div><div class="t foil">Seasoned</div><div class="s">A European Year of Cooking, One Day at a Time</div></div>
+          <div class="au foil">Benjamin Bourdin<br>Lawrence Kao<br>Samira Sohail</div>
+        </div>
+      </div>
+      <figcaption><b>A. Green cloth, gold foil</b><span>Bottle-green linen, foil stamped. Laurel around the number of days in Roman numerals. The most traditional of the three.</span></figcaption>
+    </figure>
+
+    <figure>
+      <div class="cover b" id="cb">
+        <div class="frame"></div>
+        <div class="in">
+          <div class="au">Benjamin Bourdin<br>Lawrence Kao<br>Samira Sohail</div>
+          <div class="t">Seasoned</div>
+          <svg class="sp" viewBox="0 0 40 120" id="wheat" aria-hidden="true"></svg>
+          <div class="s">A European Year of Cooking, One Day at a Time</div>
+          <div class="ed">Northern edition</div>
+        </div>
+      </div>
+      <figcaption><b>B. Ivory and oxblood</b><span>A printed paper jacket with a double rule, italic title and a single sprig. Quieter and easier to photograph on a shelf.</span></figcaption>
+    </figure>
+
+    <figure>
+      <div class="cover c" id="cc">
+        <div class="frame"></div>
+        <div class="in">
+          <div class="au foil">Benjamin Bourdin<br>Lawrence Kao<br>Samira Sohail</div>
+          <svg class="ring" viewBox="0 0 200 200" id="ring" aria-hidden="true"></svg>
+          <div><div class="t foil">Seasoned</div><div class="s">A European Year of Cooking,<br>One Day at a Time</div></div>
+        </div>
+      </div>
+      <figcaption><b>C. Almanac in navy</b><span>The twelve months set in a ring, like an old almanac plate. It says "a year of food" before you read a word.</span></figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <div class="eyebrow">Opening pages</div>
+    <h2 style="margin:6px 0 24px">Title page and copyright page</h2>
+    <div class="spread">
+      <div class="pg T"><div class="in">
+        <div class="ti">Seasoned</div>
+        <div class="st">A European Year of Cooking, One Day at a Time</div>
+        <svg class="sp2" viewBox="0 0 40 120" id="wheat2" aria-hidden="true"></svg>
+        <div class="na">Benjamin Bourdin<br>Lawrence Kao<br>Samira Sohail</div>
+      </div></div>
+      <div class="pg C"><div class="in">
+        <p class="big">Seasoned<br>A European Year of Cooking, One Day at a Time</p>
+        <p>Benjamin Bourdin<br>Lawrence Kao<br>Samira Sohail</p>
+        <p>Copyright © 2026 40 for 40 Ltd.</p>
+        <p>All rights reserved. No part of this book may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.</p>
+        <p>ISBN 978-1-291-41537-7<br>Imprint: Lulu.com</p>
+        <b class="nh">A note on the recipes</b>
+        <p>These recipes are for everyday cooking. They are not medical or dietary advice, and they don't replace advice from a doctor or dietitian.</p>
+        <p>If you have an allergy, an intolerance or a health condition, check every ingredient and the label on anything you buy. Recipes may contain nuts, gluten, dairy, eggs, fish and other common allergens. This is true even where an ingredient isn't obviously listed, so always check.</p>
+        <p>Cook meat, fish and eggs thoroughly, and follow the usual food safety advice. Cooking times, costs and hands-on times are a guide, because ovens and prices vary.</p>
+        <p>The authors and publisher can't accept responsibility for any reaction, illness or loss that results from following these recipes.</p>
+        <p>First edition, 2026.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Interior</div>
+    <h2 style="margin:6px 0 24px">Today's spread, 23 November</h2>
+    <p class="lede" style="margin:-10px 0 24px">A stand-in to show the cover and the interior sharing a typeface. The real recipe pages are the A5 pages made by <code>npm run pages</code> in the repo.</p>
+    <div class="spread">
+      <div class="pg L"><div class="in">
+        <div class="rh" style="width:100%"><span>Seasoned</span><span>November</span></div>
+        <div class="mo">November</div>
+        <div class="num">23</div>
+        <div class="dy">Day 327 of 365</div>
+        <div class="rl"></div>
+        <div class="ep">Eat what the ground gave this month, and little else.</div>
+        <div class="ss"><b>In season, northern Europe</b>Celeriac, kale, pears, leeks, hazelnuts, apples, cabbage</div>
+      </div></div>
+      <div class="pg R"><div class="in">
+        <div class="rh" style="width:100%"><span>Roots</span><span>327</span></div>
+        <div class="tt">Roast celeriac with brown butter and hazelnuts</div>
+        <div class="mt">Serves four · 50 minutes</div>
+        <ul>
+          <li>1 large celeriac <i></i><em>18 mi</em></li>
+          <li>60 g salted butter <i></i><em>31 mi</em></li>
+          <li>A handful of sage <i></i><em>0 mi</em></li>
+          <li>50 g hazelnuts <i></i><em>96 mi</em></li>
+          <li>1 tbsp cider vinegar <i></i><em>40 mi</em></li>
+        </ul>
+        <p>Scrub the celeriac and cut it into thick wedges. Roast at 200°C until the edges catch and a knife slides in, about forty minutes. Melt the butter until it smells of toast, drop in the sage and let it crisp. Spoon over the celeriac, scatter the chopped hazelnuts, and finish with the vinegar.</p>
+        <div class="ft"><span>Furthest ingredient: 96 miles</span><span>Illustrative distances</span></div>
+      </div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Specification</div>
+    <h2 style="margin:6px 0 24px">How it is made</h2>
+    <div class="spec">
+      <div><h3>Illustration</h3><p>A hand-drawn, engraved spiral in ink line, filled in the colours of the spice rack: cinnamon at the centre, then paprika, saffron and turmeric at the rim.</p></div>
+      <div><h3>Format</h3><p>A5 (148 × 210 mm) hardback, one recipe per page, laid out by the page builder in the repo. Printed on demand by Lulu. ISBN 978-1-291-41537-7.</p></div>
+      <div><h3>Typography</h3><p>Cormorant Garamond for titles and small capitals, EB Garamond for the text. Black on warm uncoated paper, one spot colour for numerals and labels.</p></div>
+      <div><h3>Binding</h3><p>Cloth over board, foil stamped spine and front, ribbon marker, headband, sewn signatures so it lies open on the counter.</p></div>
+      <div><h3>Structure</h3><p>Twelve months, each opening with a short note on what is in the ground. Recipes run January to December, with the receipt of miles under every one.</p></div>
+    </div>
+  </section>
+
+  <section class="pick">
+    <div class="eyebrow">Recommendation</div>
+    <h2 style="margin-top:6px">Go with B</h2>
+    <p>The ivory and oxblood cover is the most minimal of the three. It shares its palette with the interior, where oxblood is the single accent and the copyright page stays black. A is the fallback for a richer cloth edition, and C works well as the website header and social image.</p>
+  </section>
+</div>
+
+<script>
+(function(){
+  var NS='http://www.w3.org/2000/svg';
+  function el(n,a,p){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+  // laurel wreath
+  var w=document.getElementById('wreathA');
+  for(var s=0;s<2;s++){
+    for(var k=0;k<13;k++){
+      var a=8+k*11.5, th=(90-a)*Math.PI/180, r=70;
+      var x=100+r*Math.cos(th), y=100+r*Math.sin(th);
+      if(s){x=200-x}
+      var rot=(90-a); if(s)rot=-rot;
+      [[5,22],[-5,-22]].forEach(function(o){
+        var rr=r+o[0], xx=100+rr*Math.cos(th), yy=100+rr*Math.sin(th); if(s)xx=200-xx;
+        el('ellipse',{cx:xx,cy:yy,rx:3.1,ry:9,fill:'url(#gA)',transform:'rotate('+(rot+(s?-o[1]:o[1]))+' '+xx+' '+yy+')'},w);
+      });
+    }
+  }
+  // berry ties at the bottom
+  el('circle',{cx:100,cy:171,r:3,fill:'url(#gA)'},w);
+  // wheat sprig
+  ['wheat','wheat2'].forEach(function(id){
+  var h=document.getElementById(id);
+  el('line',{x1:20,y1:118,x2:20,y2:14,stroke:'#6e1f24','stroke-width':1.1},h);
+  for(var i=0;i<9;i++){
+    var y=100-i*9.5, sc=1-i*.045;
+    [-1,1].forEach(function(d){
+      el('ellipse',{cx:20+d*5.5*sc,cy:y-3,rx:2.3*sc,ry:6.6*sc,fill:'#6e1f24',transform:'rotate('+(d*32)+' '+(20+d*5.5*sc)+' '+(y-3)+')'},h);
+    });
+  }
+  el('ellipse',{cx:20,cy:8,rx:2.3,ry:6,fill:'#6e1f24'},h);
+  });
+  // almanac ring
+  var r=document.getElementById('ring');
+  var defs=el('defs',{},r), g=el('linearGradient',{id:'gC',x1:0,x2:1},defs);
+  el('stop',{offset:0,'stop-color':'#9c7a35'},g);el('stop',{offset:.4,'stop-color':'#ecd69a'},g);el('stop',{offset:1,'stop-color':'#b8924a'},g);
+  [96,66,64].forEach(function(rad,i){el('circle',{cx:100,cy:100,r:rad,fill:'none',stroke:'url(#gC)','stroke-width':i?0.5:0.9},r)});
+  for(var d=0;d<72;d++){
+    var an=d*5*Math.PI/180, big=d%6===0, r1=big?88:91;
+    el('line',{x1:100+r1*Math.cos(an),y1:100+r1*Math.sin(an),x2:100+96*Math.cos(an),y2:100+96*Math.sin(an),stroke:'url(#gC)','stroke-width':.5},r);
+  }
+  var M=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  M.forEach(function(m,i){
+    var ang=i*30;
+    var t=el('text',{x:100,y:100-76,'text-anchor':'middle','font-family':'Cormorant Garamond,serif','font-weight':600,'font-size':5.2,'letter-spacing':1.2,fill:'url(#gC)',transform:'rotate('+ang+' 100 100)'},r);
+    t.textContent=m.toUpperCase();
+  });
+  var c=el('text',{x:100,y:112,'text-anchor':'middle','font-family':'Cormorant Garamond,serif','font-weight':500,'font-size':34,fill:'url(#gC)'},r);c.textContent='365';
+  var u=el('text',{x:100,y:84,'text-anchor':'middle','font-family':'Cormorant Garamond,serif','font-style':'italic','font-size':9,fill:'url(#gC)'},r);u.textContent='one for each';
+  var v=el('text',{x:100,y:128,'text-anchor':'middle','font-family':'Cormorant Garamond,serif','font-style':'italic','font-size':9,fill:'url(#gC)'},r);v.textContent='day of the year';
+})();
+</script>
+<script>
+/* Hand-drawn engraved spiral in spice colours: filled bands, then wobbly ink ribs. */
+(function(){
+  var NS='http://www.w3.org/2000/svg';
+  function el(n,a,p){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+  function rng(s){return function(){s|=0;s=s+0x6D2B79F5|0;var t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+  var STOPS=[[0,[125,63,37]],[.3,[183,58,34]],[.62,[224,123,40]],[1,[230,176,46]]]; // cinnamon, paprika, saffron, turmeric
+  function col(t,lift){
+    t=Math.max(0,Math.min(1,t));var i=1;while(i<STOPS.length-1&&STOPS[i][0]<t)i++;
+    var a=STOPS[i-1],b=STOPS[i],u=(t-a[0])/(b[0]-a[0]),c=[0,1,2].map(function(k){var v=a[1][k]+(b[1][k]-a[1][k])*u;return Math.round(v+(255-v)*lift)});
+    return 'rgb('+c.join(',')+')';
+  }
+  var INK='#2b1d19';
+  function shell(id,seed){
+    var svg=document.getElementById(id);if(!svg)return;
+    svg.innerHTML='';svg.setAttribute('viewBox','0 0 200 200');
+    var R=rng(seed),a=9.5,b=.12,T=6*Math.PI,rot=-1.1,TP=2*Math.PI;
+    function P(th,r){var an=th+rot;return[100+r*Math.cos(an),100+r*Math.sin(an)]}
+    function Ro(th){return a*Math.exp(b*th)*(1+.014*Math.sin(th*26))}
+    function f(p){return p[0].toFixed(2)+' '+p[1].toFixed(2)}
+    function jit(p,m){return[p[0]+(R()-.5)*m,p[1]+(R()-.5)*m]}
+    var ribs=[],d=.12;
+    for(var th=.6;th<=T;th+=d){
+      var out=P(th,Ro(th)),inn=P(th-.55,Ro(th-.55-TP));
+      var mid=P(th-.2,(Ro(th)+Ro(th-.55-TP))/2*1.02);
+      ribs.push({th:th,out:out,inn:inn,mid:mid});
+    }
+    for(var k=0;k<ribs.length-1;k++){
+      var r0=ribs[k],r1=ribs[k+1];
+      el('path',{d:'M'+f(r0.inn)+' L'+f(r0.out)+' L'+f(r1.out)+' L'+f(r1.inn)+' Z',fill:col(r0.th/T*.55+.45*(.5+.5*Math.sin(r0.th*1.0)),k%2?.14:0),stroke:col(r0.th/T*.55+.45*(.5+.5*Math.sin(r0.th*1.0)),k%2?.14:0),'stroke-width':.3},svg);
+    }
+    ribs.forEach(function(r,k){
+      var i=jit(r.inn,.7),o=jit(r.out,.5),m=jit(r.mid,1.2);
+      el('path',{d:'M'+f(i)+' Q'+f(m)+' '+f(o),fill:'none',stroke:INK,'stroke-width':(.32+R()*.3).toFixed(2),'stroke-linecap':'round','stroke-dasharray':(5+R()*9).toFixed(1)+' '+(.5+R()*1.6).toFixed(1),opacity:.92},svg);
+      if(k%2===0){
+        var s1=[(r.inn[0]*.45+r.out[0]*.55),(r.inn[1]*.45+r.out[1]*.55)],s2=jit([r.out[0]+(r.mid[0]-r.out[0])*.12,r.out[1]+(r.mid[1]-r.out[1])*.12],.5);
+        el('path',{d:'M'+f(jit(s1,1))+' L'+f(s2),fill:'none',stroke:INK,'stroke-width':.28,'stroke-linecap':'round','stroke-dasharray':(3+R()*5).toFixed(1)+' '+(.6+R()*1.2).toFixed(1),opacity:.8},svg);
+      }
+    });
+    var edge='',st=-3*Math.PI;
+    for(var t=st;t<=T;t+=.045){var p=jit(P(t,Ro(t)),.35);edge+=(edge?' L':'M')+f(p)}
+    el('path',{d:edge,fill:'none',stroke:INK,'stroke-width':.9,'stroke-linejoin':'round','stroke-linecap':'round'},svg);
+    var curl='';
+    for(var u=-3.6*Math.PI;u<=-3*Math.PI+.2;u+=.05){var q=P(u,a*Math.exp(b*u));curl+=(curl?' L':'M')+f(q)}
+    el('path',{d:curl,fill:'none',stroke:INK,'stroke-width':.7,'stroke-linecap':'round'},svg);
+  }
+  shell('wheat',7);shell('wheat2',11);
+})();
+</script>
+</body>
+</html>
