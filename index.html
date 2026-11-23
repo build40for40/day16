@@ -3,23 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>The Honest Basket</title>
+<title>Seasoned</title>
 <meta name="description" content="One recipe a day, in season where you live, free. Come back tomorrow for the next one, or buy the book for all 365.">
-<meta property="og:title" content="The Honest Basket">
+<meta property="og:title" content="Seasoned">
 <meta property="og:description" content="One recipe a day, in season where you live, free. Or buy the book for all 365.">
 <meta property="og:type" content="website">
 <script>
 /* Set the skin before first paint: ?skin=riso, then the last choice, then the default. */
-(function(){var s='designer',ok=['designer','riso','garden','calm','cool'];
+(function(){var s='seasoned',ok=['seasoned','designer','riso','garden','calm','cool'];
 try{var q=new URLSearchParams(location.search).get('skin');var l=localStorage.getItem('hb-skin');s=ok.indexOf(q)>-1?q:ok.indexOf(l)>-1?l:s}catch(e){}
 document.documentElement.setAttribute('data-skin',s)})();
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=Archivo:wght@500;900&family=Fraunces:opsz,wght@9..144,800&family=Hanken+Grotesk:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,600&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&family=Inter+Tight:wght@400;500;800&family=Archivo:wght@500;900&family=Fraunces:opsz,wght@9..144,800&family=Hanken+Grotesk:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,600&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=DM+Mono:wght@400;500&display=swap">
 <style>
 /* One page, five skins. Base tokens are the Designer skin; each other skin overrides tokens and adds a little CSS under html[data-skin]. Tile colours are set from JS so text contrast is always picked per tile. */
 :root{--bg:#fff;--ink:#0b0b0b;--bd:var(--ink);--body:'Inter Tight',system-ui,sans-serif;--disp:'Inter Tight',system-ui,sans-serif;--dw:800;--dls:-.045em;--vtt:none;--ktt:uppercase;--bw:2px;--gap:0px;--rad:0px;--mono:'DM Mono',ui-monospace,monospace;--buyb:#e30613;--buyf:#fff;color-scheme:light}
+:root[data-skin="seasoned"]{--bg:#FBF7EF;--ink:#1E2A22;--bd:#E4DACA;--body:'Figtree',system-ui,sans-serif;--disp:'Figtree',system-ui,sans-serif;--dw:300;--dls:-.025em;--ktt:none;--bw:0px;--gap:clamp(8px,2vw,14px);--rad:12px}
 :root[data-skin="riso"]{--bg:#f3f0e6;--ink:#1c1b3a;--body:'Archivo',system-ui,sans-serif;--disp:'Archivo',system-ui,sans-serif;--dw:900;--dls:-.04em;--bw:0px;--gap:clamp(8px,2vw,14px)}
 :root[data-skin="garden"]{--bg:#f1f5ec;--ink:#14240f;--body:'Hanken Grotesk',system-ui,sans-serif;--disp:'Fraunces',Georgia,serif;--dw:800;--dls:-.03em}
 :root[data-skin="calm"]{--bg:#f6f2ec;--ink:#2d322e;--bd:#d9d3c8;--body:'DM Sans',system-ui,sans-serif;--disp:'DM Sans',system-ui,sans-serif;--dw:400;--dls:-.035em;--ktt:none;--bw:0px;--gap:clamp(8px,2vw,14px);--rad:clamp(14px,3.4vw,26px)}
@@ -76,6 +77,16 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 .fine{font:400 .72rem var(--mono);margin:0;padding-block:18px 28px;opacity:.7}
 @media(max-width:760px){.cols{grid-template-columns:1fr}}
 @media(max-width:520px){.g .s,.sk b{display:none}}
+/* Seasoned: the brand skin. Paper and oat tones do most of the work, Cavolo nero carries the text and the one dark band, and the current season's pair is the only colour. */
+[data-skin="seasoned"] .mark{font-weight:600;text-transform:lowercase;letter-spacing:-.035em}
+[data-skin="seasoned"] .k{font-weight:600;letter-spacing:.02em}
+[data-skin="seasoned"] .lede,[data-skin="seasoned"] .dek{color:#4B5A4E}
+[data-skin="seasoned"] .cols,[data-skin="seasoned"] .tot{border-top:1px solid #E4DACA}
+[data-skin="seasoned"] .steps li::before{color:#8C968C}
+[data-skin="seasoned"] .g a{transition:transform .2s}
+[data-skin="seasoned"] .g a:hover{filter:none;transform:translateY(-3px)}
+[data-skin="seasoned"] .buy a{border-radius:999px;font-weight:600}
+@media(prefers-reduced-motion:reduce){[data-skin="seasoned"] .g a{transition:none}}
 /* Riso */
 [data-skin="riso"] .mark{color:#ff4d8d}
 [data-skin="riso"] .dn{color:#2b4acb}
@@ -102,7 +113,7 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 </head>
 <body>
 <div class="wrap">
-<header class="hd"><span class="mark">The Honest Basket</span>
+<header class="hd"><span class="mark">Seasoned</span>
 <div class="tools"><span class="dn" id="dn"></span>
 <div class="sk" role="group" aria-label="Choose a skin"><b id="skn"></b><span id="sks" style="display:flex;gap:8px"></span></div></div></header>
 <main>
@@ -131,7 +142,7 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 </main>
 </div>
 <div class="buy" id="buy"><div class="wrap"><p>Want every day? Get all 365.<small>Free today. Tomorrow's unlocks at midnight. The book has the lot.</small></p><a href="#">Buy the book, £12</a></div></div>
-<div class="wrap"><p class="fine">Working title. Sample recipes with illustrative distances.</p></div>
+<div class="wrap"><p class="fine">Sample recipes with illustrative distances.</p></div>
 <script>
 var R=[
 {n:"Northern Europe",sh:"N. Europe",short:"Soup",season:"Late autumn",title:"Celeriac and apple soup with rye crumbs",dek:"A pale, silky soup that tastes of the cellar. Celeriac does the job cream usually does.",time:"Serves 4 · 40 minutes",
@@ -145,7 +156,10 @@ ing:[["Broad beans, 500 g in pods",42],["Peas, 250 g in pods",42],["Fresh ricott
 steps:["Pod the broad beans and peas. Blanch the beans for 2 minutes, add the peas for the last 30 seconds, then cool in cold water.","Slip the broad beans out of their grey skins.","Crush beans and peas roughly with oil, lemon zest and juice, torn mint and salt.","Toast the sourdough. Spread with ricotta, pile on the smash and finish with oil."]}
 ];
 /* tile fill per skin: 0 = page colour, 'i' = ink, else a colour. Order: Today, Season, Furthest, Ingredients, Tomorrow, Daily, Where, Book, Buy */
+/* The brand skin shows one season at a time, as a single tile in its main colour: spring from March, summer from June, autumn from September, winter from December. */
+var PAIR=[["#7A1F3D","#3E5A3A"],["#E8708A","#A9C46C"],["#E0482F","#F6E59A"],["#D9822B","#8A7560"]][[0,0,1,1,1,2,2,2,3,3,3,0][new Date().getMonth()]];
 var SK={
+seasoned:{n:"Seasoned",tight:false,brand:true,sw:["#FBF7EF",PAIR[0],"#1E2A22"],t:[PAIR[0],"#F3ECDF","#E4DACA","#E4DACA","#F3ECDF","#F3ECDF","#F3ECDF","#E4DACA","i"]},
 designer:{n:"Designer",tight:true,sw:["#e30613","#1f3fd1","#ffd400"],t:[0,0,"i","#ffd400","#1f3fd1",0,0,0,"#e30613"]},
 riso:{n:"Riso",tight:false,sw:["#ff4d8d","#2b4acb","#f3f0e6"],t:["#ff4d8d","#2b4acb","#ff4d8d","#2b4acb","#ffffff","#2b4acb","#ff4d8d","#2b4acb","i"]},
 garden:{n:"Garden",tight:true,sw:["#1f7a3d","#e8432b","#ffd25a"],t:[0,"#ffd25a","#1f7a3d",0,"#e8432b",0,"#cfe6b8",0,"i"]},
@@ -157,7 +171,7 @@ function rl(h){var n=parseInt(h.slice(1),16),c=[n>>16&255,n>>8&255,n&255].map(fu
 function pick(h){var l=rl(h);return (l+.05)/.05>1.05/(l+.05)?'#0b0b0b':'#ffffff'}
 function skin(k,save){var s=SK[k];root.setAttribute('data-skin',k);grid.classList.toggle('tight',s.tight);
 var cs=getComputedStyle(root),bg=cs.getPropertyValue('--bg').trim(),ink=cs.getPropertyValue('--ink').trim();
-tiles.forEach(function(a,i){var f=s.t[i],c=f===0?bg:f==='i'?ink:f,fg=f===0?ink:f==='i'?bg:pick(c);a.style.setProperty('--tb',c);a.style.setProperty('--tf',fg)});
+tiles.forEach(function(a,i){var f=s.t[i],c=f===0?bg:f==='i'?ink:f,fg=f===0?ink:f==='i'?bg:pick(c);if(s.brand&&f!==0&&f!=='i')fg=fg==='#ffffff'?bg:ink;a.style.setProperty('--tb',c);a.style.setProperty('--tf',fg)});
 var b=s.t[8],bb=b===0?bg:b==='i'?ink:b,bf=b==='i'?bg:pick(bb);root.style.setProperty('--buyb',bb);root.style.setProperty('--buyf',bf);
 $('skn').textContent=s.n;document.querySelectorAll('#sks button').forEach(function(x){x.setAttribute('aria-pressed',x.dataset.k===k)});
 if(save){try{localStorage.setItem('hb-skin',k)}catch(e){}}}
@@ -176,7 +190,7 @@ $('s5').textContent='Day '+(doy+1)+' unlocks at midnight';
 function tick(){var n=new Date(),m=new Date(n);m.setHours(24,0,0,0);var s=Math.floor((m-n)/1000),p=function(x){return String(x).padStart(2,'0')};$('cd').textContent=p(Math.floor(s/3600))+':'+p(Math.floor(s%3600/60))+':'+p(s%60)}
 tick();setInterval(tick,1000);
 $('reg').addEventListener('click',function(e){e.preventDefault();show((ri+1)%R.length)});
-skin(root.getAttribute('data-skin')||'designer',false);show(0);
+skin(root.getAttribute('data-skin')||'seasoned',false);show(0);
 </script>
 </body>
 </html>

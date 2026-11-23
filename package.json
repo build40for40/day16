@@ -9,7 +9,8 @@
     "judge": "node --env-file-if-exists=.env recipes/judge.js",
     "planted": "node --env-file-if-exists=.env recipes/planted.js",
     "pages": "node pages/build.ts",
-    "pages:book": "node pages/build.ts --in recipes/out/book/recipes --out pages/out/book --pictures pictures/seasoned"
+    "pages:book": "node pages/build.ts --in recipes/out/book/recipes --out pages/out/book --pictures pictures/seasoned",
+    "book": "node book/build.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",
