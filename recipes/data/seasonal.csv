@@ -85,6 +85,7 @@ bay,Bay leaves,herb,all,,y,uk
 chicken-thighs,Chicken thighs,meat,all,,n,uk
 chicken-breast,Chicken breast,meat,all,,n,uk
 whole-chicken,Whole chicken,meat,all,,n,uk
+chicken-drumsticks,Chicken drumsticks or legs,meat,all,,n,uk
 turkey-mince,Turkey mince,meat,all,,n,uk
 pork-shoulder,Pork shoulder,meat,all,,n,uk
 pork-chops,Pork chops,meat,all,,n,uk
@@ -92,13 +93,17 @@ pork-mince,Pork mince,meat,all,,n,uk
 sausages,Butcher's style pork sausages,meat,all,,n,uk
 bacon,Bacon,meat,all,,n,uk
 ham,Cooked ham,meat,all,,n,uk
+gammon,Gammon,meat,all,,n,uk
 beef-mince,Beef mince,meat,all,,n,uk
 stewing-beef,Stewing beef,meat,all,,n,uk
 lamb-mince,Lamb mince,meat,all,,n,uk
 lamb-neck,Lamb neck or shoulder,meat,all,,n,uk
+lamb-chops,Lamb chops,meat,all,,n,uk
 cod,Cod,fish,all,,n,uk
 haddock,Haddock,fish,all,,n,uk
 pollock,Pollock or coley,fish,all,,n,uk
+plaice,Plaice,fish,5-12,,n,uk
+whiting,Whiting,fish,6-2,,n,uk
 hake,Hake,fish,all,,n,uk
 trout,Trout,fish,all,,n,uk
 mackerel,Fresh mackerel,fish,5-10,,n,uk

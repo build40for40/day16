@@ -55,7 +55,7 @@ Natural yoghurt 9, Garlic 9, Oranges 8, Lemons 7, Honey 6, Cinnamon 6, Onions 6,
 
 ### Fresh ingredients never used
 
-Asparagus, Aubergine, Beetroot, Broad beans, Savoy cabbage, Pointed cabbage, Spring greens, Cauliflower, Celeriac, Celery, Fresh chillies, Courgettes, Green beans, Runner beans, Jerusalem artichokes, Lettuce, Rocket, Mushrooms, Shallots, Fresh peas, Butternut or other squash, Pumpkin, Spinach, Swede, Sweetcorn, Pears, Cherries, Blackberries, Blueberries, Gooseberries, Blackcurrants, Redcurrants, Clementines, Apricots, Figs, Tarragon, Sage, Bay leaves, Chicken thighs, Chicken breast, Pork shoulder, Pork chops, Pork mince, Butcher's style pork sausages, Bacon, Cooked ham, Stewing beef, Lamb mince, Lamb neck or shoulder, Cod, Haddock, Pollock or coley, Hake, Trout, Fresh mackerel, Mussels
+Asparagus, Aubergine, Beetroot, Broad beans, Savoy cabbage, Pointed cabbage, Spring greens, Cauliflower, Celeriac, Celery, Fresh chillies, Courgettes, Green beans, Runner beans, Jerusalem artichokes, Lettuce, Rocket, Mushrooms, Shallots, Fresh peas, Butternut or other squash, Pumpkin, Spinach, Swede, Sweetcorn, Pears, Cherries, Blackberries, Blueberries, Gooseberries, Blackcurrants, Redcurrants, Clementines, Apricots, Figs, Tarragon, Sage, Bay leaves, Chicken thighs, Chicken breast, Chicken drumsticks or legs, Pork shoulder, Pork chops, Pork mince, Butcher's style pork sausages, Bacon, Cooked ham, Gammon, Stewing beef, Lamb mince, Lamb neck or shoulder, Lamb chops, Cod, Haddock, Pollock or coley, Plaice, Whiting, Hake, Trout, Fresh mackerel, Mussels
 
 ### Same hero within a week
 
