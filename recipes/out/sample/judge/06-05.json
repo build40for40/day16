@@ -1,0 +1,43 @@
+{
+ "day": 156,
+ "title": "Chard, smoked haddock and new potato frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food a grandparent would keep: potatoes, smoked haddock, milk, eggs, chard, spring onions, chives, Cheddar and salad leaves."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Smoked haddock, chard, new potatoes and the rest are everyday items at a mainstream UK supermarket at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only saucepans, an ovenproof frying pan, a bowl, a whisk and the grill, and the technique suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs with 400g potatoes, 300g haddock and 250g chard in a 26cm pan gives a well-filled frittata for four, and setting it on the hob then finishing under the grill is sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Poaching the haddock and preparing the chard overlap with the potato boil, so 25 minutes hands-on and about 40 minutes in total is believable."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used in the steps, the names match their ids, and the cod in the tip is on the June list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early June chard and new potatoes make up the body of the dish, and a warm frittata with salad suits a June lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, practical British English, including a useful note on going easy with the salt because the haddock is already salty."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling, balanced lunch of eggs, fish, greens and potatoes with salad on the side."
+  }
+ }
+}

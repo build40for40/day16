@@ -1,0 +1,124 @@
+{
+ "slot": {
+  "day": 18,
+  "date": "2027-01-18",
+  "label": "18 January",
+  "month": 1,
+  "meal": "dinner",
+  "form": "stew or casserole",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "purple-sprouting-broccoli",
+   "parsnips"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Split pea and parsnip stew with purple sprouting broccoli",
+  "intro": "Purple sprouting broccoli starts to appear in January, just when sweet, frost-kissed parsnips are at their best. Together they make a warming, golden pot for a cold night.",
+  "meal": "dinner",
+  "dish_form": "stew",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "large lidded pan or casserole",
+   "sieve",
+   "grater"
+  ],
+  "hands_on_minutes": 25,
+  "total_minutes": 75,
+  "serves": 4,
+  "best_time": "evening",
+  "freezes": false,
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "name": "Rapeseed oil",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "onions",
+    "name": "Onion",
+    "quantity": "1 large",
+    "prep": "chopped"
+   },
+   {
+    "id": "garlic",
+    "name": "Garlic",
+    "quantity": "3 cloves",
+    "prep": "crushed"
+   },
+   {
+    "id": "cumin",
+    "name": "Ground cumin",
+    "quantity": "2 tsp",
+    "prep": ""
+   },
+   {
+    "id": "turmeric",
+    "name": "Turmeric",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "split-peas",
+    "name": "Yellow split peas",
+    "quantity": "250g",
+    "prep": "rinsed"
+   },
+   {
+    "id": "vegetable-stock",
+    "name": "Vegetable stock",
+    "quantity": "1.2 litres",
+    "prep": ""
+   },
+   {
+    "id": "parsnips",
+    "name": "Parsnips",
+    "quantity": "500g",
+    "prep": "peeled and cut into chunks"
+   },
+   {
+    "id": "purple-sprouting-broccoli",
+    "name": "Purple sprouting broccoli",
+    "quantity": "300g",
+    "prep": "trimmed"
+   },
+   {
+    "id": "lemons",
+    "name": "Lemon",
+    "quantity": "1",
+    "prep": "zested and juiced"
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "quantity": "to taste",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Heat the oil in a large lidded pan or casserole over a medium heat. Cook the onion for 8 to 10 minutes until soft and golden. Stir in the garlic, cumin and turmeric and cook for 1 minute more.",
+   "Add the rinsed split peas and the stock. Bring to the boil, skim off any foam, then put the lid on slightly ajar and simmer for 25 minutes, stirring now and then.",
+   "Stir in the parsnips and simmer for another 20 to 25 minutes, until the split peas are starting to collapse and the parsnips are tender. Add a splash of water if it gets too thick.",
+   "Cut any thick broccoli stalks in half lengthways. Lay the broccoli on top of the stew, cover with the lid and cook for 5 to 6 minutes, until the stalks are just tender and still bright.",
+   "Stir in the lemon zest and juice, season with the salt and plenty of pepper, and serve in warm bowls."
+  ],
+  "tip": "Leftovers keep for 3 days in the fridge and thicken as they sit, so loosen with a little water when you reheat."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

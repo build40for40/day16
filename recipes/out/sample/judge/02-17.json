@@ -1,0 +1,43 @@
+{
+ "day": 48,
+ "title": "Kipper pâté with orange on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Kippers, crème fraîche, horseradish sauce, oranges and bread are all things a grandparent would have kept in the cupboard or fridge."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Kipper fillets, crème fraîche, horseradish, oranges and wholemeal bread are all everyday-priced Tesco staples."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a kettle, bowls, a fork, a grater, a knife and a toaster, and the technique is easy."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Jugging 300g kippers and mashing them with 100g crème fraîche gives plenty of well-seasoned pâté for eight slices, which suits four as a hearty snack."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "A 5-minute soak, then skinning, boning, zesting, mashing and toasting fits comfortably in 15 minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used and matches its id, and the steps use nothing that isn't listed."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Smoky kippers with February citrus on hot toast suit a cold afternoon, and the kipper is clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "It reads as clear, friendly British English with practical tips such as feeling for bones and leaving out the salt."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oily fish on wholemeal toast with fresh orange makes a filling snack of real food."
+  }
+ }
+}

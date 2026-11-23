@@ -1,0 +1,122 @@
+{
+ "slot": {
+  "day": 280,
+  "date": "2027-10-07",
+  "label": "7 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "parsnips"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Parsnip and red lentil dal with spinach",
+  "intro": "Parsnips sweeten as the nights turn cold, and their gentle sweetness is just right against warm curry spice and soft, comforting lentils on an October lunchtime.",
+  "meal": "lunch",
+  "dish_form": "dal",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "Large saucepan with a lid",
+   "Ladle"
+  ],
+  "hands_on_minutes": 15,
+  "total_minutes": 40,
+  "serves": 4,
+  "best_time": "midday",
+  "freezes": true,
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "name": "Rapeseed oil",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "onions",
+    "name": "Onion",
+    "quantity": "1 large",
+    "prep": "chopped"
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "parsnips",
+    "name": "Parsnips",
+    "quantity": "500g",
+    "prep": "scrubbed, trimmed and cut into 2cm chunks"
+   },
+   {
+    "id": "garlic",
+    "name": "Garlic",
+    "quantity": "3 cloves",
+    "prep": "crushed"
+   },
+   {
+    "id": "curry-powder",
+    "name": "Mild curry powder",
+    "quantity": "1 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "red-lentils",
+    "name": "Red lentils",
+    "quantity": "250g",
+    "prep": "rinsed"
+   },
+   {
+    "id": "vegetable-stock",
+    "name": "Vegetable stock",
+    "quantity": "1.2 litres",
+    "prep": ""
+   },
+   {
+    "id": "spinach",
+    "name": "Spinach",
+    "quantity": "150g",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "name": "Lemon",
+    "quantity": "1",
+    "prep": "juiced"
+   },
+   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "quantity": "to taste",
+    "prep": ""
+   },
+   {
+    "id": "natural-yoghurt",
+    "name": "Natural yoghurt",
+    "quantity": "4 tbsp",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Heat the oil in a large saucepan over a medium heat. Add the onion with a pinch of the salt and cook for 8 minutes, stirring now and then, until soft and turning golden. Chop the parsnips while it cooks.",
+   "Stir in the garlic and curry powder and cook for 1 minute, until it smells fragrant.",
+   "Add the parsnips, lentils and stock and bring to the boil. Cover and simmer for 20 to 25 minutes, stirring now and then so nothing sticks, until the lentils have collapsed and the parsnips are tender.",
+   "Stir in the spinach a handful at a time until it wilts, 1 to 2 minutes. Add a splash of water if the dal is thicker than you like.",
+   "Squeeze in the lemon juice, then season with the rest of the salt and plenty of black pepper. Ladle into bowls and top each with a spoonful of yoghurt."
+  ],
+  "tip": "Keeps for 3 days in the fridge and freezes well without the yoghurt. Loosen with a little water when you reheat it."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

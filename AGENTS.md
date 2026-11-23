@@ -74,3 +74,19 @@ Each has a card on the `day16` board.
 - Stock photo gen.
 - Page format and book structure.
 - Intro and glossary: the rationale.
+
+## Recipe generation
+
+`recipes/` writes and checks the 365 pages. It needs `ANTHROPIC_API_KEY` in a `.env` file at the repo root (see `.env.example`).
+
+| Command | What it does |
+| --- | --- |
+| `npm run plan` | Lays out 365 dated slots in `recipes/out/plan.json`: meal, diet, hero ingredient, suggested dish. No API calls |
+| `npm run generate` | Writes the 24-page sample (two per month). Add `-- --all` for the whole book, `-- --days 14,200` for single days, `-- --force` to rewrite, `-- --fix` to rewrite pages the judge failed |
+| `npm run judge` | Scores pages against the rubric in `recipes/prompts/judge.md`. Takes the same flags |
+| `npm run check` | Re-runs the hard checks and writes `recipes/out/<set>/report.md` with the spread across the book. Add `-- --all` for the book |
+| `npm run planted` | Runs deliberately bad pages through the checks and the judge, to prove they catch them |
+
+- **Seasons:** `recipes/data/seasonal.csv` is the source of truth for what is fresh in each month, and `recipes/data/pantry.csv` for year-round staples. A recipe can only use ids from those two files.
+- **Rules and limits:** `recipes/config.json` holds the meal split, targets, page limits and banned words.
+- **Prompts:** `recipes/prompts/recipe.md` and `recipes/prompts/judge.md`.

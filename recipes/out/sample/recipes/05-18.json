@@ -1,0 +1,127 @@
+{
+ "slot": {
+  "day": 138,
+  "date": "2027-05-18",
+  "label": "18 May",
+  "month": 5,
+  "meal": "dinner",
+  "form": "big salad",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "cucumber"
+  ],
+  "protein": "whole-chicken",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Roast chicken salad with cucumber, radishes and dill",
+  "intro": "Cucumbers are crisp and plentiful by mid May. Paired with warm roast chicken and new potatoes, they make a big salad that still feels like a proper Sunday dinner.",
+  "meal": "dinner",
+  "dish_form": "big salad",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "oven",
+  "utensils": [
+   "roasting tray",
+   "grater",
+   "sieve",
+   "small bowl",
+   "large serving platter"
+  ],
+  "hands_on_minutes": 30,
+  "total_minutes": 110,
+  "serves": 4,
+  "best_time": "evening",
+  "freezes": false,
+  "ingredients": [
+   {
+    "id": "whole-chicken",
+    "name": "Whole chicken",
+    "quantity": "1.5kg",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "name": "Lemon",
+    "quantity": "1",
+    "prep": "zested and juiced, halves kept"
+   },
+   {
+    "id": "olive-oil",
+    "name": "Olive oil",
+    "quantity": "3 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "quantity": "1/2 tsp",
+    "prep": ""
+   },
+   {
+    "id": "new-potatoes",
+    "name": "New potatoes",
+    "quantity": "750g",
+    "prep": "halved"
+   },
+   {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "quantity": "1",
+    "prep": "halved, seeded and sliced"
+   },
+   {
+    "id": "radishes",
+    "name": "Radishes",
+    "quantity": "200g",
+    "prep": "thinly sliced"
+   },
+   {
+    "id": "spring-onions",
+    "name": "Spring onions",
+    "quantity": "4",
+    "prep": "finely sliced"
+   },
+   {
+    "id": "lettuce",
+    "name": "Little Gem lettuce",
+    "quantity": "2",
+    "prep": "leaves separated"
+   },
+   {
+    "id": "natural-yoghurt",
+    "name": "Natural yoghurt",
+    "quantity": "150g",
+    "prep": ""
+   },
+   {
+    "id": "dill",
+    "name": "Dill",
+    "quantity": "small bunch",
+    "prep": "chopped"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C fan, 210°C conventional. Zest and juice the lemon and set aside. Rub the chicken with 1 tbsp oil, salt and pepper, push the squeezed lemon halves inside and roast in a tray for 30 minutes.",
+   "Toss the potatoes with 1 tbsp oil and a pinch of salt. Tip them around the chicken, turning them in the juices, and roast for 50 minutes more, until the potatoes are golden and the chicken juices run clear.",
+   "Meanwhile, put the cucumber in a sieve with a pinch of salt and leave over the sink for 20 minutes. This draws out water so the salad stays crisp.",
+   "Stir the yoghurt, lemon zest and juice, most of the dill, the last 1 tbsp oil and some pepper together in a small bowl. Add a splash of water if it is too thick to drizzle.",
+   "Lift the chicken out and rest it for 15 minutes. Then pull the meat into chunky pieces, discarding the skin if you like, and spoon over a little of the tray juices.",
+   "Spread the lettuce over a large platter. Scatter over the cucumber, radishes, spring onions and warm potatoes, then pile on the chicken.",
+   "Drizzle with the dressing, finish with the rest of the dill and bring to the table for everyone to help themselves."
+  ],
+  "tip": "Simmer the chicken carcass with an onion, a bay leaf and water for an hour or two to make stock for a soup later in the week."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

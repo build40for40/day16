@@ -1,0 +1,43 @@
+{
+ "day": 78,
+ "title": "Porridge with apple and rhubarb compote",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, fresh fruit, seeds, cinnamon and a spoonful of brown sugar are all plain cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including March rhubarb and pumpkin seeds, is on the shelf at Tesco at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, two saucepans and a grater, and the techniques are simple simmering and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to 1.2 litres water gives four proper bowls, and four apples with 200g rhubarb, orange juice and a little sugar makes a well-balanced compote in the stated time."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Coring four apples, cutting rhubarb, zesting an orange and toasting seeds fits in about 15 minutes, with the porridge cooking alongside the compote for a 20-minute total."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early forced rhubarb and stored apples are right for mid-March, and the warm compote is the point of the bowl."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, in British English and easy for a beginner to follow, with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, plenty of fruit and toasted seeds make a filling, real-food breakfast with little added sugar."
+  }
+ }
+}

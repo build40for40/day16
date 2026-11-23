@@ -1,0 +1,108 @@
+id,name,kind,season,store,garden,origin
+asparagus,Asparagus,veg,5-6,,y,uk
+aubergine,Aubergine,veg,7-10,,y,uk
+beetroot,Beetroot,veg,6-10,11-2,y,uk
+broad-beans,Broad beans,veg,5-8,,y,uk
+broccoli,Broccoli,veg,6-10,,y,uk
+purple-sprouting-broccoli,Purple sprouting broccoli,veg,1-4,,y,uk
+brussels-sprouts,Brussels sprouts,veg,10-2,,y,uk
+savoy-cabbage,Savoy cabbage,veg,10-3,,y,uk
+red-cabbage,Red cabbage,veg,9-1,,y,uk
+white-cabbage,White cabbage,veg,9-11,12-3,y,uk
+pointed-cabbage,Pointed cabbage,veg,5-9,,y,uk
+spring-greens,Spring greens,veg,3-6,,y,uk
+carrots,Carrots,veg,6-11,12-5,y,uk
+cauliflower,Cauliflower,veg,all,,y,uk
+celeriac,Celeriac,veg,9-12,1-3,y,uk
+celery,Celery,veg,7-11,,y,uk
+chard,Chard,veg,6-11,,y,uk
+chillies,Fresh chillies,veg,7-10,,y,uk
+courgettes,Courgettes,veg,6-9,,y,uk
+cucumber,Cucumber,veg,5-9,,y,uk
+fennel,Fennel,veg,6-10,,y,uk
+green-beans,Green beans,veg,7-9,,y,uk
+runner-beans,Runner beans,veg,7-10,,y,uk
+garlic,Garlic,veg,6-8,9-5,y,uk
+jerusalem-artichokes,Jerusalem artichokes,veg,11-3,,y,uk
+kale,Kale,veg,9-3,,y,uk
+cavolo-nero,Cavolo nero,veg,7-3,,y,uk
+leeks,Leeks,veg,9-4,,y,uk
+lettuce,Lettuce,veg,5-10,,y,uk
+salad-leaves,Salad leaves,veg,4-10,,y,uk
+rocket,Rocket,veg,4-10,,y,uk
+watercress,Watercress,veg,3-11,,n,uk
+marrow,Marrow,veg,8-10,,y,uk
+mushrooms,Mushrooms,veg,all,,n,uk
+new-potatoes,New potatoes,veg,4-7,,y,uk
+potatoes,Potatoes,veg,8-10,11-7,y,uk
+onions,Onions,veg,7-10,11-6,y,uk
+red-onions,Red onions,veg,7-10,11-6,y,uk
+shallots,Shallots,veg,7-9,10-4,y,uk
+spring-onions,Spring onions,veg,3-10,,y,uk
+parsnips,Parsnips,veg,10-3,,y,uk
+peas,Fresh peas,veg,6-8,,y,uk
+peppers,Peppers,veg,7-10,,y,uk
+squash,Butternut or other squash,veg,9-11,12-2,y,uk
+pumpkin,Pumpkin,veg,10-11,,y,uk
+radishes,Radishes,veg,4-10,,y,uk
+spinach,Spinach,veg,4-10,,y,uk
+swede,Swede,veg,10-2,3-3,y,uk
+sweetcorn,Sweetcorn,veg,8-10,,y,uk
+tomatoes,Tomatoes,veg,6-10,,y,uk
+cherry-tomatoes,Cherry tomatoes,veg,6-10,,y,uk
+turnips,Turnips,veg,10-2,,y,uk
+apples,Apples,fruit,8-11,12-4,y,uk
+bramley-apples,Bramley cooking apples,fruit,9-11,12-4,y,uk
+pears,Pears,fruit,9-11,12-1,y,uk
+plums,Plums,fruit,8-9,,y,uk
+cherries,Cherries,fruit,6-7,,y,uk
+strawberries,Strawberries,fruit,5-9,,y,uk
+raspberries,Raspberries,fruit,6-9,,y,uk
+blackberries,Blackberries,fruit,8-9,,y,uk
+blueberries,Blueberries,fruit,7-9,,y,uk
+gooseberries,Gooseberries,fruit,6-7,,y,uk
+blackcurrants,Blackcurrants,fruit,6-8,,y,uk
+redcurrants,Redcurrants,fruit,7-8,,y,uk
+rhubarb,Rhubarb,fruit,1-7,,y,uk
+lemons,Lemons,fruit,all,,n,europe
+oranges,Oranges,fruit,11-5,,n,europe
+clementines,Clementines,fruit,11-2,,n,europe
+peaches,Peaches or nectarines,fruit,6-9,,n,europe
+apricots,Apricots,fruit,6-8,,n,europe
+figs,Figs,fruit,8-10,,n,europe
+grapes,Grapes,fruit,8-11,,n,europe
+parsley,Parsley,herb,3-11,,y,uk
+chives,Chives,herb,4-10,,y,uk
+mint,Mint,herb,5-10,,y,uk
+dill,Dill,herb,5-9,,y,uk
+basil,Basil,herb,6-9,,y,uk
+coriander,Fresh coriander,herb,5-10,,y,uk
+tarragon,Tarragon,herb,5-9,,y,uk
+rosemary,Rosemary,herb,all,,y,uk
+thyme,Thyme,herb,all,,y,uk
+sage,Sage,herb,all,,y,uk
+bay,Bay leaves,herb,all,,y,uk
+chicken-thighs,Chicken thighs,meat,all,,n,uk
+chicken-breast,Chicken breast,meat,all,,n,uk
+whole-chicken,Whole chicken,meat,all,,n,uk
+turkey-mince,Turkey mince,meat,all,,n,uk
+pork-shoulder,Pork shoulder,meat,all,,n,uk
+pork-chops,Pork chops,meat,all,,n,uk
+pork-mince,Pork mince,meat,all,,n,uk
+sausages,Butcher's style pork sausages,meat,all,,n,uk
+bacon,Bacon,meat,all,,n,uk
+ham,Cooked ham,meat,all,,n,uk
+beef-mince,Beef mince,meat,all,,n,uk
+stewing-beef,Stewing beef,meat,all,,n,uk
+lamb-mince,Lamb mince,meat,all,,n,uk
+lamb-neck,Lamb neck or shoulder,meat,all,,n,uk
+cod,Cod,fish,all,,n,uk
+haddock,Haddock,fish,all,,n,uk
+pollock,Pollock or coley,fish,all,,n,uk
+hake,Hake,fish,all,,n,uk
+trout,Trout,fish,all,,n,uk
+mackerel,Fresh mackerel,fish,5-10,,n,uk
+mussels,Mussels,fish,9-3,,n,uk
+smoked-mackerel,Smoked mackerel,fish,all,,n,uk
+smoked-haddock,Smoked haddock,fish,all,,n,uk
+kippers,Kippers,fish,all,,n,uk

@@ -1,0 +1,120 @@
+id,name,group,diet,gluten
+salt,Salt,seasoning,vegan,n
+black-pepper,Black pepper,seasoning,vegan,n
+olive-oil,Olive oil,fat,vegan,n
+rapeseed-oil,Rapeseed oil,fat,vegan,n
+sunflower-oil,Sunflower oil,fat,vegan,n
+butter,Butter,dairy,veg,n
+milk,Milk,dairy,veg,n
+double-cream,Double cream,dairy,veg,n
+single-cream,Single cream,dairy,veg,n
+creme-fraiche,Crème fraîche,dairy,veg,n
+natural-yoghurt,Natural yoghurt,dairy,veg,n
+cheddar,Cheddar,dairy,veg,n
+feta,Feta,dairy,veg,n
+parmesan,Parmesan,dairy,meat,n
+vegetarian-hard-cheese,Vegetarian hard cheese,dairy,veg,n
+mozzarella,Mozzarella,dairy,veg,n
+goats-cheese,Goat's cheese,dairy,veg,n
+halloumi,Halloumi,dairy,veg,n
+blue-cheese,Stilton or other blue cheese,dairy,veg,n
+cottage-cheese,Cottage cheese,dairy,veg,n
+ricotta,Ricotta,dairy,veg,n
+eggs,Eggs,dairy,veg,n
+plain-flour,Plain flour,baking,vegan,y
+self-raising-flour,Self-raising flour,baking,vegan,y
+wholemeal-flour,Wholemeal flour,baking,vegan,y
+bread-flour,Strong bread flour,baking,vegan,y
+cornflour,Cornflour,baking,vegan,n
+baking-powder,Baking powder,baking,vegan,n
+bicarbonate-of-soda,Bicarbonate of soda,baking,vegan,n
+dried-yeast,Dried yeast,baking,vegan,n
+caster-sugar,Caster sugar,baking,vegan,n
+brown-sugar,Soft brown sugar,baking,vegan,n
+honey,Honey,baking,veg,n
+vanilla-extract,Vanilla extract,baking,vegan,n
+cocoa,Cocoa powder,baking,vegan,n
+dark-chocolate,Dark chocolate,baking,vegan,n
+oats,Porridge oats,grain,vegan,y
+long-grain-rice,Long grain or basmati rice,grain,vegan,n
+risotto-rice,Risotto rice,grain,vegan,n
+pudding-rice,Pudding rice,grain,vegan,n
+pearl-barley,Pearl barley,grain,vegan,y
+spelt,Pearled spelt,grain,vegan,y
+couscous,Couscous,grain,vegan,y
+bulgur,Bulgur wheat,grain,vegan,y
+dried-pasta,Dried pasta,grain,vegan,y
+egg-noodles,Dried egg noodles,grain,veg,y
+red-lentils,Red lentils,pulse,vegan,n
+green-lentils,Green or brown lentils,pulse,vegan,n
+puy-lentils,Puy lentils,pulse,vegan,n
+split-peas,Split peas,pulse,vegan,n
+chickpeas,Tinned chickpeas,pulse,vegan,n
+butter-beans,Tinned butter beans,pulse,vegan,n
+cannellini-beans,Tinned cannellini beans,pulse,vegan,n
+kidney-beans,Tinned kidney beans,pulse,vegan,n
+haricot-beans,Tinned haricot beans,pulse,vegan,n
+chopped-tomatoes,Tinned chopped tomatoes,tin,vegan,n
+passata,Passata,tin,vegan,n
+tomato-puree,Tomato purée,tin,vegan,n
+chicken-stock,Chicken stock,stock,meat,n
+beef-stock,Beef stock,stock,meat,n
+vegetable-stock,Vegetable stock,stock,vegan,n
+tinned-sardines,Tinned sardines,tin,fish,n
+tinned-mackerel,Tinned mackerel,tin,fish,n
+anchovies,Tinned anchovies,tin,fish,n
+cider-vinegar,Cider vinegar,condiment,vegan,n
+white-wine-vinegar,White wine vinegar,condiment,vegan,n
+red-wine-vinegar,Red wine vinegar,condiment,vegan,n
+malt-vinegar,Malt vinegar,condiment,vegan,y
+balsamic-vinegar,Balsamic vinegar,condiment,vegan,n
+english-mustard,English mustard,condiment,vegan,n
+dijon-mustard,Dijon mustard,condiment,vegan,n
+wholegrain-mustard,Wholegrain mustard,condiment,vegan,n
+worcestershire-sauce,Worcestershire sauce,condiment,fish,y
+soy-sauce,Soy sauce,condiment,vegan,y
+horseradish,Horseradish sauce,condiment,veg,n
+capers,Capers,condiment,vegan,n
+olives,Olives,condiment,vegan,n
+gherkins,Gherkins,condiment,vegan,n
+jam,Jam,condiment,vegan,n
+marmalade,Marmalade,condiment,vegan,n
+peanut-butter,Peanut butter made only from peanuts,condiment,vegan,n
+paprika,Paprika,spice,vegan,n
+smoked-paprika,Smoked paprika,spice,vegan,n
+cumin,Cumin,spice,vegan,n
+ground-coriander,Ground coriander,spice,vegan,n
+turmeric,Turmeric,spice,vegan,n
+chilli-flakes,Chilli flakes,spice,vegan,n
+cinnamon,Cinnamon,spice,vegan,n
+nutmeg,Nutmeg,spice,vegan,n
+cloves,Cloves,spice,vegan,n
+ground-ginger,Ground ginger,spice,vegan,n
+allspice,Allspice,spice,vegan,n
+curry-powder,Curry powder,spice,vegan,n
+mustard-seeds,Mustard seeds,spice,vegan,n
+caraway-seeds,Caraway seeds,spice,vegan,n
+fennel-seeds,Fennel seeds,spice,vegan,n
+dried-oregano,Dried oregano,spice,vegan,n
+dried-thyme,Dried thyme,spice,vegan,n
+dried-mixed-herbs,Dried mixed herbs,spice,vegan,n
+dried-bay,Dried bay leaves,spice,vegan,n
+walnuts,Walnuts,nut,vegan,n
+hazelnuts,Hazelnuts,nut,vegan,n
+almonds,Almonds,nut,vegan,n
+sunflower-seeds,Sunflower seeds,nut,vegan,n
+pumpkin-seeds,Pumpkin seeds,nut,vegan,n
+sesame-seeds,Sesame seeds,nut,vegan,n
+raisins,Raisins or sultanas,dried-fruit,vegan,n
+dried-apricots,Dried apricots,dried-fruit,vegan,n
+prunes,Prunes,dried-fruit,vegan,n
+bread,Crusty or wholemeal bread,bakery,vegan,y
+breadcrumbs,Breadcrumbs,bakery,vegan,y
+puff-pastry,All-butter puff pastry,bakery,veg,y
+shortcrust-pastry,All-butter shortcrust pastry,bakery,veg,y
+frozen-peas,Frozen peas,freezer,vegan,n
+white-wine,White wine,drink,vegan,n
+red-wine,Red wine,drink,vegan,n
+cider,Dry cider,drink,vegan,n
+ale,Ale or stout,drink,vegan,y
+water,Water,seasoning,vegan,n

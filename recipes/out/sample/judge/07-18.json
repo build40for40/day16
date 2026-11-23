@@ -1,0 +1,43 @@
+{
+ "day": 199,
+ "title": "Burst cherry tomatoes with eggs, halloumi and toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a simple staple: halloumi, eggs, vegetables, bread, oil and vinegar."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including the halloumi and the bag of spinach, is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and a toaster, and the egg-in-hollow technique suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g tomatoes, 200g spinach, four eggs and 225g halloumi with toast is a sensible amount for four, and the timings will give set whites and runny yolks."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "About 18 minutes of hob time plus slicing the garlic and halloumi fits within the 25 minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used in the steps, nothing unlisted appears, and 'Wholemeal bread' matches the bread id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Mid-July cherry tomatoes are the base of the dish, not a garnish, and a quick pan breakfast suits summer."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with helpful cues such as going easy on salt because of the halloumi."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, halloumi, spinach, tomatoes and wholemeal toast make a filling, balanced breakfast a family would happily repeat."
+  }
+ }
+}

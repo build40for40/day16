@@ -1,0 +1,43 @@
+{
+ "day": 229,
+ "title": "Split pea, marrow and broccoli curry pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a whole food or a plain cupboard staple, from split peas and curry powder to vegetable stock, so nothing is a factory-built product."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Split peas, marrow, broccoli, tomatoes, lemon and coriander are all everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded pan, a sieve and a jug, and every step is simple simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g split peas to 1.2 litres stock, simmered for about 55 minutes with the marrow added later, should give a thick, well-spiced pot for four, and there is a note to loosen it if needed."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes hands-on covers chopping, peeling and deseeding the marrow plus softening the onion, and 75 minutes total fits the simmering times given."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient appears in the steps, the names match their ids, and the steps use nothing that is not listed."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Mid-August marrow is the bulk of the dish alongside seasonal broccoli and tomatoes, and a mild curry pot suits a late-summer lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with plain doneness cues a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling pulse-and-vegetable meal with plenty of flavour that a family would happily eat again."
+  }
+ }
+}

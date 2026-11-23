@@ -1,0 +1,126 @@
+{
+ "slot": {
+  "day": 108,
+  "date": "2027-04-18",
+  "label": "18 April",
+  "month": 4,
+  "meal": "lunch",
+  "form": "salad",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "radishes",
+   "oranges"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Puy lentil salad with radishes, orange and watercress",
+  "intro": "April radishes are crisp, peppery and cheap, and the last of the Spanish oranges are still sweet. Together with earthy lentils they make a bright, filling spring lunch.",
+  "meal": "lunch",
+  "dish_form": "salad",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "saucepan",
+   "sieve",
+   "large mixing bowl",
+   "whisk"
+  ],
+  "hands_on_minutes": 20,
+  "total_minutes": 35,
+  "serves": 4,
+  "best_time": "midday",
+  "freezes": false,
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "name": "Pumpkin seeds",
+    "quantity": "40g",
+    "prep": ""
+   },
+   {
+    "id": "puy-lentils",
+    "name": "Puy lentils",
+    "quantity": "250g",
+    "prep": "rinsed"
+   },
+   {
+    "id": "water",
+    "name": "Water",
+    "quantity": "1 litre",
+    "prep": ""
+   },
+   {
+    "id": "red-onions",
+    "name": "Red onion",
+    "quantity": "1 small",
+    "prep": "very finely sliced"
+   },
+   {
+    "id": "oranges",
+    "name": "Oranges",
+    "quantity": "3",
+    "prep": ""
+   },
+   {
+    "id": "dijon-mustard",
+    "name": "Dijon mustard",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "olive-oil",
+    "name": "Olive oil",
+    "quantity": "4 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "quantity": "a few grinds",
+    "prep": ""
+   },
+   {
+    "id": "radishes",
+    "name": "Radishes",
+    "quantity": "200g",
+    "prep": "thinly sliced"
+   },
+   {
+    "id": "parsley",
+    "name": "Flat-leaf parsley",
+    "quantity": "a small bunch",
+    "prep": "roughly chopped"
+   },
+   {
+    "id": "watercress",
+    "name": "Watercress",
+    "quantity": "100g",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Toast the pumpkin seeds in a dry saucepan over a medium heat for 2 to 3 minutes, shaking the pan, until they puff and start to pop. Tip them onto a plate.",
+   "Put the lentils and water in the same pan, bring to the boil, then simmer for 20 to 25 minutes until tender but still holding their shape. Drain well in a sieve.",
+   "While the lentils cook, put the sliced onion in a large bowl. Squeeze over the juice of 1 orange, add the mustard, olive oil, salt and pepper and whisk. Leave the onion to soften and turn pink.",
+   "Cut the peel and white pith from the other 2 oranges, slice them into rounds, then cut each round into quarters. Slice the radishes and chop the parsley.",
+   "Tip the warm lentils into the dressing and stir. Leave for 5 minutes so they soak up the flavour.",
+   "Add the radishes, orange pieces, parsley and watercress and toss gently. Scatter over the toasted seeds and serve warm or at room temperature."
+  ],
+  "tip": "Without the watercress, this keeps for 2 days in the fridge, so pack it for lunch boxes and add a handful of leaves just before eating."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}
