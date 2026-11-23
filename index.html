@@ -38,7 +38,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line
 .sk button[aria-pressed="true"]{outline:2px solid var(--ink);outline-offset:3px}
 .sk button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 h1,h2,.v,.buy p{font-family:var(--disp);font-weight:var(--dw);letter-spacing:var(--dls);text-transform:var(--vtt)}
-h1{font-size:clamp(2.2rem,6.6vw,4.6rem);line-height:.98;margin:12px 0 14px;max-width:16ch;text-wrap:balance}
+h1{font-size:clamp(2.2rem,6.6vw,4.6rem);line-height:.98;margin:12px 0 14px}
 .lede{font-size:clamp(1rem,1.8vw,1.2rem);max-width:46ch;margin:0 0 28px}
 .lede a{color:inherit;font-weight:600}
 .g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
@@ -113,8 +113,8 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 <div class="tools"><span class="dn" id="dn"></span>
 <div class="sk" role="group" aria-label="Choose a skin"><b id="skn"></b><span id="sks" style="display:flex;gap:8px"></span></div></div></header>
 <main>
-<h1>One recipe a day. In season, near you. Free.</h1>
-<p class="lede">Come back tomorrow for the next one. Or <a href="#buy">buy the book</a> and get all 365 at once.</p>
+<h1>One recipe a day.<br>In season, near you.<br>Free.</h1>
+<p class="lede">Come back tomorrow for the next one.<br>Or <a href="#buy">buy the book</a> and get all 365 at once.</p>
 <nav class="g" id="g" aria-label="Today at a glance">
 <a href="#sample"><span class="k">Today</span><span><span class="v" id="t1"></span><span class="s" id="s1"></span></span></a>
 <a href="#sample"><span class="k">Season</span><span><span class="v" id="t2"></span><span class="s" id="s2"></span></span></a>
@@ -129,7 +129,7 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 <section class="sample" id="sample">
 <p class="tag" id="pt">A page from the book</p>
 <div class="pg" id="pg"><img src="sample-page.jpg" width="1118" height="1586" loading="lazy" alt="A page from Seasoned for 14 July: courgette and cherry tomato frittata, with a painted picture of the dish, the ingredients, the seasoning and four steps."></div>
-<p class="free">Can't wait for tomorrow? Download the whole book as a <a href="seasoned.pdf" download>PDF</a> (19 MB) or as an <a href="seasoned.epub" download>EPUB</a> for your phone or e-reader (15 MB). It's free, all 365 days.</p>
+<p class="free">Can't wait for tomorrow? <a href="seasoned.pdf" download>Download the PDF</a> or <a href="seasoned.epub" download>the EPUB</a></p>
 </section>
 </main>
 </div>
