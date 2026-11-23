@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 352,
+  "date": "2027-12-18",
+  "label": "18 December",
+  "month": 12,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "bramley-apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Potato and Bramley rösti with fried eggs",
+  "meal": "breakfast",
+  "dish_form": "rösti",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a grater",
+   "a clean tea towel"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
+    "id": "bramley-apples",
+    "quantity": "1",
+    "name": "large Bramley apple"
+   },
+   {
+    "id": "cornflour",
+    "quantity": "1 tbsp",
+    "name": "cornflour"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "mature Cheddar"
+   }
+  ],
+  "steps": [
+   "Coarsely grate the potatoes and cored apple, then squeeze dry in a clean tea towel. Mix with the cornflour, thyme leaves and a pinch of salt.",
+   "Heat the oil and half the butter in the pan. Press in four flat cakes and fry for 6 to 8 minutes a side, until golden.",
+   "Fry the eggs in the rest of the butter.",
+   "Top each rösti with an egg and grated Cheddar. Season with pepper."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 88 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

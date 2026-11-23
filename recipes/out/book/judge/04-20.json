@@ -1,0 +1,43 @@
+{
+ "day": 110,
+ "title": "Ricotta puff tart with lemony leaves",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Puff pastry, ricotta, egg, cheese and fresh vegetables are all things a home cook would have kept or bought plainly."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Ready-rolled puff pastry, ricotta, vegetarian hard cheese, bagged salad and radishes are everyday Tesco items."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a baking tray, bowl and grater are needed, and scoring a border is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A 320g sheet with 250g ricotta filling, baked at 220°C for 20 to 25 minutes, gives a crisp tart that cuts into enough snack squares for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Mixing the filling, zesting, snipping chives and slicing radishes and spring onions fits easily in 15 minutes, and the 25-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including lemon zest and juice and chives, is used, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A full 100g pile of dressed leaves with radishes and spring onions makes the salad a real part of a light April afternoon snack, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Ricotta, egg and cheese give protein and the fresh salad topping balances the pastry, making a satisfying snack a family would make again."
+  }
+ }
+}

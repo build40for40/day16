@@ -1,0 +1,43 @@
+{
+ "day": 347,
+ "title": "Roast cauliflower pasta with beans and rosemary crumbs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or basic staple: cauliflower, cavolo nero, dried pasta, tinned beans, breadcrumbs, garlic, oil and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including cavolo nero, is an everyday item at Tesco or similar."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a large pan and a frying pan, and uses simple roasting, boiling and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "One cauliflower, 350g pasta, a tin of beans and 200g cavolo nero suit four, the 2+1+1 tbsp oil split matches the 4 tbsp listed, and the times and temperature are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers the floreting, shredding, slicing, crumb frying and final toss while the pasta boils, and the 25 minute cook time matches the roasting."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and lemon is on the December fresh list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot roast cauliflower pasta with winter greens and rosemary suits mid-December, and the cauliflower is central to the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, clear British home-cook instructions without restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family dinner with vegetables, beans and pasta, and enough flavour from the garlic, chilli, lemon and crumbs to cook again."
+  }
+ }
+}

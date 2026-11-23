@@ -1,0 +1,43 @@
+{
+ "day": 73,
+ "title": "Carrot, butter bean and smoked mackerel stew",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is plain home food; horseradish sauce is a traditional condiment like mustard, and the stock is ordinary stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Carrots, leeks, butter beans, spring greens, smoked mackerel and crème fraîche are all everyday supermarket items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "One large pan and a grater for the lemon zest, with simple softening and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g carrots, two tins of beans, 250g mackerel and 600ml stock make a sensible stew for four, and the salty mackerel and horseradish cream season it well."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "20 minutes covers slicing leeks, chunking carrots, shredding greens, skinning the mackerel and zesting, and the 8+20+5 minutes of cooking roughly matches the 30 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming bean stew suits mid-March, and 600g of carrots make up the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Vegetables, pulses and oily fish make a filling, balanced family dinner."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 82,
+ "title": "Apple and rhubarb compote with honeyed seeds",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Apples, rhubarb, an orange, honey, seeds, Greek yoghurt and two ground spices are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including forced rhubarb in March and bags of pumpkin and sunflower seeds, is an everyday Tesco purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan, a knife and a zester or grater, and simmering fruit is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four apples and 400g rhubarb softened with orange juice and honey over 500g yoghurt makes a sensible breakfast for four, with clear timings and a sensible amount of water."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Coring four apples, zesting and juicing an orange and cutting rhubarb fits 15 minutes, and 5 plus 5 to 8 minutes of simmering, with the seeds toasted alongside, matches the 15-minute cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Each name matches its id, and every listed ingredient and spice is used in the steps with nothing extra brought in."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm apple compote with the first forced rhubarb suits late March, and the apples lead the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, Greek yoghurt and seeds with only a little honey make a filling, real-food breakfast a family would happily eat again."
+  }
+ }
+}

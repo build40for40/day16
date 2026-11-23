@@ -1,0 +1,88 @@
+{
+ "slot": {
+  "day": 334,
+  "date": "2027-11-30",
+  "label": "30 November",
+  "month": 11,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "grapes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Warm thyme grapes and goat's cheese on toast",
+  "meal": "breakfast",
+  "dish_form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a frying pan",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 12,
+  "cook_minutes": 8,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "butter",
+    "quantity": "1 tbsp",
+    "name": "butter"
+   },
+   {
+    "id": "grapes",
+    "quantity": "300g",
+    "name": "red grapes"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "bread",
+    "quantity": "4",
+    "name": "thick slices of bread"
+   },
+   {
+    "id": "goats-cheese",
+    "quantity": "150g",
+    "name": "soft goat's cheese"
+   }
+  ],
+  "steps": [
+   "Toast the walnuts in a dry frying pan for 3 minutes, then tip out and chop roughly.",
+   "Melt the butter in the same pan. Add the grapes and thyme leaves and cook for 4 to 5 minutes, until the grapes split and turn jammy. Stir in the honey.",
+   "Toast the bread and spread thickly with the goat's cheese.",
+   "Spoon over the warm grapes and their juices, scatter with the walnuts and finish with black pepper."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

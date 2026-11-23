@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 211,
+  "date": "2027-07-30",
+  "label": "30 July",
+  "month": 7,
+  "meal": "dinner",
+  "form": "big salad",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "peppers",
+   "courgettes"
+  ],
+  "protein": "cod",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Roast pepper, courgette and cod salad",
+  "meal": "dinner",
+  "dish_form": "big salad",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 47,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "500g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "peppers",
+    "quantity": "3",
+    "name": "red or yellow peppers"
+   },
+   {
+    "id": "courgettes",
+    "quantity": "2",
+    "name": "courgettes"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "cod",
+    "quantity": "4",
+    "name": "cod fillets"
+   },
+   {
+    "id": "rocket",
+    "quantity": "100g",
+    "name": "rocket"
+   },
+   {
+    "id": "capers",
+    "quantity": "1 tbsp",
+    "name": "capers"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes with the oil, paprika and salt on a large tray. Roast for 15 minutes.",
+   "Add the chunked peppers and courgettes and the onion wedges. Roast for 20 minutes.",
+   "Season the cod, nestle it in and roast for 10 to 12 minutes, until it flakes.",
+   "Squeeze over the lemon. Scatter with rocket, capers and torn basil and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

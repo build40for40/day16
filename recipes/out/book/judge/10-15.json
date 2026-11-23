@@ -1,0 +1,43 @@
+{
+ "day": 288,
+ "title": "Pumpkin and red lentil dal with sprouts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or a plain staple such as tinned tomatoes, red lentils, natural yoghurt and dried spices."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pumpkin is on every mainstream supermarket shelf in mid-October, and everything else is an everyday item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one large pan, a wooden spoon and simple techniques such as softening, simmering and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g lentils with 800g pumpkin, a tin of tomatoes and a litre of water makes a properly loose dal for four, and 20 minutes plus 8 for the sprouts will cook both through."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is believable for peeling and cubing the pumpkin and trimming the sprouts, as some of it overlaps the onion and the simmer, and the 28 minutes of simmering matches the 30 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, coriander is the fresh herb used as a topping, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming pumpkin dal suits a mid-October evening, and the pumpkin makes up the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, pumpkin, sprouts and yoghurt make a filling, balanced vegetarian dinner a family would happily eat again."
+  }
+ }
+}

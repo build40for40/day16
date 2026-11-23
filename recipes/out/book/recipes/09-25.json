@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 268,
+  "date": "2027-09-25",
+  "label": "25 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "sweetcorn"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Sweetcorn and tomato baked eggs",
+  "meal": "breakfast",
+  "dish_form": "eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan with a lid",
+   "a toaster"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "sweetcorn",
+    "quantity": "3",
+    "name": "corn cobs"
+   },
+   {
+    "id": "peppers",
+    "quantity": "1",
+    "name": "red pepper"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "300g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "feta",
+    "quantity": "50g",
+    "name": "feta"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Slice the corn off the cobs. Fry with the sliced pepper and spring onions in the oil for 5 minutes, until catching.",
+   "Add the halved tomatoes and 1 tsp smoked paprika. Cook for 5 minutes, until the tomatoes collapse. Season.",
+   "Make eight hollows and crack in the eggs. Cover and cook gently for 6 to 8 minutes, until the whites set.",
+   "Crumble over the feta, snip over the chives and serve with toast."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

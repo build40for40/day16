@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 347,
+  "date": "2027-12-13",
+  "label": "13 December",
+  "month": 12,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "cauliflower"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Roast cauliflower pasta with beans and rosemary crumbs",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a roasting tray",
+   "a large pan",
+   "a frying pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "rosemary",
+    "name": "rosemary"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "cauliflower",
+    "quantity": "1",
+    "name": "cauliflower"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "pasta shells"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "200g",
+    "name": "cavolo nero"
+   },
+   {
+    "id": "breadcrumbs",
+    "quantity": "50g",
+    "name": "breadcrumbs"
+   },
+   {
+    "id": "garlic",
+    "quantity": "4 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   }
+  ],
+  "steps": [
+   "Roast the cauliflower florets with 2 tbsp oil and salt at 220°C (200°C fan) for 25 minutes, until browned.",
+   "Boil the pasta, adding the shredded cavolo nero for the last 3 minutes. Save a mug of water and drain.",
+   "Fry the crumbs with chopped rosemary in 1 tbsp oil until golden. Tip out.",
+   "Warm the sliced garlic and chilli in the last oil. Toss in the drained beans, pasta, cauliflower, lemon juice and a splash of the water. Season and scatter with crumbs."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

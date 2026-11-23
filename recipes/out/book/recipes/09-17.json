@@ -1,0 +1,93 @@
+{
+ "slot": {
+  "day": 260,
+  "date": "2027-09-17",
+  "label": "17 September",
+  "month": 9,
+  "meal": "snack",
+  "form": "fruit pot or crumble",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Pear and blackberry almond crumble",
+  "meal": "snack",
+  "dish_form": "crumble",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "oven",
+  "utensils": [
+   "a baking dish",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pears",
+    "quantity": "5",
+    "name": "ripe pears"
+   },
+   {
+    "id": "blackberries",
+    "quantity": "150g",
+    "name": "blackberries"
+   },
+   {
+    "id": "butter",
+    "quantity": "60g",
+    "name": "cold butter"
+   },
+   {
+    "id": "ground-almonds",
+    "quantity": "100g",
+    "name": "ground almonds"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "demerara-sugar",
+    "quantity": "40g",
+    "name": "demerara sugar"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C (170°C fan). Peel, core and chop the pears. Toss in the baking dish with the blackberries, a squeeze of lemon and 1 tsp cinnamon.",
+   "Rub the butter into the ground almonds until crumbly. Stir in the chopped hazelnuts and sugar.",
+   "Scatter over the fruit and bake for 25 to 30 minutes, until golden and bubbling at the edges.",
+   "Cool a little and serve warm with spoonfuls of yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

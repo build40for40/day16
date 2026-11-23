@@ -1,0 +1,43 @@
+{
+ "day": 146,
+ "title": "Lamb keema with new potatoes and cabbage",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole ingredient or a plain cupboard staple such as tinned tomatoes, garam masala and natural yoghurt."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Lamb mince, pointed cabbage, new potatoes and the spices are everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a casserole with a lid and a wooden spoon, and the technique is simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g lamb mince, 500g potatoes, a whole cabbage and peas in a tin of tomatoes plus 300ml water make a well-sauced keema for four, and halved new potatoes will be tender after 20 minutes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers slicing onions, halving potatoes, shredding cabbage and 10 minutes of browning, and the 20 plus 8 minutes of simmering roughly matches the 35 minutes of cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears apart from water, and 'coriander' matches the fresh coriander id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A whole pointed cabbage goes in alongside new potatoes and peas, so it is a main component rather than a garnish, and a light keema suits late May."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced family dinner of lamb, potatoes, cabbage and peas with no added sugar."
+  }
+ }
+}

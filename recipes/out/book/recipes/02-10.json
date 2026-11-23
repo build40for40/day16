@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 41,
+  "date": "2027-02-10",
+  "label": "10 February",
+  "month": 2,
+  "meal": "snack",
+  "form": "dip with crudités",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "kale"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Kale, feta and white bean dip",
+  "meal": "snack",
+  "dish_form": "dip with crudités",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a frying pan",
+   "a mixing bowl",
+   "a masher"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "kale",
+    "quantity": "150g",
+    "name": "kale"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "3 tbsp",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "carrots",
+    "quantity": "4",
+    "name": "carrots"
+   },
+   {
+    "id": "cauliflower",
+    "quantity": "½",
+    "name": "cauliflower"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "apples"
+   }
+  ],
+  "steps": [
+   "Strip the kale from its stalks and chop finely. Soften in 2 tbsp of the oil with the crushed garlic for 4 minutes, until wilted.",
+   "Mash the drained beans in a bowl until fairly smooth. Stir in the kale, crumbled feta, yoghurt, lemon zest and juice. Season.",
+   "Spoon into a bowl, scatter with chilli flakes and drizzle with the rest of the oil.",
+   "Cut the carrots into sticks, the cauliflower into small florets and the apples into wedges. Serve with the dip."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

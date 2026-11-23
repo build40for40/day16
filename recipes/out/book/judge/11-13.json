@@ -1,0 +1,43 @@
+{
+ "day": 317,
+ "title": "Watercress pasta with haddock and sprouts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or ordinary dairy, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Penne, sprouts, watercress, crème fraîche, Parmesan and skinless haddock fillets are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a grater and a stick blender, used much as it would be for soup, and nothing beyond beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g pasta, 400g haddock and 200ml blended watercress sauce make a sensible amount for four, and the timings for the sprouts and fish are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to shred the sprouts, cut the fish, grate, zest and blend, and fifteen minutes covers boiling the pasta and cooking the haddock."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used in the steps, penne is fairly labelled as dried pasta, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "It is a warm November pasta where the watercress makes both the sauce and the topping, so the hero is the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, clear and in plain British English, with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner with fish, greens and pasta in a light creamy sauce."
+  }
+ }
+}

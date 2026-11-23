@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 203,
+  "date": "2027-07-22",
+  "label": "22 July",
+  "month": 7,
+  "meal": "lunch",
+  "form": "frittata or omelette",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "peppers"
+  ],
+  "protein": "chicken-thighs",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Paprika chicken and roast pepper bulgur",
+  "meal": "lunch",
+  "dish_form": "warm grain salad",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a roasting tray",
+   "a large bowl",
+   "a grater"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "chicken-thighs",
+    "quantity": "6",
+    "name": "boneless chicken thighs"
+   },
+   {
+    "id": "peppers",
+    "quantity": "4",
+    "name": "peppers"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "250g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "bulgur",
+    "quantity": "200g",
+    "name": "bulgur wheat"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the chicken, sliced peppers and onion wedges on a tray with the oil, 2 tsp paprika and salt. Roast for 30 minutes, adding the tomatoes for the last 10.",
+   "Cover the bulgur with 400ml boiling water and leave for 15 minutes.",
+   "Mix the yoghurt with grated garlic and a squeeze of lemon.",
+   "Fork lemon juice, chopped parsley and the tray juices through the bulgur. Season, then top with the chicken, veg and yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

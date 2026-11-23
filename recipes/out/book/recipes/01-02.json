@@ -1,0 +1,113 @@
+{
+ "slot": {
+  "day": 2,
+  "date": "2027-01-02",
+  "label": "2 January",
+  "month": 1,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "savoy-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Savoy cabbage and bean soup with eggs",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "a large lidded pan",
+   "a grater"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "400g",
+    "name": "potatoes"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.2 litres",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "savoy-cabbage",
+    "quantity": "1/2",
+    "name": "Savoy cabbage"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "40g",
+    "name": "vegetarian hard cheese"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Warm the oil in the pan. Soften the sliced leeks, garlic and thyme for 8 minutes.",
+   "Add the cubed potatoes and stock. Simmer for 15 minutes, until tender.",
+   "Stir in the drained beans and shredded cabbage. Simmer for 5 minutes, then season.",
+   "Make four hollows and crack in the eggs. Cover and cook gently for 4 to 5 minutes, until the whites set.",
+   "Ladle into bowls, grate over the cheese and serve with bread."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

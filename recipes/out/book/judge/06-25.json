@@ -1,0 +1,43 @@
+{
+ "day": 176,
+ "title": "Pickled cherry tomatoes with goat's cheese and bread",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Vinegar, sugar, fresh vegetables, dill, olive oil, a crusty loaf and goat's cheese are all plain home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including a 150g log of soft goat's cheese, is an everyday supermarket buy."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a board and a bowl, and the technique is simple slicing and tossing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The vinegar, salt and sugar quick pickle, drained and dressed with oil, makes a sensible quantity of tomatoes, cheese and bread for four as a snack."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is believable for halving the tomatoes, slicing the cucumber, onion and bread and spreading the cheese, and the 15 minute cook time matches the unattended pickling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the dill, is used in the steps, and nothing unlisted apart from water appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A fresh, sharp, no-cook cherry tomato pickle suits late June, and the tomatoes are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Bread with goat's cheese and a heap of pickled vegetables is a satisfying, real-food snack a family would make again."
+  }
+ }
+}

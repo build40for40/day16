@@ -1,0 +1,43 @@
+{
+ "day": 118,
+ "title": "Leek and new potato tray hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, leeks, broccoli, eggs, Cheddar, oil and herbs are all plain kitchen and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including purple sprouting broccoli in April, is an everyday Tesco item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, knife and grater, and the technique is simple roasting and baking eggs."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g potatoes, three leeks, 200g broccoli and an egg each make a sensible breakfast for four, and the 220°C timings cook the potatoes through and set the eggs."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to halve the potatoes, wash and slice the leeks, trim the broccoli and grate the cheese, and 20+12+8 minutes matches the 40 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Three leeks with late-April sprouting broccoli make a warm tray breakfast that suits a cool spring morning, and the leeks are central rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, two green vegetables, eggs and cheese make a filling, balanced cooked breakfast a family would want again."
+  }
+ }
+}

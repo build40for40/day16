@@ -1,0 +1,43 @@
+{
+ "day": 15,
+ "title": "Apple crumble with oats and hazelnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Apples, flour, butter, oats, demerara, hazelnuts, yoghurt, lemon and cinnamon are all plain home-kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including the hazelnuts, is an everyday supermarket buy at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a bowl and an oven, and rubbing in is a beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six apples under a 75g flour and 75g oat topping, baked at 190°C for 30 to 35 minutes, gives a sensible crumble for four, and eating apples are sweet enough without extra sugar."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is realistic for coring six apples, rubbing in and chopping nuts, and the 35-minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm apple crumble suits mid-January, and the stored apples are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is fruit-heavy, with oats, nuts and yoghurt and a modest 40g of sugar for four, so it makes a wholesome treat a family would make again."
+  }
+ }
+}

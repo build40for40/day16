@@ -1,0 +1,99 @@
+{
+ "slot": {
+  "day": 272,
+  "date": "2027-09-29",
+  "label": "29 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "cherry-tomatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Roast potatoes, halloumi and cherry tomatoes",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "400g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "halloumi",
+    "quantity": "225g",
+    "name": "halloumi"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the cubed potatoes on a tray with half the oil, 1 tsp paprika and salt. Roast for 20 minutes.",
+   "Add the halved mushrooms, tomatoes, thyme and remaining oil. Roast for 10 minutes.",
+   "Lay the sliced halloumi on top. Roast for 10 minutes more, until golden and the tomatoes burst.",
+   "Drizzle with honey, scatter with chives and season with pepper."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

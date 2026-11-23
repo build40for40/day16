@@ -1,0 +1,43 @@
+{
+ "day": 62,
+ "title": "Sausage pasta with watercress and lemon",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Sausages, dried pasta, crème fraîche, Parmesan and fresh watercress are all ordinary home ingredients with no jars or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a standard, everyday-priced line in any Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large pan, a frying pan and a grater, and the techniques are simple boiling and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g pasta, six sausages and 200ml crème fraîche loosened with pasta water make a sensible sauced pasta for four, and the timings line up."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers skinning the sausages, slicing garlic, zesting and grating, and the 12 minutes matches the pasta boil, so it fits a quick dinner."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Penne is dried pasta, and every listed ingredient and seasoning, including pepper under 'season', is used with nothing unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm sausage pasta suits early March, and a full 100g of watercress is wilted through as a main component, named in the title, rather than scattered as a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family pasta with sausage protein and a good handful of peppery greens, the sort of thing people cook again."
+  }
+ }
+}

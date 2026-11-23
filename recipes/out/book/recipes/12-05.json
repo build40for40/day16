@@ -1,0 +1,119 @@
+{
+ "slot": {
+  "day": 339,
+  "date": "2027-12-05",
+  "label": "5 December",
+  "month": 12,
+  "meal": "dinner",
+  "form": "pan fry with a side",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "beetroot"
+  ],
+  "protein": null,
+  "protein_hint": "nuts or seeds",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Beetroot, walnut and feta fritters with garlicky kale",
+  "meal": "dinner",
+  "dish_form": "fritters",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a grater",
+   "a sieve",
+   "a mixing bowl",
+   "a large frying pan"
+  ],
+  "prep_minutes": 40,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "beetroot",
+    "quantity": "500g",
+    "name": "beetroot"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "100g",
+    "name": "plain flour"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "75g",
+    "name": "walnuts"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
+   },
+   {
+    "id": "kale",
+    "quantity": "200g",
+    "name": "kale"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "bread",
+    "quantity": "1 loaf",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Coarsely grate the peeled beetroot and press out the juice in a sieve.",
+   "Mix in the beaten eggs, flour, chopped walnuts, crumbled feta, 1 tsp cumin and plenty of seasoning.",
+   "Fry spoonfuls in the hot oil, flattened, for 3 to 4 minutes a side until crisp. Keep warm.",
+   "Wilt the shredded kale and sliced garlic in the same pan with a splash of water. Squeeze over lemon.",
+   "Serve with the yoghurt and bread."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

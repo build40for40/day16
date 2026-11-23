@@ -6,6 +6,8 @@ export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "
 
 export const config = JSON.parse(readFileSync(path.join(root, "config.json"), "utf8"));
 
+export const glyphs = JSON.parse(readFileSync(path.join(root, "data", "glyphs.json"), "utf8"));
+
 export const MONTHS = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",

@@ -1,0 +1,43 @@
+{
+ "day": 52,
+ "title": "Bramley apple and cheddar scones",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, butter, a Bramley, cheddar, milk, egg, salt and thyme are all plain kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, grater, knife and baking tray, and rubbing in and patting out a scone round is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g self-raising flour to 85g butter and 150ml milk is a standard scone ratio once the moist apple is counted, 3cm wedges at 220°C for 15 to 18 minutes will bake through, and 8 scones suits four people as a snack."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers rubbing in, peeling and dicing one apple, grating the cheese and shaping, and the 18 minute cook matches the bake in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the salt, the fresh thyme and the egg for glazing, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored Bramleys suit late February, and the diced apple runs right through the dough rather than sitting on top as a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no fuss or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Cheese and apple scones are a filling, real-food afternoon snack a family would happily make again."
+  }
+ }
+}

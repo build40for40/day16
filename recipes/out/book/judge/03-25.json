@@ -1,0 +1,43 @@
+{
+ "day": 84,
+ "title": "Mustard chicken with champ and greens",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a staple such as stock, wholegrain mustard and crème fraîche, with nothing from a jar or packet mix."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Potatoes, spring greens, spring onions, chicken breasts and the dairy are everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only pans and a masher, and boiling, mashing, pan-frying and a quick pan sauce suit a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "1kg potatoes, two bunches of spring onions and four breasts suit four people, the timings are sound, and mashing the greens into the champ still gives a good result."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling the potatoes, shredding the greens and slicing the onions plus tending the chicken fits 25 minutes, and the 20 minutes of cooking run side by side believably."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, nothing unlisted is used, and floury potatoes is a fair name for the potatoes id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Champ is built around the spring onions, which suits a still-chilly late March evening alongside spring greens."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chicken, potatoes, greens and spring onions make a proper family dinner of real food."
+  }
+ }
+}

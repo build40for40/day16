@@ -1,0 +1,43 @@
+{
+ "day": 18,
+ "title": "Roast leeks, squash and butter beans with hazelnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain cupboard staple, and tahini is on the store list as a single-ingredient paste."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Squash, leeks, tinned butter beans, hazelnuts and tahini are all everyday items at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a small bowl and basic chopping."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A whole squash, four leeks and two tins of beans make a filling tray for four, and the staged roasting at 200°C gives sensible timings for each ingredient."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers peeling and cubing the squash, slicing leeks and garlic, and chopping nuts, and the 20+15+10 roasting matches the 45 minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, nothing unlisted appears apart from water, and all names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot roasted traybake suits mid-January, and four leeks lead the title as a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English, such as 'until the leeks catch at the edges'."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Vegetables, beans and nuts with a tahini dressing make a filling, balanced dinner."
+  }
+ }
+}

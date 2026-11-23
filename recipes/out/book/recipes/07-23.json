@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 204,
+  "date": "2027-07-23",
+  "label": "23 July",
+  "month": 7,
+  "meal": "dinner",
+  "form": "roast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "green-beans"
+  ],
+  "protein": null,
+  "protein_hint": "a whole grain",
+  "kit": "one_tray",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Baked spelt with green beans and feta",
+  "meal": "dinner",
+  "dish_form": "tray bake",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray",
+   "foil"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 55,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "400g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "garlic",
+    "quantity": "4 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "spelt",
+    "quantity": "300g",
+    "name": "pearled spelt"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "900ml",
+    "name": "hot vegetable stock"
+   },
+   {
+    "id": "green-beans",
+    "quantity": "300g",
+    "name": "green beans"
+   },
+   {
+    "id": "feta",
+    "quantity": "200g",
+    "name": "feta"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). In a large roasting tray, toss the onion wedges, tomatoes and peeled garlic with the oil. Roast for 15 minutes.",
+   "Stir in the spelt and hot stock. Cover tightly with foil and bake for 25 minutes.",
+   "Scatter over the trimmed beans, cover again and bake for 15 minutes, until the spelt is tender.",
+   "Season, squeeze over the lemon, then top with crumbled feta and torn basil."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

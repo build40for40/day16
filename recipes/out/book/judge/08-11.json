@@ -1,0 +1,43 @@
+{
+ "day": 223,
+ "title": "Grape and blackberry crumble",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, butter, nuts, sugar, honey and plain Greek yoghurt are all ordinary home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Grapes, blackberries, ground almonds, hazelnuts and Greek yoghurt are everyday items at any Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A baking dish, a bowl and rubbing in by hand are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "700g of fruit under an almond and hazelnut crumb, baked 25 to 30 minutes at 190°C, gives a sensible warm crumble for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers halving the grapes, chopping the nuts and rubbing in the butter, and 40 minutes matches the bake plus 10 minutes' cooling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, nothing unlisted is used, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Grapes are the bulk of the fruit, with August blackberries alongside, making a fitting late-summer crumble."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear and homely, in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, nuts and yoghurt with modest sugar make a satisfying, wholesome afternoon snack."
+  }
+ }
+}

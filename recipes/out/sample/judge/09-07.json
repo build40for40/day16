@@ -1,43 +1,43 @@
 {
  "day": 250,
- "title": "Smoked mackerel on toast with sticky plums",
+ "title": "Smoked mackerel toast with warm plums",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Every ingredient is a plain home staple, and horseradish sauce and smoked mackerel are traditional British cupboard and fridge items."
+   "reason": "Everything is a whole food or a traditional condiment such as horseradish sauce, crème fraîche and honey, with no jars of ready-made sauce or packet mixes."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Smoked mackerel, plums, watercress, crème fraîche and wholemeal bread are all everyday Tesco items at normal prices."
+   "reason": "Smoked mackerel, watercress, crème fraîche, plums and wholemeal bread are all everyday Tesco items at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a frying pan, a toaster or grill and a bowl, and the techniques are simple."
+   "reason": "It needs only a small pan and a toaster or grill, and the technique is simple stewing and assembly."
   },
   "works": {
    "pass": true,
-   "reason": "Quantities suit four slices for breakfast, and a short cook of plums with onion, vinegar and a little sugar will give soft, glossy fruit that balances the rich fish."
+   "reason": "Six plums, 250g mackerel, 150g crème fraîche and 8 slices of toast make a sensible breakfast for four, and the plum timing is right for wedges that hold their shape."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Slicing the onion, stoning the plums and flaking the mackerel fit around the 8 to 9 minutes of pan time, so 15 minutes is believable at a quick pace."
+   "reason": "Stoning six plums, mixing the cream, toasting in batches and assembling fits about 12 minutes, and the 5 cook minutes match the 3 to 4 minute plum warming."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient appears in the steps, the steps use nothing unlisted, and 'Wholemeal bread' matches the bread id."
+   "reason": "Every listed item, including the chives and pepper, appears in the steps, the names match their ids, and nothing unlisted is used apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Early September plums are central to the dish, paired with smoked mackerel, and a warm toast suits the date."
+   "reason": "Early September is peak plum time, and the warm, sharp plums are a substantial component that cuts the oily mackerel rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "It is clear, friendly British English with easy steps and no restaurant language or preaching."
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Wholemeal toast with oily fish, fruit and watercress is a satisfying, balanced breakfast a family would happily repeat."
+   "reason": "Oily fish, wholemeal toast, watercress and fruit make a filling, real-food breakfast with only a tablespoon of honey."
   }
  }
 }

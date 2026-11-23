@@ -1,0 +1,43 @@
+{
+ "day": 279,
+ "title": "Pear and hazelnut bircher",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, milk, natural yoghurt, sultanas, pears, hazelnuts and honey are all plain home-kitchen foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is an everyday Tesco purchase, and 50g of hazelnuts is not a treat-level spend."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a grater and a small frying pan, with simple stirring, grating and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats soaked in 400ml milk and 150g yoghurt, with three pears, makes a well-balanced bircher for four, and an overnight soak softens the oats properly."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twelve minutes covers stirring, grating, toasting, chopping and slicing; the 480 minutes is the unattended overnight soak noted in the time note, and the morning work stays quick."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the cinnamon and the lemon squeeze, is used in the steps, sultanas match the raisins id, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Pears are at their best in early October and form the core of the dish, both grated through the oats and sliced on top."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling breakfast of oats, dairy, fruit and nuts, with only a modest drizzle of honey."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 8,
+ "title": "Purple sprouting broccoli soda scones",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, bicarb, oil, vinegar, seeds and fresh broccoli and thyme are all ordinary cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard Tesco line at an everyday price, and purple sprouting broccoli is stocked in winter."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a knife and a baking tray, and soda bread is a beginner-friendly technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "450g flour to 325ml water with vinegar and bicarb makes a workable soft soda dough, and 25 minutes at 220°C will bake a round cut into 8 wedges through, giving enough for four as a snack."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Chopping 200g broccoli and mixing a soda dough fits in 15 minutes, and the 25-minute bake matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including thyme and pumpkin seeds, is used, nothing unlisted appears, and 'sprouting broccoli' matches its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm savoury scones suit a cold January afternoon, and the broccoli, stalks and all, is the main flavour and named in the title."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Half wholemeal flour with a good amount of broccoli and seeds makes a filling, real-food snack a family would bake again."
+  }
+ }
+}

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run build && npm run wrangler -- dev",
-    "build": "tsc && rm -rf dist && mkdir -p dist/seasoned && cp index.html dist/seasoned/index.html",
+    "build": "tsc && rm -rf dist && mkdir -p dist/seasoned && cp index.html sample-page.jpg dist/seasoned/",
     "test": "vitest run",
     "wrangler": "env -u CLOUDFLARE_API_KEY -u CLOUDFLARE_EMAIL wrangler --profile 40for40",
     "deploy": "npm run build && npm run wrangler -- deploy",
@@ -13,7 +13,10 @@
     "generate": "node --env-file-if-exists=.env recipes/generate.js",
     "check": "node recipes/check.js",
     "judge": "node --env-file-if-exists=.env recipes/judge.js",
-    "planted": "node --env-file-if-exists=.env recipes/planted.js"
+    "planted": "node --env-file-if-exists=.env recipes/planted.js",
+    "pages": "node pages/build.ts",
+    "pages:book": "node pages/build.ts --in recipes/out/book/recipes --out pages/out/book --pictures pictures/seasoned",
+    "book": "node book/build.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",

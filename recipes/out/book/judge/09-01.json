@@ -1,0 +1,43 @@
+{
+ "day": 244,
+ "title": "Sage sausage patties with roast squash and red cabbage slaw",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Sausages, squash, cabbage, apples, vinegar and mustard are all ordinary kitchen staples with nothing factory-made beyond good sausages."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Two roasting trays, a bowl and a knife, with no technique beyond squeezing sausages from skins."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Squash wedges at 220°C for 30 minutes and sausage patties for 20 minutes will both cook through, and eight sausages plus a large squash and slaw feeds four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Seeding and wedging the squash, skinning and shaping the sausages and shredding the slaw fits roughly 18 active minutes, and the 30-minute cook matches the roasting step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the sage and chilli, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roast squash wedges are a main part of the plate rather than a garnish, and a warm roast dinner with apple slaw suits early September."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, British and easy for a beginner to follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Sausage, roast squash and a fresh cabbage and apple slaw make a balanced family dinner."
+  }
+ }
+}

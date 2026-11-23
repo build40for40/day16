@@ -1,0 +1,114 @@
+{
+ "slot": {
+  "day": 143,
+  "date": "2027-05-23",
+  "label": "23 May",
+  "month": 5,
+  "meal": "snack",
+  "form": "savoury muffin or bake",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "rocket"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Rocket, carrot and sweetcorn muffins",
+  "meal": "snack",
+  "dish_form": "savoury muffins",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a 12-hole muffin tin",
+   "a mixing bowl",
+   "a jug",
+   "a grater"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "self-raising-flour",
+    "quantity": "150g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "wholemeal-flour",
+    "quantity": "100g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "80ml",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "tinned-sweetcorn",
+    "quantity": "1 small tin",
+    "name": "sweetcorn"
+   },
+   {
+    "id": "rocket",
+    "quantity": "60g",
+    "name": "rocket"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan) and oil a 12-hole muffin tin.",
+   "Mix the flours, baking powder, 1 tsp paprika, 1 tsp salt and plenty of pepper.",
+   "Whisk 250ml water with the oil and vinegar. Stir in with the grated carrots, drained sweetcorn, chopped rocket and sliced spring onions until just combined.",
+   "Spoon into the tin, scatter with seeds and bake for 20 to 22 minutes, until golden. Cool a little before eating."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

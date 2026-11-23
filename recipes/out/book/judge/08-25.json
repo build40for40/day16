@@ -1,0 +1,43 @@
+{
+ "day": 237,
+ "title": "Sweetcorn risotto with butter beans and lettuce",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a cupboard, fridge or garden staple, including the vegetable stock and tinned butter beans."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Corn cobs, little gems, risotto rice and butter beans are all everyday supermarket items in late August."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one wide pan, a wooden spoon and a ladle, and ladling stock into a risotto is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g rice to 1.2 litres stock with four cobs and a tin of beans makes a sensible four portions, and the mashed beans give the creaminess that butter or cheese would."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "About 45 minutes in total is realistic for chopping, stripping the cobs and 20 minutes of ladling, and the 35 minutes of prep fairly counts the stirring as active work."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Four fresh cobs make sweetcorn the heart of a light late-summer risotto that suits 25 August."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that reads like one cook talking to another."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Rice with sweetcorn, butter beans and lettuce is a filling, balanced dinner a family would happily eat again."
+  }
+ }
+}

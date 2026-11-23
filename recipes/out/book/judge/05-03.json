@@ -1,0 +1,43 @@
+{
+ "day": 123,
+ "title": "Cucumber and cabbage bulgur bowls with tahini",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a simple staple; tahini is just ground sesame and is on the cupboard list."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Bulgur, tahini, pumpkin seeds and the fresh vegetables are all everyday Tesco lines at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a kettle, a bowl and a small frying pan, with nothing beyond chopping and soaking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g bulgur to 400ml water is a sound ratio, and with a tin of chickpeas, half a cabbage and a cucumber it makes a fair lunch for four with a well-seasoned dressing."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers shredding, chopping, toasting and whisking while the bulgur soaks for its 15 unattended minutes, which suits a quick lunch."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the mint and lemon, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A crunchy raw cucumber and radish bowl suits early May, and the cucumber is a main part of the salad rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholegrain bulgur, chickpeas, yoghurt, seeds and plenty of vegetables make a filling, balanced lunch."
+  }
+ }
+}

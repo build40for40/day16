@@ -1,0 +1,89 @@
+{
+ "slot": {
+  "day": 358,
+  "date": "2027-12-24",
+  "label": "24 December",
+  "month": 12,
+  "meal": "snack",
+  "form": "oatcakes with a topping",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "clementines"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Goat's cheese toasts with clementines and walnuts",
+  "meal": "snack",
+  "dish_form": "cheese on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a frying pan",
+   "a grater",
+   "a small bowl"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "goats-cheese",
+    "quantity": "150g",
+    "name": "soft goat's cheese"
+   },
+   {
+    "id": "clementines",
+    "quantity": "4",
+    "name": "clementines"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "30g",
+    "name": "walnuts"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "Beat the goat's cheese with the zest of one clementine, the thyme leaves and plenty of pepper.",
+   "Peel all the clementines and slice into thin rounds. Break up the walnuts.",
+   "Brush the bread with oil and toast in a frying pan for 2 minutes a side, until golden. Halve each slice.",
+   "Spread with the cheese, top with clementine and walnuts, and trickle over the honey."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

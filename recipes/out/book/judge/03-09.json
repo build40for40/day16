@@ -1,0 +1,43 @@
+{
+ "day": 68,
+ "title": "Spring greens and white beans with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Leeks, tinned beans, stock, greens, eggs, hard cheese and bread are all plain cupboard, fridge and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a wide lidded pan and a grater, and cooking eggs in dips is within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two tins of beans, 250g greens, an egg each and bread make a sensible lunch for four, with enough liquid for the eggs to poach under the lid."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to wash and slice the leeks, shred the greens and grate the cheese, and the step timings add up to roughly the 20 cook minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm pot of greens, leeks and beans suits early March, and the spring greens are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Beans, eggs and greens with bread make a filling, balanced family lunch."
+  }
+ }
+}

@@ -1,43 +1,43 @@
 {
  "day": 108,
- "title": "Puy lentil salad with radishes, orange and watercress",
+ "title": "Lentil, radish and orange salad",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or plain staple: lentils, seeds, oranges, radishes, herbs, Dijon mustard and olive oil."
+   "reason": "Lentils, oil, vinegar, mustard, seeds and fresh produce are all plain home staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Puy lentils, watercress, pumpkin seeds and the rest are on everyday Tesco shelves at normal prices."
+   "reason": "Puy lentils, pumpkin seeds and watercress are everyday lines at Tesco at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a saucepan, sieve, bowl, whisk and knife, and cutting the peel off an orange is within a beginner's reach."
+   "reason": "Needs only a saucepan, frying pan, sieve and bowl, with simple simmering, toasting and slicing."
   },
   "works": {
    "pass": true,
-   "reason": "250g dry lentils in a litre of water feeds four at lunch, and dressing them while warm with seasoned oil and orange juice gives a well-flavoured salad, though a splash of vinegar would sharpen it."
+   "reason": "200g dry puy lentils with oranges, radishes, watercress and seeds makes a sensible lunch for four, and dressing the lentils warm gives them flavour."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Toasting the seeds, slicing the onion and radishes, peeling two oranges and chopping parsley fits in about 20 minutes, and the 35-minute total is close to the simmer plus resting time."
+   "reason": "Twenty minutes covers peeling three oranges, slicing the radishes and spring onions, toasting the seeds and making the dressing, and the 25-minute cook matches the lentil simmer."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient appears in the steps, nothing unlisted is used, and the names match their ids."
+   "reason": "Every listed item, including the bay, parsley and seasoning, appears in the steps, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm lentil salad with 200g of radishes and a good bunch of watercress suits a mid-April lunch, and the radishes are a main part rather than a garnish."
+   "reason": "A fresh, peppery mid-April salad with a good 200g of sliced radishes running through it suits the date, and the radishes are a main part of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, ordered sensibly and written in plain British English without fuss."
+   "reason": "The short, clear British English instructions are easy for a beginner to follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Lentils and seeds bring protein and fibre with plenty of fresh veg and fruit, so it makes a filling lunch rather than a side salad."
+   "reason": "Lentils, seeds, fruit and greens make a filling, wholesome lunch a family would happily eat again."
   }
  }
 }

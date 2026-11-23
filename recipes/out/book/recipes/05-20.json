@@ -1,0 +1,101 @@
+{
+ "slot": {
+  "day": 140,
+  "date": "2027-05-20",
+  "label": "20 May",
+  "month": 5,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "spring-onions"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spring onion beans and mushrooms on toast",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one large frying pan",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "1 bunch",
+    "name": "spring onions"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "spinach",
+    "quantity": "100g",
+    "name": "spinach"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Fry the sliced mushrooms in the oil over a high heat for 5 minutes, until golden.",
+   "Add the sliced spring onions, keeping some green tops back, with the sliced garlic and 1 tsp paprika. Cook for 2 minutes.",
+   "Tip in the drained beans and a splash of water, crushing a few. Stir in the spinach until it wilts. Season and add a squeeze of lemon.",
+   "Pile onto hot toast and scatter with the green tops."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 25,
+  "date": "2027-01-25",
+  "label": "25 January",
+  "month": 1,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "jerusalem-artichokes",
+   "red-cabbage"
+  ],
+  "protein": "lamb-neck",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Lamb and Jerusalem artichoke pasta",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a large pan",
+   "a colander"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "rosemary",
+    "name": "rosemary"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "lamb-mince",
+    "quantity": "400g",
+    "name": "lamb mince"
+   },
+   {
+    "id": "jerusalem-artichokes",
+    "quantity": "300g",
+    "name": "Jerusalem artichokes"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "penne"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "150g",
+    "name": "cavolo nero"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan"
+   }
+  ],
+  "steps": [
+   "Brown the lamb mince in a large frying pan for 5 minutes. Put a pan of salted water on to boil.",
+   "Add the sliced artichokes, onion and garlic, the chopped rosemary and a pinch of chilli. Fry for 12 minutes until tender.",
+   "Cook the pasta, adding the shredded cavolo nero for the last 3 minutes. Drain, saving a cup of water.",
+   "Toss with the lamb, a squeeze of lemon, the grated Parmesan and a splash of water. Season."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 86 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

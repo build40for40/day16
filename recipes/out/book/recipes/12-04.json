@@ -1,0 +1,108 @@
+{
+ "slot": {
+  "day": 338,
+  "date": "2027-12-04",
+  "label": "4 December",
+  "month": 12,
+  "meal": "lunch",
+  "form": "grain bowl",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "red-cabbage",
+   "brussels-sprouts"
+  ],
+  "protein": "mussels",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Roast red cabbage bowls with spelt and smoked mackerel",
+  "meal": "lunch",
+  "dish_form": "grain bowl",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a roasting tray",
+   "a saucepan",
+   "a sieve"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "fennel-seeds",
+    "name": "fennel seeds"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "red-cabbage",
+    "quantity": "1",
+    "name": "red cabbage"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "200g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "spelt",
+    "quantity": "200g",
+    "name": "pearled spelt"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "apples",
+    "quantity": "1",
+    "name": "apple"
+   },
+   {
+    "id": "smoked-mackerel",
+    "quantity": "250g",
+    "name": "smoked mackerel"
+   },
+   {
+    "id": "horseradish",
+    "quantity": "1 tbsp",
+    "name": "horseradish sauce"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Cut the cabbage into 8 wedges. Toss on a tray with the halved sprouts, oil, fennel seeds and salt. Roast at 200°C (180°C fan) for 30 minutes, until charred at the edges.",
+   "Meanwhile, simmer the spelt in salted water for 25 minutes. Drain and toss with the vinegar and diced apple.",
+   "Top the spelt with the cabbage, sprouts and flaked mackerel. Stir the horseradish into the yoghurt, spoon over and season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

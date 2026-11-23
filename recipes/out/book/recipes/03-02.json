@@ -1,0 +1,116 @@
+{
+ "slot": {
+  "day": 61,
+  "date": "2027-03-02",
+  "label": "2 March",
+  "month": 3,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spring-greens",
+   "rhubarb"
+  ],
+  "protein": null,
+  "protein_hint": "a whole grain",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spring greens, lentil and spelt pot",
+  "meal": "lunch",
+  "dish_form": "lentil and grain pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "one large pan",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "spelt",
+    "quantity": "150g",
+    "name": "pearled spelt"
+   },
+   {
+    "id": "puy-lentils",
+    "quantity": "150g",
+    "name": "Puy lentils"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.2 litres",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "spring-greens",
+    "quantity": "300g",
+    "name": "spring greens"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "4 tbsp",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "40g",
+    "name": "vegetarian hard cheese"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large pan. Soften the sliced leeks and garlic with the thyme leaves for 5 minutes.",
+   "Stir in the rinsed spelt and lentils, then the stock. Simmer for 25 minutes, until both are just tender.",
+   "Add the shredded greens and cook for 5 minutes more, until wilted and bright.",
+   "Stir in the lemon zest and juice and a pinch of chilli. Season, then top each bowl with crème fraîche and grated cheese."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

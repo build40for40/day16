@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 239,
+  "date": "2027-08-27",
+  "label": "27 August",
+  "month": 8,
+  "meal": "breakfast",
+  "form": "pancakes or griddle cakes",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "figs"
+  ],
+  "protein": "ham",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pancakes with honeyed figs and ham",
+  "meal": "breakfast",
+  "dish_form": "pancakes",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a mixing bowl",
+   "a whisk",
+   "a large frying pan"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "wholemeal-flour",
+    "quantity": "200g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "2 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "250ml",
+    "name": "milk"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "figs",
+    "quantity": "6",
+    "name": "figs"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "ham",
+    "quantity": "8 slices",
+    "name": "cooked ham"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Whisk the flour, baking powder, a pinch of salt, the eggs and milk into a thick batter.",
+   "Melt a little butter in a frying pan. Cook spoonfuls of batter for 2 minutes a side, until puffed and golden.",
+   "Fry the halved figs cut side down in butter with the thyme leaves for 2 minutes. Add the honey.",
+   "Serve the pancakes with the ham, a spoon of yoghurt and the sticky figs."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

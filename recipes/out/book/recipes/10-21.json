@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 294,
+  "date": "2027-10-21",
+  "label": "21 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "white-cabbage"
+  ],
+  "protein": "mussels",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cider mussels and cabbage on toast",
+  "meal": "lunch",
+  "dish_form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one large lidded pan",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 35,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "mussels",
+    "quantity": "1kg",
+    "name": "mussels"
+   },
+   {
+    "id": "cider",
+    "quantity": "150ml",
+    "name": "dry cider"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "shallots",
+    "quantity": "2",
+    "name": "shallots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "white-cabbage",
+    "quantity": "½",
+    "name": "white cabbage"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "100ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Scrub the mussels, binning any open ones that won't close.",
+   "Steam in the cider in a lidded pan for 5 minutes, until open. Shell, discarding any shut, and keep the liquor.",
+   "Melt the butter in the pan. Soften the sliced shallots, garlic and shredded cabbage for 8 minutes.",
+   "Add the liquor and bubble until nearly gone. Stir in the crème fraîche, mussels and pepper. Pile onto toast with chopped parsley."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 78 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

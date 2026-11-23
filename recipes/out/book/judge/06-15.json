@@ -1,0 +1,43 @@
+{
+ "day": 166,
+ "title": "Courgette fritters with ham and eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Courgettes, spring onions, flour, cheddar, eggs, cherry tomatoes and cooked ham are all ordinary home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a sieve and a frying pan, and the fritters are simple enough for a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Three squeezed courgettes bound with 75g flour, 50g cheddar and 2 eggs is a sound fritter ratio, and with four fried eggs and ham it makes a good plate for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Grating, squeezing, mixing and frying the fritters in batches, then the eggs, fits roughly 30 active minutes, and the 10 minute salting accounts for the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the chives, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Mid-June courgettes are the body of the fritters and the clear point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper cooked breakfast of vegetables, eggs, cheese and ham that a family would happily eat."
+  }
+ }
+}

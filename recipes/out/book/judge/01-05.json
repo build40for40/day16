@@ -1,0 +1,43 @@
+{
+ "day": 5,
+ "title": "Leek, mushroom and butter bean hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Leeks, mushrooms, tinned butter beans, kale, eggs, cheddar, butter and oil are all ordinary home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and a grater, with simple frying and eggs cooked in hollows."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Three leeks, 250g mushrooms, two tins of beans, 100g kale and four eggs make a sensible hash for four, and the covered 4 minutes will set the whites."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes is believable for slicing the leeks and mushrooms, with the kale and beans readied while they fry, and the 8+3+4 minutes in the steps match the 15 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, though step 2 says 'paprika' where the list says smoked paprika, which could be tightened."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot leek-led hash with kale suits a cold January morning, and leeks are the base of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Vegetables, beans and eggs make a filling, balanced breakfast a family would happily repeat."
+  }
+ }
+}

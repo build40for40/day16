@@ -1,0 +1,43 @@
+{
+ "day": 133,
+ "title": "Mushroom and spinach eggs on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, mushrooms, garlic, spinach, eggs, bread and fresh herbs are all plain home kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and a toaster or grill, and the technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g mushrooms, 200g spinach, eight eggs and four slices of toast make a sensible breakfast for four, and the timings and heat are clear."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "About 20 minutes in total, covering slicing, frying and cooking the eggs, is believable and fits a quick pace."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and wholemeal bread matches the bread id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Mushrooms lead this warm May breakfast, with spinach and garden herbs that are in season."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, mushrooms and spinach on wholemeal toast make a filling, wholesome breakfast."
+  }
+ }
+}

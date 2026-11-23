@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 235,
+  "date": "2027-08-23",
+  "label": "23 August",
+  "month": 8,
+  "meal": "breakfast",
+  "form": "baked oats or breakfast loaf",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "blackberries"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Blackberry and almond baked oats",
+  "meal": "breakfast",
+  "dish_form": "baked oats",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a whisk",
+   "a baking dish"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "10g",
+    "name": "butter"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "400ml",
+    "name": "milk"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "vanilla-extract",
+    "quantity": "1 tsp",
+    "name": "vanilla extract"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "blackberries",
+    "quantity": "300g",
+    "name": "blackberries"
+   },
+   {
+    "id": "almonds",
+    "quantity": "30g",
+    "name": "flaked almonds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C (170°C fan) and butter a baking dish.",
+   "Whisk the eggs, milk, honey, vanilla, 1 tsp cinnamon and a pinch of salt. Stir in the oats and baking powder.",
+   "Fold in two thirds of the blackberries and tip into the dish. Scatter over the rest and the almonds.",
+   "Bake for 30 to 35 minutes, until set and golden. Serve warm with yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

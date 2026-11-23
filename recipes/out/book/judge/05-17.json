@@ -1,0 +1,43 @@
+{
+ "day": 137,
+ "title": "Cucumber, bean and dill pasta salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Dried pasta, olive oil, Dijon mustard, tinned cannellini beans and capers are all ordinary cupboard staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a sieve, a bowl and a knife, with simple boiling and chopping."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g pasta with a tin of beans, a cucumber and radishes makes a sensible lunch for four, with a well-balanced lemon and mustard dressing."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for deseeding and slicing the cucumber, slicing the radishes and spring onions, chopping the herbs and whisking the dressing, and twelve minutes matches the pasta boil."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and fusilli is a fair name for dried pasta."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A cool cucumber, radish and herb pasta salad suits a mid-May lunch, and a whole cucumber is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pasta with beans, fresh vegetables and herbs makes a filling, balanced lunch a family would happily eat again."
+  }
+ }
+}

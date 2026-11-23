@@ -1,0 +1,121 @@
+{
+ "slot": {
+  "day": 148,
+  "date": "2027-05-28",
+  "label": "28 May",
+  "month": 5,
+  "meal": "lunch",
+  "form": "fritters",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "broad-beans"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Broad bean and lentil fritters with minty yoghurt",
+  "meal": "lunch",
+  "dish_form": "fritters",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan",
+   "a large frying pan",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 45,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "red-lentils",
+    "quantity": "150g",
+    "name": "red lentils"
+   },
+   {
+    "id": "broad-beans",
+    "quantity": "1kg",
+    "name": "broad beans in pods"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "4 tbsp",
+    "name": "plain flour"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "3 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "salad-leaves",
+    "quantity": "100g",
+    "name": "salad leaves"
+   }
+  ],
+  "steps": [
+   "Simmer the lentils in 400ml water for 12 minutes, until soft and dry.",
+   "Pod and boil the beans for 3 minutes, cool, then skin and crush roughly.",
+   "Mix in the lentils, sliced spring onions, feta, eggs, flour, 1 tsp cumin, half the chopped mint and seasoning.",
+   "Fry spoonfuls in the oil until golden, 3 minutes a side.",
+   "Stir lemon and the rest of the mint into the yoghurt. Serve with the leaves."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 77 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

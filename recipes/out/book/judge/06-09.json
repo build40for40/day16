@@ -1,0 +1,43 @@
+{
+ "day": 160,
+ "title": "Lamb with peas, spring onions and mint",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food (potatoes, lamb mince, peas, spring onions, Greek yoghurt, lemon, mint, cumin, olive oil), with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "All items are everyday supermarket lines, and peas in the pod are stocked in June."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray and a small bowl, and the technique is simple roasting and stirring."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The potatoes get 35 minutes at 220°C, the crumbled mince about 20, and 1.2kg of pods yields roughly 450g of peas, which together make a sensible meal for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "The cook time of 15+12+8 minutes matches the printed 35, and podding the peas while the tray roasts plus slicing and mixing fits within about 20 active minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Freshly podded June peas with mint and new potatoes are the centre of a warm early-summer traybake."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lamb, potatoes, plenty of peas and yoghurt make a balanced, satisfying family dinner."
+  }
+ }
+}

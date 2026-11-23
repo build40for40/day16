@@ -1,0 +1,43 @@
+{
+ "day": 120,
+ "title": "Sausages, crushed new potatoes and spring greens",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Sausages, potatoes, greens, onions, butter and wholegrain mustard are all ordinary kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Everything is everyday Tesco stock, and gluten-free pork sausages are widely sold at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a saucepan and a colander, with simple boiling, frying and crushing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "8 sausages and 800g potatoes with a head of greens makes a sensible meal for four, and the timings for boiling, frying and wilting are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Halving potatoes, slicing two onions and shredding greens fits in 20 minutes, and the 25 minutes of cooking matches the 15 to 20 minute boil running alongside the sausages."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item and seasoning is used in the steps, and 'gluten-free sausages' is still pork sausages, matching the gluten-free flag."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Crushed new potatoes with spring greens is a natural late-April plate, and the potatoes are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British steps with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Sausages with potatoes, greens and onions is a proper family dinner with plenty of vegetables."
+  }
+ }
+}

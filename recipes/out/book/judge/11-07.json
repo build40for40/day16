@@ -1,0 +1,43 @@
+{
+ "day": 311,
+ "title": "Pear, cheddar and thyme scones",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, butter, cheddar, eggs, milk, pears and thyme are all plain home staples with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, grater, knife and baking tray, and rubbing in and patting out a scone round is well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The flour, butter and liquid are in sensible proportions with the pears adding moisture, a hot oven for 15 to 18 minutes suits scone wedges, and 8 wedges is right for a snack for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers rubbing in, dicing two pears, grating the cheese and shaping, and the 18-minute cook matches the bake time in the method."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including salt and the fresh thyme, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm pear and cheddar scones suit an early November afternoon, and the pears are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow without any restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Part-wholemeal scones with fruit, cheese and egg make a satisfying real-food snack that a family would happily bake again."
+  }
+ }
+}

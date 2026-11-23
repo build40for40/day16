@@ -1,0 +1,99 @@
+{
+ "slot": {
+  "day": 257,
+  "date": "2027-09-14",
+  "label": "14 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "pancakes or griddle cakes",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "peaches"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pancakes with honeyed peaches",
+  "meal": "breakfast",
+  "dish_form": "pancakes",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a mixing bowl",
+   "a whisk",
+   "a large frying pan"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "self-raising-flour",
+    "quantity": "200g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "250ml",
+    "name": "milk"
+   },
+   {
+    "id": "peaches",
+    "quantity": "4",
+    "name": "peaches"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Whisk the flour, baking powder, a pinch of salt and half the cinnamon. Beat in the eggs and milk.",
+   "Fry the peaches, cut into wedges, in a little butter with the honey and remaining cinnamon for 3 minutes, until sticky. Set aside.",
+   "Butter the pan and cook spoonfuls of batter for 2 minutes a side, until golden.",
+   "Serve with yoghurt and the warm peaches."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

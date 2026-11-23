@@ -1,0 +1,43 @@
+{
+ "day": 341,
+ "title": "Grated pear pancakes with yoghurt and honey",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, eggs, milk, butter, pears, Greek yoghurt and honey are all ordinary kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, whisk, grater and frying pan, and spooning pancakes into a pan is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g self-raising flour, two eggs, 250ml milk and two grated pears make a sensible thick batter for about a dozen pancakes, enough for four, and 2 minutes a side over a medium heat will cook them through."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Whisking, grating, slicing and frying in batches add up to roughly the 25 minutes printed, which suits a quick breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Pears are in the batter and on top, so they are the point of the dish, and warm spiced pancakes suit a December morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit-filled pancakes made with eggs and served with Greek yoghurt make a proper breakfast a family would happily eat again."
+  }
+ }
+}

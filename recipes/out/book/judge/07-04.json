@@ -1,0 +1,43 @@
+{
+ "day": 185,
+ "title": "Roast aubergine and runner bean bulgur bowls",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or a simple staple such as bulgur, tahini and feta, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Aubergines, runner beans, bulgur, tahini, Greek yoghurt and feta are all everyday Tesco lines at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a saucepan, a sieve and a grater, and uses simple roasting and boiling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two aubergines, 200g bulgur, 300g beans and 100g feta make a sensible lunch for four, and the oven temperature, timings and boil-and-drain bulgur are all clear."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers cubing the aubergines, stringing and slicing the beans, grating the garlic and making the dressing, and the 25-minute roast matches the cook time with the bulgur done alongside."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the cumin, lemon, mint and pepper (covered by 'Season'), is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm-roasted aubergine bowl with runner beans and cherry tomatoes suits early July, and the aubergine is clearly the centre of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling mix of wholegrain, vegetables, yoghurt and feta that a family would happily eat again."
+  }
+ }
+}

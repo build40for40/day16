@@ -1,0 +1,43 @@
+{
+ "day": 364,
+ "title": "Red cabbage, apple and lentil soup",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a whole food or plain staple, and vegetable stock is allowed as good stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Red cabbage, Puy lentils, crème fraîche and caraway are all everyday items at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded pan, a knife and a grater, with simple softening and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g Puy lentils, half a cabbage and 1.2 litres of stock simmered for 35 to 40 minutes gives a properly cooked, chunky soup for four, and the vinegar and caraway keep it lively."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for chopping two onions and two carrots, shredding half a cabbage and grating an apple, and 50 minutes of cooking matches the 10 minute soften plus 40 minute simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and the eating apple matches its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot, hearty red cabbage soup suits late December, and half a cabbage makes it the clear star."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no fuss or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, plenty of vegetables and a spoonful of crème fraîche make a filling, wholesome lunch."
+  }
+ }
+}

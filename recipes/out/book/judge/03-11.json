@@ -1,0 +1,43 @@
+{
+ "day": 70,
+ "title": "Apple and seed flapjacks",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, sugar, golden syrup, oats, seeds, sultanas and apples are all ordinary cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Needs only a pan, a square tin and a grater, and the technique is simple melting and mixing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The ratios suit an apple flapjack: 300g oats bound by 150g butter, sugar and syrup, baked 30 to 35 minutes at 180°C, giving 16 bars."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to grate two apples, melt, mix and press, and 35 minutes cooking matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the sultanas match the raisins-or-sultanas id, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored apples suit early March, and the grated apple runs through the bars rather than sitting on top as a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear and homely British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "An oat-based bar with fruit and seeds and modest sugar is a sensible homemade family snack."
+  }
+ }
+}

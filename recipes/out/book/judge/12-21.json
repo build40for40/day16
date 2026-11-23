@@ -1,0 +1,43 @@
+{
+ "day": 355,
+ "title": "Potato, sprout and chickpea hash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, sprouts, onion, garlic, tinned chickpeas, olive oil, thyme and smoked paprika are all plain whole foods or ordinary cupboard staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket, and sprouts are cheap and plentiful in December."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan and a colander, and the techniques are parboiling and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Parboiling the diced potatoes for 6 minutes then frying gives a sensible crisp hash, and the quantities suit four. The pan will be full by the time the sprouts and chickpeas go in, but a cook would manage."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "About 10 minutes of peeling and chopping plus about 21 minutes of stirring at the frying pan fits the 30 minutes prep. Bringing the water up and the 6-minute boil roughly matches the 10 minutes cook."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme and smoked paprika, appears in the steps, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot potato and sprout hash suits a cold morning just before Christmas, and the potatoes are clearly the base of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, sprouts and chickpeas make a filling breakfast with vegetables and pulses that a family would happily eat again."
+  }
+ }
+}

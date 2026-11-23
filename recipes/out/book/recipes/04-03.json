@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 93,
+  "date": "2027-04-03",
+  "label": "3 April",
+  "month": 4,
+  "meal": "breakfast",
+  "form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "bramley-apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Bramley apple drop scones",
+  "meal": "breakfast",
+  "dish_form": "pancakes",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a mixing bowl",
+   "a frying pan",
+   "a whisk",
+   "a grater"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "nutmeg",
+    "name": "nutmeg"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "bramley-apples",
+    "quantity": "2",
+    "name": "Bramley apples"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "self-raising-flour",
+    "quantity": "200g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "caster-sugar",
+    "quantity": "1 tbsp",
+    "name": "caster sugar"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "250ml",
+    "name": "milk"
+   },
+   {
+    "id": "butter",
+    "quantity": "20g",
+    "name": "butter"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Simmer one peeled, chopped apple with the honey and 2 tbsp water for 5 minutes, until fluffy.",
+   "Whisk the flour, baking powder, sugar and 1 tsp cinnamon. Beat in the eggs and milk.",
+   "Grate in the other peeled apple.",
+   "Melt a little butter in a frying pan. Cook spoonfuls of batter for 2 minutes a side, until golden.",
+   "Serve warm with the apple, yoghurt and a little grated nutmeg."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

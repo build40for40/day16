@@ -1,0 +1,43 @@
+{
+ "day": 156,
+ "title": "Tomato and Puy lentil pot with hake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain store cupboard staple: lentils, stock, onion, tomatoes, fish."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Hake fillets, Puy lentils, spinach and the rest are all stocked by Tesco at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "One wide lidded pan and simple simmering and steaming are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 200g lentils to 700ml stock plus 600g tomatoes cooks through in about 25 minutes, and the hake steams on top in 6 to 8 minutes, making a sound four portion lunch."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "20 minutes covers slicing an onion, chopping 600g tomatoes and the garlic, and the 5, 25 and 8 minute stages roughly match the 35 minute cook."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the paprika, basil and lemon, is used, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "The fresh tomatoes make the sauce that carries the dish, and a light fish and lentil pot suits an early June lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling plate of lentils, vegetables and fish that a family would happily eat again."
+  }
+ }
+}

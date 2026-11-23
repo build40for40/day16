@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 209,
+  "date": "2027-07-28",
+  "label": "28 July",
+  "month": 7,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "apricots"
+  ],
+  "protein": "smoked-mackerel",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Smoked mackerel toast with apricots and chives",
+  "meal": "breakfast",
+  "dish_form": "toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a fork",
+   "a grill pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 4,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "smoked-mackerel",
+    "quantity": "200g",
+    "name": "smoked mackerel"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "horseradish",
+    "quantity": "1 tbsp",
+    "name": "horseradish sauce"
+   },
+   {
+    "id": "apricots",
+    "quantity": "6",
+    "name": "ripe apricots"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "bread",
+    "quantity": "8 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Skin the mackerel and flake it into a bowl. Mash with the yoghurt, horseradish, lemon zest and half the juice. Season with pepper.",
+   "Stone and slice the apricots. Toss with the snipped chives, the oil and a squeeze of lemon.",
+   "Toast the bread under the grill until golden on both sides.",
+   "Spread thickly with the mackerel, then pile on the watercress and apricots."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

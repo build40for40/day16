@@ -1,43 +1,43 @@
 {
  "day": 186,
- "title": "Smoky turkey and peppers with parsley rice",
+ "title": "Smoky turkey and peppers with herby rice",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Rice, turkey mince, fresh vegetables, smoked paprika and parsley are all plain whole foods with nothing factory-made."
+   "reason": "Everything is a whole food or plain staple: rice, oil, turkey mince, fresh vegetables, natural yoghurt, spices and parsley."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "Needs only a lidded saucepan, a frying pan and a sieve, and uses simple frying and absorption-method rice."
+   "reason": "It needs only a frying pan, a saucepan and a sieve, and the techniques are simple boiling and frying."
   },
   "works": {
    "pass": true,
-   "reason": "300g rice to 600ml water is a sound ratio, 500g mince with three peppers suits four, and the paprika, garlic and burst tomatoes should give enough flavour and sauce."
+   "reason": "300g rice, 500g turkey and 3 peppers suit four, the spicing is enough and the boiling and frying times are sound."
   },
   "honest_times": {
    "pass": true,
-   "reason": "The prep (three peppers, an onion, garlic, 250g cherry tomatoes and parsley) plus about 20 minutes of frying fits roughly 25 minutes hands-on, with the rice cooking alongside."
+   "reason": "About 10 minutes of chopping plus roughly 15 minutes of browning and frying fits 25 minutes prep, and the rice boils in the 15 minutes cook."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Each name matches its id, every listed ingredient is used, and the water split of 600ml plus 50ml adds up to the 650ml listed."
+   "reason": "Every listed ingredient and seasoning is used, nothing unlisted appears, and each name matches its id."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Charred July peppers, cherry tomatoes and fresh parsley make a light, quick summer supper with the peppers at the centre."
+   "reason": "Three peppers fried with cherry tomatoes make a bright, quick July dinner with the peppers at its heart."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "Clear, friendly British English with useful cues such as leaving the mince alone so it browns."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Lean protein, plenty of vegetables and rice make a balanced family dinner people would happily cook again."
+   "reason": "It is a balanced family dinner of lean protein, plenty of vegetables, rice and yoghurt."
   }
  }
 }

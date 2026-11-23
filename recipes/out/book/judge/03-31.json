@@ -1,0 +1,43 @@
+{
+ "day": 90,
+ "title": "Puy lentils with trout, Savoy and apple",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple such as stock, mustard and crème fraîche, with nothing jarred or packet-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Trout fillets, Puy lentils, Savoy cabbage and the rest are everyday lines at Tesco at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a wide lidded pan, a knife and a grater for the zest, with simple simmering and steaming."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g Puy lentils in 750ml stock for 20 minutes, then 8 minutes steaming the cabbage and trout on top, gives a properly cooked, well-seasoned pot for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing two leeks, shredding half a cabbage, dicing two apples and zesting a lemon fits 20 minutes, and the 5+20+8 minutes of cooking matches the printed 30."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme and lemon, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Half a Savoy cabbage is cooked into the pot and named in the title, and a warm lentil dish suits a cool end of March."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, trout, cabbage and leeks make a filling, balanced family lunch."
+  }
+ }
+}

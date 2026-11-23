@@ -1,0 +1,43 @@
+{
+ "day": 322,
+ "title": "Jerusalem artichoke slaw on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple: yoghurt, mustard, Cheddar, walnuts, bread and fresh produce."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Jerusalem artichokes are sold seasonally by mainstream supermarkets, and the rest are everyday items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a bowl, a grater, a knife and a frying pan are needed, and thin slicing and matchsticks are within a confident beginner's skills."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Raw artichoke, carrot and apple in a lemony yoghurt dressing piled on four slices of toast with Cheddar makes a sensible snack for four, and the lemon stops the cut veg browning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers scrubbing and slicing 300g of artichokes, grating, cutting matchsticks and mixing, and ten minutes covers the rest and toasting in batches."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Jerusalem artichokes are the bulk of the slaw and the point of the dish, and warm toast with Cheddar suits a November afternoon."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with a helpful reason given for tossing the artichokes straight into the dressing."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Plenty of vegetables and fruit on wholemeal toast with cheese and walnuts makes a satisfying snack of real food."
+  }
+ }
+}

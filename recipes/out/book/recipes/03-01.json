@@ -1,0 +1,95 @@
+{
+ "slot": {
+  "day": 60,
+  "date": "2027-03-01",
+  "label": "1 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spring-onions"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spring onion scrambled eggs on toast",
+  "meal": "breakfast",
+  "dish_form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a non-stick frying pan",
+   "a whisk",
+   "a grater",
+   "a toaster"
+  ],
+  "prep_minutes": 12,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "1 bunch",
+    "name": "spring onions"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "3 tbsp",
+    "name": "milk"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "mature cheddar"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Melt most of the butter in the pan over a low heat. Soften the sliced spring onions for 2 minutes, keeping some green tops back.",
+   "Beat the eggs with the milk and a pinch of salt. Pour in and stir gently until just set but still soft.",
+   "Take off the heat, stir through the grated cheddar and season with pepper.",
+   "Toast and butter the bread. Pile on the eggs, scatter over the green tops and serve with watercress."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 80,
+ "title": "Cabbage and cheddar pasta with crispy sage",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain kitchen staple: butter, cabbage, onion, garlic, dried pasta, crème fraîche, cheddar, sage and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Everything is an everyday item at any Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a frying pan, a colander and a grater, and the techniques are simple frying and boiling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Half a cabbage, 350g pasta, 120g cheddar and crème fraîche loosened with pasta water make a well-balanced, well-seasoned dish for four, and the 15-minute fry will soften and colour the cabbage."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Shredding half a cabbage, slicing an onion and garlic, and grating cheese fit in 15 minutes, and the 15-minute cabbage fry runs alongside the pasta, which suits a quick dinner."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Penne is dried pasta and every listed item, including the sage and the lemon (used as zest), appears in the steps, with nothing unlisted apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Slow-fried white cabbage is the bulk and point of this warming pasta, which suits a chilly late-March evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a satisfying family pasta with plenty of cabbage and onion alongside cheese for protein."
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 227,
+  "date": "2027-08-15",
+  "label": "15 August",
+  "month": 8,
+  "meal": "snack",
+  "form": "quick pickle or slaw",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "chard"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pickled chard stalks with whipped feta on toast",
+  "meal": "snack",
+  "dish_form": "quick pickle on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a frying pan",
+   "a bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "chard",
+    "quantity": "250g",
+    "name": "rainbow chard"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "100ml",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "caster-sugar",
+    "quantity": "1 tbsp",
+    "name": "caster sugar"
+   },
+   {
+    "id": "feta",
+    "quantity": "200g",
+    "name": "feta"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "100g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Thinly slice the chard stalks. Warm the vinegar, sugar, 1 tsp salt and 100ml water until dissolved, then pour over the stalks with the chilli flakes. Leave for 30 minutes.",
+   "Mash the feta with the yoghurt and a splash of oil until smooth.",
+   "Shred the chard leaves and wilt in the rest of the oil for 2 minutes. Season.",
+   "Toast the bread, spread with the feta, then top with the leaves, drained stalks and torn dill."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

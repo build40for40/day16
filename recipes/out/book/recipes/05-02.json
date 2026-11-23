@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 122,
+  "date": "2027-05-02",
+  "label": "2 May",
+  "month": 5,
+  "meal": "breakfast",
+  "form": "baked oats or breakfast loaf",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "rhubarb"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Rhubarb baked oats with strawberries",
+  "meal": "breakfast",
+  "dish_form": "baked oats",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a baking dish",
+   "a mixing bowl",
+   "a whisk"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "400ml",
+    "name": "milk"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "vanilla-extract",
+    "quantity": "1 tsp",
+    "name": "vanilla extract"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "rhubarb",
+    "quantity": "300g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "strawberries",
+    "quantity": "200g",
+    "name": "strawberries"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C (170°C fan). Melt the butter in a baking dish in the oven as it heats.",
+   "Whisk the eggs, milk, honey, vanilla, 1 tsp cinnamon and a pinch of salt. Stir in the oats and baking powder.",
+   "Swirl the butter round the dish and pour in the oats. Scatter over the rhubarb, cut into short lengths.",
+   "Bake for 30 to 35 minutes, until set and golden. Serve warm with yoghurt and sliced strawberries."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

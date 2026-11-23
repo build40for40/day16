@@ -1,0 +1,43 @@
+{
+ "day": 201,
+ "title": "Aubergine, broccoli and red lentil dal",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain cupboard staple: lentils, tinned tomatoes, spices, oil and fresh vegetables."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan and a wooden spoon, and the technique is simple frying and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g red lentils with 900ml water and a tin of tomatoes simmered for 20 minutes gives a sensible dal consistency, and with two aubergines and a head of broccoli it makes a good amount for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes of prep covers chopping five vegetables plus about 11 minutes of frying, and 25 minutes of cook covers the 20-minute simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Aubergine is the bulk of the dish alongside July broccoli, and a light spiced dal suits a summer evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling, vegetable- and pulse-rich dinner a family would happily eat again."
+  }
+ }
+}

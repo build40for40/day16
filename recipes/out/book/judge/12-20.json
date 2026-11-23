@@ -1,0 +1,43 @@
+{
+ "day": 354,
+ "title": "Pork chops with creamy Jerusalem artichokes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Pork chops, vegetables, stock, crème fraîche and Dijon mustard are all ordinary kitchen foods, with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Jerusalem artichokes are a seasonal line in larger supermarkets in December, and everything else is an everyday item at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large frying pan with a lid, and browning and simmering are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Thinly sliced artichokes get about 20 minutes of frying and simmering, so they will be tender, the chops get about 12 minutes in total, and 200ml stock with 150ml crème fraîche is a sensible amount of sauce for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Scrubbing and slicing 500g of artichokes, two leeks, the kale and the sage fits roughly into 15 minutes, and the steps add up to about 25 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the sage, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A creamy pan braise suits a cold December evening, and the artichokes are the main vegetable rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pork with artichokes, leeks and kale in a creamy sauce is a proper, filling family dinner."
+  }
+ }
+}

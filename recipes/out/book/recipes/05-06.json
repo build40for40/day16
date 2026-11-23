@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 126,
+  "date": "2027-05-06",
+  "label": "6 May",
+  "month": 5,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "strawberries"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Warm strawberry and orange compote with yoghurt",
+  "meal": "breakfast",
+  "dish_form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 8,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "strawberries",
+    "quantity": "500g",
+    "name": "strawberries"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "vanilla-extract",
+    "quantity": "1/2 tsp",
+    "name": "vanilla extract"
+   },
+   {
+    "id": "almonds",
+    "quantity": "50g",
+    "name": "almonds"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "30g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "sunflower-seeds",
+    "quantity": "30g",
+    "name": "sunflower seeds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "500g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Hull and halve the strawberries. Simmer half with the orange zest and juice, honey and vanilla for 5 minutes, until jammy.",
+   "Stir in the rest of the strawberries and take off the heat.",
+   "Toast the chopped almonds and seeds in a dry pan with a pinch of cinnamon for 3 minutes, until golden.",
+   "Spoon the yoghurt into bowls. Top with the warm compote, the crunchy seeds and torn mint."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 39,
+ "title": "Cauliflower and leek quiche with a potato crust",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, leek, cauliflower, eggs, milk, butter and cheddar are all plain home ingredients with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including vegetarian cheddar, is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, frying pan, grater and whisk, and the techniques are well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Pre-baking the grated potato crust for 20 minutes and then baking the six-egg custard with part-cooked vegetables for 25 minutes should give a set, well-filled quiche for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Thirty minutes covers peeling and grating the potatoes, prepping the vegetables and frying them while the crust bakes, and the 45 minutes of cooking matches 20 plus 25 in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, nothing unlisted is used, and the 'vegetarian cheddar' label is the same food as its cheddar id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm cauliflower and leek quiche suits a February lunch, and the cauliflower is central to the filling."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, cheese, potato and two vegetables make a satisfying, balanced family lunch."
+  }
+ }
+}

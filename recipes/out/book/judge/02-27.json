@@ -1,0 +1,43 @@
+{
+ "day": 58,
+ "title": "Celeriac, lentil and barley pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or a plain staple, and vegetable stock counts as acceptable stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Celeriac, Puy lentils, pearl barley, cavolo nero and vegetarian hard cheese are all everyday lines at Tesco and similar supermarkets."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole, a knife and a grater, with simple softening and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g of barley and lentils with 1.2 litres of stock, simmered lidded for 35 minutes, plus 700g of celeriac and the greens, gives a well-cooked, properly seasoned pot for four, with a water splash allowed for."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers peeling and cubing the celeriac, chopping the onion, carrots and garlic, shredding the greens and grating the cheese, and the 35 plus 5 minutes of simmering matches the 40-minute cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme and lemon, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming celeriac and barley pot suits a cold late-February evening, and a whole 700g celeriac is the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling, vegetable-heavy pot of grains and pulses finished with cheese, which a family would happily eat again."
+  }
+ }
+}

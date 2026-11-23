@@ -1,0 +1,43 @@
+{
+ "day": 157,
+ "title": "Roast beetroot and fennel pasta with goat's cheese",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or a plain staple such as tinned chickpeas, dried pasta, walnuts and goat's cheese, with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Beetroot, fennel, chickpeas, penne, walnuts and goat's cheese are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a pan and a sieve, and the techniques are just chopping, roasting and boiling pasta."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Wedges of beetroot and fennel roast through in 35 minutes at 200°C, and 350g pasta with chickpeas, veg, walnuts and cheese makes a sensible amount for four, loosened with pasta water and lemon."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers peeling and wedging four beetroot, two fennel and an onion plus the finishing, and the pasta cooks inside the 35-minute roast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, penne is fairly labelled as dried pasta, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fennel appears three ways (roasted bulb, seeds and fronds) in a warm but light June pasta, so it is central rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family dinner with plenty of vegetables, plus chickpeas, walnuts and cheese for protein alongside the pasta."
+  }
+ }
+}

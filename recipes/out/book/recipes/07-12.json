@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 193,
+  "date": "2027-07-12",
+  "label": "12 July",
+  "month": 7,
+  "meal": "dinner",
+  "form": "big salad",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "pointed-cabbage"
+  ],
+  "protein": "plaice",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Plaice with pointed cabbage, potato and dill salad",
+  "meal": "dinner",
+  "dish_form": "big salad",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a frying pan",
+   "a big bowl"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "600g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "pointed-cabbage",
+    "quantity": "1",
+    "name": "pointed cabbage"
+   },
+   {
+    "id": "radishes",
+    "quantity": "150g",
+    "name": "radishes"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "plaice",
+    "quantity": "4",
+    "name": "plaice fillets"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "2 tbsp",
+    "name": "plain flour"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   }
+  ],
+  "steps": [
+   "Boil the halved potatoes in salted water for 15 minutes, until tender. Drain.",
+   "Toss the shredded cabbage, sliced radishes and spring onions with the lemon juice and a pinch of salt.",
+   "Stir in the potatoes, yoghurt, mustard and chopped dill.",
+   "Season the plaice, dust with flour and fry in the butter for 2 to 3 minutes a side, until golden. Serve on the salad."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

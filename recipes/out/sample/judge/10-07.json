@@ -1,43 +1,43 @@
 {
  "day": 280,
- "title": "Parsnip and red lentil dal with spinach",
+ "title": "Spiced parsnip and red lentil pot",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole or basic ingredient: vegetables, red lentils, curry powder, stock and natural yoghurt."
+   "reason": "Everything is a whole food or a fine staple: vegetable stock, tinned tomatoes, red lentils and natural yoghurt."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Parsnips, red lentils, spinach, lemon and mild curry powder are all everyday Tesco items at ordinary prices."
+   "reason": "Every ingredient is an everyday Tesco item at an ordinary price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded saucepan, a knife and a ladle, and simple frying and simmering."
+   "reason": "It needs one large pan and a wooden spoon, and the technique is simple softening and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "250g lentils to 1.2 litres of stock with 500g parsnips makes a properly loose dal for four, and a 20 to 25 minute simmer will soften both."
+   "reason": "200g red lentils and 500g parsnips in a litre of stock plus a tin of tomatoes give a thick, well-seasoned pot for four, and small parsnip cubes will be tender in 20 minutes."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Chopping one onion and 500g of parsnips, partly while the onion cooks, fits within 15 minutes hands-on, and the steps add up to roughly 40 minutes in total."
+   "reason": "Fifteen minutes covers peeling and cubing the parsnips, chopping the onion and shredding the kale, and the 25 minute cook matches 5 minutes of softening plus a 20 minute simmer."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used and matches its id, and the only unlisted item is a splash of water from the store cupboard."
+   "reason": "Every listed ingredient and seasoning, including the lemon, is used in the steps, the names match their ids and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Parsnips are the bulk and flavour of a warming dal, which suits an October lunch."
+   "reason": "A warm spiced parsnip and lentil pot suits early October, and the parsnips are the bulk and point of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "Clear, friendly British English with timings and visual cues a beginner can follow."
+   "reason": "The steps are clear, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Lentils, parsnips and spinach make a filling, vegetable-rich meal that a family would happily eat again."
+   "reason": "It is a filling meal of vegetables and pulses with a yoghurt topping that a family would happily eat again."
   }
  }
 }

@@ -1,0 +1,116 @@
+{
+ "slot": {
+  "day": 106,
+  "date": "2027-04-16",
+  "label": "16 April",
+  "month": 4,
+  "meal": "dinner",
+  "form": "risotto or grain pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "mushrooms",
+   "carrots"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Mushroom, carrot and chickpea bulgur",
+  "meal": "dinner",
+  "dish_form": "grain pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "a wide lidded pan",
+   "a grater"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 17,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "400g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "carrots",
+    "quantity": "3",
+    "name": "carrots"
+   },
+   {
+    "id": "bulgur",
+    "quantity": "250g",
+    "name": "bulgur wheat"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "600ml",
+    "name": "veg stock"
+   },
+   {
+    "id": "spinach",
+    "quantity": "100g",
+    "name": "spinach"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a wide lidded pan. Fry the sliced onion and mushrooms over a high heat for 8 minutes, until browned.",
+   "Stir in the grated carrots and 2 tsp cumin for a minute. Add the bulgur, drained chickpeas and stock.",
+   "Cover and simmer gently for 12 minutes, then take off the heat and rest for 5 minutes.",
+   "Stir in the spinach, lemon juice and chopped parsley until the spinach wilts. Season and crumble over the feta."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

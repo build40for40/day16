@@ -1,0 +1,87 @@
+{
+ "slot": {
+  "day": 351,
+  "date": "2027-12-17",
+  "label": "17 December",
+  "month": 12,
+  "meal": "snack",
+  "form": "baked or stewed fruit",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pears poached in clementine and spice",
+  "meal": "snack",
+  "dish_form": "poached fruit",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "one wide lidded pan",
+   "a small frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "cloves",
+    "name": "cloves"
+   },
+   {
+    "id": "bay",
+    "name": "bay leaf"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pears",
+    "quantity": "4",
+    "name": "pears"
+   },
+   {
+    "id": "clementines",
+    "quantity": "4",
+    "name": "clementines"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "almonds",
+    "quantity": "30g",
+    "name": "flaked almonds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "300g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Peel, halve and core the pears. Lay them cut side down in a wide pan.",
+   "Add the clementine juice, honey, ½ tsp cinnamon, 4 cloves, the bay and 200ml water. Cover and simmer for 15 to 20 minutes, until a knife slides in easily.",
+   "Lift out the pears. Bubble the juices for 5 minutes until syrupy.",
+   "Toast the almonds in a dry pan. Serve the pears warm with yoghurt, syrup and almonds."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

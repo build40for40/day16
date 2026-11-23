@@ -1,43 +1,43 @@
 {
  "day": 48,
- "title": "Kipper pâté with orange on toast",
+ "title": "Kipper and orange pâté on toast",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Kippers, crème fraîche, horseradish sauce, oranges and bread are all things a grandparent would have kept in the cupboard or fridge."
+   "reason": "Kippers, oranges, butter, crème fraîche, horseradish sauce and bread are all traditional kitchen staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Kipper fillets, crème fraîche, horseradish, oranges and wholemeal bread are all everyday-priced Tesco staples."
+   "reason": "Kipper fillets, oranges and the rest are everyday items at Tesco at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a kettle, bowls, a fork, a grater, a knife and a toaster, and the technique is easy."
+   "reason": "A kettle, a dish, a bowl and fork, and a toaster are ordinary kit, and pouring boiling water over kippers is beginner-level."
   },
   "works": {
    "pass": true,
-   "reason": "Jugging 300g kippers and mashing them with 100g crème fraîche gives plenty of well-seasoned pâté for eight slices, which suits four as a hearty snack."
+   "reason": "Five minutes in boiling water is enough for kippers, the butter and crème fraîche loosen 300g of fish into a spreadable pâté for eight slices, and the salty fish needs only pepper."
   },
   "honest_times": {
    "pass": true,
-   "reason": "A 5-minute soak, then skinning, boning, zesting, mashing and toasting fits comfortably in 15 minutes."
+   "reason": "Fifteen minutes is believable for flaking and boning the fish, peeling and slicing two oranges, mixing and toasting, and the 5-minute soak matches the cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used and matches its id, and the steps use nothing that isn't listed."
+   "reason": "Every listed ingredient and the pepper are used, the names match their ids, and nothing unlisted appears apart from boiling water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Smoky kippers with February citrus on hot toast suit a cold afternoon, and the kipper is clearly the point of the dish."
+   "reason": "February oranges appear as zest in the pâté and as a full topping of two sliced oranges, a classic pairing with winter kippers that makes the citrus central."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "It reads as clear, friendly British English with practical tips such as feeling for bones and leaving out the salt."
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Oily fish on wholemeal toast with fresh orange makes a filling snack of real food."
+   "reason": "Oily fish on wholemeal toast with fresh orange is a filling, real-food snack a family would happily make again."
   }
  }
 }

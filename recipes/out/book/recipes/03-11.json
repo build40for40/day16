@@ -1,0 +1,95 @@
+{
+ "slot": {
+  "day": 70,
+  "date": "2027-03-11",
+  "label": "11 March",
+  "month": 3,
+  "meal": "snack",
+  "form": "flapjack or oat bar",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Apple and seed flapjacks",
+  "meal": "snack",
+  "dish_form": "flapjack",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "one large pan",
+   "a 20cm square baking tin",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "150g",
+    "name": "butter"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "60g",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "golden-syrup",
+    "quantity": "3 tbsp",
+    "name": "golden syrup"
+   },
+   {
+    "id": "oats",
+    "quantity": "300g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples"
+   },
+   {
+    "id": "sunflower-seeds",
+    "quantity": "40g",
+    "name": "sunflower seeds"
+   },
+   {
+    "id": "raisins",
+    "quantity": "50g",
+    "name": "sultanas"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 180°C (160°C fan) and butter a 20cm square tin.",
+   "Melt the butter, sugar and syrup in a large pan over a low heat.",
+   "Off the heat, stir in the oats, grated apples with their skins, seeds, sultanas, 1 tsp cinnamon and a pinch of salt.",
+   "Press firmly into the tin. Bake for 30 to 35 minutes, until golden at the edges.",
+   "Cool in the tin, then cut into 16 bars."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

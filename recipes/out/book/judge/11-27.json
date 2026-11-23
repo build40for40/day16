@@ -1,0 +1,43 @@
+{
+ "day": 331,
+ "title": "Spiced parsnip and chickpea stew",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or an allowed staple such as tinned chickpeas, tinned tomatoes and vegetable stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one lidded pan, a knife and a board, and simple softening and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g parsnips, two tins of chickpeas, a tin of tomatoes and 500ml stock make a well-balanced stew for four that will be tender in 25 minutes and is seasoned with spices and lemon."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes of active work covers chopping an onion, peeling 500g of parsnips and shredding kale, and the 35 cook minutes roughly match the 25 and 5 minute simmers plus the softening."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming spiced parsnip stew suits late November, and the 500g of parsnips are the backbone of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, in plain British English, and easy for a beginner to follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling bowl of vegetables, pulses and greens that a family would happily eat again."
+  }
+ }
+}

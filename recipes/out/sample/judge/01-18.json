@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or a cupboard basic, and vegetable stock is explicitly allowed."
+   "reason": "Everything is a plain cupboard or garden staple: split peas, tinned tomatoes, stock, spices and fresh vegetables."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Yellow split peas, parsnips, purple sprouting broccoli and lemons are all everyday items at Tesco."
+   "reason": "Every ingredient is an everyday Tesco item, including the purple sprouting broccoli, which is on sale in January."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded pan, a sieve and a grater, and the technique is simple simmering."
+   "reason": "It needs only a knife, a board and one large lidded pan, and the technique is simple simmering and steaming."
   },
   "works": {
    "pass": true,
-   "reason": "250g split peas in 1.2 litres of stock simmered for about 50 minutes gives a thick stew for four, and the broccoli steams through on top in the time given."
+   "reason": "250g split peas in 1.2 litres of stock with parsnips and 300g broccoli makes a sensible stew for four, and 50 minutes' simmering with a water top-up should soften the peas."
   },
   "honest_times": {
    "pass": true,
-   "reason": "25 minutes hands-on covers chopping an onion, peeling 500g of parsnips, trimming broccoli and zesting a lemon, and the simmering times add up to about 75 minutes."
+   "reason": "Chopping two onions and three parsnips, crushing garlic and trimming the broccoli fits 20 minutes, and the steps add up to about 63 minutes against the 60 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used and matches its id, and the only unlisted item is an optional splash of water."
+   "reason": "Every listed ingredient and seasoning, including the lemon, cumin and turmeric, is used, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming pulse and parsnip stew suits mid-January, and the broccoli is a substantial 300g part of the dish rather than a garnish."
+   "reason": "A warming split pea stew suits mid-January, and 300g of purple sprouting broccoli steamed on top is a real part of the dish rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English that a beginner could follow."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Split peas, parsnips and greens make a filling, wholesome family dinner."
+   "reason": "Pulses, root vegetables and greens make a filling, wholesome family dinner."
   }
  }
 }

@@ -1,0 +1,43 @@
+{
+ "day": 261,
+ "title": "Courgette, sweetcorn and chickpea hash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is fresh vegetables, tinned chickpeas, oil, spices and herbs, with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Courgettes, corn cobs, peppers, cherry tomatoes, chickpeas and smoked paprika are everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a board and a large frying pan, and the technique is simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities are sensible for four, the steps build up in a logical order and the seasoning is lifted by paprika and lemon, though a very full pan may brown the courgettes less than promised."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for slicing the onion, pepper and courgettes, cutting the corn and halving the tomatoes, and the 4+5+3+1 minutes in the steps match the 13 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon and parsley, is used in the steps, the names match their ids and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Courgettes are the bulk of the dish alongside fresh September sweetcorn and tomatoes, which suits a mild mid-September morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner can follow, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling plate of vegetables and chickpeas with real protein and fibre, not sugar or refined starch."
+  }
+ }
+}

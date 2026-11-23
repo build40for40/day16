@@ -1,0 +1,43 @@
+{
+ "day": 79,
+ "title": "Pasta with potatoes, cavolo nero and beans",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain staple: potatoes, dried pasta, cavolo nero, olive oil, garlic, tinned beans, hard cheese and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Cavolo nero, vegetarian hard cheese and tinned cannellini beans are everyday Tesco lines at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan, a colander, a knife and a grater, and the technique is simple boiling and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g potatoes, 300g pasta, a tin of beans and 200g greens make a sensible amount for four, and 1.5cm cubes will cook alongside the pasta in 10 minutes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for peeling and cubing the potatoes, stripping the cavolo nero, slicing garlic and grating cheese, and twelve minutes matches the boil and the quick fry."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the chilli flakes, lemon and seasoning, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored potatoes and garden cavolo nero suit a chilly March lunch, and the potatoes outweigh the pasta, so they are central to the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family lunch, with beans, greens and cheese balancing the starch."
+  }
+ }
+}

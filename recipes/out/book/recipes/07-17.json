@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 198,
+  "date": "2027-07-17",
+  "label": "17 July",
+  "month": 7,
+  "meal": "snack",
+  "form": "dip with crudités",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "cucumber"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Tzatziki with garden crudités",
+  "meal": "snack",
+  "dish_form": "dip with crudités",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "no_cook",
+  "utensils": [
+   "a grater",
+   "a sieve",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "cucumber",
+    "quantity": "1",
+    "name": "cucumber"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "300g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "carrots",
+    "quantity": "3",
+    "name": "carrots"
+   },
+   {
+    "id": "peppers",
+    "quantity": "2",
+    "name": "peppers"
+   },
+   {
+    "id": "radishes",
+    "quantity": "200g",
+    "name": "radishes"
+   }
+  ],
+  "steps": [
+   "Grate half the cucumber, salt it lightly and leave in a sieve for 10 minutes. Squeeze out the water with your hands.",
+   "Stir it into the yoghurt with the crushed garlic, chopped mint and dill and a good squeeze of lemon. Season.",
+   "Spoon into a bowl, swirl over the oil and chill while you get the veg ready.",
+   "Cut the rest of the cucumber, the carrots and peppers into batons and halve the radishes. Serve around the dip."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

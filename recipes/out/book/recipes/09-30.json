@@ -1,0 +1,105 @@
+{
+ "slot": {
+  "day": 273,
+  "date": "2027-09-30",
+  "label": "30 September",
+  "month": 9,
+  "meal": "lunch",
+  "form": "tart or quiche",
+  "diet": "fish",
+  "gluten_free": true,
+  "heroes": [
+   "peppers",
+   "plums"
+  ],
+  "protein": "mackerel",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Mackerel with roast peppers, plums and potatoes",
+  "meal": "lunch",
+  "dish_form": "traybake",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 37,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "small potatoes"
+   },
+   {
+    "id": "peppers",
+    "quantity": "3",
+    "name": "red or yellow peppers"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "plums",
+    "quantity": "4",
+    "name": "plums"
+   },
+   {
+    "id": "balsamic-vinegar",
+    "quantity": "1 tbsp",
+    "name": "balsamic vinegar"
+   },
+   {
+    "id": "mackerel",
+    "quantity": "4",
+    "name": "mackerel fillets"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). On a roasting tray, toss the halved potatoes, sliced peppers and onion wedges with the oil, 1 tsp paprika, thyme leaves and salt. Roast for 25 minutes.",
+   "Add the halved, stoned plums and drizzle with the vinegar. Lay the mackerel on top, skin up, and season.",
+   "Roast for 10 to 12 minutes more, until the skin is crisp and the plums are soft.",
+   "Squeeze over the lemon and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

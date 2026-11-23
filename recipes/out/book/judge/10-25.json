@@ -1,0 +1,43 @@
+{
+ "day": 298,
+ "title": "Cauliflower, chard and feta frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food a grandparent would keep, such as eggs, feta, cauliflower, chard, garlic, olive oil and spices."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "All the items, including chard, feta and bagged rocket, are everyday lines at a mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan, a bowl and a whisk, and cooking it covered on the hob avoids any flipping or grilling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs with a small cauliflower, 200g chard and 100g feta makes a properly sized frittata for four, and the covered low-heat set is reliable."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is believable for breaking up florets, slicing garlic, prepping chard and beating eggs, and the steps add up to roughly the 20 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm cauliflower frittata suits a late October lunch, and the cauliflower is the bulk and point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English, though 'the small cauliflower florets' reads slightly awkwardly."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling, protein-rich lunch of eggs and vegetables with a salad that a family would happily make again."
+  }
+ }
+}

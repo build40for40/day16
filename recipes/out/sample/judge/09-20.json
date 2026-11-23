@@ -1,43 +1,43 @@
 {
  "day": 263,
- "title": "Baked fennel, chickpea and walnut patties",
+ "title": "Fennel, butter bean and walnut patties",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or a plain staple, such as tinned chickpeas, feta, breadcrumbs and natural yoghurt; nothing is factory-made."
+   "reason": "Everything is a whole food or plain staple, such as fennel, tinned butter beans, walnuts, feta, egg, breadcrumbs and yoghurt, with nothing factory-built."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Fennel, walnuts, feta, rocket and the rest are everyday Tesco items at ordinary prices."
+   "reason": "Every ingredient is an everyday Tesco item at a normal price, with fennel and walnuts both standard lines."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "Only a grater, masher, bowl, baking tray and fish slice are needed, and shaping patties is well within a beginner's reach."
+   "reason": "It needs only a frying pan, a bowl and a masher, and shaping and frying patties is well within a confident beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "Two tins of chickpeas bound with an egg, breadcrumbs and feta make eight sensible patties for four, and 25 minutes at 200C fan should crisp them without drying them out."
+   "reason": "Two tins of beans bound with egg and 60g crumbs gives eight firm patties for four, all the filling is already cooked so 4 minutes a side is enough, and the salty feta and lemon keep it well seasoned."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Grating and squeezing one fennel bulb, mashing, mixing, shaping eight patties and stirring the yoghurt fits about 20 minutes, with 25 minutes in the oven making 45 in total."
+   "reason": "Twenty minutes of prep covers chopping, mashing, shaping and the salad, and 15 minutes of cooking matches 5 minutes softening the fennel plus 8 minutes frying, which suits a quick dinner."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used, the oil adds up to 3 tbsp across the steps, and nothing appears in the steps that is not listed."
+   "reason": "Every listed ingredient and seasoning appears in the steps, the fronds come from the listed fennel, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm baked patty with salad suits mid-September, and the fennel is the named star, used both in the patties and through the fronds."
+   "reason": "Fennel appears twice, cooked in the patties and raw in the salad, which makes it the clear point of a warm September supper alongside late tomatoes."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear and practical in British English, with no restaurant language or preaching."
+   "reason": "The steps are short, plain British instructions, and 'shave' is the only slightly chef-like word, which most cooks will read as slicing thinly."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Chickpeas, feta, egg, walnuts, fennel and a rocket salad make a filling, balanced vegetarian dinner that a family would cook again."
+   "reason": "Bean and walnut patties with a fresh fennel and tomato salad and yoghurt make a filling, balanced vegetarian dinner a family would happily repeat."
   }
  }
 }

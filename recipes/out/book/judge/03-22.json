@@ -1,0 +1,43 @@
+{
+ "day": 81,
+ "title": "Orange and apple crumble",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, flour, oats, hazelnuts, sugar, oil and cinnamon are all plain home-kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a baking dish, a bowl, a knife and a grater or zester are needed, and rubbing in a crumble is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Three oranges and two Bramleys under a 215g oat and hazelnut topping, baked at 190°C for 30 to 35 minutes, gives a sensible crumble for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers zesting and peeling the oranges, peeling and slicing the apples, chopping the nuts and rubbing the topping, and the 35-minute cook time matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, nothing unlisted is used, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm crumble suits a chilly late-March afternoon, and the oranges lead the filling and the title alongside stored Bramleys."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no fuss."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is mostly fruit, oats and nuts with modest added sugar, a real-food treat a family would happily make again."
+  }
+ }
+}

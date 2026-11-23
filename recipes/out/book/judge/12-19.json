@@ -1,0 +1,43 @@
+{
+ "day": 353,
+ "title": "Parsnip and sprout hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole, everyday food, with no jars, stock pots or packet products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Potatoes, parsnips, sprouts, red onion, eggs, butter, thyme and smoked paprika are all cheap Tesco staples in December."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and simple frying, well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Covering the diced roots for 12 minutes, then frying uncovered for 8, cooks them through and crisps them, and four eggs over about 1.1kg of veg feeds four at lunch."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "18 minutes is fair for peeling and dicing the roots, slicing an onion and shredding 200g of sprouts, and the cook steps add up to exactly 27 minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm parsnip and sprout hash suits a cold week before Christmas, and parsnip leads the title and the pan."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Root veg, sprouts and an egg each make a filling, balanced lunch that a family would cook again."
+  }
+ }
+}

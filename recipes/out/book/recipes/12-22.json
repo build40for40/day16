@@ -1,0 +1,117 @@
+{
+ "slot": {
+  "day": 356,
+  "date": "2027-12-22",
+  "label": "22 December",
+  "month": 12,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "celeriac",
+   "mushrooms"
+  ],
+  "protein": "whiting",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Celeriac and butter bean pot with pollock",
+  "meal": "lunch",
+  "dish_form": "bean pot",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a wide lidded casserole",
+   "a sieve"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "celeriac",
+    "quantity": "600g",
+    "name": "celeriac"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "500ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "3 tbsp",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   },
+   {
+    "id": "pollock",
+    "quantity": "4",
+    "name": "pollock fillets"
+   }
+  ],
+  "steps": [
+   "Fry the sliced onion and mushrooms in the oil for 8 minutes, until golden. Stir in the crushed garlic and thyme.",
+   "Add the peeled, cubed celeriac, drained beans and stock. Cover and simmer for 15 minutes, until the celeriac is tender.",
+   "Stir in the crème fraîche and shredded kale. Lay the seasoned pollock on top, cover and cook for 6 to 8 minutes, until it flakes.",
+   "Finish with a squeeze of lemon and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

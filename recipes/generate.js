@@ -18,7 +18,7 @@ const judgeFailures = new Map(
     .filter(([, failures]) => failures.length),
 );
 const todo = options.fix
-  ? [...existing.values()].filter((page) => judgeFailures.has(page.slot.day)).map((page) => page.slot)
+  ? [...existing.values()].filter((page) => judgeFailures.has(page.slot.day) && (!options.days || options.days.includes(page.slot.day))).map((page) => page.slot)
   : chosen(plan(), options).filter((slot) => options.force || !existing.has(slot.day));
 const system = recipeSystem();
 
@@ -26,10 +26,11 @@ console.log(`Writing ${todo.length} pages into the "${options.set}" set with ${M
 
 await pool(todo, options.concurrency, async (slot) => {
   const taken = [...existing.values()]
-    .filter((page) => page.slot.day !== slot.day && page.slot.heroes[0] === slot.heroes[0])
+    .filter((page) => page.slot.day !== slot.day && (page.slot.heroes[0] === slot.heroes[0] || page.slot.meal === slot.meal))
     .map((page) => page.recipe.title);
   let rejected = options.fix ? { recipe: existing.get(slot.day).recipe, failures: judgeFailures.get(slot.day) } : undefined;
   let page;
+  const rejections = [];
   for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
     let recipe;
     try {
@@ -39,8 +40,9 @@ await pool(todo, options.concurrency, async (slot) => {
       continue;
     }
     const failures = hardChecks(recipe, slot);
-    page = { slot, recipe, attempts: attempt, failures, model: MODEL };
+    page = { slot, recipe, attempts: attempt, rejections, failures, model: MODEL };
     if (!failures.length) break;
+    rejections.push(failures.map((failure) => failure.message));
     rejected = { recipe, failures };
   }
   if (!page) return console.log(`${slot.label}: no page written`);

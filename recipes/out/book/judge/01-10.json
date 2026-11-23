@@ -1,0 +1,43 @@
+{
+ "day": 10,
+ "title": "Roast Jerusalem artichoke, haddock and spelt bowls",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple: artichokes, onion, spelt, kale, haddock, Greek yoghurt, hazelnuts, oil, thyme and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Jerusalem artichokes, pearled spelt and haddock fillets are all stocked by mainstream supermarkets in January at everyday prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a saucepan and a sieve, with simple roasting and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Thirty minutes at 200°C suits halved artichokes, ten minutes cooks the fillets, and 200g spelt with four fillets feeds four properly."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers scrubbing and halving the artichokes, cutting the onion, tearing the kale and zesting the lemon, and the 35 minutes cook time fits the 20 plus 10 minutes of roasting while the spelt simmers alongside."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including thyme and lemon, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm roast bowl suits a January lunch, and the artichokes are the main vegetable rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, without restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, wholegrain spelt, kale and root vegetables with yoghurt make a filling, balanced meal."
+  }
+ }
+}

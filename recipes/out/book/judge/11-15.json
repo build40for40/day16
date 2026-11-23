@@ -1,0 +1,43 @@
+{
+ "day": 319,
+ "title": "Chard and mushroom hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food: potatoes, onion, mushrooms, garlic, chard, eggs, butter, oil and simple seasonings."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is an everyday mainstream supermarket buy, and chard is in season in November."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan and a lidded frying pan, and boiling, frying and cooking eggs under a lid suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Parboiling 700g of potatoes before frying, adding the chard stalks before the leaves and steaming four eggs under a lid gives a sensible, well-seasoned hash for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Dicing and slicing plus turning the hash fits roughly 25 active minutes, and the boiling and covered egg time roughly matches the 20 minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, including salt in the cooking water, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot potato and chard hash suits a mid-November morning, and 300g of chard, stalks and leaves, makes it central rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English instructions a neighbour would give."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, vegetables and an egg each make a filling, wholesome breakfast a family would happily repeat."
+  }
+ }
+}

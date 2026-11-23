@@ -1,0 +1,108 @@
+{
+ "slot": {
+  "day": 69,
+  "date": "2027-03-10",
+  "label": "10 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "traybake",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "watercress",
+   "kale"
+  ],
+  "protein": null,
+  "protein_hint": "nuts or seeds",
+  "kit": "one_tray",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Halloumi traybake with watercress pesto",
+  "meal": "dinner",
+  "dish_form": "traybake",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "potatoes"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "6 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "halloumi",
+    "quantity": "250g",
+    "name": "halloumi"
+   },
+   {
+    "id": "kale",
+    "quantity": "150g",
+    "name": "kale"
+   },
+   {
+    "id": "watercress",
+    "quantity": "200g",
+    "name": "watercress"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "30g",
+    "name": "veggie hard cheese"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Roast the cubed potatoes and onion wedges in 2 tbsp oil and salt for 25 minutes.",
+   "Add the sliced halloumi and torn kale, drizzle with 1 tbsp oil and roast for 10 minutes, until golden.",
+   "Finely chop half the watercress with the walnuts and garlic. Stir in the grated cheese, lemon juice and remaining oil.",
+   "Pile the rest of the watercress over the tray, season and spoon over the pesto."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

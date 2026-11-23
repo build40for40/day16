@@ -1,0 +1,116 @@
+{
+ "slot": {
+  "day": 332,
+  "date": "2027-11-28",
+  "label": "28 November",
+  "month": 11,
+  "meal": "dinner",
+  "form": "fishcakes or patties",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "celery"
+  ],
+  "protein": "plaice",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Plaice and celery fishcakes with apple slaw",
+  "meal": "dinner",
+  "dish_form": "fishcakes",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan with a lid",
+   "a frying pan",
+   "a masher"
+  ],
+  "prep_minutes": 40,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "floury potatoes"
+   },
+   {
+    "id": "plaice",
+    "quantity": "400g",
+    "name": "plaice fillets"
+   },
+   {
+    "id": "celery",
+    "quantity": "6",
+    "name": "celery sticks"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "breadcrumbs",
+    "quantity": "60g",
+    "name": "breadcrumbs"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "3 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tsp",
+    "name": "wholegrain mustard"
+   }
+  ],
+  "steps": [
+   "Boil the peeled, chunked potatoes for 15 minutes. Lay the plaice on top, cover and steam for 5 minutes. Drain.",
+   "Soften 2 chopped celery sticks in the butter. Mash in the potatoes, flaked fish, chopped parsley and lemon zest. Season.",
+   "Shape 8 cakes, coat in the crumbs and fry in the oil for 4 minutes a side, until golden.",
+   "Toss the remaining celery and apples, sliced, with the yoghurt, mustard and lemon juice."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 82 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

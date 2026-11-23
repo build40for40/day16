@@ -1,0 +1,43 @@
+{
+ "day": 254,
+ "title": "Linguine with mussels and celeriac",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain staple such as butter, wine, crème fraîche and dried pasta."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Netted fresh mussels, celeriac, linguine and crème fraîche are all everyday supermarket buys at modest prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large pan, a lidded wide pan and a colander, and cleaning mussels is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g pasta with 1kg mussels and 400g celeriac is a sensible lunch for four, and the timings for the diced celeriac and the steamed mussels are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers scrubbing the mussels, peeling and dicing the celeriac and chopping the shallots, and 15 minutes fits the pasta boil and the steaming."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Linguine is fairly listed as dried pasta, and every listed ingredient and seasoning appears in the steps with nothing extra."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Mussels returning in September, alongside a generous 400g of new-season celeriac, make a fitting early-autumn lunch with the celeriac as a main component."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, practical British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Shellfish, vegetable and pasta in a light creamy sauce make a proper, appealing family meal."
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 119,
+  "date": "2027-04-29",
+  "label": "29 April",
+  "month": 4,
+  "meal": "lunch",
+  "form": "salad",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "salad-leaves",
+   "radishes"
+  ],
+  "protein": "chicken-thighs",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Warm chicken, new potato and radish salad",
+  "meal": "lunch",
+  "dish_form": "salad",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a roasting tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "600g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "chicken-thighs",
+    "quantity": "8",
+    "name": "boneless chicken thighs"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "salad-leaves",
+    "quantity": "200g",
+    "name": "salad leaves"
+   },
+   {
+    "id": "radishes",
+    "quantity": "1 bunch",
+    "name": "radishes"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes and chicken on a tray with 2 tbsp oil, the thyme and salt.",
+   "Roast for 35 to 40 minutes, turning once, until the chicken is golden and cooked through.",
+   "Slice the chicken. Stir the mustard, vinegar and remaining oil into the hot tray juices and potatoes.",
+   "Toss in the leaves, sliced radishes and spring onions. Top with chicken and snipped chives. Season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 114,
+ "title": "Quick pickled cauliflower with cheddar toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a basic staple: cauliflower, carrot, shallots, cider vinegar, sugar, spices, bread and cheddar."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board, small pan, bowl or jar and a toaster or grill, with simple slicing and warming."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350ml of brine suits one small cauliflower with a carrot, 30 minutes gives a crisp quick pickle, and 4 cheddar toasts make a fair snack for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers cutting the veg, warming the brine, toasting and slicing the cheese, and the 30 unattended minutes match the pickling step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, nothing unlisted appears apart from water, and 'wholemeal bread' matches the bread id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Garden cauliflower is the bulk and the point of the pickle, which suits a late April afternoon."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with cheddar and a pile of pickled vegetables is a satisfying, real-food snack."
+  }
+ }
+}

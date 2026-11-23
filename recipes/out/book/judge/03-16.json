@@ -1,0 +1,43 @@
+{
+ "day": 75,
+ "title": "Jacket potatoes with split pea dal and spring greens",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain tin and dried pulse, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Baking potatoes, yellow split peas, tinned tomatoes, spring greens and the spices are everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking tray and one large pan, using simple baking and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g split peas in 900ml water with a tin of tomatoes simmered for 50 minutes gives a thick dal that suits four jacket potatoes, and the spices, salt and lemon season it properly."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers chopping an onion and garlic, shredding greens and prepping potatoes, and the 75-minute cook matches the 1¼-hour bake, with the dal fitting inside it."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and only water is added unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "300g of spring greens wilted through a warming dal on a jacket potato is a substantial part of the dish and right for a cool mid-March lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, pulses and a good portion of greens make a filling, wholesome meal a family would happily eat again."
+  }
+ }
+}

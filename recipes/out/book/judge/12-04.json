@@ -1,0 +1,43 @@
+{
+ "day": 338,
+ "title": "Roast red cabbage bowls with spelt and smoked mackerel",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a whole food or a traditional condiment; horseradish sauce and smoked mackerel are long-standing British larder items."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Red cabbage, sprouts, pearled spelt, smoked mackerel, horseradish and Greek yoghurt are all everyday Tesco lines at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a saucepan and a sieve, and the techniques are simple roasting and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight cabbage wedges with sprouts at 200°C for 30 minutes, 200g spelt simmered for 25 minutes, and 250g mackerel make a sensible, well-seasoned lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers wedging the cabbage, halving 200g of sprouts, dicing an apple and flaking the fish, and the 30-minute roast matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roast red cabbage is the centre of a warm December lunch bowl, with sprouts and apple alongside it."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling mix of wholegrain, two vegetables, oily fish and yoghurt that a family would happily eat."
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "slot": {
+  "day": 234,
+  "date": "2027-08-22",
+  "label": "22 August",
+  "month": 8,
+  "meal": "snack",
+  "form": "baked or stewed fruit",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "plums"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Baked plums with oat and almond crumbs",
+  "meal": "snack",
+  "dish_form": "baked fruit",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a baking dish",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "plums",
+    "quantity": "8",
+    "name": "plums"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "2 tbsp",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "oats",
+    "quantity": "60g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "almonds",
+    "quantity": "40g",
+    "name": "almonds"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "2 tbsp",
+    "name": "sunflower oil"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Halve and stone the plums and sit them cut side up in a baking dish.",
+   "Squeeze over the lemon juice, then dust with half the cinnamon and 1 tbsp of the sugar.",
+   "Mix the oats, chopped almonds, oil, remaining sugar and cinnamon with a pinch of salt. Scatter over.",
+   "Bake for 20 to 25 minutes, until the plums are soft and the top is golden. Eat warm or cold."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

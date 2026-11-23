@@ -1,0 +1,43 @@
+{
+ "day": 60,
+ "title": "Spring onion scrambled eggs on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, eggs, milk, cheddar, bread, spring onions and watercress are all plain home staples with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A frying pan, whisk, grater and toaster are ordinary kit, and scrambling eggs is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs, four slices of toast and a bunch of spring onions make a sensible breakfast for four, and gentle low-heat scrambling with cheese stirred in off the heat will come out soft and well seasoned."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twelve minutes covers slicing the onions, grating the cheese, beating the eggs and toasting, and five minutes matches the 2-minute soften plus a quick scramble."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Spring onions are in season in March, star in the title and are both cooked into the eggs and scattered on top, which suits a warm breakfast."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English that a neighbour would follow easily."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, cheese, wholemeal toast and watercress make a proper protein-rich breakfast a family would happily repeat."
+  }
+ }
+}

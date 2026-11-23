@@ -1,0 +1,43 @@
+{
+ "day": 48,
+ "title": "Savoy cabbage and kipper muffins",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain kitchen staple: kippers, cabbage, flour, eggs, milk, cheddar, butter and mustard."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Kipper fillets, Savoy cabbage and the baking staples are all everyday items at Tesco at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A muffin tin, frying pan and mixing bowl are common household kit, and simple mix-and-bake muffins suit a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g self-raising flour, 2 eggs and 200ml milk, plus the buttery cabbage, make a sensible batter for 12 savoury muffins; 20 minutes at 200°C cooks the flaked kipper through, and the kipper and cheese give enough salt."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is tight but believable for shredding a quarter cabbage, flaking two kippers, grating cheese and filling the tin, and the 20-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Savoy cabbage leads the title and runs through every muffin, which suits a warm baked snack in mid-February."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "The muffins combine oily fish, egg, cheese and greens in a filling savoury snack rather than refined starch alone."
+  }
+ }
+}

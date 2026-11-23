@@ -17,109 +17,96 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Carrot and butter bean soup with cumin",
-  "intro": "Stored carrots grow sweeter through December, and blended with creamy butter beans they make a thick, warming lunch for the busy days before Christmas.",
+  "title": "Carrot, butter bean and orange soup",
   "meal": "lunch",
   "dish_form": "soup",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "large saucepan with lid",
-   "stick blender",
-   "peeler"
+   "one heavy pan",
+   "a stick blender",
+   "a grater"
   ],
-  "hands_on_minutes": 15,
-  "total_minutes": 35,
-  "serves": 4,
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
   "best_time": "midday",
   "freezes": true,
-  "ingredients": [
+  "seasoning": [
    {
-    "id": "pumpkin-seeds",
-    "name": "Pumpkin seeds",
-    "quantity": "3 tbsp",
-    "prep": ""
+    "id": "rosemary",
+    "name": "rosemary"
    },
    {
-    "id": "olive-oil",
-    "name": "Olive oil",
-    "quantity": "2 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "onions",
-    "name": "Onion",
-    "quantity": "1",
-    "prep": "chopped"
-   },
-   {
-    "id": "garlic",
-    "name": "Garlic",
-    "quantity": "2 cloves",
-    "prep": "sliced"
-   },
-   {
-    "id": "carrots",
-    "name": "Carrots",
-    "quantity": "800g",
-    "prep": "peeled and thinly sliced"
-   },
-   {
-    "id": "cumin",
-    "name": "Ground cumin",
-    "quantity": "2 tsp",
-    "prep": ""
-   },
-   {
-    "id": "butter-beans",
-    "name": "Tinned butter beans",
-    "quantity": "2 x 400g tins",
-    "prep": "drained"
-   },
-   {
-    "id": "vegetable-stock",
-    "name": "Vegetable stock",
-    "quantity": "1.2 litres",
-    "prep": ""
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
    },
    {
     "id": "salt",
-    "name": "Salt",
-    "quantity": "to taste",
-    "prep": ""
+    "name": "salt"
    },
    {
     "id": "black-pepper",
-    "name": "Black pepper",
-    "quantity": "to taste",
-    "prep": ""
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "30g",
+    "name": "pumpkin seeds"
    },
    {
-    "id": "lemons",
-    "name": "Lemon",
-    "quantity": "1/2",
-    "prep": "juiced"
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "carrots",
+    "quantity": "600g",
+    "name": "carrots"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1 litre",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
    },
    {
     "id": "natural-yoghurt",
-    "name": "Natural yoghurt",
     "quantity": "4 tbsp",
-    "prep": ""
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Toast the pumpkin seeds in a dry large saucepan over a medium heat for 2 to 3 minutes, until they start to pop. Tip them into a bowl.",
-   "Add the oil, onion and garlic to the pan and cook for 5 minutes, stirring now and then, until the onion is soft.",
-   "Stir in the carrots and cumin and cook for 2 minutes, until the spice smells toasty.",
-   "Add the butter beans and stock with a good pinch of salt. Bring to the boil, cover and simmer for 15 to 20 minutes, until the carrots are soft enough to squash with a spoon.",
-   "Take off the heat and blend with a stick blender until smooth. Add a splash of water if it is too thick.",
-   "Stir in the lemon juice, then season with salt and pepper to taste.",
-   "Ladle into bowls and top with a spoonful of yoghurt and the toasted seeds."
-  ],
-  "tip": "Keeps for 3 days in the fridge or 3 months in the freezer. Freeze it before adding the yoghurt and seeds."
+   "Toast the seeds in a dry heavy pan until they pop, then tip out. Warm the oil and soften the chopped onion for 5 minutes.",
+   "Add the sliced garlic and carrots, a chopped sprig of rosemary, the drained beans and stock. Simmer for 20 minutes, until the carrots are soft.",
+   "Add the orange zest and juice and blend until smooth. Season.",
+   "Serve with a swirl of yoghurt, the seeds and a pinch of chilli."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

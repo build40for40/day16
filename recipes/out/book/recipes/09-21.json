@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 264,
+  "date": "2027-09-21",
+  "label": "21 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "baked oats or breakfast loaf",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "grapes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Baked oats with grapes and apple",
+  "meal": "breakfast",
+  "dish_form": "baked oats",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a baking dish",
+   "a mixing bowl",
+   "a whisk",
+   "a grater"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "500ml",
+    "name": "milk"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "apples",
+    "quantity": "1",
+    "name": "apple"
+   },
+   {
+    "id": "grapes",
+    "quantity": "300g",
+    "name": "red grapes"
+   },
+   {
+    "id": "almonds",
+    "quantity": "30g",
+    "name": "flaked almonds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C (170°C fan). Rub a baking dish with a little of the butter, then melt the rest.",
+   "Whisk the eggs, milk, honey, melted butter, 1 tsp cinnamon and a pinch of salt. Stir in the oats, baking powder and grated apple.",
+   "Tip into the dish. Scatter over the halved grapes and the almonds, pressing some grapes in.",
+   "Bake for 30 to 35 minutes, until set and golden. Serve warm with yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 215,
+  "date": "2027-08-03",
+  "label": "3 August",
+  "month": 8,
+  "meal": "dinner",
+  "form": "fishcakes or patties",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "aubergine"
+  ],
+  "protein": "lamb-neck",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Lamb patties with roast aubergine and minted yoghurt",
+  "meal": "dinner",
+  "dish_form": "patties",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "one_tray",
+  "utensils": [
+   "a roasting tray",
+   "a mixing bowl",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 33,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "aubergine",
+    "quantity": "2",
+    "name": "aubergines"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "lamb-mince",
+    "quantity": "500g",
+    "name": "lamb mince"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "250g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "bread",
+    "quantity": "1 loaf",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the cubed aubergines and onion wedges with the oil, 2 tsp cumin and salt on a tray. Roast for 15 minutes.",
+   "Mix the lamb with the grated garlic, half the chopped mint and pepper. Shape into 12 small patties.",
+   "Add the patties and tomatoes to the tray. Roast for 15 to 18 minutes, until the lamb is cooked through.",
+   "Stir the rest of the mint and a squeeze of lemon into the yoghurt. Serve with the bread."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

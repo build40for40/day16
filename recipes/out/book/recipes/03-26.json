@@ -1,0 +1,95 @@
+{
+ "slot": {
+  "day": 85,
+  "date": "2027-03-26",
+  "label": "26 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "bramley-apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Bircher oats with stewed Bramley and hazelnuts",
+  "meal": "breakfast",
+  "dish_form": "bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a mixing bowl",
+   "a small pan",
+   "a frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 480,
+  "time_note": "oats soaked overnight",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "300ml",
+    "name": "milk"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "200g",
+    "name": "natural yoghurt"
+   },
+   {
+    "id": "raisins",
+    "quantity": "50g",
+    "name": "sultanas"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "bramley-apples",
+    "quantity": "2",
+    "name": "Bramley apples"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   }
+  ],
+  "steps": [
+   "Stir the oats, milk, yoghurt, sultanas and the orange zest and juice in a bowl. Cover and chill overnight.",
+   "Peel, core and chop the Bramleys. Simmer with the honey, a pinch of cinnamon and 2 tbsp water for 8 to 10 minutes, until they collapse. Cool and chill.",
+   "In the morning, toast the chopped hazelnuts in a dry pan until golden.",
+   "Spoon the oats into bowls, top with the Bramley and scatter over the nuts."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

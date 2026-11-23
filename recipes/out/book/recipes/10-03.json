@@ -1,0 +1,115 @@
+{
+ "slot": {
+  "day": 276,
+  "date": "2027-10-03",
+  "label": "3 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "fritters",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "turnips",
+   "figs"
+  ],
+  "protein": "pork-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Turnip and pork fritters with figs",
+  "meal": "lunch",
+  "dish_form": "fritters",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a grater",
+   "a mixing bowl",
+   "a tea towel",
+   "a large frying pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "sage",
+    "name": "sage"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "turnips",
+    "quantity": "400g",
+    "name": "turnips"
+   },
+   {
+    "id": "pork-mince",
+    "quantity": "250g",
+    "name": "pork mince"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "4 tbsp",
+    "name": "plain flour"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
+   },
+   {
+    "id": "figs",
+    "quantity": "4",
+    "name": "figs"
+   },
+   {
+    "id": "rocket",
+    "quantity": "100g",
+    "name": "rocket"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "balsamic-vinegar",
+    "quantity": "1 tbsp",
+    "name": "balsamic vinegar"
+   }
+  ],
+  "steps": [
+   "Peel and grate the turnips, toss with a pinch of salt and leave for 10 minutes. Squeeze dry in a tea towel.",
+   "Mix with the pork, sliced spring onions, chopped sage, eggs, flour and plenty of pepper.",
+   "Heat the sunflower oil in a large frying pan. Fry flattened spoonfuls in two batches for 4 to 5 minutes a side, until golden and cooked through.",
+   "Toss the rocket and quartered figs with the olive oil and balsamic. Serve with the hot fritters."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

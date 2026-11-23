@@ -1,0 +1,84 @@
+{
+ "slot": {
+  "day": 318,
+  "date": "2027-11-14",
+  "label": "14 November",
+  "month": 11,
+  "meal": "snack",
+  "form": "baked or stewed fruit",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "clementines"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Honey roast clementines and pears with yoghurt",
+  "meal": "snack",
+  "dish_form": "baked fruit",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a roasting tray",
+   "a sharp knife"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "clementines",
+    "quantity": "6",
+    "name": "clementines"
+   },
+   {
+    "id": "pears",
+    "quantity": "3",
+    "name": "pears"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "butter",
+    "quantity": "15g",
+    "name": "butter"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "40g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "300g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Peel the clementines and slice into thick rounds. Core the pears and cut into wedges.",
+   "Toss the fruit in a roasting tray with the honey, a good pinch of cinnamon and 3 tbsp water. Dot with the butter.",
+   "Roast for 20 minutes, scattering the roughly chopped hazelnuts on top for the last 5, until the pears are soft and sticky.",
+   "Spoon the warm fruit and juices over bowls of yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

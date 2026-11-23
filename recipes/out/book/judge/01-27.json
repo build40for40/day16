@@ -1,0 +1,43 @@
+{
+ "day": 27,
+ "title": "Mushroom and trout hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, onion, mushrooms, trout, eggs, oil, thyme and lemon are all plain whole foods a grandparent would keep."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Trout fillets, mushrooms and the rest are everyday items at any big supermarket at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and simple frying, steaming and egg-cracking that a beginner can manage."
+  },
+  "works": {
+   "pass": true,
+   "reason": "800g potatoes steamed then fried, with mushrooms, two flaked trout fillets and four eggs, gives a sound, well-seasoned hash for four that will cook through as written."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes to cube the potatoes and slice the onion and mushrooms is fair, and the 15+10+5 minutes in the steps roughly match the 30 printed, with a few minutes extra for the eggs."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including thyme and lemon, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot mushroom hash with eggs suits a cold late-January morning, and the 300g of mushrooms is a main part of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, mushrooms, onion, trout and eggs make a filling, balanced breakfast a family would happily eat again."
+  }
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 76,
+  "date": "2027-03-17",
+  "label": "17 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "risotto or grain pot",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "watercress",
+   "celeriac"
+  ],
+  "protein": "whole-chicken",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Green watercress risotto with chicken and celeriac",
+  "meal": "dinner",
+  "dish_form": "risotto",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a wide heavy pan",
+   "a ladle"
+  ],
+  "prep_minutes": 40,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "chicken-thighs",
+    "quantity": "6",
+    "name": "boneless chicken thighs"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "celeriac",
+    "quantity": "½ small",
+    "name": "celeriac"
+   },
+   {
+    "id": "watercress",
+    "quantity": "200g",
+    "name": "watercress"
+   },
+   {
+    "id": "risotto-rice",
+    "quantity": "300g",
+    "name": "risotto rice"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "1.2 litres",
+    "name": "chicken stock"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan"
+   }
+  ],
+  "steps": [
+   "Brown the diced chicken in the oil for 5 minutes. Add the sliced leeks, finely diced celeriac and chopped watercress stalks. Soften for 5 minutes.",
+   "Stir in the rice and thyme. Add the stock a ladle at a time, stirring, for 20 minutes, until the rice is just tender.",
+   "Stir in the chopped watercress leaves until wilted and bright green.",
+   "Beat in the butter, grated Parmesan and a squeeze of lemon. Season and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 161,
+ "title": "Trout and ricotta dip with roast cherry tomatoes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain dairy staple: trout, ricotta, fresh veg, herbs, lemon and olive oil."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Trout fillets, ricotta, cherry tomatoes and the crudité veg are everyday lines at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a bowl, a fork and a knife, and the techniques are roasting, flaking and mashing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two trout fillets mashed into 250g ricotta with 400g roast tomatoes and three vegetables for dipping is a sensible snack for four, and the 200°C timings will cook the fish through without burning the tomatoes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is a fair estimate for slicing garlic, zesting, snipping chives, mashing and cutting the veg into sticks, and 25 minutes of cooking matches 10 plus 12 minutes of roasting and a short cool."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used in the steps, including the thyme, lemon, chives and the cucumber, radishes and carrots as the 'veg', and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A light dip with roast cherry tomatoes and crudités suits a June afternoon, and 400g of tomatoes spooned over the top is a main component, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is real food with fish, cheese and plenty of vegetables, and is a snack a family would happily eat again."
+  }
+ }
+}

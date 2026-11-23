@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 54,
+  "date": "2027-02-23",
+  "label": "23 February",
+  "month": 2,
+  "meal": "lunch",
+  "form": "jacket or loaded potato",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "swede"
+  ],
+  "protein": "smoked-mackerel",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Swede and potato hash with smoked mackerel",
+  "meal": "lunch",
+  "dish_form": "hash",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan",
+   "a large frying pan with a lid"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "swede",
+    "quantity": "600g",
+    "name": "swede"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "400g",
+    "name": "potatoes"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   },
+   {
+    "id": "smoked-mackerel",
+    "quantity": "250g",
+    "name": "smoked mackerel"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150ml",
+    "name": "crème fraîche"
+   }
+  ],
+  "steps": [
+   "Boil the peeled, cubed swede and potatoes in salted water for 8 minutes. Drain well.",
+   "Fry in the oil with the sliced onion and thyme in a large pan for 15 minutes, until crisp at the edges.",
+   "Stir in the shredded kale and flaked mackerel. Make four hollows, crack in the eggs, cover and cook for 5 minutes.",
+   "Season. Serve with the crème fraîche stirred with a squeeze of lemon."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

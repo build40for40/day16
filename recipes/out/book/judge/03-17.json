@@ -1,0 +1,43 @@
+{
+ "day": 76,
+ "title": "Green watercress risotto with chicken and celeriac",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a cupboard staple, including chicken stock, Parmesan and butter, with no jars, packets or substitutes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Chicken thighs, leeks, celeriac, watercress, risotto rice and Parmesan are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a wide pan and a ladle, and ladling stock into a risotto is well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g rice to 1.2 litres of stock with six thighs and 200g watercress is a sound ratio for four, and the chicken cooks through over the 30 minutes in the pan."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Dicing the chicken, peeling and dicing the celeriac, slicing the leeks, then 30 minutes of stirring adds up to roughly the 45 minutes printed in total, which is believable for a standard risotto."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, including the thyme and the lemon, and nothing outside the lists appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming risotto suits a mid-March evening, and the watercress is used generously, stalks cooked in and leaves wilted through, so it gives the dish its colour and flavour."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow, with no restaurant language or health preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner with chicken, two vegetables, greens and rice, finished with a little butter and cheese."
+  }
+ }
+}

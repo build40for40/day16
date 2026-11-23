@@ -1,0 +1,103 @@
+{
+ "slot": {
+  "day": 80,
+  "date": "2027-03-21",
+  "label": "21 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "white-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "cheese",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Cabbage and cheddar pasta with crispy sage",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a wide frying pan",
+   "a colander",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "sage",
+    "name": "sage"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "50g",
+    "name": "butter"
+   },
+   {
+    "id": "white-cabbage",
+    "quantity": "½",
+    "name": "white cabbage"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "penne"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "120g",
+    "name": "mature cheddar"
+   }
+  ],
+  "steps": [
+   "Melt the butter in a wide frying pan. Fry the sage leaves until crisp, then lift out.",
+   "Add the shredded cabbage, sliced onion and garlic with a pinch of salt. Fry for 15 minutes, stirring now and then, until soft and golden.",
+   "Meanwhile, boil the pasta in salted water. Save a mug of the water, then drain.",
+   "Stir in the pasta, crème fraîche, grated cheddar, lemon zest and a splash of the water until glossy. Season and top with the sage."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

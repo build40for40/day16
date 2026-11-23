@@ -1,0 +1,43 @@
+{
+ "day": 34,
+ "title": "Clementine and carrot breakfast loaf",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, oats, eggs, yoghurt, oil, honey, clementines and carrots are all plain home-kitchen ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A loaf tin, bowl, whisk and grater are ordinary kit, and stirring a quick bread is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 300g of dry ingredients balance the eggs, yoghurt, oil, honey, juice and grated carrot for a moist loaf, and 50 to 55 minutes at 180°C suits a 900g tin."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers zesting, juicing, grating two carrots, slicing a clementine and mixing, and the 55-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Clementines are at their best in early February, and their zest, juice and sliced topping make them the point of the loaf."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal flour, oats, eggs, yoghurt and carrot with modest honey make a filling breakfast loaf rather than a cake."
+  }
+ }
+}

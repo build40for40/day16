@@ -1,0 +1,43 @@
+{
+ "day": 112,
+ "title": "Pollock with butter beans and radishes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple; vegetable stock and tinned butter beans are explicitly allowed."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pollock fillets, butter beans, leeks, radishes and crème fraîche are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one wide lidded pan and simple softening, simmering and steaming that a beginner can manage."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two tins of beans, 300ml stock and four fillets steamed for 8 to 10 minutes give a properly cooked, well-sauced dish for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers slicing leeks, garlic and radishes and snipping chives, and 8+5+10 minutes plus wilting matches the 25 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm April bean pot with 300g of radishes, used both cooked and raw, makes the radishes central rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, beans and greens make a filling, balanced lunch a family would happily eat again."
+  }
+ }
+}

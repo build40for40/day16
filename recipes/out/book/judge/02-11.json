@@ -1,0 +1,43 @@
+{
+ "day": 42,
+ "title": "Bramley and rhubarb compote with oat crunch",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Apples, rhubarb, orange, sugar, golden syrup, oats, seeds, nuts and oil are all plain cupboard or garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Bramleys, forced rhubarb, oranges, oats, pumpkin seeds and hazelnuts are all everyday items at a mainstream UK supermarket in February."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded saucepan and a frying pan, and the techniques are simple stewing and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "About a kilo of fruit stewed in its own juice and the orange juice, plus about 170g of toasted crunch, gives a sensible breakfast for four, sweetened enough by the sugar and syrup."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and chopping three Bramleys, cutting the rhubarb, zesting the orange and chopping the nuts fits in 15 minutes, and 12 minutes of stewing matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, the names match their ids, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm Bramley compote with early forced rhubarb suits a February morning, and the apple is clearly the base of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Stewed fruit with oats, seeds and nuts is a real-food breakfast with modest added sugar that a family would happily eat again."
+  }
+ }
+}

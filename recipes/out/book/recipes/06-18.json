@@ -1,0 +1,100 @@
+{
+ "slot": {
+  "day": 169,
+  "date": "2027-06-18",
+  "label": "18 June",
+  "month": 6,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "cherry-tomatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Cherry tomato eggs with spinach and feta",
+  "meal": "breakfast",
+  "dish_form": "pan baked eggs",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large frying pan with a lid"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "500g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "spinach",
+    "quantity": "100g",
+    "name": "spinach"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large frying pan. Soften the sliced spring onions and garlic for 2 minutes.",
+   "Add the halved tomatoes and a pinch of chilli flakes. Cook for 8 minutes, until they burst and turn jammy. Stir in the spinach to wilt. Season.",
+   "Make eight hollows, crack in the eggs, cover and cook for 5 to 6 minutes, until the whites set.",
+   "Crumble over the feta, tear over the basil and serve from the pan."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

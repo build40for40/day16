@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 316,
+  "date": "2027-11-12",
+  "label": "12 November",
+  "month": 11,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "turnips",
+   "pumpkin"
+  ],
+  "protein": null,
+  "protein_hint": "a whole grain",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Golden turnip and pumpkin penne",
+  "meal": "lunch",
+  "dish_form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a wide frying pan",
+   "a large saucepan",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "rosemary",
+    "name": "rosemary"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "turnips",
+    "quantity": "600g",
+    "name": "turnips"
+   },
+   {
+    "id": "pumpkin",
+    "quantity": "250g",
+    "name": "pumpkin"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "wholemeal penne"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "50g",
+    "name": "veggie hard cheese"
+   }
+  ],
+  "steps": [
+   "Fry the diced turnips and pumpkin in the oil in a wide pan for 12 to 15 minutes, turning, until golden and tender.",
+   "Meanwhile boil the penne. Drain, keeping a mug of the water.",
+   "Add the sliced garlic and chopped rosemary to the veg for 1 minute.",
+   "Toss in the pasta, butter, grated cheese, lemon zest and a splash of pasta water. Season and scatter with chopped parsley."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "Parsley belongs in the seasoning list, with any amount given in the method."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

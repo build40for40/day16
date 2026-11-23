@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 46,
+  "date": "2027-02-15",
+  "label": "15 February",
+  "month": 2,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "brussels-sprouts",
+   "parsnips"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Brussels sprout, parsnip and split pea soup",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large heavy pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 55,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "parsnips",
+    "quantity": "2",
+    "name": "parsnips"
+   },
+   {
+    "id": "split-peas",
+    "quantity": "200g",
+    "name": "yellow split peas"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.5 litres",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "500g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   }
+  ],
+  "steps": [
+   "Soften the chopped onion in the oil for 8 minutes. Add the sliced garlic, diced parsnips, rinsed split peas, thyme and stock.",
+   "Cover and simmer for 45 minutes, until the peas are soft and starting to collapse.",
+   "Stir in the finely sliced sprouts and simmer for 5 to 6 minutes, until tender but still bright green.",
+   "Stir in the mustard and a squeeze of lemon. Season well and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

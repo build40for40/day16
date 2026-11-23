@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 141,
+  "date": "2027-05-21",
+  "label": "21 May",
+  "month": 5,
+  "meal": "lunch",
+  "form": "salad",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "broad-beans",
+   "asparagus"
+  ],
+  "protein": "chicken-drumsticks",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Chicken salad with broad beans and asparagus",
+  "meal": "lunch",
+  "dish_form": "warm salad",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a frying pan",
+   "a saucepan",
+   "a small bowl"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 12,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "paprika",
+    "name": "paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "tarragon",
+    "name": "tarragon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "chicken-breast",
+    "quantity": "3",
+    "name": "chicken breasts"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "broad-beans",
+    "quantity": "1kg",
+    "name": "broad beans in pods"
+   },
+   {
+    "id": "asparagus",
+    "quantity": "250g",
+    "name": "asparagus"
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "radishes",
+    "quantity": "150g",
+    "name": "radishes"
+   },
+   {
+    "id": "watercress",
+    "quantity": "100g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Rub the halved chicken breasts with 1 tbsp oil, the paprika and salt. Fry for 4 to 5 minutes a side, until cooked through.",
+   "Pod the beans and boil with the trimmed asparagus for 3 minutes. Drain.",
+   "Whisk the remaining oil with the mustard, lemon juice and chopped tarragon. Season.",
+   "Toss with the sliced radishes, watercress and dressing. Top with the sliced chicken."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 70 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

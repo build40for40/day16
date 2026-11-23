@@ -1,0 +1,43 @@
+{
+ "day": 266,
+ "title": "Warm kale, apple and gammon salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every item is a plain whole food or a traditional condiment such as wholegrain mustard, cider vinegar and honey."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Gammon steaks, kale, apples, walnuts and the rest are everyday items at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a frying pan and a bowl, and massaging kale and frying gammon are simple techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "750g potatoes, 200g kale and four gammon steaks make a sensible dinner for four, with a balanced dressing and clear timings."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers halving potatoes, shredding kale, slicing apple and onion, massaging and frying the gammon, and 15 minutes matches the potato boil."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, nothing unlisted appears apart from water, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm kale salad with new-season apples suits late September, and the massaged kale is the base of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling plate of potatoes, greens, fruit, nuts and gammon that a family would happily eat again."
+  }
+ }
+}

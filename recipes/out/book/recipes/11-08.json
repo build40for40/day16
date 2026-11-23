@@ -1,0 +1,105 @@
+{
+ "slot": {
+  "day": 312,
+  "date": "2027-11-08",
+  "label": "8 November",
+  "month": 11,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "grapes"
+  ],
+  "protein": "bacon",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cheese and bacon scones with grape compote",
+  "meal": "breakfast",
+  "dish_form": "scones with fruit compote and yoghurt",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a frying pan",
+   "a mixing bowl",
+   "a baking tray",
+   "a small pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 18,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "bacon",
+    "quantity": "4 rashers",
+    "name": "smoked streaky bacon"
+   },
+   {
+    "id": "self-raising-flour",
+    "quantity": "250g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "butter",
+    "quantity": "50g",
+    "name": "cold butter"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "75g",
+    "name": "grated cheddar"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "150g",
+    "name": "natural yoghurt"
+   },
+   {
+    "id": "milk",
+    "quantity": "2 tbsp",
+    "name": "milk"
+   },
+   {
+    "id": "grapes",
+    "quantity": "400g",
+    "name": "red grapes"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "300g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Fry the snipped bacon until crisp.",
+   "Rub the butter into the flour. Mix in the bacon, most of the cheese, the natural yoghurt and milk.",
+   "Pat into a round on a lined tray, cut into 8 wedges and top with the last of the cheese. Bake for 15 to 18 minutes until golden.",
+   "Simmer the halved grapes, honey, a pinch of cinnamon and a squeeze of lemon for 10 minutes until jammy. Serve over Greek yoghurt with the scones."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

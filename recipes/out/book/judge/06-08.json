@@ -1,0 +1,43 @@
+{
+ "day": 159,
+ "title": "Chard and courgette frittata with toasted seeds",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Eggs, fresh vegetables, cheese, seeds, oil and herbs are all plain whole foods a grandparent would keep."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including chard, vegetarian hard cheese and pumpkin seeds, is an everyday mainstream supermarket line."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded non-stick frying pan and a grater, and covering the pan to set a frittata is a beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs with about 600g of vegetables makes a properly set frittata for four, and the low, covered cook of 12 to 15 minutes suits it."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers the grating and chopping, which can overlap the frying, and the 15-minute cook matches the covered setting time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including mint and lemon zest, appears in the steps and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm chard and courgette frittata suits an early-June lunch, and the chard is a main vegetable rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British English steps with no restaurant jargon or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, cheese, seeds and plenty of greens make a satisfying, protein-rich family lunch."
+  }
+ }
+}

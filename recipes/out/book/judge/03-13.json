@@ -1,0 +1,43 @@
+{
+ "day": 72,
+ "title": "Mushroom and leek soup with pollock",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a standard cupboard staple: butter, vegetables, stock, milk, fish and bread."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Leeks, mushrooms, potatoes, pollock and crusty bread are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan, a knife and a spoon to crush the potatoes."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The amounts suit four (500g mushrooms, 300g potatoes, 1 litre stock plus 200ml milk, 400g pollock) and the timings give soft potatoes and just-cooked fish."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing the leeks and mushrooms, dicing the potatoes and frying for 13 minutes fits roughly in 25 minutes of active work, and the 20 minutes of simmering sits within the 25 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears apart from water, and 'pollock fillets' matches its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming, chunky soup suits mid-March, and 500g of mushrooms fried golden is clearly the heart of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, potatoes and plenty of vegetables with bread make a filling, wholesome family lunch."
+  }
+ }
+}

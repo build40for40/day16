@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 284,
+  "date": "2027-10-11",
+  "label": "11 October",
+  "month": 10,
+  "meal": "dinner",
+  "form": "stew or casserole",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "swede"
+  ],
+  "protein": "pork-shoulder",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pork, swede and cider casserole",
+  "meal": "dinner",
+  "dish_form": "casserole",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large lidded casserole"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 110,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "sage",
+    "name": "sage"
+   },
+   {
+    "id": "bay",
+    "name": "bay leaves"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pork-shoulder",
+    "quantity": "800g",
+    "name": "pork shoulder"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "1 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "2",
+    "name": "onions"
+   },
+   {
+    "id": "swede",
+    "quantity": "1",
+    "name": "swede"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "cider",
+    "quantity": "300ml",
+    "name": "dry cider"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "300ml",
+    "name": "chicken stock"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples"
+   }
+  ],
+  "steps": [
+   "Brown the diced pork in the oil in a casserole, in batches. Lift out.",
+   "Soften the sliced onions for 5 minutes. Stir in the chunked swede and carrots, the sage and bay.",
+   "Return the pork with the mustard, cider and stock. Cover and simmer gently for 1 hour 30 minutes.",
+   "Add the apples in wedges and cook uncovered for 20 minutes, until the pork is tender. Season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,118 @@
+{
+ "slot": {
+  "day": 345,
+  "date": "2027-12-11",
+  "label": "11 December",
+  "month": 12,
+  "meal": "breakfast",
+  "form": "baked oats or breakfast loaf",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "bramley-apples"
+  ],
+  "protein": "ham",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Savoury baked oats with ham, leek and Bramley",
+  "meal": "breakfast",
+  "dish_form": "baked oats",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a baking dish",
+   "a mixing bowl",
+   "a whisk",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 45,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "leeks",
+    "quantity": "1",
+    "name": "leek"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "eggs",
+    "quantity": "3",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "400ml",
+    "name": "milk"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "ham",
+    "quantity": "150g",
+    "name": "cooked ham"
+   },
+   {
+    "id": "bramley-apples",
+    "quantity": "2",
+    "name": "Bramley apples"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "80g",
+    "name": "Cheddar"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Roast the sliced leek with the butter in a baking dish for 10 minutes.",
+   "Whisk the eggs, milk, mustard, thyme leaves, salt and pepper.",
+   "Stir in the oats, baking powder, diced ham, peeled grated apples and most of the grated Cheddar.",
+   "Pour over the leeks, top with the rest of the cheese and bake for 30 to 35 minutes, until set and golden."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 82 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

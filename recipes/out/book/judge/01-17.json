@@ -1,0 +1,43 @@
+{
+ "day": 17,
+ "title": "Warm roast turnip and lentil salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple: turnips, onions, lentils, kale, walnuts, mustard, vinegar, oil and an orange."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including Puy lentils and walnuts, is on the shelf at Tesco at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a saucepan, a sieve and a fork or whisk for the dressing, and nothing beyond beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g turnips with 200g Puy lentils, kale and walnuts makes a sensible lunch for four, and 30 minutes at 200°C will tenderise turnip wedges while the lentils simmer alongside."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for peeling and wedging the turnips, slicing the onions, tearing the kale and making the dressing, and the 35-minute cook covers the roasting tray with the lentils simmering alongside."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm roast turnip salad suits a mid-January lunch, and the turnips are clearly the centre of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Roast vegetables, lentils, kale and walnuts make a filling, balanced lunch a family would happily eat again."
+  }
+ }
+}

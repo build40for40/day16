@@ -1,0 +1,43 @@
+{
+ "day": 306,
+ "title": "Squash and split pea soup with cumin",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Onion, garlic, split peas, squash, stock and spices are all ordinary home cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one large pan and a stick blender for soup, both allowed."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g split peas, 800g squash and 1.5 litres of stock simmered for 50 minutes makes a sensible thick soup for four, and the skin-on squash softens enough to blend."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The page was asked to be quick, but the steps need 50 minutes of simmering, so it is over an hour from start to bowl."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming squash soup suits early November, and the squash is the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Squash and split peas make a filling, wholesome soup that a family would happily eat."
+  }
+ }
+}

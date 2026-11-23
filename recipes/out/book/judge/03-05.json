@@ -1,0 +1,43 @@
+{
+ "day": 64,
+ "title": "Cauliflower, parsnip and bacon hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bacon, vegetables, eggs, oil, herbs and smoked paprika are all ordinary home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Small florets and diced parsnip fried for 25 minutes will cook through and colour, and the eggs set under the lid, giving a sensible amount for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is believable for peeling and dicing three parsnips, breaking up a cauliflower and slicing an onion, and the steps add up to 35 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm cauliflower and parsnip hash suits early March, and the cauliflower is central to it."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Plenty of vegetables plus bacon and eggs make a satisfying family lunch."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 249,
+ "title": "Sweetcorn and cheddar muffins",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, butter, eggs, milk, cheddar, fresh corn, spring onions and chives are all plain home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Sweetcorn cobs are cheap and plentiful in September, and everything else is an everyday supermarket item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A 12-hole muffin tin, bowl, small pan and grater are ordinary kit, and mixing muffins is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g self-raising flour, 2 eggs, 200ml milk and 75g butter is a sound ratio for 12 muffins, and fresh kernels from 2 cobs will cook through in 20 to 22 minutes at 200°C, giving three muffins each for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers stripping the cobs, grating, slicing, melting and mixing, and the 22 minute cook time matches the bake in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and the step's '1 tsp paprika' clearly refers to the listed smoked paprika, though it could say 'smoked paprika' to match."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh sweetcorn in early September is at its peak and is the backbone of these muffins."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Cheese, eggs and plenty of corn make these a filling homemade snack rather than a sugary one."
+  }
+ }
+}

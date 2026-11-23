@@ -1,0 +1,43 @@
+{
+ "day": 240,
+ "title": "Potato, bacon and cherry tomato frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bacon, eggs, potatoes, onion, cheddar, tomatoes, basil and salad leaves are all ordinary home kitchen and garden food."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only an ovenproof frying pan, a bowl, a whisk and the grill, and the method is simple for a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs, 500g potatoes and six rashers make a sensible frittata for four, and the covered potato cooking, gentle set and short grill finish are well judged."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing the potatoes and onion, chopping the bacon, halving the tomatoes and whisking the eggs fits in 20 minutes, and the steps add up to about 32 minutes of cooking, close to the 35 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the oil, basil and salad, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm frittata with 250g of cherry tomatoes and basil, served with salad, suits a late-August lunch, and the tomatoes are a substantial part of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, potatoes, bacon, tomatoes and salad make a filling, balanced family lunch."
+  }
+ }
+}

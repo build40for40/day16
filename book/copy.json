@@ -1,0 +1,86 @@
+{
+  "title": "Seasoned",
+  "wordmark": "seasoned",
+  "subtitle": "A European Year of Cooking, One Day at a Time",
+  "authors": ["Benjamin Bourdin", "Lawrence Kao", "Samira Sohail"],
+  "copyright": {
+    "line": "Copyright © 2026 40 for 40 Ltd.",
+    "rights": "All rights reserved. No part of this book may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.",
+    "isbn": "ISBN 978-1-291-41537-7",
+    "imprint": "Imprint: Lulu.com",
+    "note_heading": "A note on the recipes",
+    "note": [
+      "These recipes are for everyday cooking. They are not medical or dietary advice, and they don't replace advice from a doctor or dietitian.",
+      "If you have an allergy, an intolerance or a health condition, check every ingredient and the label on anything you buy. Recipes may contain nuts, gluten, dairy, eggs, fish and other common allergens. This is true even where an ingredient isn't obviously listed, so always check.",
+      "Cook meat, fish and eggs thoroughly, and follow the usual food safety advice. Cooking times, costs and hands-on times are a guide, because ovens and prices vary.",
+      "The authors and publisher can't accept responsibility for any reaction, illness or loss that results from following these recipes."
+    ],
+    "edition": "First edition, 2026."
+  },
+  "how_to_read": {
+    "heading": "How to read a page",
+    "lead": "Every page is one day and one recipe, and every page is laid out the same way, so you always know where to look.",
+    "items": [
+      ["The date", "The big number is today. The small line under it counts the days of the year, from 1 to 365."],
+      ["The line down the edge", "That is the year. The dot is today, and the dark part is how far through you are. The four small pictures are winter, spring, summer, autumn and winter again."],
+      ["The picture", "What you are aiming for, more or less."],
+      ["Under the title", "What to get out of the cupboard, then how long it takes: the total first, then how much of that is you and how much is the oven."],
+      ["Ingredients", "What to buy. Every recipe feeds four."],
+      ["Seasoning", "Salt, pepper, herbs and spices live in their own list, because you probably have them already. Amounts are in the method where they matter."],
+      ["Method", "A handful of steps. Read them all once before you start."]
+    ]
+  },
+  "introduction": {
+    "heading": "Introduction",
+    "paragraphs": [
+      "Nobody cuts out ultra processed food overnight. You try. You read a label in the supermarket, feel guilty, put it in the basket anyway and go home.",
+      "This book started with that guilt. Ritika brought it to us as a problem: she wanted to cook with fewer ultra processed things and more of what is in season, and she wanted it to be easy. We thought about apps, games and scoreboards. Then we made the least techy thing we could, a book that sits in the kitchen.",
+      "The idea is small on purpose. One recipe a day. Each one uses what is in season that week, a normal supermarket, a normal kitchen and not much of your attention. Do that for a year and you have cooked 365 real meals without once having to decide what real food is.",
+      "You will miss days. Everyone does. There is no catching up and no streak to protect. Open the book at today's date and cook that one."
+    ],
+    "rules_heading": "The rules we cooked by",
+    "rules": [
+      ["Would your gran know it?", "If an ingredient would baffle a grandparent's cupboard, it is not in here."],
+      ["One supermarket.", "Everything is on the shelves of a big, ordinary one."],
+      ["A basic kitchen.", "A pan, a tray, a knife. No gadgets."],
+      ["In season.", "If it is not growing or storing well this month, it waits."],
+      ["Feeds four.", "Every recipe, every time."],
+      ["Short on work.", "Most of the time on the clock is the oven or the pan doing it for you."]
+    ],
+    "made_heading": "How this book was made",
+    "made": [
+      "Seasoned was built in a single day, live on Twitch, as day 16 of 40 for 40. The recipes were written with AI. Every one was then checked against the rules above and read by a second AI whose only job is to be picky. The pictures are painted by AI too.",
+      "We have not cooked all 365 ourselves yet. If one lets you down, tell us and we will fix it."
+    ]
+  },
+  "index_ingredients_heading": "Index by ingredient",
+  "index_ingredients_lead": "The fresh things, and the days they turn up.",
+  "index_meals_heading": "Index by meal",
+  "acknowledgements": {
+    "heading": "Acknowledgements",
+    "paragraphs": [
+      "This book began as a problem posed by Ritika: ultra processed food guilt. Thank you to everyone on the 40 for 40 team and the Twitch viewers who helped shape the idea, the recipes and the name."
+    ]
+  },
+  "about": {
+    "heading": "About the authors",
+    "paragraphs": [
+      "Benjamin Bourdin, Lawrence Kao and Samira Sohail make 40 for 40: forty apps in forty days, built live on Twitch from London with guests who have never built software before.",
+      "Seasoned is day 16. It is the only one of the forty you can put on a shelf.",
+      "build40for40.com"
+    ]
+  },
+  "more": {
+    "heading": "Want more?",
+    "paragraphs": [
+      "Seasoned is the first book in the series. Tell us what you'd like next: 365 lunches, a daily dinner, and more.",
+      "Join the waitlist:",
+      "build40for40.com/day16/"
+    ]
+  },
+  "notes": {
+    "heading": "Your notes",
+    "lead": "Space for your own tweaks, swaps and favourites.",
+    "pages": 3
+  }
+}

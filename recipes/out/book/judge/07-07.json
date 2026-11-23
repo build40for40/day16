@@ -1,0 +1,43 @@
+{
+ "day": 188,
+ "title": "Ricotta toast with honeyed gooseberries",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Gooseberries, honey, ricotta, almonds, vanilla, lemon, mint and wholemeal bread are all plain home ingredients with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Gooseberries are on supermarket shelves in July, and ricotta, flaked almonds and wholemeal bread are everyday items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan, a frying pan and a grater, and simmering fruit and toasting nuts are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g gooseberries with 3 tbsp honey makes a tart-sweet compote, and 250g ricotta spread over 8 slices of toast is a sensible breakfast for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "15 minutes of active work covers topping and tailing 300g gooseberries, toasting the almonds and bread, and beating the ricotta, and the 8 minute simmer matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the lemon zest and the mint, is used in the steps, and 'flaked almonds' and 'wholemeal bread' honestly match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Gooseberries are at their peak in early July and the warm compote is the centre of a light summer breakfast."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with ricotta, fruit and nuts gives a balanced breakfast with protein, and the honey is moderate across four portions."
+  }
+ }
+}

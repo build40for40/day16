@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 72,
+  "date": "2027-03-13",
+  "label": "13 March",
+  "month": 3,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "mushrooms",
+   "oranges"
+  ],
+  "protein": "pollock",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Mushroom and leek soup with pollock",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "one large pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "500g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "300g",
+    "name": "potatoes"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1 litre",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "milk",
+    "quantity": "200ml",
+    "name": "milk"
+   },
+   {
+    "id": "pollock",
+    "quantity": "400g",
+    "name": "pollock fillets"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Melt the butter in a large pan. Soften the sliced leeks and garlic for 5 minutes.",
+   "Add the sliced mushrooms and thyme leaves. Fry for 8 minutes until golden.",
+   "Add the diced potatoes and stock. Simmer for 15 minutes, then crush a few potatoes to thicken.",
+   "Stir in the milk, add the pollock in chunks and simmer gently for 5 minutes, until it flakes.",
+   "Season, scatter with parsley and serve with bread."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

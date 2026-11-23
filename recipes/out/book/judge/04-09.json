@@ -1,0 +1,43 @@
+{
+ "day": 99,
+ "title": "Rhubarb and almond squares",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Rhubarb, butter, sugar, eggs, ground and flaked almonds, orange and ginger are all plain cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard supermarket line, and 200g of ground almonds is an everyday baking cost."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a square tin, a bowl, a wooden spoon and a grater, and creaming by hand is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 150g butter, 125g sugar, 3 eggs and 200g ground almonds make a sound flourless frangipane that bakes through in a 20cm tin at 180°C in 40 to 45 minutes, and 12 squares is right for a family snack."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is realistic for chopping rhubarb, zesting an orange and creaming by hand, and the 45 minute cook matches the bake time in the method."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the orange as zest and the ground ginger, appears in the steps, and flaked almonds are honestly the almonds id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Rhubarb is at its peak in early April and is pressed over the whole top as the point of the traybake."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a sensible afternoon snack built mainly on almonds, eggs and fruit rather than mostly sugar or refined flour."
+  }
+ }
+}

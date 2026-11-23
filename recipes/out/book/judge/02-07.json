@@ -1,0 +1,43 @@
+{
+ "day": 38,
+ "title": "Apple and Cheddar rösti with fried eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, apples, eggs, cornflour, Cheddar, oil and thyme are all ordinary kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a tea towel, a bowl and a frying pan, and grating, squeezing and frying are within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six hundred grams of squeezed potato with two apples, bound with an egg and cornflour, makes enough flat cakes for four, and frying each side for 4 to 5 minutes over a medium heat will cook them through, with one fried egg each."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Grating, squeezing and frying in batches fits believably within the printed 40 minutes in total."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Each name matches its id, every listed item, including the thyme and oil, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored apples grated through a hot potato rösti suit a February morning, and the apple is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potato, apple, cheese and eggs make a filling, proper breakfast that a family would want again."
+  }
+ }
+}

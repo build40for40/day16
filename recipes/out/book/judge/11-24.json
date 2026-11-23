@@ -1,0 +1,43 @@
+{
+ "day": 328,
+ "title": "Chicken and cavolo nero pie with turnip mash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or a staple such as butter, cornflour, stock, crème fraîche and cheddar, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Turnips, leeks, chicken breast, cavolo nero, crème fraîche and cheddar are all everyday lines at Tesco at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan, a masher, a baking dish and a grater, with simple boiling, softening and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g chicken under 1kg of mash suits four, 1 tbsp cornflour is enough to thicken 500ml of liquid, and the diced chicken cooks through over the simmer and the 25-minute bake at 200°C."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "35 minutes covers peeling and chopping 1kg of roots, prepping the leeks, chicken and cavolo nero, mashing and the hob work, and 15 minutes boiling plus 25 minutes baking matches the 40 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme, cheddar and cornflour, appears in the steps, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot chicken pie suits late November, and the turnips make up half the mash topping and are named in the title, so they are a main part of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The four steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family pie with lean chicken, leeks, greens and a part-turnip mash, the kind of dinner people would happily make again."
+  }
+ }
+}

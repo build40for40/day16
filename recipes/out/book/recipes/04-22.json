@@ -1,0 +1,114 @@
+{
+ "slot": {
+  "day": 112,
+  "date": "2027-04-22",
+  "label": "22 April",
+  "month": 4,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "radishes"
+  ],
+  "protein": "pollock",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pollock with butter beans and radishes",
+  "meal": "lunch",
+  "dish_form": "bean pot",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one wide lidded pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "300ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "radishes",
+    "quantity": "300g",
+    "name": "radishes"
+   },
+   {
+    "id": "pollock",
+    "quantity": "4",
+    "name": "pollock fillets"
+   },
+   {
+    "id": "spinach",
+    "quantity": "100g",
+    "name": "spinach"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "2 tbsp",
+    "name": "crème fraîche"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a wide lidded pan. Soften the sliced leeks, garlic and thyme with a pinch of salt for 8 minutes.",
+   "Add the drained beans, stock and two thirds of the radishes, halved. Simmer for 5 minutes.",
+   "Season the pollock and sit it on top. Cover and cook for 8 to 10 minutes, until it flakes.",
+   "Tuck in the spinach and crème fraîche to wilt. Finish with lemon, chives and the last radishes, sliced."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

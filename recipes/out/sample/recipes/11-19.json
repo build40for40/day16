@@ -17,89 +17,78 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Grape and apple bircher with hazelnuts",
-  "intro": "November grapes from Europe are sweet and crisp, just right for waking up a bowl of soaked oats. Ten minutes tonight means breakfast is ready when you are.",
+  "title": "Grape and orange bircher",
   "meal": "breakfast",
   "dish_form": "bircher",
   "diet": "vegan",
   "gluten_free": false,
   "kit": "no_cook",
   "utensils": [
-   "mixing bowl",
-   "measuring jug",
-   "grater"
+   "a large bowl",
+   "a grater",
+   "a knife and board"
   ],
-  "hands_on_minutes": 15,
-  "total_minutes": 490,
-  "serves": 4,
+  "prep_minutes": 15,
+  "cook_minutes": 480,
+  "time_note": "oats soaked overnight",
   "best_time": "morning",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
   "ingredients": [
    {
+    "id": "oranges",
+    "quantity": "2",
+    "name": "oranges"
+   },
+   {
     "id": "oats",
-    "name": "Porridge oats",
     "quantity": "200g",
-    "prep": ""
+    "name": "porridge oats"
    },
    {
     "id": "raisins",
-    "name": "Sultanas",
-    "quantity": "40g",
-    "prep": ""
-   },
-   {
-    "id": "cinnamon",
-    "name": "Cinnamon",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "name": "Salt",
-    "quantity": "1 pinch",
-    "prep": ""
-   },
-   {
-    "id": "oranges",
-    "name": "Oranges",
-    "quantity": "2",
-    "prep": "juiced"
-   },
-   {
-    "id": "water",
-    "name": "Water",
-    "quantity": "400ml",
-    "prep": ""
+    "quantity": "2 tbsp",
+    "name": "raisins"
    },
    {
     "id": "apples",
-    "name": "Eating apples",
     "quantity": "2",
-    "prep": "coarsely grated, skin on"
+    "name": "apples"
    },
    {
     "id": "grapes",
-    "name": "Red or green grapes",
     "quantity": "300g",
-    "prep": "halved"
+    "name": "red grapes"
    },
    {
     "id": "hazelnuts",
-    "name": "Hazelnuts",
     "quantity": "50g",
-    "prep": "roughly chopped"
+    "name": "hazelnuts"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds"
    }
   ],
   "steps": [
-   "The night before, tip the oats, sultanas, cinnamon and salt into a mixing bowl and stir together.",
-   "Squeeze in the orange juice, pour in the water and stir well so every oat is wet. Cover and leave in the fridge overnight, or for at least 8 hours.",
-   "In the morning, the oats will be soft, thick and creamy. Grate the apples straight into the bowl, skin and all, avoiding the core, and stir through.",
-   "If it feels too stiff, loosen with a splash of water until it drops easily off a spoon.",
-   "Spoon into four bowls, then top with the halved grapes and chopped hazelnuts."
-  ],
-  "tip": "The soaked oats keep in the fridge for 3 days, so make a double batch and add the apple, grapes and nuts fresh each morning."
+   "The night before, squeeze the oranges into a large bowl. Stir in the oats, raisins, a good pinch of cinnamon and 400ml cold water. Cover and chill overnight.",
+   "In the morning, grate in the apples, add a squeeze of lemon and stir well. Loosen with a splash of water if thick.",
+   "Halve the grapes and roughly chop the hazelnuts.",
+   "Spoon into bowls and top with the grapes, hazelnuts and pumpkin seeds."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

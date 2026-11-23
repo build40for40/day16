@@ -1,0 +1,43 @@
+{
+ "day": 239,
+ "title": "Pancakes with honeyed figs and ham",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a staple: flour, eggs, milk, butter, honey, figs, ham and yoghurt."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Figs are sold in mainstream supermarkets in late summer at an everyday price, and the rest are basics."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a whisk and a frying pan, and drop pancakes are within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g flour with 2 eggs and 250ml milk makes a thick drop-pancake batter for about a dozen, and 6 figs plus 8 slices of ham sensibly feed four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "30 active minutes covers mixing and frying the pancakes in batches plus the figs, which is believable at a standard pace."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the thyme and butter, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Late August is fig season, and the honeyed figs are the centre of the plate rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal pancakes with ham, yoghurt and fruit make a filling, balanced breakfast."
+  }
+ }
+}

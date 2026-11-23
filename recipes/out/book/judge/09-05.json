@@ -1,0 +1,43 @@
+{
+ "day": 248,
+ "title": "Chicken, kale and potato bake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, leeks, cream, stock, drumsticks, kale and cheddar are all plain home ingredients, and stock is allowed."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a grater and a baking dish, and layering and roasting are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Thinly sliced potatoes in 350ml of liquid cook through in 55 minutes at 200°C, eight drumsticks are fully cooked by then, and 200g of shredded kale wilts nicely in the last 15 minutes, giving a fair dinner for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing 800g of potatoes and two leeks, crushing garlic, shredding kale and grating cheese fits roughly in 20 minutes, and the 40 plus 15 minute roast matches the 55 minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the fresh thyme, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "An early autumn tray bake suits 5 September, and the kale is a real vegetable layer named in the title rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chicken, potatoes, leeks and kale make a proper, filling family dinner."
+  }
+ }
+}

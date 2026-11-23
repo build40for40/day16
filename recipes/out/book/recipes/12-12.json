@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 346,
+  "date": "2027-12-12",
+  "label": "12 December",
+  "month": 12,
+  "meal": "lunch",
+  "form": "jacket or loaded potato",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "cavolo-nero",
+   "red-cabbage"
+  ],
+  "protein": "stewing-beef",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cavolo nero and bacon stuffed jackets",
+  "meal": "lunch",
+  "dish_form": "twice-baked jacket potato",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a roasting tray",
+   "a large frying pan",
+   "a bowl"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 90,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "4",
+    "name": "large baking potatoes"
+   },
+   {
+    "id": "bacon",
+    "quantity": "200g",
+    "name": "smoked streaky bacon"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "400g",
+    "name": "cavolo nero"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "1/4",
+    "name": "red cabbage"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "2 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "100ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "80g",
+    "name": "cheddar"
+   }
+  ],
+  "steps": [
+   "Prick the potatoes and bake at 200°C (180°C fan) for 1¼ hours.",
+   "Fry the chopped bacon until crisp. Add the butter, sliced garlic and shredded cavolo nero. Wilt for 5 minutes.",
+   "Toss the shredded red cabbage with the vinegar and salt to serve alongside.",
+   "Halve the potatoes. Mash the flesh with the crème fraîche, bacon mix and half the cheese, then season. Refill, top with the rest and bake for 15 minutes."
+  ]
+ },
+ "attempts": 3,
+ "rejections": [
+  [
+   "The method is 86 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ],
+  [
+   "The method is 81 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

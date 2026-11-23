@@ -1,0 +1,43 @@
+{
+ "day": 1,
+ "title": "Roast rhubarb and ricotta on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Rhubarb, orange, honey, hazelnuts, bread, ricotta and cinnamon are all ordinary whole foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Forced rhubarb, ricotta, hazelnuts and wholemeal bread are all stocked by Tesco and its rivals in January at everyday prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a frying pan and a toaster, and the techniques are simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g rhubarb roasted at 200°C for 12 to 15 minutes with orange and honey, served over eight slices of ricotta toast, makes a sensible breakfast for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Trimming rhubarb, zesting an orange, toasting nuts and making toast fits about 10 active minutes, with the 15-minute roast matching the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, and 'wholemeal bread' matches the bread id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early forced rhubarb, warm from the oven with clementine-season citrus, is the clear centre of a fitting New Year's Day breakfast."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with ricotta, fruit and nuts is a proper, appealing breakfast with protein and only modest added honey."
+  }
+ }
+}

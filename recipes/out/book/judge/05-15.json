@@ -1,0 +1,43 @@
+{
+ "day": 135,
+ "title": "Mackerel traybake with roast radishes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a traditional condiment; horseradish sauce sits with mustard as a long-standing cupboard staple."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Mackerel fillets, new potatoes, radishes, rocket and crème fraîche are all everyday Tesco items."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a small bowl and simple roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "750g potatoes, 300g radishes and eight mackerel fillets suit four, and the 220°C timings will roast the potatoes through and crisp the fish without drying it."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers halving the potatoes and radishes and wedging two onions, the 20+10+10 minute roast matches the 40 printed, and the active work is light enough for a quick dinner."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including dill, lemon, salt and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roast radishes are named in the title and form a substantial part of the tray, which suits a mid-May evening alongside the new potatoes."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oily fish, potatoes, vegetables and greens make a balanced, appealing family dinner."
+  }
+ }
+}

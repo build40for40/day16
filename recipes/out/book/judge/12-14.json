@@ -1,0 +1,43 @@
+{
+ "day": 348,
+ "title": "Cinnamon porridge with sticky clementines",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, milk, butter, sugar, almonds, yoghurt and clementines are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is an everyday supermarket buy, and clementines are cheap and plentiful in December."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan and a grater, and the technique is simple stirring and melting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to a litre of milk and water simmered for 5 minutes gives creamy porridge for four, and six caramelised clementines make a generous topping."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Zesting, peeling and slicing six clementines, toasting almonds and stirring the porridge fits about 15 minutes of active work, and the 5-minute simmer matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, flaked almonds are simply almonds, and the 'syrup' in the last step is the pan juices rather than an unlisted ingredient."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm porridge suits a mid-December morning, and the clementines, both zested and caramelised, are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oat porridge with milk, fruit, yoghurt and nuts is a filling breakfast with only a modest amount of sugar."
+  }
+ }
+}

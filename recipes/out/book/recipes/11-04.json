@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 308,
+  "date": "2027-11-04",
+  "label": "4 November",
+  "month": 11,
+  "meal": "breakfast",
+  "form": "pancakes or griddle cakes",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "clementines"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Ricotta pancakes with warm clementines",
+  "meal": "breakfast",
+  "dish_form": "pancakes",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a mixing bowl",
+   "a whisk",
+   "a large frying pan"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "clementines",
+    "quantity": "6",
+    "name": "clementines"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "200g",
+    "name": "plain flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "2 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   },
+   {
+    "id": "milk",
+    "quantity": "200ml",
+    "name": "milk"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "honey",
+    "quantity": "3 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Whisk the zest of 2 clementines with the flour, baking powder, a pinch of salt, eggs, ricotta and milk.",
+   "Fry spoonfuls in a little butter over a medium heat, 2 minutes a side, until golden. Keep warm.",
+   "Peel and slice the other clementines. Warm them in the pan with the honey, a pinch of cinnamon and the juice of the zested two.",
+   "Serve the pancakes with the warm clementines and a spoonful of yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

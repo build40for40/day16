@@ -1,0 +1,43 @@
+{
+ "day": 342,
+ "title": "Celeriac and apple remoulade on toast with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a traditional staple: eggs, celeriac, apples, Greek yoghurt, Dijon mustard, capers, walnuts and bread."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco, and celeriac is easy to find in December."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a grater, a bowl and a toaster or grill, and the techniques are basic."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g celeriac and two apples dressed with 150g yoghurt and a tablespoon of mustard makes a well-balanced remoulade for four, and 8-minute eggs on two slices of toast each is a sound lunch."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to peel and grate half a celeriac and two apples, peel the eggs and chop the capers and walnuts, and the 8 minutes of cooking matches the egg boil."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the lemon used for juice, appears in the steps, and the steps use nothing that isn't listed."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Celeriac remoulade is a classic winter dish, it is the bulk of the plate, and serving it on hot toast suits a December lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short and clear in British English, and 'remoulade' is a familiar dish name rather than restaurant jargon."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Raw vegetables and fruit, eggs, yoghurt, walnuts and wholemeal toast make a filling, balanced lunch of real food."
+  }
+ }
+}

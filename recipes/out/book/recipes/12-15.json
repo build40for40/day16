@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 349,
+  "date": "2027-12-15",
+  "label": "15 December",
+  "month": 12,
+  "meal": "lunch",
+  "form": "fritters",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "swede"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Swede and red lentil fritters with apple slaw",
+  "meal": "lunch",
+  "dish_form": "fritters",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one saucepan",
+   "a large frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 35,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "red-lentils",
+    "quantity": "100g",
+    "name": "red lentils"
+   },
+   {
+    "id": "swede",
+    "quantity": "400g",
+    "name": "swede"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "75g",
+    "name": "plain flour"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "4 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "1/4",
+    "name": "red cabbage"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "apples"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "tahini",
+    "quantity": "2 tbsp",
+    "name": "tahini"
+   }
+  ],
+  "steps": [
+   "Simmer the lentils in 300ml water for 12 minutes, until soft and thick. Cool a little.",
+   "Grate the swede and onion, squeeze out the juice, then mix with the lentils, flour, 2 tsp cumin and plenty of seasoning.",
+   "Fry spoonfuls in the oil, flattened, for 4 minutes a side until golden.",
+   "Toss shredded cabbage and apple with the vinegar and a pinch of salt. Loosen the tahini with lemon juice and water, and drizzle over."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

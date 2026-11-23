@@ -1,0 +1,105 @@
+{
+ "slot": {
+  "day": 229,
+  "date": "2027-08-17",
+  "label": "17 August",
+  "month": 8,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "marrow",
+   "broad-beans"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Split pea and marrow soup with broad beans",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large lidded pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 60,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "split-peas",
+    "quantity": "200g",
+    "name": "yellow split peas"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.2 litres",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "marrow",
+    "quantity": "1",
+    "name": "small marrow"
+   },
+   {
+    "id": "broad-beans",
+    "quantity": "500g",
+    "name": "broad beans in pods"
+   }
+  ],
+  "steps": [
+   "Soften the chopped onion and garlic in the oil with a pinch of salt for 8 minutes. Stir in 1 tsp cumin.",
+   "Add the rinsed split peas and stock. Simmer, lid ajar, for 40 minutes.",
+   "Add the peeled, seeded and cubed marrow. Cook for 15 minutes more, until the peas collapse.",
+   "Stir in the podded broad beans for 3 minutes. Finish with lemon juice, torn mint and a good seasoning."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

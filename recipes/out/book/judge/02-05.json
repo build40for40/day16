@@ -1,0 +1,43 @@
+{
+ "day": 36,
+ "title": "Carrot, cauliflower and chickpea curry",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a staple: curry powder, tinned tomatoes, tinned chickpeas, stock and natural yoghurt."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one lidded pan and simple softening and simmering, well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Quantities suit four, the liquid is right for 600g carrots, two tins of chickpeas and a cauliflower, and the timings will leave the carrots tender without turning the florets to mush."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is a fair time to chop the onions, garlic, carrots and cauliflower, and the roughly 39 minutes in the steps is close to the 35 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from the pepper that 'season' covers."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming carrot curry suits early February, and 600g of carrots makes them the backbone of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling vegetable and chickpea curry with yoghurt that a family would happily eat again."
+  }
+ }
+}

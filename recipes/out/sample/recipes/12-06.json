@@ -17,73 +17,92 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Smoky kale crisps with pumpkin seeds",
-  "intro": "Kale turns sweeter after the first frosts, so early December is when it shines. Baked low and slow, it becomes crisps the children will actually reach for.",
+  "title": "Kale and apple slaw with toasted seeds",
   "meal": "snack",
-  "dish_form": "crisps",
+  "dish_form": "slaw",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "oven",
+  "kit": "hob",
   "utensils": [
-   "2 roasting trays",
-   "large bowl",
-   "clean tea towel",
-   "grater"
+   "a large bowl",
+   "a grater",
+   "a small frying pan"
   ],
-  "hands_on_minutes": 15,
-  "total_minutes": 35,
-  "serves": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 5,
+  "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
   "ingredients": [
    {
     "id": "kale",
-    "name": "Kale",
     "quantity": "200g",
-    "prep": "stalks stripped out, leaves torn into large pieces"
+    "name": "kale"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "¼",
+    "name": "red cabbage"
    },
    {
     "id": "olive-oil",
-    "name": "Olive oil",
-    "quantity": "2 tbsp",
-    "prep": ""
+    "quantity": "3 tbsp",
+    "name": "olive oil"
    },
    {
-    "id": "smoked-paprika",
-    "name": "Smoked paprika",
+    "id": "honey",
     "quantity": "1 tsp",
-    "prep": ""
+    "name": "honey"
    },
    {
-    "id": "salt",
-    "name": "Salt",
-    "quantity": "1/2 tsp",
-    "prep": ""
+    "id": "dijon-mustard",
+    "quantity": "1 tsp",
+    "name": "Dijon mustard"
    },
    {
     "id": "pumpkin-seeds",
-    "name": "Pumpkin seeds",
-    "quantity": "30g",
-    "prep": ""
+    "quantity": "50g",
+    "name": "pumpkin seeds"
    },
    {
-    "id": "vegetarian-hard-cheese",
-    "name": "Vegetarian hard cheese",
-    "quantity": "30g",
-    "prep": "finely grated"
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
    }
   ],
   "steps": [
-   "Heat the oven to 140C fan, 160C conventional.",
-   "Wash the torn kale, then dry it really well in a clean tea towel. Any water left on the leaves will make them steam rather than crisp.",
-   "Put the kale in a large bowl, add the oil and rub it into every leaf with your hands. Sprinkle over the smoked paprika and salt and toss again.",
-   "Spread the kale over two roasting trays in a single layer, without piling it up. Scatter the pumpkin seeds among the leaves.",
-   "Bake for 15 to 20 minutes, swapping the trays halfway, until the leaves are crisp and dark green but not brown at the edges.",
-   "Grate the cheese over the hot crisps and leave them on the trays for 5 minutes, where they will crisp up a little more. Eat warm or cool."
-  ],
-  "tip": "Keep any leftovers in an airtight tin for a day, and if they soften, give them 3 minutes back in the oven."
+   "Strip the kale from its stalks and shred finely. Rub with salt and the lemon juice for 2 minutes, until dark and soft.",
+   "Grate in the carrots and apples, and add the finely sliced cabbage.",
+   "Whisk the oil, honey, mustard and lemon zest. Toss through and season.",
+   "Toast the seeds in a dry pan until they pop. Scatter over with the crumbled feta."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

@@ -1,0 +1,43 @@
+{
+ "day": 235,
+ "title": "Blackberry and almond baked oats",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, eggs, milk, honey, butter, almonds, yoghurt and blackberries are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including flaked almonds and blackberries in late August, is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a whisk and a baking dish, and the only technique is mixing and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to 400ml milk with two eggs, baked at 190°C for 30 to 35 minutes, will set into a good, generous baked oats for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes to whisk, stir and scatter is realistic, and the 35 minute cook matches the bake in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and flaked almonds are the same food as the almonds id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Late August is peak blackberry time, and 300g of berries baked through and scattered on top makes them the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, eggs, fruit and yoghurt with only 2 tbsp of honey make a filling, wholesome breakfast a family would happily repeat."
+  }
+ }
+}

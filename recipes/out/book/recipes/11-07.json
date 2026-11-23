@@ -1,0 +1,100 @@
+{
+ "slot": {
+  "day": 311,
+  "date": "2027-11-07",
+  "label": "7 November",
+  "month": 11,
+  "meal": "snack",
+  "form": "scone or soda bread",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pear, cheddar and thyme scones",
+  "meal": "snack",
+  "dish_form": "scone",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a grater",
+   "a baking tray"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 18,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "self-raising-flour",
+    "quantity": "250g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "wholemeal-flour",
+    "quantity": "100g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "butter",
+    "quantity": "75g",
+    "name": "cold butter"
+   },
+   {
+    "id": "pears",
+    "quantity": "2",
+    "name": "pears"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "100g",
+    "name": "mature cheddar"
+   },
+   {
+    "id": "eggs",
+    "quantity": "1",
+    "name": "egg"
+   },
+   {
+    "id": "milk",
+    "quantity": "100ml",
+    "name": "milk"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Rub the butter into both flours, the baking powder and a pinch of salt.",
+   "Stir in the diced pears, most of the grated cheddar and the thyme leaves.",
+   "Beat the egg with the milk. Keep a spoonful back and mix the rest in to a soft dough.",
+   "Pat into a round 3cm thick on a floured tray and cut into 8 wedges. Brush with egg and scatter over the last cheese.",
+   "Bake for 15 to 18 minutes, until risen and golden."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

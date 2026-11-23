@@ -1,0 +1,43 @@
+{
+ "day": 315,
+ "title": "Beetroot and mushroom hash with feta and eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food: potatoes, beetroot, mushrooms, onion, eggs, feta, olive oil and fresh thyme."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan and a grater, and grating and frying are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four, the hash has time to crisp and cook through, and covering the pan sets the eggs, so it should come out well as written."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The steps add up to 21 to 25 minutes of frying against the 20 printed, and with 15 minutes of peeling and grating the whole thing takes about 35 to 40 minutes, which is not 'quick' for a weekday breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the fresh thyme, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot, earthy hash with 300g of mushrooms suits a November morning, and the mushrooms are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling, vegetable-rich breakfast with eggs and feta for protein that a family would happily eat again."
+  }
+ }
+}

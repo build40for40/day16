@@ -1,43 +1,43 @@
 {
  "day": 138,
- "title": "Roast chicken salad with cucumber, radishes and dill",
+ "title": "Smashed cucumber and roast chicken salad",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or plain staple: chicken, vegetables, lemon, natural yoghurt, oil and herbs."
+   "reason": "Whole chicken, new potatoes, cucumber, yoghurt, vinegar, honey and herbs are all plain home ingredients with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Whole chicken, new potatoes, Little Gem, radishes, cucumber and dill are all everyday Tesco items at normal prices."
+   "reason": "Every item, including the whole chicken and watercress, is an everyday Tesco purchase at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a roasting tray, grater, sieve and bowls, and roasting a chicken is well within a confident beginner's reach."
+   "reason": "It needs only a roasting tray, a sieve, a pan for bashing and a platter, and every technique suits a beginner."
   },
   "works": {
    "pass": true,
-   "reason": "Eighty minutes at 190°C fan suits a 1.5kg chicken, 50 minutes suits halved new potatoes, and the quantities comfortably feed four."
+   "reason": "A 1.5kg chicken roasted for 1 hour 20 minutes with potatoes in its fat, plus 750g potatoes, two cucumbers and watercress, makes a sound, well-dressed salad for four."
   },
   "honest_times": {
    "pass": true,
-   "reason": "About 30 minutes of halving, slicing, mixing and pulling is believable, and 110 minutes total matches 80 minutes roasting, 15 resting and the prep."
+   "reason": "25 minutes covers halving potatoes, smashing cucumber, chopping herbs and pulling the chicken, and 95 minutes of cook time fits the 80-minute roast plus resting."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient appears in the steps, the three tablespoons of oil add up, and Little Gem is simply lettuce."
+   "reason": "Every listed ingredient and seasoning appears in the steps, names match their ids, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm chicken and new potato salad with cucumber, radishes and dill suits mid May, and the cucumber is a main part of the salad, not a garnish."
+   "reason": "Two smashed cucumbers form the main salad in a light May dinner, so the cucumber is central rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, practical British English, such as explaining why the cucumber is salted, with no restaurant language or preaching."
+   "reason": "Steps such as 'bash into chunks with a pan' read like plain, friendly British kitchen instructions."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Roast chicken, potatoes and plenty of fresh vegetables make a proper, filling family dinner."
+   "reason": "Roast chicken, potatoes, cucumber, watercress and yoghurt make a balanced, filling family dinner."
   }
  }
 }

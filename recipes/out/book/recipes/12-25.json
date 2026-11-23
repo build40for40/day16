@@ -1,0 +1,99 @@
+{
+ "slot": {
+  "day": 359,
+  "date": "2027-12-25",
+  "label": "25 December",
+  "month": 12,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Gingerbread pear overnight oats",
+  "meal": "breakfast",
+  "dish_form": "overnight oats",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "no_cook",
+  "utensils": [
+   "a large bowl",
+   "a grater",
+   "a knife and board"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 480,
+  "time_note": "oats soaked overnight",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "ground-ginger",
+    "name": "ground ginger"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pears",
+    "quantity": "3",
+    "name": "pears"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "400ml",
+    "name": "milk"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "300g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "raisins",
+    "quantity": "50g",
+    "name": "raisins"
+   },
+   {
+    "id": "clementines",
+    "quantity": "3",
+    "name": "clementines"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   }
+  ],
+  "steps": [
+   "Grate two pears into a large bowl. Stir in the oats, milk, half the yoghurt, the honey, raisins, zest of one clementine and 1 tsp each of ginger and cinnamon.",
+   "Cover and chill overnight.",
+   "In the morning, slice the last pear, peel and segment the clementines and roughly chop the walnuts.",
+   "Spoon the oats into bowls, add the rest of the yoghurt and pile the fruit and nuts on top."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

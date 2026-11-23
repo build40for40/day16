@@ -1,0 +1,43 @@
+{
+ "day": 164,
+ "title": "Fennel and split pea dal with beetroot relish",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole ingredient: split peas, tinned tomatoes, vegetables, spices and oil."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Fennel, raw beetroot, yellow split peas and the rest are everyday items at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan and a grater, with simple simmering and grating."
+  },
+  "works": {
+   "pass": true,
+   "reason": "1.2 litres of water to 250g split peas simmered for 50 minutes gives a proper dal for four, and the lemony beetroot relish lifts the gentle spicing."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers chopping, the 10-minute soften and grating, and the 50 plus 10 minutes of simmering matches the 60 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and only water is added unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Two bulbs of fennel, the seeds and the fronds make fennel the point, and the fresh raw beetroot and mint relish keeps it light enough for June."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling pulse and vegetable meal with greens and a fresh relish, the kind a family would happily eat again."
+  }
+ }
+}

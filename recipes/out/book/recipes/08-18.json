@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 230,
+  "date": "2027-08-18",
+  "label": "18 August",
+  "month": 8,
+  "meal": "dinner",
+  "form": "big salad",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "cavolo-nero"
+  ],
+  "protein": "whole-chicken",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Roast chicken and cavolo nero salad",
+  "meal": "dinner",
+  "dish_form": "big salad",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "oven",
+  "utensils": [
+   "a roasting tray",
+   "a large bowl",
+   "a whisk"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 90,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "rosemary",
+    "name": "rosemary"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "whole-chicken",
+    "quantity": "1.5kg",
+    "name": "whole chicken"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "750g",
+    "name": "small potatoes"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "200g",
+    "name": "cavolo nero"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tbsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "250g",
+    "name": "cherry tomatoes"
+   }
+  ],
+  "steps": [
+   "Rub the chicken with oil, salt and chopped rosemary. Roast in a tray at 200°C (180°C fan) for 30 minutes.",
+   "Add the halved potatoes, turn them in the fat and roast for 50 minutes more, until the juices run clear.",
+   "Rub the shredded cavolo nero and sliced onion with the lemon juice and a pinch of salt until soft.",
+   "Tear up the rested chicken. Whisk the mustard into the tray juices and toss everything with the halved tomatoes. Season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

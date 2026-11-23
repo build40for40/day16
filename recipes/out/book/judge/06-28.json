@@ -1,0 +1,43 @@
+{
+ "day": 179,
+ "title": "Broccoli and butter bean bake with walnut crumb",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or a simple staple such as tinned beans, crème fraîche, breadcrumbs and cheese, with nothing factory-built."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Broccoli, cherry tomatoes, tinned butter beans, crème fraîche, walnuts and vegetarian hard cheese are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, knife, board and grater, and the technique is simply tossing everything together and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two heads of broccoli and two tins of beans in crème fraîche under a crumb, baked for 25 minutes at 200°C, gives a properly cooked, well-seasoned bake that feeds four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Cutting the broccoli, slicing the garlic, zesting, picking the thyme, chopping the walnuts and grating the cheese fit in 15 minutes, and the 25-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon zest and juice and the thyme, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Broccoli is the bulk and point of the dish, and a quick vegetable bake with lemon and cherry tomatoes is reasonable for a late June evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner can follow, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Plenty of vegetables, beans for protein and a cheesy walnut crumb make a filling family dinner people would happily cook again."
+  }
+ }
+}

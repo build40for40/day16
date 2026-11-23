@@ -1,0 +1,43 @@
+{
+ "day": 113,
+ "title": "Cod and new potato bake with parsley crumbs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or an ordinary staple: crème fraîche, Dijon mustard, breadcrumbs and Parmesan."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Cod fillets, new potatoes, spinach and crème fraîche are everyday Tesco items, and nothing is a specialist or treat buy."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a grater and a knife, and the technique is simple roasting and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Sliced potatoes get 40 minutes in total at 200°C, the cod gets 15 minutes under a crumb topping, and the spinach wilts in the sauce, which gives a sensible dinner for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers slicing the potatoes and onion, grating the cheese, chopping the parsley and zesting the lemon, and the 40-minute cook time matches 25 plus 15 in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon and parsley, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "New potatoes form the base of the bake alongside spring spinach and parsley, which suits late April."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British home-cook instructions with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, potatoes and spinach in a creamy sauce under a crisp topping make a proper family meal of real food."
+  }
+ }
+}

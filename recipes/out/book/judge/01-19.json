@@ -1,0 +1,43 @@
+{
+ "day": 19,
+ "title": "Baked pears with walnuts and honey",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Pears, walnuts, honey, butter, an orange, cinnamon and Greek yoghurt are all plain kitchen staples with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket, and 50g of walnuts is not a treat purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a small bowl, a knife and an oven, and halving and coring pears is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight pear halves with a walnut, honey and butter filling, baked at 190°C for 25 to 30 minutes with juice and water, gives a sensible snack for four with enough liquid for pan juices."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers halving and coring four pears, chopping walnuts, zesting and juicing an orange and mixing, and the 30 minutes of cook time matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, nothing unlisted is used apart from water, and each name matches its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm baked stored pears suit a cold January afternoon, and the pears are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, nuts and yoghurt make a satisfying snack of real food, with only modest honey."
+  }
+ }
+}

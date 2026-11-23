@@ -1,0 +1,43 @@
+{
+ "day": 226,
+ "title": "Cucumber and red lentil dal",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or basic cupboard staple, such as lentils, spices, fresh vegetables and natural yoghurt."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board and one large pan, and the techniques are simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g red lentils in 1 litre of water for 25 minutes in total gives a soft dal for four, and the thick cucumber chunks hold up for 10 minutes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for chopping an onion, garlic, chilli and tomatoes and peeling and seeding two cucumbers, and the steps add up to the 30 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, and nothing beyond water is added."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Two cucumbers make it the main vegetable of a light August dal, so the hero is the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, vegetables and yoghurt make a filling, wholesome family dinner."
+  }
+ }
+}

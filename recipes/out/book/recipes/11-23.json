@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 327,
+  "date": "2027-11-23",
+  "label": "23 November",
+  "month": 11,
+  "meal": "lunch",
+  "form": "fritters",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "leeks"
+  ],
+  "protein": null,
+  "protein_hint": "nuts or seeds",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Leek and feta fritters with apple salad",
+  "meal": "lunch",
+  "dish_form": "fritters",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "40g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "leeks",
+    "quantity": "3",
+    "name": "leeks"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "ground-almonds",
+    "quantity": "100g",
+    "name": "ground almonds"
+   },
+   {
+    "id": "cornflour",
+    "quantity": "2 tbsp",
+    "name": "cornflour"
+   },
+   {
+    "id": "feta",
+    "quantity": "200g",
+    "name": "feta"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Toast the pumpkin seeds in a dry frying pan, then tip out.",
+   "Add 1 tbsp oil and soften the finely sliced leeks and thyme leaves for 10 minutes. Cool a little.",
+   "Beat the eggs, almonds and cornflour. Stir in the leeks and crumbled feta. Season.",
+   "Fry spoonfuls in a little oil, 3 minutes a side, until golden.",
+   "Toss the sliced apples and watercress with lemon juice and oil. Serve with the fritters, scattered with seeds."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

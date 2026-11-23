@@ -1,0 +1,43 @@
+{
+ "day": 332,
+ "title": "Plaice and celery fishcakes with apple slaw",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, fish, celery, apples, breadcrumbs, yoghurt and mustard are all ordinary home kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Plaice fillets and everything else are stocked by mainstream supermarkets at everyday prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A lidded pan, frying pan and masher are ordinary kit, and shaping and frying fishcakes is within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g fish to 800g potato makes eight sensible cakes for four, and pressing damp mash straight into crumbs holds well enough without an egg wash."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Forty minutes of active work covers peeling, shaping, crumbing, frying in batches and slicing the slaw, and the 20 minutes of cooking matches the boiling and steaming."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Six celery sticks run through both the cakes and the apple slaw, which suits a late November dinner."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, potato and a fresh celery and apple slaw make a proper family dinner."
+  }
+ }
+}

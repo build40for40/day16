@@ -1,0 +1,117 @@
+{
+ "slot": {
+  "day": 145,
+  "date": "2027-05-25",
+  "label": "25 May",
+  "month": 5,
+  "meal": "lunch",
+  "form": "jacket or loaded potato",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "cucumber",
+   "lettuce"
+  ],
+  "protein": null,
+  "protein_hint": "cheese",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Jacket potatoes with feta and cucumber yoghurt",
+  "meal": "lunch",
+  "dish_form": "jacket potato",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "oven",
+  "utensils": [
+   "a baking tray",
+   "a grater",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 70,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "4",
+    "name": "baking potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "cucumber",
+    "quantity": "1",
+    "name": "cucumber"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "250g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
+   },
+   {
+    "id": "lettuce",
+    "quantity": "1",
+    "name": "little gem lettuce"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "radishes",
+    "quantity": "6",
+    "name": "radishes"
+   },
+   {
+    "id": "feta",
+    "quantity": "200g",
+    "name": "feta"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Rub the pricked potatoes with oil and salt. Bake for 1 hour 10 minutes, until crisp.",
+   "Grate half the cucumber, squeeze dry and stir into the yoghurt with the crushed garlic, chopped mint and lemon juice.",
+   "Dice the rest and toss with the shredded lettuce, sliced spring onions and radishes.",
+   "Split the potatoes, spoon in the yoghurt, crumble over the feta and season. Top with the salad."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 83 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

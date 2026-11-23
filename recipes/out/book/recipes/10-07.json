@@ -1,0 +1,103 @@
+{
+ "slot": {
+  "day": 280,
+  "date": "2027-10-07",
+  "label": "7 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "frittata or omelette",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "parsnips",
+   "spinach"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Parsnip, spinach and cheddar frittata",
+  "meal": "lunch",
+  "dish_form": "frittata",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large non-stick frying pan with a lid",
+   "a grater",
+   "a bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "nutmeg",
+    "name": "nutmeg"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "parsnips",
+    "quantity": "3",
+    "name": "parsnips"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "spinach",
+    "quantity": "150g",
+    "name": "spinach"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "75g",
+    "name": "cheddar, grated"
+   },
+   {
+    "id": "rocket",
+    "quantity": "100g",
+    "name": "rocket"
+   }
+  ],
+  "steps": [
+   "Coarsely grate the parsnips. Warm the oil in the pan and fry them with the sliced onion and thyme leaves for 8 minutes, until golden.",
+   "Stir in the spinach until it wilts.",
+   "Beat the eggs with half the cheese, a grating of nutmeg and seasoning. Pour in and scatter over the rest of the cheese.",
+   "Cover and cook on a low heat for 12 to 15 minutes, until just set. Serve in wedges with rocket."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

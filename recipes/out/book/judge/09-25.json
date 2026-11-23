@@ -1,0 +1,43 @@
+{
+ "day": 268,
+ "title": "Sweetcorn and tomato baked eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Corn, pepper, spring onions, tomatoes, eggs, feta, chives and bread are all plain home foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is an everyday Tesco purchase, and corn cobs are cheap and plentiful in late September."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and a toaster, and the technique is simple frying and baking eggs in hollows."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Three cobs, 300g tomatoes and eight eggs make a sensible two-eggs-each pan for four, and the covered 6 to 8 minutes will set the whites."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is believable for stripping three cobs, slicing a pepper and spring onions and halving the tomatoes, and 15 cook minutes roughly matches the 16 to 18 minutes in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh garden sweetcorn at its late September peak forms the base of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, vegetables, feta and wholemeal toast make a filling, balanced family breakfast."
+  }
+ }
+}

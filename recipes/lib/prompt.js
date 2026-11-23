@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
+import { fit } from "./checks.js";
 import { MONTHS, availability, byId, config, freshIn, pantry, root } from "./data.js";
 
 const KINDS = { veg: "Vegetables", fruit: "Fruit", herb: "Fresh herbs", meat: "Meat", fish: "Fish" };
@@ -44,16 +45,23 @@ export function freshList(month) {
 }
 
 export function recipeSystem() {
-  const { limits } = config;
+  const { limits, page } = config;
+  const spareTitleLines = Math.max(0, limits.max_title_lines - (page.title_min_lines ?? 1));
+  const room = fit({ title: "x", utensils: ["x"], ingredients: [], seasoning: [], steps: [] }).room - spareTitleLines * page.title_line_px;
+  const methodLines = Math.floor((room - page.heading_px - 3 * page.step_gap_px) / page.line_px);
+  const methodWords = Math.floor((methodLines * 5) / 5) * 5;
   return fill(read("recipe.md"), {
     PANTRY: pantryList(),
     HANDS_ON_MAX: limits.hands_on_max,
     QUICK_MAX: limits.quick_max,
-    MAX_TITLE_CHARS: limits.max_title_chars,
-    MAX_INTRO_WORDS: limits.max_intro_words,
+    MAX_SEASONING: limits.max_seasoning,
     MAX_INGREDIENTS: limits.max_ingredients,
+    LIST_LINES: Math.floor((room - page.heading_px * 2 - page.seasoning_margin_px) / page.line_px),
     MAX_STEPS: limits.max_steps,
-    MAX_STEP_WORDS: limits.max_step_words,
+    METHOD_LINES: methodLines,
+    METHOD_LOW: methodWords - 15,
+    METHOD_HIGH: methodWords,
+    METHOD_MAX: methodWords + 10,
   });
 }
 
@@ -63,7 +71,7 @@ export function recipeUser(slot, { taken = [], rejected } = {}) {
     `Date: ${slot.label}`,
     `Meal: ${slot.meal}`,
     `Diet: ${slot.diet}${slot.gluten_free ? ", and gluten free" : ""}`,
-    `Pace: ${slot.pace === "quick" ? `quick, ${config.limits.quick_max} minutes hands-on or less` : `up to ${config.limits.hands_on_max} minutes hands-on`}`,
+    `Pace: ${slot.pace === "quick" ? `quick, ${config.limits.quick_max} minutes of prep or less` : `up to ${config.limits.hands_on_max} minutes of prep`}`,
     `Hero ingredient: ${name(slot.heroes[0])}`,
     slot.heroes[1] && `Second hero, if it suits: ${name(slot.heroes[1])}`,
     `Suggested kind of dish: ${slot.form}`,
@@ -74,7 +82,7 @@ export function recipeUser(slot, { taken = [], rejected } = {}) {
 
   let message = `${lines.join("\n")}\n\nFresh list for ${MONTHS[slot.month - 1]}:\n\n${freshList(slot.month)}`;
   if (taken.length) {
-    message += `\n\nThese pages already exist with the same hero, so make something clearly different:\n${taken.map((title) => `- ${title}`).join("\n")}`;
+    message += `\n\nThese pages already exist with the same hero or for the same meal, so make something clearly different from all of them:\n${taken.map((title) => `- ${title}`).join("\n")}`;
   }
   if (rejected) {
     message += `\n\nYour last attempt at this page was rejected by the book's checks:\n${rejected.failures.map((failure) => `- ${failure.message}`).join("\n")}\n\nThe rejected page:\n${JSON.stringify(rejected.recipe)}\n\nWrite the whole page again with those problems fixed. Change the dish if that is the cleanest fix.`;
@@ -87,5 +95,5 @@ export function judgeSystem() {
 }
 
 export function judgeUser(slot, recipe) {
-  return `Date: ${slot.label}\nMeal asked for: ${slot.meal}\nPace asked for: ${slot.pace}\n\nFresh list for ${MONTHS[slot.month - 1]}:\n\n${freshList(slot.month)}\n\nThe page:\n${JSON.stringify(recipe, null, 1)}`;
+  return `Date: ${slot.label}\nMeal asked for: ${slot.meal}\nPace asked for: ${slot.pace}\nHero ingredient the page should be built around: ${byId.get(slot.heroes[0]).name}\n\nFresh list for ${MONTHS[slot.month - 1]}:\n\n${freshList(slot.month)}\n\nThe page:\n${JSON.stringify(recipe, null, 1)}`;
 }

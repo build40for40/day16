@@ -1,0 +1,119 @@
+{
+ "slot": {
+  "day": 291,
+  "date": "2027-10-18",
+  "label": "18 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "turnips",
+   "fennel"
+  ],
+  "protein": null,
+  "protein_hint": "a whole grain",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Turnip, fennel and barley pot with white beans",
+  "meal": "lunch",
+  "dish_form": "bean and grain pot",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "one large lidded pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "fennel-seeds",
+    "name": "fennel seeds"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "fennel",
+    "quantity": "1",
+    "name": "fennel bulb"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "turnips",
+    "quantity": "500g",
+    "name": "turnips"
+   },
+   {
+    "id": "pearl-barley",
+    "quantity": "150g",
+    "name": "pearl barley"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.2l",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large pan. Soften the chopped onion and sliced fennel for 10 minutes, saving the fronds. Add the garlic and 1 tsp fennel seeds.",
+   "Add the cubed turnips, barley, thyme sprigs and stock. Cover and simmer for 35 minutes, until the barley is tender.",
+   "Stir in the drained beans and shredded kale for 5 minutes.",
+   "Season, add lemon juice to taste and scatter with the chopped fronds."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 78 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

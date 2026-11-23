@@ -1,0 +1,88 @@
+{
+ "slot": {
+  "day": 217,
+  "date": "2027-08-05",
+  "label": "5 August",
+  "month": 8,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "blackberries"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Blackberry and apple compote with crunchy oats",
+  "meal": "breakfast",
+  "dish_form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 8,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "apples"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "blackberries",
+    "quantity": "300g",
+    "name": "blackberries"
+   },
+   {
+    "id": "oats",
+    "quantity": "80g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "500g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Simmer the peeled, diced apples in a small pan with a pinch of cinnamon, 1 tbsp honey and 3 tbsp water for 5 minutes.",
+   "Add the blackberries and a squeeze of lemon. Cook for 3 minutes more, until they just burst.",
+   "Meanwhile, toast the oats and chopped hazelnuts in a dry frying pan, stirring, until golden. Stir in the rest of the honey.",
+   "Spoon the yoghurt into bowls and top with the warm compote and crunchy oats."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

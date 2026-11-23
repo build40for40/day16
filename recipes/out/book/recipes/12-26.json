@@ -1,0 +1,103 @@
+{
+ "slot": {
+  "day": 360,
+  "date": "2027-12-26",
+  "label": "26 December",
+  "month": 12,
+  "meal": "lunch",
+  "form": "frittata or omelette",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "beetroot"
+  ],
+  "protein": "beef-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Beetroot, ham and potato frittata",
+  "meal": "lunch",
+  "dish_form": "frittata",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a large ovenproof frying pan",
+   "a bowl",
+   "a whisk"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "400g",
+    "name": "potatoes"
+   },
+   {
+    "id": "beetroot",
+    "quantity": "2",
+    "name": "beetroot"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "horseradish",
+    "quantity": "1 tbsp",
+    "name": "horseradish sauce"
+   },
+   {
+    "id": "ham",
+    "quantity": "150g",
+    "name": "cooked ham"
+   },
+   {
+    "id": "goats-cheese",
+    "quantity": "100g",
+    "name": "goat's cheese"
+   }
+  ],
+  "steps": [
+   "Peel and thinly slice the potatoes and beetroot, and slice the onion. Fry in the oil in the pan, covered, for 15 minutes, stirring now and then, until tender.",
+   "Beat the eggs with the horseradish, thyme leaves and a good pinch of salt and pepper.",
+   "Scatter the torn ham over the veg, pour in the eggs and crumble over the cheese. Cook gently for 6 minutes until the edges set.",
+   "Grill for 3 to 4 minutes, until just firm. Rest for 5 minutes, then cut into wedges."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

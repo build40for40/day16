@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 87,
+  "date": "2027-03-28",
+  "label": "28 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "gratin or bake",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "parsnips"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Lentil and kale bake with parsnip crumble",
+  "meal": "dinner",
+  "dish_form": "bake",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "an ovenproof casserole",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "red-lentils",
+    "quantity": "250g",
+    "name": "red lentils"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "700ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "kale",
+    "quantity": "150g",
+    "name": "kale"
+   },
+   {
+    "id": "parsnips",
+    "quantity": "500g",
+    "name": "parsnips"
+   },
+   {
+    "id": "breadcrumbs",
+    "quantity": "60g",
+    "name": "breadcrumbs"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). In the casserole, soften the chopped onion and garlic in 1 tbsp oil for 5 minutes.",
+   "Add the lentils, tomatoes, stock and 1 tsp paprika. Simmer for 15 minutes, stirring now and then. Stir in the shredded kale and season.",
+   "Mix the grated parsnips with the crumbs, thyme leaves, the rest of the oil and a pinch of salt. Scatter over the lentils.",
+   "Bake for 20 to 25 minutes, until the top is golden and crisp."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

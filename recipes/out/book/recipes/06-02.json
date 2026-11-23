@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 153,
+  "date": "2027-06-02",
+  "label": "2 June",
+  "month": 6,
+  "meal": "dinner",
+  "form": "gratin or bake",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "broccoli",
+   "peas"
+  ],
+  "protein": "chicken-breast",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Chicken, broccoli and pea pasta bake",
+  "meal": "dinner",
+  "dish_form": "pasta bake",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "one large pan",
+   "a colander",
+   "a grater",
+   "a baking dish"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 32,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "tarragon",
+    "name": "tarragon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "dried-pasta",
+    "quantity": "300g",
+    "name": "penne"
+   },
+   {
+    "id": "broccoli",
+    "quantity": "1 head",
+    "name": "broccoli"
+   },
+   {
+    "id": "peas",
+    "quantity": "400g",
+    "name": "peas in the pod"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "300ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tbsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "100g",
+    "name": "cheddar"
+   },
+   {
+    "id": "chicken-breast",
+    "quantity": "3",
+    "name": "chicken breasts"
+   },
+   {
+    "id": "breadcrumbs",
+    "quantity": "4 tbsp",
+    "name": "breadcrumbs"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Boil the penne for 6 minutes, adding the broccoli florets and podded peas for the last 2. Drain.",
+   "Mix the crème fraîche, mustard, lemon zest, chopped tarragon and half the grated cheddar. Season.",
+   "Toss with the pasta and thin strips of chicken in a baking dish. Top with the rest of the cheese and the crumbs.",
+   "Bake for 25 minutes, until golden and the chicken is cooked through."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

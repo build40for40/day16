@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 197,
+  "date": "2027-07-16",
+  "label": "16 July",
+  "month": 7,
+  "meal": "dinner",
+  "form": "traybake",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "green-beans",
+   "celery"
+  ],
+  "protein": "beef-mince",
+  "protein_hint": null,
+  "kit": "one_tray",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Beef meatball and green bean traybake",
+  "meal": "dinner",
+  "dish_form": "traybake",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray",
+   "a grater"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "dried-oregano",
+    "name": "dried oregano"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "750g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "celery",
+    "quantity": "3 sticks",
+    "name": "celery"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "beef-mince",
+    "quantity": "500g",
+    "name": "beef mince"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "300g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "green-beans",
+    "quantity": "300g",
+    "name": "green beans"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Roast the halved potatoes and sliced celery with the oil and a pinch of salt for 15 minutes.",
+   "Mix the mince, grated garlic, grated Parmesan, 1 tsp oregano and some pepper. Roll into 20 balls.",
+   "Add the meatballs and tomatoes to the tray and roast for 10 minutes.",
+   "Toss in the trimmed beans. Roast for 12 to 15 minutes more, until the meatballs are browned. Scatter with torn basil."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

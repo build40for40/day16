@@ -1,0 +1,43 @@
+{
+ "day": 89,
+ "title": "Warm orange and bacon breakfast salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple: potatoes, eggs, bacon, oranges, Dijon mustard, olive oil, watercress and spring onions."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan and a bowl, and the techniques are simple boiling, frying and peeling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four, a 7-minute egg and par-boiled then fried potatoes are sound, and the orange juice, mustard and oil dressing is well balanced; peeling the eggs is a gap any cook would fill."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Cubing, orange prep and frying the bacon and potatoes fit in roughly 20 active minutes, with the 10-minute boil inside the 15-minute cook time, so 35 minutes overall is believable."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Oranges are central to both the salad and the dressing, and a warm salad suits a late March morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British English steps with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, eggs, bacon, fruit and greens make a filling, balanced breakfast a family would happily eat."
+  }
+ }
+}

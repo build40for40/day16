@@ -1,0 +1,43 @@
+{
+ "day": 365,
+ "title": "Chicken, cauliflower and swede barley pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple; chicken stock, crème fraîche and wholegrain mustard are all acceptable."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Chicken thighs, swede, cauliflower, pearl barley and the rest are everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole and a wooden spoon, and the technique is simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g barley in 1.2 litres of stock for about 45 minutes, covered, cooks through with sensible liquid; eight thighs plus a whole cauliflower and swede feed four, and mustard, thyme and crème fraîche season it well."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers peeling and dicing a small swede, slicing onions, cutting florets and the 10 minutes of browning and softening, and the 45 minutes of cook time matches the two simmers."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including thyme, is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming barley and root vegetable pot suits a cold 31 December, and a whole cauliflower is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chicken, wholegrain barley and two vegetables make a filling, balanced family dinner."
+  }
+ }
+}

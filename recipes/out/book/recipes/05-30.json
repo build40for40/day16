@@ -1,0 +1,114 @@
+{
+ "slot": {
+  "day": 150,
+  "date": "2027-05-30",
+  "label": "30 May",
+  "month": 5,
+  "meal": "snack",
+  "form": "quick pickle or slaw",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spring-greens"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spring greens slaw on toast with cottage cheese",
+  "meal": "snack",
+  "dish_form": "slaw on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large bowl",
+   "a small frying pan",
+   "a grater",
+   "a whisk"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 3,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "spring-greens",
+    "quantity": "200g",
+    "name": "spring greens"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "radishes",
+    "quantity": "8",
+    "name": "radishes"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "2",
+    "name": "spring onions"
+   },
+   {
+    "id": "tahini",
+    "quantity": "2 tbsp",
+    "name": "tahini"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tsp",
+    "name": "honey"
+   },
+   {
+    "id": "sesame-seeds",
+    "quantity": "1 tbsp",
+    "name": "sesame seeds"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "cottage-cheese",
+    "quantity": "300g",
+    "name": "cottage cheese"
+   }
+  ],
+  "steps": [
+   "Shred the spring greens very finely, cutting out thick stalks. Toss with the grated carrots, sliced radishes, spring onions and a pinch of salt.",
+   "Whisk the tahini, vinegar, honey, juice of half the lemon and 2 tbsp water. Toss through the slaw.",
+   "Toast the sesame seeds in a dry pan until golden.",
+   "Toast the bread and spread with cottage cheese. Pile on the slaw, scatter with seeds and season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

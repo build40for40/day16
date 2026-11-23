@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 226,
+  "date": "2027-08-14",
+  "label": "14 August",
+  "month": 8,
+  "meal": "dinner",
+  "form": "curry or dal",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "cucumber"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Cucumber and red lentil dal",
+  "meal": "dinner",
+  "dish_form": "dal",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "mustard-seeds",
+    "name": "mustard seeds"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "turmeric",
+    "name": "turmeric"
+   },
+   {
+    "id": "coriander",
+    "name": "coriander"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "chillies",
+    "quantity": "1",
+    "name": "green chilli"
+   },
+   {
+    "id": "red-lentils",
+    "quantity": "300g",
+    "name": "red lentils"
+   },
+   {
+    "id": "tomatoes",
+    "quantity": "3",
+    "name": "tomatoes"
+   },
+   {
+    "id": "cucumber",
+    "quantity": "2",
+    "name": "cucumbers"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "200g",
+    "name": "natural yoghurt"
+   }
+  ],
+  "steps": [
+   "Fry 1 tsp each of mustard seeds and cumin in the oil until they pop. Soften the sliced onion, garlic and chilli for 5 minutes.",
+   "Add the lentils, chopped tomatoes, 1 tsp turmeric and 1 litre water. Simmer for 15 minutes.",
+   "Stir in the peeled, seeded cucumbers in thick chunks. Cook for 10 minutes, until just tender.",
+   "Season, scatter with coriander and serve with yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

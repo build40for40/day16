@@ -46,7 +46,7 @@
    "kale",
    "cavolo-nero"
   ],
-  "protein": "turkey-mince",
+  "protein": "lamb-chops",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "standard"
@@ -57,11 +57,11 @@
   "label": "4 January",
   "month": 1,
   "meal": "snack",
-  "form": "dip with crudités",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "parsnips"
+   "brussels-sprouts"
   ],
   "protein": null,
   "protein_hint": null,
@@ -74,11 +74,11 @@
   "label": "5 January",
   "month": 1,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "oranges"
+   "leeks"
   ],
   "protein": null,
   "protein_hint": null,
@@ -91,7 +91,7 @@
   "label": "6 January",
   "month": 1,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "lentil or bean pot",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
@@ -100,7 +100,7 @@
   ],
   "protein": "stewing-beef",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -109,15 +109,15 @@
   "label": "7 January",
   "month": 1,
   "meal": "dinner",
-  "form": "roast",
+  "form": "pan fry with a side",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "purple-sprouting-broccoli"
+   "turnips"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
-  "kit": "one_tray",
+  "protein_hint": "cheese",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -126,11 +126,11 @@
   "label": "8 January",
   "month": 1,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "scone or soda bread",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "turnips"
+   "purple-sprouting-broccoli"
   ],
   "protein": null,
   "protein_hint": null,
@@ -143,11 +143,11 @@
   "label": "9 January",
   "month": 1,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "oranges"
   ],
   "protein": null,
   "protein_hint": null,
@@ -164,8 +164,7 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "leeks",
-   "red-cabbage"
+   "jerusalem-artichokes"
   ],
   "protein": "haddock",
   "protein_hint": null,
@@ -178,16 +177,15 @@
   "label": "11 January",
   "month": 1,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "gratin or bake",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "brussels-sprouts",
-   "jerusalem-artichokes"
+   "parsnips"
   ],
-  "protein": "cod",
+  "protein": "smoked-haddock",
   "protein_hint": null,
-  "kit": "one_tray",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -196,11 +194,11 @@
   "label": "12 January",
   "month": 1,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "oranges"
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": null,
@@ -213,15 +211,15 @@
   "label": "13 January",
   "month": 1,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "jacket or loaded potato",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "mushrooms",
-   "apples"
+   "cauliflower",
+   "red-cabbage"
   ],
   "protein": null,
-  "protein_hint": "lentils",
+  "protein_hint": "tinned beans or chickpeas",
   "kit": "any",
   "pace": "quick"
  },
@@ -231,16 +229,15 @@
   "label": "14 January",
   "month": 1,
   "meal": "dinner",
-  "form": "fishcakes or patties",
+  "form": "stew or casserole",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "cauliflower",
-   "kale"
+   "mushrooms"
   ],
-  "protein": "ham",
+  "protein": "chicken-drumsticks",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -249,11 +246,11 @@
   "label": "15 January",
   "month": 1,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "fruit pot or crumble",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "turnips"
+   "apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -270,7 +267,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "bramley-apples"
+   "clementines"
   ],
   "protein": null,
   "protein_hint": null,
@@ -283,15 +280,14 @@
   "label": "17 January",
   "month": 1,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "salad",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "savoy-cabbage",
-   "cavolo-nero"
+   "turnips"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "lentils",
   "kit": "any",
   "pace": "standard"
  },
@@ -301,16 +297,15 @@
   "label": "18 January",
   "month": 1,
   "meal": "dinner",
-  "form": "stew or casserole",
+  "form": "traybake",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "purple-sprouting-broccoli",
-   "parsnips"
+   "leeks"
   ],
   "protein": null,
-  "protein_hint": "split peas",
-  "kit": "one_pot",
+  "protein_hint": "nuts or seeds",
+  "kit": "one_tray",
   "pace": "standard"
  },
  {
@@ -323,7 +318,7 @@
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "clementines"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -336,11 +331,11 @@
   "label": "20 January",
   "month": 1,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "overnight oats or bircher",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "leeks"
+   "oranges"
   ],
   "protein": "sausages",
   "protein_hint": null,
@@ -353,15 +348,15 @@
   "label": "21 January",
   "month": 1,
   "meal": "lunch",
-  "form": "soup",
+  "form": "frittata or omelette",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "red-cabbage"
+   "cauliflower"
   ],
-  "protein": "lamb-mince",
+  "protein": "chicken-thighs",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -370,16 +365,16 @@
   "label": "22 January",
   "month": 1,
   "meal": "dinner",
-  "form": "pasta",
+  "form": "hearty soup",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "mushrooms",
-   "swede"
+   "savoy-cabbage",
+   "cavolo-nero"
   ],
   "protein": null,
-  "protein_hint": "cheese",
-  "kit": "any",
+  "protein_hint": "a whole grain",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -388,7 +383,7 @@
   "label": "23 January",
   "month": 1,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -405,15 +400,15 @@
   "label": "24 January",
   "month": 1,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "soup",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "brussels-sprouts"
+   "kale"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "any",
+  "protein_hint": "lentils",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -422,14 +417,14 @@
   "label": "25 January",
   "month": 1,
   "meal": "dinner",
-  "form": "pan fry with a side",
+  "form": "pasta",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
    "jerusalem-artichokes",
-   "cauliflower"
+   "red-cabbage"
   ],
-  "protein": "pork-chops",
+  "protein": "lamb-neck",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -440,11 +435,11 @@
   "label": "26 January",
   "month": 1,
   "meal": "snack",
-  "form": "savoury muffin or bake",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "squash"
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": null,
@@ -457,13 +452,13 @@
   "label": "27 January",
   "month": 1,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "breakfast hash",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "mushrooms"
   ],
-  "protein": "smoked-haddock",
+  "protein": "trout",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -474,11 +469,11 @@
   "label": "28 January",
   "month": 1,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "jacket or loaded potato",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "white-cabbage"
+   "swede"
   ],
   "protein": "mussels",
   "protein_hint": null,
@@ -495,10 +490,10 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "celeriac",
-   "carrots"
+   "purple-sprouting-broccoli",
+   "brussels-sprouts"
   ],
-  "protein": "pollock",
+  "protein": "cod",
   "protein_hint": null,
   "kit": "one_tray",
   "pace": "standard"
@@ -509,11 +504,11 @@
   "label": "30 January",
   "month": 1,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "quick pickle or slaw",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "parsnips"
   ],
   "protein": null,
   "protein_hint": null,
@@ -526,11 +521,11 @@
   "label": "31 January",
   "month": 1,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "porridge",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "apples"
+   "bramley-apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -543,16 +538,16 @@
   "label": "1 February",
   "month": 2,
   "meal": "lunch",
-  "form": "lentil or bean pot",
+  "form": "fritters",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "parsnips",
-   "cavolo-nero"
+   "white-cabbage",
+   "celeriac"
   ],
-  "protein": "whole-chicken",
+  "protein": "lamb-mince",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -561,16 +556,16 @@
   "label": "2 February",
   "month": 2,
   "meal": "dinner",
-  "form": "pie",
+  "form": "stew or casserole",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "beetroot",
-   "jerusalem-artichokes"
+   "squash",
+   "beetroot"
   ],
-  "protein": "chicken-thighs",
+  "protein": "turkey-mince",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -579,11 +574,11 @@
   "label": "3 February",
   "month": 2,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "leeks"
+   "clementines"
   ],
   "protein": null,
   "protein_hint": null,
@@ -596,14 +591,15 @@
   "label": "4 February",
   "month": 2,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "turnips"
+   "leeks",
+   "rhubarb"
   ],
   "protein": null,
-  "protein_hint": "eggs",
+  "protein_hint": "cheese",
   "kit": "any",
   "pace": "standard"
  },
@@ -613,16 +609,16 @@
   "label": "5 February",
   "month": 2,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "curry or dal",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "brussels-sprouts",
-   "savoy-cabbage"
+   "carrots",
+   "jerusalem-artichokes"
   ],
   "protein": null,
-  "protein_hint": "cheese",
-  "kit": "any",
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -635,7 +631,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "cauliflower"
+   "oranges"
   ],
   "protein": null,
   "protein_hint": null,
@@ -648,11 +644,11 @@
   "label": "7 February",
   "month": 2,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "kale"
+   "apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -665,15 +661,15 @@
   "label": "8 February",
   "month": 2,
   "meal": "lunch",
-  "form": "soup",
+  "form": "tart or quiche",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "mushrooms"
+   "cauliflower"
   ],
   "protein": null,
-  "protein_hint": "lentils",
-  "kit": "one_pot",
+  "protein_hint": "eggs",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -682,15 +678,15 @@
   "label": "9 February",
   "month": 2,
   "meal": "dinner",
-  "form": "stew or casserole",
+  "form": "pan fry with a side",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "swede"
+   "purple-sprouting-broccoli"
   ],
-  "protein": "chicken-breast",
+  "protein": "gammon",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -699,11 +695,11 @@
   "label": "10 February",
   "month": 2,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "dip with crudités",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "purple-sprouting-broccoli"
+   "kale"
   ],
   "protein": null,
   "protein_hint": null,
@@ -716,7 +712,7 @@
   "label": "11 February",
   "month": 2,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "fruit compote with yoghurt",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
@@ -733,12 +729,12 @@
   "label": "12 February",
   "month": 2,
   "meal": "lunch",
-  "form": "pasta",
+  "form": "grain bowl",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "carrots",
-   "celeriac"
+   "swede",
+   "clementines"
   ],
   "protein": "beef-mince",
   "protein_hint": null,
@@ -751,15 +747,15 @@
   "label": "13 February",
   "month": 2,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "beetroot"
+   "turnips"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "one_pot",
+  "protein_hint": "a whole grain",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -772,7 +768,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "clementines"
+   "oranges"
   ],
   "protein": null,
   "protein_hint": null,
@@ -785,16 +781,16 @@
   "label": "15 February",
   "month": 2,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "soup",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "white-cabbage",
-   "potatoes"
+   "brussels-sprouts",
+   "parsnips"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
-  "kit": "any",
+  "protein_hint": "split peas",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -803,13 +799,13 @@
   "label": "16 February",
   "month": 2,
   "meal": "dinner",
-  "form": "risotto or grain pot",
+  "form": "hearty soup",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "parsnips"
+   "cavolo-nero"
   ],
-  "protein": "bacon",
+  "protein": "chicken-breast",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "standard"
@@ -820,11 +816,11 @@
   "label": "17 February",
   "month": 2,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "savoury muffin or bake",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "oranges"
+   "savoy-cabbage"
   ],
   "protein": "kippers",
   "protein_hint": null,
@@ -837,11 +833,11 @@
   "label": "18 February",
   "month": 2,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "mushrooms"
+   "potatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -854,14 +850,15 @@
   "label": "19 February",
   "month": 2,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "squash"
+   "carrots",
+   "beetroot"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "nuts or seeds",
   "kit": "any",
   "pace": "quick"
  },
@@ -875,9 +872,9 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "swede"
+   "mushrooms"
   ],
-  "protein": "smoked-mackerel",
+  "protein": "hake",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -888,11 +885,11 @@
   "label": "21 February",
   "month": 2,
   "meal": "snack",
-  "form": "quick pickle or slaw",
+  "form": "scone or soda bread",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "turnips"
+   "bramley-apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -905,11 +902,11 @@
   "label": "22 February",
   "month": 2,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "leeks"
   ],
   "protein": null,
   "protein_hint": null,
@@ -922,13 +919,13 @@
   "label": "23 February",
   "month": 2,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "jacket or loaded potato",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "brussels-sprouts"
+   "swede"
   ],
-  "protein": "trout",
+  "protein": "smoked-mackerel",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -939,16 +936,15 @@
   "label": "24 February",
   "month": 2,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "stew or casserole",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "cauliflower",
-   "savoy-cabbage"
+   "white-cabbage"
   ],
   "protein": null,
   "protein_hint": "split peas",
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -957,13 +953,13 @@
   "label": "25 February",
   "month": 2,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "baked oats or breakfast loaf",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "oranges"
+   "apples"
   ],
-  "protein": "bacon",
+  "protein": "ham",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -974,15 +970,15 @@
   "label": "26 February",
   "month": 2,
   "meal": "lunch",
-  "form": "soup",
+  "form": "pasta",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "purple-sprouting-broccoli"
+   "squash"
   ],
-  "protein": "lamb-neck",
+  "protein": "pork-chops",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -991,16 +987,16 @@
   "label": "27 February",
   "month": 2,
   "meal": "dinner",
-  "form": "pasta",
+  "form": "risotto or grain pot",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "jerusalem-artichokes",
+   "celeriac",
    "cavolo-nero"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "any",
+  "protein_hint": "lentils",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -1009,11 +1005,11 @@
   "label": "28 February",
   "month": 2,
   "meal": "snack",
-  "form": "savoury muffin or bake",
+  "form": "baked or stewed fruit",
   "diet": "vegan",
   "gluten_free": true,
   "heroes": [
-   "kale"
+   "clementines"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1026,11 +1022,11 @@
   "label": "1 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "apples"
+   "spring-onions"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1043,16 +1039,16 @@
   "label": "2 March",
   "month": 3,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "lentil or bean pot",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
    "spring-greens",
-   "watercress"
+   "rhubarb"
   ],
   "protein": null,
-  "protein_hint": "cheese",
-  "kit": "any",
+  "protein_hint": "a whole grain",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -1061,15 +1057,15 @@
   "label": "3 March",
   "month": 3,
   "meal": "dinner",
-  "form": "hearty soup",
+  "form": "pasta",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "spring-onions"
+   "watercress"
   ],
-  "protein": "pork-mince",
+  "protein": "pork-shoulder",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -1078,11 +1074,11 @@
   "label": "4 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "pancakes or griddle cakes",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "bramley-apples"
+   "oranges"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1095,14 +1091,14 @@
   "label": "5 March",
   "month": 3,
   "meal": "lunch",
-  "form": "pasta",
+  "form": "tart or quiche",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "leeks",
-   "carrots"
+   "cauliflower",
+   "parsnips"
   ],
-  "protein": "pork-shoulder",
+  "protein": "bacon",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -1113,16 +1109,16 @@
   "label": "6 March",
   "month": 3,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "roast",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "white-cabbage",
-   "cavolo-nero"
+   "jerusalem-artichokes",
+   "purple-sprouting-broccoli"
   ],
-  "protein": "beef-mince",
+  "protein": "pork-mince",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "one_tray",
   "pace": "standard"
  },
  {
@@ -1131,11 +1127,11 @@
   "label": "7 March",
   "month": 3,
   "meal": "snack",
-  "form": "baked or stewed fruit",
+  "form": "fruit pot or crumble",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "bramley-apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1148,13 +1144,13 @@
   "label": "8 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "savoury breakfast plate",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "oranges"
+   "spring-onions"
   ],
-  "protein": "trout",
+  "protein": "kippers",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -1165,15 +1161,16 @@
   "label": "9 March",
   "month": 3,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "lentil or bean pot",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "spring-greens"
+   "spring-greens",
+   "savoy-cabbage"
   ],
   "protein": null,
-  "protein_hint": "lentils",
-  "kit": "any",
+  "protein_hint": "eggs",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -1182,16 +1179,16 @@
   "label": "10 March",
   "month": 3,
   "meal": "dinner",
-  "form": "pie",
+  "form": "traybake",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "spring-onions",
-   "watercress"
+   "watercress",
+   "kale"
   ],
   "protein": null,
-  "protein_hint": "eggs",
-  "kit": "any",
+  "protein_hint": "nuts or seeds",
+  "kit": "one_tray",
   "pace": "quick"
  },
  {
@@ -1204,7 +1201,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "bramley-apples"
+   "apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1221,7 +1218,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "apples"
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1234,13 +1231,14 @@
   "label": "13 March",
   "month": 3,
   "meal": "lunch",
-  "form": "lentil or bean pot",
+  "form": "soup",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "potatoes"
+   "mushrooms",
+   "oranges"
   ],
-  "protein": "hake",
+  "protein": "pollock",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "standard"
@@ -1251,15 +1249,15 @@
   "label": "14 March",
   "month": 3,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "stew or casserole",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "celeriac"
+   "carrots"
   ],
-  "protein": "pollock",
+  "protein": "smoked-mackerel",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -1268,11 +1266,11 @@
   "label": "15 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "eggs",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "kale"
+   "spring-onions"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1285,15 +1283,14 @@
   "label": "16 March",
   "month": 3,
   "meal": "lunch",
-  "form": "grain bowl",
+  "form": "jacket or loaded potato",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "spring-greens",
-   "purple-sprouting-broccoli"
+   "spring-greens"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
+  "protein_hint": "split peas",
   "kit": "any",
   "pace": "standard"
  },
@@ -1303,16 +1300,16 @@
   "label": "17 March",
   "month": 3,
   "meal": "dinner",
-  "form": "fishcakes or patties",
+  "form": "risotto or grain pot",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "spring-onions",
-   "watercress"
+   "watercress",
+   "celeriac"
   ],
   "protein": "whole-chicken",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -1321,11 +1318,11 @@
   "label": "18 March",
   "month": 3,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "bramley-apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1338,7 +1335,7 @@
   "label": "19 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "pancakes or griddle cakes",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
@@ -1355,15 +1352,16 @@
   "label": "20 March",
   "month": 3,
   "meal": "lunch",
-  "form": "soup",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "cauliflower"
+   "potatoes",
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": "tinned beans or chickpeas",
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -1372,15 +1370,15 @@
   "label": "21 March",
   "month": 3,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "jerusalem-artichokes"
+   "white-cabbage"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
-  "kit": "one_tray",
+  "protein_hint": "cheese",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -1389,11 +1387,11 @@
   "label": "22 March",
   "month": 3,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "fruit pot or crumble",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "savoy-cabbage"
+   "oranges"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1406,11 +1404,11 @@
   "label": "23 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "leeks"
+   "apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1423,14 +1421,13 @@
   "label": "24 March",
   "month": 3,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "grain bowl",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "spring-onions",
-   "bramley-apples"
+   "spring-greens"
   ],
-  "protein": "pork-shoulder",
+  "protein": "pork-chops",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -1441,16 +1438,15 @@
   "label": "25 March",
   "month": 3,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "pan fry with a side",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "spring-greens",
-   "oranges"
+   "spring-onions"
   ],
-  "protein": "sausages",
+  "protein": "chicken-breast",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -1459,11 +1455,11 @@
   "label": "26 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "overnight oats or bircher",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "bramley-apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1476,14 +1472,15 @@
   "label": "27 March",
   "month": 3,
   "meal": "lunch",
-  "form": "pasta",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "watercress"
+   "watercress",
+   "jerusalem-artichokes"
   ],
   "protein": null,
-  "protein_hint": "eggs",
+  "protein_hint": "a whole grain",
   "kit": "any",
   "pace": "quick"
  },
@@ -1493,16 +1490,15 @@
   "label": "28 March",
   "month": 3,
   "meal": "dinner",
-  "form": "roast",
+  "form": "gratin or bake",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "parsnips",
-   "white-cabbage"
+   "parsnips"
   ],
   "protein": null,
-  "protein_hint": "split peas",
-  "kit": "one_tray",
+  "protein_hint": "lentils",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -1511,11 +1507,11 @@
   "label": "29 March",
   "month": 3,
   "meal": "snack",
-  "form": "savoury muffin or bake",
+  "form": "baked or stewed fruit",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "mushrooms"
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1528,13 +1524,13 @@
   "label": "30 March",
   "month": 3,
   "meal": "breakfast",
-  "form": "eggs",
+  "form": "on toast",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "potatoes"
+   "oranges"
   ],
-  "protein": "ham",
+  "protein": "bacon",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -1549,10 +1545,10 @@
   "diet": "fish",
   "gluten_free": true,
   "heroes": [
-   "spring-onions",
-   "carrots"
+   "savoy-cabbage",
+   "apples"
   ],
-  "protein": "smoked-haddock",
+  "protein": "trout",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "standard"
@@ -1563,15 +1559,14 @@
   "label": "1 April",
   "month": 4,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "pie",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "rocket",
    "new-potatoes"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
+  "protein_hint": "eggs",
   "kit": "any",
   "pace": "standard"
  },
@@ -1585,7 +1580,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "radishes"
+   "rocket"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1598,11 +1593,11 @@
   "label": "3 April",
   "month": 4,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "porridge",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "oranges"
+   "bramley-apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1615,14 +1610,13 @@
   "label": "4 April",
   "month": 4,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "jacket or loaded potato",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "spinach",
    "salad-leaves"
   ],
-  "protein": "stewing-beef",
+  "protein": "pork-shoulder",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -1633,13 +1627,14 @@
   "label": "5 April",
   "month": 4,
   "meal": "dinner",
-  "form": "stew or casserole",
+  "form": "curry or dal",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "spring-greens"
+   "spinach",
+   "radishes"
   ],
-  "protein": "pork-mince",
+  "protein": "turkey-mince",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "standard"
@@ -1650,11 +1645,11 @@
   "label": "6 April",
   "month": 4,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "mushrooms"
+   "leeks"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1667,15 +1662,15 @@
   "label": "7 April",
   "month": 4,
   "meal": "lunch",
-  "form": "grain bowl",
+  "form": "fritters",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "watercress",
-   "cauliflower"
+   "spring-greens",
+   "watercress"
   ],
   "protein": null,
-  "protein_hint": "lentils",
+  "protein_hint": "cheese",
   "kit": "any",
   "pace": "quick"
  },
@@ -1685,16 +1680,16 @@
   "label": "8 April",
   "month": 4,
   "meal": "dinner",
-  "form": "pie",
+  "form": "stew or casserole",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "rocket",
-   "new-potatoes"
+   "new-potatoes",
+   "purple-sprouting-broccoli"
   ],
-  "protein": "kippers",
+  "protein": "hake",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -1703,11 +1698,11 @@
   "label": "9 April",
   "month": 4,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "flapjack or oat bar",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "bramley-apples"
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1718,127 +1713,6 @@
   "day": 100,
   "date": "2027-04-10",
   "label": "10 April",
-  "month": 4,
-  "meal": "breakfast",
-  "form": "savoury breakfast plate",
-  "diet": "vegetarian",
-  "gluten_free": false,
-  "heroes": [
-   "leeks"
-  ],
-  "protein": null,
-  "protein_hint": null,
-  "kit": "any",
-  "pace": "standard"
- },
- {
-  "day": 101,
-  "date": "2027-04-11",
-  "label": "11 April",
-  "month": 4,
-  "meal": "lunch",
-  "form": "frittata or omelette",
-  "diet": "meat",
-  "gluten_free": false,
-  "heroes": [
-   "radishes"
-  ],
-  "protein": "chicken-thighs",
-  "protein_hint": null,
-  "kit": "any",
-  "pace": "standard"
- },
- {
-  "day": 102,
-  "date": "2027-04-12",
-  "label": "12 April",
-  "month": 4,
-  "meal": "dinner",
-  "form": "curry or dal",
-  "diet": "meat",
-  "gluten_free": false,
-  "heroes": [
-   "salad-leaves",
-   "spinach"
-  ],
-  "protein": "pork-chops",
-  "protein_hint": null,
-  "kit": "one_pot",
-  "pace": "standard"
- },
- {
-  "day": 103,
-  "date": "2027-04-13",
-  "label": "13 April",
-  "month": 4,
-  "meal": "snack",
-  "form": "baked or stewed fruit",
-  "diet": "vegan",
-  "gluten_free": false,
-  "heroes": [
-   "apples"
-  ],
-  "protein": null,
-  "protein_hint": null,
-  "kit": "any",
-  "pace": "quick"
- },
- {
-  "day": 104,
-  "date": "2027-04-14",
-  "label": "14 April",
-  "month": 4,
-  "meal": "breakfast",
-  "form": "porridge",
-  "diet": "vegan",
-  "gluten_free": false,
-  "heroes": [
-   "rhubarb"
-  ],
-  "protein": null,
-  "protein_hint": null,
-  "kit": "any",
-  "pace": "quick"
- },
- {
-  "day": 105,
-  "date": "2027-04-15",
-  "label": "15 April",
-  "month": 4,
-  "meal": "lunch",
-  "form": "soup",
-  "diet": "vegetarian",
-  "gluten_free": false,
-  "heroes": [
-   "rocket",
-   "new-potatoes"
-  ],
-  "protein": null,
-  "protein_hint": "cheese",
-  "kit": "one_pot",
-  "pace": "quick"
- },
- {
-  "day": 106,
-  "date": "2027-04-16",
-  "label": "16 April",
-  "month": 4,
-  "meal": "dinner",
-  "form": "fishcakes or patties",
-  "diet": "vegetarian",
-  "gluten_free": false,
-  "heroes": [
-   "purple-sprouting-broccoli"
-  ],
-  "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
-  "kit": "any",
-  "pace": "quick"
- },
- {
-  "day": 107,
-  "date": "2027-04-17",
-  "label": "17 April",
   "month": 4,
   "meal": "breakfast",
   "form": "breakfast hash",
@@ -1853,17 +1727,139 @@
   "pace": "standard"
  },
  {
+  "day": 101,
+  "date": "2027-04-11",
+  "label": "11 April",
+  "month": 4,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "salad-leaves",
+   "rocket"
+  ],
+  "protein": "gammon",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ {
+  "day": 102,
+  "date": "2027-04-12",
+  "label": "12 April",
+  "month": 4,
+  "meal": "dinner",
+  "form": "big salad",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "spinach",
+   "radishes"
+  ],
+  "protein": "lamb-neck",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ {
+  "day": 103,
+  "date": "2027-04-13",
+  "label": "13 April",
+  "month": 4,
+  "meal": "snack",
+  "form": "scone or soda bread",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "oranges"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ {
+  "day": 104,
+  "date": "2027-04-14",
+  "label": "14 April",
+  "month": 4,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ {
+  "day": 105,
+  "date": "2027-04-15",
+  "label": "15 April",
+  "month": 4,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "new-potatoes",
+   "cauliflower"
+  ],
+  "protein": null,
+  "protein_hint": "nuts or seeds",
+  "kit": "any",
+  "pace": "quick"
+ },
+ {
+  "day": 106,
+  "date": "2027-04-16",
+  "label": "16 April",
+  "month": 4,
+  "meal": "dinner",
+  "form": "risotto or grain pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "mushrooms",
+   "carrots"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ {
+  "day": 107,
+  "date": "2027-04-17",
+  "label": "17 April",
+  "month": 4,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ {
   "day": 108,
   "date": "2027-04-18",
   "label": "18 April",
   "month": 4,
   "meal": "lunch",
-  "form": "salad",
+  "form": "on toast",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "radishes",
-   "oranges"
+   "rocket"
   ],
   "protein": null,
   "protein_hint": "split peas",
@@ -1876,14 +1872,14 @@
   "label": "19 April",
   "month": 4,
   "meal": "dinner",
-  "form": "roast",
+  "form": "traybake",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
    "spinach",
-   "salad-leaves"
+   "bramley-apples"
   ],
-  "protein": "lamb-neck",
+  "protein": "lamb-chops",
   "protein_hint": null,
   "kit": "one_tray",
   "pace": "standard"
@@ -1894,11 +1890,11 @@
   "label": "20 April",
   "month": 4,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "savoury muffin or bake",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "spring-greens"
+   "salad-leaves"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1911,11 +1907,11 @@
   "label": "21 April",
   "month": 4,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "pancakes or griddle cakes",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "apples"
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1932,10 +1928,9 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "rocket",
-   "new-potatoes"
+   "radishes"
   ],
-  "protein": "haddock",
+  "protein": "pollock",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "standard"
@@ -1946,15 +1941,15 @@
   "label": "23 April",
   "month": 4,
   "meal": "dinner",
-  "form": "stew or casserole",
+  "form": "gratin or bake",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "potatoes"
+   "new-potatoes"
   ],
-  "protein": "smoked-mackerel",
+  "protein": "cod",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -1963,11 +1958,11 @@
   "label": "24 April",
   "month": 4,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "bramley-apples"
+   "cauliflower"
   ],
   "protein": null,
   "protein_hint": null,
@@ -1980,13 +1975,13 @@
   "label": "25 April",
   "month": 4,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "on toast",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
    "oranges"
   ],
-  "protein": "trout",
+  "protein": "smoked-haddock",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -1997,14 +1992,14 @@
   "label": "26 April",
   "month": 4,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "fritters",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "radishes"
+   "spinach"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
+  "protein_hint": "lentils",
   "kit": "any",
   "pace": "quick"
  },
@@ -2014,16 +2009,15 @@
   "label": "27 April",
   "month": 4,
   "meal": "dinner",
-  "form": "pasta",
+  "form": "roast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "salad-leaves",
-   "spinach"
+   "rocket"
   ],
   "protein": null,
   "protein_hint": "a whole grain",
-  "kit": "any",
+  "kit": "one_tray",
   "pace": "quick"
  },
  {
@@ -2032,11 +2026,11 @@
   "label": "28 April",
   "month": 4,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "apples"
+   "leeks"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2049,14 +2043,14 @@
   "label": "29 April",
   "month": 4,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "salad",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "rocket",
-   "new-potatoes"
+   "salad-leaves",
+   "radishes"
   ],
-  "protein": "chicken-breast",
+  "protein": "chicken-thighs",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2067,13 +2061,13 @@
   "label": "30 April",
   "month": 4,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "pan fry with a side",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "watercress"
+   "new-potatoes"
   ],
-  "protein": "lamb-mince",
+  "protein": "sausages",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2084,7 +2078,7 @@
   "label": "1 May",
   "month": 5,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "fruit pot or crumble",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
@@ -2101,11 +2095,11 @@
   "label": "2 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "eggs",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "asparagus"
+   "rhubarb"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2122,10 +2116,11 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "cucumber"
+   "cucumber",
+   "pointed-cabbage"
   ],
   "protein": null,
-  "protein_hint": "lentils",
+  "protein_hint": "nuts or seeds",
   "kit": "any",
   "pace": "quick"
  },
@@ -2142,7 +2137,7 @@
    "lettuce"
   ],
   "protein": null,
-  "protein_hint": "split peas",
+  "protein_hint": "tinned beans or chickpeas",
   "kit": "any",
   "pace": "quick"
  },
@@ -2152,11 +2147,11 @@
   "label": "5 May",
   "month": 5,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "oranges"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2169,11 +2164,11 @@
   "label": "6 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "pancakes or griddle cakes",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "oranges"
+   "strawberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2186,14 +2181,14 @@
   "label": "7 May",
   "month": 5,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "frittata or omelette",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "pointed-cabbage",
+   "asparagus",
    "broad-beans"
   ],
-  "protein": "turkey-mince",
+  "protein": "pork-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2204,14 +2199,13 @@
   "label": "8 May",
   "month": 5,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "hearty soup",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "spinach",
-   "radishes"
+   "salad-leaves"
   ],
-  "protein": "pork-shoulder",
+  "protein": "beef-mince",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "standard"
@@ -2222,13 +2216,13 @@
   "label": "9 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "overnight oats or bircher",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "asparagus"
+   "rhubarb"
   ],
-  "protein": "sausages",
+  "protein": "ham",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2239,13 +2233,13 @@
   "label": "10 May",
   "month": 5,
   "meal": "lunch",
-  "form": "salad",
+  "form": "on toast",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
    "cucumber"
   ],
-  "protein": "mackerel",
+  "protein": "plaice",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2256,15 +2250,15 @@
   "label": "11 May",
   "month": 5,
   "meal": "dinner",
-  "form": "pan fry with a side",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
    "lettuce",
-   "salad-leaves"
+   "pointed-cabbage"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "eggs",
   "kit": "any",
   "pace": "standard"
  },
@@ -2274,11 +2268,11 @@
   "label": "12 May",
   "month": 5,
   "meal": "snack",
-  "form": "baked or stewed fruit",
+  "form": "dip with crudités",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "strawberries"
+   "spinach"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2291,11 +2285,11 @@
   "label": "13 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "eggs",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "mushrooms"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2308,15 +2302,16 @@
   "label": "14 May",
   "month": 5,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "lentil or bean pot",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pointed-cabbage"
+   "asparagus",
+   "broad-beans"
   ],
   "protein": null,
   "protein_hint": "cheese",
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -2325,16 +2320,16 @@
   "label": "15 May",
   "month": 5,
   "meal": "dinner",
-  "form": "hearty soup",
+  "form": "gratin or bake",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "broad-beans",
-   "spinach"
+   "radishes",
+   "rocket"
   ],
-  "protein": "hake",
+  "protein": "mackerel",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -2343,11 +2338,11 @@
   "label": "16 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "oranges"
+   "strawberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2360,14 +2355,14 @@
   "label": "17 May",
   "month": 5,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "pasta",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "asparagus"
+   "cucumber"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "split peas",
   "kit": "any",
   "pace": "standard"
  },
@@ -2377,15 +2372,16 @@
   "label": "18 May",
   "month": 5,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "risotto or grain pot",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "cucumber"
+   "pointed-cabbage",
+   "lettuce"
   ],
-  "protein": "whole-chicken",
+  "protein": "stewing-beef",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -2394,11 +2390,11 @@
   "label": "19 May",
   "month": 5,
   "meal": "snack",
-  "form": "quick pickle or slaw",
+  "form": "scone or soda bread",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "lettuce"
+   "oranges"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2411,11 +2407,11 @@
   "label": "20 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "savoury breakfast plate",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "strawberries"
+   "spring-onions"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2428,13 +2424,14 @@
   "label": "21 May",
   "month": 5,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "salad",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "pointed-cabbage"
+   "broad-beans",
+   "asparagus"
   ],
-  "protein": "ham",
+  "protein": "chicken-drumsticks",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -2445,15 +2442,15 @@
   "label": "22 May",
   "month": 5,
   "meal": "dinner",
-  "form": "risotto or grain pot",
+  "form": "fishcakes or patties",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "broad-beans"
+   "radishes"
   ],
   "protein": null,
-  "protein_hint": "eggs",
-  "kit": "one_pot",
+  "protein_hint": "a whole grain",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -2462,11 +2459,11 @@
   "label": "23 May",
   "month": 5,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "savoury muffin or bake",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "rocket"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2479,11 +2476,11 @@
   "label": "24 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "asparagus"
+   "strawberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2496,12 +2493,12 @@
   "label": "25 May",
   "month": 5,
   "meal": "lunch",
-  "form": "grain bowl",
+  "form": "jacket or loaded potato",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
    "cucumber",
-   "rocket"
+   "lettuce"
   ],
   "protein": null,
   "protein_hint": "cheese",
@@ -2514,16 +2511,16 @@
   "label": "26 May",
   "month": 5,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "curry or dal",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "lettuce",
-   "salad-leaves"
+   "pointed-cabbage",
+   "new-potatoes"
   ],
-  "protein": "chicken-breast",
+  "protein": "lamb-mince",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -2532,11 +2529,11 @@
   "label": "27 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "pancakes or griddle cakes",
+  "form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "strawberries"
+   "spinach"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2549,15 +2546,14 @@
   "label": "28 May",
   "month": 5,
   "meal": "lunch",
-  "form": "salad",
+  "form": "fritters",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pointed-cabbage",
-   "radishes"
+   "broad-beans"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
+  "protein_hint": "lentils",
   "kit": "any",
   "pace": "standard"
  },
@@ -2567,16 +2563,16 @@
   "label": "29 May",
   "month": 5,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "roast",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "broad-beans",
-   "oranges"
+   "asparagus",
+   "salad-leaves"
   ],
   "protein": "mackerel",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "one_tray",
   "pace": "standard"
  },
  {
@@ -2585,11 +2581,11 @@
   "label": "30 May",
   "month": 5,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "carrots"
+   "spring-greens"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2602,11 +2598,11 @@
   "label": "31 May",
   "month": 5,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "overnight oats or bircher",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "rhubarb"
+   "strawberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2619,15 +2615,16 @@
   "label": "1 June",
   "month": 6,
   "meal": "lunch",
-  "form": "lentil or bean pot",
+  "form": "on toast",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "fennel"
+   "chard",
+   "courgettes"
   ],
-  "protein": "chicken-thighs",
+  "protein": "whole-chicken",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -2636,16 +2633,16 @@
   "label": "2 June",
   "month": 6,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "gratin or bake",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "peas",
-   "tomatoes"
+   "broccoli",
+   "peas"
   ],
-  "protein": "lamb-neck",
+  "protein": "chicken-breast",
   "protein_hint": null,
-  "kit": "one_tray",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -2654,11 +2651,11 @@
   "label": "3 June",
   "month": 6,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "gooseberries"
+   "cherry-tomatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2671,13 +2668,13 @@
   "label": "4 June",
   "month": 6,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "pancakes or griddle cakes",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "cherries"
+   "gooseberries"
   ],
-  "protein": "kippers",
+  "protein": "smoked-haddock",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2688,16 +2685,15 @@
   "label": "5 June",
   "month": 6,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "lentil or bean pot",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "chard",
-   "raspberries"
+   "tomatoes"
   ],
-  "protein": "cod",
+  "protein": "whiting",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -2706,16 +2702,16 @@
   "label": "6 June",
   "month": 6,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "broccoli",
-   "cherry-tomatoes"
+   "fennel",
+   "beetroot"
   ],
   "protein": null,
-  "protein_hint": "eggs",
-  "kit": "one_tray",
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -2724,7 +2720,7 @@
   "label": "7 June",
   "month": 6,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -2741,15 +2737,15 @@
   "label": "8 June",
   "month": 6,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "frittata or omelette",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "courgettes",
-   "fennel"
+   "chard",
+   "courgettes"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
+  "protein_hint": "nuts or seeds",
   "kit": "any",
   "pace": "quick"
  },
@@ -2759,14 +2755,14 @@
   "label": "9 June",
   "month": 6,
   "meal": "dinner",
-  "form": "roast",
+  "form": "traybake",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "tomatoes",
-   "peas"
+   "peas",
+   "broccoli"
   ],
-  "protein": "pork-mince",
+  "protein": "lamb-mince",
   "protein_hint": null,
   "kit": "one_tray",
   "pace": "quick"
@@ -2777,13 +2773,13 @@
   "label": "10 June",
   "month": 6,
   "meal": "snack",
-  "form": "savoury muffin or bake",
+  "form": "dip with crudités",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "beetroot"
+   "cherry-tomatoes"
   ],
-  "protein": "smoked-mackerel",
+  "protein": "trout",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -2794,11 +2790,11 @@
   "label": "11 June",
   "month": 6,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "peaches"
+   "raspberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2811,14 +2807,13 @@
   "label": "12 June",
   "month": 6,
   "meal": "lunch",
-  "form": "grain bowl",
+  "form": "tart or quiche",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "chard",
-   "pointed-cabbage"
+   "tomatoes"
   ],
-  "protein": "bacon",
+  "protein": "whole-chicken",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2829,15 +2824,15 @@
   "label": "13 June",
   "month": 6,
   "meal": "dinner",
-  "form": "risotto or grain pot",
+  "form": "curry or dal",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "cherry-tomatoes",
-   "apricots"
+   "fennel",
+   "beetroot"
   ],
   "protein": null,
-  "protein_hint": "lentils",
+  "protein_hint": "split peas",
   "kit": "one_pot",
   "pace": "standard"
  },
@@ -2847,11 +2842,11 @@
   "label": "14 June",
   "month": 6,
   "meal": "snack",
-  "form": "quick pickle or slaw",
+  "form": "flapjack or oat bar",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "broccoli"
+   "peaches"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2864,13 +2859,13 @@
   "label": "15 June",
   "month": 6,
   "meal": "breakfast",
-  "form": "pancakes or griddle cakes",
+  "form": "savoury breakfast plate",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "cherries"
+   "courgettes"
   ],
-  "protein": "sausages",
+  "protein": "ham",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -2881,14 +2876,15 @@
   "label": "16 June",
   "month": 6,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "jacket or loaded potato",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "courgettes"
+   "broccoli",
+   "peas"
   ],
   "protein": null,
-  "protein_hint": "split peas",
+  "protein_hint": "tinned beans or chickpeas",
   "kit": "any",
   "pace": "standard"
  },
@@ -2898,15 +2894,15 @@
   "label": "17 June",
   "month": 6,
   "meal": "dinner",
-  "form": "pasta",
+  "form": "hearty soup",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "fennel"
+   "chard"
   ],
   "protein": null,
   "protein_hint": "eggs",
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -2915,11 +2911,11 @@
   "label": "18 June",
   "month": 6,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "eggs",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "tomatoes"
+   "cherry-tomatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2932,14 +2928,15 @@
   "label": "19 June",
   "month": 6,
   "meal": "lunch",
-  "form": "salad",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "chard"
+   "tomatoes",
+   "carrots"
   ],
   "protein": null,
-  "protein_hint": "lentils",
+  "protein_hint": "cheese",
   "kit": "any",
   "pace": "quick"
  },
@@ -2949,15 +2946,16 @@
   "label": "20 June",
   "month": 6,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "risotto or grain pot",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "peas"
+   "fennel",
+   "beetroot"
   ],
-  "protein": "lamb-mince",
+  "protein": "pork-chops",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -2966,11 +2964,11 @@
   "label": "21 June",
   "month": 6,
   "meal": "snack",
-  "form": "baked or stewed fruit",
+  "form": "scone or soda bread",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "raspberries"
+   "apricots"
   ],
   "protein": null,
   "protein_hint": null,
@@ -2987,7 +2985,7 @@
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "blackcurrants"
+   "cherries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3000,16 +2998,15 @@
   "label": "23 June",
   "month": 6,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "lentil or bean pot",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "courgettes",
-   "apricots"
+   "courgettes"
   ],
   "protein": "haddock",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -3018,14 +3015,14 @@
   "label": "24 June",
   "month": 6,
   "meal": "dinner",
-  "form": "fishcakes or patties",
+  "form": "pasta",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "broccoli",
-   "gooseberries"
+   "peas",
+   "raspberries"
   ],
-  "protein": "hake",
+  "protein": "plaice",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3036,11 +3033,11 @@
   "label": "25 June",
   "month": 6,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "peaches"
+   "cherry-tomatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3053,11 +3050,11 @@
   "label": "26 June",
   "month": 6,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "cherries"
+   "tomatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3074,10 +3071,10 @@
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "cherry-tomatoes",
-   "peas"
+   "chard",
+   "fennel"
   ],
-  "protein": "pork-chops",
+  "protein": "turkey-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -3088,15 +3085,14 @@
   "label": "28 June",
   "month": 6,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "gratin or bake",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "beetroot",
-   "chard"
+   "broccoli"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
+  "protein_hint": "nuts or seeds",
   "kit": "any",
   "pace": "quick"
  },
@@ -3106,11 +3102,11 @@
   "label": "29 June",
   "month": 6,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "tomatoes"
+   "asparagus"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3123,16 +3119,15 @@
   "label": "30 June",
   "month": 6,
   "meal": "lunch",
-  "form": "lentil or bean pot",
+  "form": "frittata or omelette",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "fennel",
-   "courgettes"
+   "lettuce"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "one_pot",
+  "protein_hint": "lentils",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -3141,14 +3136,14 @@
   "label": "1 July",
   "month": 7,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "roast",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "celery",
-   "aubergine"
+   "green-beans",
+   "peppers"
   ],
-  "protein": "stewing-beef",
+  "protein": "pork-shoulder",
   "protein_hint": null,
   "kit": "one_tray",
   "pace": "standard"
@@ -3159,11 +3154,11 @@
   "label": "2 July",
   "month": 7,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "redcurrants"
+   "celery"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3176,11 +3171,11 @@
   "label": "3 July",
   "month": 7,
   "meal": "breakfast",
-  "form": "eggs",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "new-potatoes"
+   "blueberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3193,14 +3188,15 @@
   "label": "4 July",
   "month": 7,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "grain bowl",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
+   "aubergine",
    "runner-beans"
   ],
   "protein": null,
-  "protein_hint": "cheese",
+  "protein_hint": "a whole grain",
   "kit": "any",
   "pace": "standard"
  },
@@ -3210,13 +3206,14 @@
   "label": "5 July",
   "month": 7,
   "meal": "dinner",
-  "form": "pan fry with a side",
+  "form": "fishcakes or patties",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "peppers"
+   "tomatoes",
+   "peas"
   ],
-  "protein": "turkey-mince",
+  "protein": "stewing-beef",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3227,11 +3224,11 @@
   "label": "6 July",
   "month": 7,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "baked or stewed fruit",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "blueberries"
+   "redcurrants"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3248,7 +3245,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "cherry-tomatoes"
+   "gooseberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3261,13 +3258,14 @@
   "label": "8 July",
   "month": 7,
   "meal": "lunch",
-  "form": "grain bowl",
+  "form": "salad",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "green-beans"
+   "green-beans",
+   "peppers"
   ],
-  "protein": "beef-mince",
+  "protein": "chicken-drumsticks",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -3278,15 +3276,16 @@
   "label": "9 July",
   "month": 7,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "traybake",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "aubergine"
+   "celery",
+   "broad-beans"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
-  "kit": "one_pot",
+  "protein_hint": "eggs",
+  "kit": "one_tray",
   "pace": "quick"
  },
  {
@@ -3295,11 +3294,11 @@
   "label": "10 July",
   "month": 7,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "pancakes or griddle cakes",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "redcurrants"
+   "blackcurrants"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3316,10 +3315,10 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "runner-beans",
-   "celery"
+   "aubergine",
+   "runner-beans"
   ],
-  "protein": "cod",
+  "protein": "whiting",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3330,15 +3329,15 @@
   "label": "12 July",
   "month": 7,
   "meal": "dinner",
-  "form": "risotto or grain pot",
+  "form": "big salad",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "peppers"
+   "pointed-cabbage"
   ],
-  "protein": "mackerel",
+  "protein": "plaice",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -3347,11 +3346,11 @@
   "label": "13 July",
   "month": 7,
   "meal": "snack",
-  "form": "dip with crudités",
+  "form": "savoury muffin or bake",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "broccoli"
+   "chard"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3364,11 +3363,11 @@
   "label": "14 July",
   "month": 7,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "eggs",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "blueberries"
+   "cherry-tomatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3385,10 +3384,10 @@
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "green-beans"
+   "peppers"
   ],
   "protein": null,
-  "protein_hint": "eggs",
+  "protein_hint": "cheese",
   "kit": "any",
   "pace": "quick"
  },
@@ -3398,14 +3397,14 @@
   "label": "16 July",
   "month": 7,
   "meal": "dinner",
-  "form": "roast",
+  "form": "traybake",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "aubergine",
-   "chard"
+   "green-beans",
+   "celery"
   ],
-  "protein": "lamb-neck",
+  "protein": "beef-mince",
   "protein_hint": null,
   "kit": "one_tray",
   "pace": "quick"
@@ -3416,11 +3415,11 @@
   "label": "17 July",
   "month": 7,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "dip with crudités",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "gooseberries"
+   "cucumber"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3433,11 +3432,11 @@
   "label": "18 July",
   "month": 7,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "overnight oats or bircher",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "cherry-tomatoes"
+   "blueberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3454,7 +3453,7 @@
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "celery"
+   "runner-beans"
   ],
   "protein": null,
   "protein_hint": "split peas",
@@ -3467,16 +3466,16 @@
   "label": "20 July",
   "month": 7,
   "meal": "dinner",
-  "form": "pie",
+  "form": "curry or dal",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "runner-beans",
-   "peppers"
+   "aubergine",
+   "broccoli"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "any",
+  "protein_hint": "lentils",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -3485,13 +3484,13 @@
   "label": "21 July",
   "month": 7,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "baked oats or breakfast loaf",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "courgettes"
+   "cherries"
   ],
-  "protein": "ham",
+  "protein": "bacon",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3502,13 +3501,13 @@
   "label": "22 July",
   "month": 7,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "frittata or omelette",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "green-beans"
+   "peppers"
   ],
-  "protein": "whole-chicken",
+  "protein": "chicken-thighs",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3519,16 +3518,15 @@
   "label": "23 July",
   "month": 7,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "roast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "aubergine",
-   "broccoli"
+   "green-beans"
   ],
   "protein": null,
-  "protein_hint": "cheese",
-  "kit": "any",
+  "protein_hint": "a whole grain",
+  "kit": "one_tray",
   "pace": "standard"
  },
  {
@@ -3537,11 +3535,11 @@
   "label": "24 July",
   "month": 7,
   "meal": "snack",
-  "form": "quick pickle or slaw",
+  "form": "scone or soda bread",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "beetroot"
+   "redcurrants"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3558,7 +3556,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "blackcurrants"
+   "blueberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3571,15 +3569,15 @@
   "label": "26 July",
   "month": 7,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "grain bowl",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
    "celery",
-   "peas"
+   "runner-beans"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "eggs",
   "kit": "any",
   "pace": "quick"
  },
@@ -3589,14 +3587,13 @@
   "label": "27 July",
   "month": 7,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "pasta",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "runner-beans",
-   "blueberries"
+   "aubergine"
   ],
-  "protein": "chicken-thighs",
+  "protein": "pork-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -3607,13 +3604,13 @@
   "label": "28 July",
   "month": 7,
   "meal": "breakfast",
-  "form": "pancakes or griddle cakes",
+  "form": "overnight oats or bircher",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "raspberries"
+   "apricots"
   ],
-  "protein": "smoked-haddock",
+  "protein": "smoked-mackerel",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3624,14 +3621,13 @@
   "label": "29 July",
   "month": 7,
   "meal": "lunch",
-  "form": "grain bowl",
+  "form": "fritters",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "green-beans",
-   "peppers"
+   "cavolo-nero"
   ],
-  "protein": "pollock",
+  "protein": "kippers",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3642,15 +3638,16 @@
   "label": "30 July",
   "month": 7,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "big salad",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "tomatoes"
+   "peppers",
+   "courgettes"
   ],
-  "protein": "trout",
+  "protein": "cod",
   "protein_hint": null,
-  "kit": "one_tray",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -3659,11 +3656,11 @@
   "label": "31 July",
   "month": 7,
   "meal": "snack",
-  "form": "baked or stewed fruit",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "redcurrants"
+   "green-beans"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3693,13 +3690,14 @@
   "label": "2 August",
   "month": 8,
   "meal": "lunch",
-  "form": "pasta",
+  "form": "tart or quiche",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "marrow"
+   "marrow",
+   "fennel"
   ],
-  "protein": "lamb-mince",
+  "protein": "sausages",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -3710,16 +3708,15 @@
   "label": "3 August",
   "month": 8,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "fishcakes or patties",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "cucumber",
-   "blackberries"
+   "aubergine"
   ],
-  "protein": "pork-chops",
+  "protein": "lamb-neck",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -3728,11 +3725,11 @@
   "label": "4 August",
   "month": 8,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "flapjack or oat bar",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "grapes"
+   "figs"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3745,11 +3742,11 @@
   "label": "5 August",
   "month": 8,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "courgettes"
+   "blackberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3762,15 +3759,14 @@
   "label": "6 August",
   "month": 8,
   "meal": "lunch",
-  "form": "salad",
+  "form": "jacket or loaded potato",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "celery",
-   "green-beans"
+   "celery"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
+  "protein_hint": "nuts or seeds",
   "kit": "any",
   "pace": "standard"
  },
@@ -3780,15 +3776,15 @@
   "label": "7 August",
   "month": 8,
   "meal": "dinner",
-  "form": "stew or casserole",
+  "form": "pan fry with a side",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "broad-beans"
+   "runner-beans"
   ],
   "protein": null,
-  "protein_hint": "lentils",
-  "kit": "one_pot",
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -3797,7 +3793,7 @@
   "label": "8 August",
   "month": 8,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "pancakes or griddle cakes",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
@@ -3814,15 +3810,14 @@
   "label": "9 August",
   "month": 8,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "salad",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "sweetcorn",
-   "marrow"
+   "sweetcorn"
   ],
   "protein": null,
-  "protein_hint": "cheese",
+  "protein_hint": "a whole grain",
   "kit": "any",
   "pace": "standard"
  },
@@ -3832,16 +3827,15 @@
   "label": "10 August",
   "month": 8,
   "meal": "dinner",
-  "form": "pie",
+  "form": "roast",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "peppers",
-   "fennel"
+   "marrow"
   ],
-  "protein": "turkey-mince",
+  "protein": "lamb-chops",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_tray",
   "pace": "standard"
  },
  {
@@ -3850,11 +3844,11 @@
   "label": "11 August",
   "month": 8,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "fruit pot or crumble",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "aubergine"
+   "grapes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3871,7 +3865,7 @@
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "tomatoes"
+   "potatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3884,16 +3878,15 @@
   "label": "13 August",
   "month": 8,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "lentil or bean pot",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "lettuce",
-   "runner-beans"
+   "pointed-cabbage"
   ],
-  "protein": "stewing-beef",
+  "protein": "gammon",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -3902,16 +3895,15 @@
   "label": "14 August",
   "month": 8,
   "meal": "dinner",
-  "form": "roast",
+  "form": "curry or dal",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "broad-beans",
-   "green-beans"
+   "cucumber"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "one_tray",
+  "protein_hint": "lentils",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -3920,11 +3912,11 @@
   "label": "15 August",
   "month": 8,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "figs"
+   "chard"
   ],
   "protein": null,
   "protein_hint": null,
@@ -3954,12 +3946,12 @@
   "label": "17 August",
   "month": 8,
   "meal": "lunch",
-  "form": "lentil or bean pot",
+  "form": "soup",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
    "marrow",
-   "broccoli"
+   "broad-beans"
   ],
   "protein": null,
   "protein_hint": "split peas",
@@ -3972,13 +3964,13 @@
   "label": "18 August",
   "month": 8,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "big salad",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "pointed-cabbage"
+   "cavolo-nero"
   ],
-  "protein": "pork-shoulder",
+  "protein": "whole-chicken",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -3989,11 +3981,11 @@
   "label": "19 August",
   "month": 8,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "plums"
+   "tomatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4006,14 +3998,14 @@
   "label": "20 August",
   "month": 8,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "fritters",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
    "fennel"
   ],
   "protein": null,
-  "protein_hint": "lentils",
+  "protein_hint": "nuts or seeds",
   "kit": "any",
   "pace": "quick"
  },
@@ -4023,16 +4015,15 @@
   "label": "21 August",
   "month": 8,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "traybake",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "runner-beans",
-   "celery"
+   "aubergine"
   ],
-  "protein": "mackerel",
+  "protein": "hake",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_tray",
   "pace": "quick"
  },
  {
@@ -4041,11 +4032,11 @@
   "label": "22 August",
   "month": 8,
   "meal": "snack",
-  "form": "dip with crudités",
+  "form": "baked or stewed fruit",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "carrots"
+   "plums"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4058,11 +4049,11 @@
   "label": "23 August",
   "month": 8,
   "meal": "breakfast",
-  "form": "eggs",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "sweetcorn"
+   "blackberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4079,10 +4070,9 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "marrow",
-   "blackberries"
+   "marrow"
   ],
-  "protein": "pollock",
+  "protein": "haddock",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4093,14 +4083,15 @@
   "label": "25 August",
   "month": 8,
   "meal": "dinner",
-  "form": "curry or dal",
+  "form": "risotto or grain pot",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "peas"
+   "sweetcorn",
+   "lettuce"
   ],
   "protein": null,
-  "protein_hint": "split peas",
+  "protein_hint": "tinned beans or chickpeas",
   "kit": "one_pot",
   "pace": "standard"
  },
@@ -4110,11 +4101,11 @@
   "label": "26 August",
   "month": 8,
   "meal": "snack",
-  "form": "savoury muffin or bake",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "aubergine"
+   "beetroot"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4131,9 +4122,9 @@
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "grapes"
+   "figs"
   ],
-  "protein": "bacon",
+  "protein": "ham",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4144,14 +4135,13 @@
   "label": "28 August",
   "month": 8,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "frittata or omelette",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "cavolo-nero",
-   "figs"
+   "cherry-tomatoes"
   ],
-  "protein": "beef-mince",
+  "protein": "stewing-beef",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4162,14 +4152,14 @@
   "label": "29 August",
   "month": 8,
   "meal": "dinner",
-  "form": "pie",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "beetroot"
+   "peppers"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "eggs",
   "kit": "any",
   "pace": "standard"
  },
@@ -4179,11 +4169,11 @@
   "label": "30 August",
   "month": 8,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "eggs",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "sweetcorn"
+   "potatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4196,16 +4186,16 @@
   "label": "31 August",
   "month": 8,
   "meal": "lunch",
-  "form": "soup",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
    "marrow",
-   "chard"
+   "peaches"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
-  "kit": "one_pot",
+  "protein_hint": "cheese",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -4214,14 +4204,14 @@
   "label": "1 September",
   "month": 9,
   "meal": "dinner",
-  "form": "pasta",
+  "form": "fishcakes or patties",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
    "squash",
    "red-cabbage"
   ],
-  "protein": "pork-mince",
+  "protein": "sausages",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -4232,7 +4222,7 @@
   "label": "2 September",
   "month": 9,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "flapjack or oat bar",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -4253,7 +4243,7 @@
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "peaches"
+   "grapes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4266,16 +4256,16 @@
   "label": "4 September",
   "month": 9,
   "meal": "lunch",
-  "form": "salad",
+  "form": "lentil or bean pot",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "celeriac",
-   "white-cabbage"
+   "white-cabbage",
+   "celeriac"
   ],
-  "protein": "chicken-breast",
+  "protein": "lamb-neck",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -4288,10 +4278,9 @@
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "cucumber",
-   "blackberries"
+   "kale"
   ],
-  "protein": "pork-chops",
+  "protein": "chicken-drumsticks",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4302,11 +4291,11 @@
   "label": "6 September",
   "month": 9,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "savoury muffin or bake",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "kale"
+   "sweetcorn"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4319,13 +4308,13 @@
   "label": "7 September",
   "month": 9,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "on toast",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "plums"
+   "blackberries"
   ],
-  "protein": "smoked-mackerel",
+  "protein": "kippers",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -4336,15 +4325,14 @@
   "label": "8 September",
   "month": 9,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "fritters",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "squash",
    "red-cabbage"
   ],
   "protein": null,
-  "protein_hint": "eggs",
+  "protein_hint": "lentils",
   "kit": "any",
   "pace": "quick"
  },
@@ -4354,15 +4342,15 @@
   "label": "9 September",
   "month": 9,
   "meal": "dinner",
-  "form": "hearty soup",
+  "form": "roast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "lettuce"
+   "squash"
   ],
   "protein": null,
-  "protein_hint": "lentils",
-  "kit": "one_pot",
+  "protein_hint": "a whole grain",
+  "kit": "one_tray",
   "pace": "quick"
  },
  {
@@ -4375,7 +4363,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "grapes"
+   "raspberries"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4388,7 +4376,7 @@
   "label": "11 September",
   "month": 9,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "pasta",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
@@ -4405,16 +4393,16 @@
   "label": "12 September",
   "month": 9,
   "meal": "dinner",
-  "form": "pan fry with a side",
+  "form": "risotto or grain pot",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "peppers",
-   "white-cabbage"
+   "white-cabbage",
+   "carrots"
   ],
-  "protein": "cod",
+  "protein": "pollock",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -4423,11 +4411,11 @@
   "label": "13 September",
   "month": 9,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "scone or soda bread",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "cherry-tomatoes"
+   "green-beans"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4444,7 +4432,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "peaches"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4457,14 +4445,14 @@
   "label": "15 September",
   "month": 9,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "jacket or loaded potato",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "squash"
+   "red-cabbage"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "split peas",
   "kit": "any",
   "pace": "standard"
  },
@@ -4474,16 +4462,16 @@
   "label": "16 September",
   "month": 9,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "hearty soup",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "red-cabbage",
-   "sweetcorn"
+   "squash",
+   "broccoli"
   ],
-  "protein": "pork-mince",
+  "protein": "bacon",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -4492,11 +4480,11 @@
   "label": "17 September",
   "month": 9,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "fruit pot or crumble",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "figs"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4509,11 +4497,11 @@
   "label": "18 September",
   "month": 9,
   "meal": "breakfast",
-  "form": "eggs",
+  "form": "breakfast hash",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "potatoes"
+   "courgettes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4526,16 +4514,15 @@
   "label": "19 September",
   "month": 9,
   "meal": "lunch",
-  "form": "soup",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "marrow",
-   "celeriac"
+   "white-cabbage"
   ],
   "protein": null,
-  "protein_hint": "eggs",
-  "kit": "one_pot",
+  "protein_hint": "nuts or seeds",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -4548,10 +4535,10 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "fennel"
+   "runner-beans"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
+  "protein_hint": "eggs",
   "kit": "any",
   "pace": "quick"
  },
@@ -4561,11 +4548,11 @@
   "label": "21 September",
   "month": 9,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "blackberries"
+   "grapes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4578,15 +4565,15 @@
   "label": "22 September",
   "month": 9,
   "meal": "lunch",
-  "form": "salad",
+  "form": "soup",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "squash"
+   "celery"
   ],
-  "protein": "stewing-beef",
+  "protein": "chicken-thighs",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -4595,15 +4582,15 @@
   "label": "23 September",
   "month": 9,
   "meal": "dinner",
-  "form": "roast",
+  "form": "big salad",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "red-cabbage"
+   "kale"
   ],
-  "protein": "whole-chicken",
+  "protein": "gammon",
   "protein_hint": null,
-  "kit": "one_tray",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -4612,11 +4599,11 @@
   "label": "24 September",
   "month": 9,
   "meal": "snack",
-  "form": "savoury muffin or bake",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "cavolo-nero"
+   "red-cabbage"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4629,11 +4616,11 @@
   "label": "25 September",
   "month": 9,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "eggs",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "spinach"
+   "sweetcorn"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4646,14 +4633,15 @@
   "label": "26 September",
   "month": 9,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "grain bowl",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "white-cabbage"
+   "marrow",
+   "squash"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
+  "protein_hint": "cheese",
   "kit": "any",
   "pace": "quick"
  },
@@ -4663,11 +4651,11 @@
   "label": "27 September",
   "month": 9,
   "meal": "dinner",
-  "form": "big salad",
+  "form": "pasta",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "pointed-cabbage"
+   "celeriac"
   ],
   "protein": null,
   "protein_hint": "split peas",
@@ -4680,13 +4668,13 @@
   "label": "28 September",
   "month": 9,
   "meal": "snack",
-  "form": "quick pickle or slaw",
+  "form": "dip with crudités",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "aubergine"
+   "watercress"
   ],
-  "protein": "kippers",
+  "protein": "smoked-mackerel",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -4697,11 +4685,11 @@
   "label": "29 September",
   "month": 9,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "blueberries"
+   "cherry-tomatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4714,13 +4702,14 @@
   "label": "30 September",
   "month": 9,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "tart or quiche",
   "diet": "fish",
   "gluten_free": true,
   "heroes": [
-   "sweetcorn"
+   "peppers",
+   "plums"
   ],
-  "protein": "mussels",
+  "protein": "mackerel",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4731,16 +4720,16 @@
   "label": "1 October",
   "month": 10,
   "meal": "dinner",
-  "form": "risotto or grain pot",
+  "form": "pie",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
    "pumpkin",
-   "grapes"
+   "brussels-sprouts"
   ],
   "protein": null,
-  "protein_hint": "cheese",
-  "kit": "one_pot",
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -4753,9 +4742,9 @@
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "kale"
+   "potatoes"
   ],
-  "protein": "ham",
+  "protein": "sausages",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4766,14 +4755,14 @@
   "label": "3 October",
   "month": 10,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "fritters",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
    "turnips",
-   "brussels-sprouts"
+   "figs"
   ],
-  "protein": "turkey-mince",
+  "protein": "pork-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4784,14 +4773,13 @@
   "label": "4 October",
   "month": 10,
   "meal": "dinner",
-  "form": "pie",
+  "form": "pan fry with a side",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "swede",
-   "savoy-cabbage"
+   "swede"
   ],
-  "protein": "chicken-breast",
+  "protein": "lamb-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4802,11 +4790,11 @@
   "label": "5 October",
   "month": 10,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "savoy-cabbage"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4819,11 +4807,11 @@
   "label": "6 October",
   "month": 10,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "overnight oats or bircher",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "figs"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4836,15 +4824,16 @@
   "label": "7 October",
   "month": 10,
   "meal": "lunch",
-  "form": "lentil or bean pot",
+  "form": "frittata or omelette",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "parsnips"
+   "parsnips",
+   "spinach"
   ],
   "protein": null,
   "protein_hint": "lentils",
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -4853,15 +4842,16 @@
   "label": "8 October",
   "month": 10,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "risotto or grain pot",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "pumpkin"
+   "pumpkin",
+   "brussels-sprouts"
   ],
-  "protein": "mussels",
+  "protein": "whiting",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -4887,14 +4877,13 @@
   "label": "10 October",
   "month": 10,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "pasta",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "brussels-sprouts",
    "turnips"
   ],
-  "protein": "sausages",
+  "protein": "turkey-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -4922,11 +4911,11 @@
   "label": "12 October",
   "month": 10,
   "meal": "snack",
-  "form": "baked or stewed fruit",
+  "form": "oatcakes with a topping",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "celery"
   ],
   "protein": null,
   "protein_hint": null,
@@ -4939,7 +4928,7 @@
   "label": "13 October",
   "month": 10,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "porridge",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
@@ -4956,14 +4945,15 @@
   "label": "14 October",
   "month": 10,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "jacket or loaded potato",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "celery"
+   "spring-onions",
+   "pears"
   ],
   "protein": null,
-  "protein_hint": "cheese",
+  "protein_hint": "tinned beans or chickpeas",
   "kit": "any",
   "pace": "quick"
  },
@@ -4973,15 +4963,16 @@
   "label": "15 October",
   "month": 10,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "curry or dal",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pumpkin"
+   "pumpkin",
+   "brussels-sprouts"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
-  "kit": "one_tray",
+  "protein_hint": "nuts or seeds",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -4990,11 +4981,11 @@
   "label": "16 October",
   "month": 10,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "baked or stewed fruit",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "chard"
+   "grapes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5007,11 +4998,11 @@
   "label": "17 October",
   "month": 10,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "grapes"
+   "apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5024,15 +5015,16 @@
   "label": "18 October",
   "month": 10,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "lentil or bean pot",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "radishes"
+   "turnips",
+   "fennel"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "any",
+  "protein_hint": "a whole grain",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -5041,15 +5033,16 @@
   "label": "19 October",
   "month": 10,
   "meal": "dinner",
-  "form": "hearty soup",
+  "form": "gratin or bake",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "marrow"
+   "sweetcorn",
+   "tomatoes"
   ],
-  "protein": "lamb-neck",
+  "protein": "pork-chops",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -5058,11 +5051,11 @@
   "label": "20 October",
   "month": 10,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "leeks"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5075,16 +5068,15 @@
   "label": "21 October",
   "month": 10,
   "meal": "lunch",
-  "form": "soup",
+  "form": "on toast",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "squash",
-   "beetroot"
+   "white-cabbage"
   ],
-  "protein": "smoked-haddock",
+  "protein": "mussels",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -5093,13 +5085,13 @@
   "label": "22 October",
   "month": 10,
   "meal": "dinner",
-  "form": "pie",
+  "form": "big salad",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
    "pumpkin"
   ],
-  "protein": "hake",
+  "protein": "smoked-haddock",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5110,11 +5102,11 @@
   "label": "23 October",
   "month": 10,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "fruit pot or crumble",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "carrots"
+   "figs"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5127,13 +5119,13 @@
   "label": "24 October",
   "month": 10,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "on toast",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "figs"
+   "grapes"
   ],
-  "protein": "smoked-mackerel",
+  "protein": "trout",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -5144,14 +5136,15 @@
   "label": "25 October",
   "month": 10,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "frittata or omelette",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "potatoes"
+   "cauliflower",
+   "chard"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
+  "protein_hint": "cheese",
   "kit": "any",
   "pace": "quick"
  },
@@ -5165,7 +5158,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "peppers"
+   "swede"
   ],
   "protein": null,
   "protein_hint": "eggs",
@@ -5178,11 +5171,11 @@
   "label": "27 October",
   "month": 10,
   "meal": "snack",
-  "form": "quick pickle or slaw",
+  "form": "flapjack or oat bar",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "swede"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5195,11 +5188,11 @@
   "label": "28 October",
   "month": 10,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "eggs",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "grapes"
+   "kale"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5212,16 +5205,16 @@
   "label": "29 October",
   "month": 10,
   "meal": "lunch",
-  "form": "soup",
+  "form": "fritters",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
    "pumpkin",
-   "lettuce"
+   "salad-leaves"
   ],
-  "protein": "chicken-thighs",
+  "protein": "lamb-chops",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -5230,13 +5223,13 @@
   "label": "30 October",
   "month": 10,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "fishcakes or patties",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "red-cabbage"
+   "lettuce"
   ],
-  "protein": "bacon",
+  "protein": "beef-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5247,7 +5240,7 @@
   "label": "31 October",
   "month": 10,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "porridge",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -5264,16 +5257,16 @@
   "label": "1 November",
   "month": 11,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "soup",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
    "jerusalem-artichokes",
-   "turnips"
+   "carrots"
   ],
   "protein": null,
-  "protein_hint": "a whole grain",
-  "kit": "any",
+  "protein_hint": "cheese",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -5282,11 +5275,11 @@
   "label": "2 November",
   "month": 11,
   "meal": "dinner",
-  "form": "stew or casserole",
+  "form": "hearty soup",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "cauliflower"
+   "squash"
   ],
   "protein": null,
   "protein_hint": "split peas",
@@ -5333,13 +5326,13 @@
   "label": "5 November",
   "month": 11,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "salad",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
    "pumpkin"
   ],
-  "protein": "lamb-mince",
+  "protein": "chicken-breast",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5350,15 +5343,15 @@
   "label": "6 November",
   "month": 11,
   "meal": "dinner",
-  "form": "risotto or grain pot",
+  "form": "traybake",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "brussels-sprouts"
+   "savoy-cabbage"
   ],
-  "protein": "beef-mince",
+  "protein": "chicken-thighs",
   "protein_hint": null,
-  "kit": "one_pot",
+  "kit": "one_tray",
   "pace": "standard"
  },
  {
@@ -5367,7 +5360,7 @@
   "label": "7 November",
   "month": 11,
   "meal": "snack",
-  "form": "fruit pot or crumble",
+  "form": "scone or soda bread",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -5388,9 +5381,9 @@
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "bramley-apples"
+   "grapes"
   ],
-  "protein": "ham",
+  "protein": "bacon",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5401,13 +5394,13 @@
   "label": "9 November",
   "month": 11,
   "meal": "lunch",
-  "form": "tart or quiche",
+  "form": "jacket or loaded potato",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "celeriac"
+   "cavolo-nero"
   ],
-  "protein": "haddock",
+  "protein": "hake",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5418,15 +5411,16 @@
   "label": "10 November",
   "month": 11,
   "meal": "dinner",
-  "form": "pie",
+  "form": "roast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "leeks"
+   "jerusalem-artichokes",
+   "bramley-apples"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
-  "kit": "any",
+  "protein_hint": "eggs",
+  "kit": "one_tray",
   "pace": "standard"
  },
  {
@@ -5435,7 +5429,7 @@
   "label": "11 November",
   "month": 11,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -5452,15 +5446,15 @@
   "label": "12 November",
   "month": 11,
   "meal": "lunch",
-  "form": "grain bowl",
+  "form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "savoy-cabbage",
+   "turnips",
    "pumpkin"
   ],
   "protein": null,
-  "protein_hint": "lentils",
+  "protein_hint": "a whole grain",
   "kit": "any",
   "pace": "quick"
  },
@@ -5470,15 +5464,16 @@
   "label": "13 November",
   "month": 11,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "pasta",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "watercress"
+   "watercress",
+   "brussels-sprouts"
   ],
-  "protein": "smoked-haddock",
+  "protein": "haddock",
   "protein_hint": null,
-  "kit": "one_tray",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -5487,7 +5482,7 @@
   "label": "14 November",
   "month": 11,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "baked or stewed fruit",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -5504,11 +5499,11 @@
   "label": "15 November",
   "month": 11,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "chard"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5521,16 +5516,15 @@
   "label": "16 November",
   "month": 11,
   "meal": "lunch",
-  "form": "lentil or bean pot",
+  "form": "frittata or omelette",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "jerusalem-artichokes",
-   "kale"
+   "celeriac"
   ],
   "protein": null,
-  "protein_hint": "split peas",
-  "kit": "one_pot",
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -5539,16 +5533,15 @@
   "label": "17 November",
   "month": 11,
   "meal": "dinner",
-  "form": "pasta",
+  "form": "stew or casserole",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "white-cabbage",
-   "parsnips"
+   "red-cabbage"
   ],
-  "protein": "chicken-thighs",
+  "protein": "lamb-mince",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -5557,11 +5550,11 @@
   "label": "18 November",
   "month": 11,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "quick pickle or slaw",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "celeriac"
+   "jerusalem-artichokes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5574,11 +5567,11 @@
   "label": "19 November",
   "month": 11,
   "meal": "breakfast",
-  "form": "overnight oats or bircher",
+  "form": "breakfast hash",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "grapes"
+   "kale"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5591,15 +5584,15 @@
   "label": "20 November",
   "month": 11,
   "meal": "lunch",
-  "form": "pasta",
+  "form": "soup",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "pumpkin"
+   "cauliflower"
   ],
-  "protein": "pork-shoulder",
+  "protein": "lamb-chops",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -5608,15 +5601,15 @@
   "label": "21 November",
   "month": 11,
   "meal": "dinner",
-  "form": "pan fry with a side",
+  "form": "gratin or bake",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "brussels-sprouts",
-   "celery"
+   "squash",
+   "brussels-sprouts"
   ],
   "protein": null,
-  "protein_hint": "cheese",
+  "protein_hint": "lentils",
   "kit": "any",
   "pace": "quick"
  },
@@ -5626,11 +5619,11 @@
   "label": "22 November",
   "month": 11,
   "meal": "breakfast",
-  "form": "pancakes or griddle cakes",
+  "form": "baked oats or breakfast loaf",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "clementines"
+   "grapes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5643,14 +5636,14 @@
   "label": "23 November",
   "month": 11,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "fritters",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "red-cabbage"
+   "leeks"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "nuts or seeds",
   "kit": "any",
   "pace": "standard"
  },
@@ -5660,13 +5653,14 @@
   "label": "24 November",
   "month": 11,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "pie",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
+   "turnips",
    "cavolo-nero"
   ],
-  "protein": "lamb-mince",
+  "protein": "chicken-breast",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5681,7 +5675,7 @@
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "squash"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5698,7 +5692,7 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "bramley-apples"
+   "clementines"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5711,16 +5705,15 @@
   "label": "27 November",
   "month": 11,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "lentil or bean pot",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "turnips",
-   "pears"
+   "parsnips"
   ],
   "protein": null,
-  "protein_hint": "eggs",
-  "kit": "any",
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -5733,10 +5726,9 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "chard",
-   "jerusalem-artichokes"
+   "celery"
   ],
-  "protein": "hake",
+  "protein": "plaice",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5747,11 +5739,11 @@
   "label": "29 November",
   "month": 11,
   "meal": "snack",
-  "form": "savoury muffin or bake",
+  "form": "dip with crudités",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "leeks"
+   "pumpkin"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5764,11 +5756,11 @@
   "label": "30 November",
   "month": 11,
   "meal": "breakfast",
-  "form": "breakfast hash",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "mushrooms"
+   "grapes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5781,13 +5773,13 @@
   "label": "1 December",
   "month": 12,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "salad",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "savoy-cabbage"
+   "celeriac"
   ],
-  "protein": "whole-chicken",
+  "protein": "chicken-drumsticks",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -5802,9 +5794,10 @@
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "cauliflower"
+   "swede",
+   "savoy-cabbage"
   ],
-  "protein": "pork-mince",
+  "protein": "pork-chops",
   "protein_hint": null,
   "kit": "one_pot",
   "pace": "quick"
@@ -5815,11 +5808,11 @@
   "label": "3 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "savoury breakfast plate",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "clementines"
+   "mushrooms"
   ],
   "protein": "kippers",
   "protein_hint": null,
@@ -5836,9 +5829,10 @@
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "swede"
+   "red-cabbage",
+   "brussels-sprouts"
   ],
-  "protein": "cod",
+  "protein": "mussels",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5849,16 +5843,15 @@
   "label": "5 December",
   "month": 12,
   "meal": "dinner",
-  "form": "risotto or grain pot",
+  "form": "pan fry with a side",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "celeriac",
-   "parsnips"
+   "beetroot"
   ],
   "protein": null,
-  "protein_hint": "lentils",
-  "kit": "one_pot",
+  "protein_hint": "nuts or seeds",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -5867,11 +5860,11 @@
   "label": "6 December",
   "month": 12,
   "meal": "snack",
-  "form": "quick pickle or slaw",
+  "form": "fruit pot or crumble",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "kale"
+   "clementines"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5884,11 +5877,11 @@
   "label": "7 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "on toast",
+  "form": "pancakes or griddle cakes",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "apples"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5901,15 +5894,15 @@
   "label": "8 December",
   "month": 12,
   "meal": "lunch",
-  "form": "soup",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "turnips"
+   "celeriac"
   ],
   "protein": null,
   "protein_hint": "a whole grain",
-  "kit": "one_pot",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -5918,16 +5911,16 @@
   "label": "9 December",
   "month": 12,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "hearty soup",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
    "savoy-cabbage",
-   "leeks"
+   "apples"
   ],
-  "protein": "lamb-neck",
+  "protein": "pork-mince",
   "protein_hint": null,
-  "kit": "one_tray",
+  "kit": "one_pot",
   "pace": "quick"
  },
  {
@@ -5936,11 +5929,11 @@
   "label": "10 December",
   "month": 12,
   "meal": "snack",
-  "form": "flapjack or oat bar",
+  "form": "scone or soda bread",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "clementines"
+   "kale"
   ],
   "protein": null,
   "protein_hint": null,
@@ -5953,13 +5946,13 @@
   "label": "11 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "savoury breakfast plate",
+  "form": "baked oats or breakfast loaf",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "mushrooms"
+   "bramley-apples"
   ],
-  "protein": "bacon",
+  "protein": "ham",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5977,7 +5970,7 @@
    "cavolo-nero",
    "red-cabbage"
   ],
-  "protein": "beef-mince",
+  "protein": "stewing-beef",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -5988,16 +5981,15 @@
   "label": "13 December",
   "month": 12,
   "meal": "dinner",
-  "form": "roast",
+  "form": "pasta",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "cauliflower",
-   "brussels-sprouts"
+   "cauliflower"
   ],
   "protein": null,
   "protein_hint": "split peas",
-  "kit": "one_tray",
+  "kit": "any",
   "pace": "standard"
  },
  {
@@ -6006,11 +5998,11 @@
   "label": "14 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "pancakes or griddle cakes",
+  "form": "porridge",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "clementines"
   ],
   "protein": null,
   "protein_hint": null,
@@ -6023,14 +6015,14 @@
   "label": "15 December",
   "month": 12,
   "meal": "lunch",
-  "form": "on toast",
+  "form": "fritters",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
    "swede"
   ],
   "protein": null,
-  "protein_hint": "nuts or seeds",
+  "protein_hint": "lentils",
   "kit": "any",
   "pace": "standard"
  },
@@ -6044,8 +6036,8 @@
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "jerusalem-artichokes",
-   "kale"
+   "leeks",
+   "turnips"
   ],
   "protein": null,
   "protein_hint": "cheese",
@@ -6058,11 +6050,11 @@
   "label": "17 December",
   "month": 12,
   "meal": "snack",
-  "form": "scone or soda bread",
+  "form": "baked or stewed fruit",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "clementines"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -6075,11 +6067,11 @@
   "label": "18 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "porridge",
+  "form": "on toast",
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "apples"
+   "bramley-apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -6096,10 +6088,10 @@
   "diet": "vegetarian",
   "gluten_free": true,
   "heroes": [
-   "carrots"
+   "parsnips"
   ],
   "protein": null,
-  "protein_hint": "tinned beans or chickpeas",
+  "protein_hint": "eggs",
   "kit": "any",
   "pace": "quick"
  },
@@ -6109,14 +6101,13 @@
   "label": "20 December",
   "month": 12,
   "meal": "dinner",
-  "form": "pie",
+  "form": "gratin or bake",
   "diet": "meat",
   "gluten_free": true,
   "heroes": [
-   "beetroot",
-   "bramley-apples"
+   "jerusalem-artichokes"
   ],
-  "protein": "pork-chops",
+  "protein": "pork-shoulder",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -6127,11 +6118,11 @@
   "label": "21 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "baked oats or breakfast loaf",
+  "form": "breakfast hash",
   "diet": "vegan",
   "gluten_free": false,
   "heroes": [
-   "pears"
+   "potatoes"
   ],
   "protein": null,
   "protein_hint": null,
@@ -6144,15 +6135,16 @@
   "label": "22 December",
   "month": 12,
   "meal": "lunch",
-  "form": "frittata or omelette",
+  "form": "lentil or bean pot",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "potatoes"
+   "celeriac",
+   "mushrooms"
   ],
-  "protein": "haddock",
+  "protein": "whiting",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -6161,13 +6153,13 @@
   "label": "23 December",
   "month": 12,
   "meal": "dinner",
-  "form": "pan fry with a side",
+  "form": "pie",
   "diet": "fish",
   "gluten_free": false,
   "heroes": [
-   "cauliflower"
+   "carrots"
   ],
-  "protein": "trout",
+  "protein": "cod",
   "protein_hint": null,
   "kit": "any",
   "pace": "standard"
@@ -6178,7 +6170,7 @@
   "label": "24 December",
   "month": 12,
   "meal": "snack",
-  "form": "baked or stewed fruit",
+  "form": "oatcakes with a topping",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -6195,11 +6187,11 @@
   "label": "25 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "fruit compote with yoghurt",
+  "form": "overnight oats or bircher",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "apples"
+   "pears"
   ],
   "protein": null,
   "protein_hint": null,
@@ -6212,13 +6204,13 @@
   "label": "26 December",
   "month": 12,
   "meal": "lunch",
-  "form": "fritters",
+  "form": "frittata or omelette",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "red-cabbage"
+   "beetroot"
   ],
-  "protein": "chicken-breast",
+  "protein": "beef-mince",
   "protein_hint": null,
   "kit": "any",
   "pace": "quick"
@@ -6229,16 +6221,15 @@
   "label": "27 December",
   "month": 12,
   "meal": "dinner",
-  "form": "traybake",
+  "form": "pan fry with a side",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "turnips",
-   "bramley-apples"
+   "white-cabbage"
   ],
   "protein": null,
-  "protein_hint": "eggs",
-  "kit": "one_tray",
+  "protein_hint": "cheese",
+  "kit": "any",
   "pace": "quick"
  },
  {
@@ -6247,7 +6238,7 @@
   "label": "28 December",
   "month": 12,
   "meal": "snack",
-  "form": "oatcakes with a topping",
+  "form": "savoury muffin or bake",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
@@ -6264,11 +6255,11 @@
   "label": "29 December",
   "month": 12,
   "meal": "breakfast",
-  "form": "eggs",
+  "form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "mushrooms"
+   "apples"
   ],
   "protein": null,
   "protein_hint": null,
@@ -6281,15 +6272,15 @@
   "label": "30 December",
   "month": 12,
   "meal": "lunch",
-  "form": "jacket or loaded potato",
+  "form": "soup",
   "diet": "vegetarian",
   "gluten_free": false,
   "heroes": [
-   "celeriac"
+   "red-cabbage"
   ],
   "protein": null,
-  "protein_hint": "cheese",
-  "kit": "any",
+  "protein_hint": "lentils",
+  "kit": "one_pot",
   "pace": "standard"
  },
  {
@@ -6298,16 +6289,16 @@
   "label": "31 December",
   "month": 12,
   "meal": "dinner",
-  "form": "gratin or bake",
+  "form": "risotto or grain pot",
   "diet": "meat",
   "gluten_free": false,
   "heroes": [
-   "jerusalem-artichokes",
-   "clementines"
+   "cauliflower",
+   "swede"
   ],
-  "protein": "stewing-beef",
+  "protein": "whole-chicken",
   "protein_hint": null,
-  "kit": "any",
+  "kit": "one_pot",
   "pace": "standard"
  }
 ]

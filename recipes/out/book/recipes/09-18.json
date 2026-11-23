@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 261,
+  "date": "2027-09-18",
+  "label": "18 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "breakfast hash",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "courgettes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Courgette, sweetcorn and chickpea hash",
+  "meal": "breakfast",
+  "dish_form": "breakfast hash",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "one large frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 13,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "peppers",
+    "quantity": "1",
+    "name": "red pepper"
+   },
+   {
+    "id": "courgettes",
+    "quantity": "3",
+    "name": "courgettes"
+   },
+   {
+    "id": "sweetcorn",
+    "quantity": "2",
+    "name": "sweetcorn cobs"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "200g",
+    "name": "cherry tomatoes"
+   }
+  ],
+  "steps": [
+   "Fry the sliced onion and diced pepper in the oil over a high heat for 4 minutes.",
+   "Add the diced courgettes and fry for 5 minutes, until golden at the edges.",
+   "Stir in the corn cut from the cobs, the drained chickpeas and 2 tsp smoked paprika. Fry for 3 minutes.",
+   "Add the halved tomatoes for 1 minute. Season, squeeze over the lemon and scatter with parsley."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 283,
+  "date": "2027-10-10",
+  "label": "10 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "turnips"
+  ],
+  "protein": "turkey-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Rigatoni with turkey and turnip ragù",
+  "meal": "lunch",
+  "dish_form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a pan for the pasta",
+   "a grater"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "rosemary",
+    "name": "rosemary"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "turkey-mince",
+    "quantity": "500g",
+    "name": "turkey mince"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "turnips",
+    "quantity": "3",
+    "name": "turnips"
+   },
+   {
+    "id": "tomato-puree",
+    "quantity": "1 tbsp",
+    "name": "tomato purée"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "rigatoni"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan"
+   }
+  ],
+  "steps": [
+   "Brown the turkey in the oil in a large frying pan for 8 minutes, breaking it up.",
+   "Add the chopped onion, garlic and rosemary, and the turnips in small cubes. Cook for 8 minutes.",
+   "Stir in the purée, tomatoes, a pinch of chilli and 200ml water. Simmer for 20 minutes, until the turnips are tender. Season.",
+   "Cook the pasta. Toss with the sauce and a splash of its water, then grate over the Parmesan."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

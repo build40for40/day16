@@ -1,0 +1,43 @@
+{
+ "day": 172,
+ "title": "Apricot and oat soda bread",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, oats, bicarb, sugar, vinegar, oil and fresh apricots are all plain cupboard and fruit-bowl staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item in Tesco, and apricots are on shelves in June."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a whisk, a baking tray and an oven, and shaping a soda bread round is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "About 410ml of liquid to 500g of dry mix, with vinegar to activate 1 tsp bicarb, gives a soft dough, and 35 to 40 minutes at 200°C with a hollow-sound test suits a loaf of this size."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers stoning and chopping five apricots and mixing, and the 40-minute cook matches the bake time in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and only water is added."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh apricots are in season in late June and are the named fruit running through the loaf."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with a practical doneness test and no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A mostly wholemeal and oat loaf with fresh fruit and only 2 tbsp sugar makes a filling, wholesome afternoon snack."
+  }
+ }
+}

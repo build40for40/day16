@@ -1,0 +1,87 @@
+{
+ "slot": {
+  "day": 231,
+  "date": "2027-08-19",
+  "label": "19 August",
+  "month": 8,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "tomatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Warm tomatoes on toast with ricotta",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one frying pan",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "tomatoes",
+    "quantity": "6",
+    "name": "large tomatoes"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "crusty bread"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   }
+  ],
+  "steps": [
+   "Warm 2 tbsp of the oil in a frying pan. Add the thickly sliced tomatoes and sliced garlic and cook for 3 to 4 minutes, turning once, until soft and juicy.",
+   "Meanwhile, toast the bread. Season the ricotta well with salt and pepper.",
+   "Spread the toast thickly with ricotta. Pile on the warm tomatoes and spoon over the pan juices.",
+   "Tear over the basil and finish with the last of the oil and more pepper."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

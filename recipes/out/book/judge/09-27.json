@@ -1,0 +1,43 @@
+{
+ "day": 270,
+ "title": "Penne with celeriac, sage and white beans",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or a staple such as dried pasta and tinned beans, with no jars, stock pots or processed substitutes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Celeriac, cavolo nero, walnuts, cannellini beans and penne are all everyday mainstream supermarket lines at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a large pan and a sieve, and the techniques are simple frying and boiling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The method holds together: 700g of diced celeriac fried for 15 minutes is tender and golden, 350g of penne with beans and veg feeds four, and the pasta water, lemon and seasoning bring the sauce together."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for peeling and dicing a celeriac plus the quick shredding, slicing and chopping, and the 15-plus-3-minute fry with the toss matches the 20 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps under its true name, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Celeriac is the bulk and the point of this warm autumn pasta, which suits late September."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling dinner of pasta with plenty of vegetables, beans and walnuts that a family would happily eat again."
+  }
+ }
+}

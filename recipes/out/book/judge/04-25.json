@@ -1,0 +1,43 @@
+{
+ "day": 115,
+ "title": "Smoked haddock on toast with orange and watercress",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Smoked haddock, milk, oranges, crème fraîche, bread and watercress are all plain whole foods a grandparent would recognise."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard line at any mainstream supermarket, and 400g of smoked haddock for four is an everyday purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a wide pan, a grater and a toaster, and poaching fish in milk is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "100g of haddock and a slice of toast each with orange and watercress makes a sensible breakfast for four, the salty fish needs no added salt, and 5 to 6 minutes is right for poaching fillets."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to zest and peel two oranges, snip chives, toast and assemble, and the 6 minute cook matches the poaching step, so it suits a quick breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the chives, pepper and oil, appears in the steps, nothing unlisted is used, and wholemeal bread is a fair name for the bread id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Two oranges, used as zest in the spread and as rounds on the toast, are central to a bright late-April breakfast rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, wholemeal toast, fruit and greens make a filling, balanced breakfast a family would happily repeat."
+  }
+ }
+}

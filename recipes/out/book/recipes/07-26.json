@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 207,
+  "date": "2027-07-26",
+  "label": "26 July",
+  "month": 7,
+  "meal": "lunch",
+  "form": "grain bowl",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "celery",
+   "runner-beans"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Celery, runner bean and egg bulgur bowls",
+  "meal": "lunch",
+  "dish_form": "grain bowl",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan",
+   "a large bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "bulgur",
+    "quantity": "200g",
+    "name": "bulgur wheat"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "runner-beans",
+    "quantity": "300g",
+    "name": "runner beans"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "celery",
+    "quantity": "4",
+    "name": "celery sticks"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   }
+  ],
+  "steps": [
+   "Pour 400ml boiling water over the bulgur in a bowl. Cover and leave for 15 minutes.",
+   "Boil the eggs for 7 minutes, adding the sliced runner beans for the last 3. Cool the eggs in cold water and peel.",
+   "Whisk the oil, mustard, lemon zest and juice. Fork into the bulgur with the thinly sliced celery and its leaves, spring onions, beans and chopped parsley. Season.",
+   "Top with the halved eggs and crumbled feta."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

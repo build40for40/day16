@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 244,
+  "date": "2027-09-01",
+  "label": "1 September",
+  "month": 9,
+  "meal": "dinner",
+  "form": "fishcakes or patties",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "squash",
+   "red-cabbage"
+  ],
+  "protein": "sausages",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Sage sausage patties with roast squash and red cabbage slaw",
+  "meal": "dinner",
+  "dish_form": "patties",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "two roasting trays",
+   "a large bowl"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "sage",
+    "name": "sage"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "squash",
+    "quantity": "1 large",
+    "name": "butternut squash"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "sausages",
+    "quantity": "8",
+    "name": "pork sausages"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "½",
+    "name": "red cabbage"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "apples"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "2 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tsp",
+    "name": "wholegrain mustard"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Cut the seeded squash into wedges, skin on. Toss on a tray with oil, chilli and salt. Roast for 30 minutes.",
+   "Squeeze the sausages from their skins. Mix with chopped sage and pepper, then press into 8 flat patties.",
+   "Roast on a second oiled tray for the last 20 minutes, turning once, until browned.",
+   "Shred the cabbage, slice the apples and toss with the vinegar, mustard, a little oil and salt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

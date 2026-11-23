@@ -1,43 +1,43 @@
 {
  "day": 65,
- "title": "Beef keema with white cabbage and potatoes",
+ "title": "Beef keema with cabbage and cavolo nero",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is whole food or a plain staple; curry powder, tinned tomatoes and yoghurt are ordinary cupboard and fridge items."
+   "reason": "Everything is a plain home staple, and curry powder, tinned tomatoes and natural yoghurt are all ordinary cupboard and fridge items."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Beef mince, cabbage, potatoes, curry powder and natural yoghurt are everyday Tesco items at normal prices."
+   "reason": "Beef mince, white cabbage, cavolo nero and the rest are everyday items at any mainstream supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs one lidded casserole, a peeler, a knife and a wooden spoon, and the technique is simple frying and simmering."
+   "reason": "It needs only a large lidded casserole and simple browning and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "500g mince, 500g potatoes and 500g cabbage feed four. The 2cm potato chunks get about 30 minutes in liquid so will be tender. The tomatoes and 300ml water reduce to a thick keema once cooked uncovered, and 2 tbsp curry powder with a tsp of salt seasons it well."
+   "reason": "500g mince and 500g potatoes with half a cabbage feed four, the potatoes get about 25 minutes of simmering, and a tin of tomatoes plus 300ml water is a sensible amount of liquid."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Slicing two onions, peeling and chunking the potatoes and shredding half a cabbage, plus about 18 minutes at the hob, fits roughly 30 minutes hands-on. The 55 minutes total holds if the potatoes and cabbage are prepped while the onions soften."
+   "reason": "Chopping two onions, cubing potatoes and shredding cabbage, then browning and softening, fits roughly 25 minutes active, and the 15 plus 12 minute covered simmers sit close to the 35 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps, the names match their ids, and the optional cavolo nero in the tip is on the March fresh list."
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming one-pot curry suits a chilly early March evening. Half a cabbage is a main component of the dish rather than a garnish."
+   "reason": "A warming spiced one-pot suits early March, and half a white cabbage is a main component rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear and neighbourly in British English. The intro's 'White cabbage from store' reads a little oddly and could become 'Stored white cabbage', but it does not get in the way."
+   "reason": "The steps are short, clear British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling family meal of mince, potatoes, plenty of cabbage and tomatoes, topped with yoghurt."
+   "reason": "It is a filling family dinner of mince, potatoes and plenty of greens with a yoghurt finish."
   }
  }
 }

@@ -1,0 +1,43 @@
+{
+ "day": 153,
+ "title": "Chicken, broccoli and pea pasta bake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Pasta, crème fraîche, mustard, cheddar, chicken and breadcrumbs are all ordinary home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Everything, including peas in the pod and fresh tarragon in June, is sold at mainstream supermarkets at everyday prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, colander, grater and baking dish, and the technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Part-boiled penne finishes in the oven, and thin chicken strips cook through in 25 minutes at 200°C, giving a sensible bake for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "18 minutes covers podding the peas, slicing the chicken, grating and zesting, and 32 minutes matches the 6-minute boil plus the 25-minute bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and penne is a fair name for dried pasta."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Broccoli and fresh peas with tarragon and lemon suit early June, and broccoli is named and central."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced family meal with chicken, two green vegetables and pasta."
+  }
+ }
+}

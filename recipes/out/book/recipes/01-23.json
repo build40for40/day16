@@ -1,0 +1,94 @@
+{
+ "slot": {
+  "day": 23,
+  "date": "2027-01-23",
+  "label": "23 January",
+  "month": 1,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Crushed potatoes with leeks and soft eggs",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "one saucepan",
+   "one frying pan",
+   "a fork"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 12,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "750g",
+    "name": "potatoes"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "60g",
+    "name": "cheddar"
+   }
+  ],
+  "steps": [
+   "Cut the potatoes into 2cm chunks and simmer in salted water for 12 minutes. Add the eggs for the last 7.",
+   "Meanwhile, soften the sliced leeks in the butter with the thyme leaves for 8 minutes.",
+   "Drain the potatoes. Cool the eggs in cold water and peel them.",
+   "Roughly crush the potatoes with the leeks, mustard and grated cheddar. Season.",
+   "Top with the halved eggs and plenty of black pepper."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

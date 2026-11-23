@@ -1,43 +1,43 @@
 {
  "day": 310,
- "title": "Beef, barley and Brussels sprout pot",
+ "title": "Beef, barley and sprout pot",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole ingredient or a plain staple such as beef stock, tomato purée and pearl barley, with no jars, packet mixes or processed substitutes."
+   "reason": "Everything is whole food or a classic cupboard staple, such as beef stock, Worcestershire sauce and tomato purée, with no jars, packets or stock pots."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Beef mince, pearl barley, sprouts, carrots and stock are all everyday Tesco items at ordinary prices."
+   "reason": "Mince, pearl barley, sprouts, carrots and stock are everyday, low-cost Tesco items."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded casserole, a knife and a wooden spoon, and uses simple browning and simmering."
+   "reason": "It needs only a lidded casserole, a knife and a board, and the techniques are browning and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "400g mince, 250g barley and 1.2 litres of stock make a sensible pot for four, and the barley gets about 40 minutes in total, enough to cook it through, while the sprouts go in late so they don't overcook."
+   "reason": "250g barley in 1.2 litres of stock for about 42 minutes, with 500g mince and 400g sprouts, makes a sensible, well-seasoned pot for four, and the water note covers any thickening."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty-five minutes hands-on fits the chopping, sprout trimming and browning, and 60 minutes total is only slightly tight against the cooking times in the steps."
+   "reason": "Twenty minutes is realistic for browning the mince, chopping the onion, carrots and garlic, and halving 400g of sprouts, and the 5, 30 and 12 minute simmers roughly match the 45 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used under its true name, and the only unlisted item is an optional splash of water from the store cupboard."
+   "reason": "Every listed ingredient and seasoning, including the fresh thyme, appears in the steps, and nothing unlisted apart from water is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming beef and barley pot suits early November, and the 400g of Brussels sprouts is a main component of the dish, not a garnish."
+   "reason": "A warming beef and barley pot suits early November, and 400g of halved sprouts makes them a main vegetable rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, timed and in plain British English, with visual cues a beginner can follow."
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling family meal of beef, wholegrain barley and plenty of vegetables."
+   "reason": "It is a filling one-pot dinner of beef, wholegrain barley, carrots and sprouts that a family would happily eat again."
   }
  }
 }

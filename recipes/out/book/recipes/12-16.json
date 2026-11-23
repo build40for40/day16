@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 350,
+  "date": "2027-12-16",
+  "label": "16 December",
+  "month": 12,
+  "meal": "dinner",
+  "form": "curry or dal",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "leeks",
+   "turnips"
+  ],
+  "protein": null,
+  "protein_hint": "cheese",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Leek, turnip and red lentil dal with halloumi",
+  "meal": "dinner",
+  "dish_form": "dal",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large heavy pan",
+   "a wooden spoon"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "turmeric",
+    "name": "turmeric"
+   },
+   {
+    "id": "garam-masala",
+    "name": "garam masala"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "halloumi",
+    "quantity": "225g",
+    "name": "halloumi"
+   },
+   {
+    "id": "leeks",
+    "quantity": "3",
+    "name": "leeks"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "turnips",
+    "quantity": "400g",
+    "name": "turnips"
+   },
+   {
+    "id": "red-lentils",
+    "quantity": "250g",
+    "name": "red lentils"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large pan. Fry the cubed halloumi until golden, then lift out.",
+   "Soften the sliced leeks and crushed garlic for 8 minutes. Stir in 2 tsp cumin and 1 tsp each of turmeric and garam masala.",
+   "Add the diced turnips, lentils, tomatoes and 900ml water. Simmer for 25 minutes, until the lentils collapse.",
+   "Stir in the shredded kale for 5 minutes. Season, squeeze over the lemon and top with the halloumi."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

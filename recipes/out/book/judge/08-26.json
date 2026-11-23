@@ -1,0 +1,43 @@
+{
+ "day": 238,
+ "title": "Beetroot and apple slaw on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Beetroot, apple, cider vinegar, honey, bread and goat's cheese are all plain whole foods a grandparent could have kept."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including soft goat's cheese and fresh dill, is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a bowl and the grill, and grating and toasting are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two beetroot and an apple dressed in a 2:1 oil-to-vinegar dressing make enough slaw for four slices of goat's cheese toast, with sensible seasoning for a snack."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for peeling and grating two beetroot and an apple, making the dressing and assembling, and ten minutes matches the slaw's standing time while the toast is made."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the dill, salt and pepper, appears in the steps, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A fresh raw beetroot slaw suits a late-August afternoon, and the beetroot is clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with goat's cheese and a beetroot and apple slaw is a satisfying, vegetable-led snack a family would happily eat again."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 35,
+ "title": "Creamy leek and cheddar pasta with crispy crumbs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, leeks, garlic, dried pasta, frozen peas, crème fraîche, cheddar, breadcrumbs and olive oil are all ordinary home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large pan, a frying pan and a grater, and uses simple techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g pasta with 3 leeks, 150g peas, 150g crème fraîche and 100g cheddar, loosened with pasta water, makes a properly sauced dish for four, and the frying pan is free for the crumbs once the leeks are tipped out."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty active minutes covers washing and slicing the leeks, grating, zesting, softening the leeks and frying the crumbs, and 12 minutes matches boiling the penne."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, penne is a fair name for dried pasta, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm, creamy leek pasta suits early February, and the three leeks are the heart of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family lunch with plenty of leeks and peas alongside the pasta and cheese."
+  }
+ }
+}

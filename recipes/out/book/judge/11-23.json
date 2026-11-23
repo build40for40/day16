@@ -1,0 +1,43 @@
+{
+ "day": 327,
+ "title": "Leek and feta fritters with apple salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Leeks, eggs, feta, ground almonds, cornflour, apples and watercress are all whole foods or plain staples, with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a normal Tesco line at an everyday price, and 100g of ground almonds is not a treat purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan and a mixing bowl, and spoon-dropped fritters are well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Three leeks bound with four eggs, ground almonds and cornflour, plus 200g feta, gives enough fritters for four at lunch with a sensible amount of oil, and the salty feta keeps them from being bland."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing the leeks and apples, toasting the seeds and frying the fritters in batches fits roughly within 30 minutes of active work, and the 10 cook minutes match the leek softening."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including thyme and lemon, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Leeks make up the bulk of the warm fritters, which suits a late November lunch with an apple and watercress salad alongside."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Egg, feta and almond protein with plenty of leeks and a fresh salad makes a proper meal a family would make again."
+  }
+ }
+}

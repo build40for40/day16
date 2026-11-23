@@ -1,0 +1,43 @@
+{
+ "day": 233,
+ "title": "Hake and smoky aubergine traybake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is whole food or a plain tin, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Hake fillets, aubergines, cherry tomatoes and tinned chickpeas are all everyday Tesco lines."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a board and one large roasting tray, and the technique is simple roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Roasting the aubergine for about 40 minutes at 220°C softens it properly, the hake timing is right, and the quantities suit four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Cubing two aubergines, wedging two onions and slicing garlic fits in 15 minutes, and 20+10+12 matches the 42 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon and basil, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Aubergine, cherry tomatoes and basil are at their peak in late August, and the aubergine is the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, chickpeas and plenty of vegetables make a filling, balanced family dinner."
+  }
+ }
+}

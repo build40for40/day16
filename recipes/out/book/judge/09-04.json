@@ -1,0 +1,43 @@
+{
+ "day": 247,
+ "title": "Lamb, lentil and cabbage pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Lamb, lentils, root vegetables, cabbage and chicken stock are all plain home-kitchen foods, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Lamb neck fillet, green lentils, celeriac and white cabbage are all stocked by Tesco, and 500g of neck is a reasonable family spend."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board and a large lidded casserole, and browning and simmering suit a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "For four, 500g lamb, 200g lentils and 1 litre of stock simmered covered for an hour gives a properly thick stew, and the cabbage cooks in its final 10 minutes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Chopping the lamb and vegetables, peeling the celeriac, browning and a 5-minute soften fit roughly in 25 minutes, and 60 plus 10 minutes of simmering matches the 70 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including thyme, bay and lemon, appears in the steps, nothing unlisted is used, and lamb neck fillet matches its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Half a white cabbage is a substantial part of the pot rather than a garnish, and a hearty lamb and lentil stew suits the turn into early autumn."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British English steps with no restaurant language or health preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling meal of lamb, lentils and plenty of vegetables that a family would happily eat again."
+  }
+ }
+}

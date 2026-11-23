@@ -1,0 +1,43 @@
+{
+ "day": 267,
+ "title": "Oatcakes with goat's cheese and red cabbage",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, flour, butter, cabbage, apple, vinegar, honey and goat's cheese are all plain home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including soft goat's cheese and caraway seeds, is on everyday sale at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A bowl, rolling pin, baking tray and grater are ordinary kit, and rubbing in and rolling out are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The oat, flour, butter and water ratio makes a rollable dough that crisps in 20 to 25 minutes at 190°C, and a quarter cabbage slaw comfortably tops 16 oatcakes for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Rubbing in, rolling, cutting, shredding a quarter cabbage and grating an apple fit in 25 minutes, and the 25 minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, names match their ids, and nothing unlisted appears besides water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A tangy red cabbage and apple slaw suits late September, and the cabbage is the main topping rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholegrain oatcakes with cheese and a raw cabbage and apple slaw make a filling, real-food snack."
+  }
+ }
+}

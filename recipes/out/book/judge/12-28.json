@@ -1,0 +1,43 @@
+{
+ "day": 362,
+ "title": "Savoy cabbage and cheddar scones",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, butter, cheddar, egg, milk, mustard and cabbage are all ordinary home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday, cheap Tesco item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Rubbed-in scones need only a frying pan, bowl and baking tray, which is well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 300g flour, 60g butter and roughly 175ml of egg and milk give a standard soft scone dough. Eight wedges suit four people as a snack, and 20 minutes at 220°C is right for a thick round."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Shredding, frying for 5 minutes, grating, rubbing in and shaping fit in 20 active minutes, and the 20-minute bake matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme, mustard and pepper, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm cheese scones suit late December, and 150g of Savoy folded through makes the cabbage a real part of the bake."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps read as plain, friendly British instructions, and \"pat into a 3cm round\" is the usual shorthand for thickness."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Cheese, egg and a good amount of cabbage make this a proper, satisfying snack that a family would bake again."
+  }
+ }
+}

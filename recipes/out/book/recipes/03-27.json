@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 86,
+  "date": "2027-03-27",
+  "label": "27 March",
+  "month": 3,
+  "meal": "lunch",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "watercress",
+   "jerusalem-artichokes"
+  ],
+  "protein": null,
+  "protein_hint": "a whole grain",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Garlicky Jerusalem artichokes and watercress on toast",
+  "meal": "lunch",
+  "dish_form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "jerusalem-artichokes",
+    "quantity": "500g",
+    "name": "jerusalem artichokes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "butter",
+    "quantity": "1 knob",
+    "name": "butter"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "30g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "goats-cheese",
+    "quantity": "150g",
+    "name": "soft goat's cheese"
+   },
+   {
+    "id": "watercress",
+    "quantity": "100g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Scrub and thinly slice the artichokes. Fry in 2 tbsp of the oil and the butter with the thyme and a pinch of salt for 12 to 15 minutes, turning, until golden and tender.",
+   "Add the sliced garlic and chopped hazelnuts for the last 2 minutes.",
+   "Toast the bread and spread thickly with the goat's cheese.",
+   "Toss the watercress with a squeeze of lemon and the rest of the oil. Pile onto the toast with the artichokes and season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

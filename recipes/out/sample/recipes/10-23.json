@@ -18,101 +18,82 @@
  },
  "recipe": {
   "title": "Carrot, cheddar and thyme scones",
-  "intro": "October carrots are sweet and plentiful, and grated into a cheese scone they keep it soft and golden. Just right for an after-school snack on a chilly afternoon.",
   "meal": "snack",
-  "dish_form": "scones",
+  "dish_form": "scone",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "grater",
-   "mixing bowl",
-   "measuring jug",
-   "fork",
-   "baking tray",
-   "baking paper",
-   "pastry brush",
-   "scales"
+   "a mixing bowl",
+   "a grater",
+   "a baking tray"
   ],
-  "hands_on_minutes": 20,
-  "total_minutes": 40,
-  "serves": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 18,
+  "time_note": "",
   "best_time": "afternoon",
   "freezes": true,
-  "ingredients": [
-   {
-    "id": "self-raising-flour",
-    "name": "Self-raising flour",
-    "quantity": "350g",
-    "prep": ""
-   },
-   {
-    "id": "baking-powder",
-    "name": "Baking powder",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
+  "seasoning": [
    {
     "id": "salt",
-    "name": "Salt",
-    "quantity": "½ tsp",
-    "prep": ""
+    "name": "salt"
    },
    {
     "id": "black-pepper",
-    "name": "Black pepper",
-    "quantity": "a few grinds",
-    "prep": ""
-   },
-   {
-    "id": "butter",
-    "name": "Butter",
-    "quantity": "85g",
-    "prep": "cold, cubed"
-   },
-   {
-    "id": "carrots",
-    "name": "Carrots",
-    "quantity": "2 (about 200g)",
-    "prep": "peeled and coarsely grated"
-   },
-   {
-    "id": "cheddar",
-    "name": "Mature cheddar",
-    "quantity": "120g",
-    "prep": "grated"
+    "name": "black pepper"
    },
    {
     "id": "thyme",
-    "name": "Fresh thyme",
-    "quantity": "1 tbsp",
-    "prep": "leaves picked"
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "self-raising-flour",
+    "quantity": "350g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "butter",
+    "quantity": "75g",
+    "name": "cold butter"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "100g",
+    "name": "mature cheddar"
    },
    {
     "id": "eggs",
-    "name": "Egg",
     "quantity": "1",
-    "prep": "beaten"
+    "name": "egg"
    },
    {
     "id": "milk",
-    "name": "Milk",
-    "quantity": "120ml",
-    "prep": ""
+    "quantity": "150ml",
+    "name": "milk"
    }
   ],
   "steps": [
-   "Heat the oven to 200C fan, 220C conventional, and line a baking tray with baking paper.",
-   "Mix the flour, baking powder, salt and pepper in a large bowl. Rub in the butter with your fingertips until it looks like fine breadcrumbs.",
-   "Stir in the carrots, most of the cheddar and the thyme, keeping a small handful of cheese back for the tops.",
-   "Beat the egg into the milk in a jug and set aside 1 tbsp for glazing. Pour the rest into the bowl and mix with a fork into a soft, slightly sticky dough.",
-   "Tip onto a floured surface and pat gently into a round about 3cm thick. Don't knead it, or the scones will be tough. Cut into 8 wedges.",
-   "Space the wedges out on the tray, brush with the saved egg and milk and scatter over the remaining cheese.",
-   "Bake for 15 to 18 minutes until risen, deep golden and hollow sounding underneath. Cool for 5 minutes and eat warm with butter."
-  ],
-  "tip": "They keep for 2 days in a tin and freeze well. Warm them through in a low oven for 5 minutes."
+   "Heat the oven to 220°C (200°C fan). Rub the butter into the flour and baking powder with a pinch of salt.",
+   "Stir in the grated carrots, most of the grated cheese, the thyme leaves and pepper.",
+   "Whisk the egg and milk. Keep a spoonful back and stir in the rest to a soft dough.",
+   "Pat into a round on a floured tray, cut into 8 wedges, brush with egg and top with the last cheese.",
+   "Bake for 15 to 18 minutes, until golden."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

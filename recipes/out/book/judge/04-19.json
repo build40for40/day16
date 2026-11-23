@@ -1,0 +1,43 @@
+{
+ "day": 109,
+ "title": "Creamy garlic spinach with lamb chops and Bramley",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every item is a whole food or a plain dairy staple, with nothing from a jar or packet."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Lamb chops, new potatoes, spinach, Bramleys and crème fraîche are all everyday Tesco lines."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one roasting tray, a knife and a board, and the technique is simple roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The timings, the 220°C oven and the quantities suit four, and adding the spinach in two batches lets it wilt without crowding the tray."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers halving the potatoes and cutting the onions, apples and garlic, and the steps add up to about 45 minutes in the oven."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Half a kilo of spinach in a creamy garlic base is the centre of a hearty April traybake, with stored Bramleys alongside."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lamb, potatoes, plenty of greens and fruit make a proper family dinner."
+  }
+ }
+}

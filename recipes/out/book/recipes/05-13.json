@@ -1,0 +1,96 @@
+{
+ "slot": {
+  "day": 133,
+  "date": "2027-05-13",
+  "label": "13 May",
+  "month": 5,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "mushrooms"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Mushroom and spinach eggs on toast",
+  "meal": "breakfast",
+  "dish_form": "pan eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan with a lid",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 12,
+  "cook_minutes": 8,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "400g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "spinach",
+    "quantity": "200g",
+    "name": "spinach"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Melt the butter in a large frying pan. Fry the sliced mushrooms over a high heat for 6 minutes, until golden.",
+   "Stir in the crushed garlic and thyme leaves for 1 minute, then wilt in the spinach. Season.",
+   "Make 8 hollows and crack an egg into each. Cover and cook gently for 4 to 5 minutes, until the whites are set.",
+   "Toast the bread. Scatter the eggs with snipped chives and spoon onto the toast."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

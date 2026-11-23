@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 205,
+  "date": "2027-07-24",
+  "label": "24 July",
+  "month": 7,
+  "meal": "snack",
+  "form": "scone or soda bread",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "redcurrants"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Redcurrant scone round",
+  "meal": "snack",
+  "dish_form": "scone",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a baking tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 18,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon zest"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "60g",
+    "name": "cold butter"
+   },
+   {
+    "id": "self-raising-flour",
+    "quantity": "250g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "caster-sugar",
+    "quantity": "30g",
+    "name": "caster sugar"
+   },
+   {
+    "id": "redcurrants",
+    "quantity": "150g",
+    "name": "redcurrants"
+   },
+   {
+    "id": "milk",
+    "quantity": "150ml",
+    "name": "milk"
+   },
+   {
+    "id": "demerara-sugar",
+    "quantity": "1 tbsp",
+    "name": "demerara sugar"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Flour a baking tray.",
+   "Rub the butter into the flour, baking powder and a pinch of salt. Stir in the sugar, lemon zest and stripped redcurrants.",
+   "Mix in most of the milk to a soft dough. Pat into a 3cm round on the tray and mark into 8 wedges.",
+   "Brush with milk, sprinkle with demerara and bake for 15 to 18 minutes, until golden. Serve warm with yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

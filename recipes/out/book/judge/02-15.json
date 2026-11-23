@@ -1,0 +1,43 @@
+{
+ "day": 46,
+ "title": "Brussels sprout, parsnip and split pea soup",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a whole food or a cupboard staple: vegetables, split peas, stock, wholegrain mustard, oil and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan, a knife and a board, and the technique is simple simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g split peas in 1.5 litres of stock with parsnips and 500g sprouts makes a hearty chunky soup for four, and adding the sprouts at the end keeps them from going grey."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes of active work covers chopping the onion, garlic and parsnips, slicing 500g of sprouts and softening the onion, and 55 minutes of cooking matches the 45-minute simmer plus the sprouts."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme and lemon, is used in the steps, nothing unlisted appears, and 'yellow split peas' matches its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming pulse soup suits mid-February, and 500g of sprouts makes them the main vegetable rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no fuss or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Split peas and plenty of vegetables make a filling, nourishing lunch that a family would happily eat again."
+  }
+ }
+}

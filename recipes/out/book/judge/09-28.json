@@ -1,0 +1,43 @@
+{
+ "day": 271,
+ "title": "Smoked mackerel and watercress dip",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Smoked mackerel, crème fraîche, horseradish sauce, lemon and fresh vegetables are all traditional kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board, bowl, fork and grater, and the techniques are flaking, chopping and mashing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g mackerel with 150g crème fraîche and 80g watercress makes a well-balanced dip for four as a snack, the plentiful crudités suit it, and the salty fish means no added salt is needed."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Flaking the fish, chopping the watercress, zesting and cutting four kinds of crudités fits within about 15 minutes for a normal cook, and no cooking is required."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps under its true name, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Watercress is chopped through the dip and used as a topping, so it is central rather than a garnish, and a no-cook snack suits late September."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant jargon or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oily fish with a generous plate of raw vegetables makes a satisfying, real-food snack a family would enjoy."
+  }
+ }
+}

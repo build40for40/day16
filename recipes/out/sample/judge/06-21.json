@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Fruit, flour, oats, almonds, sugar, cinnamon and sunflower oil are all plain cupboard staples with nothing factory-made."
+   "reason": "Fresh fruit, oats, flour, almonds, sugar, oil, lemon and cinnamon are all ordinary cupboard and garden foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Peaches, raspberries in June, oats, almonds and sunflower oil are everyday Tesco items at normal prices."
+   "reason": "Peaches, raspberries and the cupboard items are everyday supermarket buys in June."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a baking dish, a bowl, a fork and scales, and the technique is simple mixing and scattering."
+   "reason": "It needs only a baking dish, a mixing bowl and simple rubbing-in."
   },
   "works": {
    "pass": true,
-   "reason": "Around 700g of fruit under a 240g oat and flour topping bound with 5 tbsp oil, baked at 180°C fan for 30 to 35 minutes, gives a sound crumble for four, though the juices may stay a little loose with only 1 tsp cornflour."
+   "reason": "Four peaches and 300g raspberries under an oat crumble at 190°C for 30 to 35 minutes gives a sensible fruit crumble for four."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Stoning four peaches, chopping almonds and rubbing together the topping fits in 15 minutes, and 55 minutes total covers baking and resting."
+   "reason": "Stoning peaches, zesting a lemon, chopping almonds and mixing the topping fits in 15 minutes, and the 35-minute cook matches the bake."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps under its true name, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used in the steps and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Midsummer raspberries are the clear star of a fruit crumble, which suits a June afternoon."
+   "reason": "Raspberries and peaches are at their best in late June, and a crumble that can be eaten warm or cold suits midsummer."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, friendly British English with no restaurant language or health preaching."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is mostly fruit with oats and almonds and modest added sugar, a crumble a family would happily make again."
+   "reason": "It is mostly fruit with an oat and almond topping and modest sugar, a satisfying snack a family would make again."
   }
  }
 }

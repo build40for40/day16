@@ -1,0 +1,43 @@
+{
+ "day": 329,
+ "title": "Oatcakes with tahini and pear",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, flour, bicarb, oil, pears, tahini and pumpkin seeds are all plain single foods with nothing factory-assembled."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, tahini and pumpkin seeds included, is on everyday Tesco shelves at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a lined tray and a knife, and pressing out and cutting a dough is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The oats, flour, oil and hot water ratio gives a workable dough, and 5mm squares at 200°C for 18 to 20 minutes will crisp, making 12 topped oatcakes, a sensible snack for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers mixing, pressing, cutting, slicing two pears and assembling, and the 20 minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon and cinnamon, appears in the steps, and nothing unlisted except water is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh sliced November pears are a main element of the topping rather than a garnish, and a warm-spiced oatcake suits a late autumn afternoon."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or health preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholegrain oatcakes with tahini, fruit and seeds make a filling, real-food snack with little sugar."
+  }
+ }
+}

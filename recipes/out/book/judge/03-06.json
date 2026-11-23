@@ -1,0 +1,43 @@
+{
+ "day": 65,
+ "title": "Pork and sage meatballs with roast Jerusalem artichokes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is whole and familiar, from pork mince and Parmesan to fennel seeds and lemon, with no jars, stock pots or packet products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pork mince, purple sprouting broccoli, Parmesan and the in-season Jerusalem artichokes are all everyday supermarket items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a grater and a bowl, and rolling meatballs is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 600g artichokes get 42 minutes at 220°C, the 16 pork meatballs get 22 minutes and the broccoli gets 12, so everything cooks through and makes a sensible amount for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers scrubbing and halving the artichokes, wedging the onions, mixing and rolling the meatballs during the first roast, and trimming the broccoli, and the 42 cook minutes match 20+10+12 in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the oil splits 2 tbsp plus the last 1 tbsp, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot roasted traybake suits early March, and 600g of Jerusalem artichokes makes them a main part of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pork meatballs with roast artichokes, onions and broccoli make a balanced, satisfying family dinner."
+  }
+ }
+}

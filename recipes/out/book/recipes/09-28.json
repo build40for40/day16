@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 271,
+  "date": "2027-09-28",
+  "label": "28 September",
+  "month": 9,
+  "meal": "snack",
+  "form": "dip with crudités",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "watercress"
+  ],
+  "protein": "smoked-mackerel",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Smoked mackerel and watercress dip",
+  "meal": "snack",
+  "dish_form": "dip with crudités",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "no_cook",
+  "utensils": [
+   "a knife and board",
+   "a mixing bowl",
+   "a fork",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 0,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "smoked-mackerel",
+    "quantity": "200g",
+    "name": "smoked mackerel"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "horseradish",
+    "quantity": "1 tbsp",
+    "name": "horseradish sauce"
+   },
+   {
+    "id": "carrots",
+    "quantity": "3",
+    "name": "carrots"
+   },
+   {
+    "id": "cucumber",
+    "quantity": "1",
+    "name": "cucumber"
+   },
+   {
+    "id": "celery",
+    "quantity": "3 sticks",
+    "name": "celery"
+   },
+   {
+    "id": "radishes",
+    "quantity": "200g",
+    "name": "radishes"
+   }
+  ],
+  "steps": [
+   "Skin the mackerel and flake it into a bowl, checking for bones.",
+   "Finely chop the watercress, stalks and all, saving a few sprigs. Mash into the fish with the crème fraîche, horseradish, lemon zest and a good squeeze of juice.",
+   "Stir in the snipped chives and plenty of pepper. Top with the saved sprigs.",
+   "Cut the carrots, cucumber and celery into sticks and halve the radishes. Serve alongside for dipping."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

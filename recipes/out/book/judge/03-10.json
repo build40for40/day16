@@ -1,0 +1,43 @@
+{
+ "day": 69,
+ "title": "Halloumi traybake with watercress pesto",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain cheese, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Potatoes, red onions, halloumi, kale, watercress, walnuts and vegetarian hard cheese are all everyday Tesco lines."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a bowl, a knife and a grater, and the pesto is hand-chopped rather than blitzed."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The oil adds up to 6 tbsp, 35 minutes at 220°C will cook cubed potatoes, and the halloumi and kale crisp in the final 10 minutes, so it gives a sensible meal for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Eighteen minutes covers cubing the potatoes, cutting the onions, slicing the halloumi, tearing the kale and chopping the pesto, and the 25 plus 10 minutes of roasting matches the 35 minutes of cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "The 200g of watercress is used both as the pesto and as a fresh topping, making it central to a warm March traybake."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, halloumi, kale and a walnut and watercress pesto make a filling, balanced family dinner."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 16,
+ "title": "Clementine and chocolate baked oats",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, eggs, milk, honey, chocolate, hazelnuts and yoghurt are all ordinary kitchen staples with nothing factory-made from a jar or packet."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, whisk, baking dish and oven, and the technique is simple mixing and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to 400ml milk plus two eggs, baked at 190°C for 30 to 35 minutes, is a reliable baked oats ratio that sets well and serves four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers zesting, peeling and slicing the clementines, chopping the chocolate and nuts, and whisking, and the 35-minute cook matches the bake time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm baked breakfast suits mid-January, and the clementines are central, used as zest, as the baked topping and as fresh segments."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, eggs, milk, fruit, nuts and yoghurt make a filling breakfast, and 50g of chocolate shared between four is a modest treat rather than the bulk of the dish."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 346,
+ "title": "Cavolo nero and bacon stuffed jackets",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, bacon, butter, garlic, greens, cabbage, cider vinegar, crème fraîche and cheddar are all ordinary home-kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including cavolo nero, is stocked by mainstream supermarkets like Tesco at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a frying pan and a bowl, and the technique is simple baking, frying and mashing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four large potatoes with 200g bacon and 400g wilted cavolo nero make a good lunch for four, with a sensible oven temperature, timings and seasoning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers the chopping, shredding, grating and mashing, and the 90 minutes matches the 75-minute bake plus the 15-minute second bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot, cheesy stuffed jacket suits a December lunch, and 400g of cavolo nero is the heart of the filling."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potato, bacon, plenty of greens, cheese and a raw red cabbage salad make a filling meal of real food that a family would enjoy."
+  }
+ }
+}

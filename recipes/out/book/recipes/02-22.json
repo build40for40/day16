@@ -1,0 +1,90 @@
+{
+ "slot": {
+  "day": 53,
+  "date": "2027-02-22",
+  "label": "22 February",
+  "month": 2,
+  "meal": "breakfast",
+  "form": "breakfast hash",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "leeks"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Celeriac, leek and halloumi hash",
+  "meal": "breakfast",
+  "dish_form": "breakfast hash",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "halloumi",
+    "quantity": "225g",
+    "name": "halloumi"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "celeriac",
+    "quantity": "1",
+    "name": "celeriac"
+   },
+   {
+    "id": "leeks",
+    "quantity": "3",
+    "name": "leeks"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   }
+  ],
+  "steps": [
+   "Fry the sliced halloumi in a large pan until golden on both sides. Lift out.",
+   "Add the oil and the peeled celeriac, cut into 1cm cubes. Fry for 15 minutes, turning often.",
+   "Add the sliced leeks, thyme and 1 tsp smoked paprika. Cook for 10 minutes until golden.",
+   "Stir in the shredded kale and a splash of water until wilted. Season and top with the halloumi."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

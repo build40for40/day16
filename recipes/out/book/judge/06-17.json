@@ -1,0 +1,43 @@
+{
+ "day": 168,
+ "title": "Chard, bean and potato soup with poached eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a whole food or plain staple, including the tinned butter beans and vegetable stock, which the criterion allows."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Chard, new potatoes, butter beans, eggs and stock are all everyday items at Tesco in June."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one lidded pan, and poaching eggs in the simmering soup is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The amounts suit four: 500g potatoes, a tin of beans, 300g chard and 1.2l stock with one egg each, and the 15-minute simmer for halved new potatoes plus 4–5 minutes covered for the eggs is sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is a fair prep for chopping an onion, separating and slicing the chard, slicing garlic and halving potatoes, and the steps add up to about 25 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, and the names match their ids, including the oil used again for the final drizzle."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Chard is central, with both its stalks and leaves used, and a light brothy soup with new potatoes and lemon suits a June evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Greens, potatoes, beans and an egg each make a filling, balanced dinner of real food."
+  }
+ }
+}

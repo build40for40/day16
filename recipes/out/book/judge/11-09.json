@@ -1,0 +1,43 @@
+{
+ "day": 313,
+ "title": "Jacket potatoes with hake and cavolo nero",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, hake, cavolo nero, garlic, crème fraîche, capers and lemon are all plain foods a grandparent would recognise and keep."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Hake fillets, cavolo nero and crème fraîche are all stocked at everyday prices in Tesco and similar shops."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking tray, frying pan and bowl, with simple baking, roasting and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "An hour at 200°C bakes the potatoes, 12 minutes cooks the hake, and the quantities make a reasonable lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers scrubbing potatoes, shredding greens, slicing garlic, frying and mixing the sauce, and the 60-minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including lemon zest and juice, chilli flakes and the seasoning, is used, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot jacket potato suits a November lunch, and the cavolo nero is a main topping named in the title rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potato, fish and dark greens make a filling, balanced meal a family would happily eat again."
+  }
+ }
+}

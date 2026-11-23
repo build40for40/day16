@@ -1,0 +1,43 @@
+{
+ "day": 257,
+ "title": "Pancakes with honeyed peaches",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, eggs, milk, butter, honey, Greek yoghurt and fresh peaches are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item, and peaches or nectarines are cheap and plentiful in September."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A bowl, a whisk and a frying pan are all it needs, and the technique is simple pancake frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g self-raising flour, 2 eggs and 250ml milk make a thick batter for about a dozen pancakes, which suits four, and the frying times are sensible."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Thirty active minutes covers mixing, slicing four peaches and frying the pancakes in batches at the hob."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm honeyed peaches suit mid-September, and four peaches make them the clear point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British instructions with no restaurant flourishes or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, milk, Greek yoghurt and a whole peach each make this a proper breakfast rather than just sugar and starch."
+  }
+ }
+}

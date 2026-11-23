@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 237,
+  "date": "2027-08-25",
+  "label": "25 August",
+  "month": 8,
+  "meal": "dinner",
+  "form": "risotto or grain pot",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "sweetcorn",
+   "lettuce"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Sweetcorn risotto with butter beans and lettuce",
+  "meal": "dinner",
+  "dish_form": "risotto",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one wide heavy pan",
+   "a wooden spoon",
+   "a ladle"
+  ],
+  "prep_minutes": 35,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "risotto-rice",
+    "quantity": "300g",
+    "name": "risotto rice"
+   },
+   {
+    "id": "sweetcorn",
+    "quantity": "4",
+    "name": "corn cobs"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.2 litres",
+    "name": "hot vegetable stock"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "1 tin",
+    "name": "butter beans"
+   },
+   {
+    "id": "lettuce",
+    "quantity": "2",
+    "name": "little gem lettuces"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a wide pan and soften the chopped onion and garlic for 8 minutes.",
+   "Stir in the rice for a minute, then the corn sliced from the cobs.",
+   "Add the stock a ladle at a time, stirring often, for 20 minutes until the rice is just tender.",
+   "Mash half the drained beans and stir in with the rest and the shredded lettuce until it wilts.",
+   "Add lemon zest and juice, season and scatter with chives."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

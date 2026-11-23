@@ -1,0 +1,113 @@
+{
+ "slot": {
+  "day": 131,
+  "date": "2027-05-11",
+  "label": "11 May",
+  "month": 5,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "lettuce",
+   "pointed-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Seared Little Gem and pea pasta with eggs",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a large frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "400g",
+    "name": "penne"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "lettuce",
+    "quantity": "4",
+    "name": "Little Gem lettuces"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "200g",
+    "name": "frozen peas"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "150ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "40g",
+    "name": "vegetarian hard cheese"
+   }
+  ],
+  "steps": [
+   "Boil the eggs for 7 minutes, cool and peel. Cook the pasta in the same salted water.",
+   "Sear the quartered lettuces cut side down in the butter for 3 minutes, then lift out.",
+   "Soften the sliced garlic in the pan. Add peas and stock, simmer 3 minutes, then stir in crème fraîche and lemon zest.",
+   "Toss with the drained pasta, grated cheese and lettuce. Season, top with halved eggs and torn mint."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

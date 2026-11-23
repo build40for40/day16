@@ -1,0 +1,97 @@
+{
+ "slot": {
+  "day": 82,
+  "date": "2027-03-23",
+  "label": "23 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Apple and rhubarb compote with honeyed seeds",
+  "meal": "breakfast",
+  "dish_form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "one saucepan",
+   "a frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "ground-ginger",
+    "name": "ground ginger"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "apples",
+    "quantity": "4",
+    "name": "eating apples"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "rhubarb",
+    "quantity": "400g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "50g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "sunflower-seeds",
+    "quantity": "50g",
+    "name": "sunflower seeds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "500g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Put the cored, chopped apples in a pan with the orange zest and juice, 1 tbsp honey, the cinnamon and 3 tbsp water. Cover and cook for 5 minutes.",
+   "Add the rhubarb in short lengths and the ginger. Simmer for 5 to 8 minutes, until soft but holding shape.",
+   "Toast the seeds in a dry pan until they pop. Stir in the remaining honey.",
+   "Spoon yoghurt into bowls and top with the compote and seeds."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 81 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

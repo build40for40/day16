@@ -1,0 +1,88 @@
+{
+ "slot": {
+  "day": 136,
+  "date": "2027-05-16",
+  "label": "16 May",
+  "month": 5,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "strawberries"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Peppered strawberries and ricotta on toast",
+  "meal": "breakfast",
+  "dish_form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a small frying pan",
+   "a toaster",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "strawberries",
+    "quantity": "400g",
+    "name": "strawberries"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "almonds",
+    "quantity": "30g",
+    "name": "almonds"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   },
+   {
+    "id": "bread",
+    "quantity": "8 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Hull and quarter the strawberries. Toss with the honey, a squeeze of lemon and a little black pepper, then leave for 10 minutes to go juicy.",
+   "Toast the almonds in a dry pan until golden, then chop roughly.",
+   "Beat the ricotta with the lemon zest.",
+   "Toast the bread. Spread with the ricotta, spoon over the strawberries and their juice, and scatter with the almonds and torn mint."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

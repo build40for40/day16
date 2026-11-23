@@ -1,0 +1,43 @@
+{
+ "day": 283,
+ "title": "Rigatoni with turkey and turnip ragù",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or a basic like tinned tomatoes, tomato purée, dried pasta and Parmesan, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Turkey mince, turnips, rigatoni and Parmesan are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a pasta pan and a grater, and the techniques are browning, simmering and boiling pasta."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g turkey, three turnips, a tin of tomatoes with 200ml water and 350g pasta make a well-balanced sauce for four, and small turnip cubes will be tender after 20 minutes' simmering."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Chopping the onion, garlic and turnips fits around 16 minutes of browning and softening within the 25 prep minutes, and the 20-minute simmer matches the cook time, with the pasta easily boiled alongside."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Rigatoni is a fair name for dried pasta, every listed ingredient and seasoning appears in the steps, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm pasta sauce suits a mid-October lunch, and the turnips are a main component of the sauce named in the title rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, and ragù is a familiar word on UK menus and jars."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling, family-friendly pasta with lean protein, vegetables and tomatoes."
+  }
+ }
+}

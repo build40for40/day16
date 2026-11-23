@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 91,
+  "date": "2027-04-01",
+  "label": "1 April",
+  "month": 4,
+  "meal": "dinner",
+  "form": "pie",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "new-potatoes"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Leek and egg pie with a new potato top",
+  "meal": "dinner",
+  "dish_form": "pie",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a large pan",
+   "a saucepan",
+   "a baking dish"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "nutmeg",
+    "name": "nutmeg"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "800g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "eggs",
+    "quantity": "6",
+    "name": "eggs"
+   },
+   {
+    "id": "leeks",
+    "quantity": "3",
+    "name": "leeks"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "cornflour",
+    "quantity": "2 tbsp",
+    "name": "cornflour"
+   },
+   {
+    "id": "milk",
+    "quantity": "500ml",
+    "name": "milk"
+   },
+   {
+    "id": "spinach",
+    "quantity": "200g",
+    "name": "spinach"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "100g",
+    "name": "grated Cheddar"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Boil the potatoes and eggs for 8 minutes, then cool the eggs.",
+   "Soften the sliced leeks in the butter for 8 minutes. Stir in the cornflour, then the milk, until thick.",
+   "Wilt in the spinach, half the cheese, a grating of nutmeg and the chopped chives. Season and tip into a baking dish.",
+   "Tuck in the peeled, halved eggs. Top with the sliced potatoes and the rest of the cheese. Bake for 25 minutes, until golden."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

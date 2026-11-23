@@ -1,0 +1,93 @@
+{
+ "slot": {
+  "day": 275,
+  "date": "2027-10-02",
+  "label": "2 October",
+  "month": 10,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": "sausages",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Potato farls with sausages and tomatoes",
+  "meal": "breakfast",
+  "dish_form": "griddled potato bread with sausages",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan",
+   "a large frying pan",
+   "a masher"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "floury potatoes"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "120g",
+    "name": "plain flour, plus extra"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "1 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "sausages",
+    "quantity": "8",
+    "name": "pork sausages"
+   },
+   {
+    "id": "tomatoes",
+    "quantity": "4",
+    "name": "tomatoes"
+   }
+  ],
+  "steps": [
+   "Boil the peeled, chunked potatoes for 15 minutes until soft. Drain and mash with the butter and a pinch of salt.",
+   "Work in the flour, pat into two 1cm rounds on a floured board and cut each into quarters.",
+   "Fry the sausages in the oil for 15 minutes, turning, then keep warm. Fry the halved tomatoes for 3 minutes.",
+   "Cook the farls in the pan for 3 to 4 minutes a side until golden. Serve with pepper and snipped chives."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

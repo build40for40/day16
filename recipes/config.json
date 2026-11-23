@@ -1,7 +1,6 @@
 {
   "year": 2027,
   "seed": 16,
-  "serves": 4,
   "meals": {
     "breakfast": 100,
     "lunch": 100,
@@ -17,11 +16,11 @@
   "limits": {
     "hands_on_max": 60,
     "quick_max": 20,
-    "max_ingredients": 12,
-    "max_steps": 7,
-    "max_step_words": 45,
-    "max_title_chars": 60,
-    "max_intro_words": 30
+    "max_ingredients": 10,
+    "max_seasoning": 5,
+    "max_steps": 5,
+    "max_title_lines": 2,
+    "max_utensils_lines": 1
   },
   "diet_mix": {
     "breakfast": {
@@ -324,6 +323,30 @@
       "ketchup",
       "salad cream",
       "xanthan"
+    ],
+    "hard_to_find": [
+      "whiting"
     ]
+  },
+  "page": {
+    "content_px": 760,
+    "picture_px": 196,
+    "title_margin_px": 26,
+    "title_line_px": 31,
+    "title_min_lines": 2,
+    "title_scale": 1.945,
+    "utensils_margin_px": 14,
+    "note_line_px": 16,
+    "note_scale": 0.923,
+    "time_px": 20,
+    "columns_margin_px": 18,
+    "head_px": 386,
+    "text_scale": 1,
+    "line_px": 20,
+    "list_px": 150,
+    "heading_px": 32,
+    "seasoning_margin_px": 10,
+    "method_px": 196,
+    "step_gap_px": 9
   }
 }

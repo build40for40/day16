@@ -1,0 +1,43 @@
+{
+ "day": 142,
+ "title": "Bulgur and feta patties with radish salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple: bulgur, tinned chickpeas, feta, eggs, flour, Greek yoghurt and fresh vegetables."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a masher and a frying pan, and shaping and frying patties is within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A 2:1 water-to-bulgur soak, a full tin of chickpeas, egg and flour to bind, and 8 patties with a 300g radish salad and yoghurt make a sound dinner for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is enough to slice the vegetables, mash, mix and shape while the bulgur soaks, and the 15-minute soak plus about 8 minutes of frying roughly matches the 20 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the mint and lemon, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A crunchy 300g radish and cucumber salad with mint is a substantial named half of the plate and suits a late-May evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pulses, wholegrain, cheese, egg and a fresh salad make a filling, balanced family dinner."
+  }
+ }
+}

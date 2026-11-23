@@ -1,0 +1,43 @@
+{
+ "day": 121,
+ "title": "Strawberry and rhubarb oat crumble",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, flour, oats, sugar, hazelnuts, oil, lemon and cinnamon are all ordinary cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard everyday item at Tesco, including the hazelnuts and the early strawberries."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a bowl and a baking dish, and rubbing in is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "800g of fruit under a 200g oat and flour topping with 5 tbsp oil at 190°C for 30 to 35 minutes gives a sound crumble for four, sharp but balanced by the sweet strawberries and sugared topping."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is believable for chopping rhubarb, halving strawberries, chopping nuts, zesting and rubbing in, and 40 minutes cook roughly covers the 30 to 35 minute bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the lemon zest and cinnamon, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm strawberry and rhubarb crumble suits early May, and the strawberries are a main filling, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English a neighbour would follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is mostly fruit with oats and nuts and moderate sugar, a crumble a family would happily make again."
+  }
+ }
+}

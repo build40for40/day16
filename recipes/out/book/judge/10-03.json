@@ -1,0 +1,43 @@
+{
+ "day": 276,
+ "title": "Turnip and pork fritters with figs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain staple: turnips, pork mince, eggs, flour, oil, figs, rocket and balsamic."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Fresh figs are a bit pricier than the rest, but Tesco stocks them in small packs in autumn, and everything else is an everyday item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a bowl, a tea towel and a frying pan, and grating and shallow frying are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Squeezed turnip bound with egg, flour and pork mince makes a firm mix, and thin spoonfuls fried 4 to 5 minutes a side will cook the pork through, giving a fair lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers peeling and grating 400g of turnip, slicing, chopping and mixing, and the 30 minutes matches the 10-minute salting plus two frying batches."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the sage, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Grated turnip is the body of the fritters, which suits early October, and figs and rocket are both in season then."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British instructions a neighbour would give."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling lunch of vegetables, pork and egg with a fresh salad, the kind of thing a family would happily eat again."
+  }
+ }
+}

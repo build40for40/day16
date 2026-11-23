@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 250,
+  "date": "2027-09-07",
+  "label": "7 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "blackberries"
+  ],
+  "protein": "kippers",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Kippers on toast with sharp blackberry relish",
+  "meal": "breakfast",
+  "dish_form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a frying pan",
+   "a small bowl",
+   "a toaster"
+  ],
+  "prep_minutes": 12,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "blackberries",
+    "quantity": "200g",
+    "name": "blackberries"
+   },
+   {
+    "id": "shallots",
+    "quantity": "1",
+    "name": "shallot"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "kippers",
+    "quantity": "4",
+    "name": "kipper fillets"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 thick slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "butter",
+    "quantity": "20g",
+    "name": "butter"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Halve the blackberries and toss with the finely chopped shallot, vinegar, oil, chopped dill, salt and plenty of pepper.",
+   "Lay the kippers in a frying pan, cover with boiling water and simmer gently for 4 minutes. Drain.",
+   "Toast and butter the bread. Top with watercress and a kipper.",
+   "Spoon over the relish and its juices, and squeeze over a little lemon."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

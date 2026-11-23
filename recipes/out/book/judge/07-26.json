@@ -1,0 +1,43 @@
+{
+ "day": 207,
+ "title": "Celery, runner bean and egg bulgur bowls",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bulgur, eggs, fresh vegetables, olive oil, Dijon mustard, lemon and feta are all plain whole foods or traditional staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a bowl and a whisk or fork, and boiling eggs and soaking bulgur suit a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Soaking 200g bulgur in 400ml boiling water works, the beans get 3 minutes alongside 7-minute eggs, and the quantities suit four lunches."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes of active work covers slicing the beans, celery and spring onions, making the dressing and peeling the eggs, and the eggs cook while the 15-minute soak runs."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon and parsley, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A fresh, crunchy grain salad suits late July, and four sticks of celery plus the leaves make it a main ingredient rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholegrain bulgur, eggs, feta and plenty of vegetables make a balanced, filling lunch."
+  }
+ }
+}

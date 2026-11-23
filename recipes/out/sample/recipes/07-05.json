@@ -17,108 +17,95 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Smoky turkey and peppers with parsley rice",
-  "intro": "July peppers are sweet and thin-skinned, and a hot pan chars them in minutes. Lean turkey mince and smoked paprika turn them into a quick, warming supper.",
+  "title": "Smoky turkey and peppers with herby rice",
   "meal": "dinner",
   "dish_form": "pan fry with rice",
   "diet": "meat",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "saucepan with lid",
-   "large frying pan",
-   "sieve"
+   "one large frying pan",
+   "one saucepan",
+   "a sieve"
   ],
-  "hands_on_minutes": 25,
-  "total_minutes": 30,
-  "serves": 4,
+  "prep_minutes": 25,
+  "cook_minutes": 15,
+  "time_note": "",
   "best_time": "evening",
   "freezes": false,
-  "ingredients": [
-   {
-    "id": "long-grain-rice",
-    "name": "Basmati rice",
-    "quantity": "300g",
-    "prep": "rinsed"
-   },
-   {
-    "id": "water",
-    "name": "Water",
-    "quantity": "650ml",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "name": "Salt",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
-   {
-    "id": "olive-oil",
-    "name": "Olive oil",
-    "quantity": "2 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "peppers",
-    "name": "Peppers, mixed colours",
-    "quantity": "3",
-    "prep": "deseeded and cut into strips"
-   },
-   {
-    "id": "red-onions",
-    "name": "Red onion",
-    "quantity": "1",
-    "prep": "cut into thin wedges"
-   },
-   {
-    "id": "turkey-mince",
-    "name": "Turkey mince",
-    "quantity": "500g",
-    "prep": ""
-   },
-   {
-    "id": "garlic",
-    "name": "Garlic",
-    "quantity": "2 cloves",
-    "prep": "crushed"
-   },
+  "seasoning": [
    {
     "id": "smoked-paprika",
-    "name": "Smoked paprika",
-    "quantity": "2 tsp",
-    "prep": ""
+    "name": "smoked paprika"
    },
    {
-    "id": "cherry-tomatoes",
-    "name": "Cherry tomatoes",
-    "quantity": "250g",
-    "prep": "halved"
-   },
-   {
-    "id": "black-pepper",
-    "name": "Black pepper",
-    "quantity": "to taste",
-    "prep": ""
+    "id": "cumin",
+    "name": "cumin"
    },
    {
     "id": "parsley",
-    "name": "Parsley",
-    "quantity": "20g",
-    "prep": "chopped"
+    "name": "parsley"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "long-grain-rice",
+    "quantity": "300g",
+    "name": "basmati rice"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "turkey-mince",
+    "quantity": "500g",
+    "name": "turkey mince"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "peppers",
+    "quantity": "3",
+    "name": "peppers"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "200g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "150g",
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Put the rinsed rice in a saucepan with 600ml of the water and a pinch of salt. Bring to the boil, cover, turn to the lowest heat and cook for 12 minutes. Take off the heat and leave covered for 5 minutes.",
-   "Meanwhile, heat 1 tbsp oil in a large frying pan over a high heat. Fry the peppers and onion for 6 to 8 minutes, stirring now and then, until charred at the edges and just soft. Tip onto a plate.",
-   "Add the rest of the oil and the turkey mince to the pan. Fry for 5 to 6 minutes, breaking it up, and leave it alone for a minute at a time so it browns rather than steams.",
-   "Stir in the garlic and smoked paprika for a minute, then add the cherry tomatoes and the remaining 50ml water. Cook for 3 to 4 minutes until the tomatoes burst into a rough sauce.",
-   "Return the peppers and onion to the pan, season with salt and black pepper, and heat through for a minute or two.",
-   "Fluff the rice with a fork and stir in most of the parsley. Serve the turkey and peppers on top, scattered with the rest of the parsley."
-  ],
-  "tip": "Leftovers keep in the fridge for two days and make a good filling for wraps with a spoonful of natural yoghurt."
+   "Boil the rice in salted water for 12 minutes, then drain.",
+   "Brown the turkey in the oil in a large frying pan over a high heat, breaking it up.",
+   "Add the sliced onion and peppers and fry for 8 minutes. Stir in the garlic, 2 tsp each of paprika and cumin, and the halved tomatoes. Cook for 3 minutes and season.",
+   "Fork chopped parsley through the rice and serve with the turkey and yoghurt."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 174,
+  "date": "2027-06-23",
+  "label": "23 June",
+  "month": 6,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "courgettes"
+  ],
+  "protein": "haddock",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Haddock with courgettes and white beans",
+  "meal": "lunch",
+  "dish_form": "bean pot",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a wide pan with a lid"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "courgettes",
+    "quantity": "3",
+    "name": "courgettes"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "250g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "2 tins",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "150ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "haddock",
+    "quantity": "4",
+    "name": "haddock fillets"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a wide lidded pan. Fry the sliced garlic and diced courgettes for 6 minutes, until golden at the edges.",
+   "Add the halved tomatoes, drained beans, a pinch of chilli, the stock and the lemon zest. Simmer for 5 minutes.",
+   "Season the haddock and sit it on the beans. Cover and cook for 8 to 10 minutes, until the fish flakes.",
+   "Squeeze over the lemon juice and scatter with torn basil."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,96 @@
+{
+ "slot": {
+  "day": 196,
+  "date": "2027-07-15",
+  "label": "15 July",
+  "month": 7,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "peppers"
+  ],
+  "protein": null,
+  "protein_hint": "cheese",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Sweet pepper and feta frittata",
+  "meal": "lunch",
+  "dish_form": "frittata",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan with a lid",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "peppers",
+    "quantity": "3",
+    "name": "peppers"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "feta",
+    "quantity": "200g",
+    "name": "feta"
+   },
+   {
+    "id": "rocket",
+    "quantity": "100g",
+    "name": "rocket"
+   }
+  ],
+  "steps": [
+   "Warm 2 tbsp of the oil in the pan. Fry the sliced peppers and onion with a pinch of salt for 10 minutes, until soft and sweet.",
+   "Beat the eggs, season and stir in torn basil. Pour over the peppers and crumble in the feta.",
+   "Cover and cook on a low heat for 10 to 12 minutes, until just set in the middle.",
+   "Dress the rocket with lemon juice and the last of the oil. Serve with wedges of frittata."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

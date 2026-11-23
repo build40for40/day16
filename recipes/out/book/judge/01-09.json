@@ -1,0 +1,43 @@
+{
+ "day": 9,
+ "title": "Baked oats with rhubarb and orange",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, sugar, oil, fresh fruit, walnuts and spices are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Tesco stocks forced rhubarb in January, and everything else is an everyday item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a bowl and a grater, and the method is mix and bake."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to about 500ml of water and juice, baked for 35 minutes at 190°C, gives a set bake for four; the rhubarb will soften on top, though it may be a little sharp."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to grate two apples, zest and juice the oranges, chop the rhubarb and mix, and the 35-minute bake matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, names match their ids, and only water is added."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "January citrus and early forced rhubarb suit a warm winter breakfast, and orange is in the base through zest and juice and is served alongside."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British-English instructions with no fuss or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling oat bake with plenty of fruit, nuts and only a little sugar, the sort of breakfast a family would make again."
+  }
+ }
+}

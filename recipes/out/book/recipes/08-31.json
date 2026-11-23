@@ -1,0 +1,101 @@
+{
+ "slot": {
+  "day": 243,
+  "date": "2027-08-31",
+  "label": "31 August",
+  "month": 8,
+  "meal": "lunch",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "marrow",
+   "peaches"
+  ],
+  "protein": null,
+  "protein_hint": "cheese",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Marrow and peach on toast with goat's cheese",
+  "meal": "lunch",
+  "dish_form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "marrow",
+    "quantity": "1 small",
+    "name": "marrow"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 thick slices",
+    "name": "sourdough"
+   },
+   {
+    "id": "goats-cheese",
+    "quantity": "150g",
+    "name": "soft goat's cheese"
+   },
+   {
+    "id": "peaches",
+    "quantity": "2 ripe",
+    "name": "peaches"
+   }
+  ],
+  "steps": [
+   "Peel the marrow, scoop out the seeds and cut into small cubes. Fry in 2 tbsp of the oil over a high heat for 8 to 10 minutes, until golden and tender.",
+   "Stir in the sliced garlic and a pinch of chilli flakes for 1 minute. Season and add a squeeze of lemon.",
+   "Toast the bread and spread thickly with the goat's cheese.",
+   "Pile on the marrow, then the sliced peaches and torn mint. Finish with the rest of the oil."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

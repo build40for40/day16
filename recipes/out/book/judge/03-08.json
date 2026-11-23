@@ -1,0 +1,43 @@
+{
+ "day": 67,
+ "title": "Grilled kippers with spring onion butter",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Kippers, butter, bread, watercress and herbs are all plain foods a grandparent would have had in the kitchen."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Kipper fillets, watercress, spring onions and wholemeal bread are everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a grill pan, small bowl and toaster are needed, and the technique is simple mashing and grilling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four kipper fillets grilled for 4 to 5 minutes on toast with a flavoured butter makes a sound breakfast for four, and the kippers bring their own salt."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing spring onions, chopping parsley and zesting a lemon fits in 10 minutes, and the 5 minute grill matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon for zest and wedges, is used, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A whole bunch of spring onions goes into the named butter that flavours both the kippers and the toast, which suits a cool March morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no fuss or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oily fish on wholemeal toast with watercress is a proper, nourishing breakfast a family would happily repeat."
+  }
+ }
+}

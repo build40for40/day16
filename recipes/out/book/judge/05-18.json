@@ -1,0 +1,43 @@
+{
+ "day": 138,
+ "title": "Chicken, spelt and charred cabbage pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a plain whole food or a cupboard staple a grandparent would recognise, including chicken stock, spelt, frozen peas and crème fraîche."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including pearled spelt, pointed cabbage and little gem, is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a wide lidded casserole, a knife and a board, and searing, browning and simmering are within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four: 250g spelt to 900ml stock, simmered covered for 25 minutes, will cook through, and the cabbage steams tender on top."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty active minutes covers the light chopping and the searing and browning, and the 25-minute simmer plus 3 minutes for the peas matches the 30 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Little gem is a lettuce, and every listed ingredient and seasoning, including lemon and tarragon, is used in the steps with nothing extra added."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Charred pointed cabbage wedges are the centrepiece of a light May pot with peas, lettuce and tarragon, which suits mid-spring."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English instructions with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chicken, wholegrain spelt and three vegetables make a filling, balanced family dinner."
+  }
+ }
+}

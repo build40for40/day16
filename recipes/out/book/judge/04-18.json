@@ -1,0 +1,43 @@
+{
+ "day": 108,
+ "title": "Split pea toasts with rocket and capers",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Split peas, onion, garlic, capers, lemon, olive oil and bread are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, sourdough included, is an everyday line at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a heavy pan, a masher, a bowl and a toaster or grill, and simmering and mashing are beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g split peas in 700ml water simmered for 45 minutes mashes to a thick purée for eight toasts, though a note to add a splash more water if it catches would help."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "15 minutes covers chopping, slicing radishes, mashing and toasting, and the 45-minute cook matches the simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item and seasoning is used, nothing unlisted appears beyond water, and sourdough is a fair name for crusty bread."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A 100g pile of peppery rocket with radishes on warm toast is a proper spring lunch topping, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pulses, fresh leaves and radishes on bread make a filling, wholesome lunch."
+  }
+ }
+}

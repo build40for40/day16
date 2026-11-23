@@ -1,0 +1,43 @@
+{
+ "day": 285,
+ "title": "Oatcakes with butter beans and celery",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, flour, tinned butter beans, tahini, lemon and celery are all plain kitchen staples with nothing factory-built."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, tahini included, is an everyday item at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a baking tray, a masher and a board, and pressing and cutting a simple dough is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The dough ratio of 200g dry to 100ml water and 3 tbsp oil holds together, 16 thin oatcakes crisp in 20 to 25 minutes at 190°C, and a tin of beans plus 3 celery sticks tops them generously for four; moving the squares to the tray is obvious to any cook."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers mixing, pressing and cutting the dough, mashing the beans and slicing the celery and parsley, and the 25 minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the oil split as 3 tbsp plus the rest, the lemon and the parsley, is used, and nothing unlisted appears apart from water and flour for the board."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A crunchy celery and parsley salad piled on oatcakes is a fair October afternoon snack, and three sticks of celery with their leaves make it a real component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour would follow without trouble."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholegrain oatcakes with a bean and tahini mash and fresh celery make a filling, wholesome snack a family would happily eat again."
+  }
+ }
+}

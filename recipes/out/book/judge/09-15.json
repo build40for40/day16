@@ -1,0 +1,43 @@
+{
+ "day": 258,
+ "title": "Jacket potatoes with split peas and red cabbage slaw",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, dried split peas, spices, cabbage, apple and lemon are all plain cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including yellow split peas, is an everyday item at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking tray, one pan and a grater, and every technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g split peas in 900ml water makes a thick dhal-style filling for four, half a cabbage with an apple gives plenty of slaw, and 200°C for an hour suits baking potatoes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Chopping an onion, shredding half a cabbage and grating an apple fit in 25 minutes, and the 45-minute simmer runs inside the 60-minute bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A crunchy red cabbage and apple slaw on a warm jacket potato suits mid-September, and half a cabbage makes it a main part of the plate rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear, British and free of restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Jacket potatoes with a spiced pulse filling and a fresh slaw make a filling, wholesome lunch a family would happily eat."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 2,
+ "title": "Savoy cabbage and bean soup with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a staple like vegetable stock, tinned beans, cheese and bread, with no jars, stock pots or factory products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Leeks, potatoes, Savoy cabbage, cannellini beans, eggs, vegetarian hard cheese and bread are all everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded pan and a grater, and cooking eggs in a simmering soup is well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The amounts are sensible for four: 1.2 litres of stock to 400g potatoes, a tin of beans and half a cabbage gives a hearty broth, and a covered simmer will set the eggs even if the hollows soon close up."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for slicing two leeks, peeling and cubing the potatoes, shredding the cabbage and grating the cheese, and the 8, 15, 5 and 5 minute stages roughly match the 30 minutes of cooking printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the thyme, salt and pepper, is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot cabbage, bean and potato soup suits a cold 2 January lunch, and the Savoy cabbage is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling lunch with vegetables, beans, eggs and cheese, served with bread, and a family would happily cook it again."
+  }
+ }
+}

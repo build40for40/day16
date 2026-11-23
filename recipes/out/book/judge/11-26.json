@@ -1,0 +1,43 @@
+{
+ "day": 330,
+ "title": "Warm clementine and prune compote with yoghurt",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Clementines, prunes, apples, honey, hazelnuts and Greek yoghurt are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a saucepan, a small frying pan, a knife and a zester are needed, and the techniques are simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four, the 100ml of water plus the juice is right for a gentle 10-minute simmer, and the cubed apples will soften in that time."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is realistic for zesting, juicing, cubing the apples, peeling and slicing the clementines, and chopping and toasting the nuts, and the 10-minute simmer matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears except water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm clementine compote suits a late November morning, and the clementines are central to it as juice, zest and slices."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit with Greek yoghurt and toasted nuts makes a proper breakfast with protein and only a little added honey."
+  }
+ }
+}

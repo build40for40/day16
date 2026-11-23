@@ -1,43 +1,43 @@
 {
  "day": 353,
- "title": "Carrot and butter bean soup with cumin",
+ "title": "Carrot, butter bean and orange soup",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or a cupboard staple: carrots, onion, garlic, tinned butter beans, vegetable stock, cumin, lemon, natural yoghurt and pumpkin seeds."
+   "reason": "Everything is whole food or a staple; vegetable stock counts as good stock, and tinned beans, yoghurt and seeds are all ordinary cupboard items."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket, and none would feel like a treat."
+   "reason": "Carrots, onion, garlic, butter beans, stock, an orange, yoghurt, pumpkin seeds and rosemary are everyday items at any Tesco."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a saucepan, a peeler and a stick blender for soup, and the technique is simple frying, simmering and blending."
+   "reason": "One heavy pan, a stick blender for soup and a grater for zest are all ordinary kit, and the technique is simple."
   },
   "works": {
    "pass": true,
-   "reason": "800g thinly sliced carrots, two tins of beans and 1.2 litres of stock make a thick soup for four, and the carrots will be soft after the 15 to 20 minute simmer."
+   "reason": "600g carrots, two tins of beans and a litre of stock blend to a good thick soup for four; 20 minutes softens sliced carrots, and the orange, rosemary and seasoning give it flavour."
   },
   "honest_times": {
    "pass": true,
-   "reason": "15 minutes hands-on is tight once you peel and slice 800g of carrots, but you can slice them while the onion softens, and 35 minutes in total fits a quick lunch."
+   "reason": "Fifteen minutes is believable for chopping an onion, peeling and slicing 600g carrots, zesting an orange and toasting seeds, and the 5 plus 20 minutes in the steps matches the 25 minutes printed as cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used and matches its id, and the only unlisted item is an optional splash of water."
+   "reason": "Every listed ingredient and seasoning appears in the steps, each name matches its id, and nothing unlisted is used apart from water-free stock."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Stored December carrots are clearly the point of this warming, blended soup, which suits the week before Christmas."
+   "reason": "A warming carrot soup with winter oranges suits a cold December lunch, and carrots are clearly the heart of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear and practical in plain British English, with useful cues such as 'soft enough to squash with a spoon'."
+   "reason": "The steps are short, clear and plain British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Plenty of vegetables, beans for protein, and a yoghurt and toasted seed topping make it a filling lunch a family would want again."
+   "reason": "Carrots, butter beans, yoghurt and seeds make a filling, proper lunch that a family would happily eat again."
   }
  }
 }

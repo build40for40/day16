@@ -1,0 +1,43 @@
+{
+ "day": 148,
+ "title": "Broad bean and lentil fritters with minty yoghurt",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Lentils, broad beans, feta, eggs, flour, yoghurt and salad leaves are all plain home staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Everything is a mainstream supermarket item at an everyday price, and broad beans in pods are on shelves in late May."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan and a bowl, and the techniques are within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "About 200g of skinned beans bound with 150g of cooked lentils, two eggs, flour and feta gives a soft but workable fritter mix for four, with a yoghurt dip and leaves."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "45 minutes of prep honestly covers double-podding 1kg of beans, chopping and frying in batches, and the 20 minutes of cook time matches the lentil simmer and bean boil."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears apart from water, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh broad beans with mint suit a late-May lunch, and the beans are the bulk and point of the fritters."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour would follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Beans, lentils, eggs and feta with salad and yoghurt make a filling, protein-rich lunch a family would want again."
+  }
+ }
+}

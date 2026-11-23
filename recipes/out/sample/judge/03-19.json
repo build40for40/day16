@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Oats, fresh fruit, seeds, cinnamon and a spoonful of brown sugar are all plain cupboard and garden foods."
+   "reason": "Oats, fresh fruit, sugar, cinnamon and walnuts are all plain cupboard and garden foods with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient, including March rhubarb and pumpkin seeds, is on the shelf at Tesco at an everyday price."
+   "reason": "Every ingredient, including March rhubarb and walnuts, is an everyday Tesco item at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a frying pan, two saucepans and a grater, and the techniques are simple simmering and toasting."
+   "reason": "Two saucepans and a wooden spoon are all it needs, and the techniques are simmering and stirring."
   },
   "works": {
    "pass": true,
-   "reason": "200g oats to 1.2 litres water gives four proper bowls, and four apples with 200g rhubarb, orange juice and a little sugar makes a well-balanced compote in the stated time."
+   "reason": "200g oats to 1.2 litres water is the standard porridge ratio for four, and the compote amounts, liquid and 10-minute covered simmer are sound."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Coring four apples, cutting rhubarb, zesting an orange and toasting seeds fits in about 15 minutes, with the porridge cooking alongside the compote for a 20-minute total."
+   "reason": "Twelve minutes covers coring and chopping three apples and the rhubarb, zesting and juicing an orange and chopping walnuts, and the 10-minute cook matches the steps for a quick breakfast."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps, the names match their ids, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used, names match their ids and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Early forced rhubarb and stored apples are right for mid-March, and the warm compote is the point of the bowl."
+   "reason": "Warm porridge suits a chilly March morning, and stored apples lead the compote, with early rhubarb in support."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, in British English and easy for a beginner to follow, with no restaurant language."
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Oats, plenty of fruit and toasted seeds make a filling, real-food breakfast with little added sugar."
+   "reason": "Oat porridge with fruit compote and walnuts is a filling, real-food breakfast with only modest added sugar."
   }
  }
 }

@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 49,
+  "date": "2027-02-18",
+  "label": "18 February",
+  "month": 2,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Cheese and onion rösti with mushrooms and eggs",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a grater",
+   "a clean tea towel",
+   "a large frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "cheddar"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "butter",
+    "quantity": "15g",
+    "name": "butter"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   }
+  ],
+  "steps": [
+   "Coarsely grate the potatoes and onion, then squeeze dry in a clean tea towel. Mix with the grated cheddar and a good pinch of salt.",
+   "Press into four flat cakes and fry in 2 tbsp oil for 5 minutes a side, until golden. Keep warm.",
+   "Fry the sliced mushrooms in the butter with the thyme leaves for 5 minutes. Season.",
+   "Fry the eggs in the last of the oil and serve on the rösti with the mushrooms."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

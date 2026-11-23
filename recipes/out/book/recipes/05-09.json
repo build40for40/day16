@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 129,
+  "date": "2027-05-09",
+  "label": "9 May",
+  "month": 5,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "rhubarb"
+  ],
+  "protein": "ham",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Ham and eggs on toast with rhubarb relish",
+  "meal": "breakfast",
+  "dish_form": "eggs on toast",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a large frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "ground-ginger",
+    "name": "ground ginger"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "rhubarb",
+    "quantity": "300g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "2 tbsp",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "2 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "ham",
+    "quantity": "8 slices",
+    "name": "cooked ham"
+   }
+  ],
+  "steps": [
+   "Soften the chopped onion in half the butter in a small pan for 5 minutes.",
+   "Add the rhubarb in 2cm pieces, the sugar, vinegar, 1 tsp ginger and a pinch of salt. Simmer for 6 to 8 minutes, until soft but holding shape.",
+   "Fry the eggs in the rest of the butter. Toast the bread.",
+   "Top each toast with ham, an egg and a spoonful of relish. Finish with chives and pepper."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

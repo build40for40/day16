@@ -1,0 +1,43 @@
+{
+ "day": 139,
+ "title": "Whole orange and almond cake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oranges, butter, eggs, sugar, ground almonds, yoghurt and strawberries are all plain home ingredients with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard Tesco line at an everyday price, ground almonds included."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a stick blender to purée the oranges and a 20cm cake tin, with simple boil, blitz and bake technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "This is the well-known boiled whole-orange almond cake, and 4 eggs, 180g sugar and 250g almonds at 190°C for 45 to 50 minutes give a dense, moist cake that cuts into slices for four with leftovers."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "The hour's simmer plus a 45 to 50 minute bake roughly matches the 120 cook minutes, and 20 minutes of active work for blitzing, whisking and hulling strawberries is believable."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the butter for the tin and the pinch of salt, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Whole oranges are the body of the cake, and serving it with May strawberries suits a late spring afternoon."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "This is a sensible snack cake built on almonds, eggs and whole fruit, served with yoghurt and strawberries, not mostly sugar or refined flour."
+  }
+ }
+}

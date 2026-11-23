@@ -1,0 +1,105 @@
+{
+ "slot": {
+  "day": 324,
+  "date": "2027-11-20",
+  "label": "20 November",
+  "month": 11,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "cauliflower"
+  ],
+  "protein": "lamb-chops",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spiced cauliflower soup with crispy lamb",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large pan",
+   "a stick blender"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "turmeric",
+    "name": "turmeric"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "lamb-mince",
+    "quantity": "250g",
+    "name": "lamb mince"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "cauliflower",
+    "quantity": "1",
+    "name": "large cauliflower"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "1",
+    "name": "medium potato"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "1.2 litres",
+    "name": "chicken stock"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Fry the lamb mince in a large pan with 1 tsp cumin and a pinch of chilli flakes for 8 minutes, until browned and crisp. Season and lift out, leaving the fat behind.",
+   "Soften the chopped onion and garlic in the fat for 5 minutes. Stir in 1 tsp turmeric and the rest of the cumin.",
+   "Add the cauliflower florets, diced potato and stock. Simmer for 20 minutes, until soft.",
+   "Blend until smooth and season. Serve with a spoon of yoghurt and the crispy lamb on top."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

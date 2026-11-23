@@ -1,0 +1,43 @@
+{
+ "day": 61,
+ "title": "Spring greens, lentil and spelt pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a simple dairy staple, and vegetable stock is allowed."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pearled spelt, Puy lentils and vegetarian hard cheese are all everyday lines at Tesco and other mainstream supermarkets."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan and a grater, and the techniques are simple softening and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Spelt and Puy lentils (300g dry between them) in 1.2 litres of stock make a loose, brothy pot for four, and the 25-minute simmer suits both."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "About 15 minutes of active work covers slicing the leeks, shredding the greens and softening, and the 25 plus 5 minutes of simmering matches the 30 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme, lemon and chilli flakes, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm grain and lentil pot with 300g of spring greens suits a cold early-March lunch, and the greens are central."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, wholegrain spelt, leeks and greens with a little crème fraîche and cheese make a filling, balanced meal."
+  }
+ }
+}

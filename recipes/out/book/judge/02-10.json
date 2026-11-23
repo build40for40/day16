@@ -1,0 +1,43 @@
+{
+ "day": 41,
+ "title": "Kale, feta and white bean dip",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Kale, tinned beans, feta, yoghurt, garlic, lemon and raw vegetables are all plain home ingredients, with no jars or packet products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including feta and tinned cannellini beans, is an everyday Tesco purchase at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a bowl and a masher, and the technique is simple wilting and mashing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A tin of beans with 150g kale, 100g feta and yoghurt makes a well-seasoned dip for four, and the 4 carrots, half a cauliflower and 2 apples give ample crudités."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers stripping and chopping the kale, mashing, zesting and cutting the crudités, and the 4-minute wilt matches the 5 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon zest and juice and the chilli flakes, is used, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Kale is in the title and gives the dip its body and colour, which suits a February afternoon with winter roots and apples alongside."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Beans, greens, feta and fresh vegetables and fruit make a filling, wholesome snack a family would eat again."
+  }
+ }
+}

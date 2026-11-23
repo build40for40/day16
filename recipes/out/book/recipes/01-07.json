@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 7,
+  "date": "2027-01-07",
+  "label": "7 January",
+  "month": 1,
+  "meal": "dinner",
+  "form": "pan fry with a side",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "turnips"
+  ],
+  "protein": null,
+  "protein_hint": "cheese",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Halloumi with honeyed turnips and kale",
+  "meal": "dinner",
+  "dish_form": "pan fry with a side",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "one large frying pan",
+   "one saucepan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "turnips",
+    "quantity": "500g",
+    "name": "turnips"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "2 tins",
+    "name": "chickpeas"
+   },
+   {
+    "id": "kale",
+    "quantity": "200g",
+    "name": "kale"
+   },
+   {
+    "id": "halloumi",
+    "quantity": "2 x 225g",
+    "name": "halloumi"
+   }
+  ],
+  "steps": [
+   "Fry the turnip wedges in half the oil in the frying pan for 15 minutes, until golden. Stir in the thyme and honey.",
+   "Soften the sliced onion and garlic in the rest of the oil in the saucepan. Add the drained chickpeas, shredded kale and a splash of water, then cover for 5 minutes.",
+   "Stir in the turnips, chilli flakes and a squeeze of lemon. Season.",
+   "Wipe the frying pan. Fry the sliced halloumi in two batches, 2 minutes a side, and pile on top."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

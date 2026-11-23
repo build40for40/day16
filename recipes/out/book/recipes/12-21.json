@@ -1,0 +1,97 @@
+{
+ "slot": {
+  "day": 355,
+  "date": "2027-12-21",
+  "label": "21 December",
+  "month": 12,
+  "meal": "breakfast",
+  "form": "breakfast hash",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Potato, sprout and chickpea hash",
+  "meal": "breakfast",
+  "dish_form": "breakfast hash",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan",
+   "a large frying pan",
+   "a colander"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "300g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
+   }
+  ],
+  "steps": [
+   "Boil the diced potatoes in salted water for 6 minutes, then drain well.",
+   "Heat the oil in a large frying pan. Fry the potatoes for 10 minutes, turning now and then, until golden.",
+   "Add the sliced onion, halved sprouts and thyme leaves. Fry for 8 minutes, until the sprouts char.",
+   "Stir in the sliced garlic, drained chickpeas and 2 tsp smoked paprika. Cook for 3 minutes. Season and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

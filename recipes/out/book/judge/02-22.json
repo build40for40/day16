@@ -1,0 +1,43 @@
+{
+ "day": 53,
+ "title": "Celeriac, leek and halloumi hash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Halloumi, rapeseed oil, celeriac, leeks, kale, thyme and smoked paprika are all plain whole foods or ordinary cupboard staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including the halloumi and celeriac, is stocked at everyday prices in Tesco and similar shops."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board and a large frying pan, and the technique is simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A whole celeriac in 1cm cubes will crowd one pan and steam more than brown, but 15 plus 10 minutes still cooks it tender, and salty halloumi with paprika and thyme gives enough flavour for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and cubing a celeriac and slicing three leeks fits in 25 minutes of prep, and the 25 minutes of cook time matches the frying steps, give or take frying the halloumi."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm fried hash suits late February, and three leeks cooked until golden are a main component rather than a garnish, even though celeriac leads the title."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling plate of vegetables with halloumi for protein, which a family would happily eat for a weekend breakfast."
+  }
+ }
+}

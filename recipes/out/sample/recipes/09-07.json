@@ -17,102 +17,82 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Smoked mackerel on toast with sticky plums",
-  "intro": "Early September plums are sharp and juicy, and that tartness is just what rich smoked mackerel needs. A proper weekend breakfast that's on the table in 15 minutes.",
+  "title": "Smoked mackerel toast with warm plums",
   "meal": "breakfast",
   "dish_form": "toast",
   "diet": "fish",
   "gluten_free": false,
   "kit": "hob",
   "utensils": [
-   "frying pan",
-   "toaster or grill",
-   "small bowl"
+   "a small pan",
+   "a toaster or grill"
   ],
-  "hands_on_minutes": 15,
-  "total_minutes": 15,
-  "serves": 4,
+  "prep_minutes": 12,
+  "cook_minutes": 5,
+  "time_note": "",
   "best_time": "morning",
   "freezes": false,
-  "ingredients": [
+  "seasoning": [
    {
-    "id": "rapeseed-oil",
-    "name": "Rapeseed oil",
-    "quantity": "1 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "red-onions",
-    "name": "Red onion",
-    "quantity": "1",
-    "prep": "thinly sliced"
-   },
-   {
-    "id": "plums",
-    "name": "Plums",
-    "quantity": "6",
-    "prep": "stoned and cut into eighths"
-   },
-   {
-    "id": "cider-vinegar",
-    "name": "Cider vinegar",
-    "quantity": "2 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "brown-sugar",
-    "name": "Soft brown sugar",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
-   {
-    "id": "creme-fraiche",
-    "name": "Crème fraîche",
-    "quantity": "150g",
-    "prep": ""
-   },
-   {
-    "id": "horseradish",
-    "name": "Horseradish sauce",
-    "quantity": "1 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "bread",
-    "name": "Wholemeal bread",
-    "quantity": "4 thick slices",
-    "prep": ""
-   },
-   {
-    "id": "smoked-mackerel",
-    "name": "Smoked mackerel fillets",
-    "quantity": "250g",
-    "prep": "skin removed, flaked"
-   },
-   {
-    "id": "watercress",
-    "name": "Watercress",
-    "quantity": "80g",
-    "prep": ""
+    "id": "chives",
+    "name": "chives"
    },
    {
     "id": "black-pepper",
-    "name": "Black pepper",
-    "quantity": "to taste",
-    "prep": ""
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "plums",
+    "quantity": "6",
+    "name": "plums"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "horseradish",
+    "quantity": "2 tsp",
+    "name": "horseradish sauce"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "bread",
+    "quantity": "8 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   },
+   {
+    "id": "smoked-mackerel",
+    "quantity": "250g",
+    "name": "smoked mackerel"
    }
   ],
   "steps": [
-   "Heat the oil in a frying pan over a medium heat. Add the onion and cook for 4 to 5 minutes, stirring now and then, until it starts to soften.",
-   "Add the plums, vinegar and sugar. Cook for 3 to 4 minutes until the plums are just soft and the juices turn sticky and glossy, but the pieces still hold their shape.",
-   "Meanwhile, stir the crème fraîche and horseradish together in a small bowl with a good grind of pepper.",
-   "Toast the bread until golden.",
-   "Spread each slice with the horseradish cream, then pile on the watercress and flaked mackerel.",
-   "Spoon the warm plums and their juices over the top, finish with more black pepper and eat straight away."
-  ],
-  "tip": "Leftover sticky plums keep in a jar in the fridge for 3 days and are lovely with cheese or cold ham."
+   "Stone the plums and cut into wedges. Warm in a small pan with the honey, vinegar and a splash of water for 3 to 4 minutes, until just soft.",
+   "Stir the horseradish into the crème fraîche with the snipped chives.",
+   "Toast the bread and spread with the horseradish cream.",
+   "Top with watercress, flaked mackerel and the warm plums with their juices. Finish with black pepper."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

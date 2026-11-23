@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 259,
+  "date": "2027-09-16",
+  "label": "16 September",
+  "month": 9,
+  "meal": "dinner",
+  "form": "hearty soup",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "squash",
+   "broccoli"
+  ],
+  "protein": "bacon",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Squash and bacon soup with broccoli",
+  "meal": "dinner",
+  "dish_form": "hearty soup",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a large heavy pan",
+   "a stick blender"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "sage",
+    "name": "sage"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "bacon",
+    "quantity": "6 rashers",
+    "name": "smoked bacon"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "squash",
+    "quantity": "1kg",
+    "name": "butternut squash"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "1 litre",
+    "name": "chicken stock"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "1 tin",
+    "name": "butter beans"
+   },
+   {
+    "id": "broccoli",
+    "quantity": "1 head",
+    "name": "broccoli"
+   }
+  ],
+  "steps": [
+   "Fry the chopped bacon in a large pan until crisp. Lift out, leaving the fat behind.",
+   "Soften the sliced onion in the fat for 8 minutes. Add the crushed garlic, a few sage leaves, the peeled and cubed squash and the stock. Simmer for 20 minutes, until soft.",
+   "Add the drained butter beans and blend until smooth.",
+   "Stir in small broccoli florets and the sliced stalk. Simmer for 5 minutes, until just tender. Season and scatter over the bacon."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

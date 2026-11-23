@@ -1,0 +1,43 @@
+{
+ "day": 344,
+ "title": "Kale and rosemary soda bread",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, bicarb, vinegar, oil, kale, garlic, rosemary and pumpkin seeds are all plain kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a baking tray and a rack, and soda bread is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g flour to 400ml water with bicarb and vinegar is a standard soda bread ratio, and 35 minutes at 200°C fan will bake a round loaf through."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to strip and chop the kale, crush the garlic and mix the dough, and the 35-minute bake matches the method."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the rosemary, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm bread suits December, and 100g of kale through the dough makes kale a real feature rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A half-wholemeal loaf with kale and seeds makes a sound, filling snack that a family would eat."
+  }
+ }
+}

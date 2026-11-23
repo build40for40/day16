@@ -1,0 +1,43 @@
+{
+ "day": 340,
+ "title": "Clementine rice pudding pots",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Rice, milk, butter, sugar, honey, almonds, spices and clementines are all plain cupboard and fridge foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including the pudding rice and flaked almonds, is an everyday line at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a grater and a bowl, and the technique is simply stirring and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "100g pudding rice to 850ml milk at 150°C for 2 hours is a reliable baked rice pudding ratio, and four clementines with zest and juice make a good topping for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers buttering, zesting, measuring and slicing the clementines, and the 120-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Whole milk and flaked almonds are the same foods as their ids, and every listed ingredient and spice is used in the steps with nothing unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm baked rice pudding suits early December, and the clementines are central, used as zest through the pudding and as a juicy honeyed topping."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour could follow without any restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Milk, rice, fresh fruit and almonds make a proper, comforting snack, and the modest sugar would not put a family off making it again."
+  }
+ }
+}

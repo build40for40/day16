@@ -1,0 +1,43 @@
+{
+ "day": 165,
+ "title": "Peach and honey flapjacks",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, honey, sugar, oats, peaches and almonds are all plain home cupboard foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including flaked almonds and June peaches, is an everyday Tesco item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan and a square tin, and the melt, press and bake method is beginner level."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 250g oats to 150g butter and honey-sugar mix binds well, and 30 to 35 minutes at 180°C suits a 20cm tin, giving 12 bars that will be softer in the fruit layer but will hold once cooled."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers melting, stirring, stoning and slicing three peaches, and the 35 minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, nothing unlisted appears, and flaked almonds are simply almonds."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A layer of ripe peaches through a teatime traybake suits mid-June, and the peaches are the point of it."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English a neighbour would give."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, fruit and nuts make this a satisfying afternoon snack, with moderate sugar for a flapjack."
+  }
+ }
+}

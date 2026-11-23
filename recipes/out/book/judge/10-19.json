@@ -1,0 +1,43 @@
+{
+ "day": 292,
+ "title": "Pork chops on a creamy sweetcorn and potato bake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain home staple: potatoes, corn cobs, cream, milk, cheddar, pork chops and tomatoes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including fresh corn cobs in October, is an everyday item at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, foil, a knife and a grater, and layering a bake is easy beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400ml of cream and milk to 750g of thinly sliced potato, baked covered for 35 minutes and then 25 more at 200°C, will cook through, and the chops will be done in 25 minutes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is a fair estimate for slicing the potatoes, cutting corn from four cobs and the small jobs, and the 60 minutes of cooking matches the 35 plus 25 in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm creamy bake suits a mid-October evening, and kernels from four cobs make the sweetcorn a main part of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner of pork, potatoes, sweetcorn and tomatoes."
+  }
+ }
+}

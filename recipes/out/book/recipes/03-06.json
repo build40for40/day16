@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 65,
+  "date": "2027-03-06",
+  "label": "6 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "roast",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "jerusalem-artichokes",
+   "purple-sprouting-broccoli"
+  ],
+  "protein": "pork-mince",
+  "protein_hint": null,
+  "kit": "one_tray",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pork and sage meatballs with roast Jerusalem artichokes",
+  "meal": "dinner",
+  "dish_form": "traybake",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray",
+   "a grater",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 42,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "sage",
+    "name": "sage"
+   },
+   {
+    "id": "fennel-seeds",
+    "name": "fennel seeds"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "jerusalem-artichokes",
+    "quantity": "600g",
+    "name": "Jerusalem artichokes"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "pork-mince",
+    "quantity": "500g",
+    "name": "pork mince"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "30g",
+    "name": "Parmesan"
+   },
+   {
+    "id": "purple-sprouting-broccoli",
+    "quantity": "250g",
+    "name": "purple sprouting broccoli"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Roast the halved artichokes and onion wedges with 2 tbsp oil and salt for 20 minutes.",
+   "Mix the mince with the grated garlic and Parmesan, chopped sage, 1 tsp fennel seeds, lemon zest and pepper. Roll into 16 balls.",
+   "Add the meatballs, roast for 10 minutes, then add the broccoli tossed in the last oil. Roast 12 minutes more, until the pork is cooked. Squeeze over the lemon."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 88 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

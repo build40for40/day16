@@ -1,0 +1,105 @@
+{
+ "slot": {
+  "day": 208,
+  "date": "2027-07-27",
+  "label": "27 July",
+  "month": 7,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "aubergine"
+  ],
+  "protein": "pork-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Pork, aubergine and fennel rigatoni",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a large saucepan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "fennel-seeds",
+    "name": "fennel seeds"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "aubergine",
+    "quantity": "2",
+    "name": "aubergines"
+   },
+   {
+    "id": "pork-mince",
+    "quantity": "400g",
+    "name": "pork mince"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "rigatoni"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan"
+   }
+  ],
+  "steps": [
+   "Fry the cubed aubergines in the oil with a pinch of salt in a large frying pan for 10 minutes, until golden. Tip out.",
+   "Brown the pork in the same pan for 5 minutes, breaking it up. Add the sliced garlic, 1 tsp fennel seeds and a pinch of chilli for 1 minute.",
+   "Add the tomatoes and aubergine and simmer for 10 minutes. Meanwhile, cook the rigatoni.",
+   "Toss the pasta through the sauce with a splash of its water. Season, then top with grated Parmesan and torn basil."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

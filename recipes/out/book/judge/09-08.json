@@ -1,0 +1,43 @@
+{
+ "day": 251,
+ "title": "Baked red cabbage and chickpea fritters",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Tinned chickpeas, eggs, flour, yoghurt and fresh vegetables are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item on Tesco shelves at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a masher and a roasting tray, and spooning out fritters is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two tins of chickpeas bound with two eggs and 50g flour make 12 fritters, a fair lunch for four, and 25 minutes at 220°C is enough to crisp them and soften finely shredded cabbage."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Shredding cabbage, slicing spring onions, mashing, shaping 12 fritters and making the dip fits in 20 minutes, and the bake matches the 25 minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including all 3 tbsp of oil, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Red cabbage is in season in early September, and 300g of it gives the fritters their colour and title, so it is the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chickpea and vegetable fritters with yoghurt and salad make a filling, wholesome lunch that a family would happily eat again."
+  }
+ }
+}

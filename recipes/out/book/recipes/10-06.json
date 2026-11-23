@@ -1,0 +1,94 @@
+{
+ "slot": {
+  "day": 279,
+  "date": "2027-10-06",
+  "label": "6 October",
+  "month": 10,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Pear and hazelnut bircher",
+  "meal": "breakfast",
+  "dish_form": "bircher muesli",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a mixing bowl",
+   "a grater",
+   "a small frying pan"
+  ],
+  "prep_minutes": 12,
+  "cook_minutes": 480,
+  "time_note": "oats soaked overnight",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "400ml",
+    "name": "milk"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "150g",
+    "name": "natural yoghurt"
+   },
+   {
+    "id": "raisins",
+    "quantity": "50g",
+    "name": "sultanas"
+   },
+   {
+    "id": "pears",
+    "quantity": "3",
+    "name": "ripe pears"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "Stir the oats, milk, yoghurt, sultanas and a good pinch of cinnamon together in a bowl. Cover and chill overnight.",
+   "In the morning, coarsely grate two of the pears, skin and all, and stir them in with a squeeze of lemon.",
+   "Toast the hazelnuts in a dry pan until golden, then roughly chop.",
+   "Spoon into bowls and top with the last pear, sliced, the hazelnuts and a drizzle of honey."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

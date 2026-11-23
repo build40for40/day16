@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 68,
+  "date": "2027-03-09",
+  "label": "9 March",
+  "month": 3,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spring-greens",
+   "savoy-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spring greens and white beans with eggs",
+  "meal": "lunch",
+  "dish_form": "bean pot",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "one wide pan with a lid",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "2 tins",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "300ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "spring-greens",
+    "quantity": "250g",
+    "name": "spring greens"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "40g",
+    "name": "vegetarian hard cheese"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Warm the oil in the pan. Soften the sliced leeks with a pinch of salt for 8 minutes, then add the sliced garlic and a pinch of chilli for 1 minute.",
+   "Tip in the drained beans and stock. Simmer for 5 minutes, then stir in the shredded greens until wilted.",
+   "Make four dips, crack in the eggs, cover and cook gently for 6 to 8 minutes, until the whites are set.",
+   "Grate over the lemon zest and cheese, season and serve with the bread."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

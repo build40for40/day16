@@ -1,0 +1,43 @@
+{
+ "day": 175,
+ "title": "Linguine with plaice, peas and lemon",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple: peas, plaice, dried pasta, butter, crème fraîche, spring onions, garlic, lemon and dill."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Plaice fillets, peas in the pod in June, linguine and crème fraîche are all everyday mainstream supermarket items."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large pan and a frying pan, and the techniques are simple boiling and pan-frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g pasta, 400g plaice and about 240g podded peas with 200ml crème fraîche loosened with pasta water makes a balanced, well-sauced dinner for four, and the timings are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers podding 600g of peas, slicing the onions and garlic and frying the fish, and 12 minutes matches the pasta boiling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon, dill, salt and pepper, appears in the steps, and nothing unlisted apart from water is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A light lemony pasta with freshly podded peas suits late June, and the peas are a named main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, brief British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner with fish protein, a good share of vegetables and pasta."
+  }
+ }
+}

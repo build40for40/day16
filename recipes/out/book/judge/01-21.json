@@ -1,0 +1,43 @@
+{
+ "day": 21,
+ "title": "Cauliflower, bacon and cheddar frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bacon, onion, cauliflower, eggs, cheddar and thyme are all plain home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "An ovenproof frying pan with a lid, a bowl and a grater are ordinary kit, and a frittata is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs with a small cauliflower, six rashers and 75g cheddar makes a good lunch for four, and steaming the florets covered then baking at 200°C for 12 to 15 minutes will set it properly."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes of prep covers the chopping, grating and frying, and the covered steaming plus 12 to 15 minutes' baking fits the 20 cook minutes closely enough."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the thyme, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm cauliflower frittata suits a January lunch, and the cauliflower is the bulk of the filling."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, bacon, cheese and a whole cauliflower make a filling, real-food lunch a family would happily eat again."
+  }
+ }
+}

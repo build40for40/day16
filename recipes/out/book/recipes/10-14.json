@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 287,
+  "date": "2027-10-14",
+  "label": "14 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "jacket or loaded potato",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spring-onions",
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Loaded crushed potatoes with spring onion beans",
+  "meal": "lunch",
+  "dish_form": "loaded potato",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "small potatoes"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "2 bunches",
+    "name": "spring onions"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "80g",
+    "name": "Cheddar"
+   },
+   {
+    "id": "pears",
+    "quantity": "2",
+    "name": "pears"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   }
+  ],
+  "steps": [
+   "Boil the halved potatoes in salted water for 15 minutes, until tender. Drain.",
+   "Meanwhile, melt the butter in a frying pan. Fry the sliced spring onions for 2 minutes, then stir in the drained beans and crème fraîche and warm through. Season.",
+   "Roughly crush the potatoes on plates, spoon over the beans and grate over the Cheddar.",
+   "Toss sliced pears and watercress with the oil and a squeeze of lemon, and serve alongside."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}
