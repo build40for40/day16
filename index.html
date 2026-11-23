@@ -131,7 +131,7 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 </section>
 </main>
 </div>
-<div class="buy" id="buy"><div class="wrap"><p id="bp">Want every day? Get all 365.<small>Free today. Tomorrow's unlocks at midnight. The book has the lot.</small></p><div id="ba"><a class="cta" id="bl" href="https://buy.stripe.com/00wcN5g981TvekHdrJ7Zu08">Buy the book, £12</a><small>Plus £4 UK delivery. <a id="bw" href="https://buy.stripe.com/8x2dR96yyeGh7WjevN7Zu09">Outside the UK? Delivery is £8.</a></small></div></div></div>
+<div class="buy" id="buy"><div class="wrap"><p id="bp">Want every day? Get all 365.<small>Free today. Tomorrow's unlocks at midnight. The book has the lot.</small></p><div id="ba"><a class="cta" id="bl" href="https://buy.stripe.com/00wcN5g981TvekHdrJ7Zu08">Buy the book, £12</a><small>Plus £4 UK delivery. <a id="bw" href="https://buy.stripe.com/14AaEXe108hT6Sf73l7Zu0a">Outside the UK? Delivery is £12.</a></small></div></div></div>
 <div class="wrap"><p class="fine">Working title. Sample recipes with illustrative distances.</p></div>
 <script>
 var R=[
@@ -179,7 +179,7 @@ tick();setInterval(tick,1000);
 $('reg').addEventListener('click',function(e){e.preventDefault();show((ri+1)%R.length)});
 skin(root.getAttribute('data-skin')||'designer',false);show(0);
 /* Anywhere but the real site (previews, localhost) checks out in Stripe's sandbox. */
-if(location.hostname!=='build40for40.com'){$('bl').href='https://buy.stripe.com/test_dRm4gy5ki0wn24nfD1dfG08';$('bw').href='https://buy.stripe.com/test_4gM28q3cafrhdN5aiHdfG09'}
+if(location.hostname!=='build40for40.com'){$('bl').href='https://buy.stripe.com/test_dRm4gy5ki0wn24nfD1dfG08';$('bw').href='https://buy.stripe.com/test_bJe14m5ki5QH24neyXdfG0a'}
 if(new URLSearchParams(location.search).has('paid')){$('bp').innerHTML="Sold. Your book is off to the printer.<small>It's printed just for you, so give it a week or two to land.</small>";$('ba').remove()}
 </script>
 </body>
