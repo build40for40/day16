@@ -26,22 +26,19 @@ export function wrap(text, widthPx, scale = 1) {
   return count;
 }
 
-export const printedLine = (line) => `${line.quantity} ${line.name}`.trim() + (line.prep ? `, ${line.prep}` : "");
+export const printedLine = (line) => `${line.quantity ?? ""} ${line.name}`.trim();
 
 export function fit(recipe) {
   const { page } = config;
-  const listLines = (list) => list.reduce((sum, line) => sum + wrap(printedLine(line), page.list_px), 0);
+  const listLines = (list) => list.reduce((sum, line) => sum + wrap(printedLine(line), page.list_px, page.text_scale), 0);
   const titleLines = wrap(recipe.title, page.head_px, page.title_scale);
-  const utensilLines = wrap(recipe.utensils.join(", "), page.head_px);
-  const rows = recipe.ingredients.length + recipe.seasoning.length + 2;
-  const listPx =
-    page.list_header_px + page.seasoning_header_px + page.list_gap_px * (rows - 1) +
-    (listLines(recipe.ingredients) + listLines(recipe.seasoning)) * page.line_px;
-  const methodLines = recipe.steps.reduce((sum, step) => sum + wrap(step, page.method_px), 0);
-  const methodPx = page.method_header_px + methodLines * page.line_px + Math.max(0, recipe.steps.length - 1) * page.step_gap_px;
+  const utensilLines = wrap(recipe.utensils.join(", "), page.head_px, page.note_scale);
+  const listPx = page.heading_px * 2 + page.seasoning_margin_px + (listLines(recipe.ingredients) + listLines(recipe.seasoning)) * page.line_px;
+  const methodLines = recipe.steps.reduce((sum, step) => sum + wrap(step, page.method_px, page.text_scale), 0);
+  const methodPx = page.heading_px + methodLines * page.line_px + Math.max(0, recipe.steps.length - 1) * page.step_gap_px;
   const headPx =
     page.picture_px + page.title_margin_px + titleLines * page.title_line_px +
-    page.utensils_margin_px + utensilLines * page.line_px + page.time_px + page.columns_margin_px;
+    page.utensils_margin_px + utensilLines * page.note_line_px + page.time_px + page.columns_margin_px;
   return {
     titleLines,
     utensilLines,
@@ -91,9 +88,9 @@ export function hardChecks(candidate, slot) {
     items.push(item);
     if (!availability(item, slot.month)) fail("out_of_season", `${item.name} is not in season or in store in ${MONTHS[slot.month - 1]}.`);
     if (list === "ingredients" && isSeasoning(item)) {
-      fail("seasoning_list", `${item.name} belongs in the seasoning list.`);
+      fail("seasoning_list", `${item.name} belongs in the seasoning list, with any amount given in the method.`);
     }
-    if (list === "seasoning" && !isSeasoning(item)) {
+    if (list === "seasoning" && !isSeasoning(item) && item.id !== "lemons") {
       fail("seasoning_list", `${item.name} is not a seasoning. Put it in the ingredients with a quantity.`);
     }
   };
@@ -142,10 +139,10 @@ export function hardChecks(candidate, slot) {
   if (recipe.seasoning.length > limits.max_seasoning) fail("too_much_seasoning", `${recipe.seasoning.length} seasonings. The page fits ${limits.max_seasoning}.`);
   if (recipe.steps.length > limits.max_steps) fail("too_many_steps", `${recipe.steps.length} steps. The page fits ${limits.max_steps}.`);
   if (size.methodPx > size.room) {
-    fail("method_overflow", `The method is ${size.methodWords} words and runs ${overBy(size.methodPx)} lines past the bottom of the page. Cut about ${overBy(size.methodPx) * 7} words.`);
+    fail("method_overflow", `The method is ${size.methodWords} words and runs ${overBy(size.methodPx)} lines past the bottom of the page. Cut about ${overBy(size.methodPx) * 6} words.`);
   }
   if (size.listPx > size.room) {
-    fail("list_overflow", `The ingredients and seasoning run ${overBy(size.listPx)} lines past the bottom of the page. The column is about ${config.page.list_chars} characters wide, so shorten the lines that wrap or use fewer.`);
+    fail("ingredients_overflow", `The ingredients and seasoning run ${overBy(size.listPx)} lines past the bottom of the page. The column is about 22 characters wide, so shorten the lines that wrap or use fewer.`);
   }
   if (size.titleLines > limits.max_title_lines) fail("long_title", `The title takes ${size.titleLines} lines and the page fits ${limits.max_title_lines}.`);
   if (size.utensilLines > limits.max_utensils_lines) fail("long_utensils", `The utensils take ${size.utensilLines} lines and the page fits ${limits.max_utensils_lines}.`);

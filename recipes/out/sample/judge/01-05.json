@@ -1,43 +1,43 @@
 {
  "day": 5,
- "title": "Rhubarb and orange compote with yoghurt",
+ "title": "Orange and rhubarb compote with yoghurt",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Oranges, rhubarb, honey, hazelnuts, natural yoghurt and ground ginger are all plain home staples with nothing factory-made."
+   "reason": "Oranges, rhubarb, honey, oats, almonds, natural yoghurt and cinnamon are all whole, home-kept foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Forced rhubarb is on mainstream supermarket shelves in early January, and the rest are everyday items."
+   "reason": "Tesco stocks forced rhubarb in January alongside oranges, oats, almonds and yoghurt at everyday prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a saucepan, a frying pan, a grater and a knife, and segmenting an orange into rounds is within a beginner's reach."
+   "reason": "It needs only a grater, a knife, a saucepan and a frying pan, and peeling oranges into rounds is well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "400g rhubarb softened in orange juice with 2 tbsp honey, served over 500g yoghurt with toasted hazelnuts, gives a sensible, balanced breakfast for four with clear heat and timings."
+   "reason": "400g rhubarb simmered with orange juice and honey for 5 minutes, served over 500g yoghurt with toasted oats and almonds, makes a sensible four portions that will be soft, sweet enough and not watery."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twelve minutes covers zesting, juicing, peeling and slicing the orange, cutting the rhubarb and chopping nuts, and the 6 to 8 minute simmer fits the 10 cook minutes for a quick breakfast."
+   "reason": "Fifteen minutes covers zesting and peeling four oranges, cutting the rhubarb, chopping the almonds and watching the toasting pan, and the 8 minutes of cooking matches the 5-minute simmer."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and the ginger appear in the steps, names match their ids, and nothing unlisted is used."
+   "reason": "Every listed ingredient and the cinnamon are used in the steps, nothing unlisted appears, and each name matches its id."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm compote of forced rhubarb and orange suits early January, and the orange flavours the cooking liquid and goes in as pieces, so it is a co-star rather than a garnish."
+   "reason": "A warm compote of oranges with early forced rhubarb suits early January, and the oranges supply the zest, the juice and the slices, so they are central."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+   "reason": "The steps are short, plain British English that a neighbour would follow without trouble."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Fruit, yoghurt and nuts with a modest amount of honey make a proper, appealing breakfast."
+   "reason": "Yoghurt, fruit, oats and nuts make a balanced breakfast with protein and fibre and only modest added honey."
   }
  }
 }

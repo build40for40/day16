@@ -17,76 +17,68 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Rhubarb and orange compote with yoghurt",
+  "title": "Orange and rhubarb compote with yoghurt",
   "meal": "breakfast",
-  "dish_form": "fruit compote with yoghurt",
+  "dish_form": "fruit compote",
   "diet": "vegetarian",
-  "gluten_free": true,
+  "gluten_free": false,
   "kit": "hob",
   "utensils": [
-   "medium saucepan with a lid",
-   "small frying pan",
-   "grater"
+   "a saucepan",
+   "a frying pan"
   ],
-  "prep_minutes": 12,
-  "cook_minutes": 10,
+  "prep_minutes": 15,
+  "cook_minutes": 8,
   "time_note": "",
   "best_time": "morning",
-  "freezes": false,
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
   "ingredients": [
    {
     "id": "oranges",
-    "quantity": "2",
-    "name": "oranges",
-    "prep": ""
+    "quantity": "4",
+    "name": "oranges"
    },
    {
     "id": "rhubarb",
     "quantity": "400g",
-    "name": "rhubarb",
-    "prep": "in 3cm pieces"
+    "name": "rhubarb"
    },
    {
     "id": "honey",
     "quantity": "2 tbsp",
-    "name": "honey",
-    "prep": ""
+    "name": "honey"
    },
    {
-    "id": "hazelnuts",
+    "id": "oats",
     "quantity": "50g",
-    "name": "hazelnuts",
-    "prep": ""
+    "name": "porridge oats"
+   },
+   {
+    "id": "almonds",
+    "quantity": "30g",
+    "name": "almonds"
    },
    {
     "id": "natural-yoghurt",
     "quantity": "500g",
-    "name": "natural yoghurt",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "ground-ginger",
-    "quantity": "1/4 tsp",
-    "name": "ground ginger",
-    "prep": ""
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Grate the zest of one orange into a medium saucepan and squeeze in its juice. Cut the peel and pith from the second orange, slice into rounds, then quarter each round.",
-   "Add the rhubarb, honey and ginger to the pan. Cover and cook over a medium to low heat for 6 to 8 minutes, stirring gently once, until the rhubarb is soft but still holding its shape.",
-   "Meanwhile, toast the hazelnuts in a dry frying pan for 3 to 4 minutes, shaking the pan, until golden. Roughly chop.",
-   "Take the compote off the heat, fold in the orange pieces and leave to cool for a few minutes.",
-   "Spoon the yoghurt into bowls, top with the warm compote and scatter over the hazelnuts."
+   "Grate the zest of one orange. Cut the peel off all four, slice into rounds and save the juice.",
+   "Simmer the rhubarb, cut into short lengths, with the juice, zest, honey and a pinch of cinnamon for 5 minutes, until just soft.",
+   "Take off the heat and stir in the orange slices.",
+   "Toast the oats and chopped almonds in a dry pan until golden. Spoon the compote over the yoghurt and scatter with the crunch."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 145 words and runs 2 lines past the bottom of the page. Cut about 14 words."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

@@ -17,105 +17,88 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Kale and apple slaw with pumpkin seeds",
+  "title": "Kale and apple slaw with toasted seeds",
   "meal": "snack",
   "dish_form": "slaw",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "no_cook",
+  "kit": "hob",
   "utensils": [
-   "large bowl",
-   "small bowl",
-   "grater",
-   "whisk"
+   "a large bowl",
+   "a grater",
+   "a small frying pan"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 10,
+  "cook_minutes": 5,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
   "ingredients": [
    {
     "id": "kale",
     "quantity": "200g",
-    "name": "kale",
-    "prep": "shredded"
-   },
-   {
-    "id": "lemons",
-    "quantity": "1",
-    "name": "lemon",
-    "prep": "juiced"
+    "name": "kale"
    },
    {
     "id": "carrots",
     "quantity": "2",
-    "name": "carrots",
-    "prep": "grated"
-   },
-   {
-    "id": "red-cabbage",
-    "quantity": "200g",
-    "name": "red cabbage",
-    "prep": "shredded"
+    "name": "carrots"
    },
    {
     "id": "apples",
     "quantity": "2",
-    "name": "apples",
-    "prep": ""
+    "name": "eating apples"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "¼",
+    "name": "red cabbage"
    },
    {
     "id": "olive-oil",
     "quantity": "3 tbsp",
-    "name": "olive oil",
-    "prep": ""
+    "name": "olive oil"
    },
    {
     "id": "honey",
     "quantity": "1 tsp",
-    "name": "honey",
-    "prep": ""
+    "name": "honey"
    },
    {
     "id": "dijon-mustard",
     "quantity": "1 tsp",
-    "name": "Dijon mustard",
-    "prep": ""
-   },
-   {
-    "id": "raisins",
-    "quantity": "40g",
-    "name": "raisins",
-    "prep": ""
+    "name": "Dijon mustard"
    },
    {
     "id": "pumpkin-seeds",
-    "quantity": "40g",
-    "name": "pumpkin seeds",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "salt",
-    "quantity": "½ tsp",
-    "name": "salt",
-    "prep": ""
+    "quantity": "50g",
+    "name": "pumpkin seeds"
    },
    {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
    }
   ],
   "steps": [
-   "Strip the kale from its stalks and shred finely. Put it in a large bowl with half the lemon juice and the salt, then scrunch with your hands for 2 minutes until dark and soft.",
-   "Grate the carrots and shred the cabbage finely. Core the apples, cut them into thin matchsticks and toss in the rest of the lemon juice so they stay pale.",
-   "Whisk the oil, honey and mustard in a small bowl with plenty of black pepper.",
-   "Add the carrots, cabbage, apples and raisins to the kale, pour over the dressing and toss well. Leave for 10 minutes to settle.",
-   "Scatter over the pumpkin seeds and serve in small bowls. The slaw keeps in the fridge for a day, so add the seeds to each serving."
+   "Strip the kale from its stalks and shred finely. Rub with salt and the lemon juice for 2 minutes, until dark and soft.",
+   "Grate in the carrots and apples, and add the finely sliced cabbage.",
+   "Whisk the oil, honey, mustard and lemon zest. Toss through and season.",
+   "Toast the seeds in a dry pan until they pop. Scatter over with the crumbled feta."
   ]
  },
  "attempts": 1,

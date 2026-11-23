@@ -25,109 +25,76 @@
   "gluten_free": true,
   "kit": "hob_and_oven",
   "utensils": [
-   "large ovenproof frying pan with a lid",
-   "mixing bowl",
-   "whisk"
+   "a saucepan",
+   "an ovenproof frying pan",
+   "a whisk"
   ],
-  "prep_minutes": 25,
+  "prep_minutes": 20,
   "cook_minutes": 30,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
-  "ingredients": [
+  "seasoning": [
    {
-    "id": "olive-oil",
-    "quantity": "2 tbsp",
-    "name": "olive oil",
-    "prep": ""
+    "id": "salt",
+    "name": "salt"
    },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   }
+  ],
+  "ingredients": [
    {
     "id": "new-potatoes",
     "quantity": "400g",
-    "name": "new potatoes",
-    "prep": "thinly sliced"
+    "name": "new potatoes"
    },
    {
-    "id": "onions",
-    "quantity": "1",
-    "name": "onion",
-    "prep": "sliced"
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
    },
    {
     "id": "chard",
-    "quantity": "300g",
-    "name": "chard",
-    "prep": "sliced"
-   },
-   {
-    "id": "garlic",
-    "quantity": "2 cloves",
-    "name": "garlic",
-    "prep": "crushed"
+    "quantity": "250g",
+    "name": "chard"
    },
    {
     "id": "eggs",
     "quantity": "8",
-    "name": "eggs",
-    "prep": ""
+    "name": "eggs"
    },
    {
     "id": "creme-fraiche",
     "quantity": "3 tbsp",
-    "name": "crème fraîche",
-    "prep": ""
+    "name": "crème fraîche"
    },
    {
     "id": "smoked-haddock",
-    "quantity": "300g",
-    "name": "smoked haddock",
-    "prep": "skinned"
-   },
-   {
-    "id": "cheddar",
-    "quantity": "50g",
-    "name": "cheddar",
-    "prep": "grated"
+    "quantity": "250g",
+    "name": "smoked haddock"
    },
    {
     "id": "salad-leaves",
     "quantity": "100g",
-    "name": "salad leaves",
-    "prep": "to serve"
-   },
-   {
-    "id": "lemons",
-    "quantity": "1",
-    "name": "lemon",
-    "prep": "in wedges"
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "dill",
-    "quantity": "1 small bunch",
-    "name": "dill",
-    "prep": "chopped"
-   },
-   {
-    "id": "salt",
-    "quantity": "a pinch",
-    "name": "salt",
-    "prep": ""
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
+    "name": "salad leaves"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Warm the oil in the frying pan over a medium heat. Add the potatoes and onion, cover and cook for 12 minutes, stirring now and then, until the potatoes are tender.",
-   "Stir in the chard stalks and garlic and cook for 3 minutes, then add the leaves and stir until they wilt.",
-   "Whisk the eggs with the crème fraîche, dill, salt and plenty of black pepper.",
-   "Break the haddock into chunks and tuck them among the vegetables. Pour over the eggs, scatter with the cheddar and cook on the hob for 3 minutes, until the edges start to set.",
-   "Bake for 12 to 15 minutes, until puffed and just firm in the middle. Rest for 5 minutes, then cut into wedges and serve with the salad leaves and lemon wedges."
+   "Boil the halved potatoes in salted water for 12 minutes, then drain. Heat the oven to 200°C (180°C fan).",
+   "Warm the oil in the frying pan. Soften the sliced spring onions and chard stalks for 5 minutes, then wilt in the leaves.",
+   "Whisk the eggs with the crème fraîche, chopped dill and pepper. Scatter the potatoes and haddock chunks in the pan and pour over the eggs.",
+   "Cook for 3 minutes, then bake for 15 minutes until just set. Serve with the salad."
   ]
  },
  "attempts": 1,

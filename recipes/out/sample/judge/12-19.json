@@ -1,43 +1,43 @@
 {
  "day": 353,
- "title": "Roast carrot and chickpea tray with feta",
+ "title": "Carrot, butter bean and orange soup",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole ingredient or a plain staple: carrots, onion, tinned chickpeas, kale, yoghurt, feta, honey and spices."
+   "reason": "Everything is whole food or a staple; vegetable stock counts as good stock, and tinned beans, yoghurt and seeds are all ordinary cupboard items."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every item is an everyday line at Tesco or any mainstream supermarket at a normal price."
+   "reason": "Carrots, onion, garlic, butter beans, stock, an orange, yoghurt, pumpkin seeds and rosemary are everyday items at any Tesco."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a knife, board, roasting tray and small bowl, and simple roasting technique."
+   "reason": "One heavy pan, a stick blender for soup and a grater for zest are all ordinary kit, and the technique is simple."
   },
   "works": {
    "pass": true,
-   "reason": "Carrot fingers at 220°C for 25 minutes will be tender and browned, the quantities suit four lunches, and the seasoning and dressing are well judged."
+   "reason": "600g carrots, two tins of beans and a litre of stock blend to a good thick soup for four; 20 minutes softens sliced carrots, and the orange, rosemary and seasoning give it flavour."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Fifteen minutes covers cutting the carrots, wedging an onion, draining tins, shredding kale and mixing the yoghurt, and the 25-minute cook matches the 20 plus 5 in the steps."
+   "reason": "Fifteen minutes is believable for chopping an onion, peeling and slicing 600g carrots, zesting an orange and toasting seeds, and the 5 plus 20 minutes in the steps matches the 25 minutes printed as cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning appears in the steps, each name matches its id, and nothing unlisted is used apart from water-free stock."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm roast-carrot traybake with kale suits a cold December lunch, and the carrots are clearly the point of the dish."
+   "reason": "A warming carrot soup with winter oranges suits a cold December lunch, and carrots are clearly the heart of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, clear British English with no restaurant language or health preaching."
+   "reason": "The steps are short, clear and plain British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling lunch of vegetables, chickpeas, yoghurt and feta that a family would happily eat again."
+   "reason": "Carrots, butter beans, yoghurt and seeds make a filling, proper lunch that a family would happily eat again."
   }
  }
 }

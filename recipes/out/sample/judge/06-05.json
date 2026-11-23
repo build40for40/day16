@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or plain staple: potatoes, chard, eggs, smoked haddock, crème fraîche, cheddar, lemon and dill."
+   "reason": "Everything is whole food: potatoes, chard, eggs, crème fraîche, smoked haddock and salad leaves."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient, including smoked haddock and chard, is an everyday item at Tesco or similar."
+   "reason": "Tesco sells every ingredient, and 250g of smoked haddock is an everyday purchase."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only an ovenproof frying pan with a lid, a bowl and a whisk, and starting a frittata on the hob then baking it is beginner-friendly."
+   "reason": "It needs only a saucepan, an ovenproof frying pan and a whisk, and starting on the hob before finishing in the oven is within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "Eight eggs, 400g potatoes, 300g chard and 300g haddock make a generous frittata for four, the potatoes have time to soften, the fish cooks through in the bake, and a pinch of salt suits the salty haddock."
+   "reason": "Eight eggs with potatoes, chard and haddock make a generous frittata for four, and raw haddock chunks will cook through in 18 minutes of hob and oven time."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty-five minutes covers slicing the potatoes, onion and chard, skinning the fish and whisking, and the 30 cook minutes match the hob and baking times."
+   "reason": "Halving potatoes, slicing onions and chard, cutting the fish and whisking fit in 20 minutes, and the cook time roughly matches the 12-minute boil, softening and 15-minute bake."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning appears in the steps, nothing unlisted is used, and the names match their ids."
+   "reason": "Every listed item, dill included, is used in the steps, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A generous 300g of chard with new potatoes and dill makes a fitting early-June lunch, and the chard is central rather than a garnish."
+   "reason": "A frittata with salad suits an early June lunch, and 250g of chard, stalks and leaves, is a central part of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English with sensible cues such as 'until the edges start to set'."
+   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Eggs, fish, potatoes and greens served with salad make a balanced, filling lunch a family would happily eat."
+   "reason": "It is a proper meal of eggs, fish, potatoes and greens served with salad."
   }
  }
 }

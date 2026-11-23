@@ -1,43 +1,43 @@
 {
  "day": 229,
- "title": "Marrow and split pea dal with broccoli",
+ "title": "Spiced split pea pot with marrow and broccoli",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a plain cupboard or garden staple: split peas, stock, curry powder, fresh vegetables and a lemon."
+   "reason": "Everything is a whole food or ordinary cupboard staple, and vegetable stock is explicitly allowed."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Split peas, marrow in August, broccoli and the rest are everyday items at an ordinary supermarket price."
+   "reason": "Yellow split peas, marrow, broccoli and the spices are all everyday Tesco items at normal prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded saucepan and simple chopping and simmering."
+   "reason": "It needs only a lidded pan, a knife and a wooden spoon, and the technique is simple simmering."
   },
   "works": {
    "pass": true,
-   "reason": "250g split peas to 1.2l stock with a watery marrow should give a dal of the right consistency for four, and about 50 minutes of simmering will soften the peas."
+   "reason": "250g split peas in 1.2 litres of stock, simmered for an hour in total with a whole marrow and broccoli, gives a well-spiced pot for four with sensible liquid and timings."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes covers the chopping and frying the onion, and the marrow is peeled during the simmer, so the 55 minutes of cooking broadly matches the timed steps."
+   "reason": "25 minutes covers chopping onions, garlic and tomatoes, peeling and seeding the marrow, cutting florets and the 8-minute soften, and the simmer steps of 40, 15 and 5 minutes add up to the 60 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, and the steps use nothing that is not listed."
+   "reason": "Every listed item, including the lemon and fresh coriander, is used in the steps, the names match their ids, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A whole small marrow simmered into the dal makes the August glut the point of a gentle, lightly spiced lunch."
+   "reason": "A whole marrow in chunks is a main part of the pot and fits mid-August, when marrows are plentiful."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, homely British English that a beginner could follow."
+   "reason": "The steps are short, clear and in plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Pulses with marrow and broccoli make a filling, wholesome lunch a family would happily eat again."
+   "reason": "Pulses with plenty of vegetables make a filling, wholesome lunch a family would happily eat again."
   }
  }
 }

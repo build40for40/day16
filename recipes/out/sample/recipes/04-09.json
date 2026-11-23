@@ -17,92 +17,86 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Bramley and rhubarb pots with almond crunch",
+  "title": "Apple and rhubarb pots with nutty crunch",
   "meal": "snack",
   "dish_form": "fruit pot",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "medium saucepan with a lid",
-   "small frying pan",
-   "four glasses or small bowls"
+   "one saucepan",
+   "a frying pan",
+   "four bowls or glasses"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 40,
+  "prep_minutes": 15,
+  "cook_minutes": 30,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
   "ingredients": [
    {
     "id": "bramley-apples",
-    "quantity": "600g",
-    "name": "Bramley apples",
-    "prep": ""
+    "quantity": "3",
+    "name": "Bramley apples"
    },
    {
     "id": "rhubarb",
-    "quantity": "200g",
-    "name": "rhubarb",
-    "prep": ""
+    "quantity": "300g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
    },
    {
     "id": "oranges",
     "quantity": "1",
-    "name": "orange",
-    "prep": "zest and juice"
-   },
-   {
-    "id": "honey",
-    "quantity": "3 tbsp",
-    "name": "honey",
-    "prep": ""
-   },
-   {
-    "id": "butter",
-    "quantity": "15g",
-    "name": "butter",
-    "prep": ""
+    "name": "orange"
    },
    {
     "id": "almonds",
     "quantity": "50g",
-    "name": "almonds",
-    "prep": "roughly chopped"
+    "name": "almonds"
    },
    {
     "id": "pumpkin-seeds",
     "quantity": "30g",
-    "name": "pumpkin seeds",
-    "prep": ""
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "butter",
+    "quantity": "15g",
+    "name": "butter"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "1 tbsp",
+    "name": "soft brown sugar"
    },
    {
     "id": "natural-yoghurt",
     "quantity": "400g",
-    "name": "natural yoghurt",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "cinnamon",
-    "quantity": "1/2 tsp",
-    "name": "cinnamon",
-    "prep": ""
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Peel, core and chop the apples. Cut the rhubarb into 2cm pieces. Put both in a medium saucepan with the orange zest and juice, 2 tbsp of the honey and the cinnamon.",
-   "Cover and cook over a low heat for 8 to 10 minutes, stirring now and then, until the apples collapse into a fluffy purée. Tip into a bowl and leave to cool for 30 minutes.",
-   "Meanwhile, melt the butter in a small frying pan. Toast the almonds and pumpkin seeds for 3 to 4 minutes, stirring, until golden.",
-   "Stir in the last of the honey for 1 minute, then spread on a plate to cool and crisp.",
-   "Spoon the fruit into four glasses, top with the yoghurt and scatter over the crunch just before eating."
+   "Peel, core and chop the apples. Cut the rhubarb into short lengths.",
+   "Cover and cook both in a saucepan with the honey, a pinch of cinnamon and the orange zest and juice for 10 minutes, until the apples collapse. Cool.",
+   "Toast the chopped almonds and seeds in the butter and sugar for 3 to 4 minutes, until golden.",
+   "Layer the fruit and yoghurt in four bowls and scatter over the crunch."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The method is 142 words and runs 1 lines past the bottom of the page. Cut about 7 words."
+   "Oranges is not a seasoning. Put it in the ingredients with a quantity."
   ]
  ],
  "failures": [],

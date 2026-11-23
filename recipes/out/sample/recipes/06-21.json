@@ -24,85 +24,71 @@
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "medium baking dish",
-   "mixing bowl"
+   "a baking dish",
+   "a mixing bowl"
   ],
   "prep_minutes": 15,
   "cook_minutes": 35,
   "time_note": "",
   "best_time": "afternoon",
-  "freezes": true,
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
   "ingredients": [
    {
     "id": "peaches",
-    "quantity": "3",
-    "name": "peaches",
-    "prep": "sliced"
+    "quantity": "4",
+    "name": "peaches"
    },
    {
     "id": "raspberries",
     "quantity": "300g",
-    "name": "raspberries",
-    "prep": ""
+    "name": "raspberries"
    },
    {
-    "id": "cornflour",
+    "id": "caster-sugar",
     "quantity": "1 tbsp",
-    "name": "cornflour",
-    "prep": ""
-   },
-   {
-    "id": "wholemeal-flour",
-    "quantity": "75g",
-    "name": "wholemeal flour",
-    "prep": ""
+    "name": "caster sugar"
    },
    {
     "id": "oats",
-    "quantity": "75g",
-    "name": "porridge oats",
-    "prep": ""
+    "quantity": "80g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "50g",
+    "name": "plain flour"
+   },
+   {
+    "id": "almonds",
+    "quantity": "40g",
+    "name": "almonds"
    },
    {
     "id": "brown-sugar",
     "quantity": "40g",
-    "name": "soft brown sugar",
-    "prep": ""
-   },
-   {
-    "id": "hazelnuts",
-    "quantity": "40g",
-    "name": "hazelnuts",
-    "prep": "chopped"
+    "name": "soft brown sugar"
    },
    {
     "id": "rapeseed-oil",
     "quantity": "4 tbsp",
-    "name": "rapeseed oil",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "cinnamon",
-    "quantity": "1 tsp",
-    "name": "cinnamon",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "quantity": "a pinch",
-    "name": "salt",
-    "prep": ""
+    "name": "rapeseed oil"
    }
   ],
   "steps": [
-   "Heat the oven to 190°C (170°C fan). Halve the peaches, pull out the stones and slice them. Toss in a medium baking dish with the raspberries, cornflour and half the cinnamon.",
-   "In a mixing bowl, stir together the flour, oats, sugar, hazelnuts, the rest of the cinnamon and the salt.",
-   "Pour in the oil and rub it through with your fingertips until the mixture clumps into rough crumbs.",
-   "Scatter the crumble evenly over the fruit without pressing it down.",
-   "Bake for 30 to 35 minutes, until the top is golden and crisp and the fruit is bubbling up at the edges.",
-   "Leave to cool for 10 minutes so the juices thicken, then spoon into bowls. It is good warm or cold, and leftovers keep in the fridge for 2 days."
+   "Heat the oven to 190°C (170°C fan). Halve and stone the peaches and lay them cut side up in a baking dish.",
+   "Scatter over the raspberries, the zest of the lemon and the caster sugar.",
+   "Rub the oats, flour, chopped almonds, brown sugar, a pinch of cinnamon and the oil together into clumps.",
+   "Scatter over the fruit and bake for 30 to 35 minutes, until golden and bubbling. Cool a little and eat warm or cold."
   ]
  },
  "attempts": 1,

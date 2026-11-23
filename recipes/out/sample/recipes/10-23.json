@@ -17,99 +17,79 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Carrot and cheese scones",
+  "title": "Carrot, cheddar and thyme scones",
   "meal": "snack",
   "dish_form": "scone",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "large mixing bowl",
-   "grater",
-   "baking tray"
+   "a mixing bowl",
+   "a grater",
+   "a baking tray"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 28,
+  "cook_minutes": 18,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
   "ingredients": [
    {
     "id": "self-raising-flour",
     "quantity": "350g",
-    "name": "self-raising flour",
-    "prep": ""
+    "name": "self-raising flour"
    },
    {
     "id": "baking-powder",
     "quantity": "1 tsp",
-    "name": "baking powder",
-    "prep": ""
+    "name": "baking powder"
    },
    {
     "id": "butter",
-    "quantity": "85g",
-    "name": "cold butter",
-    "prep": "cubed"
+    "quantity": "75g",
+    "name": "cold butter"
    },
    {
     "id": "carrots",
     "quantity": "2",
-    "name": "carrots",
-    "prep": "grated"
+    "name": "carrots"
    },
    {
     "id": "cheddar",
     "quantity": "100g",
-    "name": "cheddar",
-    "prep": "grated"
+    "name": "mature cheddar"
    },
    {
     "id": "eggs",
     "quantity": "1",
-    "name": "egg",
-    "prep": ""
+    "name": "egg"
    },
    {
     "id": "milk",
-    "quantity": "125ml",
-    "name": "milk",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "salt",
-    "quantity": "1/2 tsp",
-    "name": "salt",
-    "prep": ""
-   },
-   {
-    "id": "smoked-paprika",
-    "quantity": "1/2 tsp",
-    "name": "smoked paprika",
-    "prep": ""
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
-   },
-   {
-    "id": "thyme",
-    "quantity": "1 tbsp",
-    "name": "thyme leaves",
-    "prep": "chopped"
+    "quantity": "150ml",
+    "name": "milk"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan) and dust a baking tray with flour.",
-   "Mix the flour, baking powder, salt, paprika and a good grind of pepper in a large bowl. Rub in the butter with your fingertips until it looks like breadcrumbs.",
-   "Squeeze the grated carrot in your hands to get rid of extra juice, then stir it in with the thyme and most of the cheese.",
-   "Beat the egg with the milk and keep a spoonful back. Pour in the rest and mix with a knife to a soft, slightly sticky dough.",
-   "Tip onto a floured surface, pat into a round about 3cm thick and cut into 8 wedges. Set on the tray, brush with the saved egg and scatter over the last of the cheese.",
-   "Bake for 15 to 18 minutes, until risen and golden. Cool for 10 minutes, then eat warm with butter."
+   "Heat the oven to 220°C (200°C fan). Rub the butter into the flour and baking powder with a pinch of salt.",
+   "Stir in the grated carrots, most of the grated cheese, the thyme leaves and pepper.",
+   "Whisk the egg and milk. Keep a spoonful back and stir in the rest to a soft dough.",
+   "Pat into a round on a floured tray, cut into 8 wedges, brush with egg and top with the last cheese.",
+   "Bake for 15 to 18 minutes, until golden."
   ]
  },
  "attempts": 1,

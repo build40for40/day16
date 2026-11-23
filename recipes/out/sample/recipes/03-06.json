@@ -18,129 +18,94 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Beef and cabbage keema with potatoes",
+  "title": "Beef keema with cabbage and cavolo nero",
   "meal": "dinner",
   "dish_form": "curry",
   "diet": "meat",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "large casserole with a lid",
-   "wooden spoon"
+   "a large casserole with a lid"
   ],
   "prep_minutes": 25,
-  "cook_minutes": 30,
+  "cook_minutes": 35,
   "time_note": "",
   "best_time": "evening",
   "freezes": true,
+  "seasoning": [
+   {
+    "id": "curry-powder",
+    "name": "curry powder"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
   "ingredients": [
    {
     "id": "rapeseed-oil",
     "quantity": "1 tbsp",
-    "name": "rapeseed oil",
-    "prep": ""
+    "name": "rapeseed oil"
    },
    {
     "id": "beef-mince",
     "quantity": "500g",
-    "name": "beef mince",
-    "prep": ""
+    "name": "beef mince"
    },
    {
     "id": "onions",
-    "quantity": "1 large",
-    "name": "onion",
-    "prep": "chopped"
+    "quantity": "2",
+    "name": "onions"
    },
    {
     "id": "garlic",
-    "quantity": "3",
-    "name": "garlic cloves",
-    "prep": "crushed"
-   },
-   {
-    "id": "potatoes",
-    "quantity": "400g",
-    "name": "potatoes",
-    "prep": "diced"
+    "quantity": "3 cloves",
+    "name": "garlic"
    },
    {
     "id": "chopped-tomatoes",
     "quantity": "1 tin",
-    "name": "chopped tomatoes",
-    "prep": ""
+    "name": "chopped tomatoes"
    },
    {
-    "id": "beef-stock",
-    "quantity": "300ml",
-    "name": "beef stock",
-    "prep": ""
+    "id": "potatoes",
+    "quantity": "500g",
+    "name": "potatoes"
    },
    {
     "id": "white-cabbage",
     "quantity": "½",
-    "name": "white cabbage",
-    "prep": "sliced"
+    "name": "white cabbage"
    },
    {
     "id": "cavolo-nero",
-    "quantity": "100g",
-    "name": "cavolo nero",
-    "prep": "sliced"
-   },
-   {
-    "id": "lemons",
-    "quantity": "1",
-    "name": "lemon",
-    "prep": "juiced"
+    "quantity": "200g",
+    "name": "cavolo nero"
    },
    {
     "id": "natural-yoghurt",
     "quantity": "150g",
-    "name": "natural yoghurt",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "curry-powder",
-    "quantity": "2 tbsp",
-    "name": "curry powder",
-    "prep": ""
-   },
-   {
-    "id": "ground-ginger",
-    "quantity": "1 tsp",
-    "name": "ground ginger",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "quantity": "1 tsp",
-    "name": "salt",
-    "prep": ""
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Heat the oil in a large casserole over a high heat. Add the mince and fry for 8 minutes, breaking it up with a wooden spoon, until browned. Add the onion and cook for 5 minutes until soft.",
-   "Stir in the garlic, curry powder and ginger and cook for 1 minute, until it smells fragrant.",
-   "Add the potatoes, tomatoes, stock and salt. Bring to the boil, then cover and simmer for 15 minutes, stirring now and then.",
-   "Stir in the cabbage, cover again and cook for 10 to 12 minutes, until the potatoes are tender and the cabbage is soft but still has a little bite.",
-   "Stir in the cavolo nero for 3 minutes until wilted. Add the lemon juice and plenty of black pepper, then spoon into bowls and top each with a spoonful of yoghurt."
+   "Brown the mince in the oil in a large casserole. Add the chopped onions and soften for 8 minutes.",
+   "Stir in the crushed garlic, 2 tbsp curry powder and 1 tsp cumin for a minute. Add the tomatoes, cubed potatoes and 300ml water, cover and simmer for 15 minutes.",
+   "Stir in the shredded cabbage and torn cavolo nero. Cover and cook for 10 to 12 minutes, until the potatoes are tender.",
+   "Season and spoon over the yoghurt."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The ingredients and seasoning run 1 lines past the bottom of the page. The column is about 25 characters wide, so shorten the lines that wrap or use fewer."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

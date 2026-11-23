@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Fruit, flour, oats, sugar, hazelnuts, oil and cinnamon are all ordinary cupboard and garden foods."
+   "reason": "Fresh fruit, oats, flour, almonds, sugar, oil, lemon and cinnamon are all ordinary cupboard and garden foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every item is a standard Tesco line, and raspberries and peaches are at their cheapest in June."
+   "reason": "Peaches, raspberries and the cupboard items are everyday supermarket buys in June."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a baking dish, a bowl and an oven, and rubbing in is beginner technique."
+   "reason": "It needs only a baking dish, a mixing bowl and simple rubbing-in."
   },
   "works": {
    "pass": true,
-   "reason": "The fruit-to-topping ratio, oil quantity, cornflour thickening, 190°C oven and 30 to 35 minute bake would give a sound crumble that easily serves four."
+   "reason": "Four peaches and 300g raspberries under an oat crumble at 190°C for 30 to 35 minutes gives a sensible fruit crumble for four."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Slicing three peaches, chopping hazelnuts and rubbing in the topping fits 15 minutes, and the 35-minute cook matches the bake."
+   "reason": "Stoning peaches, zesting a lemon, chopping almonds and mixing the topping fits in 15 minutes, and the 35-minute cook matches the bake."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used in the steps and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Raspberries lead the fruit base of a summer crumble, which the page notes is good cold for a June afternoon."
+   "reason": "Raspberries and peaches are at their best in late June, and a crumble that can be eaten warm or cold suits midsummer."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a fruit-heavy snack with oats, wholemeal flour and nuts and only modest sugar, which a family would happily eat again."
+   "reason": "It is mostly fruit with an oat and almond topping and modest sugar, a satisfying snack a family would make again."
   }
  }
 }

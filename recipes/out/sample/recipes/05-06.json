@@ -17,105 +17,81 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Orange pancakes with strawberries",
+  "title": "Orange and ricotta pancakes with strawberries",
   "meal": "breakfast",
   "dish_form": "pancakes",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "hob",
   "utensils": [
-   "large mixing bowl",
-   "small bowl",
-   "whisk",
-   "large frying pan"
+   "a mixing bowl",
+   "a whisk",
+   "a grater",
+   "a large frying pan"
   ],
-  "prep_minutes": 35,
-  "cook_minutes": 5,
+  "prep_minutes": 30,
+  "cook_minutes": 0,
   "time_note": "",
   "best_time": "morning",
-  "freezes": true,
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
   "ingredients": [
    {
     "id": "oranges",
     "quantity": "3",
-    "name": "oranges",
-    "prep": ""
+    "name": "oranges"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   },
+   {
+    "id": "eggs",
+    "quantity": "3",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "150ml",
+    "name": "milk"
    },
    {
     "id": "self-raising-flour",
     "quantity": "200g",
-    "name": "self-raising flour",
-    "prep": ""
-   },
-   {
-    "id": "baking-powder",
-    "quantity": "1 tsp",
-    "name": "baking powder",
-    "prep": ""
-   },
-   {
-    "id": "caster-sugar",
-    "quantity": "1 tbsp",
-    "name": "caster sugar",
-    "prep": ""
-   },
-   {
-    "id": "eggs",
-    "quantity": "2",
-    "name": "eggs",
-    "prep": ""
-   },
-   {
-    "id": "milk",
-    "quantity": "100ml",
-    "name": "milk",
-    "prep": ""
-   },
-   {
-    "id": "natural-yoghurt",
-    "quantity": "300g",
-    "name": "natural yoghurt",
-    "prep": ""
-   },
-   {
-    "id": "butter",
-    "quantity": "40g",
-    "name": "butter",
-    "prep": "melted, plus extra"
+    "name": "self-raising flour"
    },
    {
     "id": "strawberries",
-    "quantity": "250g",
-    "name": "strawberries",
-    "prep": "hulled, quartered"
+    "quantity": "300g",
+    "name": "strawberries"
    },
    {
     "id": "honey",
     "quantity": "1 tbsp",
-    "name": "honey",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "salt",
-    "quantity": "a pinch",
-    "name": "salt",
-    "prep": ""
+    "name": "honey"
    },
    {
-    "id": "mint",
-    "quantity": "a few",
-    "name": "mint leaves",
-    "prep": "torn"
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "200g",
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Finely grate the zest of 1 orange into a large bowl and squeeze in its juice. Whisk in the flour, baking powder, sugar, salt, eggs, milk, 150g of the yoghurt and the melted butter until thick and smooth.",
-   "Cut the peel and pith from the other oranges, slice into rounds and toss with the strawberries and honey in a small bowl.",
-   "Melt a little butter in a large frying pan over a medium heat. Drop in heaped tablespoons of batter, spaced apart. Cook for 2 minutes until bubbles appear, then flip and cook for 1 to 2 minutes more, until golden and risen.",
-   "Keep warm under a tea towel while you cook the rest, adding a little butter to the pan as needed.",
-   "Serve stacked with the fruit and its juices, the rest of the yoghurt and the torn mint."
+   "Grate the zest of 2 oranges into a bowl. Whisk in the ricotta, eggs and milk, then fold in the flour and a pinch of salt.",
+   "Peel all the oranges, slice into rounds and toss with the halved strawberries and honey.",
+   "Melt a little butter in a frying pan over a medium heat. Fry spoonfuls of batter for 2 to 3 minutes a side, until golden and set.",
+   "Serve stacked, with the fruit and a spoonful of yoghurt."
   ]
  },
  "attempts": 1,

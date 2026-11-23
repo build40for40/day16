@@ -47,24 +47,20 @@ export function freshList(month) {
 export function recipeSystem() {
   const { limits, page } = config;
   const room = fit({ title: "x", utensils: ["x"], ingredients: [], seasoning: [], steps: [] }).room - page.title_line_px;
-  const methodLines = Math.floor((room - page.method_header_px - 4 * page.step_gap_px) / page.line_px);
-  const methodWords = Math.floor((methodLines * 6.2) / 5) * 5;
+  const methodLines = Math.floor((room - page.heading_px - 3 * page.step_gap_px) / page.line_px);
+  const methodWords = Math.floor((methodLines * 5) / 5) * 5;
   return fill(read("recipe.md"), {
     PANTRY: pantryList(),
     HANDS_ON_MAX: limits.hands_on_max,
     QUICK_MAX: limits.quick_max,
-    TITLE_CHARS: page.title_chars,
-    UTENSILS_CHARS: page.utensils_chars,
-    MAX_INGREDIENTS: limits.max_ingredients,
     MAX_SEASONING: limits.max_seasoning,
-    LIST_CHARS: page.list_chars,
-    LIST_LINES: Math.floor((room - page.list_header_px - page.seasoning_header_px) / (page.line_px + page.list_gap_px)) - 1,
+    MAX_INGREDIENTS: limits.max_ingredients,
+    LIST_LINES: Math.floor((room - page.heading_px * 2 - page.seasoning_margin_px) / page.line_px),
     MAX_STEPS: limits.max_steps,
-    METHOD_CHARS: page.method_chars,
     METHOD_LINES: methodLines,
     METHOD_LOW: methodWords - 15,
     METHOD_HIGH: methodWords,
-    METHOD_MAX: methodWords + 15,
+    METHOD_MAX: methodWords + 10,
   });
 }
 

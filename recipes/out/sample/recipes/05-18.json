@@ -17,125 +17,96 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Roast chicken, cucumber and new potato salad",
+  "title": "Smashed cucumber and roast chicken salad",
   "meal": "dinner",
   "dish_form": "big salad",
   "diet": "meat",
   "gluten_free": true,
   "kit": "oven",
   "utensils": [
-   "large roasting tray",
-   "mixing bowl",
-   "small bowl",
-   "large platter"
+   "a roasting tray",
+   "a sieve",
+   "a large platter"
   ],
   "prep_minutes": 25,
-  "cook_minutes": 90,
+  "cook_minutes": 95,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
   "ingredients": [
    {
     "id": "whole-chicken",
     "quantity": "1.5kg",
-    "name": "whole chicken",
-    "prep": ""
+    "name": "whole chicken"
    },
    {
     "id": "olive-oil",
-    "quantity": "2 tbsp",
-    "name": "olive oil",
-    "prep": ""
-   },
-   {
-    "id": "lemons",
-    "quantity": "1",
-    "name": "lemon",
-    "prep": "halved"
+    "quantity": "1 tbsp",
+    "name": "olive oil"
    },
    {
     "id": "new-potatoes",
     "quantity": "750g",
-    "name": "new potatoes",
-    "prep": "halved"
+    "name": "new potatoes"
+   },
+   {
+    "id": "cucumber",
+    "quantity": "2",
+    "name": "cucumbers"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "2 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tsp",
+    "name": "honey"
    },
    {
     "id": "natural-yoghurt",
-    "quantity": "150g",
-    "name": "natural yoghurt",
-    "prep": ""
+    "quantity": "200g",
+    "name": "natural yoghurt"
    },
    {
     "id": "garlic",
     "quantity": "1",
-    "name": "garlic clove",
-    "prep": "grated"
+    "name": "garlic clove, grated"
    },
    {
-    "id": "cucumber",
-    "quantity": "1",
-    "name": "cucumber",
-    "prep": "sliced"
-   },
-   {
-    "id": "radishes",
-    "quantity": "200g",
-    "name": "radishes",
-    "prep": "sliced"
-   },
-   {
-    "id": "spring-onions",
-    "quantity": "4",
-    "name": "spring onions",
-    "prep": "sliced"
-   },
-   {
-    "id": "lettuce",
-    "quantity": "2",
-    "name": "little gem lettuces",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "salt",
-    "quantity": "1 tsp",
-    "name": "salt",
-    "prep": ""
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
-   },
-   {
-    "id": "mint",
-    "quantity": "15g",
-    "name": "mint",
-    "prep": "chopped"
-   },
-   {
-    "id": "dill",
-    "quantity": "15g",
-    "name": "dill",
-    "prep": "chopped"
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Rub the chicken with half the oil and half the salt, push a lemon half inside and roast in a large tray for 30 minutes.",
-   "Toss the potatoes in the remaining oil and tuck them around the chicken. Roast for 50 minutes more, until golden and the chicken juices run clear. Rest for 10 minutes.",
-   "Meanwhile, mix the yoghurt, garlic, juice of the other lemon half and half the herbs. Toss the cucumber, radishes and spring onions with the remaining salt.",
-   "Tear the lettuce onto a platter and add the cucumber and potatoes. Pull the chicken into pieces, scatter it over and spoon on the tray juices.",
-   "Drizzle with the dressing and finish with the remaining herbs and plenty of black pepper."
+   "Heat the oven to 200°C (180°C fan). Rub the chicken with oil and salt. Roast with the halved potatoes for 1 hour 20 minutes, until the juices run clear.",
+   "Halve the cucumbers, bash into chunks with a pan and salt in a sieve for 20 minutes.",
+   "Toss the cucumber with the vinegar, honey and chopped dill. Stir the garlic and mint into the yoghurt.",
+   "Pile the watercress, potatoes, pulled chicken and cucumber on a platter. Spoon over the yoghurt and season."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 145 words and runs 1 lines past the bottom of the page. Cut about 7 words."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

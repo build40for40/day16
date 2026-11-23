@@ -17,112 +17,89 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Turnip, leek and cheddar quiche",
+  "title": "Turnip and leek puff tart with eggs",
   "meal": "lunch",
-  "dish_form": "quiche",
+  "dish_form": "tart",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "hob_and_oven",
   "utensils": [
-   "23cm tart tin",
-   "baking tray",
-   "large frying pan with a lid",
-   "mixing bowl",
-   "whisk"
+   "a frying pan",
+   "a baking tray",
+   "baking paper",
+   "a grater"
   ],
   "prep_minutes": 25,
-  "cook_minutes": 50,
+  "cook_minutes": 30,
   "time_note": "",
   "best_time": "midday",
-  "freezes": true,
-  "ingredients": [
+  "freezes": false,
+  "seasoning": [
    {
-    "id": "shortcrust-pastry",
-    "quantity": "320g",
-    "name": "shortcrust pastry",
-    "prep": "ready-rolled"
+    "id": "thyme",
+    "name": "thyme"
    },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
    {
     "id": "butter",
     "quantity": "25g",
-    "name": "butter",
-    "prep": ""
+    "name": "butter"
    },
    {
     "id": "leeks",
     "quantity": "2",
-    "name": "leeks",
-    "prep": "thinly sliced"
-   },
-   {
-    "id": "turnips",
-    "quantity": "400g",
-    "name": "turnips",
-    "prep": "peeled and diced"
-   },
-   {
-    "id": "eggs",
-    "quantity": "3",
-    "name": "eggs",
-    "prep": ""
-   },
-   {
-    "id": "milk",
-    "quantity": "150ml",
-    "name": "milk",
-    "prep": ""
+    "name": "leeks"
    },
    {
     "id": "creme-fraiche",
     "quantity": "150ml",
-    "name": "crème fraîche",
-    "prep": ""
+    "name": "crème fraîche"
    },
    {
-    "id": "dijon-mustard",
+    "id": "wholegrain-mustard",
     "quantity": "1 tsp",
-    "name": "Dijon mustard",
-    "prep": ""
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "puff-pastry",
+    "quantity": "320g",
+    "name": "puff pastry sheet"
+   },
+   {
+    "id": "turnips",
+    "quantity": "3 small",
+    "name": "turnips"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
    },
    {
     "id": "cheddar",
-    "quantity": "100g",
-    "name": "mature Cheddar",
-    "prep": "grated"
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "thyme",
-    "quantity": "1 tbsp",
-    "name": "thyme leaves",
-    "prep": ""
+    "quantity": "80g",
+    "name": "cheddar"
    },
    {
-    "id": "salt",
-    "quantity": "½ tsp",
-    "name": "salt",
-    "prep": ""
-   },
-   {
-    "id": "nutmeg",
-    "quantity": "a pinch",
-    "name": "nutmeg",
-    "prep": ""
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan) with a baking tray inside. Line the tin with the pastry, prick the base with a fork and chill while you make the filling.",
-   "Melt the butter in the frying pan over a medium heat. Add the leeks, turnips, thyme and a pinch of the salt. Cover and cook for 12 to 15 minutes, stirring now and then, until the turnips are tender.",
-   "Whisk the eggs, milk, crème fraîche, mustard, nutmeg, the rest of the salt and plenty of pepper in the bowl. Stir in most of the cheese.",
-   "Spoon the vegetables into the pastry case, pour over the egg mix and scatter over the last of the cheese.",
-   "Set the tin on the hot tray and bake for 35 to 40 minutes, until golden with just a slight wobble in the middle. Cool for 10 minutes before slicing."
+   "Heat the oven to 200°C (180°C fan). Soften the sliced leeks in the butter with the thyme for 10 minutes. Stir in the crème fraîche and mustard. Season.",
+   "Unroll the pastry onto a lined tray and score a 2cm border. Spread with the leeks.",
+   "Lay the very thinly sliced turnips on top, brush with oil and scatter with grated cheddar. Bake for 20 minutes.",
+   "Make four dips, crack in the eggs and bake for 8 to 10 minutes more, until the whites set."
   ]
  },
  "attempts": 1,

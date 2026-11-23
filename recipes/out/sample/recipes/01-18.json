@@ -18,120 +18,89 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Smoky split pea stew with purple sprouting broccoli",
+  "title": "Split pea and parsnip stew with purple sprouting broccoli",
   "meal": "dinner",
   "dish_form": "stew",
   "diet": "vegan",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "large casserole with a lid"
+   "a large lidded pan"
   ],
   "prep_minutes": 20,
   "cook_minutes": 60,
   "time_note": "",
   "best_time": "evening",
-  "freezes": true,
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "turmeric",
+    "name": "turmeric"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
   "ingredients": [
    {
     "id": "olive-oil",
     "quantity": "2 tbsp",
-    "name": "olive oil",
-    "prep": ""
+    "name": "olive oil"
    },
    {
     "id": "onions",
-    "quantity": "1 large",
-    "name": "onion",
-    "prep": "chopped"
-   },
-   {
-    "id": "carrots",
     "quantity": "2",
-    "name": "carrots",
-    "prep": "diced"
+    "name": "onions"
    },
    {
     "id": "garlic",
     "quantity": "3 cloves",
-    "name": "garlic",
-    "prep": "crushed"
+    "name": "garlic"
    },
    {
     "id": "split-peas",
     "quantity": "250g",
-    "name": "yellow split peas",
-    "prep": "rinsed"
+    "name": "yellow split peas"
    },
    {
     "id": "chopped-tomatoes",
-    "quantity": "400g",
-    "name": "chopped tomatoes",
-    "prep": ""
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
    },
    {
     "id": "vegetable-stock",
     "quantity": "1.2 litres",
-    "name": "veg stock",
-    "prep": ""
+    "name": "vegetable stock"
    },
    {
     "id": "parsnips",
-    "quantity": "500g",
-    "name": "parsnips",
-    "prep": "in chunks"
+    "quantity": "3",
+    "name": "parsnips"
    },
    {
     "id": "purple-sprouting-broccoli",
-    "quantity": "250g",
-    "name": "purple sprouting",
-    "prep": ""
-   },
-   {
-    "id": "lemons",
-    "quantity": "1/2",
-    "name": "lemon",
-    "prep": "juiced"
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "smoked-paprika",
-    "quantity": "2 tsp",
-    "name": "smoked paprika",
-    "prep": ""
-   },
-   {
-    "id": "cumin",
-    "quantity": "1 tsp",
-    "name": "ground cumin",
-    "prep": ""
-   },
-   {
-    "id": "bay",
-    "quantity": "2",
-    "name": "bay leaves",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "quantity": "1 tsp",
-    "name": "salt",
-    "prep": ""
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
+    "quantity": "300g",
+    "name": "purple sprouting broccoli"
    }
   ],
   "steps": [
-   "Heat the oil in a large casserole over a medium heat. Add the onion and carrots with a pinch of the salt and cook for 10 minutes, stirring now and then, until soft.",
-   "Stir in the garlic, smoked paprika and cumin and cook for 1 minute, until fragrant.",
-   "Add the split peas, tomatoes, stock and bay. Bring to the boil, then cover and simmer for 25 minutes. Peel and chop the parsnips while it cooks.",
-   "Stir in the parsnips and simmer, covered, for 20 to 25 minutes more, until the split peas are soft and the parsnips tender. Add a splash of water if it gets too thick.",
-   "Lay the broccoli on top, cover and cook for 5 to 6 minutes until just tender. Squeeze in the lemon, then season with the rest of the salt and plenty of pepper."
+   "Soften the chopped onions in the oil in a large pan for 8 minutes. Stir in the crushed garlic, 2 tsp cumin and 1 tsp turmeric.",
+   "Add the rinsed split peas, tomatoes and stock. Simmer, half covered, for 30 minutes.",
+   "Add the parsnips, cut into chunks, and cook for 20 minutes more, until the peas are soft. Add a splash of water if thick.",
+   "Lay the broccoli on top, cover and steam for 5 minutes. Season and finish with lemon juice."
   ]
  },
  "attempts": 1,

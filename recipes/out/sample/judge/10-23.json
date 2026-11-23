@@ -1,43 +1,43 @@
 {
  "day": 296,
- "title": "Carrot and cheese scones",
+ "title": "Carrot, cheddar and thyme scones",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Flour, butter, carrots, cheddar, egg, milk and thyme are all plain kitchen staples with nothing factory-made."
+   "reason": "Flour, butter, cheddar, eggs, milk, carrots and thyme are all plain home staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at any Tesco at a normal price."
+   "reason": "Every ingredient is an everyday supermarket item at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a bowl, grater, knife and baking tray, and rubbing in and patting out a scone round is beginner technique."
+   "reason": "A bowl, grater, whisk and baking tray are ordinary kit, and rubbing in is beginner technique."
   },
   "works": {
    "pass": true,
-   "reason": "The flour to fat to liquid balance is sound once the moist carrot is counted, 220°C suits scones, and 8 wedges is a fair snack for four."
+   "reason": "350g flour to 75g butter, with an egg, about 150ml milk and moist grated carrot, gives a sound soft dough that makes 8 good wedges for four at a hot oven temperature."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes covers grating the carrots and cheese, rubbing in and shaping, and the 28 cook minutes match the 18-minute bake plus 10 minutes of cooling."
+   "reason": "Twenty minutes covers grating two carrots and the cheese, picking thyme and rubbing in, and the 18-minute bake matches the step."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and the dusting flour comes from the flour already listed."
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and the egg wash and dusting flour come from listed items."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Warm carrot and cheese scones suit a late October afternoon, and the grated carrot runs through the dough rather than sitting on top as a garnish."
+   "reason": "October carrots lead the title and the dough, and warm cheese scones suit an autumn afternoon."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, homely British English with nothing fancy or preachy."
+   "reason": "The steps are short, plain British kitchen instructions a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "A savoury scone with carrot, cheese and egg is a filling snack a family would make again."
+   "reason": "A cheese and carrot scone with egg and milk is a filling snack of real food that families would make again."
   }
  }
 }

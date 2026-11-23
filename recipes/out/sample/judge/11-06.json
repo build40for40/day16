@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Mince, barley, stock, Worcestershire sauce, tomato purée and Parmesan are all ordinary cupboard and fridge staples."
+   "reason": "Everything is whole food or a classic cupboard staple, such as beef stock, Worcestershire sauce and tomato purée, with no jars, packets or stock pots."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+   "reason": "Mince, pearl barley, sprouts, carrots and stock are everyday, low-cost Tesco items."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded casserole, a wooden spoon and a grater, and the technique is simple browning and simmering."
+   "reason": "It needs only a lidded casserole, a knife and a board, and the techniques are browning and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "250g barley simmers in 1.2 litres of stock for about 40 minutes in total, which should cook it tender without drying out, and the amounts suit four."
+   "reason": "250g barley in 1.2 litres of stock for about 42 minutes, with 500g mince and 400g sprouts, makes a sensible, well-seasoned pot for four, and the water note covers any thickening."
   },
   "honest_times": {
    "pass": true,
-   "reason": "25 minutes covers the chopping plus about 15 minutes of browning and softening, and 45 minutes matches the 30 plus 10 to 12 minute simmer."
+   "reason": "Twenty minutes is realistic for browning the mince, chopping the onion, carrots and garlic, and halving 400g of sprouts, and the 5, 30 and 12 minute simmers roughly match the 45 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears apart from water."
+   "reason": "Every listed ingredient and seasoning, including the fresh thyme, appears in the steps, and nothing unlisted apart from water is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A hearty barley stew suits early November, and 400g of sprouts stirred through makes them a main part of the dish rather than a garnish."
+   "reason": "A warming beef and barley pot suits early November, and 400g of halved sprouts makes them a main vegetable rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English with sensible cues such as adding a splash of water if it looks dry."
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Beef, wholegrain barley, carrots and sprouts make a filling, balanced family dinner."
+   "reason": "It is a filling one-pot dinner of beef, wholegrain barley, carrots and sprouts that a family would happily eat again."
   }
  }
 }

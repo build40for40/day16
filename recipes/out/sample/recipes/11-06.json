@@ -24,109 +24,84 @@
   "gluten_free": false,
   "kit": "one_pot",
   "utensils": [
-   "large casserole or deep pan with a lid",
-   "wooden spoon",
-   "grater"
+   "one large casserole with a lid"
   ],
-  "prep_minutes": 25,
+  "prep_minutes": 20,
   "cook_minutes": 45,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
   "ingredients": [
    {
     "id": "olive-oil",
     "quantity": "1 tbsp",
-    "name": "olive oil",
-    "prep": ""
+    "name": "olive oil"
    },
    {
     "id": "beef-mince",
     "quantity": "500g",
-    "name": "beef mince",
-    "prep": ""
+    "name": "beef mince"
    },
    {
     "id": "onions",
     "quantity": "1",
-    "name": "onion",
-    "prep": "chopped"
+    "name": "onion"
    },
    {
     "id": "carrots",
     "quantity": "2",
-    "name": "carrots",
-    "prep": "diced"
+    "name": "carrots"
    },
    {
     "id": "garlic",
-    "quantity": "2",
-    "name": "garlic cloves",
-    "prep": "crushed"
-   },
-   {
-    "id": "tomato-puree",
-    "quantity": "1 tbsp",
-    "name": "tomato purée",
-    "prep": ""
+    "quantity": "2 cloves",
+    "name": "garlic"
    },
    {
     "id": "pearl-barley",
     "quantity": "250g",
-    "name": "pearl barley",
-    "prep": ""
+    "name": "pearl barley"
    },
    {
-    "id": "beef-stock",
-    "quantity": "1.2 litres",
-    "name": "beef stock",
-    "prep": ""
+    "id": "tomato-puree",
+    "quantity": "1 tbsp",
+    "name": "tomato purée"
    },
    {
     "id": "worcestershire-sauce",
     "quantity": "1 tbsp",
-    "name": "Worcestershire sauce",
-    "prep": ""
+    "name": "Worcestershire sauce"
+   },
+   {
+    "id": "beef-stock",
+    "quantity": "1.2 litres",
+    "name": "beef stock"
    },
    {
     "id": "brussels-sprouts",
     "quantity": "400g",
-    "name": "Brussels sprouts",
-    "prep": "halved"
-   },
-   {
-    "id": "parmesan",
-    "quantity": "30g",
-    "name": "Parmesan",
-    "prep": "grated"
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "thyme",
-    "quantity": "4 sprigs",
-    "name": "thyme",
-    "prep": "leaves picked"
-   },
-   {
-    "id": "salt",
-    "quantity": "",
-    "name": "salt",
-    "prep": "to taste"
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
+    "name": "Brussels sprouts"
    }
   ],
   "steps": [
-   "Heat the oil in a large casserole over a high heat. Fry the mince for 6 to 8 minutes, breaking it up, until browned.",
-   "Turn the heat to medium, add the onion and carrots and cook for 5 minutes until softened. Stir in the garlic, thyme and tomato purée for 1 minute.",
-   "Add the barley, stock, Worcestershire sauce and a pinch of salt. Bring to the boil, cover and simmer for 30 minutes, stirring now and then. Halve the sprouts while it cooks.",
-   "Stir in the sprouts, cover again and cook for 10 to 12 minutes, until the barley is tender and the sprouts are just soft. Add a splash of water if it looks dry.",
-   "Stir in half the Parmesan, season with pepper and scatter over the rest to serve."
+   "Brown the mince in the oil in a casserole. Add the chopped onion, carrots and garlic and cook for 5 minutes.",
+   "Stir in the barley, purée, thyme leaves and Worcestershire sauce, then the stock. Cover and simmer for 30 minutes.",
+   "Add the halved sprouts and simmer uncovered for 12 minutes, until the barley is tender. Add a splash of water if it gets thick.",
+   "Season well and serve in bowls."
   ]
  },
  "attempts": 1,

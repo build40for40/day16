@@ -1,43 +1,43 @@
 {
  "day": 199,
- "title": "Roast cherry tomatoes and eggs on ricotta toast",
+ "title": "Blistered cherry tomatoes with beans and eggs",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Every ingredient is a plain kitchen staple: tomatoes, mushrooms, garlic, oil, balsamic, eggs, bread and ricotta."
+   "reason": "Everything is a plain kitchen staple: tomatoes, garlic, tinned beans, eggs, bread, oil and basil."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a roasting tray, a toaster and an oven, and cracking eggs into a tray is beginner technique."
+   "reason": "It needs only a lidded frying pan and a toaster, and the technique is simple."
   },
   "works": {
    "pass": true,
-   "reason": "The quantities suit four, 200°C for 15 minutes then 8 to 10 minutes with the eggs is sound, and the ricotta toast soaks up the juices well."
+   "reason": "500g tomatoes, a tin of beans, four eggs and four slices of toast make a sensible breakfast for four, and the timings set the whites while the tomatoes burst into enough juice to simmer the beans."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Ten minutes is enough to halve mushrooms, slice garlic and toast and spread bread, and the 15 plus 10 minutes in the steps matches the 25 minute cook time."
+   "reason": "Ten minutes covers slicing the garlic, draining the beans and making toast, and the step timings add up to about 15 minutes."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the basil and optional chilli flakes, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Roast cherry tomatoes lead the dish and suit a July breakfast."
+   "reason": "Blistered cherry tomatoes are the heart of the dish and suit a July morning."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, friendly British English with no restaurant jargon or preaching."
+   "reason": "Short, clear British English steps that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Eggs, ricotta, vegetables and toast make a filling, balanced breakfast a family would want again."
+   "reason": "Eggs, beans, tomatoes and wholemeal toast make a filling, balanced breakfast a family would happily eat again."
   }
  }
 }

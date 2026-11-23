@@ -17,103 +17,76 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Roast cherry tomatoes and eggs on ricotta toast",
+  "title": "Blistered cherry tomatoes with beans and eggs",
   "meal": "breakfast",
   "dish_form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "oven",
+  "kit": "hob",
   "utensils": [
-   "roasting tray",
-   "toaster"
+   "one large frying pan with a lid",
+   "a toaster"
   ],
   "prep_minutes": 10,
-  "cook_minutes": 25,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
   "ingredients": [
-   {
-    "id": "cherry-tomatoes",
-    "quantity": "500g",
-    "name": "cherry tomatoes",
-    "prep": ""
-   },
-   {
-    "id": "mushrooms",
-    "quantity": "250g",
-    "name": "mushrooms",
-    "prep": "halved"
-   },
-   {
-    "id": "garlic",
-    "quantity": "2",
-    "name": "garlic cloves",
-    "prep": "sliced"
-   },
    {
     "id": "olive-oil",
     "quantity": "2 tbsp",
-    "name": "olive oil",
-    "prep": ""
+    "name": "olive oil"
    },
    {
-    "id": "balsamic-vinegar",
-    "quantity": "1 tbsp",
-    "name": "balsamic vinegar",
-    "prep": ""
+    "id": "cherry-tomatoes",
+    "quantity": "500g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
    },
    {
     "id": "eggs",
     "quantity": "4",
-    "name": "eggs",
-    "prep": ""
+    "name": "eggs"
    },
    {
     "id": "bread",
-    "quantity": "4",
-    "name": "thick slices of bread",
-    "prep": ""
-   },
-   {
-    "id": "ricotta",
-    "quantity": "250g",
-    "name": "ricotta",
-    "prep": ""
-   }
-  ],
-  "seasoning": [
-   {
-    "id": "salt",
-    "quantity": "½ tsp",
-    "name": "salt",
-    "prep": ""
-   },
-   {
-    "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
-   },
-   {
-    "id": "basil",
-    "quantity": "small bunch",
-    "name": "basil",
-    "prep": "torn"
-   },
-   {
-    "id": "chilli-flakes",
-    "quantity": "a pinch",
-    "name": "chilli flakes",
-    "prep": "optional"
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Tip the tomatoes, mushrooms and garlic into a roasting tray with the oil, balsamic vinegar, salt and a good grind of pepper, and toss everything together.",
-   "Roast for 15 minutes, until the tomatoes are starting to split and the mushrooms have shrunk and turned golden.",
-   "Give the tray a stir, then make four gaps and crack an egg into each. Return to the oven for 8 to 10 minutes, until the whites are set and the yolks are still soft.",
-   "While the eggs cook, toast the bread and spread each slice thickly with ricotta.",
-   "Spoon the tomatoes, mushrooms and eggs over the toast with the juices from the tray. Scatter over the basil and add a pinch of chilli flakes if you like."
+   "Warm the oil in a large frying pan. Fry the tomatoes over a high heat for 5 minutes, until they blister and burst.",
+   "Add the sliced garlic and a pinch of chilli flakes for 1 minute, then the drained beans. Season and simmer for 3 minutes.",
+   "Make four hollows, crack in the eggs, cover and cook for 4 to 5 minutes, until the whites set.",
+   "Scatter with torn basil and serve with hot toast."
   ]
  },
  "attempts": 1,

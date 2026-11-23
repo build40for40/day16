@@ -1,43 +1,43 @@
 {
  "day": 108,
- "title": "Warm lentil salad with radishes and orange",
+ "title": "Lentil, radish and orange salad",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Lentils, oranges, mustard, vinegar, seeds and fresh vegetables are all plain larder and garden foods, with nothing factory-made."
+   "reason": "Lentils, oil, vinegar, mustard, seeds and fresh produce are all plain home staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Puy lentils, pumpkin seeds, watercress and radishes are everyday items at Tesco and similar supermarkets."
+   "reason": "Puy lentils, pumpkin seeds and watercress are everyday lines at Tesco at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a saucepan, sieve, bowl and whisk, and the simplest techniques."
+   "reason": "Needs only a saucepan, frying pan, sieve and bowl, with simple simmering, toasting and slicing."
   },
   "works": {
    "pass": true,
-   "reason": "250g puy lentils with 200g radishes, watercress and oranges makes a sensible lunch for four, and the dressing ratio and seasoning are sound."
+   "reason": "200g dry puy lentils with oranges, radishes, watercress and seeds makes a sensible lunch for four, and dressing the lentils warm gives them flavour."
   },
   "honest_times": {
    "pass": true,
-   "reason": "25 minutes is ample for slicing the onion and radishes, peeling three oranges and chopping parsley, and the 25-minute lentil simmer matches the cook time."
+   "reason": "Twenty minutes covers peeling three oranges, slicing the radishes and spring onions, toasting the seeds and making the dressing, and the 25-minute cook matches the lentil simmer."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning appears in the steps, nothing unlisted is used, and the names match their ids."
+   "reason": "Every listed item, including the bay, parsley and seasoning, appears in the steps, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm salad suits mid-April, and 200g of sliced radishes is a main component rather than a garnish."
+   "reason": "A fresh, peppery mid-April salad with a good 200g of sliced radishes running through it suits the date, and the radishes are a main part of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English that a beginner could follow."
+   "reason": "The short, clear British English instructions are easy for a beginner to follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Lentils, seeds, greens, radishes and orange make a filling, balanced lunch of real food."
+   "reason": "Lentils, seeds, fruit and greens make a filling, wholesome lunch a family would happily eat again."
   }
  }
 }

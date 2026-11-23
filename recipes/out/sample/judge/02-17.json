@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Kippers, oranges, butter, crème fraîche, horseradish, capers and bread are all ordinary larder and fridge foods."
+   "reason": "Kippers, oranges, butter, crème fraîche, horseradish sauce and bread are all traditional kitchen staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Kipper fillets, oranges, crème fraîche and capers are everyday items at Tesco and similar shops."
+   "reason": "Kipper fillets, oranges and the rest are everyday items at Tesco at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "Only a kettle, bowls, a fork, a knife, a grater and a toaster are needed, and the technique is simple."
+   "reason": "A kettle, a dish, a bowl and fork, and a toaster are ordinary kit, and pouring boiling water over kippers is beginner-level."
   },
   "works": {
    "pass": true,
-   "reason": "Softening 200g kippers in boiling water and mashing them with butter, crème fraîche and horseradish makes enough well-balanced pâté for eight slices of toast for four people."
+   "reason": "Five minutes in boiling water is enough for kippers, the butter and crème fraîche loosen 300g of fish into a spreadable pâté for eight slices, and the salty fish needs only pepper."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Fifteen minutes is realistic for segmenting oranges, skinning and flaking the fish, mashing and toasting, and the five-minute soak matches the cook time."
+   "reason": "Fifteen minutes is believable for flaking and boning the fish, peeling and slicing two oranges, mixing and toasting, and the 5-minute soak matches the cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears apart from the boiling water."
+   "reason": "Every listed ingredient and the pepper are used, the names match their ids, and nothing unlisted appears apart from boiling water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Orange zest flavours the pâté and orange slices top each toast, a bright February pairing with smoky kippers."
+   "reason": "February oranges appear as zest in the pâté and as a full topping of two sliced oranges, a classic pairing with winter kippers that makes the citrus central."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, homely British English with no restaurant jargon or preaching."
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Oily fish on wholemeal toast with fresh fruit is a satisfying, nourishing snack."
+   "reason": "Oily fish on wholemeal toast with fresh orange is a filling, real-food snack a family would happily make again."
   }
  }
 }

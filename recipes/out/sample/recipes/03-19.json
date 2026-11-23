@@ -17,93 +17,72 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Porridge with cinnamon apple compote",
+  "title": "Porridge with apple and rhubarb compote",
   "meal": "breakfast",
   "dish_form": "porridge with fruit compote",
   "diet": "vegan",
   "gluten_free": false,
   "kit": "hob",
   "utensils": [
-   "small saucepan with a lid",
-   "medium saucepan",
-   "wooden spoon"
+   "two saucepans",
+   "a wooden spoon"
   ],
-  "prep_minutes": 10,
+  "prep_minutes": 12,
   "cook_minutes": 10,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
-  "ingredients": [
-   {
-    "id": "apples",
-    "quantity": "4",
-    "name": "eating apples",
-    "prep": "cored and chopped"
-   },
-   {
-    "id": "raisins",
-    "quantity": "50g",
-    "name": "raisins",
-    "prep": ""
-   },
-   {
-    "id": "lemons",
-    "quantity": "½",
-    "name": "lemon",
-    "prep": "juiced"
-   },
-   {
-    "id": "water",
-    "quantity": "1.1 litres",
-    "name": "water",
-    "prep": "divided"
-   },
-   {
-    "id": "oats",
-    "quantity": "160g",
-    "name": "porridge oats",
-    "prep": ""
-   },
-   {
-    "id": "peanut-butter",
-    "quantity": "4 tbsp",
-    "name": "peanut butter",
-    "prep": ""
-   },
-   {
-    "id": "pumpkin-seeds",
-    "quantity": "2 tbsp",
-    "name": "pumpkin seeds",
-    "prep": ""
-   }
-  ],
   "seasoning": [
    {
     "id": "cinnamon",
-    "quantity": "1 tsp",
-    "name": "ground cinnamon",
-    "prep": ""
+    "name": "cinnamon"
    },
    {
     "id": "salt",
-    "quantity": "a pinch",
-    "name": "salt",
-    "prep": ""
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "apples",
+    "quantity": "3",
+    "name": "eating apples"
+   },
+   {
+    "id": "rhubarb",
+    "quantity": "200g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "2 tbsp",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
    }
   ],
   "steps": [
-   "Put the apples, raisins, cinnamon, lemon juice and 100ml of the water in a small saucepan. Cover and simmer over a medium heat for 8 to 10 minutes, stirring once or twice, until the apples are soft but still holding their shape.",
-   "Meanwhile, put the oats, the rest of the water and the salt in a medium saucepan and bring to the boil. Turn the heat down and simmer for 5 to 6 minutes, stirring often, until thick and creamy.",
-   "Check the compote. If it looks dry, add a splash more water so it is loose and syrupy.",
-   "Spoon the porridge into bowls and top with the warm apples and their juices. Add a spoonful of peanut butter to each and scatter over the pumpkin seeds. Leftover compote keeps in the fridge for 3 days."
+   "Put the cored, chopped apples and rhubarb in a pan with the sugar, orange zest and juice, a good pinch of cinnamon and 3 tbsp water.",
+   "Cover and simmer for 10 minutes, until soft but still holding their shape.",
+   "Meanwhile, bring the oats, 1.2 litres water and a pinch of salt to the boil. Simmer for 5 minutes, stirring, until creamy.",
+   "Spoon the porridge into bowls, top with the warm compote and scatter over the chopped walnuts."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "Water is listed twice."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

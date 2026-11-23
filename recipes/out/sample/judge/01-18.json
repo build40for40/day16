@@ -1,43 +1,43 @@
 {
  "day": 18,
- "title": "Smoky split pea stew with purple sprouting broccoli",
+ "title": "Split pea and parsnip stew with purple sprouting broccoli",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is plain whole food or an allowed staple, such as tinned tomatoes, split peas and vegetable stock."
+   "reason": "Everything is a plain cupboard or garden staple: split peas, tinned tomatoes, stock, spices and fresh vegetables."
   },
   "supermarket": {
    "pass": true,
-   "reason": "All the ingredients are everyday Tesco lines; purple sprouting broccoli is on the shelves in January at a normal price."
+   "reason": "Every ingredient is an everyday Tesco item, including the purple sprouting broccoli, which is on sale in January."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded casserole, a knife and a board, and the technique is simple simmering."
+   "reason": "It needs only a knife, a board and one large lidded pan, and the technique is simple simmering and steaming."
   },
   "works": {
    "pass": true,
-   "reason": "250g split peas with 500g parsnips, veg and 1.2 litres of stock makes a well-balanced stew for four, the simmer is judged by softness, and there is a splash-of-water safeguard."
+   "reason": "250g split peas in 1.2 litres of stock with parsnips and 300g broccoli makes a sensible stew for four, and 50 minutes' simmering with a water top-up should soften the peas."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Chopping an onion, carrots and garlic fits in 20 minutes because the parsnips are prepped during the simmer, and the steps add up to roughly the 60 minutes of cooking printed."
+   "reason": "Chopping two onions and three parsnips, crushing garlic and trimming the broccoli fits 20 minutes, and the steps add up to about 63 minutes against the 60 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including the lemon, cumin and turmeric, is used, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming smoky stew suits mid-January, and 250g of purple sprouting broccoli steamed on top is a real share of the dish rather than a garnish."
+   "reason": "A warming split pea stew suits mid-January, and 300g of purple sprouting broccoli steamed on top is a real part of the dish rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, homely British English with sensible cues such as 'until soft' and 'until just tender'."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling pulse and vegetable stew with plenty of protein and fibre that a family would happily eat again."
+   "reason": "Pulses, root vegetables and greens make a filling, wholesome family dinner."
   }
  }
 }

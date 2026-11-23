@@ -17,115 +17,92 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Roast carrot and chickpea tray with feta",
+  "title": "Carrot, butter bean and orange soup",
   "meal": "lunch",
-  "dish_form": "warm traybake salad",
+  "dish_form": "soup",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "one_tray",
+  "kit": "one_pot",
   "utensils": [
-   "large roasting tray",
-   "small bowl"
+   "one heavy pan",
+   "a stick blender",
+   "a grater"
   ],
   "prep_minutes": 15,
   "cook_minutes": 25,
   "time_note": "",
   "best_time": "midday",
-  "freezes": false,
-  "ingredients": [
-   {
-    "id": "carrots",
-    "quantity": "600g",
-    "name": "carrots",
-    "prep": ""
-   },
-   {
-    "id": "red-onions",
-    "quantity": "1",
-    "name": "red onion",
-    "prep": "cut into wedges"
-   },
-   {
-    "id": "chickpeas",
-    "quantity": "2 x 400g",
-    "name": "tins chickpeas",
-    "prep": "drained"
-   },
-   {
-    "id": "olive-oil",
-    "quantity": "3 tbsp",
-    "name": "olive oil",
-    "prep": ""
-   },
-   {
-    "id": "kale",
-    "quantity": "100g",
-    "name": "kale",
-    "prep": "shredded"
-   },
-   {
-    "id": "pumpkin-seeds",
-    "quantity": "2 tbsp",
-    "name": "pumpkin seeds",
-    "prep": ""
-   },
-   {
-    "id": "lemons",
-    "quantity": "1",
-    "name": "lemon",
-    "prep": "juiced"
-   },
-   {
-    "id": "honey",
-    "quantity": "1 tsp",
-    "name": "honey",
-    "prep": ""
-   },
-   {
-    "id": "natural-yoghurt",
-    "quantity": "150g",
-    "name": "natural yoghurt",
-    "prep": ""
-   },
-   {
-    "id": "feta",
-    "quantity": "100g",
-    "name": "feta",
-    "prep": "crumbled"
-   }
-  ],
+  "freezes": true,
   "seasoning": [
    {
-    "id": "cumin",
-    "quantity": "2 tsp",
-    "name": "cumin",
-    "prep": ""
+    "id": "rosemary",
+    "name": "rosemary"
    },
    {
-    "id": "smoked-paprika",
-    "quantity": "1 tsp",
-    "name": "smoked paprika",
-    "prep": ""
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
    },
    {
     "id": "salt",
-    "quantity": "1 tsp",
-    "name": "salt",
-    "prep": ""
+    "name": "salt"
    },
    {
     "id": "black-pepper",
-    "quantity": "",
-    "name": "black pepper",
-    "prep": "to taste"
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "30g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "carrots",
+    "quantity": "600g",
+    "name": "carrots"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1 litre",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Halve the carrots lengthways, then cut into fingers. Tip onto a roasting tray with the onion, chickpeas, 2 tbsp of the oil, the cumin, paprika and most of the salt. Toss well and spread out.",
-   "Roast for 20 minutes, until the carrots are starting to brown at the edges.",
-   "Rub the kale with the rest of the oil. Stir it through the tray with the pumpkin seeds and roast for 5 minutes more, until the kale is crisp at the edges and the carrots are tender.",
-   "Meanwhile, stir the lemon juice and honey into the yoghurt with the rest of the salt.",
-   "Season the tray with black pepper, scatter over the feta and spoon the lemon yoghurt on top. Serve warm."
+   "Toast the seeds in a dry heavy pan until they pop, then tip out. Warm the oil and soften the chopped onion for 5 minutes.",
+   "Add the sliced garlic and carrots, a chopped sprig of rosemary, the drained beans and stock. Simmer for 20 minutes, until the carrots are soft.",
+   "Add the orange zest and juice and blend until smooth. Season.",
+   "Serve with a swirl of yoghurt, the seeds and a pinch of chilli."
   ]
  },
  "attempts": 1,
