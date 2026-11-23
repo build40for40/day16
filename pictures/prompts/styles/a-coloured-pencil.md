@@ -1,0 +1,6 @@
+- A chef's hand drawing of a dish, in graphite pencil and coloured pencil on white drawing paper.
+- Soft grey graphite outlines, a little sketchy, with some lines gone over twice and faint construction lines left in.
+- Colour is pastel coloured pencil: light, layered hatching that follows the form, with the pencil strokes clearly visible and plenty of paper showing through. Gentle, chalky tones such as sage, butter yellow, dusty pink, pale terracotta and lilac. Nothing saturated and nothing dark except the pencil line.
+- Crockery and pans are mostly bare outline with a little grey shading.
+- Pure white paper (#ffffff) with no tint, border or frame. The drawing fades out to white on all four sides so it sits on a white page with no visible rectangle.
+- Seen from a three-quarter angle, slightly above, with only a light smudge of graphite shadow under each object.

@@ -1,0 +1,6 @@
+- A chef's hand drawing of a dish, in pencil and soft chalk pastel on white paper.
+- A loose graphite pencil outline, then colour rubbed in with soft pastel sticks and smudged with a finger: powdery, matte, uneven, going over the lines in places.
+- Pastel colours only: sage, butter yellow, dusty pink, pale terracotta, lilac, powder blue. Nothing saturated and nothing dark except the pencil line.
+- Crockery and pans are mostly bare outline with a little grey smudge.
+- Pure white paper (#ffffff) with no tint, border or frame. The drawing fades out to white on all four sides so it sits on a white page with no visible rectangle.
+- Seen from a three-quarter angle, slightly above, with only a light smudge of shadow under each object.

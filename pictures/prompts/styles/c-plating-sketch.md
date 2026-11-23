@@ -1,0 +1,5 @@
+- A quick plating sketch from a chef's notebook, the kind drawn in two minutes to plan a dish before service.
+- Fast, confident graphite pencil lines, loose and unfinished, with ellipses drawn in one go and construction lines left in. Much of the drawing is bare line.
+- Only a few touches of pastel coloured pencil, scribbled loosely on the fresh ingredients: sage, butter yellow, dusty pink, lilac. Everything else is left uncoloured.
+- Pure white paper (#ffffff) with no tint, border or frame. The drawing fades out to white on all four sides so it sits on a white page with no visible rectangle.
+- Seen from a three-quarter angle, slightly above, with almost no shadow.
