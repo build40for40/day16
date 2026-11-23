@@ -71,8 +71,9 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 .buy .wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;flex-wrap:wrap}
 .buy p{font-size:clamp(2rem,5.4vw,3.8rem);line-height:.98;margin:0;max-width:15ch}
 .buy small{display:block;font:400 .85rem var(--mono);margin-top:14px;letter-spacing:0;text-transform:none;opacity:.85}
-.buy a{background:var(--buyf);color:var(--buyb);padding:16px 34px;font-weight:800;text-decoration:none;font-size:1.1rem;border-radius:var(--rad)}
-.buy a:hover,.buy a:focus-visible{outline:3px solid var(--buyf);outline-offset:3px}
+.buy .cta{display:inline-block;background:var(--buyf);color:var(--buyb);padding:16px 34px;font-weight:800;text-decoration:none;font-size:1.1rem;border-radius:var(--rad)}
+.buy .cta:hover,.buy .cta:focus-visible{outline:3px solid var(--buyf);outline-offset:3px}
+.buy small a{color:inherit}
 .fine{font:400 .72rem var(--mono);margin:0;padding-block:18px 28px;opacity:.7}
 @media(max-width:760px){.cols{grid-template-columns:1fr}}
 @media(max-width:520px){.g .s,.sk b{display:none}}
@@ -130,7 +131,7 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 </section>
 </main>
 </div>
-<div class="buy" id="buy"><div class="wrap"><p>Want every day? Get all 365.<small>Free today. Tomorrow's unlocks at midnight. The book has the lot.</small></p><a href="#">Buy the book, £12</a></div></div>
+<div class="buy" id="buy"><div class="wrap"><p id="bp">Want every day? Get all 365.<small>Free today. Tomorrow's unlocks at midnight. The book has the lot.</small></p><div id="ba"><a class="cta" href="https://buy.stripe.com/00wcN5g981TvekHdrJ7Zu08">Buy the book, £12</a><small>Plus £4 UK delivery. <a href="https://buy.stripe.com/8x2dR96yyeGh7WjevN7Zu09">Outside the UK? Delivery is £8.</a></small></div></div></div>
 <div class="wrap"><p class="fine">Working title. Sample recipes with illustrative distances.</p></div>
 <script>
 var R=[
@@ -177,6 +178,7 @@ function tick(){var n=new Date(),m=new Date(n);m.setHours(24,0,0,0);var s=Math.f
 tick();setInterval(tick,1000);
 $('reg').addEventListener('click',function(e){e.preventDefault();show((ri+1)%R.length)});
 skin(root.getAttribute('data-skin')||'designer',false);show(0);
+if(new URLSearchParams(location.search).has('paid')){$('bp').innerHTML="Sold. Your book is off to the printer.<small>It's printed just for you, so give it a week or two to land.</small>";$('ba').remove()}
 </script>
 </body>
 </html>

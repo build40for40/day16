@@ -1,0 +1,4 @@
+# Copy to .dev.vars for wrangler dev. Set each one in production with: npm run wrangler -- secret put NAME
+STRIPE_WEBHOOK_SECRET=
+LULU_CLIENT_KEY=
+LULU_CLIENT_SECRET=
