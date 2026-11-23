@@ -6,7 +6,9 @@
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./dist",
-    "run_worker_first": ["/seasoned/api/*"]
+    "binding": "ASSETS",
+    // The Worker hands out today's recipe and picture only, so the rest of the book can't be fetched.
+    "run_worker_first": ["/seasoned/api/*", "/seasoned/recipes/*", "/seasoned/pictures/*"]
   },
   "routes": [
     { "pattern": "build40for40.com/seasoned", "zone_name": "build40for40.com" },

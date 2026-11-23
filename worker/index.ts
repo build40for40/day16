@@ -1,4 +1,7 @@
-interface Env {
+import { picture, today } from './today'
+import type { Assets } from './today'
+
+interface Env extends Assets {
   STRIPE_WEBHOOK_SECRET?: string
   STRIPE_SANDBOX_WEBHOOK_SECRET?: string
   LULU_CLIENT_KEY?: string
@@ -74,6 +77,8 @@ export default {
     const { pathname } = new URL(request.url)
     if (request.method === 'POST' && pathname === `${API}/stripe/webhook`) return stripeWebhook(request, env)
     if (request.method === 'POST' && pathname === `${API}/lulu/webhook`) return luluWebhook(request, env)
+    if (request.method === 'GET' && pathname === `${API}/today`) return today(request, env)
+    if (request.method === 'GET' && pathname.startsWith('/seasoned/pictures/')) return picture(request, env)
     return text('Not found', 404)
   },
 } satisfies ExportedHandler<Env>

@@ -16,7 +16,7 @@ document.documentElement.setAttribute('data-skin',s)})();
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=Archivo:wght@500;900&family=Fraunces:opsz,wght@9..144,800&family=Hanken+Grotesk:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,600&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=Archivo:wght@500;900&family=Fraunces:opsz,wght@9..144,800&family=Hanken+Grotesk:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,600&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=DM+Mono:wght@400;500&family=Figtree:wght@300;400;600;700&display=swap">
 <style>
 /* One page, five skins. Base tokens are the Designer skin; each other skin overrides tokens and adds a little CSS under html[data-skin]. Tile colours are set from JS so text contrast is always picked per tile. */
 :root{--bg:#fff;--ink:#0b0b0b;--bd:var(--ink);--body:'Inter Tight',system-ui,sans-serif;--disp:'Inter Tight',system-ui,sans-serif;--dw:800;--dls:-.045em;--vtt:none;--ktt:uppercase;--bw:2px;--gap:0px;--rad:0px;--mono:'DM Mono',ui-monospace,monospace;--buyb:#e30613;--buyf:#fff;color-scheme:light}
@@ -75,8 +75,9 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 .buy .cta{display:inline-block;background:var(--buyf);color:var(--buyb);padding:16px 34px;font-weight:800;text-decoration:none;font-size:1.1rem;border-radius:var(--rad)}
 .buy .cta:hover,.buy .cta:focus-visible{outline:3px solid var(--buyf);outline-offset:3px}
 .buy small a{color:inherit}
-.sample{padding-block:clamp(24px,5vw,48px) clamp(8px,2vw,16px)}
-.sample img{display:block;width:100%;max-width:440px;height:auto;border:1px solid var(--bd);border-radius:var(--rad)}
+.sample{padding-block:clamp(24px,5vw,48px) clamp(8px,2vw,16px);text-align:center}
+.pg{width:100%;max-width:440px;margin-inline:auto;aspect-ratio:148/210;overflow:hidden;background:#fff;border:1px solid var(--bd);border-radius:var(--rad)}
+.pg img{display:block;width:100%;height:100%;object-fit:cover}
 .fine{font:400 .72rem var(--mono);margin:0;padding-block:18px 28px;opacity:.7}
 @media(max-width:760px){.cols{grid-template-columns:1fr}}
 @media(max-width:520px){.g .s,.sk b{display:none}}
@@ -124,8 +125,8 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 <a href="#buy"><span class="k">Buy</span><span><span class="v">£17.99</span><span class="s">All 365 days, plus shipping</span></span></a>
 </nav>
 <section class="sample" id="sample">
-<p class="tag">A page from the book</p>
-<img src="sample-page.jpg" width="1152" height="1728" loading="lazy" alt="A page from Seasoned for 14 July: courgette and cherry tomato frittata, with a painted picture of the dish, the ingredients, the seasoning and four steps.">
+<p class="tag" id="pt">A page from the book</p>
+<div class="pg" id="pg"><img src="sample-page.jpg" width="1118" height="1586" loading="lazy" alt="A page from Seasoned for 14 July: courgette and cherry tomato frittata, with a painted picture of the dish, the ingredients, the seasoning and four steps."></div>
 </section>
 </main>
 </div>
@@ -153,7 +154,7 @@ garden:{n:"Garden",tight:true,sw:["#1f7a3d","#e8432b","#ffd25a"],t:[0,"#ffd25a",
 calm:{n:"Calm",tight:false,sw:["#dbe4d6","#efdfd2","#d8e2e7"],t:["#dbe4d6","#efdfd2","#e5e1d0","#d8e2e7","#e9dce4","#f0e8c9","#d9e6df","#e8e3dc","#2f5a3e"]},
 cool:{n:"Cool",tight:true,sw:["#09090b","#c6ff00","#26262b"],t:[0,0,"#c6ff00",0,"#26262b",0,0,0,"#c6ff00"]}
 };
-var $=function(i){return document.getElementById(i)},ri=0,grid=$('g'),tiles=grid.querySelectorAll('a'),root=document.documentElement,keys=Object.keys(SK);
+var $=function(i){return document.getElementById(i)},ri=0,T=null,grid=$('g'),tiles=grid.querySelectorAll('a'),root=document.documentElement,keys=Object.keys(SK);
 function rl(h){var n=parseInt(h.slice(1),16),c=[n>>16&255,n>>8&255,n&255].map(function(v){v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)});return .2126*c[0]+.7152*c[1]+.0722*c[2]}
 function pick(h){var l=rl(h);return (l+.05)/.05>1.05/(l+.05)?'#0b0b0b':'#ffffff'}
 function skin(k,save){var s=SK[k];root.setAttribute('data-skin',k);grid.classList.toggle('tight',s.tight);
@@ -166,14 +167,24 @@ $('sks').innerHTML=keys.map(function(k){var w=SK[k].sw;return '<button type="but
 document.querySelectorAll('#sks button').forEach(function(b){b.addEventListener('click',function(){skin(b.dataset.k,true)})});
 function show(i){ri=i;var d=R[i],t=0,m=0;d.ing.forEach(function(x){t+=x[1];if(x[1]>m)m=x[1]});
 $('t1').textContent=d.short;$('s1').textContent=d.title;$('t2').textContent=d.season.split(' ')[1].replace(/^./,function(c){return c.toUpperCase()});$('s2').textContent=d.season+', '+d.n;
-$('t3').textContent=m+' mi';$('t4').textContent=d.ing.length;$('t7').textContent=d.sh;}
+$('t3').textContent=m+' mi';$('t4').textContent=d.ing.length;$('t7').textContent=d.sh;
+if(i===0&&T){$('t1').textContent=T.form.replace(/^./,function(c){return c.toUpperCase()});$('s1').textContent=T.title;$('t4').textContent=T.ingredients}}
 var now=new Date(),doy=Math.round((Date.UTC(now.getFullYear(),now.getMonth(),now.getDate())-Date.UTC(now.getFullYear(),0,0))/864e5);
 $('dn').textContent='Day '+doy+' of 365';
 $('s5').textContent='Day '+(doy+1)+' unlocks at midnight';
-function tick(){var n=new Date(),m=new Date(n);m.setHours(24,0,0,0);var s=Math.floor((m-n)/1000),p=function(x){return String(x).padStart(2,'0')};$('cd').textContent=p(Math.floor(s/3600))+':'+p(Math.floor(s%3600/60))+':'+p(s%60)}
+var unlock=0;
+function tick(){var n=new Date(),m=new Date(n);m.setHours(24,0,0,0);if(unlock)m=unlock;var s=Math.max(0,Math.floor((m-n)/1000)),p=function(x){return String(x).padStart(2,'0')};$('cd').textContent=p(Math.floor(s/3600))+':'+p(Math.floor(s%3600/60))+':'+p(s%60)}
 tick();setInterval(tick,1000);
 $('reg').addEventListener('click',function(e){e.preventDefault();show((ri+1)%R.length)});
 skin(root.getAttribute('data-skin')||'seasoned',false);show(0);
+/* Today's page comes from the Worker, drawn with the book's own layout. The picture of the sample page stays if it can't be fetched. */
+fetch('api/today').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){T=d;show(ri);
+$('dn').textContent='Day '+d.day+' of 365';$('s5').textContent='Day '+(d.day%365+1)+' unlocks at midnight, UK time';unlock=new Date(Date.now()+d.unlocks_in*1000);tick();
+$('pt').textContent="Today's page, "+d.label;
+var host=$('pg'),sh=host.attachShadow({mode:'open'});
+sh.innerHTML='<style>'+d.css+'.page{transform-origin:0 0;transform:scale(var(--z,1));text-align:left;line-height:normal}</style>'+d.html;
+var fit=function(){host.style.setProperty('--z',host.clientWidth/sh.querySelector('.page').offsetWidth)};
+fit();if(window.ResizeObserver)new ResizeObserver(fit).observe(host)}).catch(function(){});
 var qs=new URLSearchParams(location.search);
 if(qs.has('paid')){$('bp').innerHTML="Thanks. Check your email.<small>We'll confirm there once your book is with the printer. Nothing in an hour? Tell us at <a href=\"mailto:help@build40for40.com\">help@build40for40.com</a>.</small>";$('ba').innerHTML='<a class="cta" href="./">Back to today\'s recipe</a>';
 /* Drop ?paid so a refresh or a shared link shows the normal page again. */

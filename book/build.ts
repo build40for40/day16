@@ -7,7 +7,7 @@
 // the words in book/copy.json and the recipe data, and writes into dist/book/ (ignored by git):
 //
 //   interior.html           the whole book, in colour
-//   seasoned-interior.pdf   6 x 9 inch print file, in colour
+//   seasoned-interior.pdf   A5 print file, in colour
 //   seasoned-interior-bw.pdf  the same, with grey pictures for a black and white print run
 //   pictures/, pictures-bw/ the illustrations resized for print (300 pixels per inch)
 //
@@ -17,6 +17,8 @@
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
+
+import { BOX, SEASONS, SEASON_TOPS } from "../pages/page.ts";
 
 interface Slot { day: number; label: string; month: number; meal: string }
 interface Ingredient { id: string; name: string }
@@ -69,8 +71,10 @@ const recipes: RecipeFile[] = readdirSync(recipeDir)
 
 // ---------- the other pages ----------
 
+const INDEX_COLUMN = (BOX.width - 16) / 2;
+
 const CSS = `
-.matter .box{position:absolute;left:95px;top:56px;width:386px;height:760px;display:flex;flex-direction:column}
+.matter .box{position:absolute;left:${BOX.left}px;top:${BOX.top}px;width:${BOX.width}px;height:${BOX.height}px;display:flex;flex-direction:column}
 .matter h2{margin:0 0 20px;font-size:25px;line-height:31px;font-weight:400;letter-spacing:-0.2px}
 .matter h3{margin:16px 0 8px;font-size:12px;line-height:16px;font-weight:600;letter-spacing:0.4px}
 .matter p{margin:0 0 12px;font-size:13px;line-height:21px}
@@ -86,7 +90,7 @@ const CSS = `
 .matter .contents{display:grid;grid-template-columns:1fr auto;gap:0 16px;font-size:13px;line-height:26px}
 .matter .contents span:nth-child(even){color:#8C968C;text-align:right}
 .matter .columns2{display:flex;gap:16px;align-items:flex-start;font-size:12px;line-height:16px}
-.matter .columns2 > div{flex:0 0 185px;min-width:0}
+.matter .columns2 > div{flex:0 0 ${INDEX_COLUMN}px;min-width:0}
 .matter .entry{margin-bottom:6px}
 .matter .entry b{font-weight:600;display:block}
 .matter .entry span{color:#4B5A4E}
@@ -101,9 +105,7 @@ const paragraphs = (list: string[]) => list.map((text) => `<p>${esc(text)}</p>`)
 
 // The season line from the cover and the recipe pages, with the whole year still ahead: no dot, nothing filled in.
 function seasonLine(): string {
-  const tops = [218, 351, 510, 669, 775];
-  const names = ["winter", "spring", "summer", "autumn", "winter"];
-  return `<div class="year"></div>${names.map((name, index) => `<span class="season on" style="top:${tops[index]}px"><svg viewBox="0 0 24 24"><use href="#${name}"></use></svg></span>`).join("")}`;
+  return `<div class="year"></div>${SEASONS.map((name, index) => `<span class="season on" style="top:${SEASON_TOPS[index]}px"><svg viewBox="0 0 24 24"><use href="#${name}"></use></svg></span>`).join("")}`;
 }
 
 function frontPages(): string[] {
@@ -129,7 +131,7 @@ function indexPages(heading: string, lead: string, items: IndexItem[]): string[]
   const pages: string[] = [];
   let columns: string[][] = [[]];
   let used = 0;
-  const room = () => (pages.length === 0 ? 40 : 44);
+  const room = () => (pages.length === 0 ? 36 : 40);
   const flush = () => {
     const head = pages.length === 0 ? `<h2>${esc(heading)}</h2>${lead ? `<p class="lead" style="margin-top:-8px">${esc(lead)}</p>` : ""}` : "";
     pages.push(`<div class="box">${head}<div class="columns2">${columns.map((column) => `<div>${column.join("")}</div>`).join("")}</div></div>`);
@@ -172,7 +174,7 @@ function ingredientIndex(): string[] {
         .sort((a, b) => a[0] - b[0])
         .map(([month, days]) => `${MONTHS[month - 1].slice(0, 3)} ${days.join(", ")}`)
         .join(" · ");
-      return { html: `<div class="entry"><b>${esc(name)}</b><span>${esc(dates)}</span></div>`, lines: 1 + wrap(dates, 178) + 0.4 };
+      return { html: `<div class="entry"><b>${esc(name)}</b><span>${esc(dates)}</span></div>`, lines: 1 + wrap(dates, INDEX_COLUMN - 7) + 0.4 };
     });
   return indexPages(copy.index_ingredients_heading, copy.index_ingredients_lead, items);
 }
@@ -183,7 +185,7 @@ function mealIndex(): string[] {
     items.push({ html: `<div class="group"${items.length ? ' style="margin-top:12px"' : ""}>${meal}</div>`, lines: items.length ? 2.2 : 1.5 });
     for (const { slot, recipe } of recipes.filter((file) => file.slot.meal === meal)) {
       const [day, month] = slot.label.split(" ");
-      items.push({ html: `<div class="row"><i>${esc(day)} ${esc(month.slice(0, 3))}</i><span>${esc(recipe.title)}</span></div>`, lines: wrap(recipe.title, 128) });
+      items.push({ html: `<div class="row"><i>${esc(day)} ${esc(month.slice(0, 3))}</i><span>${esc(recipe.title)}</span></div>`, lines: wrap(recipe.title, INDEX_COLUMN - 57) });
     }
   }
   return indexPages(copy.index_meals_heading, "", items);
@@ -233,7 +235,7 @@ ${back.map((inner, index) => matter(inner, front.length + recipes.length + index
 
 mkdirSync(out, { recursive: true });
 
-// Pictures at print size: the picture box is 3.7 inches wide, so 1120 pixels is 300 per inch.
+// Pictures at print size: the picture box is 3.5 inches wide, so 1120 pixels is a little over 300 per inch.
 const grayProfile = "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc";
 for (const [folder, gray] of [["pictures", false], ["pictures-bw", true]] as const) {
   mkdirSync(join(out, folder), { recursive: true });
