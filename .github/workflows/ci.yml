@@ -45,12 +45,15 @@ jobs:
       - name: Set the Worker's secrets
         if: env.CLOUDFLARE_API_TOKEN != '' && github.event_name == 'push'
         env:
+          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+          STRIPE_SANDBOX_WEBHOOK_SECRET: ${{ secrets.STRIPE_SANDBOX_WEBHOOK_SECRET }}
           LULU_CLIENT_KEY: ${{ secrets.LULU_CLIENT_KEY }}
           LULU_CLIENT_SECRET: ${{ secrets.LULU_CLIENT_SECRET }}
-          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+          LULU_SANDBOX_CLIENT_KEY: ${{ secrets.LULU_SANDBOX_CLIENT_KEY }}
+          LULU_SANDBOX_CLIENT_SECRET: ${{ secrets.LULU_SANDBOX_CLIENT_SECRET }}
           POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
         run: |
-          for name in LULU_CLIENT_KEY LULU_CLIENT_SECRET STRIPE_WEBHOOK_SECRET POSTMARK_SERVER_TOKEN; do
+          for name in STRIPE_WEBHOOK_SECRET STRIPE_SANDBOX_WEBHOOK_SECRET LULU_CLIENT_KEY LULU_CLIENT_SECRET LULU_SANDBOX_CLIENT_KEY LULU_SANDBOX_CLIENT_SECRET POSTMARK_SERVER_TOKEN; do
             if [ -n "${!name}" ]; then
               printf '%s' "${!name}" | npx wrangler secret put "$name"
             else
@@ -63,17 +66,22 @@ jobs:
         env:
           LULU_CLIENT_KEY: ${{ secrets.LULU_CLIENT_KEY }}
           LULU_CLIENT_SECRET: ${{ secrets.LULU_CLIENT_SECRET }}
+          LULU_SANDBOX_CLIENT_KEY: ${{ secrets.LULU_SANDBOX_CLIENT_KEY }}
+          LULU_SANDBOX_CLIENT_SECRET: ${{ secrets.LULU_SANDBOX_CLIENT_SECRET }}
           WEBHOOK: https://build40for40.com/seasoned/api/lulu/webhook
         run: |
-          [ -n "$LULU_CLIENT_KEY" ] || { echo "::notice::No Lulu keys on the repo, so no webhook was set up."; exit 0; }
-          api=$(sed -nE 's/.*"LULU_API_URL": "([^"]+)".*/\1/p' wrangler.jsonc)
-          token=$(curl -fsS -u "$LULU_CLIENT_KEY:$LULU_CLIENT_SECRET" -d grant_type=client_credentials "$api/auth/realms/glasstree/protocol/openid-connect/token" | jq -r .access_token)
-          if curl -fsS -H "Authorization: Bearer $token" "$api/webhooks/" | jq -e --arg url "$WEBHOOK" '.results | any(.url == $url)' > /dev/null; then
-            echo "Already subscribed."
-          else
-            curl -fsS -H "Authorization: Bearer $token" -H "Content-Type: application/json" -d "{\"topics\":[\"PRINT_JOB_STATUS_CHANGED\"],\"url\":\"$WEBHOOK\"}" "$api/webhooks/" > /dev/null
-            echo "Subscribed."
-          fi
+          subscribe() {
+            [ -n "$2" ] || { echo "::notice::No Lulu keys for $1, so no webhook was set up there."; return 0; }
+            token=$(curl -fsS -u "$2:$3" -d grant_type=client_credentials "$1/auth/realms/glasstree/protocol/openid-connect/token" | jq -r .access_token)
+            if curl -fsS -H "Authorization: Bearer $token" "$1/webhooks/" | jq -e --arg url "$WEBHOOK" '.results | any(.url == $url)' > /dev/null; then
+              echo "Already subscribed on $1."
+            else
+              curl -fsS -H "Authorization: Bearer $token" -H "Content-Type: application/json" -d "{\"topics\":[\"PRINT_JOB_STATUS_CHANGED\"],\"url\":\"$WEBHOOK\"}" "$1/webhooks/" > /dev/null
+              echo "Subscribed on $1."
+            fi
+          }
+          subscribe https://api.sandbox.lulu.com "$LULU_SANDBOX_CLIENT_KEY" "$LULU_SANDBOX_CLIENT_SECRET"
+          subscribe https://api.lulu.com "$LULU_CLIENT_KEY" "$LULU_CLIENT_SECRET"
 
       # Preview aliases must be a lowercase DNS label short enough to sit before "-seasoned".
       - name: Name the preview

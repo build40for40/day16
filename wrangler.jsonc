@@ -13,9 +13,7 @@
     { "pattern": "build40for40.com/seasoned/*", "zone_name": "build40for40.com" }
   ],
   "vars": {
-    // Lulu's sandbox and its own sample 32-page trade paperback. Going live means swapping these four for
-    // https://api.lulu.com and the real book.
-    "LULU_API_URL": "https://api.sandbox.lulu.com",
+    // Lulu's own sample 32-page trade paperback, until the real book's files exist.
     "LULU_POD_PACKAGE_ID": "0600X0900.BW.STD.PB.060UW444.MXX",
     "LULU_INTERIOR_URL": "https://www.dropbox.com/s/r20orb8umqjzav9/lulu_trade_interior_template-32.pdf?dl=1&raw=1",
     "LULU_COVER_URL": "https://www.dropbox.com/s/7bv6mg2tj0h3l0r/lulu_trade_perfect_template.pdf?dl=1&raw=1",

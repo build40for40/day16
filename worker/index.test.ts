@@ -2,13 +2,14 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 
 import worker from './index'
 
-const SECRET = 'whsec_test'
+const SECRET = 'whsec_sandbox'
+const LIVE_SECRET = 'whsec_live'
 const env = {
-  STRIPE_WEBHOOK_SECRET: SECRET,
-  LULU_CLIENT_KEY: 'key',
-  LULU_CLIENT_SECRET: 'secret',
+  STRIPE_WEBHOOK_SECRET: LIVE_SECRET,
+  STRIPE_SANDBOX_WEBHOOK_SECRET: SECRET,
+  LULU_SANDBOX_CLIENT_KEY: 'key',
+  LULU_SANDBOX_CLIENT_SECRET: 'secret',
   POSTMARK_SERVER_TOKEN: 'postmark',
-  LULU_API_URL: 'https://api.sandbox.lulu.com',
   LULU_POD_PACKAGE_ID: '0600X0900.BW.STD.PB.060UW444.MXX',
   LULU_INTERIOR_URL: 'https://files.example/interior.pdf',
   LULU_COVER_URL: 'https://files.example/cover.pdf',
@@ -29,10 +30,10 @@ const session = (overrides = {}) => ({
   ...overrides,
 })
 
-async function deliver(object: object, { livemode = false, signature }: { livemode?: boolean; signature?: string } = {}) {
+async function deliver(object: object, { livemode = false, signature, secret = SECRET }: { livemode?: boolean; signature?: string; secret?: string } = {}) {
   const body = JSON.stringify({ type: 'checkout.session.completed', livemode, data: { object } })
   const timestamp = Math.floor(Date.now() / 1000)
-  const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(SECRET), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign'])
+  const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign'])
   const signed = await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(`${timestamp}.${body}`))
   const hex = [...new Uint8Array(signed)].map((byte) => byte.toString(16).padStart(2, '0')).join('')
   const request = new Request('https://build40for40.com/seasoned/api/stripe/webhook', {
@@ -117,13 +118,19 @@ describe('the Stripe webhook', () => {
     expect(await response.text()).toContain('Too long.')
   })
 
-  it('refuses a live order while Lulu is the sandbox', async () => {
+  it('fails a live order while the production Lulu keys are missing', async () => {
     const calls = lulu()
 
-    const response = await deliver(session(), { livemode: true })
+    const response = await deliver(session(), { livemode: true, secret: LIVE_SECRET })
 
     expect(response.status).toBe(503)
     expect(calls).toHaveLength(0)
+  })
+
+  it('rejects a live order signed with the sandbox secret', async () => {
+    const response = await deliver(session(), { livemode: true })
+
+    expect(response.status).toBe(400)
   })
 
   it('rejects a bad signature', async () => {
