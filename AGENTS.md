@@ -7,7 +7,7 @@ Day 16 of 40 for 40, built live on Twitch on Monday 23 November 2026. The proble
 
 - **Web page:** `index.html` is the single-page book site (one free seasonal recipe a day, or buy the book for all 365), with five skins switched from the top right. It's served at `build40for40.com/day16/` by copying it to `public/day16/index.html` in the `site` repo and merging that PR.
 
-- **Page format:** `design/` holds three sample recipe pages at A5 (148 × 210 mm, 559 × 794 px), one each for days 46, 196 and 327. Each page has the picture, seasoning, title, utensils, time split into prep and cook, ingredients and method. The right-hand edge is what you see when you flick: the date over the day number, four season icons on a year line with winter at both ends and a dot on today, and 30m, 60m or 90m near the bottom. The recipes on them are the three samples from `index.html`, with utensils, the prep and cook split and the seasoning list worked out from their steps.
+- **Page format:** `design/` holds three sample recipe pages at A5 (148 × 210 mm, 559 × 794 px), built from the generated samples `03-19`, `06-21` and `10-07` in `recipes/out/sample/recipes/`. Each page has a landscape picture, the title, utensils, time split into prep and cook, ingredients with seasoning as its own section underneath, and the method. The right-hand edge is what you see when you flick: the date over the day number, four season icons on a year line with winter at both ends and a dot on today, and 30m, 60m or 90m near the bottom. A recipe fits when its method is about 150 words or fewer; 11 of the 24 samples run over.
 
 Shared 40 for 40 context lives in `../AGENTS.md`.
 
