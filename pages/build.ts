@@ -48,9 +48,9 @@ interface RecipeFile {
 // The outer edge is what you see when you flick through the book: on the right of a
 // right-hand page and on the left of a left-hand page. Everything else keeps its place.
 const YEAR_LINE_TOP = 170;
-const YEAR_LINE_HEIGHT = 432;
+const YEAR_LINE_HEIGHT = 584;
 const SEASONS = ["winter", "spring", "summer", "autumn", "winter"] as const;
-const SEASON_TOPS = [191, 281, 389, 497, 569];
+const SEASON_TOPS = [204, 325, 471, 617, 715];
 
 const FONT = `<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;700&display=swap" rel="stylesheet">`;
 
@@ -81,8 +81,6 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 .year{position:absolute;right:27px;top:${YEAR_LINE_TOP}px;width:1px;height:${YEAR_LINE_HEIGHT}px;background:#c9c6be}
 .gone{position:absolute;right:26px;top:${YEAR_LINE_TOP}px;width:2px;background:#1b1a17}
 .today{position:absolute;right:24px;width:7px;height:7px;border-radius:50%;background:#1b1a17}
-.time{position:absolute;right:28px;top:668px;display:flex;flex-direction:column;align-items:flex-end;font-size:13px;line-height:24px;color:#767676}
-.time .on{color:#1b1a17;font-weight:700}
 .verso .content{left:89px}
 .verso .picture{margin-left:30px}
 .verso .date{right:auto;left:28px;text-align:left}
@@ -90,7 +88,6 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 .verso .year{right:auto;left:27px}
 .verso .gone{right:auto;left:26px}
 .verso .today{right:auto;left:24px}
-.verso .time{right:auto;left:28px;align-items:flex-start}
 @page{size:148mm 210mm;margin:0}
 @media print{.page{break-after:page}}
 `;
@@ -122,12 +119,6 @@ function seasonIndex(month: number): number {
   return 3;
 }
 
-function timeBucket(total: number): number {
-  if (total <= 30) return 30;
-  if (total <= 60) return 60;
-  return 90;
-}
-
 type Side = "left" | "right";
 
 // Day 1 sits on a right-hand page unless --first-side says otherwise, and the sides alternate from there.
@@ -143,7 +134,6 @@ function page(file: RecipeFile, picture: string | null, side: Side): string {
   const total = recipe.prep_minutes + recipe.cook_minutes;
   const gone = Math.round(((slot.day - 0.5) / 365) * YEAR_LINE_HEIGHT * 10) / 10;
   const season = seasonIndex(slot.month);
-  const bucket = timeBucket(total);
   const note = recipe.time_note ? `, ${escapeHtml(recipe.time_note)}` : "";
   const image = picture
     ? `<img class="picture" src="${escapeHtml(picture)}" alt="">`
@@ -176,7 +166,6 @@ ${SEASONS.map((name, index) => `<span class="season${index === season ? " on" : 
 </div>
 <div class="year"></div><div class="gone" style="height:${gone}px"></div>
 <div class="today" style="top:${YEAR_LINE_TOP + gone - 3.5}px"></div>
-<div class="time">${[30, 60, 90].map((value) => `<span${value === bucket ? ' class="on"' : ""}>${value}m</span>`).join("")}</div>
 </div>`;
 }
 
