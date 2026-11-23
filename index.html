@@ -73,6 +73,8 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 .buy p{font-size:clamp(2rem,5.4vw,3.8rem);line-height:.98;margin:0;max-width:15ch}
 .buy small{display:block;font:400 .85rem var(--mono);margin-top:14px;letter-spacing:0;text-transform:none;opacity:.85}
 .buy .cta{display:inline-block;background:var(--buyf);color:var(--buyb);padding:16px 34px;font-weight:800;text-decoration:none;font-size:1.1rem;border-radius:var(--rad)}
+.buy .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.buy .cta.alt{background:transparent;color:var(--buyf);box-shadow:inset 0 0 0 2px var(--buyf)}
 .buy .cta:hover,.buy .cta:focus-visible{outline:3px solid var(--buyf);outline-offset:3px}
 .buy small a{color:inherit}
 .sample{padding-block:clamp(24px,5vw,48px) clamp(8px,2vw,16px);text-align:center}
@@ -129,11 +131,11 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 <section class="sample" id="sample">
 <p class="tag" id="pt">A page from the book</p>
 <div class="pg" id="pg"><img src="sample-page.jpg" width="1118" height="1586" loading="lazy" alt="A page from Seasoned for 14 July: courgette and cherry tomato frittata, with a painted picture of the dish, the ingredients, the seasoning and four steps."></div>
-<p class="free">Can't wait for tomorrow? <a href="seasoned.pdf" download>Download the PDF</a> or <a href="seasoned.epub" download>the EPUB</a></p>
+<p class="free">Can't wait for tomorrow? <a href="seasoned.pdf" download>Download the PDF</a></p>
 </section>
 </main>
 </div>
-<div class="buy" id="buy"><div class="wrap"><p id="bp">Want every day? Get all 365.<small>Free today, and free as a PDF or EPUB. The printed book is the one that lives in your kitchen.</small></p><div id="ba"><a class="cta" id="bl" href="https://buy.stripe.com/test_7sY8wObIG3Iz10jcqPdfG0b">Buy the book, £17.99</a><small>Plus £4 UK delivery. <a id="bw" href="https://buy.stripe.com/test_28EcN4cMK6UL8sL62rdfG0c">Outside the UK? Delivery is £12.</a></small></div></div></div>
+<div class="buy" id="buy"><div class="wrap"><p id="bp">Want every day? Get all 365.<small>Free today, and free as a PDF or EPUB. The printed book is the one that lives in your kitchen.</small></p><div id="ba"><div class="ctas"><a class="cta" id="bl" href="https://buy.stripe.com/test_7sY8wObIG3Iz10jcqPdfG0b">Buy the book, £17.99</a><a class="cta alt" href="seasoned.epub" download>Get the free EPUB</a></div><small>Plus £4 UK delivery. <a id="bw" href="https://buy.stripe.com/test_28EcN4cMK6UL8sL62rdfG0c">Outside the UK? Delivery is £12.</a></small></div></div></div>
 <div class="wrap"><p class="fine">Sample recipes with illustrative distances.</p></div>
 <script>
 var R=[
