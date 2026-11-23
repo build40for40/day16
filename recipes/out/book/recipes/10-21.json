@@ -27,7 +27,7 @@
    "one large lidded pan",
    "a toaster or grill"
   ],
-  "prep_minutes": 30,
+  "prep_minutes": 35,
   "cook_minutes": 10,
   "time_note": "",
   "best_time": "midday",
@@ -47,6 +47,11 @@
     "id": "mussels",
     "quantity": "1kg",
     "name": "mussels"
+   },
+   {
+    "id": "cider",
+    "quantity": "150ml",
+    "name": "dry cider"
    },
    {
     "id": "butter",
@@ -69,30 +74,29 @@
     "name": "white cabbage"
    },
    {
-    "id": "cider",
-    "quantity": "200ml",
-    "name": "dry cider"
-   },
-   {
     "id": "creme-fraiche",
     "quantity": "100ml",
     "name": "crème fraîche"
    },
    {
     "id": "bread",
-    "quantity": "4 thick slices",
+    "quantity": "4 slices",
     "name": "crusty bread"
    }
   ],
   "steps": [
-   "Scrub and debeard the mussels, throwing away any open ones that won't close when tapped.",
-   "Melt the butter in a big lidded pan. Soften the sliced shallots, garlic and shredded cabbage for 8 minutes.",
-   "Add the cider and mussels. Cover and steam for 5 minutes until open. Discard any still shut and pick the rest from their shells.",
-   "Stir the mussels, crème fraîche and plenty of pepper into the cabbage. Pile onto toast with chopped parsley."
+   "Scrub the mussels, binning any open ones that won't close.",
+   "Steam in the cider in a lidded pan for 5 minutes, until open. Shell, discarding any shut, and keep the liquor.",
+   "Melt the butter in the pan. Soften the sliced shallots, garlic and shredded cabbage for 8 minutes.",
+   "Add the liquor and bubble until nearly gone. Stir in the crème fraîche, mussels and pepper. Pile onto toast with chopped parsley."
   ]
  },
- "attempts": 1,
- "rejections": [],
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 78 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

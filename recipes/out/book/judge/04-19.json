@@ -1,43 +1,43 @@
 {
  "day": 109,
- "title": "Lamb chops on creamy spinach and butter beans",
+ "title": "Lamb chops with new potatoes, spinach and Bramley",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Lamb, onions, garlic, apples, tinned butter beans, crème fraîche and spinach are all ordinary cupboard, fridge or garden foods."
+   "reason": "Everything is whole food: potatoes, onions, spinach, garlic, lamb chops, apples, oil, rosemary and wholegrain mustard."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is a normal Tesco line, and spring lamb chops in April are within an everyday family shop."
+   "reason": "Every item is a standard Tesco line, and lamb chops, though not the cheapest meat, are an ordinary weeknight buy."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "Only a large roasting tray is needed and the technique is simple roasting and stirring."
+   "reason": "It needs only a large roasting tray, a knife and a board, and uses simple roasting."
   },
   "works": {
    "pass": false,
-   "reason": "The chops roast for 23 minutes in total at 220°C, which would leave ordinary lamb chops dry and grey, and the Bramley wedges would collapse into sour mush through the creamy beans; stirring 600g of raw spinach on a tray outside the oven 'until it wilts' would also be slow and messy."
+   "reason": "Setting the chops on 400g of raw spinach in a tray already full of potatoes means the spinach floods the tray as it wilts, so in 10 to 12 minutes the chops steam grey rather than brown, and the last step's mixing of apple, juices and spinach under the chops is muddled."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes covers the onion, garlic and apple prep and the stirring, and 10 + 15 + 8 matches the 33 minutes of cook time."
+   "reason": "Twenty minutes is fair for halving the potatoes, cutting onion wedges, slicing garlic and coring the apples, and 25 + 12 + 5 matches the 42 cook minutes."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, names match their ids, and nothing unlisted appears."
+   "reason": "Each name matches its id, every listed ingredient and seasoning is used, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A large 600g bed of creamy spinach with spring lamb suits mid-April, and the spinach is a main part of the dish rather than a garnish."
+   "reason": "April spinach with new potatoes and lamb suits mid-spring, and 400g of spinach is a main component rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps read as plain, friendly British instructions a beginner could follow."
+   "reason": "The steps are brief, plain British English with no restaurant language."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Lamb, beans and a lot of spinach make a proper, filling family dinner."
+   "reason": "It is a balanced family dinner of lamb, potatoes, greens and fruit."
   }
  }
 }

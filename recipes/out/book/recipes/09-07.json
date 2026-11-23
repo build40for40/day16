@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Warm blackberries on toast with kipper ricotta",
+  "title": "Kippers on toast with sharp blackberry relish",
   "meal": "breakfast",
   "dish_form": "on toast",
   "diet": "fish",
@@ -25,65 +25,79 @@
   "kit": "hob",
   "utensils": [
    "a frying pan",
-   "a bowl",
+   "a small bowl",
    "a toaster"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 8,
+  "prep_minutes": 12,
+  "cook_minutes": 5,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
   "seasoning": [
    {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
     "id": "black-pepper",
     "name": "black pepper"
    },
    {
-    "id": "lemons",
-    "name": "lemon"
+    "id": "dill",
+    "name": "dill"
    },
    {
-    "id": "thyme",
-    "name": "thyme"
+    "id": "lemons",
+    "name": "lemon"
    }
   ],
   "ingredients": [
    {
-    "id": "kippers",
-    "quantity": "2",
-    "name": "kipper fillets"
-   },
-   {
-    "id": "ricotta",
-    "quantity": "250g",
-    "name": "ricotta"
-   },
-   {
     "id": "blackberries",
-    "quantity": "400g",
+    "quantity": "200g",
     "name": "blackberries"
    },
    {
-    "id": "honey",
+    "id": "shallots",
+    "quantity": "1",
+    "name": "shallot"
+   },
+   {
+    "id": "cider-vinegar",
     "quantity": "1 tbsp",
-    "name": "honey"
+    "name": "cider vinegar"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "kippers",
+    "quantity": "4",
+    "name": "kipper fillets"
    },
    {
     "id": "bread",
-    "quantity": "8 slices",
+    "quantity": "4 thick slices",
     "name": "wholemeal bread"
    },
    {
+    "id": "butter",
+    "quantity": "20g",
+    "name": "butter"
+   },
+   {
     "id": "watercress",
-    "quantity": "50g",
+    "quantity": "80g",
     "name": "watercress"
    }
   ],
   "steps": [
-   "Simmer the kippers in a frying pan of water for 4 minutes. Drain and flake off the skin and bones.",
-   "Beat the kipper into the ricotta with the lemon zest and plenty of pepper.",
-   "Wipe the pan. Warm the blackberries with the honey and thyme for 3 to 4 minutes, until burst and jammy.",
-   "Toast the bread, spread with kipper ricotta and pile on the warm blackberries. Top with watercress."
+   "Halve the blackberries and toss with the finely chopped shallot, vinegar, oil, chopped dill, salt and plenty of pepper.",
+   "Lay the kippers in a frying pan, cover with boiling water and simmer gently for 4 minutes. Drain.",
+   "Toast and butter the bread. Top with watercress and a kipper.",
+   "Spoon over the relish and its juices, and squeeze over a little lemon."
   ]
  },
  "attempts": 1,

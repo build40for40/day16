@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Roast cherry tomato dip with trout",
+  "title": "Trout and ricotta dip with roast cherry tomatoes",
   "meal": "snack",
   "dish_form": "dip with crudités",
   "diet": "fish",
@@ -25,10 +25,11 @@
   "kit": "oven",
   "utensils": [
    "a roasting tray",
-   "a stick blender"
+   "a mixing bowl",
+   "a fork"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 30,
+  "cook_minutes": 25,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
@@ -42,27 +43,27 @@
     "name": "black pepper"
    },
    {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
-   },
-   {
-    "id": "basil",
-    "name": "basil"
+    "id": "thyme",
+    "name": "thyme"
    },
    {
     "id": "lemons",
     "name": "lemon"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
    }
   ],
   "ingredients": [
    {
     "id": "cherry-tomatoes",
-    "quantity": "500g",
+    "quantity": "400g",
     "name": "cherry tomatoes"
    },
    {
     "id": "garlic",
-    "quantity": "3",
+    "quantity": "2",
     "name": "garlic cloves"
    },
    {
@@ -76,9 +77,9 @@
     "name": "trout fillets"
    },
    {
-    "id": "greek-yoghurt",
-    "quantity": "150g",
-    "name": "Greek yoghurt"
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
    },
    {
     "id": "cucumber",
@@ -97,10 +98,10 @@
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Toss the tomatoes and unpeeled garlic on the tray with the oil, 1 tsp paprika and salt. Roast for 15 minutes.",
-   "Add the trout, skin down, and roast for 10 minutes, until the tomatoes burst. Cool for 5 minutes.",
-   "Squeeze the garlic from its skins. Blend with the tomatoes, yoghurt, basil and a squeeze of lemon. Season.",
-   "Flake the trout over the dip. Serve with the veg cut into sticks."
+   "Heat the oven to 200°C (180°C fan). Toss the tomatoes, sliced garlic, oil, thyme leaves and salt on the tray. Roast for 10 minutes.",
+   "Add the trout, skin down. Roast for 12 minutes more, until it flakes. Cool a little.",
+   "Flake the trout into the ricotta with lemon zest, a squeeze of juice and snipped chives. Mash and season.",
+   "Spread in a bowl, spoon the tomatoes on top and serve with the veg cut into sticks."
   ]
  },
  "attempts": 1,

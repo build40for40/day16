@@ -1,27 +1,27 @@
 {
  "day": 14,
- "title": "Chicken, mushroom and butter bean stew",
+ "title": "Chicken and mushroom stew with butter beans",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is whole food or a plain staple; chicken stock, butter beans, crème fraîche and Dijon mustard are all acceptable cupboard items."
+   "reason": "Everything here is a whole food or a plain cupboard staple, such as chicken stock, tinned butter beans, crème fraîche and Dijon mustard."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+   "reason": "Drumsticks, mushrooms, kale, butter beans and crème fraîche are all everyday Tesco items at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded casserole and a knife and board, with simple browning and simmering."
+   "reason": "It needs only a lidded casserole and simple browning and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "The quantities suit four, 400ml stock with drained beans gives a proper stew, chicken chunks are cooked through after 15 minutes' simmering, and the crème fraîche and mustard season the sauce."
+   "reason": "Eight drumsticks, two tins of beans and 400g mushrooms make a fair dinner for four, and 35 minutes covered with 300ml stock plus the mushroom juices will cook the chicken through without leaving it dry or swimming."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The step timings add up to 31 minutes on the hob against 25 printed, and 15 minutes of prep cannot cover chopping 8 thighs, 2 leeks, 400g mushrooms, garlic and kale plus 11 minutes of hands-on browning and frying."
+   "pass": true,
+   "reason": "The 20 minutes of prep covers chopping, browning and stirring, the 40 minutes of cook time matches the 35-minute simmer plus 5 minutes to wilt the kale, and the hands-on work stays short enough for a quick weeknight."
   },
   "honest_ingredients": {
    "pass": true,
@@ -29,15 +29,15 @@
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming chicken, leek, kale and mushroom stew suits mid-January, and 400g of mushrooms makes them a main component rather than a garnish."
+   "reason": "A warming chicken stew suits mid-January, and 400g of mushrooms named in the title make them a main part of the dish rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear British English that a beginner could follow."
+   "reason": "The steps are short, plain British instructions a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling family meal of chicken, beans and three vegetables."
+   "reason": "Chicken, beans, mushrooms and kale in a creamy mustard sauce make a filling, balanced family dinner."
   }
  }
 }

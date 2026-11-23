@@ -1,35 +1,35 @@
 {
  "day": 306,
- "title": "Squash and red lentil soup with kale",
+ "title": "Squash and split pea soup with cumin",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a plain whole food or a cupboard staple, and vegetable stock counts as good stock."
+   "reason": "Onion, garlic, split peas, squash, stock and spices are all ordinary home cupboard and garden foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Squash, red lentils, kale, pumpkin seeds and the rest are everyday items at any Tesco."
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only one heavy pan and a masher, with simple frying and simmering."
+   "reason": "It needs one large pan and a stick blender for soup, both allowed."
   },
   "works": {
    "pass": true,
-   "reason": "1kg squash, 200g lentils, a tin of tomatoes and 1.2 litres of stock make a thick soup for four, and 20 minutes' simmering softens cubed squash and red lentils."
+   "reason": "200g split peas, 800g squash and 1.5 litres of stock simmered for 50 minutes makes a sensible thick soup for four, and the skin-on squash softens enough to blend."
   },
   "honest_times": {
    "pass": false,
-   "reason": "The 15 minutes of prep has to cover peeling and cubing 1kg of butternut squash, chopping the onion and garlic, shredding the kale, toasting the seeds and softening the onion for 5 minutes, which realistically runs nearer 25, so 40 minutes in all is slow for a quick dinner."
+   "reason": "The page was asked to be quick, but the steps need 50 minutes of simmering, so it is over an hour from start to bowl."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used, each name matches its id, and lemon is on the November fresh list."
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming squash soup suits early November, and the squash is clearly the heart of the dish."
+   "reason": "A warming squash soup suits early November, and the squash is the bulk of the dish."
   },
   "plain_voice": {
    "pass": true,
@@ -37,7 +37,7 @@
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "A filling soup of squash, lentils, tomatoes and kale is a proper family meal."
+   "reason": "Squash and split peas make a filling, wholesome soup that a family would happily eat."
   }
  }
 }

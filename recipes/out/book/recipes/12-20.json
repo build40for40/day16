@@ -17,25 +17,21 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Pork chop, artichoke and apple bake",
+  "title": "Pork chops with creamy Jerusalem artichokes",
   "meal": "dinner",
-  "dish_form": "bake",
+  "dish_form": "one pan braise",
   "diet": "meat",
   "gluten_free": true,
-  "kit": "one_tray",
+  "kit": "one_pot",
   "utensils": [
-   "a large roasting tray"
+   "a large frying pan with a lid"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 50,
+  "cook_minutes": 25,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
   "seasoning": [
-   {
-    "id": "thyme",
-    "name": "thyme"
-   },
    {
     "id": "sage",
     "name": "sage"
@@ -51,34 +47,29 @@
   ],
   "ingredients": [
    {
-    "id": "jerusalem-artichokes",
-    "quantity": "600g",
-    "name": "Jerusalem artichokes"
-   },
-   {
-    "id": "red-onions",
-    "quantity": "2",
-    "name": "red onions"
-   },
-   {
-    "id": "olive-oil",
-    "quantity": "2 tbsp",
-    "name": "olive oil"
-   },
-   {
-    "id": "apples",
-    "quantity": "2",
-    "name": "eating apples"
-   },
-   {
     "id": "pork-chops",
     "quantity": "4",
     "name": "pork chops"
    },
    {
-    "id": "kale",
-    "quantity": "150g",
-    "name": "kale"
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "jerusalem-artichokes",
+    "quantity": "500g",
+    "name": "Jerusalem artichokes"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "200ml",
+    "name": "chicken stock"
    },
    {
     "id": "creme-fraiche",
@@ -89,21 +80,22 @@
     "id": "dijon-mustard",
     "quantity": "1 tbsp",
     "name": "Dijon mustard"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Toss the halved artichokes and onion wedges in the tray with the oil, thyme and seasoning. Roast for 20 minutes.",
-   "Add the apple wedges and sage. Sit the seasoned chops on top and roast for 20 minutes.",
-   "Tuck in the torn kale. Spoon over the crème fraîche mixed with the mustard.",
-   "Bake for 10 minutes more, until bubbling and the pork is cooked through."
+   "Season the chops and brown in the oil for 3 minutes a side. Lift onto a plate.",
+   "Fry the thinly sliced artichokes, sliced leeks and chopped sage for 5 minutes. Add the stock, cover and simmer for 10 minutes.",
+   "Stir in the crème fraîche, mustard and shredded kale. Nestle the chops back in.",
+   "Simmer uncovered for 5 to 6 minutes, until the artichokes are tender and the pork is cooked through. Season."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 81 words and runs 1 lines past the bottom of the page. Cut about 6 words."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

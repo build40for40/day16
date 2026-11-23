@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Flour, eggs, milk, oil, cooked ham, cheddar, mustard and a Bramley are all ordinary cupboard and fridge food."
+   "reason": "Everything here is a plain kitchen staple: flour, eggs, milk, oil, ham, cheddar, mustard, a Bramley and sage, with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+   "reason": "Every item is an everyday line at Tesco or similar, at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a loaf tin, bowl, jug and grater, and the technique is a simple quick-bread mix."
+   "reason": "It needs only a loaf tin, bowl, jug and grater, and mixing then baking a quick loaf suits a beginner."
   },
   "works": {
    "pass": true,
-   "reason": "The flour, egg, milk and oil ratio with a grated Bramley suits a 900g tin, and 50 minutes at 190°C (170°C fan) is right for a savoury loaf."
+   "reason": "The batter ratio is typical of a savoury quick bread, 190°C for 50 minutes in a 900g tin is sound, and a sliced loaf feeds four at breakfast."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The printed 60 cook minutes do not match the 50-minute bake in the steps, and the time_note is blank, so nothing tells a reader that a breakfast needing 70-plus minutes and cooling before slicing must be made ahead."
+   "pass": true,
+   "reason": "Twenty minutes covers peeling and grating the apple, chopping the ham and sage, grating the cheese and lining the tin, and 70 minutes is the 50-minute bake plus the 20-minute cool."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the sage, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used, including the oil for greasing the tin, and nothing appears in the steps that is not listed."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm baked loaf suits December, and the grated Bramley gives the loaf its moisture and sharpness rather than sitting on top as a garnish."
+   "reason": "A warm, make-ahead loaf with a whole grated Bramley suits a December breakfast, and the apple's sharpness is central to the ham and cheese pairing."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear and in plain British English."
+   "reason": "The steps are short, clear British English instructions with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Ham, cheese, eggs and apple make it a filling breakfast of real food, not just starch."
+   "reason": "It is a filling breakfast with ham, cheese, eggs and fruit that a family would happily make again."
   }
  }
 }

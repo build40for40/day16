@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or a simple single-ingredient staple such as tinned chickpeas and tahini, with no jars, stock pots or packet mixes."
+   "reason": "Everything is a whole food or a simple single-ingredient staple; tahini is just ground sesame and is on the store cupboard list."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Celeriac, kale, chickpeas, tahini and pumpkin seeds are all everyday items at Tesco and similar shops."
+   "reason": "Celeriac, kale, tinned chickpeas, tahini and pumpkin seeds are all everyday Tesco lines at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a roasting tray, a bowl and a whisk, and the roasting technique is beginner-friendly."
+   "reason": "It needs only a roasting tray, a small bowl and a whisk, and the technique is simple roasting."
   },
   "works": {
    "pass": true,
-   "reason": "A whole celeriac, two tins of chickpeas and the kale make a generous traybake for four, roasted for 36 minutes at 220°C with a properly seasoned dressing."
+   "reason": "A whole celeriac with two tins of chickpeas feeds four, and 36 minutes at 220°C will roast the cubes tender with crisp kale; the lemon and seasoning are clear enough to judge by taste."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes is fair for peeling and cubing a celeriac, cutting onion wedges, tearing kale and slicing an apple, and the 36 cook minutes match the 20+10+6 in the steps."
+   "reason": "Twenty minutes covers peeling and cubing the celeriac, cutting the onion wedges, tearing the kale, slicing the apple and making the dressing, and the 20+10+6 roasting adds up to the 36 minutes printed."
   },
   "honest_ingredients": {
-   "pass": false,
-   "reason": "The seasoning list gives smoked paprika but step 1 says '1 tsp paprika', which is a separate cupboard item, so a reader with both may reach for the wrong one."
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, including pepper in 'Season' and lemon in the dressing, and nothing unlisted is used except water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A hot roast celeriac traybake suits mid-November, and the celeriac is the bulk and point of the dish."
+   "reason": "A warm roast celeriac traybake suits mid-November, and the celeriac is the bulk and point of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Roast vegetables, chickpeas, kale and a tahini dressing make a filling, balanced lunch that a family would happily eat again."
+   "reason": "Roast vegetables, chickpeas, kale and a tahini dressing make a filling, real-food lunch with protein and plenty of veg."
   }
  }
 }

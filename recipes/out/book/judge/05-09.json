@@ -1,43 +1,43 @@
 {
  "day": 129,
- "title": "Roast rhubarb with gammon and eggs",
+ "title": "Ham and eggs on toast with rhubarb relish",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Rhubarb, orange, honey, olive oil, gammon steaks, eggs and thyme are all plain home ingredients with nothing factory-made."
+   "reason": "Butter, onion, rhubarb, sugar, cider vinegar, eggs, bread and cooked ham are all ordinary home ingredients."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Gammon steaks, rhubarb in May, oranges, honey and eggs are all everyday Tesco items at normal prices."
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only one large roasting tray and simple chopping, zesting and egg cracking."
+   "reason": "It needs only a small pan, a frying pan and a toaster or grill, and the techniques are simple."
   },
   "works": {
-   "pass": false,
-   "reason": "Eggs cracked into gaps on a flat tray awash with a whole orange's juice and rhubarb liquid will run into the syrup rather than set neatly, and 4cm rhubarb roasted for 20 to 22 minutes at 220°C will collapse to mush and may catch with the honey."
+   "pass": true,
+   "reason": "Four eggs, four toasts and eight slices of ham feed four, and the relish ratios and simmer time give soft rhubarb that holds its shape."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Ten minutes covers chopping the rhubarb, zesting and juicing the orange, picking thyme and snipping the gammon, and 12 plus 8 to 10 minutes matches the 22 printed."
+   "reason": "Chopping an onion and the rhubarb, frying eggs and toasting fit in 15 minutes, and the simmering roughly matches the 10 cook minutes."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including thyme and black pepper, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including the ginger and chives, is used in the steps, and nothing unlisted appears."
   },
   "seasonal_feel": {
-   "pass": true,
-   "reason": "Early May rhubarb is a main part of the dish as a sticky roasted sauce for the gammon, which suits a spring morning."
+   "pass": false,
+   "reason": "The rhubarb ends up as 'a spoonful of relish' on top of ham and eggs, so on a rhubarb day it is a condiment rather than the point of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, clear British English that a beginner could follow."
+   "reason": "The steps are clear, plain British English a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Gammon, eggs and roast fruit make a proper protein-led cooked breakfast with only a little honey."
+   "reason": "Eggs, ham and wholemeal toast with a fruit relish make a proper, appealing family breakfast."
   }
  }
 }

@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Mussels, butter, shallots, garlic, cabbage, dry cider, crème fraîche and crusty bread are all plain whole foods with nothing factory-made."
+   "reason": "Mussels, cider, butter, shallots, garlic, cabbage, crème fraîche and bread are all plain home ingredients with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Tesco sells live mussels by the kilo at an everyday price, and the rest are staples."
+   "reason": "Bagged live mussels, dry cider and the rest are everyday stock at Tesco at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded pan and a toaster or grill, and scrubbing and steaming mussels is within a confident beginner's reach."
+   "reason": "One lidded pan and a toaster are ordinary kit, and steaming and shelling mussels is within a confident beginner's reach."
   },
   "works": {
-   "pass": false,
-   "reason": "The 200ml of cider plus the mussel liquor is never reduced before the crème fraîche goes in, so roughly 400ml of thin liquid gets piled onto four slices of toast and turns them soggy."
+   "pass": true,
+   "reason": "Steaming 1kg of mussels in 150ml cider, softening half a cabbage, then reducing the liquor and adding crème fraîche gives a well-balanced topping for four slices of toast at lunch."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Thirty minutes covers scrubbing a kilo of mussels, shredding cabbage, picking the meat from the shells and toasting, and the 8 plus 5 minute steps roughly match the cook time."
+   "reason": "Thirty-five active minutes covers scrubbing, shelling, slicing and stirring the cabbage, and the 5 minutes of steaming plus a short reduction roughly fits the 10 printed cook minutes."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including parsley and pepper, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed item, including the parsley and pepper, appears in the steps, and nothing unlisted is used apart from the toast made from the listed bread."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Half a white cabbage gives the dish its bulk alongside October mussels, a warm lunch that suits autumn."
+   "reason": "Half a white cabbage is a main component alongside October mussels in a warm autumn lunch, not a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, clear British English with no restaurant language."
+   "reason": "Short, clear British phrasing such as 'binning any open ones' reads like a neighbour explaining."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Mussels, plenty of cabbage and bread make a proper, satisfying lunch for a family."
+   "reason": "Mussels, cabbage and crusty toast make a filling lunch with real protein and vegetables."
   }
  }
 }

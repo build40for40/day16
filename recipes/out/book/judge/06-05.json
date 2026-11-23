@@ -1,43 +1,43 @@
 {
  "day": 156,
- "title": "Whiting on tomato and butter beans",
+ "title": "Pollock on tomato and butter beans",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything here is a plain whole food or cupboard staple: onion, garlic, tomatoes, tinned butter beans, stock, spinach, fish, lemon and herbs."
+   "reason": "Every ingredient is a plain kitchen staple, and vegetable stock and tinned butter beans are both allowed."
   },
   "supermarket": {
-   "pass": false,
-   "reason": "Whiting fillets are rarely stocked at mainstream supermarkets like Tesco and usually need a fishmonger, so the reader may not find them; suggest an alternative such as pollock or cod."
+   "pass": true,
+   "reason": "Pollock fillets, butter beans, tomatoes and spinach are everyday items in any mainstream supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a wide lidded pan, a knife and a board, and every technique is simple softening and simmering."
+   "reason": "It needs only a wide lidded pan, and gently steaming fish on top of a sauce is well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "The quantities suit four, the liquid is modest so it will not swim, and 6 to 8 minutes covered will cook thin whiting fillets through."
+   "reason": "The quantities suit four, the liquid is sensible for a bean base and 6 to 8 minutes covered will cook the pollock through."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes covers slicing an onion and garlic and chopping 600g of tomatoes, and the step timings add up to about 30 minutes of cooking."
+   "reason": "Twenty minutes of prep covers slicing the onion and garlic and chopping 600g of tomatoes, and the steps add up to roughly 30 minutes of cooking."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the lemon, basil and smoked paprika, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Fresh tomatoes broken down into the sauce form the base of the dish, which suits early June."
+   "reason": "A light tomato and bean pot with basil suits early June, and the tomatoes cook down to form the base of the dish rather than garnishing it."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English that a beginner could follow."
+   "reason": "The steps are short, clear British English with no restaurant language."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Fish, beans, tomatoes and spinach make a filling, balanced lunch a family would happily eat again."
+   "reason": "Fish, beans, tomatoes and spinach make a filling, balanced meal a family would happily eat."
   }
  }
 }

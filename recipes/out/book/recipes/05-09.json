@@ -17,67 +17,86 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Roast rhubarb with gammon and eggs",
+  "title": "Ham and eggs on toast with rhubarb relish",
   "meal": "breakfast",
-  "dish_form": "traybake",
+  "dish_form": "eggs on toast",
   "diet": "meat",
-  "gluten_free": true,
-  "kit": "one_tray",
+  "gluten_free": false,
+  "kit": "hob",
   "utensils": [
-   "a large roasting tray"
+   "a small pan",
+   "a large frying pan"
   ],
-  "prep_minutes": 10,
-  "cook_minutes": 22,
+  "prep_minutes": 15,
+  "cook_minutes": 10,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
   "seasoning": [
    {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
     "id": "black-pepper",
     "name": "black pepper"
    },
    {
-    "id": "thyme",
-    "name": "thyme"
+    "id": "ground-ginger",
+    "name": "ground ginger"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
    }
   ],
   "ingredients": [
    {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
     "id": "rhubarb",
-    "quantity": "400g",
+    "quantity": "300g",
     "name": "rhubarb"
    },
    {
-    "id": "oranges",
-    "quantity": "1",
-    "name": "orange"
-   },
-   {
-    "id": "honey",
+    "id": "brown-sugar",
     "quantity": "2 tbsp",
-    "name": "honey"
+    "name": "soft brown sugar"
    },
    {
-    "id": "olive-oil",
-    "quantity": "1 tbsp",
-    "name": "olive oil"
-   },
-   {
-    "id": "gammon",
-    "quantity": "4",
-    "name": "gammon steaks"
+    "id": "cider-vinegar",
+    "quantity": "2 tbsp",
+    "name": "cider vinegar"
    },
    {
     "id": "eggs",
     "quantity": "4",
     "name": "eggs"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "ham",
+    "quantity": "8 slices",
+    "name": "cooked ham"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Toss the rhubarb, cut into 4cm lengths, on the tray with the orange zest and juice, honey, thyme leaves and oil.",
-   "Snip the fat on the gammon so it stays flat. Nestle it among the rhubarb and roast for 12 minutes.",
-   "Turn the gammon, make four gaps and crack an egg into each. Roast for 8 to 10 minutes, until the whites are set.",
-   "Grind over pepper and spoon the sticky rhubarb over the gammon."
+   "Soften the chopped onion in half the butter in a small pan for 5 minutes.",
+   "Add the rhubarb in 2cm pieces, the sugar, vinegar, 1 tsp ginger and a pinch of salt. Simmer for 6 to 8 minutes, until soft but holding shape.",
+   "Fry the eggs in the rest of the butter. Toast the bread.",
+   "Top each toast with ham, an egg and a spoonful of relish. Finish with chives and pepper."
   ]
  },
  "attempts": 1,

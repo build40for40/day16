@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Squash and red lentil soup with kale",
+  "title": "Squash and split pea soup with cumin",
   "meal": "dinner",
   "dish_form": "hearty soup",
   "diet": "vegan",
@@ -25,10 +25,10 @@
   "kit": "one_pot",
   "utensils": [
    "one large heavy pan",
-   "a masher"
+   "a stick blender"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 25,
+  "prep_minutes": 18,
+  "cook_minutes": 50,
   "time_note": "",
   "best_time": "evening",
   "freezes": true,
@@ -38,8 +38,8 @@
     "name": "cumin"
    },
    {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
    },
    {
     "id": "lemons",
@@ -56,11 +56,6 @@
   ],
   "ingredients": [
    {
-    "id": "pumpkin-seeds",
-    "quantity": "3 tbsp",
-    "name": "pumpkin seeds"
-   },
-   {
     "id": "olive-oil",
     "quantity": "2 tbsp",
     "name": "olive oil"
@@ -76,36 +71,26 @@
     "name": "garlic"
    },
    {
-    "id": "squash",
-    "quantity": "1kg",
-    "name": "butternut squash"
-   },
-   {
-    "id": "red-lentils",
+    "id": "split-peas",
     "quantity": "200g",
-    "name": "red lentils"
-   },
-   {
-    "id": "chopped-tomatoes",
-    "quantity": "1 tin",
-    "name": "chopped tomatoes"
+    "name": "yellow split peas"
    },
    {
     "id": "vegetable-stock",
-    "quantity": "1.2 litres",
+    "quantity": "1.5 litres",
     "name": "vegetable stock"
    },
    {
-    "id": "kale",
-    "quantity": "100g",
-    "name": "kale"
+    "id": "squash",
+    "quantity": "800g",
+    "name": "butternut squash"
    }
   ],
   "steps": [
-   "Toast the pumpkin seeds in the dry pan until they pop, then tip out.",
-   "Soften the chopped onion in the oil for 5 minutes. Stir in the garlic, then 1 tsp each of cumin and smoked paprika.",
-   "Add the peeled, cubed squash, rinsed lentils, tomatoes and stock. Simmer for 20 minutes, until the squash is soft.",
-   "Mash roughly, add the shredded kale and cook for 5 minutes. Season, add a squeeze of lemon and top with the seeds."
+   "Soften the chopped onion in the oil for 5 minutes. Stir in the crushed garlic and 2 tsp of the cumin.",
+   "Add the rinsed split peas and the stock. Simmer for 20 minutes.",
+   "Deseed the squash and cut into chunks, skin on. Add and simmer for 30 minutes, until the peas are soft.",
+   "Blend until smooth. Season, then add a squeeze of lemon and a pinch of chilli flakes."
   ]
  },
  "attempts": 1,

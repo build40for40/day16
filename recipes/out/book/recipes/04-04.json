@@ -17,7 +17,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Salad leaf bowls with crispy pork and apple",
+  "title": "Crispy pork, potato and salad leaf bowls",
   "meal": "lunch",
   "dish_form": "warm salad bowl",
   "diet": "meat",
@@ -25,7 +25,7 @@
   "kit": "one_tray",
   "utensils": [
    "a roasting tray",
-   "four bowls"
+   "a large bowl"
   ],
   "prep_minutes": 20,
   "cook_minutes": 45,
@@ -58,7 +58,7 @@
    },
    {
     "id": "rapeseed-oil",
-    "quantity": "4 tbsp",
+    "quantity": "3 tbsp",
     "name": "rapeseed oil"
    },
    {
@@ -93,16 +93,16 @@
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes in the tray with 2 tbsp oil and salt. Roast for 20 minutes.",
-   "Add the pork, cut into strips, and 1 tsp crushed fennel seeds. Roast for 25 minutes more, until crisp.",
-   "Stir the vinegar, mustard and remaining oil into the hot tray juices.",
-   "Toss in the leaves, sliced apples and radishes. Season, pile into bowls and scatter with snipped chives."
+   "Roast the halved potatoes in the tray with 1 tbsp oil and salt at 220°C (200°C fan) for 20 minutes.",
+   "Add the pork, in thin strips, and 1 tsp crushed fennel seeds. Roast 25 minutes more, until crisp.",
+   "Whisk the vinegar, mustard and remaining oil in a big bowl. Season, then toss in the leaves, sliced apples and radishes.",
+   "Serve the leaves topped with the hot pork and potatoes and snipped chives."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The ingredients and seasoning run 1 lines past the bottom of the page. The column is about 22 characters wide, so shorten the lines that wrap or use fewer."
+   "The method is 78 words and runs 1 lines past the bottom of the page. Cut about 6 words."
   ]
  ],
  "failures": [],

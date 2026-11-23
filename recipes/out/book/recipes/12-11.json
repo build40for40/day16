@@ -30,8 +30,8 @@
    "a grater"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 60,
-  "time_note": "",
+  "cook_minutes": 70,
+  "time_note": "bake the night before",
   "best_time": "morning",
   "freezes": true,
   "seasoning": [
@@ -92,15 +92,15 @@
   ],
   "steps": [
    "Heat the oven to 190°C (170°C fan). Oil and line the loaf tin.",
-   "Mix the flour with a pinch of salt and lots of pepper. Stir in the grated apple, chopped ham, 6 chopped sage leaves and most of the cheddar.",
-   "Whisk the eggs, milk, oil and mustard, and fold in until just combined.",
-   "Spoon into the tin, top with the remaining cheese and bake for 50 minutes, until golden and firm. Cool before slicing."
+   "Mix the flour, a pinch of salt and plenty of pepper. Stir in the grated apple, chopped ham, 6 chopped sage leaves and most of the cheese.",
+   "Whisk the eggs, milk, oil and mustard, then fold in until just combined.",
+   "Spoon in, top with the rest of the cheese and bake for 50 minutes, until golden and firm. Cool for 20 minutes before slicing."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The method is 83 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+   "The time note is over 30 characters."
   ]
  ],
  "failures": [],

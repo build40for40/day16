@@ -18,7 +18,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Lamb chops on creamy spinach and butter beans",
+  "title": "Lamb chops with new potatoes, spinach and Bramley",
   "meal": "dinner",
   "dish_form": "traybake",
   "diet": "meat",
@@ -28,7 +28,7 @@
    "a large roasting tray"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 33,
+  "cook_minutes": 42,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -36,10 +36,6 @@
    {
     "id": "rosemary",
     "name": "rosemary"
-   },
-   {
-    "id": "nutmeg",
-    "name": "nutmeg"
    },
    {
     "id": "salt",
@@ -52,19 +48,29 @@
   ],
   "ingredients": [
    {
+    "id": "new-potatoes",
+    "quantity": "800g",
+    "name": "new potatoes"
+   },
+   {
     "id": "red-onions",
     "quantity": "2",
     "name": "red onions"
    },
    {
-    "id": "garlic",
-    "quantity": "4",
-    "name": "garlic cloves"
-   },
-   {
     "id": "olive-oil",
     "quantity": "2 tbsp",
     "name": "olive oil"
+   },
+   {
+    "id": "spinach",
+    "quantity": "400g",
+    "name": "spinach"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3",
+    "name": "garlic cloves"
    },
    {
     "id": "lamb-chops",
@@ -77,26 +83,16 @@
     "name": "Bramley apples"
    },
    {
-    "id": "butter-beans",
-    "quantity": "2 tins",
-    "name": "butter beans"
-   },
-   {
-    "id": "creme-fraiche",
-    "quantity": "150g",
-    "name": "crème fraîche"
-   },
-   {
-    "id": "spinach",
-    "quantity": "600g",
-    "name": "spinach"
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Roast the onion wedges, sliced garlic and rosemary in the oil on a big tray for 10 minutes.",
-   "Add the seasoned chops and cored apple wedges. Roast for 15 minutes, until browned.",
-   "Lift out the chops. Stir in the drained beans, crème fraîche and a grating of nutmeg, then the spinach in handfuls until it wilts. Season.",
-   "Return the chops and roast for 8 minutes, until bubbling."
+   "Heat the oven to 220°C (200°C fan). Roast the halved potatoes and onion wedges with the oil and rosemary on a large tray for 25 minutes.",
+   "Pile on the spinach and sliced garlic. Top with the seasoned chops and the cored, sliced apples.",
+   "Roast for 10 to 12 minutes, until the chops are browned but still pink inside.",
+   "Rest for 5 minutes. Stir the mustard into the soft apple and juices, then toss with the spinach."
   ]
  },
  "attempts": 1,

@@ -1,43 +1,43 @@
 {
  "day": 281,
- "title": "Pumpkin risotto with whiting and sprouts",
+ "title": "Pumpkin and sprout risotto with pollock",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Every ingredient is a plain kitchen staple, and the vegetable stock is allowed as good stock."
+   "reason": "Everything is a plain whole ingredient or a cupboard staple: butter, onion, risotto rice, pumpkin, stock, sprouts, pollock, Parmesan, sage and lemon."
   },
   "supermarket": {
-   "pass": false,
-   "reason": "Whiting fillets are rarely on the shelf or fish counter at a mainstream supermarket like Tesco, so most readers would need a fishmonger or a swap such as pollock or cod."
+   "pass": true,
+   "reason": "Pumpkin in October, pollock fillets, sprouts and risotto rice are all everyday Tesco items at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a wide lidded pan and a ladle, and stirring a risotto is well within a confident beginner's reach."
+   "reason": "It needs one lidded pan, a knife and a grater, and the covered, lightly stirred risotto method is within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "300g rice, 500g pumpkin and 500g fish make a sensible dinner for four, and the stock, wine, timings and finishing steps are all workable."
+   "reason": "300g rice to 1 litre of stock simmered covered for about 22 minutes cooks through, small pumpkin cubes soften in that time, and 500g pollock steamed on top for 6 to 8 minutes flakes nicely for four."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The steps describe 5 minutes softening, 18 minutes of ladling and stirring and 5 minutes covered, so the cooking runs to about 28 mostly active minutes, not the 15 printed, and the whole meal takes well past a quick dinner."
+   "pass": true,
+   "reason": "Twenty minutes is believable for peeling and cubing the pumpkin, shredding the sprouts, and chopping the onion and sage, and 5 + 15 + 6–8 minutes roughly matches the 25 minutes of cooking."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, including the sage, lemon and the final season, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including sage, lemon and salt and pepper via 'Season', appears in the steps, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm pumpkin risotto suits early October, and the pumpkin is cooked into the rice as the heart of the dish."
+   "reason": "A warm pumpkin risotto suits early October, and 500g of pumpkin cooked into the rice makes it the clear centre of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling family dinner with fish, pumpkin, sprouts and rice."
+   "reason": "Rice, pumpkin, sprouts and fish make a filling, balanced family dinner."
   }
  }
 }

@@ -1,43 +1,43 @@
 {
  "day": 354,
- "title": "Pork chop, artichoke and apple bake",
+ "title": "Pork chops with creamy Jerusalem artichokes",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Every ingredient is a whole food or a plain cupboard staple such as crème fraîche and Dijon mustard."
+   "reason": "Pork chops, vegetables, stock, crème fraîche and Dijon mustard are all ordinary kitchen foods, with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Pork chops, apples, kale, crème fraîche and seasonal Jerusalem artichokes are all sold at mainstream supermarkets at everyday prices."
+   "reason": "Jerusalem artichokes are a seasonal line in larger supermarkets in December, and everything else is an everyday item at an everyday price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a knife, a board and one roasting tray, and the technique is simple tray roasting."
+   "reason": "It needs only a large frying pan with a lid, and browning and simmering are beginner techniques."
   },
   "works": {
    "pass": true,
-   "reason": "The artichokes get 50 minutes and the chops 30 minutes at 200°C, which will cook both through, and the quantities suit four."
+   "reason": "Thinly sliced artichokes get about 20 minutes of frying and simmering, so they will be tender, the chops get about 12 minutes in total, and 200ml stock with 150ml crème fraîche is a sensible amount of sauce for four."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The 50-minute cook time makes this a 65-minute dinner, well past the quick pace asked for."
+   "pass": true,
+   "reason": "Scrubbing and slicing 500g of artichokes, two leeks, the kale and the sage fits roughly into 15 minutes, and the steps add up to about 25 minutes of cooking."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including the sage, is used in the steps, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming pork and apple tray bake suits 20 December, and the roasted artichokes are central to the dish."
+   "reason": "A creamy pan braise suits a cold December evening, and the artichokes are the main vegetable rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are brief, clear British home-cook instructions with no restaurant language."
+   "reason": "The steps are short, plain British English that a beginner can follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Pork chops with artichokes, kale, onions and apple make a balanced, satisfying family dinner."
+   "reason": "Pork with artichokes, leeks and kale in a creamy sauce is a proper, filling family dinner."
   }
  }
 }

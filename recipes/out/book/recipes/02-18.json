@@ -17,17 +17,19 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Potato, mushroom and kale tray with baked eggs",
+  "title": "Cheese and onion rösti with mushrooms and eggs",
   "meal": "breakfast",
   "dish_form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "one_tray",
+  "kit": "hob",
   "utensils": [
-   "a large roasting tray"
+   "a grater",
+   "a clean tea towel",
+   "a large frying pan"
   ],
-  "prep_minutes": 12,
-  "cook_minutes": 45,
+  "prep_minutes": 15,
+  "cook_minutes": 20,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -41,10 +43,6 @@
     "name": "black pepper"
    },
    {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
-   },
-   {
     "id": "thyme",
     "name": "thyme"
    }
@@ -52,13 +50,23 @@
   "ingredients": [
    {
     "id": "potatoes",
-    "quantity": "800g",
+    "quantity": "600g",
     "name": "potatoes"
    },
    {
-    "id": "olive-oil",
-    "quantity": "4 tbsp",
-    "name": "olive oil"
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "cheddar"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
    },
    {
     "id": "mushrooms",
@@ -66,30 +74,21 @@
     "name": "mushrooms"
    },
    {
-    "id": "garlic",
-    "quantity": "2",
-    "name": "garlic cloves"
-   },
-   {
-    "id": "kale",
-    "quantity": "100g",
-    "name": "kale"
+    "id": "butter",
+    "quantity": "15g",
+    "name": "butter"
    },
    {
     "id": "eggs",
     "quantity": "4",
     "name": "eggs"
-   },
-   {
-    "id": "cheddar",
-    "quantity": "50g",
-    "name": "cheddar, grated"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Toss 2cm cubes of potato with 3 tbsp oil, 1 tsp paprika, the thyme leaves and salt on a large tray. Roast for 25 minutes.",
-   "Stir in the halved mushrooms, sliced garlic, shredded kale and the last of the oil. Roast for 10 minutes.",
-   "Make four gaps, crack in the eggs and scatter over the cheddar. Bake for 6 to 8 minutes, until the whites set. Finish with pepper."
+   "Coarsely grate the potatoes and onion, then squeeze dry in a clean tea towel. Mix with the grated cheddar and a good pinch of salt.",
+   "Press into four flat cakes and fry in 2 tbsp oil for 5 minutes a side, until golden. Keep warm.",
+   "Fry the sliced mushrooms in the butter with the thyme leaves for 5 minutes. Season.",
+   "Fry the eggs in the last of the oil and serve on the rösti with the mushrooms."
   ]
  },
  "attempts": 1,
