@@ -41,8 +41,8 @@
 | Prep minutes | median 20, longest 45 |
 | Time band on the page edge | 60m 218, 30m 87, 90m 44, over 90m 16 |
 | Method words | 60 to 91 |
-| Method column | 271 to 360px, with 346 to 377px of room |
-| Ingredients and seasoning column | 182 to 362px |
+| Method column | 279 to 399px, with 408 to 408px of room |
+| Ingredients and seasoning column | 194 to 374px |
 | Kit | hob 142, one pot 70, oven 67, hob and oven 44, one tray 32, no cook 10 |
 | Hero you can grow | 86% |
 | Fresh produce from the UK | 84% of uses |

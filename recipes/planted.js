@@ -70,7 +70,9 @@ const planted = [
   { name: "Ingredient lines overflow the column", hard: ["column_overflow"], change: (r) => r.ingredients.forEach((item) => (item.name = `${item.name}, washed and roughly chopped`)) },
   { name: "Ingredients and seasoning overflow their shared column", hard: ["column_overflow"], change: (r) => {
       r.title = "Leek, potato and butter bean stew with wholegrain mustard";
-      r.ingredients.push({ id: "carrots", quantity: "2", name: "carrots" });
+      // Ten ingredients and five seasonings fit as single lines, so two of them have to wrap to overflow.
+      r.ingredients.push({ id: "carrots", quantity: "2", name: "carrots, scrubbed and cut into chunks" });
+      r.ingredients.find((item) => item.id === "leeks").name = "leeks, trimmed, washed and sliced";
       r.seasoning.push({ id: "cumin", name: "cumin" }, { id: "smoked-paprika", name: "smoked paprika" });
     },
   },

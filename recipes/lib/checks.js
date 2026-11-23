@@ -37,7 +37,8 @@ export function fit(recipe) {
   const methodLines = recipe.steps.reduce((sum, step) => sum + wrap(step, page.method_px, page.text_scale), 0);
   const methodPx = page.heading_px + methodLines * page.line_px + Math.max(0, recipe.steps.length - 1) * page.step_gap_px;
   const headPx =
-    page.picture_px + page.title_margin_px + titleLines * page.title_line_px +
+    // The title always takes at least title_min_lines of space, so the ingredients start at one height.
+    page.picture_px + page.title_margin_px + Math.max(page.title_min_lines ?? 1, titleLines) * page.title_line_px +
     page.utensils_margin_px + utensilLines * page.note_line_px + page.time_px + page.columns_margin_px;
   return {
     titleLines,

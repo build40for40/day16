@@ -46,7 +46,8 @@ export function freshList(month) {
 
 export function recipeSystem() {
   const { limits, page } = config;
-  const room = fit({ title: "x", utensils: ["x"], ingredients: [], seasoning: [], steps: [] }).room - page.title_line_px;
+  const spareTitleLines = Math.max(0, limits.max_title_lines - (page.title_min_lines ?? 1));
+  const room = fit({ title: "x", utensils: ["x"], ingredients: [], seasoning: [], steps: [] }).room - spareTitleLines * page.title_line_px;
   const methodLines = Math.floor((room - page.heading_px - 3 * page.step_gap_px) / page.line_px);
   const methodWords = Math.floor((methodLines * 5) / 5) * 5;
   return fill(read("recipe.md"), {

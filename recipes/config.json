@@ -329,23 +329,24 @@
     ]
   },
   "page": {
-    "content_px": 698,
+    "content_px": 760,
     "picture_px": 196,
     "title_margin_px": 26,
     "title_line_px": 31,
-    "title_scale": 1.863,
+    "title_min_lines": 2,
+    "title_scale": 1.945,
     "utensils_margin_px": 14,
     "note_line_px": 16,
-    "note_scale": 0.995,
+    "note_scale": 0.923,
     "time_px": 20,
     "columns_margin_px": 18,
-    "head_px": 380,
-    "text_scale": 1.065,
+    "head_px": 386,
+    "text_scale": 1,
     "line_px": 20,
     "list_px": 150,
-    "heading_px": 24,
-    "seasoning_margin_px": 14,
-    "method_px": 220,
+    "heading_px": 32,
+    "seasoning_margin_px": 10,
+    "method_px": 196,
     "step_gap_px": 9
   }
 }
