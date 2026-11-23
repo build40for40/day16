@@ -1,0 +1,43 @@
+{
+ "day": 310,
+ "title": "Beef, barley and Brussels sprout pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole ingredient or a plain staple such as beef stock, tomato purée and pearl barley, with no jars, packet mixes or processed substitutes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Beef mince, pearl barley, sprouts, carrots and stock are all everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole, a knife and a wooden spoon, and uses simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g mince, 250g barley and 1.2 litres of stock make a sensible pot for four, and the barley gets about 40 minutes in total, enough to cook it through, while the sprouts go in late so they don't overcook."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes hands-on fits the chopping, sprout trimming and browning, and 60 minutes total is only slightly tight against the cooking times in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used under its true name, and the only unlisted item is an optional splash of water from the store cupboard."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming beef and barley pot suits early November, and the 400g of Brussels sprouts is a main component of the dish, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, timed and in plain British English, with visual cues a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family meal of beef, wholegrain barley and plenty of vegetables."
+  }
+ }
+}

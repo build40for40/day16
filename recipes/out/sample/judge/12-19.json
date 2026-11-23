@@ -1,0 +1,43 @@
+{
+ "day": 353,
+ "title": "Carrot and butter bean soup with cumin",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a cupboard staple: carrots, onion, garlic, tinned butter beans, vegetable stock, cumin, lemon, natural yoghurt and pumpkin seeds."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket, and none would feel like a treat."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a peeler and a stick blender for soup, and the technique is simple frying, simmering and blending."
+  },
+  "works": {
+   "pass": true,
+   "reason": "800g thinly sliced carrots, two tins of beans and 1.2 litres of stock make a thick soup for four, and the carrots will be soft after the 15 to 20 minute simmer."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "15 minutes hands-on is tight once you peel and slice 800g of carrots, but you can slice them while the onion softens, and 35 minutes in total fits a quick lunch."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used and matches its id, and the only unlisted item is an optional splash of water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored December carrots are clearly the point of this warming, blended soup, which suits the week before Christmas."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear and practical in plain British English, with useful cues such as 'soft enough to squash with a spoon'."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Plenty of vegetables, beans for protein, and a yoghurt and toasted seed topping make it a filling lunch a family would want again."
+  }
+ }
+}

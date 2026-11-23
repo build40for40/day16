@@ -1,0 +1,43 @@
+{
+ "day": 280,
+ "title": "Parsnip and red lentil dal with spinach",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole or basic ingredient: vegetables, red lentils, curry powder, stock and natural yoghurt."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Parsnips, red lentils, spinach, lemon and mild curry powder are all everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded saucepan, a knife and a ladle, and simple frying and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g lentils to 1.2 litres of stock with 500g parsnips makes a properly loose dal for four, and a 20 to 25 minute simmer will soften both."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Chopping one onion and 500g of parsnips, partly while the onion cooks, fits within 15 minutes hands-on, and the steps add up to roughly 40 minutes in total."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used and matches its id, and the only unlisted item is a splash of water from the store cupboard."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Parsnips are the bulk and flavour of a warming dal, which suits an October lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Clear, friendly British English with timings and visual cues a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, parsnips and spinach make a filling, vegetable-rich meal that a family would happily eat again."
+  }
+ }
+}

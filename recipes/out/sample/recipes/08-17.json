@@ -1,0 +1,125 @@
+{
+ "slot": {
+  "day": 229,
+  "date": "2027-08-17",
+  "label": "17 August",
+  "month": 8,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "marrow",
+   "broccoli"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Split pea, marrow and broccoli curry pot",
+  "intro": "Marrows are swelling on allotments by mid August. Simmered with golden split peas and mild curry spices, they melt into a thick, comforting pot.",
+  "meal": "lunch",
+  "dish_form": "split pea curry",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "large lidded saucepan or casserole",
+   "sieve",
+   "measuring jug"
+  ],
+  "hands_on_minutes": 25,
+  "total_minutes": 75,
+  "serves": 4,
+  "best_time": "midday",
+  "freezes": true,
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "name": "Rapeseed oil",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "onions",
+    "name": "Onion",
+    "quantity": "1",
+    "prep": "finely chopped"
+   },
+   {
+    "id": "garlic",
+    "name": "Garlic",
+    "quantity": "3 cloves",
+    "prep": "crushed"
+   },
+   {
+    "id": "curry-powder",
+    "name": "Mild curry powder",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "split-peas",
+    "name": "Yellow split peas",
+    "quantity": "250g",
+    "prep": "rinsed"
+   },
+   {
+    "id": "vegetable-stock",
+    "name": "Vegetable stock",
+    "quantity": "1.2 litres",
+    "prep": ""
+   },
+   {
+    "id": "marrow",
+    "name": "Marrow",
+    "quantity": "1 small, about 800g",
+    "prep": "peeled, deseeded and cut into 2cm chunks"
+   },
+   {
+    "id": "tomatoes",
+    "name": "Tomatoes",
+    "quantity": "3",
+    "prep": "roughly chopped"
+   },
+   {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "quantity": "1 head",
+    "prep": "cut into small florets, stalk sliced"
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "to taste",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "name": "Lemon",
+    "quantity": "1",
+    "prep": "juiced"
+   },
+   {
+    "id": "coriander",
+    "name": "Fresh coriander",
+    "quantity": "small bunch",
+    "prep": "roughly chopped"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large pan over a medium heat. Add the onion and cook for 8 to 10 minutes, stirring now and then, until soft and golden.",
+   "Stir in the garlic and curry powder and cook for 1 minute until fragrant.",
+   "Add the split peas and stock. Bring to the boil, skim off any froth, then cover and simmer gently for 40 minutes, stirring now and then, until the peas are starting to break down.",
+   "Stir in the marrow and tomatoes. Cover and simmer for 15 minutes until the marrow is soft and the peas have turned thick and creamy. Add a splash of water if it gets too stiff.",
+   "Add the broccoli, cover and cook for 5 to 6 minutes until just tender and still bright green.",
+   "Season with salt and stir in the lemon juice. Scatter over the coriander and serve in bowls."
+  ],
+  "tip": "Keeps for 3 days in the fridge and thickens as it sits, so loosen with a splash of water when reheating."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

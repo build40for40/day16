@@ -9,7 +9,9 @@ Day 16 of 40 for 40, built live on Twitch on Monday 23 November 2026. The proble
 - **Buying:** the Buy buttons go to two Stripe Payment Links, one for the UK (£12 plus £4 delivery) and one for everywhere else (£12 plus £8). Delivery is a second line item, not a Stripe shipping rate. Everything in Stripe for the book carries `metadata.app = day16`.
 - **Printing:** `worker/index.ts` takes Stripe's `checkout.session.completed` webhook at `/seasoned/api/stripe/webhook` and places the order with Lulu's Print API, using the Stripe session id as Lulu's `external_id` so a retried webhook never prints twice. Any failure answers Stripe with an error status, so it shows as a failed delivery in the Stripe dashboard. The `vars` in `wrangler.jsonc` point at Lulu's sandbox and its sample book; going live means swapping them for `https://api.lulu.com` and the real files, and setting the secrets in `.dev.vars.example`.
 - **Emails:** the Worker sends two plain emails through Postmark, one when the order goes to Lulu and one with the tracking link when Lulu's `PRINT_JOB_STATUS_CHANGED` webhook (at `/seasoned/api/lulu/webhook`) says it shipped. CI subscribes to that webhook on deploy. Without `POSTMARK_SERVER_TOKEN` no email is sent and orders still print.
-- **One package, npm:** the page is a static file and the Worker is the only code, so there is a single `package.json`. `npm run dev` runs both locally, `npm test` runs the Worker tests, and merging to `main` deploys through CI.
+- **One package, npm:** the page is a static file, so the Worker and the `recipes/` scripts share a single `package.json`. `npm run dev` runs both locally, `npm test` runs the Worker tests, and merging to `main` deploys through CI.
+
+- **Page format:** `design/` holds three sample recipe pages at A5 (148 × 210 mm, 559 × 794 px), one each for days 46, 196 and 327. Each page has a landscape picture, the title, utensils, time split into prep and cook, ingredients with seasoning as its own section underneath, and the method. The right-hand edge is what you see when you flick: the date over the day number, four season icons on a year line with winter at both ends and a dot on today, and 30m, 60m or 90m near the bottom. The recipes on them are the three samples from `index.html`, with utensils, the prep and cook split and the seasoning list worked out from their steps.
 
 Shared 40 for 40 context lives in `../AGENTS.md`.
 
@@ -78,3 +80,19 @@ Each has a card on the `day16` board.
 - Stock photo gen.
 - Page format and book structure.
 - Intro and glossary: the rationale.
+
+## Recipe generation
+
+`recipes/` writes and checks the 365 pages. It needs `ANTHROPIC_API_KEY` in a `.env` file at the repo root (see `.env.example`).
+
+| Command | What it does |
+| --- | --- |
+| `npm run plan` | Lays out 365 dated slots in `recipes/out/plan.json`: meal, diet, hero ingredient, suggested dish. No API calls |
+| `npm run generate` | Writes the 24-page sample (two per month). Add `-- --all` for the whole book, `-- --days 14,200` for single days, `-- --force` to rewrite, `-- --fix` to rewrite pages the judge failed |
+| `npm run judge` | Scores pages against the rubric in `recipes/prompts/judge.md`. Takes the same flags |
+| `npm run check` | Re-runs the hard checks and writes `recipes/out/<set>/report.md` with the spread across the book. Add `-- --all` for the book |
+| `npm run planted` | Runs deliberately bad pages through the checks and the judge, to prove they catch them |
+
+- **Seasons:** `recipes/data/seasonal.csv` is the source of truth for what is fresh in each month, and `recipes/data/pantry.csv` for year-round staples. A recipe can only use ids from those two files.
+- **Rules and limits:** `recipes/config.json` holds the meal split, targets, page limits and banned words.
+- **Prompts:** `recipes/prompts/recipe.md` and `recipes/prompts/judge.md`.

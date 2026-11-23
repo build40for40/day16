@@ -1,0 +1,127 @@
+{
+ "slot": {
+  "day": 35,
+  "date": "2027-02-04",
+  "label": "4 February",
+  "month": 2,
+  "meal": "lunch",
+  "form": "tart or quiche",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "turnips"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Turnip, leek and cheddar quiche",
+  "intro": "Early February turnips are small, firm and gently peppery. Softened in butter with leeks, they turn sweet and make a quiche that tastes far richer than it costs.",
+  "meal": "lunch",
+  "dish_form": "quiche",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "23cm loose-bottomed tart tin",
+   "baking tray",
+   "frying pan with a lid",
+   "grater",
+   "whisk",
+   "jug"
+  ],
+  "hands_on_minutes": 30,
+  "total_minutes": 80,
+  "serves": 4,
+  "best_time": "midday",
+  "freezes": true,
+  "ingredients": [
+   {
+    "id": "shortcrust-pastry",
+    "name": "Ready-rolled all-butter shortcrust pastry",
+    "quantity": "320g",
+    "prep": ""
+   },
+   {
+    "id": "butter",
+    "name": "Butter",
+    "quantity": "25g",
+    "prep": ""
+   },
+   {
+    "id": "turnips",
+    "name": "Turnips",
+    "quantity": "400g",
+    "prep": "peeled and cut into 1cm dice"
+   },
+   {
+    "id": "leeks",
+    "name": "Leeks",
+    "quantity": "2",
+    "prep": "trimmed, washed and finely sliced"
+   },
+   {
+    "id": "thyme",
+    "name": "Thyme",
+    "quantity": "4 sprigs",
+    "prep": "leaves picked"
+   },
+   {
+    "id": "eggs",
+    "name": "Eggs",
+    "quantity": "4",
+    "prep": ""
+   },
+   {
+    "id": "milk",
+    "name": "Milk",
+    "quantity": "150ml",
+    "prep": ""
+   },
+   {
+    "id": "double-cream",
+    "name": "Double cream",
+    "quantity": "150ml",
+    "prep": ""
+   },
+   {
+    "id": "wholegrain-mustard",
+    "name": "Wholegrain mustard",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "cheddar",
+    "name": "Mature cheddar",
+    "quantity": "100g",
+    "prep": "grated"
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "quantity": "a few grinds",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Heat the oven to 180°C fan, 200°C conventional, with a baking tray on the middle shelf. Line the tart tin with the pastry, letting the excess hang over the edge. Prick the base all over with a fork and chill while you cook the filling.",
+   "Melt the butter in the frying pan over a medium heat. Add the turnips, leeks and thyme with a pinch of salt, cover and cook for 12 to 15 minutes, stirring now and then, until the turnips are tender and the leeks soft and sweet.",
+   "Meanwhile whisk the eggs, milk, cream and mustard in a jug with most of the cheddar, the rest of the salt and the pepper.",
+   "Spread the turnip and leek mixture over the pastry base. Pour in the egg mixture and scatter over the last of the cheese.",
+   "Set the tin on the hot baking tray, which helps crisp the base. Bake for 35 to 40 minutes, until the filling is golden and set with just a slight wobble in the middle.",
+   "Leave to rest for 10 minutes, then trim the overhanging pastry with a sharp knife and lift out of the tin. Serve warm or at room temperature."
+  ],
+  "tip": "Keeps for 3 days in the fridge and is good cold in lunchboxes. Swede or parsnip work in place of half the turnips."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

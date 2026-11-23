@@ -1,0 +1,43 @@
+{
+ "day": 126,
+ "title": "Orange and ricotta pancakes with strawberries",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or basic staple: flour, eggs, milk, ricotta, butter, fruit, honey and natural yoghurt."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Oranges, strawberries, ricotta and the rest are everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, fish slice, grater, whisk, bowls and a jug, and the techniques are simple drop pancakes and peeling oranges."
+  },
+  "works": {
+   "pass": true,
+   "reason": "175g flour with 250g ricotta, 3 eggs and 150ml milk makes a thick batter for about 16 small pancakes, a sensible four portions, and the medium heat and timings will cook them through."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Zesting and peeling the oranges, hulling the strawberries, mixing, then frying four or five batches fits within 30 minutes hands-on and 35 in total."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used in the steps under its true name, and no unlisted food appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "The first strawberries and the last Spanish oranges are both on the fruit in early May, and the fruit is the point of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, friendly and in British English, with useful cues such as bubbles on top and a golden underside."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "The ricotta, eggs, yoghurt and plenty of fruit make a proper breakfast, and the added sugar is modest."
+  }
+ }
+}

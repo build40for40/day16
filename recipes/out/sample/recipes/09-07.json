@@ -1,0 +1,118 @@
+{
+ "slot": {
+  "day": 250,
+  "date": "2027-09-07",
+  "label": "7 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "baked oats or breakfast loaf",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "plums"
+  ],
+  "protein": "smoked-mackerel",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Smoked mackerel on toast with sticky plums",
+  "intro": "Early September plums are sharp and juicy, and that tartness is just what rich smoked mackerel needs. A proper weekend breakfast that's on the table in 15 minutes.",
+  "meal": "breakfast",
+  "dish_form": "toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "frying pan",
+   "toaster or grill",
+   "small bowl"
+  ],
+  "hands_on_minutes": 15,
+  "total_minutes": 15,
+  "serves": 4,
+  "best_time": "morning",
+  "freezes": false,
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "name": "Rapeseed oil",
+    "quantity": "1 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "red-onions",
+    "name": "Red onion",
+    "quantity": "1",
+    "prep": "thinly sliced"
+   },
+   {
+    "id": "plums",
+    "name": "Plums",
+    "quantity": "6",
+    "prep": "stoned and cut into eighths"
+   },
+   {
+    "id": "cider-vinegar",
+    "name": "Cider vinegar",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "brown-sugar",
+    "name": "Soft brown sugar",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "creme-fraiche",
+    "name": "Crème fraîche",
+    "quantity": "150g",
+    "prep": ""
+   },
+   {
+    "id": "horseradish",
+    "name": "Horseradish sauce",
+    "quantity": "1 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "bread",
+    "name": "Wholemeal bread",
+    "quantity": "4 thick slices",
+    "prep": ""
+   },
+   {
+    "id": "smoked-mackerel",
+    "name": "Smoked mackerel fillets",
+    "quantity": "250g",
+    "prep": "skin removed, flaked"
+   },
+   {
+    "id": "watercress",
+    "name": "Watercress",
+    "quantity": "80g",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "quantity": "to taste",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Heat the oil in a frying pan over a medium heat. Add the onion and cook for 4 to 5 minutes, stirring now and then, until it starts to soften.",
+   "Add the plums, vinegar and sugar. Cook for 3 to 4 minutes until the plums are just soft and the juices turn sticky and glossy, but the pieces still hold their shape.",
+   "Meanwhile, stir the crème fraîche and horseradish together in a small bowl with a good grind of pepper.",
+   "Toast the bread until golden.",
+   "Spread each slice with the horseradish cream, then pile on the watercress and flaked mackerel.",
+   "Spoon the warm plums and their juices over the top, finish with more black pepper and eat straight away."
+  ],
+  "tip": "Leftover sticky plums keep in a jar in the fridge for 3 days and are lovely with cheese or cold ham."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

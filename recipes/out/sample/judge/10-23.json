@@ -1,0 +1,43 @@
+{
+ "day": 296,
+ "title": "Carrot, cheddar and thyme scones",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, butter, cheddar, eggs, milk, carrots and thyme are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a bowl, a jug, a fork and a baking tray, and the rubbing-in method suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The ratio of 350g flour to 85g butter, with egg, milk and moist grated carrot, gives a soft dough, and 15 to 18 minutes at 200C fan suits 8 wedges cut from a 3cm round, giving two scones each for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is believable for grating the carrots and cheese, rubbing in the butter and shaping, and 40 minutes total covers the bake and cooling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used in the steps, 'Mature cheddar' matches its id, and the flour for dusting and the butter for serving are both on the list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "200g of grated October carrots is central to the scone and leads the title, and a warm bake suits a chilly late-October afternoon."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "It reads as clear, friendly British instructions, with a useful warning not to knead the dough."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A cheese and carrot scone with egg is a filling, real-food after-school snack that a family would happily make again."
+  }
+ }
+}

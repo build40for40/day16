@@ -1,0 +1,43 @@
+{
+ "day": 99,
+ "title": "Bramley and rhubarb pots with hazelnut crunch",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bramleys, rhubarb, orange, sugar, cinnamon, nuts, seeds, butter, honey and natural yoghurt are all ordinary home kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Everything, including the hazelnuts and pumpkin seeds, is on everyday Tesco shelves at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It only needs a saucepan, frying pan, grater and bowls, and the techniques are simple stewing and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "About 700g of fruit with a little water and orange juice will cook down to a thick compote in 10 to 12 minutes, which is a generous four portions with 400g of yoghurt, and the honeyed crunch balances the sharpness."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and chopping two Bramleys, cutting the rhubarb, zesting, chopping nuts and toasting fits in about 20 minutes, and 45 minutes total covers cooking and 20 minutes of cooling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used in the steps under its true name, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early April rhubarb with stored Bramleys is right for the date, and the fruit compote is the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear and friendly, written in plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, natural yoghurt and nuts with only a little added sugar make a satisfying, wholesome afternoon snack."
+  }
+ }
+}

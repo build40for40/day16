@@ -1,0 +1,105 @@
+{
+ "slot": {
+  "day": 78,
+  "date": "2027-03-19",
+  "label": "19 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Porridge with apple and rhubarb compote",
+  "intro": "British apples from store are still crisp and sweet in March, and the first pink rhubarb gives them a sharp, bright lift for a warming breakfast.",
+  "meal": "breakfast",
+  "dish_form": "porridge with fruit compote",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "small frying pan",
+   "2 saucepans, one with a lid",
+   "grater"
+  ],
+  "hands_on_minutes": 15,
+  "total_minutes": 20,
+  "serves": 4,
+  "best_time": "morning",
+  "freezes": false,
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "name": "Pumpkin seeds",
+    "quantity": "40g",
+    "prep": ""
+   },
+   {
+    "id": "apples",
+    "name": "Eating apples",
+    "quantity": "4",
+    "prep": "cored and chopped, skin on"
+   },
+   {
+    "id": "rhubarb",
+    "name": "Rhubarb",
+    "quantity": "200g",
+    "prep": "cut into 2cm pieces"
+   },
+   {
+    "id": "oranges",
+    "name": "Orange",
+    "quantity": "1",
+    "prep": "zested and juiced"
+   },
+   {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "quantity": "1 tsp",
+    "prep": ""
+   },
+   {
+    "id": "brown-sugar",
+    "name": "Soft brown sugar",
+    "quantity": "1 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "water",
+    "name": "Water",
+    "quantity": "1.2 litres plus 3 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "oats",
+    "name": "Porridge oats",
+    "quantity": "200g",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "a pinch",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Toast the pumpkin seeds in a dry frying pan over a medium heat for 3 to 4 minutes, shaking the pan, until they start to pop and smell nutty. Tip onto a plate.",
+   "Put the apples, rhubarb, orange zest and juice, cinnamon, sugar and 3 tbsp water in a saucepan. Stir, cover and bring to a gentle simmer.",
+   "Cook for 8 to 10 minutes, stirring now and then, until the apples are tender and the rhubarb has collapsed into a soft pink sauce.",
+   "Meanwhile, put the oats, 1.2 litres water and a pinch of salt in another pan. Bring to the boil, then simmer for 5 to 6 minutes, stirring often, until thick and creamy.",
+   "Spoon the porridge into bowls, top with the warm compote and scatter over the toasted seeds."
+  ],
+  "tip": "Make a double batch of compote. It keeps for 4 days in the fridge and is just as good cold on toast."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

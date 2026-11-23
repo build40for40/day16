@@ -1,0 +1,329 @@
+{
+  "year": 2027,
+  "seed": 16,
+  "serves": 4,
+  "meals": {
+    "breakfast": 100,
+    "lunch": 100,
+    "dinner": 100,
+    "snack": 65
+  },
+  "targets": {
+    "vegetarian_min": 0.5,
+    "vegan_min": 0.1,
+    "gluten_free_min": 0.1,
+    "quick_min": 0.33
+  },
+  "limits": {
+    "hands_on_max": 60,
+    "quick_max": 20,
+    "max_ingredients": 12,
+    "max_steps": 7,
+    "max_step_words": 45,
+    "max_title_chars": 60,
+    "max_intro_words": 30
+  },
+  "diet_mix": {
+    "breakfast": {
+      "vegan": 0.12,
+      "vegetarian": 0.7,
+      "fish": 0.08,
+      "meat": 0.1
+    },
+    "lunch": {
+      "vegan": 0.12,
+      "vegetarian": 0.4,
+      "fish": 0.18,
+      "meat": 0.3
+    },
+    "dinner": {
+      "vegan": 0.1,
+      "vegetarian": 0.3,
+      "fish": 0.18,
+      "meat": 0.42
+    },
+    "snack": {
+      "vegan": 0.25,
+      "vegetarian": 0.7,
+      "fish": 0.05,
+      "meat": 0
+    }
+  },
+  "gluten_free_share": 0.14,
+  "quick_share": 0.4,
+  "forms": {
+    "breakfast": {
+      "porridge": {
+        "cold": 2,
+        "warm": 0.3,
+        "hero": "fruit"
+      },
+      "overnight oats or bircher": {
+        "cold": 0.3,
+        "warm": 2,
+        "hero": "fruit"
+      },
+      "eggs": {
+        "hero": "veg"
+      },
+      "on toast": {},
+      "pancakes or griddle cakes": {
+        "hero": "fruit"
+      },
+      "fruit compote with yoghurt": {
+        "hero": "fruit"
+      },
+      "breakfast hash": {
+        "cold": 1.5,
+        "warm": 0.6,
+        "hero": "veg"
+      },
+      "baked oats or breakfast loaf": {
+        "hero": "fruit"
+      },
+      "savoury breakfast plate": {
+        "hero": "veg"
+      }
+    },
+    "lunch": {
+      "soup": {
+        "cold": 2,
+        "warm": 0.5,
+        "kit": "one_pot"
+      },
+      "salad": {
+        "cold": 0.4,
+        "warm": 2.5
+      },
+      "tart or quiche": {},
+      "on toast": {},
+      "grain bowl": {},
+      "frittata or omelette": {},
+      "fritters": {},
+      "pasta": {},
+      "jacket or loaded potato": {
+        "cold": 1.5,
+        "warm": 0.5
+      },
+      "lentil or bean pot": {
+        "kit": "one_pot"
+      }
+    },
+    "dinner": {
+      "stew or casserole": {
+        "cold": 2,
+        "warm": 0.3,
+        "kit": "one_pot"
+      },
+      "pie": {
+        "cold": 1.5,
+        "warm": 0.6
+      },
+      "traybake": {
+        "kit": "one_tray"
+      },
+      "pasta": {},
+      "risotto or grain pot": {
+        "kit": "one_pot"
+      },
+      "curry or dal": {
+        "kit": "one_pot"
+      },
+      "roast": {
+        "cold": 1.3,
+        "warm": 0.7,
+        "kit": "one_tray"
+      },
+      "fishcakes or patties": {},
+      "gratin or bake": {
+        "cold": 1.5,
+        "warm": 0.6
+      },
+      "hearty soup": {
+        "cold": 1.5,
+        "warm": 0.4,
+        "kit": "one_pot"
+      },
+      "pan fry with a side": {},
+      "big salad": {
+        "cold": 0.2,
+        "warm": 2
+      }
+    },
+    "snack": {
+      "dip with crudités": {
+        "cold": 0.6,
+        "warm": 1.5,
+        "hero": "veg"
+      },
+      "flapjack or oat bar": {
+        "hero": "fruit"
+      },
+      "scone or soda bread": {},
+      "fruit pot or crumble": {
+        "hero": "fruit"
+      },
+      "savoury muffin or bake": {
+        "hero": "veg"
+      },
+      "baked or stewed fruit": {
+        "cold": 1.5,
+        "warm": 0.7,
+        "hero": "fruit"
+      },
+      "oatcakes with a topping": {},
+      "quick pickle or slaw": {
+        "hero": "veg"
+      }
+    }
+  },
+  "not_hero": [
+    "onions",
+    "red-onions",
+    "shallots",
+    "garlic",
+    "lemons",
+    "chillies"
+  ],
+  "breakfast_veg": [
+    "tomatoes",
+    "cherry-tomatoes",
+    "mushrooms",
+    "spinach",
+    "potatoes",
+    "new-potatoes",
+    "leeks",
+    "kale",
+    "courgettes",
+    "asparagus",
+    "chard",
+    "sweetcorn",
+    "spring-onions"
+  ],
+  "light_protein": {
+    "meat": [
+      "bacon",
+      "sausages",
+      "ham"
+    ],
+    "fish": [
+      "kippers",
+      "smoked-haddock",
+      "smoked-mackerel",
+      "trout"
+    ]
+  },
+  "plant_protein_hints": {
+    "vegan": [
+      "lentils",
+      "tinned beans or chickpeas",
+      "a whole grain",
+      "nuts or seeds",
+      "split peas"
+    ],
+    "vegetarian": [
+      "eggs",
+      "cheese",
+      "lentils",
+      "tinned beans or chickpeas",
+      "a whole grain",
+      "nuts or seeds"
+    ]
+  },
+  "banned": {
+    "imported_fresh": [
+      "avocado",
+      "banana",
+      "mango",
+      "pineapple",
+      "papaya",
+      "passion fruit",
+      "lime",
+      "coconut",
+      "fresh ginger",
+      "root ginger",
+      "lemongrass",
+      "sweet potato",
+      "okra",
+      "plantain",
+      "kiwi",
+      "pomegranate",
+      "edamame",
+      "prawn",
+      "tuna",
+      "quinoa",
+      "chia",
+      "cashew",
+      "medjool"
+    ],
+    "expensive": [
+      "caviar",
+      "oyster",
+      "lobster",
+      "truffle",
+      "saffron",
+      "fillet steak",
+      "sirloin",
+      "scallop",
+      "langoustine",
+      "salmon",
+      "monkfish",
+      "turbot",
+      "halibut",
+      "wagyu",
+      "foie gras",
+      "crab"
+    ],
+    "kit": [
+      "sous vide",
+      "air fryer",
+      "pressure cooker",
+      "slow cooker",
+      "spiralizer",
+      "spiraliser",
+      "stand mixer",
+      "food processor",
+      "thermometer",
+      "blowtorch",
+      "mandoline",
+      "pasta machine",
+      "dehydrator",
+      "ice cream maker",
+      "bread maker",
+      "waffle iron",
+      "piping bag"
+    ],
+    "ultra_processed": [
+      "protein powder",
+      "margarine",
+      "low-fat spread",
+      "sweetener",
+      "stevia",
+      "instant",
+      "stock pot",
+      "gravy granules",
+      "ready-made sauce",
+      "jar of sauce",
+      "cook-in sauce",
+      "vegan cheese",
+      "meat substitute",
+      "quorn",
+      "plant-based mince",
+      "squirty cream",
+      "custard powder",
+      "cake mix",
+      "packet mix",
+      "oat milk",
+      "almond milk",
+      "soya milk",
+      "processed cheese",
+      "cheese slices",
+      "crab sticks",
+      "energy drink",
+      "cola",
+      "ketchup",
+      "salad cream",
+      "xanthan"
+    ]
+  }
+}

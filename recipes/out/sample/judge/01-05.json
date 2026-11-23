@@ -1,0 +1,43 @@
+{
+ "day": 5,
+ "title": "Warm orange and rhubarb compote with yoghurt",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, honey, cinnamon, almonds, pumpkin seeds and natural yoghurt are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Forced rhubarb, oranges, almonds, pumpkin seeds and natural yoghurt are all stocked by Tesco in January at everyday prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a saucepan, a frying pan and a bowl, and peeling oranges with a knife is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g rhubarb, three oranges and 500g yoghurt make a fair breakfast for four, and a short covered simmer with honey and juice suits tender forced rhubarb."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Zesting, peeling and slicing three oranges, cutting the rhubarb and toasting the nuts while it simmers fits believably into 15 minutes hands-on and 20 in total."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient is used, nothing unlisted appears in the steps, and 'Forced rhubarb' is the same food as the rhubarb id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm compote of early forced rhubarb and winter oranges suits a cold January morning, and the rhubarb is clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, friendly British English with no restaurant jargon or health preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Yoghurt, fruit, nuts and seeds with only 2 tbsp honey make a balanced breakfast that a family would happily eat again."
+  }
+ }
+}

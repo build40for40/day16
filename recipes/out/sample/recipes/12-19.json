@@ -1,0 +1,125 @@
+{
+ "slot": {
+  "day": 353,
+  "date": "2027-12-19",
+  "label": "19 December",
+  "month": 12,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "carrots"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Carrot and butter bean soup with cumin",
+  "intro": "Stored carrots grow sweeter through December, and blended with creamy butter beans they make a thick, warming lunch for the busy days before Christmas.",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "large saucepan with lid",
+   "stick blender",
+   "peeler"
+  ],
+  "hands_on_minutes": 15,
+  "total_minutes": 35,
+  "serves": 4,
+  "best_time": "midday",
+  "freezes": true,
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "name": "Pumpkin seeds",
+    "quantity": "3 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "olive-oil",
+    "name": "Olive oil",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "onions",
+    "name": "Onion",
+    "quantity": "1",
+    "prep": "chopped"
+   },
+   {
+    "id": "garlic",
+    "name": "Garlic",
+    "quantity": "2 cloves",
+    "prep": "sliced"
+   },
+   {
+    "id": "carrots",
+    "name": "Carrots",
+    "quantity": "800g",
+    "prep": "peeled and thinly sliced"
+   },
+   {
+    "id": "cumin",
+    "name": "Ground cumin",
+    "quantity": "2 tsp",
+    "prep": ""
+   },
+   {
+    "id": "butter-beans",
+    "name": "Tinned butter beans",
+    "quantity": "2 x 400g tins",
+    "prep": "drained"
+   },
+   {
+    "id": "vegetable-stock",
+    "name": "Vegetable stock",
+    "quantity": "1.2 litres",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "to taste",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "quantity": "to taste",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "name": "Lemon",
+    "quantity": "1/2",
+    "prep": "juiced"
+   },
+   {
+    "id": "natural-yoghurt",
+    "name": "Natural yoghurt",
+    "quantity": "4 tbsp",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Toast the pumpkin seeds in a dry large saucepan over a medium heat for 2 to 3 minutes, until they start to pop. Tip them into a bowl.",
+   "Add the oil, onion and garlic to the pan and cook for 5 minutes, stirring now and then, until the onion is soft.",
+   "Stir in the carrots and cumin and cook for 2 minutes, until the spice smells toasty.",
+   "Add the butter beans and stock with a good pinch of salt. Bring to the boil, cover and simmer for 15 to 20 minutes, until the carrots are soft enough to squash with a spoon.",
+   "Take off the heat and blend with a stick blender until smooth. Add a splash of water if it is too thick.",
+   "Stir in the lemon juice, then season with salt and pepper to taste.",
+   "Ladle into bowls and top with a spoonful of yoghurt and the toasted seeds."
+  ],
+  "tip": "Keeps for 3 days in the fridge or 3 months in the freezer. Freeze it before adding the yoghurt and seeds."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

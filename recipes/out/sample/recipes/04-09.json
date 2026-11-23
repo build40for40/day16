@@ -1,0 +1,125 @@
+{
+ "slot": {
+  "day": 99,
+  "date": "2027-04-09",
+  "label": "9 April",
+  "month": 4,
+  "meal": "snack",
+  "form": "fruit pot or crumble",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "bramley-apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Bramley and rhubarb pots with hazelnut crunch",
+  "intro": "Stored Bramleys are still going strong as the first pink rhubarb arrives, and together they make a soft, sharp compote that tastes like spring.",
+  "meal": "snack",
+  "dish_form": "fruit pot",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "saucepan with lid",
+   "frying pan",
+   "grater",
+   "plate",
+   "4 glasses or small bowls"
+  ],
+  "hands_on_minutes": 20,
+  "total_minutes": 45,
+  "serves": 4,
+  "best_time": "afternoon",
+  "freezes": false,
+  "ingredients": [
+   {
+    "id": "bramley-apples",
+    "name": "Bramley cooking apples",
+    "quantity": "2 large (about 500g)",
+    "prep": "peeled, cored and chopped"
+   },
+   {
+    "id": "rhubarb",
+    "name": "Rhubarb",
+    "quantity": "200g",
+    "prep": "cut into 2cm pieces"
+   },
+   {
+    "id": "oranges",
+    "name": "Orange",
+    "quantity": "1",
+    "prep": "zested and juiced"
+   },
+   {
+    "id": "brown-sugar",
+    "name": "Soft brown sugar",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "quantity": "½ tsp",
+    "prep": ""
+   },
+   {
+    "id": "water",
+    "name": "Water",
+    "quantity": "2 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "hazelnuts",
+    "name": "Hazelnuts",
+    "quantity": "50g",
+    "prep": "roughly chopped"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "name": "Pumpkin seeds",
+    "quantity": "30g",
+    "prep": ""
+   },
+   {
+    "id": "butter",
+    "name": "Butter",
+    "quantity": "15g",
+    "prep": ""
+   },
+   {
+    "id": "honey",
+    "name": "Honey",
+    "quantity": "1 tbsp",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "name": "Salt",
+    "quantity": "a pinch",
+    "prep": ""
+   },
+   {
+    "id": "natural-yoghurt",
+    "name": "Natural yoghurt",
+    "quantity": "400g",
+    "prep": ""
+   }
+  ],
+  "steps": [
+   "Put the apples, rhubarb, orange zest and juice, sugar, cinnamon and water in a saucepan. Cover and cook over a low heat for 10 to 12 minutes, stirring now and then, until the Bramleys collapse into a fluffy purée and the rhubarb is soft.",
+   "Take the pan off the heat and leave the compote to cool for about 20 minutes. It will thicken as it sits.",
+   "Meanwhile, toast the hazelnuts and pumpkin seeds in a dry frying pan over a medium heat for 3 to 4 minutes, shaking the pan, until golden and smelling nutty.",
+   "Add the butter, honey and a pinch of salt and stir for about a minute until everything is coated and sticky. Tip onto a plate and spread out to cool and crisp up.",
+   "Spoon the compote into four glasses or small bowls, top with the yoghurt and scatter over the hazelnut crunch just before eating."
+  ],
+  "tip": "The compote keeps for 4 days in the fridge and freezes well, and the crunch stays crisp for a week in a jar."
+ },
+ "attempts": 1,
+ "failures": [],
+ "model": "claude-opus-5-5"
+}
