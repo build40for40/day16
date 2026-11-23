@@ -175,7 +175,7 @@ tick();setInterval(tick,1000);
 $('reg').addEventListener('click',function(e){e.preventDefault();show((ri+1)%R.length)});
 skin(root.getAttribute('data-skin')||'seasoned',false);show(0);
 var qs=new URLSearchParams(location.search);
-if(qs.has('paid')){$('bp').innerHTML="Sold. Your book is off to the printer.<small>It's printed just for you, so give it a week or two to land. We've emailed you the details.</small>";$('ba').innerHTML='<a class="cta" href="./">Back to today\'s recipe</a>';
+if(qs.has('paid')){$('bp').innerHTML="Thanks. Check your email.<small>We'll confirm there once your book is with the printer. Nothing in an hour? Tell us at <a href=\"mailto:help@build40for40.com\">help@build40for40.com</a>.</small>";$('ba').innerHTML='<a class="cta" href="./">Back to today\'s recipe</a>';
 /* Drop ?paid so a refresh or a shared link shows the normal page again. */
 qs.delete('paid');try{history.replaceState(null,'',location.pathname+(qs.toString()?'?'+qs:'')+location.hash)}catch(e){}}
 </script>
