@@ -99,6 +99,13 @@ const CSS = `
 const side = (pageNumber: number) => (pageNumber % 2 === 0 ? " verso" : "");
 const paragraphs = (list: string[]) => list.map((text) => `<p>${esc(text)}</p>`).join("\n");
 
+// The season line from the cover and the recipe pages, with the whole year still ahead: no dot, nothing filled in.
+function seasonLine(): string {
+  const tops = [218, 351, 510, 669, 775];
+  const names = ["winter", "spring", "summer", "autumn", "winter"];
+  return `<div class="year"></div>${names.map((name, index) => `<span class="season on" style="top:${tops[index]}px"><svg viewBox="0 0 24 24"><use href="#${name}"></use></svg></span>`).join("")}`;
+}
+
 function frontPages(): string[] {
   const { copyright, how_to_read: how, introduction: intro } = copy;
   const monthRows = MONTHS.map((month, index) => {
@@ -108,7 +115,7 @@ function frontPages(): string[] {
   return [
     `<div class="box middle"><div class="wordmark">${esc(copy.wordmark)}</div></div>`,
     ``,
-    `<div class="box"><div style="margin-top:150px" class="wordmark">${esc(copy.wordmark)}</div><div class="subtitle">${esc(copy.subtitle)}</div><div class="authors">${copy.authors.map(esc).join("<br>")}</div></div>`,
+    `<div class="box"><div style="margin-top:150px" class="wordmark">${esc(copy.wordmark)}</div><div class="subtitle">${esc(copy.subtitle)}</div><div class="authors">${copy.authors.map(esc).join("<br>")}</div></div>${seasonLine()}`,
     `<div class="box small" style="justify-content:flex-end"><p>${esc(copy.title)}<br>${esc(copy.subtitle)}</p><p>${copy.authors.map(esc).join("<br>")}</p><p>${esc(copyright.line)}</p><p>${esc(copyright.rights)}</p><p>${esc(copyright.isbn)}<br>${esc(copyright.imprint)}</p><h3>${esc(copyright.note_heading)}</h3>${paragraphs(copyright.note)}<p>${esc(copyright.edition)}</p></div>`,
     `<div class="box"><h2>Contents</h2><div class="contents"><span>${esc(how.heading)}</span><span></span><span>${esc(intro.heading)}</span><span></span>\n${monthRows}\n<span>${esc(copy.index_ingredients_heading)}</span><span></span><span>${esc(copy.index_meals_heading)}</span><span></span><span>${esc(copy.acknowledgements.heading)}</span><span></span><span>${esc(copy.about.heading)}</span><span></span></div></div>`,
     `<div class="box"><h2>${esc(how.heading)}</h2><p class="lead">${esc(how.lead)}</p><dl>${how.items.map(([term, text]: string[]) => `<dt>${esc(term)}</dt><dd>${esc(text)}</dd>`).join("")}</dl></div>`,
