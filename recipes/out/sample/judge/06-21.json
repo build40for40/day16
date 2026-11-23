@@ -1,43 +1,43 @@
 {
  "day": 172,
- "title": "Raspberry and peach oat crumble",
+ "title": "Apricot and raspberry oat crumble",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Fruit, flour, oats, almonds, sugar, cinnamon and sunflower oil are all plain cupboard staples with nothing factory-made."
+   "reason": "Fruit, oats, flour, almonds, sugar, oil and cinnamon are all plain cupboard and garden foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Peaches, raspberries in June, oats, almonds and sunflower oil are everyday Tesco items at normal prices."
+   "reason": "Every ingredient is a standard Tesco line, and raspberries and apricots are at their everyday summer price in June."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a baking dish, a bowl, a fork and scales, and the technique is simple mixing and scattering."
+   "reason": "It needs only a baking dish, a bowl and a knife, and rubbing in a crumble is beginner technique."
   },
   "works": {
    "pass": true,
-   "reason": "Around 700g of fruit under a 240g oat and flour topping bound with 5 tbsp oil, baked at 180°C fan for 30 to 35 minutes, gives a sound crumble for four, though the juices may stay a little loose with only 1 tsp cornflour."
+   "reason": "The oven temperature, timing and fruit-to-topping ratio give a sound crumble for four, though with only 2 tbsp sugar and none on the fruit it will be on the sharp side."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Stoning four peaches, chopping almonds and rubbing together the topping fits in 15 minutes, and 55 minutes total covers baking and resting."
+   "reason": "Stoning eight apricots, chopping the almonds and rubbing in the topping fits 15 minutes, and the 25 to 30 minute bake matches the cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps under its true name, and nothing unlisted appears."
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Midsummer raspberries are the clear star of a fruit crumble, which suits a June afternoon."
+   "reason": "Raspberries at 300g are a full half of the fruit and suit midsummer, and a warm fruit crumble is reasonable in June."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, friendly British English with no restaurant language or health preaching."
+   "reason": "The steps are short, clear British home-cook instructions."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is mostly fruit with oats and almonds and modest added sugar, a crumble a family would happily make again."
+   "reason": "It is a fruit-heavy snack with oats and almonds and only modest sugar, so it is real food a family would make again."
   }
  }
 }

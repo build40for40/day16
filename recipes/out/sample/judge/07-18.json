@@ -1,43 +1,43 @@
 {
  "day": 199,
- "title": "Burst cherry tomatoes with eggs, halloumi and toast",
+ "title": "Blistered cherry tomatoes, mushrooms and eggs on toast",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is whole food or a simple staple: halloumi, eggs, vegetables, bread, oil and vinegar."
+   "reason": "Mushrooms, cherry tomatoes, garlic, eggs, butter, olive oil, bread and fresh herbs are all plain kitchen foods with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient, including the halloumi and the bag of spinach, is an everyday Tesco item at a normal price."
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a large lidded frying pan and a toaster, and the egg-in-hollow technique suits a confident beginner."
+   "reason": "It needs only a large frying pan with a lid and a toaster or grill, and frying eggs in gaps in the pan is beginner technique."
   },
   "works": {
    "pass": true,
-   "reason": "500g tomatoes, 200g spinach, four eggs and 225g halloumi with toast is a sensible amount for four, and the timings will give set whites and runny yolks."
+   "reason": "The amounts suit four for breakfast (an egg, a slice of toast and a good spoonful of tomatoes and mushrooms each), the timings are sensible, and making the toast is a detail any cook would fill in."
   },
   "honest_times": {
    "pass": true,
-   "reason": "About 18 minutes of hob time plus slicing the garlic and halloumi fits within the 25 minutes printed."
+   "reason": "Ten minutes covers slicing the mushrooms and garlic, stripping the thyme, snipping the chives and toasting, and the 13 to 14 minutes of hob time in the steps is close enough to the 12 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps, nothing unlisted appears, and 'Wholemeal bread' matches the bread id."
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Mid-July cherry tomatoes are the base of the dish, not a garnish, and a quick pan breakfast suits summer."
+   "reason": "Burst cherry tomatoes are the centre of a light July breakfast, which suits midsummer."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, homely British English with helpful cues such as going easy on salt because of the halloumi."
+   "reason": "The steps are short, clear British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Eggs, halloumi, spinach, tomatoes and wholemeal toast make a filling, balanced breakfast a family would happily repeat."
+   "reason": "Eggs, vegetables and wholemeal toast make a proper, filling breakfast that a family would happily cook again."
   }
  }
 }

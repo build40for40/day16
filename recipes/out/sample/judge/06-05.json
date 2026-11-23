@@ -1,43 +1,43 @@
 {
  "day": 156,
- "title": "Chard, smoked haddock and new potato frittata",
+ "title": "Chard, cod and new potato frittata",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is whole food a grandparent would keep: potatoes, smoked haddock, milk, eggs, chard, spring onions, chives, Cheddar and salad leaves."
+   "reason": "Every ingredient is a whole food or a plain dairy staple: potatoes, chard, spring onions, eggs, crème fraîche, cod, oil, dill and lemon."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Smoked haddock, chard, new potatoes and the rest are everyday items at a mainstream UK supermarket at ordinary prices."
+   "reason": "Every ingredient is a regular Tesco line, and 300g of cod is an ordinary weeknight buy rather than a treat."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only saucepans, an ovenproof frying pan, a bowl, a whisk and the grill, and the technique suits a confident beginner."
+   "reason": "It needs only a saucepan and a lidded frying pan, and a covered hob frittata is well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "Eight eggs with 400g potatoes, 300g haddock and 250g chard in a 26cm pan gives a well-filled frittata for four, and setting it on the hob then finishing under the grill is sound."
+   "reason": "Eight eggs, 400g potatoes, 300g chard and 300g cod make a sensible frittata for four, and raw cod chunks will cook through in 12 to 15 minutes covered on a low heat."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Poaching the haddock and preparing the chard overlap with the potato boil, so 25 minutes hands-on and about 40 minutes in total is believable."
+   "reason": "Twenty minutes is enough for slicing potatoes, separating and chopping chard, cutting the cod and beating the eggs, and the steps add up to about 25 minutes of cooking."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps, the names match their ids, and the cod in the tip is on the June list."
+   "reason": "Every listed ingredient and seasoning, including the dill and the lemon used as zest, appears in the steps, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Early June chard and new potatoes make up the body of the dish, and a warm frittata with salad suits a June lunch."
+   "reason": "Garden chard in early June is the bulk of the frittata, alongside new potatoes, which suits a light summer lunch."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, practical British English, including a useful note on going easy with the salt because the haddock is already salty."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling, balanced lunch of eggs, fish, greens and potatoes with salad on the side."
+   "reason": "Eggs, fish, potatoes and greens make a balanced, filling lunch a family would happily eat again."
   }
  }
 }

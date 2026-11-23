@@ -1,12 +1,12 @@
 import { writeFileSync } from "node:fs";
 import path from "node:path";
-import { hardChecks } from "./lib/checks.js";
+import { fit, hardChecks } from "./lib/checks.js";
 import { byId, config, fresh, root } from "./lib/data.js";
 import { CRITERIA } from "./lib/schema.js";
 import { args, load } from "./lib/store.js";
 
 const STOP = new Set(["with", "and", "the", "a", "of", "on", "in", "or", "for"]);
-const STAPLES = new Set(["salt", "black-pepper", "water", "olive-oil", "rapeseed-oil", "sunflower-oil", "butter"]);
+const STAPLES = new Set(["salt", "black-pepper", "olive-oil", "rapeseed-oil", "sunflower-oil", "butter"]);
 
 const { set } = args();
 const pages = load(set, "recipes").map((page) => ({ ...page, failures: hardChecks(page.recipe, page.slot) }));
@@ -23,10 +23,16 @@ const failing = pages.filter((page) => page.failures.length);
 const veggie = pages.filter((page) => ["vegan", "vegetarian"].includes(page.recipe.diet)).length;
 const vegan = pages.filter((page) => page.recipe.diet === "vegan").length;
 const glutenFree = pages.filter((page) => page.recipe.gluten_free).length;
-const quick = pages.filter((page) => page.recipe.hands_on_minutes <= config.limits.quick_max).length;
-const handsOn = pages.map((page) => page.recipe.hands_on_minutes).sort((a, b) => a - b);
+const quick = pages.filter((page) => page.recipe.prep_minutes <= config.limits.quick_max).length;
+const handsOn = pages.map((page) => page.recipe.prep_minutes).sort((a, b) => a - b);
+const band = (recipe) => {
+  const total = recipe.prep_minutes + recipe.cook_minutes;
+  return total <= 30 ? "30m" : total <= 60 ? "60m" : total <= 90 ? "90m" : "over 90m";
+};
+const sizes = pages.map((page) => fit(page.recipe));
+const range = (values) => `${Math.min(...values)} to ${Math.max(...values)}`;
 
-const used = pages.flatMap((page) => page.recipe.ingredients.map((ingredient) => byId.get(ingredient.id)).filter(Boolean));
+const used = pages.flatMap((page) => [...page.recipe.ingredients, ...page.recipe.seasoning].map((ingredient) => byId.get(ingredient.id)).filter(Boolean));
 const usedFresh = used.filter((item) => item.fresh && ["veg", "fruit", "herb"].includes(item.kind));
 const unused = fresh.filter((item) => !used.includes(item)).map((item) => item.name);
 
@@ -89,8 +95,12 @@ ${table(
     ["Vegetarian or vegan", target(veggie, config.targets.vegetarian_min)],
     ["Vegan", target(vegan, config.targets.vegan_min)],
     ["Gluten free", target(glutenFree, config.targets.gluten_free_min)],
-    [`Hands-on ${config.limits.quick_max} minutes or less`, target(quick, config.targets.quick_min)],
-    ["Hands-on minutes", `median ${handsOn[Math.floor(handsOn.length / 2)]}, longest ${handsOn.at(-1)}`],
+    [`Prep ${config.limits.quick_max} minutes or less`, target(quick, config.targets.quick_min)],
+    ["Prep minutes", `median ${handsOn[Math.floor(handsOn.length / 2)]}, longest ${handsOn.at(-1)}`],
+    ["Time band on the page edge", count(pages.map((page) => band(page.recipe))).map(([name, n]) => `${name} ${n}`).join(", ")],
+    ["Ingredient lines", `${range(sizes.map((size) => size.ingredientLines))} of ${config.limits.ingredient_lines}`],
+    ["Method height", `${range(sizes.map((size) => size.methodPx))}px of ${config.limits.method_px}px`],
+    ["Method characters", range(sizes.map((size) => size.methodChars))],
     ["Kit", count(pages.map((page) => page.recipe.kit)).map(([kit, n]) => `${kit.replaceAll("_", " ")} ${n}`).join(", ")],
     ["Hero you can grow", share(pages.filter((page) => byId.get(page.slot.heroes[0]).garden).length)],
     ["Fresh produce from the UK", `${Math.round((usedFresh.filter((item) => item.origin === "uk").length / Math.max(1, usedFresh.length)) * 100)}% of uses`],

@@ -17,109 +17,82 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Bramley and rhubarb pots with hazelnut crunch",
-  "intro": "Stored Bramleys are still going strong as the first pink rhubarb arrives, and together they make a soft, sharp compote that tastes like spring.",
+  "title": "Apple and rhubarb pots with honey nuts",
   "meal": "snack",
   "dish_form": "fruit pot",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "saucepan with lid",
-   "frying pan",
-   "grater",
-   "plate",
-   "4 glasses or small bowls"
+   "a heavy pan",
+   "a frying pan"
   ],
-  "hands_on_minutes": 20,
-  "total_minutes": 45,
-  "serves": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
   "ingredients": [
    {
     "id": "bramley-apples",
-    "name": "Bramley cooking apples",
-    "quantity": "2 large (about 500g)",
-    "prep": "peeled, cored and chopped"
+    "quantity": "3",
+    "name": "Bramley apples"
    },
    {
     "id": "rhubarb",
-    "name": "Rhubarb",
-    "quantity": "200g",
-    "prep": "cut into 2cm pieces"
+    "quantity": "300g",
+    "name": "rhubarb"
    },
    {
     "id": "oranges",
-    "name": "Orange",
     "quantity": "1",
-    "prep": "zested and juiced"
+    "name": "orange"
    },
    {
     "id": "brown-sugar",
-    "name": "Soft brown sugar",
-    "quantity": "2 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "cinnamon",
-    "name": "Cinnamon",
-    "quantity": "½ tsp",
-    "prep": ""
-   },
-   {
-    "id": "water",
-    "name": "Water",
-    "quantity": "2 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "hazelnuts",
-    "name": "Hazelnuts",
-    "quantity": "50g",
-    "prep": "roughly chopped"
-   },
-   {
-    "id": "pumpkin-seeds",
-    "name": "Pumpkin seeds",
-    "quantity": "30g",
-    "prep": ""
+    "quantity": "5 tbsp",
+    "name": "soft brown sugar"
    },
    {
     "id": "butter",
-    "name": "Butter",
-    "quantity": "15g",
-    "prep": ""
+    "quantity": "20g",
+    "name": "butter"
+   },
+   {
+    "id": "almonds",
+    "quantity": "75g",
+    "name": "almonds"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "75g",
+    "name": "hazelnuts"
    },
    {
     "id": "honey",
-    "name": "Honey",
-    "quantity": "1 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "name": "Salt",
-    "quantity": "a pinch",
-    "prep": ""
+    "quantity": "2 tbsp",
+    "name": "honey"
    },
    {
     "id": "natural-yoghurt",
-    "name": "Natural yoghurt",
     "quantity": "400g",
-    "prep": ""
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Put the apples, rhubarb, orange zest and juice, sugar, cinnamon and water in a saucepan. Cover and cook over a low heat for 10 to 12 minutes, stirring now and then, until the Bramleys collapse into a fluffy purée and the rhubarb is soft.",
-   "Take the pan off the heat and leave the compote to cool for about 20 minutes. It will thicken as it sits.",
-   "Meanwhile, toast the hazelnuts and pumpkin seeds in a dry frying pan over a medium heat for 3 to 4 minutes, shaking the pan, until golden and smelling nutty.",
-   "Add the butter, honey and a pinch of salt and stir for about a minute until everything is coated and sticky. Tip onto a plate and spread out to cool and crisp up.",
-   "Spoon the compote into four glasses or small bowls, top with the yoghurt and scatter over the hazelnut crunch just before eating."
-  ],
-  "tip": "The compote keeps for 4 days in the fridge and freezes well, and the crunch stays crisp for a week in a jar."
+   "Simmer the peeled, chopped apples and rhubarb with the sugar, cinnamon and orange zest and juice for 10 to 12 minutes, until soft. Leave to cool.",
+   "Melt the butter in a frying pan. Toast the chopped nuts for 4 minutes, stir in the honey until sticky, then tip onto a plate.",
+   "Layer fruit and yoghurt in four bowls and scatter over the nuts."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

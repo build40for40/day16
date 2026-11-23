@@ -17,110 +17,100 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Baked fennel, chickpea and walnut patties",
-  "intro": "Fennel is plump and sweet in September. Grated raw into these patties it softens in the oven, while walnuts add crunch and a bit of extra protein.",
+  "title": "Fennel, bean and walnut patties with tomato salad",
   "meal": "dinner",
   "dish_form": "patties",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "oven",
+  "kit": "hob",
   "utensils": [
-   "grater",
-   "masher",
-   "mixing bowl",
-   "baking tray",
-   "fish slice"
+   "a large frying pan",
+   "a masher",
+   "a grater"
   ],
-  "hands_on_minutes": 20,
-  "total_minutes": 45,
-  "serves": 4,
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "time_note": "",
   "best_time": "evening",
   "freezes": true,
-  "ingredients": [
-   {
-    "id": "fennel",
-    "name": "Fennel",
-    "quantity": "1 large bulb",
-    "prep": "fronds kept"
-   },
-   {
-    "id": "chickpeas",
-    "name": "Tinned chickpeas",
-    "quantity": "2 x 400g tins",
-    "prep": "drained"
-   },
-   {
-    "id": "walnuts",
-    "name": "Walnuts",
-    "quantity": "75g",
-    "prep": "roughly chopped"
-   },
-   {
-    "id": "feta",
-    "name": "Feta",
-    "quantity": "100g",
-    "prep": "crumbled"
-   },
-   {
-    "id": "lemons",
-    "name": "Lemon",
-    "quantity": "1",
-    "prep": "zested and juiced"
-   },
-   {
-    "id": "eggs",
-    "name": "Egg",
-    "quantity": "1",
-    "prep": "beaten"
-   },
-   {
-    "id": "breadcrumbs",
-    "name": "Breadcrumbs",
-    "quantity": "60g",
-    "prep": ""
-   },
+  "seasoning": [
    {
     "id": "salt",
-    "name": "Salt",
-    "quantity": "1 pinch",
-    "prep": ""
+    "name": "salt"
    },
    {
     "id": "black-pepper",
-    "name": "Black pepper",
-    "quantity": "to taste",
-    "prep": ""
+    "name": "black pepper"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "fennel",
+    "quantity": "1 large",
+    "name": "fennel bulb"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "2 tins",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "75g",
+    "name": "walnuts"
+   },
+   {
+    "id": "breadcrumbs",
+    "quantity": "60g",
+    "name": "breadcrumbs"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "50g",
+    "name": "veggie hard cheese"
+   },
+   {
+    "id": "eggs",
+    "quantity": "1",
+    "name": "egg"
    },
    {
     "id": "olive-oil",
-    "name": "Olive oil",
     "quantity": "3 tbsp",
-    "prep": ""
+    "name": "olive oil"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "300g",
+    "name": "cherry tomatoes"
    },
    {
     "id": "natural-yoghurt",
-    "name": "Natural yoghurt",
     "quantity": "150g",
-    "prep": ""
-   },
-   {
-    "id": "rocket",
-    "name": "Rocket",
-    "quantity": "100g",
-    "prep": ""
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Heat the oven to 200C fan, 220C conventional. Coarsely grate the fennel bulb and finely chop the fronds. Squeeze the grated fennel hard in your hands over the sink to get rid of most of the water.",
-   "Mash the chickpeas roughly in a bowl, leaving a few whole. Add the fennel, walnuts, feta, lemon zest, egg, breadcrumbs, a pinch of salt and plenty of pepper. Mix well.",
-   "Brush a baking tray with 1 tbsp of the oil. Shape the mixture into 8 patties, sit them on the tray and brush the tops with another tablespoon of oil.",
-   "Bake for 25 minutes, carefully turning them with a fish slice halfway, until golden and crisp at the edges and firm to the touch.",
-   "While they bake, stir half the lemon juice and most of the fennel fronds into the yoghurt and season with salt and pepper.",
-   "Toss the rocket with the rest of the lemon juice and the last tablespoon of oil. Serve two patties each with the rocket and a spoonful of the yoghurt, scattered with the remaining fronds."
-  ],
-  "tip": "Shaped, uncooked patties freeze well between sheets of baking paper. Bake from frozen for 30 to 35 minutes."
+   "Grate the fennel and squeeze it dry. Roughly mash the drained beans.",
+   "Mix in chopped walnuts, crumbs, grated cheese, egg, lemon zest, half the dill and seasoning. Shape 12 patties.",
+   "Fry in the oil in batches, 4 minutes a side, until golden.",
+   "Dress halved tomatoes with lemon juice. Stir the rest of the dill into the yoghurt."
+  ]
  },
- "attempts": 1,
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 367 characters over 4 steps and runs 1 line past the bottom of the page. Cut about 31 characters."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

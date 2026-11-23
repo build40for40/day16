@@ -1,43 +1,43 @@
 {
  "day": 353,
- "title": "Carrot and butter bean soup with cumin",
+ "title": "Roast carrots and chickpeas with kale, feta and orange",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a whole food or a cupboard staple: carrots, onion, garlic, tinned butter beans, vegetable stock, cumin, lemon, natural yoghurt and pumpkin seeds."
+   "reason": "Every item is a plain whole food or a simple staple such as tinned chickpeas, feta, honey and pumpkin seeds, with nothing factory-built."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket, and none would feel like a treat."
+   "reason": "Carrots, chickpeas, kale, feta, an orange and pumpkin seeds are everyday items at any Tesco at normal prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a saucepan, a peeler and a stick blender for soup, and the technique is simple frying, simmering and blending."
+   "reason": "It needs only a roasting tray, a grater and a small bowl, and the technique is simple roasting and whisking."
   },
   "works": {
    "pass": true,
-   "reason": "800g thinly sliced carrots, two tins of beans and 1.2 litres of stock make a thick soup for four, and the carrots will be soft after the 15 to 20 minute simmer."
+   "reason": "750g carrots, two tins of chickpeas, 150g kale and 200g feta make a sensible lunch for four, and 33 minutes at 200°C will cook chunky carrots and crisp the kale."
   },
   "honest_times": {
    "pass": true,
-   "reason": "15 minutes hands-on is tight once you peel and slice 800g of carrots, but you can slice them while the onion softens, and 35 minutes in total fits a quick lunch."
+   "reason": "Fifteen minutes is enough to peel and chunk the carrots, drain the chickpeas, tear the kale and make the dressing, and the 25 plus 8 roasting minutes match the 33 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used and matches its id, and the only unlisted item is an optional splash of water."
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Stored December carrots are clearly the point of this warming, blended soup, which suits the week before Christmas."
+   "reason": "A warm roast traybake suits mid-December, and the carrots are the bulk and point of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear and practical in plain British English, with useful cues such as 'soft enough to squash with a spoon'."
+   "reason": "The steps are short, clear and in plain British English, with no fancy language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Plenty of vegetables, beans for protein, and a yoghurt and toasted seed topping make it a filling lunch a family would want again."
+   "reason": "Roast vegetables, chickpeas, kale, seeds and feta make a filling, balanced meal a family would happily eat again."
   }
  }
 }

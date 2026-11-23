@@ -17,109 +17,73 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Raspberry and peach oat crumble",
-  "intro": "Midsummer brings the first big flush of British raspberries. Baked with ripe peaches under a crunchy oat topping, they make a warm afternoon snack everyone will want.",
+  "title": "Apricot and raspberry oat crumble",
   "meal": "snack",
   "dish_form": "crumble",
   "diet": "vegan",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "baking dish, about 20 x 25cm",
-   "mixing bowl",
-   "scales",
-   "measuring spoons"
+   "a baking dish",
+   "a mixing bowl"
   ],
-  "hands_on_minutes": 15,
-  "total_minutes": 55,
-  "serves": 4,
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
   "best_time": "afternoon",
   "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
   "ingredients": [
    {
-    "id": "peaches",
-    "name": "Ripe peaches or nectarines",
-    "quantity": "4",
-    "prep": "stoned and sliced"
+    "id": "apricots",
+    "quantity": "8",
+    "name": "apricots"
    },
    {
     "id": "raspberries",
-    "name": "Raspberries",
     "quantity": "300g",
-    "prep": ""
-   },
-   {
-    "id": "lemons",
-    "name": "Lemon",
-    "quantity": "½",
-    "prep": "juiced"
-   },
-   {
-    "id": "caster-sugar",
-    "name": "Caster sugar",
-    "quantity": "1 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "cornflour",
-    "name": "Cornflour",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
-   {
-    "id": "plain-flour",
-    "name": "Plain flour",
-    "quantity": "75g",
-    "prep": ""
+    "name": "raspberries"
    },
    {
     "id": "oats",
-    "name": "Porridge oats",
     "quantity": "75g",
-    "prep": ""
+    "name": "porridge oats"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "50g",
+    "name": "plain flour"
    },
    {
     "id": "almonds",
-    "name": "Almonds",
     "quantity": "40g",
-    "prep": "roughly chopped"
+    "name": "almonds"
    },
    {
     "id": "brown-sugar",
-    "name": "Soft brown sugar",
-    "quantity": "50g",
-    "prep": ""
+    "quantity": "2 tbsp",
+    "name": "soft brown sugar"
    },
    {
-    "id": "cinnamon",
-    "name": "Cinnamon",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "name": "Salt",
-    "quantity": "a pinch",
-    "prep": ""
-   },
-   {
-    "id": "sunflower-oil",
-    "name": "Sunflower oil",
-    "quantity": "5 tbsp",
-    "prep": ""
+    "id": "rapeseed-oil",
+    "quantity": "4 tbsp",
+    "name": "rapeseed oil"
    }
   ],
   "steps": [
-   "Heat the oven to 180°C fan, 200°C conventional.",
-   "Put the peach slices and raspberries in the baking dish. Add the lemon juice, caster sugar and cornflour, then toss gently so the raspberries mostly stay whole.",
-   "In a bowl, mix the flour, oats, almonds, brown sugar, cinnamon and salt. Pour in the oil and stir with a fork until it forms damp, crumbly clumps.",
-   "Scatter the topping evenly over the fruit, leaving a few gaps so the juices can bubble through.",
-   "Bake for 30 to 35 minutes, until the top is golden and crisp and the fruit is bubbling thickly at the edges.",
-   "Leave to cool for 10 minutes so the juices settle and thicken, then spoon into bowls."
-  ],
-  "tip": "Swap the peaches for apricots or a handful of gooseberries. Leftovers keep in the fridge for three days and are lovely cold for breakfast."
+   "Heat the oven to 190°C (170°C fan). Halve and stone the apricots and tip into a baking dish with the raspberries.",
+   "Rub the oats, flour, chopped almonds, sugar and a pinch of cinnamon with the oil until clumpy.",
+   "Scatter over the fruit and bake for 25 to 30 minutes, until golden and bubbling.",
+   "Leave to cool a little before eating."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

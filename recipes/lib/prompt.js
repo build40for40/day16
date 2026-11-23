@@ -45,15 +45,21 @@ export function freshList(month) {
 
 export function recipeSystem() {
   const { limits } = config;
+  const methodLines = Math.floor((limits.method_px - 3 * limits.method_gap_px) / limits.method_line_px);
   return fill(read("recipe.md"), {
     PANTRY: pantryList(),
     HANDS_ON_MAX: limits.hands_on_max,
     QUICK_MAX: limits.quick_max,
     MAX_TITLE_CHARS: limits.max_title_chars,
-    MAX_INTRO_WORDS: limits.max_intro_words,
+    MAX_UTENSILS_CHARS: limits.max_utensils_chars,
+    MAX_SEASONING: limits.max_seasoning,
     MAX_INGREDIENTS: limits.max_ingredients,
+    INGREDIENT_CHARS: limits.ingredient_chars_per_line,
+    MIN_STEPS: 3,
     MAX_STEPS: limits.max_steps,
-    MAX_STEP_WORDS: limits.max_step_words,
+    METHOD_CHARS: limits.method_chars_per_line,
+    METHOD_LINES: methodLines,
+    METHOD_TOTAL_CHARS: Math.floor(((methodLines - 2.5) * limits.method_chars_per_line) / 20) * 20,
   });
 }
 
@@ -63,7 +69,7 @@ export function recipeUser(slot, { taken = [], rejected } = {}) {
     `Date: ${slot.label}`,
     `Meal: ${slot.meal}`,
     `Diet: ${slot.diet}${slot.gluten_free ? ", and gluten free" : ""}`,
-    `Pace: ${slot.pace === "quick" ? `quick, ${config.limits.quick_max} minutes hands-on or less` : `up to ${config.limits.hands_on_max} minutes hands-on`}`,
+    `Pace: ${slot.pace === "quick" ? `quick, ${config.limits.quick_max} minutes of prep or less` : `up to ${config.limits.hands_on_max} minutes of prep`}`,
     `Hero ingredient: ${name(slot.heroes[0])}`,
     slot.heroes[1] && `Second hero, if it suits: ${name(slot.heroes[1])}`,
     `Suggested kind of dish: ${slot.form}`,
@@ -87,5 +93,5 @@ export function judgeSystem() {
 }
 
 export function judgeUser(slot, recipe) {
-  return `Date: ${slot.label}\nMeal asked for: ${slot.meal}\nPace asked for: ${slot.pace}\n\nFresh list for ${MONTHS[slot.month - 1]}:\n\n${freshList(slot.month)}\n\nThe page:\n${JSON.stringify(recipe, null, 1)}`;
+  return `Date: ${slot.label}\nMeal asked for: ${slot.meal}\nPace asked for: ${slot.pace}\nHero ingredient the page should be built around: ${byId.get(slot.heroes[0]).name}\n\nFresh list for ${MONTHS[slot.month - 1]}:\n\n${freshList(slot.month)}\n\nThe page:\n${JSON.stringify(recipe, null, 1)}`;
 }

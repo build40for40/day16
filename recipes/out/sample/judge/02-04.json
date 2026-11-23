@@ -1,43 +1,43 @@
 {
  "day": 35,
- "title": "Turnip, leek and cheddar quiche",
+ "title": "Turnip, leek and cheddar tart with baked eggs",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "All butter shortcrust, cheddar, cream, eggs, mustard and fresh vegetables are ordinary kitchen staples."
+   "reason": "Everything is plain kitchen food: butter, leeks, turnips, all-butter puff pastry, crème fraîche, cheddar and eggs."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient, including the ready-rolled all-butter shortcrust and mature cheddar, is a standard Tesco line at an everyday price."
+   "reason": "Every ingredient, including the ready-rolled puff pastry sheet, is an everyday item at Tesco or similar."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "A loose-bottomed tart tin, frying pan, grater and whisk are common kit, and lining a tin with ready-rolled pastry suits a confident beginner."
+   "reason": "It needs only a frying pan, a baking tray and a fork, and scoring and pricking pastry is well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "Four eggs and 300ml of liquid with 400g of softened turnip and leek suits a 23cm tin for four, and the preheated tray at 180°C fan for 35 to 40 minutes should set the custard and crisp the unblind-baked base."
+   "reason": "Softened thin turnip slices on a scored puff base at 200°C, baked 20 minutes, then 8 minutes with an egg each, gives a sensible lunch for four."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Peeling and dicing 400g of turnips, slicing the leeks, lining the tin and whisking fits in about 30 minutes, and 15 minutes of cooking, 40 of baking and 10 of resting add up to roughly 80."
+   "reason": "Peeling and slicing the turnips and leeks plus 10 minutes of softening fits 20 minutes of prep, and the 28 minutes of baking matches the 30 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps under its true name, and nothing unlisted appears."
+   "reason": "All listed ingredients and seasonings, including the fresh thyme, appear in the steps, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm turnip and leek quiche suits a cold early February lunch, and the turnips are clearly the main point of the dish."
+   "reason": "A warm baked turnip and leek tart suits early February, and the 400g of turnips is the bulk of the filling."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "Clear, friendly British English with practical cues such as the slight wobble in the middle and trimming the overhang after baking."
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "A vegetable-packed egg and cheese quiche is a proper, filling lunch that a family would happily make again."
+   "reason": "It is a proper lunch with vegetables, eggs and cheese on a pastry base that a family would happily eat again."
   }
  }
 }

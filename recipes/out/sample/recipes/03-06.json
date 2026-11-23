@@ -18,107 +18,94 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Beef keema with white cabbage and potatoes",
-  "intro": "White cabbage from store is cheap and plentiful in early March. Shredded into a spiced mince, it turns sweet and soaks up every bit of flavour.",
+  "title": "Beef and cabbage keema with potatoes",
   "meal": "dinner",
   "dish_form": "curry",
   "diet": "meat",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "large lidded casserole or deep frying pan",
-   "peeler"
+   "one large casserole"
   ],
-  "hands_on_minutes": 30,
-  "total_minutes": 55,
-  "serves": 4,
+  "prep_minutes": 25,
+  "cook_minutes": 30,
+  "time_note": "",
   "best_time": "evening",
   "freezes": true,
-  "ingredients": [
+  "seasoning": [
    {
-    "id": "rapeseed-oil",
-    "name": "Rapeseed oil",
-    "quantity": "1 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "cumin",
-    "name": "Ground cumin",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
-   {
-    "id": "onions",
-    "name": "Onions",
-    "quantity": "2",
-    "prep": "finely sliced"
-   },
-   {
-    "id": "garlic",
-    "name": "Garlic",
-    "quantity": "4 cloves",
-    "prep": "crushed"
-   },
-   {
-    "id": "beef-mince",
-    "name": "Beef mince",
-    "quantity": "500g",
-    "prep": ""
+    "id": "salt",
+    "name": "salt"
    },
    {
     "id": "curry-powder",
-    "name": "Medium curry powder",
-    "quantity": "2 tbsp",
-    "prep": ""
+    "name": "curry powder"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "1 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "2",
+    "name": "onions"
+   },
+   {
+    "id": "beef-mince",
+    "quantity": "500g",
+    "name": "beef mince"
+   },
+   {
+    "id": "garlic",
+    "quantity": "4 cloves",
+    "name": "garlic"
    },
    {
     "id": "chopped-tomatoes",
-    "name": "Tinned chopped tomatoes",
-    "quantity": "400g",
-    "prep": ""
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
    },
    {
     "id": "potatoes",
-    "name": "Potatoes",
     "quantity": "500g",
-    "prep": "peeled and cut into 2cm chunks"
-   },
-   {
-    "id": "water",
-    "name": "Water",
-    "quantity": "300ml",
-    "prep": ""
-   },
-   {
-    "id": "salt",
-    "name": "Salt",
-    "quantity": "1 tsp",
-    "prep": ""
+    "name": "potatoes"
    },
    {
     "id": "white-cabbage",
-    "name": "White cabbage",
-    "quantity": "half (about 500g)",
-    "prep": "cored and finely shredded"
+    "quantity": "½",
+    "name": "white cabbage"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "150g",
+    "name": "frozen peas"
    },
    {
     "id": "natural-yoghurt",
-    "name": "Natural yoghurt",
-    "quantity": "150g",
-    "prep": "to serve"
+    "quantity": "4 tbsp",
+    "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Heat the oil in a large lidded casserole over a medium heat. Add the cumin and onions and cook for 8 to 10 minutes, stirring now and then, until the onions are soft and golden.",
-   "Stir in the garlic for a minute, then add the mince. Turn up the heat and break it up with a wooden spoon, cooking for 5 to 6 minutes until it is browned all over.",
-   "Sprinkle in the curry powder and stir for a minute until it smells toasty. Tip in the tomatoes, potatoes, water and salt and bring to a simmer.",
-   "Cover and cook gently for 15 minutes, stirring once or twice so nothing catches.",
-   "Pile the cabbage on top, cover again and leave for 3 minutes to wilt, then stir it through. Cook uncovered for 10 to 12 minutes until the potatoes are tender and the cabbage is soft and sweet.",
-   "Taste and add more salt if it needs it. Spoon into bowls with a dollop of yoghurt on top."
-  ],
-  "tip": "Stir in a few handfuls of shredded cavolo nero with the cabbage for extra greens. Leftovers keep for 3 days in the fridge and freeze well."
+   "Soften the sliced onions in the oil for 8 minutes. Brown the beef, breaking it up.",
+   "Stir in the crushed garlic, 2 tbsp curry powder and 1 tsp cumin for a minute.",
+   "Add the tomatoes, cubed potatoes and 300ml water. Cover and simmer for 20 minutes.",
+   "Stir in the shredded cabbage and peas for 10 minutes, until tender. Season with lemon and salt. Top with yoghurt."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

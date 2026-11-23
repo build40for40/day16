@@ -26,7 +26,7 @@ Where it suits the dish, favour things a reader could grow in a garden or on a w
 
 {{PANTRY}}
 
-Stock means a home-made or good bought stock. Salt, pepper and water count as ingredients, so list them when used.
+Stock means a home-made or good bought stock. Water is never listed: give its amount in the method.
 
 ## What counts as too processed
 
@@ -35,7 +35,7 @@ The test is a grandparent's kitchen cupboard. Flour, butter, tinned tomatoes, ti
 ## The cooking
 
 - **Serves four**, always.
-- **Hands-on time:** at most {{HANDS_ON_MAX}} minutes of active work, and far less where you can. A quick page needs {{QUICK_MAX}} minutes or less. Long unattended time in the oven or on the hob is fine, and is counted in the total time only. Be honest about both numbers: count the peeling and chopping at the pace of a normal home cook.
+- **Time:** the page prints prep and cook separately. Prep is every minute the cook is actively working (peeling, chopping, stirring, shaping), and is at most {{HANDS_ON_MAX}} minutes, far less where you can. A quick page needs {{QUICK_MAX}} minutes of prep or less. Cook is the time it looks after itself in the oven, on the hob or in the fridge, and can be long. Be honest about both numbers: count the peeling and chopping at the pace of a normal home cook.
 - **Basic kit only:** a knife, a board, pans, a roasting tray, a baking dish, a grater, a sieve, a masher, a whisk, a wooden spoon, scales. A stick blender is fine for soups. Nothing a typical kitchen lacks.
 - **One pot and one tray** recipes are a feature of the book. When the request asks for one, everything cooks in that single vessel.
 - **Cost:** everyday ingredients. A modest cut of meat or piece of fish is fine. Nothing a family would call a treat purchase.
@@ -44,14 +44,29 @@ The test is a grandparent's kitchen cupboard. Flour, butter, tinned tomatoes, ti
 
 ## The page
 
-The book is small, so every page is short.
+The book is A5 and every recipe sits on one page beside its picture, so the text is tight. A program measures each part against the printed page and rejects anything that overflows, so write to these sizes from the start.
 
 - **Title:** what a home cook would call it. No restaurant words, no puns. Sentence case, so a capital on the first word and on proper nouns only. At most {{MAX_TITLE_CHARS}} characters.
-- **Intro:** one or two sentences, at most {{MAX_INTRO_WORDS}} words, on why this is the thing to cook now. Say something true about the ingredient or the time of year.
-- **Ingredients:** at most {{MAX_INGREDIENTS}}, in the order they are used, with metric quantities for four.
-- **Steps:** at most {{MAX_STEPS}}, each at most {{MAX_STEP_WORDS}} words. Give oven temperatures as fan and conventional, and say what done looks like ("until the leeks are soft and sweet").
-- **Tip:** one short, useful line: a swap, a use for leftovers or how long it keeps.
+- **Utensils:** the pans and tools as short lower case phrases ("one heavy pan", "a roasting tray"). Joined with commas they fit one line of {{MAX_UTENSILS_CHARS}} characters.
+- **Time note:** only when something must be done ahead ("oats soaked overnight"). Otherwise leave it empty.
+- **Seasoning:** salt, pepper, herbs, spices and lemon used as a seasoning go in their own list, as lower case names with no quantity ("salt", "thyme"). At most {{MAX_SEASONING}}. Where the amount matters, give it in the method ("2 tsp of the cumin"). Every seasoning listed is used in a step, and a plain "season" covers salt and pepper.
+- **Ingredients:** everything else, at most {{MAX_INGREDIENTS}}, in the order used. Each prints as quantity then name on a narrow column {{INGREDIENT_CHARS}} characters wide ("2 leeks", "250ml whole milk", "2 tins butter beans"), so keep each to one line where you can. Preparation ("sliced", "peeled") goes in the method, not here.
+- **Method:** {{MIN_STEPS}} to {{MAX_STEPS}} short steps. The column is {{METHOD_CHARS}} characters wide and holds about {{METHOD_LINES}} lines in total, counting every step. Each step starts on a new line, so a step that runs a few characters over costs a whole line. In practice that is {{METHOD_TOTAL_CHARS}} characters, or about 55 words, for the whole method: four steps of 60 to 90 characters each is the shape to aim for. That is very little, so choose dishes that come together simply, fold the preparation into the step ("Soften the sliced leeks"), and give one clear cue for doneness where it matters most. Oven temperatures as "200°C (180°C fan)".
+
+The three pages below show the length and voice to match.
+
+Celeriac and apple soup with rye crumbs
+1. Warm the oil in a heavy pan. Soften the sliced leeks with a pinch of salt for 8 minutes.
+2. Add the cubed celeriac and apples, the thyme and 800 ml water. Simmer for 25 minutes, until the celeriac is soft.
+3. Blend with the milk until smooth. Season.
+4. Tear the rye into crumbs, toast in a dry pan until crisp, and scatter over each bowl.
+
+Smashed broad beans, peas and ricotta on sourdough
+1. Pod the broad beans and peas. Blanch the beans for 2 minutes, add the peas for the last 30 seconds, then cool in cold water.
+2. Slip the broad beans out of their grey skins.
+3. Crush beans and peas roughly with oil, lemon zest and juice, torn mint and salt.
+4. Toast the sourdough. Spread with ricotta, pile on the smash and finish with oil.
+
+These are examples of size and tone, not templates. Vary the way dishes come together, the flavours and the shape of the titles from page to page, so the book feels like one book without its pages reading as copies of each other.
 
 Write in British English, in a plain and friendly voice, the way a good cook would explain it to a neighbour. Don't use dashes to join clauses or to set off an aside: use a full stop or a comma. Write ranges with "to" (10 to 12 minutes).
-
-The pages should feel like one book without reading as copies of each other. Vary the way dishes come together, the flavours and the shape of the titles from page to page.

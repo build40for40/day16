@@ -7,17 +7,31 @@ const banned = Object.entries(config.banned).flatMap(([group, terms]) =>
   terms.map((term) => ({ group, term, pattern: new RegExp(`\\b${term}(s|es)?\\b`, "i") })),
 );
 
-const words = (text) => text.trim().split(/\s+/).filter(Boolean).length;
+const isSeasoning = (item) => item.kind === "herb" || item.group === "seasoning" || item.group === "spice";
+const lines = (text, perLine) => Math.max(1, Math.ceil(text.trim().length / perLine));
+
+export const ingredientLine = (ingredient) => `${ingredient.quantity} ${ingredient.name}`.trim();
+
+export function fit(recipe) {
+  const { limits } = config;
+  const methodLines = recipe.steps.reduce((sum, step) => sum + lines(step, limits.method_chars_per_line), 0);
+  return {
+    ingredientLines: recipe.ingredients.reduce((sum, item) => sum + lines(ingredientLine(item), limits.ingredient_chars_per_line), 0),
+    methodLines,
+    methodPx: methodLines * limits.method_line_px + Math.max(0, recipe.steps.length - 1) * limits.method_gap_px,
+    methodChars: recipe.steps.join("").length,
+  };
+}
 
 export function recipeText(recipe) {
   return [
     recipe.title,
-    recipe.intro,
     recipe.dish_form,
-    recipe.tip,
+    recipe.time_note,
     ...recipe.utensils,
     ...recipe.steps,
-    ...recipe.ingredients.flatMap((ingredient) => [ingredient.name, ingredient.prep, ingredient.quantity]),
+    ...recipe.seasoning.map((item) => item.name),
+    ...recipe.ingredients.map(ingredientLine),
   ].join("\n");
 }
 
@@ -31,34 +45,34 @@ export function hardChecks(candidate, slot) {
   const failures = [];
   const fail = (code, message) => failures.push({ code, message });
 
-  if (recipe.serves !== config.serves) fail("serves", `Serves ${recipe.serves}, but every page serves ${config.serves}.`);
   if (recipe.meal !== slot.meal) fail("meal", `The page is a ${recipe.meal}, but this date needs a ${slot.meal}.`);
-  if (recipe.hands_on_minutes > limits.hands_on_max) {
-    fail("hands_on_cap", `Hands-on time is ${recipe.hands_on_minutes} minutes. The cap is ${limits.hands_on_max}.`);
-  } else if (slot.pace === "quick" && recipe.hands_on_minutes > limits.quick_max) {
-    fail("quick_pace", `This is a quick page, so hands-on time must be ${limits.quick_max} minutes or less, not ${recipe.hands_on_minutes}.`);
+  if (recipe.prep_minutes > limits.hands_on_max) {
+    fail("hands_on_cap", `Prep is ${recipe.prep_minutes} minutes of hands-on work. The cap is ${limits.hands_on_max}.`);
+  } else if (slot.pace === "quick" && recipe.prep_minutes > limits.quick_max) {
+    fail("quick_pace", `This is a quick page, so prep must be ${limits.quick_max} minutes or less, not ${recipe.prep_minutes}.`);
   }
-  if (recipe.hands_on_minutes < 1 || recipe.total_minutes < recipe.hands_on_minutes) {
-    fail("total_time", "Total time must be at least the hands-on time, and both must be positive.");
-  }
+  if (recipe.prep_minutes < 1 || recipe.cook_minutes < 0) fail("times", "Prep must be at least 1 minute and cook time cannot be negative.");
 
   const items = [];
   const seen = new Set();
-  for (const ingredient of recipe.ingredients) {
-    const item = byId.get(ingredient.id);
-    if (!item) {
-      fail("unknown_ingredient", `"${ingredient.name}" has the id "${ingredient.id}", which is on neither list.`);
-      continue;
-    }
+  const resolve = (entry, list) => {
+    const item = byId.get(entry.id);
+    if (!item) return fail("unknown_ingredient", `"${entry.name}" has the id "${entry.id}", which is on neither list.`);
     if (seen.has(item.id)) fail("duplicate_ingredient", `${item.name} is listed twice.`);
     seen.add(item.id);
     items.push(item);
-    if (!availability(item, slot.month)) {
-      fail("out_of_season", `${item.name} is not in season or in store in ${MONTHS[slot.month - 1]}.`);
+    if (!availability(item, slot.month)) fail("out_of_season", `${item.name} is not in season or in store in ${MONTHS[slot.month - 1]}.`);
+    if (list === "ingredients" && isSeasoning(item)) {
+      fail("seasoning_list", `${item.name} belongs in the seasoning list, with any amount given in the method.`);
     }
-  }
+    if (list === "seasoning" && !isSeasoning(item) && item.id !== "lemons") {
+      fail("seasoning_list", `${item.name} is not a seasoning. Put it in the ingredients with a quantity.`);
+    }
+  };
+  recipe.ingredients.forEach((entry) => resolve(entry, "ingredients"));
+  recipe.seasoning.forEach((entry) => resolve(entry, "seasoning"));
 
-  if (!seen.has(slot.heroes[0])) {
+  if (!recipe.ingredients.some((entry) => entry.id === slot.heroes[0])) {
     fail("missing_hero", `The hero ingredient ${byId.get(slot.heroes[0]).name} (${slot.heroes[0]}) is not in the ingredients.`);
   }
 
@@ -92,17 +106,27 @@ export function hardChecks(candidate, slot) {
   }
   if (/—|\s–\s/.test(text)) fail("dashes", "The text uses a dash to join clauses. Use a full stop or a comma.");
 
+  const size = fit(recipe);
   if (recipe.ingredients.length > limits.max_ingredients) {
-    fail("too_many_ingredients", `${recipe.ingredients.length} ingredients. The page fits ${limits.max_ingredients}.`);
+    fail("too_many_ingredients", `${recipe.ingredients.length} ingredients. The page fits ${limits.max_ingredients}, not counting seasoning.`);
   }
+  if (size.ingredientLines > limits.ingredient_lines) {
+    fail("ingredients_overflow", `The ingredients need ${size.ingredientLines} lines and the column holds ${limits.ingredient_lines}. A line is ${limits.ingredient_chars_per_line} characters, so shorten the long ones or use fewer.`);
+  }
+  if (recipe.seasoning.length > limits.max_seasoning) fail("too_much_seasoning", `${recipe.seasoning.length} seasonings. The page fits ${limits.max_seasoning}.`);
   if (recipe.steps.length > limits.max_steps) fail("too_many_steps", `${recipe.steps.length} steps. The page fits ${limits.max_steps}.`);
-  const longest = Math.max(0, ...recipe.steps.map(words));
-  if (longest > limits.max_step_words) fail("long_step", `A step runs to ${longest} words. The limit is ${limits.max_step_words}.`);
+  if (size.methodPx > limits.method_px) {
+    const over = Math.ceil((size.methodPx - limits.method_px) / limits.method_line_px);
+    fail("method_overflow", `The method is ${size.methodChars} characters over ${recipe.steps.length} steps and runs ${over} line${over > 1 ? "s" : ""} past the bottom of the page. Cut about ${over * limits.method_chars_per_line} characters.`);
+  }
   if (recipe.title.split(/\s+/).slice(1).filter((word) => /^[A-Z][a-z]/.test(word)).length > 2) {
     fail("title_case", "Write the title in sentence case: a capital on the first word and on proper nouns only.");
   }
   if (recipe.title.length > limits.max_title_chars) fail("long_title", `The title is over ${limits.max_title_chars} characters.`);
-  if (words(recipe.intro) > limits.max_intro_words) fail("long_intro", `The intro is over ${limits.max_intro_words} words.`);
+  if (recipe.utensils.join(", ").length > limits.max_utensils_chars) {
+    fail("long_utensils", `The utensils must fit one line of ${limits.max_utensils_chars} characters when joined with commas.`);
+  }
+  if (recipe.time_note.length > limits.max_time_note_chars) fail("long_time_note", `The time note is over ${limits.max_time_note_chars} characters.`);
 
   return failures;
 }

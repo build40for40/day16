@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a plain whole food or basic staple: flour, eggs, milk, ricotta, butter, fruit, honey and natural yoghurt."
+   "reason": "Every ingredient is a plain whole food or a basic staple: ricotta, eggs, milk, flour, fruit, honey and butter."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Oranges, strawberries, ricotta and the rest are everyday Tesco items at normal prices."
+   "reason": "Oranges, strawberries, ricotta and self-raising flour are everyday Tesco items at normal prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a frying pan, fish slice, grater, whisk, bowls and a jug, and the techniques are simple drop pancakes and peeling oranges."
+   "reason": "It needs only a bowl, a whisk and a frying pan, and frying drop pancakes is well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "175g flour with 250g ricotta, 3 eggs and 150ml milk makes a thick batter for about 16 small pancakes, a sensible four portions, and the medium heat and timings will cook them through."
+   "reason": "250g ricotta, 3 eggs, 150ml milk and 150g self-raising flour make a sensible thick batter for about 16 small pancakes, enough for four, and 2 minutes a side will cook them through."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Zesting and peeling the oranges, hulling the strawberries, mixing, then frying four or five batches fits within 30 minutes hands-on and 35 in total."
+   "reason": "Thirty minutes of active work covers the zesting, slicing and frying the batches, and the 35-minute total is realistic, even though frying is active work rather than unattended."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient is used in the steps under its true name, and no unlisted food appears."
+   "reason": "Every listed ingredient and the salt is used in the steps, the names match their ids, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "The first strawberries and the last Spanish oranges are both on the fruit in early May, and the fruit is the point of the dish rather than a garnish."
+   "reason": "Orange runs through the batter, the juice dressing and the topping, which makes it central, and early May strawberries make it feel right for the date."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, friendly and in British English, with useful cues such as bubbles on top and a golden underside."
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "The ricotta, eggs, yoghurt and plenty of fruit make a proper breakfast, and the added sugar is modest."
+   "reason": "Ricotta and eggs give protein and there is plenty of fresh fruit, so it is a proper family breakfast with only a little honey."
   }
  }
 }

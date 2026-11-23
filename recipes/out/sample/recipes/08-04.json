@@ -17,103 +17,81 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Grape and blackberry crumble",
-  "intro": "Early August brings sweet grapes from Europe and the first hedgerow blackberries. Baked together they turn jammy and deep purple under a crisp oat topping.",
+  "title": "Grape and plum crumble",
   "meal": "snack",
   "dish_form": "crumble",
   "diet": "vegan",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "baking dish",
-   "mixing bowl",
-   "grater"
+   "a baking dish",
+   "a mixing bowl"
   ],
-  "hands_on_minutes": 15,
-  "total_minutes": 45,
-  "serves": 4,
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
-  "ingredients": [
+  "seasoning": [
    {
-    "id": "grapes",
-    "name": "Seedless red or black grapes",
-    "quantity": "500g",
-    "prep": "stalks removed"
-   },
-   {
-    "id": "blackberries",
-    "name": "Blackberries",
-    "quantity": "200g",
-    "prep": ""
+    "id": "cinnamon",
+    "name": "cinnamon"
    },
    {
     "id": "lemons",
-    "name": "Lemon",
-    "quantity": "1",
-    "prep": "zested and juiced"
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "grapes",
+    "quantity": "400g",
+    "name": "red grapes"
+   },
+   {
+    "id": "plums",
+    "quantity": "4",
+    "name": "plums"
    },
    {
     "id": "cornflour",
-    "name": "Cornflour",
-    "quantity": "2 tsp",
-    "prep": ""
-   },
-   {
-    "id": "brown-sugar",
-    "name": "Soft brown sugar",
-    "quantity": "60g",
-    "prep": ""
+    "quantity": "1 tbsp",
+    "name": "cornflour"
    },
    {
     "id": "plain-flour",
-    "name": "Plain flour",
     "quantity": "100g",
-    "prep": ""
+    "name": "plain flour"
    },
    {
     "id": "oats",
-    "name": "Porridge oats",
     "quantity": "75g",
-    "prep": ""
+    "name": "porridge oats"
    },
    {
-    "id": "cinnamon",
-    "name": "Cinnamon",
-    "quantity": "1 tsp",
-    "prep": ""
+    "id": "brown-sugar",
+    "quantity": "50g",
+    "name": "soft brown sugar"
    },
    {
-    "id": "salt",
-    "name": "Salt",
-    "quantity": "1 pinch",
-    "prep": ""
+    "id": "almonds",
+    "quantity": "50g",
+    "name": "almonds"
    },
    {
-    "id": "sunflower-oil",
-    "name": "Sunflower oil",
+    "id": "rapeseed-oil",
     "quantity": "5 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "water",
-    "name": "Water",
-    "quantity": "1 tbsp",
-    "prep": ""
+    "name": "rapeseed oil"
    }
   ],
   "steps": [
-   "Heat the oven to 180°C fan (200°C conventional).",
-   "Tip the grapes and blackberries into a baking dish. Add the lemon zest and juice, the cornflour and 1 tbsp of the sugar, then toss until the fruit is lightly coated.",
-   "In a bowl, mix the flour, oats, cinnamon, salt and the rest of the sugar.",
-   "Pour in the oil and water and rub together with your fingertips until the mixture forms damp clumps, a bit like wet sand with pebbles in it.",
-   "Scatter the topping evenly over the fruit without pressing it down, so it stays crisp.",
-   "Bake for 25 to 30 minutes, until the top is golden and purple juice is bubbling up at the edges.",
-   "Leave to stand for 5 minutes so the juices thicken a little, then spoon into bowls."
-  ],
-  "tip": "Leftovers keep covered in the fridge for 3 days and are lovely cold for breakfast, or swap the blackberries for sliced plums later in the month."
+   "Heat the oven to 190°C (170°C fan). In a baking dish, toss the grapes and quartered plums with the cornflour, lemon zest and half the cinnamon.",
+   "Rub the flour, oats, sugar, chopped almonds and remaining cinnamon with the oil until clumpy.",
+   "Scatter over the fruit. Bake for 30 to 35 minutes, until golden and bubbling at the edges."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

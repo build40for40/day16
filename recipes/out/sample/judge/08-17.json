@@ -1,43 +1,43 @@
 {
  "day": 229,
- "title": "Split pea, marrow and broccoli curry pot",
+ "title": "Spiced split pea pot with marrow and broccoli",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything here is a whole food or a plain cupboard staple, from split peas and curry powder to vegetable stock, so nothing is a factory-built product."
+   "reason": "Split peas, tinned tomatoes, spices and fresh vegetables are all ordinary home staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Split peas, marrow, broccoli, tomatoes, lemon and coriander are all everyday Tesco items at ordinary prices."
+   "reason": "Every ingredient, including yellow split peas and marrow in August, is an everyday item at Tesco."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded pan, a sieve and a jug, and every step is simple simmering."
+   "reason": "It needs one large lidded pan and simple chopping and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "250g split peas to 1.2 litres stock, simmered for about 55 minutes with the marrow added later, should give a thick, well-spiced pot for four, and there is a note to loosen it if needed."
+   "reason": "250g split peas in 1.2 litres of water for 45 minutes, then the marrow and broccoli, gives a well-spiced pot for four, with lemon and salt to finish."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty-five minutes hands-on covers chopping, peeling and deseeding the marrow plus softening the onion, and 75 minutes total fits the simmering times given."
+   "reason": "Twenty minutes is fair for chopping the onion and garlic, peeling and cubing the marrow and cutting the florets, and 8+45+10 minutes matches the 60 cook minutes."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient appears in the steps, the names match their ids, and the steps use nothing that is not listed."
+   "reason": "Every listed ingredient and seasoning is used, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Mid-August marrow is the bulk of the dish alongside seasonal broccoli and tomatoes, and a mild curry pot suits a late-summer lunch."
+   "reason": "A whole small marrow is a main component of a mild August lunch pot, not a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, homely British English with plain doneness cues a beginner can follow."
+   "reason": "The steps are short, plain British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling pulse-and-vegetable meal with plenty of flavour that a family would happily eat again."
+   "reason": "Pulses with plenty of vegetables make a filling, wholesome family lunch."
   }
  }
 }

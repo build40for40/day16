@@ -30,6 +30,7 @@ await pool(todo, options.concurrency, async (slot) => {
     .map((page) => page.recipe.title);
   let rejected = options.fix ? { recipe: existing.get(slot.day).recipe, failures: judgeFailures.get(slot.day) } : undefined;
   let page;
+  const rejections = [];
   for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
     let recipe;
     try {
@@ -39,8 +40,9 @@ await pool(todo, options.concurrency, async (slot) => {
       continue;
     }
     const failures = hardChecks(recipe, slot);
-    page = { slot, recipe, attempts: attempt, failures, model: MODEL };
+    page = { slot, recipe, attempts: attempt, rejections, failures, model: MODEL };
     if (!failures.length) break;
+    rejections.push(failures.map((failure) => failure.message));
     rejected = { recipe, failures };
   }
   if (!page) return console.log(`${slot.label}: no page written`);

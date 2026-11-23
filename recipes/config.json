@@ -1,7 +1,6 @@
 {
   "year": 2027,
   "seed": 16,
-  "serves": 4,
   "meals": {
     "breakfast": 100,
     "lunch": 100,
@@ -17,11 +16,18 @@
   "limits": {
     "hands_on_max": 60,
     "quick_max": 20,
-    "max_ingredients": 12,
-    "max_steps": 7,
-    "max_step_words": 45,
+    "max_ingredients": 10,
+    "ingredient_lines": 13,
+    "ingredient_chars_per_line": 19,
+    "max_seasoning": 6,
+    "max_steps": 5,
+    "method_px": 288,
+    "method_chars_per_line": 31,
+    "method_line_px": 20,
+    "method_gap_px": 9,
     "max_title_chars": 60,
-    "max_intro_words": 30
+    "max_utensils_chars": 60,
+    "max_time_note_chars": 30
   },
   "diet_mix": {
     "breakfast": {

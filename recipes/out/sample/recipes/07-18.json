@@ -17,101 +17,84 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Burst cherry tomatoes with eggs, halloumi and toast",
-  "intro": "By the middle of July cherry tomatoes ripen faster than anyone can pick them. Blistered in a hot pan, they burst into a sweet sauce for eggs.",
+  "title": "Blistered cherry tomatoes, mushrooms and eggs on toast",
   "meal": "breakfast",
   "dish_form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "hob",
   "utensils": [
-   "large frying pan with a lid",
-   "toaster or grill"
+   "a large frying pan with a lid"
   ],
-  "hands_on_minutes": 25,
-  "total_minutes": 25,
-  "serves": 4,
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "time_note": "",
   "best_time": "morning",
   "freezes": false,
-  "ingredients": [
-   {
-    "id": "olive-oil",
-    "name": "Olive oil",
-    "quantity": "2 tbsp",
-    "prep": ""
-   },
-   {
-    "id": "halloumi",
-    "name": "Halloumi",
-    "quantity": "225g",
-    "prep": "cut into 8 slices"
-   },
-   {
-    "id": "cherry-tomatoes",
-    "name": "Cherry tomatoes",
-    "quantity": "500g",
-    "prep": "left whole"
-   },
-   {
-    "id": "garlic",
-    "name": "Garlic",
-    "quantity": "2 cloves",
-    "prep": "thinly sliced"
-   },
-   {
-    "id": "red-wine-vinegar",
-    "name": "Red wine vinegar",
-    "quantity": "1 tsp",
-    "prep": ""
-   },
+  "seasoning": [
    {
     "id": "salt",
-    "name": "Salt",
-    "quantity": "1 pinch",
-    "prep": ""
+    "name": "salt"
    },
    {
     "id": "black-pepper",
-    "name": "Black pepper",
-    "quantity": "to taste",
-    "prep": ""
+    "name": "black pepper"
    },
    {
-    "id": "spinach",
-    "name": "Spinach",
-    "quantity": "200g",
-    "prep": ""
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "400g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "butter",
+    "quantity": "1 tbsp",
+    "name": "butter"
    },
    {
     "id": "eggs",
-    "name": "Eggs",
     "quantity": "4",
-    "prep": ""
+    "name": "eggs"
    },
    {
     "id": "bread",
-    "name": "Wholemeal bread",
-    "quantity": "4 thick slices",
-    "prep": ""
-   },
-   {
-    "id": "basil",
-    "name": "Basil",
-    "quantity": "1 small bunch",
-    "prep": "leaves picked"
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
    }
   ],
   "steps": [
-   "Heat 1 tbsp of the oil in a large frying pan over a medium high heat. Fry the halloumi for 1 to 2 minutes on each side until golden, then lift onto a plate.",
-   "Add the rest of the oil and the cherry tomatoes. Cook for about 5 minutes, shaking the pan now and then, until the skins blister and split and the juices start to run.",
-   "Stir in the garlic for the last minute so it softens without browning. Add the vinegar, a small pinch of salt and plenty of pepper. Go easy on salt as the halloumi is salty.",
-   "Add the spinach a handful at a time, stirring until it has all wilted into the tomatoes, about 2 minutes.",
-   "Make four hollows in the pan and crack an egg into each. Cover and cook gently for 4 to 5 minutes, until the whites are set but the yolks still wobble. Toast the bread meanwhile.",
-   "Tuck the halloumi back into the pan for the last minute to warm through. Tear over the basil and serve straight from the pan with the toast."
-  ],
-  "tip": "No halloumi? Crumble over feta at the end instead, or leave the cheese out and add a second egg each."
+   "Fry the sliced mushrooms in the oil in a large pan for 5 minutes, until golden.",
+   "Add the tomatoes, sliced garlic and thyme. Cook for 5 minutes, until they burst. Season.",
+   "Make four gaps, add the butter and crack in the eggs. Cover for 3 to 4 minutes, until the whites set.",
+   "Serve on toast with snipped chives."
+  ]
  },
  "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }
