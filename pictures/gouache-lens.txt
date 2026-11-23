@@ -1,0 +1,38 @@
+Seasoned recipe image lens
+Close-cropped gouache
+
+Generate one wide landscape hero illustration of the finished recipe below.
+Use the reference board for the painting technique and framing. Each panel
+shows a different recipe. Use the recipe supplied with this prompt to decide
+what appears in the new image.
+
+Paint in opaque matte gouache with visible brushstrokes, bold blocks of colour,
+slightly uneven edges, and simple shadows. Crop close enough that the food
+fills the frame and the bowl, plate, or baking dish runs off the edge. Keep the
+recognisable ingredients and the main food shapes in the central area so they
+survive a tighter crop. Use the vessel colour as a single strong accent.
+
+Read the method to see how the ingredients are cut, cooked and served. Pick one
+visual focal point from the finished recipe and simplify the surrounding detail.
+Use the actual toppings and garnishes from the recipe. Keep prep utensils, raw
+ingredient props, text, and logos out of frame.
+
+Recipe input
+Title:
+Ingredients and seasoning:
+Method:
+Vessel colour (optional):
+
+Reference board, clockwise from top left
+Orange and rhubarb compote with yoghurt: orange rounds, pink rhubarb, white
+yoghurt and toasted oat-almond crunch in a cobalt bowl.
+Porridge with apple and rhubarb compote: golden apple chunks, softened rhubarb
+and walnuts over creamy oats in a plum bowl.
+Spiced parsnip and red lentil pot: ivory parsnip cubes, dark kale and a dollop of
+yoghurt on thick red lentils in an olive bowl.
+Raspberry and peach oat crumble: visible peach halves, raspberry pockets and
+golden oat-almond crumble in a turquoise baking dish.
+
+Use the prompt and reference board as input to your image generator. For each
+hero, supply one recipe and request one image. Verify that the food matches the
+serving step and that the main ingredients remain recognisable at tile size.
