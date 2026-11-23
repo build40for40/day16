@@ -2,6 +2,7 @@ interface Env {
   STRIPE_WEBHOOK_SECRET?: string
   LULU_CLIENT_KEY?: string
   LULU_CLIENT_SECRET?: string
+  POSTMARK_SERVER_TOKEN?: string
   LULU_API_URL: string
   LULU_POD_PACKAGE_ID: string
   LULU_INTERIOR_URL: string
@@ -38,6 +39,16 @@ interface CheckoutSessionEvent {
   data: { object: CheckoutSession }
 }
 
+interface PrintJobEvent {
+  topic: string
+  data: {
+    external_id?: string | null
+    status?: { name: string; line_item_statuses?: { messages?: { tracking_urls?: string[] } }[] }
+    line_items?: { tracking_urls?: string[] | null }[]
+    shipping_address?: { name?: string; email?: string }
+  }
+}
+
 const API = '/seasoned/api'
 const BOOK = 'day16'
 
@@ -48,6 +59,7 @@ export default {
   async fetch(request, env) {
     const { pathname } = new URL(request.url)
     if (request.method === 'POST' && pathname === `${API}/stripe/webhook`) return stripeWebhook(request, env)
+    if (request.method === 'POST' && pathname === `${API}/lulu/webhook`) return luluWebhook(request, env)
     return text('Not found', 404)
   },
 } satisfies ExportedHandler<Env>
@@ -101,6 +113,12 @@ async function stripeWebhook(request: Request, env: Env) {
     if (existing) return text(`Already ordered: print job ${existing.id}.`, 200)
 
     const job = await lulu<{ id: number }>(env, token, 'print-jobs/', order)
+    await email(
+      env,
+      order.shipping_address,
+      'Your copy of Seasoned is off to the printer',
+      "Thanks for buying Seasoned. Your copy is being printed just for you, which takes a few days, then it goes in the post. We'll email you again the moment it ships.",
+    )
     return text(`Ordered: print job ${job.id}.`, 200)
   } catch (error) {
     if (error instanceof LuluError) return text(error.message, 502)
@@ -142,6 +160,50 @@ function printJob(session: CheckoutSession, env: Env) {
       email,
     },
   }
+}
+
+async function luluWebhook(request: Request, env: Env) {
+  if (!env.LULU_CLIENT_SECRET) return text("Secrets aren't set.", 500)
+
+  const body = await request.text()
+  const key = await crypto.subtle.importKey('raw', encoder.encode(env.LULU_CLIENT_SECRET), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign'])
+  const digest = new Uint8Array(await crypto.subtle.sign('HMAC', key, encoder.encode(body)))
+  const hex = [...digest].map((byte) => byte.toString(16).padStart(2, '0')).join('')
+  // Lulu's docs don't say which encoding the header uses.
+  const sent = request.headers.get('Lulu-HMAC-SHA256')
+  if (sent !== hex && sent !== btoa(String.fromCharCode(...digest))) return text('Bad signature.', 400)
+
+  const { topic, data } = JSON.parse(body) as PrintJobEvent
+  const reader = data.shipping_address
+  const ours = data.external_id?.startsWith('cs_')
+  if (topic !== 'PRINT_JOB_STATUS_CHANGED' || data.status?.name !== 'SHIPPED' || !ours || !reader?.email) return text('Ignored.', 200)
+
+  const links = new Set([
+    ...(data.line_items ?? []).flatMap((item) => item.tracking_urls ?? []),
+    ...(data.status.line_item_statuses ?? []).flatMap((item) => item.messages?.tracking_urls ?? []),
+  ])
+  const tracking = links.size ? `\n\nFollow it here:\n${[...links].join('\n')}` : ''
+  // Always a 200: Lulu switches the webhook off after five failed deliveries in a row.
+  await email(env, reader, 'Seasoned is in the post', `Your book has left the printer and is on its way to you.${tracking}`)
+  return text('Emailed.', 200)
+}
+
+async function email(env: Env, to: { name?: string; email?: string }, subject: string, message: string) {
+  if (!env.POSTMARK_SERVER_TOKEN) return
+  const hello = to.name ? `Hi ${to.name.split(' ')[0]},\n\n` : ''
+  const response = await fetch('https://api.postmarkapp.com/email', {
+    method: 'POST',
+    headers: { 'X-Postmark-Server-Token': env.POSTMARK_SERVER_TOKEN, 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: JSON.stringify({
+      From: 'Seasoned <noreply@build40for40.com>',
+      ReplyTo: env.LULU_CONTACT_EMAIL,
+      To: to.email,
+      Subject: subject,
+      TextBody: `${hello}${message}\n\nAny trouble, just reply to this email.\n\nLawrence, Samira and Ben\n40 for 40`,
+      MessageStream: 'outbound',
+    }),
+  })
+  if (!response.ok) console.error(`Postmark answered ${response.status} for "${subject}": ${await response.text()}`)
 }
 
 class LuluError extends Error {}

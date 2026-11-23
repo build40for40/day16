@@ -7,6 +7,7 @@ const env = {
   STRIPE_WEBHOOK_SECRET: SECRET,
   LULU_CLIENT_KEY: 'key',
   LULU_CLIENT_SECRET: 'secret',
+  POSTMARK_SERVER_TOKEN: 'postmark',
   LULU_API_URL: 'https://api.sandbox.lulu.com',
   LULU_POD_PACKAGE_ID: '0600X0900.BW.STD.PB.060UW444.MXX',
   LULU_INTERIOR_URL: 'https://files.example/interior.pdf',
@@ -48,6 +49,7 @@ function lulu({ existing = [] as object[], created = Response.json({ id: 77 }, {
     'fetch',
     vi.fn(async (url: string, init?: RequestInit) => {
       calls.push({ url, body: typeof init?.body === 'string' ? JSON.parse(init.body) : undefined })
+      if (url.includes('postmarkapp.com')) return Response.json({ MessageID: 'sent' })
       if (url.includes('/openid-connect/token')) return Response.json({ access_token: 'token' })
       if (init?.method === 'POST') return created
       return Response.json({ results: existing })
@@ -66,7 +68,7 @@ describe('the Stripe webhook', () => {
 
     expect(response.status).toBe(200)
     expect(await response.text()).toBe('Ordered: print job 77.')
-    const order = calls.find((call) => call.body)!
+    const order = calls.find((call) => call.url.endsWith('/print-jobs/'))!
     expect(order.url).toBe('https://api.sandbox.lulu.com/print-jobs/')
     expect(order.body).toMatchObject({
       external_id: 'cs_test_123',
@@ -82,6 +84,10 @@ describe('the Stripe webhook', () => {
       },
     })
     expect(order.body.shipping_address).not.toHaveProperty('state_code')
+    expect(calls.find((call) => call.url.includes('postmarkapp.com'))!.body).toMatchObject({
+      To: 'reader@example.com',
+      Subject: 'Your copy of Seasoned is off to the printer',
+    })
   })
 
   it('does not print the same order twice', async () => {
@@ -122,6 +128,52 @@ describe('the Stripe webhook', () => {
 
   it('rejects a bad signature', async () => {
     const response = await deliver(session(), { signature: '0'.repeat(64) })
+
+    expect(response.status).toBe(400)
+  })
+})
+
+describe('the Lulu webhook', () => {
+  const shipped = {
+    topic: 'PRINT_JOB_STATUS_CHANGED',
+    data: {
+      external_id: 'cs_test_123',
+      status: { name: 'SHIPPED' },
+      line_items: [{ tracking_urls: ['https://track.example/abc'] }],
+      shipping_address: { name: 'Ada Reader', email: 'reader@example.com' },
+    },
+  }
+
+  async function notify(payload: object, secret = 'secret') {
+    const body = JSON.stringify(payload)
+    const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign'])
+    const signed = await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(body))
+    const hex = [...new Uint8Array(signed)].map((byte) => byte.toString(16).padStart(2, '0')).join('')
+    const request = new Request('https://build40for40.com/seasoned/api/lulu/webhook', { method: 'POST', headers: { 'Lulu-HMAC-SHA256': hex }, body })
+    return worker.fetch(request as never, env)
+  }
+
+  it('emails the reader a tracking link when the book ships', async () => {
+    const calls = lulu()
+
+    const response = await notify(shipped)
+
+    expect(response.status).toBe(200)
+    expect(calls).toHaveLength(1)
+    expect(calls[0]!.body).toMatchObject({ To: 'reader@example.com', Subject: 'Seasoned is in the post' })
+    expect(calls[0]!.body.TextBody).toContain('https://track.example/abc')
+  })
+
+  it('says nothing for other status changes', async () => {
+    const calls = lulu()
+
+    await notify({ ...shipped, data: { ...shipped.data, status: { name: 'IN_PRODUCTION' } } })
+
+    expect(calls).toHaveLength(0)
+  })
+
+  it('rejects a payload signed with the wrong secret', async () => {
+    const response = await notify(shipped, 'someone-else')
 
     expect(response.status).toBe(400)
   })
