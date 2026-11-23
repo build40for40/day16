@@ -9,6 +9,7 @@ Day 16 of 40 for 40, built live on Twitch on Monday 23 November 2026. The proble
 
 - **Page format:** `npm run pages` runs `pages/build.ts`, which turns every recipe JSON in `recipes/out/sample/recipes/` into an A5 page (148 × 210 mm, 559 × 794 px) in `pages/out/`, plus `book.html` holding all of them in date order for printing to PDF. `--in`, `--out` and `--pictures` point it at other folders. Each page has a landscape picture, the title, utensils, time split into prep and cook, ingredients with seasoning as its own section underneath, and the method. The right-hand edge is what you see when you flick: the date over the day number, four season icons on a year line with winter at both ends and a dot on today, and 30m, 60m or 90m near the bottom. A picture named like its recipe (`pictures/11-06.jpg`) is placed automatically, and a grey box stands in until then. All 24 current samples fit. Odd days are right-hand pages and even days are left-hand pages, where the edge moves to the left and everything else keeps its place. `--first-side left` swaps them.
 - **Architecture:** `design/workshop.html` is a diagram of the whole build as an elf workshop, with each part marked on main, PR open, in progress or not built. The statuses are a snapshot from 23 November.
+- **Book design:** `book/design.html` is the design board for the printed book (cover options, title and copyright pages, a sample spread, print spec). `book/README.md` explains it.
 
 Shared 40 for 40 context lives in `../AGENTS.md`.
 
