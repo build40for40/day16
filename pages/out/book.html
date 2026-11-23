@@ -4,34 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seasoned</title>
-<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 body{margin:0;background:#ffffff}
-.page{position:relative;width:576px;height:864px;overflow:hidden;background:#ffffff;color:#1b1a17;font-family:'Zen Kaku Gothic New',system-ui,sans-serif;font-weight:300}
+.page{position:relative;width:576px;height:864px;overflow:hidden;background:#ffffff;color:#1E2A22;font-family:'Figtree',system-ui,sans-serif;font-weight:300}
 .content{position:absolute;left:95px;top:56px;width:386px;display:flex;flex-direction:column}
-.picture{width:356px;height:196px;background:#f3f1ec;display:flex;align-items:center;justify-content:center;font-size:12px;color:#6b675f;object-fit:cover}
-h1{margin:26px 0 0;font-size:25px;line-height:31px;font-weight:400;letter-spacing:-0.2px}
-.note{font-size:12px;line-height:16px;color:#6b675f}
-.note b{font-weight:700;color:#1b1a17}
+.picture{width:356px;height:196px;background:#F3ECDF;display:flex;align-items:center;justify-content:center;font-size:12px;color:#4B5A4E;object-fit:cover}
+/* The title always takes two lines of space and sits at the bottom of it, so the ingredients start at the same height on every page. */
+h1{margin:26px 0 0;min-height:62px;display:flex;align-items:flex-end;font-size:25px;line-height:31px;font-weight:400;letter-spacing:-0.2px}
+.note{font-size:12px;line-height:16px;color:#4B5A4E}
+.note b{font-weight:600;color:#1E2A22}
 .columns{margin-top:18px;display:flex;gap:20px;align-items:flex-start;font-size:13px}
 .left{flex:0 0 150px;line-height:20px}
 .method{flex:1 1 0;min-width:0;line-height:20px}
-.heading{font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;margin-bottom:8px}
-.left .heading + div + .heading{margin-top:14px}
+.heading{font-size:12px;line-height:24px;font-weight:600;letter-spacing:0.4px;margin-bottom:8px}
+.badge{display:inline-block;font-size:13px;line-height:16px;font-weight:700;padding:4px 11px;border-radius:12px;margin-bottom:8px}
+.badge.spring{background:#E8708A;color:#1E2A22}
+.badge.summer{background:#E0482F;color:#FBF7EF}
+.badge.autumn{background:#D9822B;color:#1E2A22}
+.badge.winter{background:#7A1F3D;color:#FBF7EF}
+.left .seasoning{margin-top:10px}
 ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
 li{display:flex;gap:12px}
-li span:first-child{flex:0 0 8px;color:#6b675f}
+li span:first-child{flex:0 0 8px;color:#8C968C}
 .date{position:absolute;right:48px;top:48px;text-align:right;white-space:nowrap}
 .date .number{font-size:40px;line-height:42px;font-weight:300;letter-spacing:-1px}
 .date .month{font-size:13px;line-height:18px;font-weight:400}
-.date .day{margin-top:6px;font-size:12px;line-height:16px;color:#767676}
-.season{position:absolute;right:59px;height:30px;display:flex;align-items:center;color:#767676}
+.date .day{margin-top:6px;font-size:12px;line-height:16px;color:#8C968C}
+.season{position:absolute;right:59px;height:30px;display:flex;align-items:center;color:#8C968C}
 .season svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
-.season.on{color:#1b1a17}
+.season.on{color:#1E2A22}
 .season.on svg{stroke-width:1.8}
-.year{position:absolute;right:51px;top:180px;width:1px;height:636px;background:#c9c6be}
-.gone{position:absolute;right:50px;top:180px;width:2px;background:#1b1a17}
-.today{position:absolute;right:48px;width:7px;height:7px;border-radius:50%;background:#1b1a17}
+.year{position:absolute;right:51px;top:180px;width:1px;height:636px;background:#B9B9AE}
+.gone{position:absolute;right:50px;top:180px;width:2px;background:#1E2A22}
+.today{position:absolute;right:48px;width:7px;height:7px;border-radius:50%;background:#1E2A22}
 .verso .picture{margin-left:30px}
 .verso .date{right:auto;left:48px;text-align:left}
 .verso .season{right:auto;left:59px}
@@ -57,9 +63,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>23m</b>: 15m prep + 8m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge winter">ingredients</div>
 <div>4 oranges<br>400g rhubarb<br>2 tbsp honey<br>50g porridge oats<br>30g almonds<br>500g natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>cinnamon</div>
 </div>
 <div class="method">
@@ -88,9 +94,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>80m</b>: 20m prep + 60m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge winter">ingredients</div>
 <div>2 tbsp olive oil<br>2 onions<br>3 cloves garlic<br>250g yellow split peas<br>1 tin chopped tomatoes<br>1.2 litres vegetable stock<br>3 parsnips<br>300g purple sprouting broccoli</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>cumin<br>turmeric<br>lemon<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -119,9 +125,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>55m</b>: 25m prep + 30m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge winter">ingredients</div>
 <div>25g butter<br>2 leeks<br>150ml crème fraîche<br>1 tsp wholegrain mustard<br>320g puff pastry sheet<br>3 small turnips<br>1 tbsp olive oil<br>80g cheddar<br>4 eggs</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>thyme<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -150,9 +156,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>20m</b>: 15m prep + 5m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge winter">ingredients</div>
 <div>300g kipper fillets<br>2 oranges<br>40g soft butter<br>100g crème fraîche<br>1 tsp horseradish sauce<br>8 slices wholemeal bread</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>black pepper</div>
 </div>
 <div class="method">
@@ -182,9 +188,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>60m</b>: 25m prep + 35m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge spring">ingredients</div>
 <div>1 tbsp rapeseed oil<br>500g beef mince<br>2 onions<br>3 cloves garlic<br>1 tin chopped tomatoes<br>500g potatoes<br>½ white cabbage<br>200g cavolo nero<br>150g natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>curry powder<br>cumin<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -213,9 +219,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>22m</b>: 12m prep + 10m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge spring">ingredients</div>
 <div>3 eating apples<br>200g rhubarb<br>2 tbsp soft brown sugar<br>1 orange<br>200g porridge oats<br>50g walnuts</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>cinnamon<br>salt</div>
 </div>
 <div class="method">
@@ -244,9 +250,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>45m</b>: 15m prep + 30m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge spring">ingredients</div>
 <div>3 Bramley apples<br>300g rhubarb<br>2 tbsp honey<br>1 orange<br>50g almonds<br>30g pumpkin seeds<br>15g butter<br>1 tbsp soft brown sugar<br>400g natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>cinnamon</div>
 </div>
 <div class="method">
@@ -275,9 +281,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>45m</b>: 20m prep + 25m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge spring">ingredients</div>
 <div>200g puy lentils<br>3 tbsp olive oil<br>1 tbsp red wine vinegar<br>1 tsp Dijon mustard<br>40g pumpkin seeds<br>3 oranges<br>200g radishes<br>4 spring onions<br>100g watercress</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>bay leaves<br>parsley<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -307,9 +313,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>30m</b>: 30m prep + 0m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge spring">ingredients</div>
 <div>3 oranges<br>250g ricotta<br>3 eggs<br>150ml milk<br>200g self-raising flour<br>300g strawberries<br>1 tbsp honey<br>25g butter<br>200g natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>salt</div>
 </div>
 <div class="method">
@@ -338,9 +344,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>2h</b>: 25m prep + 95m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge spring">ingredients</div>
 <div>1.5kg whole chicken<br>1 tbsp olive oil<br>750g new potatoes<br>2 cucumbers<br>2 tbsp cider vinegar<br>1 tsp honey<br>200g natural yoghurt<br>1 garlic clove, grated<br>80g watercress</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>salt<br>black pepper<br>dill<br>mint</div>
 </div>
 <div class="method">
@@ -369,9 +375,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>50m</b>: 20m prep + 30m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge summer">ingredients</div>
 <div>400g new potatoes<br>1 tbsp olive oil<br>4 spring onions<br>250g chard<br>8 eggs<br>3 tbsp crème fraîche<br>250g smoked haddock<br>100g salad leaves</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>salt<br>black pepper<br>dill</div>
 </div>
 <div class="method">
@@ -400,9 +406,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>50m</b>: 15m prep + 35m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge summer">ingredients</div>
 <div>4 peaches<br>300g raspberries<br>1 tbsp caster sugar<br>80g porridge oats<br>50g plain flour<br>40g almonds<br>40g soft brown sugar<br>4 tbsp rapeseed oil</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>lemon<br>cinnamon</div>
 </div>
 <div class="method">
@@ -431,9 +437,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>40m</b>: 25m prep + 15m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge summer">ingredients</div>
 <div>300g basmati rice<br>1 tbsp olive oil<br>500g turkey mince<br>1 red onion<br>3 peppers<br>2 cloves garlic<br>200g cherry tomatoes<br>150g natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>smoked paprika<br>cumin<br>parsley<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -462,9 +468,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>25m</b>: 10m prep + 15m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge summer">ingredients</div>
 <div>2 tbsp olive oil<br>500g cherry tomatoes<br>2 cloves garlic<br>1 tin cannellini beans<br>4 eggs<br>4 slices wholemeal bread</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>salt<br>black pepper<br>chilli flakes<br>basil</div>
 </div>
 <div class="method">
@@ -493,9 +499,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>42m</b>: 12m prep + 30m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge summer">ingredients</div>
 <div>400g red grapes<br>4 plums<br>1 tsp cornflour<br>100g porridge oats<br>50g plain flour<br>40g almonds<br>2 tbsp soft brown sugar<br>4 tbsp rapeseed oil</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>cinnamon</div>
 </div>
 <div class="method">
@@ -524,9 +530,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>85m</b>: 25m prep + 60m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge summer">ingredients</div>
 <div>2 tbsp rapeseed oil<br>2 onions<br>3 cloves garlic<br>250g yellow split peas<br>1.2 litres vegetable stock<br>4 tomatoes<br>1 small marrow<br>1 head broccoli</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>salt<br>cumin<br>turmeric<br>coriander<br>lemon</div>
 </div>
 <div class="method">
@@ -555,9 +561,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>17m</b>: 12m prep + 5m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge autumn">ingredients</div>
 <div>6 plums<br>1 tbsp honey<br>1 tbsp cider vinegar<br>2 tsp horseradish sauce<br>150g crème fraîche<br>8 slices wholemeal bread<br>80g watercress<br>250g smoked mackerel</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>chives<br>black pepper</div>
 </div>
 <div class="method">
@@ -586,9 +592,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>35m</b>: 20m prep + 15m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge autumn">ingredients</div>
 <div>2 fennel bulbs<br>3 tbsp olive oil<br>2 tins butter beans<br>60g walnuts<br>100g feta<br>1 egg<br>60g breadcrumbs<br>4 tomatoes<br>150g natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>fennel seeds<br>lemon<br>dill<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -617,9 +623,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>40m</b>: 15m prep + 25m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge autumn">ingredients</div>
 <div>2 tbsp olive oil<br>1 onion<br>2 cloves garlic<br>500g parsnips<br>200g red lentils<br>1 tin chopped tomatoes<br>1 litre vegetable stock<br>100g kale<br>4 tbsp natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>cumin<br>turmeric<br>lemon<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -648,9 +654,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>38m</b>: 20m prep + 18m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge autumn">ingredients</div>
 <div>350g self-raising flour<br>1 tsp baking powder<br>75g cold butter<br>2 carrots<br>100g mature cheddar<br>1 egg<br>150ml milk</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>salt<br>black pepper<br>thyme</div>
 </div>
 <div class="method">
@@ -680,9 +686,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>65m</b>: 20m prep + 45m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge autumn">ingredients</div>
 <div>1 tbsp olive oil<br>500g beef mince<br>1 onion<br>2 carrots<br>2 cloves garlic<br>250g pearl barley<br>1 tbsp tomato purée<br>1 tbsp Worcestershire sauce<br>1.2 litres beef stock<br>400g Brussels sprouts</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>thyme<br>salt<br>black pepper</div>
 </div>
 <div class="method">
@@ -711,9 +717,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>8h 15m</b>: 15m prep + 8h cook, oats soaked overnight</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge autumn">ingredients</div>
 <div>2 oranges<br>200g porridge oats<br>2 tbsp raisins<br>2 apples<br>300g red grapes<br>50g hazelnuts<br>2 tbsp pumpkin seeds</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>cinnamon<br>lemon</div>
 </div>
 <div class="method">
@@ -742,9 +748,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>25m</b>: 20m prep + 5m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge winter">ingredients</div>
 <div>200g kale<br>2 carrots<br>2 eating apples<br>¼ red cabbage<br>3 tbsp olive oil<br>1 tsp honey<br>1 tsp Dijon mustard<br>50g pumpkin seeds<br>100g feta</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>salt<br>black pepper<br>lemon</div>
 </div>
 <div class="method">
@@ -773,9 +779,9 @@ li span:first-child{flex:0 0 8px;color:#6b675f}
 <div class="note" style="margin-top:4px"><b>40m</b>: 15m prep + 25m cook</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge winter">ingredients</div>
 <div>30g pumpkin seeds<br>1 tbsp olive oil<br>1 onion<br>2 cloves garlic<br>600g carrots<br>2 tins butter beans<br>1 litre vegetable stock<br>1 orange<br>4 tbsp natural yoghurt</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>rosemary<br>chilli flakes<br>salt<br>black pepper</div>
 </div>
 <div class="method">

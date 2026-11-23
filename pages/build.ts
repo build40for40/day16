@@ -44,6 +44,9 @@ interface RecipeFile {
   recipe: Recipe;
 }
 
+// Colours and type follow the Seasoned brand guidelines: a white page so the book prints in black and white, Cavolo nero for text,
+// Moss, Sage and Stone for the quieter parts, Figtree throughout, and one pop of colour per page,
+// the ingredients badge in the season's main colour.
 // The page is 6 x 9 inches (152 x 229 mm), which is 576 x 864 CSS pixels. It follows Lulu's interior
 // guidelines for a 151 to 400 page book: 25 mm on the binding side and 13 mm on the other three.
 // The outer edge is what you see when you flick through the book: on the right of a
@@ -53,35 +56,41 @@ const YEAR_LINE_HEIGHT = 636;
 const SEASONS = ["winter", "spring", "summer", "autumn", "winter"] as const;
 const SEASON_TOPS = [218, 351, 510, 669, 775];
 
-const FONT = `<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;700&display=swap" rel="stylesheet">`;
+const FONT = `<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&display=swap" rel="stylesheet">`;
 
 const CSS = `
 body{margin:0;background:#ffffff}
-.page{position:relative;width:576px;height:864px;overflow:hidden;background:#ffffff;color:#1b1a17;font-family:'Zen Kaku Gothic New',system-ui,sans-serif;font-weight:300}
+.page{position:relative;width:576px;height:864px;overflow:hidden;background:#ffffff;color:#1E2A22;font-family:'Figtree',system-ui,sans-serif;font-weight:300}
 .content{position:absolute;left:95px;top:56px;width:386px;display:flex;flex-direction:column}
-.picture{width:356px;height:196px;background:#f3f1ec;display:flex;align-items:center;justify-content:center;font-size:12px;color:#6b675f;object-fit:cover}
-h1{margin:26px 0 0;font-size:25px;line-height:31px;font-weight:400;letter-spacing:-0.2px}
-.note{font-size:12px;line-height:16px;color:#6b675f}
-.note b{font-weight:700;color:#1b1a17}
+.picture{width:356px;height:196px;background:#F3ECDF;display:flex;align-items:center;justify-content:center;font-size:12px;color:#4B5A4E;object-fit:cover}
+/* The title always takes two lines of space and sits at the bottom of it, so the ingredients start at the same height on every page. */
+h1{margin:26px 0 0;min-height:62px;display:flex;align-items:flex-end;font-size:25px;line-height:31px;font-weight:400;letter-spacing:-0.2px}
+.note{font-size:12px;line-height:16px;color:#4B5A4E}
+.note b{font-weight:600;color:#1E2A22}
 .columns{margin-top:18px;display:flex;gap:20px;align-items:flex-start;font-size:13px}
 .left{flex:0 0 150px;line-height:20px}
 .method{flex:1 1 0;min-width:0;line-height:20px}
-.heading{font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;margin-bottom:8px}
-.left .heading + div + .heading{margin-top:14px}
+.heading{font-size:12px;line-height:24px;font-weight:600;letter-spacing:0.4px;margin-bottom:8px}
+.badge{display:inline-block;font-size:13px;line-height:16px;font-weight:700;padding:4px 11px;border-radius:12px;margin-bottom:8px}
+.badge.spring{background:#E8708A;color:#1E2A22}
+.badge.summer{background:#E0482F;color:#FBF7EF}
+.badge.autumn{background:#D9822B;color:#1E2A22}
+.badge.winter{background:#7A1F3D;color:#FBF7EF}
+.left .seasoning{margin-top:10px}
 ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
 li{display:flex;gap:12px}
-li span:first-child{flex:0 0 8px;color:#6b675f}
+li span:first-child{flex:0 0 8px;color:#8C968C}
 .date{position:absolute;right:48px;top:48px;text-align:right;white-space:nowrap}
 .date .number{font-size:40px;line-height:42px;font-weight:300;letter-spacing:-1px}
 .date .month{font-size:13px;line-height:18px;font-weight:400}
-.date .day{margin-top:6px;font-size:12px;line-height:16px;color:#767676}
-.season{position:absolute;right:59px;height:30px;display:flex;align-items:center;color:#767676}
+.date .day{margin-top:6px;font-size:12px;line-height:16px;color:#8C968C}
+.season{position:absolute;right:59px;height:30px;display:flex;align-items:center;color:#8C968C}
 .season svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
-.season.on{color:#1b1a17}
+.season.on{color:#1E2A22}
 .season.on svg{stroke-width:1.8}
-.year{position:absolute;right:51px;top:${YEAR_LINE_TOP}px;width:1px;height:${YEAR_LINE_HEIGHT}px;background:#c9c6be}
-.gone{position:absolute;right:50px;top:${YEAR_LINE_TOP}px;width:2px;background:#1b1a17}
-.today{position:absolute;right:48px;width:7px;height:7px;border-radius:50%;background:#1b1a17}
+.year{position:absolute;right:51px;top:${YEAR_LINE_TOP}px;width:1px;height:${YEAR_LINE_HEIGHT}px;background:#B9B9AE}
+.gone{position:absolute;right:50px;top:${YEAR_LINE_TOP}px;width:2px;background:#1E2A22}
+.today{position:absolute;right:48px;width:7px;height:7px;border-radius:50%;background:#1E2A22}
 .verso .picture{margin-left:30px}
 .verso .date{right:auto;left:48px;text-align:left}
 .verso .season{right:auto;left:59px}
@@ -147,9 +156,9 @@ ${image}
 <div class="note" style="margin-top:4px"><b>${minutes(total)}</b>: ${minutes(recipe.prep_minutes)} prep + ${minutes(recipe.cook_minutes)} cook${note}</div>
 <div class="columns">
 <div class="left">
-<div class="heading">ingredients</div>
+<div class="badge ${SEASONS[season]}">ingredients</div>
 <div>${recipe.ingredients.map((item) => `${escapeHtml(item.quantity)} ${escapeHtml(item.name)}`).join("<br>")}</div>
-<div class="heading">seasoning</div>
+<div class="heading seasoning">seasoning</div>
 <div>${recipe.seasoning.map((item) => escapeHtml(item.name)).join("<br>")}</div>
 </div>
 <div class="method">
