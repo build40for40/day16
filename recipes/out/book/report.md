@@ -17,7 +17,7 @@
 | grandparents_cupboard | 365/365 |
 | supermarket | 365/365 |
 | basic_kitchen | 365/365 |
-| works | 364/365 |
+| works | 365/365 |
 | honest_times | 362/365 |
 | honest_ingredients | 365/365 |
 | seasonal_feel | 364/365 |
@@ -25,7 +25,6 @@
 | hearty_healthy | 365/365 |
 
 - 18 February, Cheese and onion rösti with mushrooms and eggs: **honest_times**. The 20 cook minutes are not unattended because the rösti, then the mushrooms, then the eggs are all fried one after another at the stove, so it is about 35 minutes of hands-on work for a breakfast asked to be quick.
-- 19 April, Lamb chops with new potatoes, spinach and Bramley: **works**. Setting the chops on 400g of raw spinach in a tray already full of potatoes means the spinach floods the tray as it wilts, so in 10 to 12 minutes the chops steam grey rather than brown, and the last step's mixing of apple, juices and spinach under the chops is muddled.
 - 9 May, Ham and eggs on toast with rhubarb relish: **seasonal_feel**. The rhubarb ends up as 'a spoonful of relish' on top of ham and eggs, so on a rhubarb day it is a condiment rather than the point of the dish.
 - 2 November, Squash and split pea soup with cumin: **honest_times**. The page was asked to be quick, but the steps need 50 minutes of simmering, so it is over an hour from start to bowl.
 - 11 November, Beetroot and mushroom hash with feta and eggs: **honest_times**. The steps add up to 21 to 25 minutes of frying against the 20 printed, and with 15 minutes of peeling and grating the whole thing takes about 35 to 40 minutes, which is not 'quick' for a weekday breakfast.
@@ -55,7 +54,7 @@ on toast 22, pasta 20, traybake 18, breakfast hash 14, frittata 13, soup 12, fri
 
 ### Most used ingredients
 
-Lemons 179, Garlic 129, Eggs 103, Thyme 83, Greek yoghurt 81, Honey 70, Cinnamon 67, Onions 60, Crusty or wholemeal bread 55, Potatoes 54, Milk 53, Apples 48, Porridge oats 48, Spring onions 48, Smoked paprika 46
+Lemons 179, Garlic 129, Eggs 103, Thyme 83, Greek yoghurt 81, Honey 70, Cinnamon 67, Onions 60, Crusty or wholemeal bread 55, Potatoes 54, Milk 53, Apples 48, Porridge oats 48, Spring onions 48, Crème fraîche 47
 
 ### Fresh ingredients never used
 

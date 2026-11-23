@@ -18,7 +18,7 @@ const judgeFailures = new Map(
     .filter(([, failures]) => failures.length),
 );
 const todo = options.fix
-  ? [...existing.values()].filter((page) => judgeFailures.has(page.slot.day)).map((page) => page.slot)
+  ? [...existing.values()].filter((page) => judgeFailures.has(page.slot.day) && (!options.days || options.days.includes(page.slot.day))).map((page) => page.slot)
   : chosen(plan(), options).filter((slot) => options.force || !existing.has(slot.day));
 const system = recipeSystem();
 
