@@ -15,8 +15,11 @@ export const ingredientLine = (ingredient) => `${ingredient.quantity} ${ingredie
 export function fit(recipe) {
   const { limits } = config;
   const methodLines = recipe.steps.reduce((sum, step) => sum + lines(step, limits.method_chars_per_line), 0);
+  const ingredientLines = recipe.ingredients.reduce((sum, item) => sum + lines(ingredientLine(item), limits.ingredient_chars_per_line), 0);
   return {
-    ingredientLines: recipe.ingredients.reduce((sum, item) => sum + lines(ingredientLine(item), limits.ingredient_chars_per_line), 0),
+    ingredientLines,
+    // Ingredients and seasoning share one column on the page, one seasoning to a line.
+    columnLines: ingredientLines + recipe.seasoning.length,
     methodLines,
     methodPx: methodLines * limits.method_line_px + Math.max(0, recipe.steps.length - 1) * limits.method_gap_px,
     methodChars: recipe.steps.join("").length,
@@ -114,6 +117,10 @@ export function hardChecks(candidate, slot) {
     fail("ingredients_overflow", `The ingredients need ${size.ingredientLines} lines and the column holds ${limits.ingredient_lines}. A line is ${limits.ingredient_chars_per_line} characters, so shorten the long ones or use fewer.`);
   }
   if (recipe.seasoning.length > limits.max_seasoning) fail("too_much_seasoning", `${recipe.seasoning.length} seasonings. The page fits ${limits.max_seasoning}.`);
+  if (size.columnLines > limits.column_lines) {
+    const over = size.columnLines - limits.column_lines;
+    fail("column_overflow", `The ingredients take ${size.ingredientLines} lines and there are ${recipe.seasoning.length} seasonings. They share one column that holds ${limits.column_lines} lines, so cut ${over} line${over > 1 ? "s" : ""} between them.`);
+  }
   if (recipe.steps.length > limits.max_steps) fail("too_many_steps", `${recipe.steps.length} steps. The page fits ${limits.max_steps}.`);
   if (size.methodPx > limits.method_px) {
     const over = Math.ceil((size.methodPx - limits.method_px) / limits.method_line_px);

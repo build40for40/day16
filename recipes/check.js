@@ -99,6 +99,7 @@ ${table(
     ["Prep minutes", `median ${handsOn[Math.floor(handsOn.length / 2)]}, longest ${handsOn.at(-1)}`],
     ["Time band on the page edge", count(pages.map((page) => band(page.recipe))).map(([name, n]) => `${name} ${n}`).join(", ")],
     ["Ingredient lines", `${range(sizes.map((size) => size.ingredientLines))} of ${config.limits.ingredient_lines}`],
+    ["Ingredient plus seasoning lines", `${range(sizes.map((size) => size.columnLines))} of ${config.limits.column_lines}`],
     ["Method height", `${range(sizes.map((size) => size.methodPx))}px of ${config.limits.method_px}px`],
     ["Method characters", range(sizes.map((size) => size.methodChars))],
     ["Kit", count(pages.map((page) => page.recipe.kit)).map(([kit, n]) => `${kit.replaceAll("_", " ")} ${n}`).join(", ")],

@@ -37,7 +37,8 @@
 | Prep 20 minutes or less | 83% ✓ (target 33%) |
 | Prep minutes | median 20, longest 30 |
 | Time band on the page edge | 60m 13, 30m 6, 90m 3, over 90m 2 |
-| Ingredient lines | 5 to 13 of 13 |
+| Ingredient lines | 5 to 11 of 13 |
+| Ingredient plus seasoning lines | 7 to 14 of 14 |
 | Method height | 227 to 287px of 288px |
 | Method characters | 295 to 354 |
 | Kit | hob 10, one pot 6, oven 5, hob and oven 1, no cook 1, one tray 1 |

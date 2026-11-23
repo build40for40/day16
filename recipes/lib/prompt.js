@@ -55,6 +55,7 @@ export function recipeSystem() {
     MAX_SEASONING: limits.max_seasoning,
     MAX_INGREDIENTS: limits.max_ingredients,
     INGREDIENT_CHARS: limits.ingredient_chars_per_line,
+    COLUMN_LINES: limits.column_lines,
     MIN_STEPS: 3,
     MAX_STEPS: limits.max_steps,
     METHOD_CHARS: limits.method_chars_per_line,
