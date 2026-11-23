@@ -214,7 +214,7 @@ async function email(env: Env, to: { name?: string; email?: string }, subject: s
     headers: { 'X-Postmark-Server-Token': env.POSTMARK_SERVER_TOKEN, 'Content-Type': 'application/json', Accept: 'application/json' },
     body: JSON.stringify({
       From: 'Seasoned <noreply@build40for40.com>',
-      ReplyTo: env.LULU_CONTACT_EMAIL,
+      ReplyTo: 'help@build40for40.com',
       To: to.email,
       Subject: subject,
       TextBody: `${hello}${message}\n\nAny trouble, just reply to this email.\n\nLawrence, Samira and Ben\n40 for 40`,
