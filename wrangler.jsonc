@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "seasoned",
+  "account_id": "9b4d3e616e55585a0ae844f424717b43",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "run_worker_first": ["/seasoned/api/*"]
+  },
+  "routes": [
+    { "pattern": "build40for40.com/seasoned", "zone_name": "build40for40.com" },
+    { "pattern": "build40for40.com/seasoned/*", "zone_name": "build40for40.com" }
+  ],
+  "vars": {
+    // Lulu's own sample 32-page trade paperback, until the real book's files exist.
+    "LULU_POD_PACKAGE_ID": "0600X0900.BW.STD.PB.060UW444.MXX",
+    "LULU_INTERIOR_URL": "https://www.dropbox.com/s/r20orb8umqjzav9/lulu_trade_interior_template-32.pdf?dl=1&raw=1",
+    "LULU_COVER_URL": "https://www.dropbox.com/s/7bv6mg2tj0h3l0r/lulu_trade_perfect_template.pdf?dl=1&raw=1",
+    "LULU_CONTACT_EMAIL": "hello@40for40.app"
+  },
+  "workers_dev": true,
+  "preview_urls": true,
+  "observability": { "enabled": true }
+}
