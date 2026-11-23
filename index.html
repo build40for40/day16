@@ -74,6 +74,8 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 .buy small{display:block;font:400 .85rem var(--mono);margin-top:14px;letter-spacing:0;text-transform:none;opacity:.85}
 .buy a{background:var(--buyf);color:var(--buyb);padding:16px 34px;font-weight:800;text-decoration:none;font-size:1.1rem;border-radius:var(--rad)}
 .buy a:hover,.buy a:focus-visible{outline:3px solid var(--buyf);outline-offset:3px}
+.sample{padding-block:clamp(24px,5vw,48px) clamp(8px,2vw,16px)}
+.sample img{display:block;width:100%;max-width:440px;height:auto;border:1px solid var(--bd);border-radius:var(--rad)}
 .fine{font:400 .72rem var(--mono);margin:0;padding-block:18px 28px;opacity:.7}
 @media(max-width:760px){.cols{grid-template-columns:1fr}}
 @media(max-width:520px){.g .s,.sk b{display:none}}
@@ -138,6 +140,10 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 <div><h3>Today's receipt</h3><ul class="ing" id="ing"></ul><div class="tot"><span>Total distance</span><span id="total"></span></div><p class="pn">Pantry, not counted: salt and black pepper.</p></div>
 <div><h3 id="meta"></h3><ol class="steps" id="steps"></ol></div>
 </div>
+</section>
+<section class="sample" id="sample">
+<p class="tag">A page from the book</p>
+<img src="sample-page.jpg" width="1152" height="1728" loading="lazy" alt="A page from Seasoned for 14 July: courgette and cherry tomato frittata, with a painted picture of the dish, the ingredients, the seasoning and four steps.">
 </section>
 </main>
 </div>
