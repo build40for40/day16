@@ -17,17 +17,17 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Courgette, potato and chickpea hash",
+  "title": "Courgette, sweetcorn and chickpea hash",
   "meal": "breakfast",
   "dish_form": "breakfast hash",
   "diet": "vegan",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "one large frying pan with a lid"
+   "one large frying pan"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 20,
+  "prep_minutes": 15,
+  "cook_minutes": 13,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -47,14 +47,13 @@
    {
     "id": "parsley",
     "name": "parsley"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
    }
   ],
   "ingredients": [
-   {
-    "id": "potatoes",
-    "quantity": "600g",
-    "name": "potatoes"
-   },
    {
     "id": "olive-oil",
     "quantity": "3 tbsp",
@@ -66,14 +65,19 @@
     "name": "red onion"
    },
    {
-    "id": "courgettes",
-    "quantity": "2",
-    "name": "courgettes"
-   },
-   {
     "id": "peppers",
     "quantity": "1",
     "name": "red pepper"
+   },
+   {
+    "id": "courgettes",
+    "quantity": "3",
+    "name": "courgettes"
+   },
+   {
+    "id": "sweetcorn",
+    "quantity": "2",
+    "name": "sweetcorn cobs"
    },
    {
     "id": "chickpeas",
@@ -87,10 +91,10 @@
    }
   ],
   "steps": [
-   "Cut the potatoes into small cubes. Fry in the oil with the lid on for 10 minutes, stirring now and then.",
-   "Add the sliced onion and the diced courgettes and pepper. Fry uncovered for 10 minutes, until the potatoes are golden.",
-   "Stir in the drained chickpeas and 2 tsp smoked paprika. Fry for 5 minutes until the chickpeas crisp.",
-   "Add the halved tomatoes for 2 minutes. Season and scatter with chopped parsley."
+   "Fry the sliced onion and diced pepper in the oil over a high heat for 4 minutes.",
+   "Add the diced courgettes and fry for 5 minutes, until golden at the edges.",
+   "Stir in the corn cut from the cobs, the drained chickpeas and 2 tsp smoked paprika. Fry for 3 minutes.",
+   "Add the halved tomatoes for 1 minute. Season, squeeze over the lemon and scatter with parsley."
   ]
  },
  "attempts": 1,

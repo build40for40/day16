@@ -18,19 +18,19 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Jacket potatoes with Stilton, beans and pear",
+  "title": "Loaded crushed potatoes with spring onion beans",
   "meal": "lunch",
-  "dish_form": "loaded jacket potato",
+  "dish_form": "loaded potato",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "oven",
+  "kit": "hob",
   "utensils": [
-   "a baking tray",
-   "a mixing bowl",
-   "a masher"
+   "a large pan",
+   "a frying pan",
+   "a grater"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 85,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
@@ -51,33 +51,33 @@
   "ingredients": [
    {
     "id": "potatoes",
-    "quantity": "4",
-    "name": "baking potatoes"
+    "quantity": "800g",
+    "name": "small potatoes"
    },
    {
-    "id": "olive-oil",
-    "quantity": "1 tbsp",
-    "name": "olive oil"
-   },
-   {
-    "id": "butter-beans",
-    "quantity": "1 tin",
-    "name": "butter beans"
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
    },
    {
     "id": "spring-onions",
-    "quantity": "1 bunch",
+    "quantity": "2 bunches",
     "name": "spring onions"
    },
    {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
     "id": "creme-fraiche",
-    "quantity": "100g",
+    "quantity": "150g",
     "name": "crème fraîche"
    },
    {
-    "id": "blue-cheese",
-    "quantity": "100g",
-    "name": "Stilton"
+    "id": "cheddar",
+    "quantity": "80g",
+    "name": "Cheddar"
    },
    {
     "id": "pears",
@@ -85,21 +85,21 @@
     "name": "pears"
    },
    {
-    "id": "walnuts",
-    "quantity": "30g",
-    "name": "walnuts"
-   },
-   {
     "id": "watercress",
     "quantity": "80g",
     "name": "watercress"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Prick the potatoes, rub with oil and salt, and bake for 1 hour 15 minutes.",
-   "Halve them and scoop the flesh into a bowl. Mash with the drained beans, crème fraîche, sliced spring onions and half the crumbled Stilton. Season.",
-   "Pile back into the skins, top with the rest of the Stilton and bake for 10 minutes, until golden.",
-   "Toss sliced pears, watercress and walnuts with a squeeze of lemon and serve alongside."
+   "Boil the halved potatoes in salted water for 15 minutes, until tender. Drain.",
+   "Meanwhile, melt the butter in a frying pan. Fry the sliced spring onions for 2 minutes, then stir in the drained beans and crème fraîche and warm through. Season.",
+   "Roughly crush the potatoes on plates, spoon over the beans and grate over the Cheddar.",
+   "Toss sliced pears and watercress with the oil and a squeeze of lemon, and serve alongside."
   ]
  },
  "attempts": 1,

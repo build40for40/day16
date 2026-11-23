@@ -83,7 +83,7 @@
    {
     "id": "chickpeas",
     "quantity": "2 tins",
-    "name": "chickpeas, drained"
+    "name": "chickpeas"
    },
    {
     "id": "kale",
@@ -97,10 +97,10 @@
    }
   ],
   "steps": [
-   "Cut the turnips into wedges. Fry in half the oil for 15 minutes, turning, until golden and tender. Stir in the thyme and honey.",
-   "Meanwhile, soften the sliced onion and garlic in the rest of the oil in the saucepan. Add the chickpeas, shredded kale and a splash of water.",
-   "Cover for 5 minutes, then add a squeeze of lemon and the chilli flakes. Season.",
-   "Push the turnips aside and fry the sliced halloumi for 2 minutes a side. Serve on the chickpeas."
+   "Fry the turnip wedges in half the oil in the frying pan for 15 minutes, until golden. Stir in the thyme and honey.",
+   "Soften the sliced onion and garlic in the rest of the oil in the saucepan. Add the drained chickpeas, shredded kale and a splash of water, then cover for 5 minutes.",
+   "Stir in the turnips, chilli flakes and a squeeze of lemon. Season.",
+   "Wipe the frying pan. Fry the sliced halloumi in two batches, 2 minutes a side, and pile on top."
   ]
  },
  "attempts": 1,

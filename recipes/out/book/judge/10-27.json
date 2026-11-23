@@ -1,0 +1,43 @@
+{
+ "day": 300,
+ "title": "Pear and almond squares",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, sugar, eggs, ground almonds, baking powder, pears, almonds, ginger and lemon are all ordinary home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard Tesco line, and 200g of ground almonds is an everyday baking purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A square dish, bowl and wooden spoon are enough, and creaming butter and sugar is a beginner's technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The ratio of 100g butter, 80g sugar, 3 eggs and 200g ground almonds makes a sound frangipane-style sponge for a 20cm dish, and 30 to 35 minutes at 180°C is right for twelve squares."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers creaming, zesting, slicing two pears and chopping a few almonds, and the 35-minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the ginger and lemon zest, is used, and nothing unlisted appears apart from baking paper."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Pears are at their best in late October, and they top the whole traybake rather than acting as a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A gluten-free almond and egg traybake with fresh pear and modest sugar makes a satisfying afternoon snack a family would bake again."
+  }
+ }
+}

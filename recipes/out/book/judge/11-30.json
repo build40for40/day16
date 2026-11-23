@@ -1,0 +1,43 @@
+{
+ "day": 334,
+ "title": "Warm thyme grapes and goat's cheese on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Goat's cheese, walnuts, honey, butter, bread and grapes are all plain whole foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Soft goat's cheese, walnuts and red grapes are everyday Tesco lines at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan and a toaster or grill, with simple toasting and pan-frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g grapes, 150g goat's cheese and four thick slices make a sensible breakfast for four, and 4 to 5 minutes in butter is enough to burst the grapes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Picking grapes and thyme, chopping walnuts and spreading toast fits 12 minutes, and 3 plus 5 minutes in the pan matches the 8 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the thyme and black pepper, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm, jammy grapes are the centre of a cosy late-November breakfast."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and written in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Toast with cheese, walnuts and fruit gives protein, fat and fruit, a proper breakfast a family would happily eat again."
+  }
+ }
+}

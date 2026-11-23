@@ -18,19 +18,19 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Warm chicken, broad bean and asparagus salad",
+  "title": "Chicken salad with broad beans and asparagus",
   "meal": "lunch",
   "dish_form": "warm salad",
   "diet": "meat",
   "gluten_free": true,
-  "kit": "hob_and_oven",
+  "kit": "hob",
   "utensils": [
-   "a roasting tray",
+   "a frying pan",
    "a saucepan",
    "a small bowl"
   ],
   "prep_minutes": 18,
-  "cook_minutes": 40,
+  "cook_minutes": 12,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
@@ -52,20 +52,15 @@
     "name": "lemon"
    },
    {
-    "id": "mint",
-    "name": "mint"
+    "id": "tarragon",
+    "name": "tarragon"
    }
   ],
   "ingredients": [
    {
-    "id": "chicken-drumsticks",
-    "quantity": "8",
-    "name": "chicken drumsticks"
-   },
-   {
-    "id": "new-potatoes",
-    "quantity": "500g",
-    "name": "new potatoes"
+    "id": "chicken-breast",
+    "quantity": "3",
+    "name": "chicken breasts"
    },
    {
     "id": "olive-oil",
@@ -88,20 +83,29 @@
     "name": "Dijon mustard"
    },
    {
+    "id": "radishes",
+    "quantity": "150g",
+    "name": "radishes"
+   },
+   {
     "id": "watercress",
     "quantity": "100g",
     "name": "watercress"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Toss the drumsticks and halved potatoes on a tray with 1 tbsp oil, the paprika and salt. Roast for 40 minutes, until golden.",
-   "Meanwhile pod the beans. Boil with the asparagus, cut into short lengths, for 3 minutes, then drain.",
-   "Whisk the rest of the oil with the mustard, lemon juice and chopped mint. Season.",
-   "Toss the beans, asparagus, potatoes and watercress in the dressing and top with the chicken."
+   "Rub the halved chicken breasts with 1 tbsp oil, the paprika and salt. Fry for 4 to 5 minutes a side, until cooked through.",
+   "Pod the beans and boil with the trimmed asparagus for 3 minutes. Drain.",
+   "Whisk the remaining oil with the mustard, lemon juice and chopped tarragon. Season.",
+   "Toss with the sliced radishes, watercress and dressing. Top with the sliced chicken."
   ]
  },
- "attempts": 1,
- "rejections": [],
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 70 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

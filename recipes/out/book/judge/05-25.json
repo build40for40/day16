@@ -1,0 +1,43 @@
+{
+ "day": 145,
+ "title": "Jacket potatoes with feta and cucumber yoghurt",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain dairy staple: potatoes, cucumber, Greek yoghurt, feta, salad vegetables, herbs and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking tray, grater, bowl and knife, and the techniques are simple baking, grating and chopping."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four potatoes at 200°C for 70 minutes will be crisp and cooked, and 250g yoghurt with 200g feta and a whole cucumber is right for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is realistic for grating, chopping and slicing this salad and dip, and the 70-minute cook time matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Each name matches its id, every listed item, including the mint, lemon and pepper, is used, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A whole cucumber carries both the yoghurt dressing and the crunchy salad, which suits a fresh late-May lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Jacket potatoes with feta, yoghurt and a crisp salad make a filling, balanced family lunch."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 354,
+ "title": "Pork chop, artichoke and apple bake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or a plain cupboard staple such as crème fraîche and Dijon mustard."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pork chops, apples, kale, crème fraîche and seasonal Jerusalem artichokes are all sold at mainstream supermarkets at everyday prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a board and one roasting tray, and the technique is simple tray roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The artichokes get 50 minutes and the chops 30 minutes at 200°C, which will cook both through, and the quantities suit four."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The 50-minute cook time makes this a 65-minute dinner, well past the quick pace asked for."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming pork and apple tray bake suits 20 December, and the roasted artichokes are central to the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, clear British home-cook instructions with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pork chops with artichokes, kale, onions and apple make a balanced, satisfying family dinner."
+  }
+ }
+}

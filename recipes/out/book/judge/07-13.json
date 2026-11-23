@@ -1,0 +1,43 @@
+{
+ "day": 194,
+ "title": "Chard, olive and spring onion squares",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, oil, vinegar, olives, seeds and fresh garden veg are all ordinary home ingredients, with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is an everyday mainstream supermarket buy."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a baking dish and an oven, and the mix-and-bake method suits a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g self-raising flour with 350ml of liquid, raised with bicarb and vinegar, gives a spreadable batter that should bake through in a 20 x 30cm dish in 30 minutes and make enough squares for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Shredding chard, slicing spring onions, chopping olives and mixing fits in 15 minutes, and the 30-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, names match their ids, and only water is added unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A chard-studded savoury bake is a fitting July snack, and the chard is the main vegetable rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a savoury snack bake with plenty of greens, olives and seeds that a family would happily eat."
+  }
+ }
+}

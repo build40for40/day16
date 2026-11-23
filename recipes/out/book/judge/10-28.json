@@ -1,0 +1,43 @@
+{
+ "day": 301,
+ "title": "Kale and potato hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, onion, garlic, kale, eggs, cheddar, oil and spices are all plain home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large frying pan with a lid, a knife, a board and a grater, and uses simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g potatoes, 150g kale and four eggs make a sensible breakfast for four, and 15 minutes covered plus 10 uncovered will cook small cubes through and brown them."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers cubing the potatoes, slicing the onion and garlic, shredding the kale and grating the cheese, and the steps add up to about 30 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used and nothing unlisted appears, though step 2 should say 'smoked paprika' to match the list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm kale hash suits a cold late-October morning, and the kale is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, greens, eggs and cheese make a filling, balanced breakfast a family would happily repeat."
+  }
+ }
+}

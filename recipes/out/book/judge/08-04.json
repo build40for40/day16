@@ -1,0 +1,43 @@
+{
+ "day": 216,
+ "title": "Fig and pumpkin seed flapjacks",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, oil, golden syrup, brown sugar, pumpkin seeds and fresh figs are all plain home staples with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Fresh figs, pumpkin seeds and the rest are sold at Tesco in August at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan, a square baking dish and baking paper, using simple melt-stir-press technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The oats, fat and syrup are in workable flapjack proportions for a 20cm dish, with a sensible 25 minute bake at 180°C that gives 12 bars."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "15 minutes covers melting, chopping six figs and pressing, and the 55 cook minutes match the 25 minute bake plus 30 minutes cooling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh figs are mixed through and laid on top of an early August bake, so they are clearly the point of it."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British home-cook instructions with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oat, seed and fresh fig bars make a sensible, filling family snack rather than mostly sugar."
+  }
+ }
+}

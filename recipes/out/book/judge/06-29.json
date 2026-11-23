@@ -1,0 +1,43 @@
+{
+ "day": 180,
+ "title": "Asparagus, ricotta and fried egg on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Asparagus, ricotta, eggs, butter, bread, lemon and chives are all plain whole foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a Tesco staple, and British asparagus is an everyday buy in June rather than a specialist item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a bowl and a toaster, and frying asparagus and eggs is well within a beginner's skills."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four (100g asparagus, an egg and a slice each), and the asparagus timing and the ricotta seasoning are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes in total is believable for snapping the asparagus, mixing the ricotta, frying the asparagus and four eggs, and toasting the bread."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the lemon for zest and juice, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A light asparagus breakfast suits late June, the tail end of the British asparagus season, and the asparagus is clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Egg, ricotta and a good pile of vegetables on toast is a proper breakfast a family would want again."
+  }
+ }
+}

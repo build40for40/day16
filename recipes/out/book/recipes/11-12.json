@@ -18,34 +18,34 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Pasta shells with pumpkin, turnip and ricotta",
+  "title": "Golden turnip and pumpkin penne",
   "meal": "lunch",
   "dish_form": "pasta",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "hob",
   "utensils": [
-   "a wide pan with a lid",
+   "a wide frying pan",
    "a large saucepan",
-   "a sieve"
+   "a grater"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 20,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
   "seasoning": [
    {
-    "id": "thyme",
-    "name": "thyme"
-   },
-   {
-    "id": "chilli-flakes",
-    "name": "chilli flakes"
+    "id": "rosemary",
+    "name": "rosemary"
    },
    {
     "id": "lemons",
     "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
    },
    {
     "id": "salt",
@@ -58,52 +58,52 @@
   ],
   "ingredients": [
    {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "turnips",
+    "quantity": "600g",
+    "name": "turnips"
+   },
+   {
+    "id": "pumpkin",
+    "quantity": "250g",
+    "name": "pumpkin"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "wholemeal penne"
+   },
+   {
     "id": "garlic",
     "quantity": "2 cloves",
     "name": "garlic"
    },
    {
-    "id": "olive-oil",
-    "quantity": "2 tbsp",
-    "name": "olive oil"
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
    },
    {
-    "id": "pumpkin",
-    "quantity": "600g",
-    "name": "pumpkin"
-   },
-   {
-    "id": "turnips",
-    "quantity": "3",
-    "name": "turnips"
-   },
-   {
-    "id": "vegetable-stock",
-    "quantity": "300ml",
-    "name": "vegetable stock"
-   },
-   {
-    "id": "dried-pasta",
-    "quantity": "350g",
-    "name": "wholemeal shells"
-   },
-   {
-    "id": "ricotta",
-    "quantity": "200g",
-    "name": "ricotta"
+    "id": "vegetarian-hard-cheese",
+    "quantity": "50g",
+    "name": "veggie hard cheese"
    }
   ],
   "steps": [
-   "Fry the sliced garlic, thyme and a pinch of chilli in the oil in a wide pan for 1 minute. Add the diced pumpkin and turnips.",
-   "Add the stock, cover and simmer for 12 to 15 minutes until soft, then crush half the pumpkin.",
-   "Meanwhile boil the pasta. Drain, keeping a mug of the water.",
-   "Stir in the pasta, ricotta, lemon zest and a splash of pasta water. Season well."
+   "Fry the diced turnips and pumpkin in the oil in a wide pan for 12 to 15 minutes, turning, until golden and tender.",
+   "Meanwhile boil the penne. Drain, keeping a mug of the water.",
+   "Add the sliced garlic and chopped rosemary to the veg for 1 minute.",
+   "Toss in the pasta, butter, grated cheese, lemon zest and a splash of pasta water. Season and scatter with chopped parsley."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The ingredients and seasoning run 1 lines past the bottom of the page. The column is about 22 characters wide, so shorten the lines that wrap or use fewer."
+   "Parsley belongs in the seasoning list, with any amount given in the method."
   ]
  ],
  "failures": [],

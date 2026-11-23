@@ -1,0 +1,43 @@
+{
+ "day": 232,
+ "title": "Fennel and courgette fritters with toasted seeds",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or basic dairy, with nothing factory-made from a jar or packet."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Fennel, courgettes, feta, Greek yoghurt, pumpkin seeds and salad leaves are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, grater, tea towel and bowl, and grating, squeezing and shallow-frying spoonfuls are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A large fennel and two courgettes, squeezed dry and bound with three eggs and 100g flour, make enough fritters for four, and the salty feta and lemony dill yoghurt keep them from being bland."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is believable for grating, squeezing, slicing and chopping, and fifteen minutes covers toasting the seeds and two batches at 3 minutes a side."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, including salt via 'Season', and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fennel fritters with courgette and dill suit a late-August lunch, and the fennel leads the dish rather than garnishing it."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow without any restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Vegetable fritters with eggs, feta, yoghurt, seeds and leaves make a satisfying, balanced lunch a family would eat again."
+  }
+ }
+}

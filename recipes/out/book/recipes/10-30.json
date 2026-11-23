@@ -17,19 +17,18 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Beef patties with wedges and lettuce salad",
+  "title": "Beef patties with braised Little Gem and peas",
   "meal": "dinner",
   "dish_form": "patties",
   "diet": "meat",
   "gluten_free": true,
-  "kit": "one_tray",
+  "kit": "one_pot",
   "utensils": [
-   "a roasting tray",
-   "a grater",
-   "a large bowl"
+   "a large lidded frying pan",
+   "a mixing bowl"
   ],
-  "prep_minutes": 25,
-  "cook_minutes": 45,
+  "prep_minutes": 20,
+  "cook_minutes": 20,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -43,65 +42,71 @@
     "name": "black pepper"
    },
    {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
-   },
-   {
     "id": "thyme",
     "name": "thyme"
    },
    {
-    "id": "chives",
-    "name": "chives"
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
    }
   ],
   "ingredients": [
-   {
-    "id": "potatoes",
-    "quantity": "1kg",
-    "name": "potatoes"
-   },
-   {
-    "id": "rapeseed-oil",
-    "quantity": "2 tbsp",
-    "name": "rapeseed oil"
-   },
-   {
-    "id": "red-onions",
-    "quantity": "1",
-    "name": "red onion"
-   },
    {
     "id": "beef-mince",
     "quantity": "500g",
     "name": "beef mince"
    },
    {
-    "id": "natural-yoghurt",
-    "quantity": "150g",
-    "name": "natural yoghurt"
+    "id": "spring-onions",
+    "quantity": "1 bunch",
+    "name": "spring onions"
    },
    {
-    "id": "wholegrain-mustard",
-    "quantity": "1 tsp",
-    "name": "wholegrain mustard"
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
    },
    {
     "id": "lettuce",
-    "quantity": "2",
-    "name": "lettuces"
+    "quantity": "4",
+    "name": "Little Gem lettuces"
    },
    {
-    "id": "carrots",
-    "quantity": "2",
-    "name": "carrots"
+    "id": "butter-beans",
+    "quantity": "1 tin",
+    "name": "butter beans"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "200g",
+    "name": "frozen peas"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "300ml",
+    "name": "chicken stock"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "3 tbsp",
+    "name": "crème fraîche"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Toss the potato wedges with the oil, paprika and salt on a tray. Roast for 20 minutes.",
-   "Mix the mince with half the finely chopped onion, the thyme leaves and pepper. Shape into 8 patties.",
-   "Add them to the tray and roast for 20 to 25 minutes, until browned and cooked through.",
-   "Stir the yoghurt with the mustard and snipped chives. Toss with the torn lettuce, grated carrot and the rest of the onion."
+   "Mix the mince with half the sliced spring onions, the thyme leaves and seasoning. Shape into 8 patties.",
+   "Brown in the oil in a wide pan, 3 minutes a side, then lift out.",
+   "Add the butter and halved lettuces, cut side down, for 3 minutes until golden.",
+   "Add the drained beans, peas, stock and remaining spring onions. Sit the patties on top, cover and simmer for 10 minutes.",
+   "Finish with crème fraîche, lemon zest and torn mint."
   ]
  },
  "attempts": 1,

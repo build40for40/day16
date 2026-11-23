@@ -1,0 +1,43 @@
+{
+ "day": 302,
+ "title": "Pumpkin and feta fritters with lamb chops",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain staple (pumpkin, feta, eggs, cornflour, lamb chops, Greek yoghurt), with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is stocked at Tesco, and although eight lamb chops is a bit pricier than mince, it is still an everyday purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a bowl and a frying pan, and shallow-frying fritters and chops is well within a confident beginner's skills."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g grated pumpkin bound with 2 eggs and 4 tbsp cornflour makes a sensible fritter batch for four, and with two chops each and the stated frying times it should all come out cooked and golden."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and grating the pumpkin plus batch-frying the fritters and chops in one pan fits roughly within the 45 minutes printed, which suits a standard pace."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the cumin, mint, lemon and salad leaves, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Pumpkin fritters are the centre of the plate in late October, the week of Halloween, with the lamb as a partner rather than overshadowing them."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, brief British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Vegetable fritters, lamb, a yoghurt sauce and leaves make a proper, appealing meal of real food."
+  }
+ }
+}

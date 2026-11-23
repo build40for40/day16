@@ -1,0 +1,43 @@
+{
+ "day": 128,
+ "title": "Crispy cumin beef on a big leafy salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every item is a plain whole food or a basic staple such as tinned chickpeas, Greek yoghurt and crusty bread."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Beef mince, chickpeas, salad leaves, radishes and yoghurt are everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a knife, a board and a bowl, and the technique is simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g mince stretched with a tin of chickpeas, 250g leaves, yoghurt and bread makes a sensible warm salad for four, with clear heat and timings."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing one onion and the radishes, crushing garlic and chopping mint fits within 20 minutes, and the 15-minute cook matches the 10 plus 5 minutes of frying."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the mint and cumin, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A big bowl of leaves and radishes under warm beef suits an early May evening, and the leaves form the bulk of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced family dinner of beef, pulses, fresh leaves and yoghurt with bread."
+  }
+ }
+}

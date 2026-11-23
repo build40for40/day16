@@ -1,43 +1,43 @@
 {
  "day": 87,
- "title": "Parsnip and lentil bake with crispy crumbs",
+ "title": "Lentil and kale bake with parsnip crumble",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a plain whole food or cupboard staple, such as lentils, tinned tomatoes, stock and breadcrumbs."
+   "reason": "Everything is a whole food or a plain cupboard staple such as tinned tomatoes, stock and breadcrumbs, with no jars, packet mixes or substitutes."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient, puy lentils included, is an everyday item at Tesco."
+   "reason": "Every ingredient is an everyday item that Tesco sells at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a baking dish, foil and an oven, with simple roasting and baking."
+   "reason": "It needs only an ovenproof casserole and a grater, and the techniques are simple softening, simmering and scattering."
   },
   "works": {
    "pass": true,
-   "reason": "600ml stock plus a tin of tomatoes suits 200g puy lentils baked covered for 40 minutes, and the quantities are sensible for four."
+   "reason": "250g red lentils in 700ml stock plus a tin of tomatoes simmers to a thick base, and 500g of grated parsnip with crumbs and oil will crisp in 20 to 25 minutes at 200°C, a sound amount for four."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The page was asked to be quick, but the steps add up to 75 minutes of cooking (20 + 40 + 15), so dinner takes an hour and a half, which a weeknight reader expecting a quick meal would not get."
+   "pass": true,
+   "reason": "Chopping the onion, garlic and kale and grating the parsnips during the simmer fits roughly 15 active minutes, and the steps add up to the 40 minutes of cook time printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and the names match their ids."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming root-and-lentil bake suits late March, and the roasted parsnips are the centre of the dish."
+   "reason": "A warm baked dish suits late March, and 500g of grated parsnip forms the whole crumble topping, the biggest single ingredient, rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English a beginner could follow."
+   "reason": "The steps are clear and plain British English that a beginner could follow, with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Parsnips, lentils, tomatoes and kale make a filling, wholesome family dinner."
+   "reason": "It is a filling dinner of lentils, kale, tomatoes and parsnips that a family would happily eat again."
   }
  }
 }

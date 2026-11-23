@@ -17,7 +17,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Strawberry and orange compote with yoghurt",
+  "title": "Warm strawberry and orange compote with yoghurt",
   "meal": "breakfast",
   "dish_form": "fruit compote with yoghurt",
   "diet": "vegetarian",
@@ -25,11 +25,10 @@
   "kit": "hob",
   "utensils": [
    "a small pan",
-   "a frying pan",
-   "a grater"
+   "a frying pan"
   ],
-  "prep_minutes": 10,
-  "cook_minutes": 10,
+  "prep_minutes": 15,
+  "cook_minutes": 8,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -46,7 +45,7 @@
   "ingredients": [
    {
     "id": "strawberries",
-    "quantity": "400g",
+    "quantity": "500g",
     "name": "strawberries"
    },
    {
@@ -60,14 +59,24 @@
     "name": "honey"
    },
    {
+    "id": "vanilla-extract",
+    "quantity": "1/2 tsp",
+    "name": "vanilla extract"
+   },
+   {
     "id": "almonds",
     "quantity": "50g",
-    "name": "flaked almonds"
+    "name": "almonds"
    },
    {
     "id": "pumpkin-seeds",
-    "quantity": "50g",
+    "quantity": "30g",
     "name": "pumpkin seeds"
+   },
+   {
+    "id": "sunflower-seeds",
+    "quantity": "30g",
+    "name": "sunflower seeds"
    },
    {
     "id": "greek-yoghurt",
@@ -76,10 +85,10 @@
    }
   ],
   "steps": [
-   "Put the hulled, halved strawberries in a small pan with the orange zest and juice, the honey and a splash of water.",
-   "Simmer gently for 8 to 10 minutes, until the berries soften and the juice turns syrupy.",
-   "Toast the almonds and seeds in a dry pan with a pinch of cinnamon until golden.",
-   "Spoon the yoghurt into bowls. Top with the warm compote, the seeds and torn mint."
+   "Hull and halve the strawberries. Simmer half with the orange zest and juice, honey and vanilla for 5 minutes, until jammy.",
+   "Stir in the rest of the strawberries and take off the heat.",
+   "Toast the chopped almonds and seeds in a dry pan with a pinch of cinnamon for 3 minutes, until golden.",
+   "Spoon the yoghurt into bowls. Top with the warm compote, the crunchy seeds and torn mint."
   ]
  },
  "attempts": 1,

@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Leek and potato hash with eggs",
+  "title": "Leek, mushroom and butter bean hash with eggs",
   "meal": "breakfast",
   "dish_form": "breakfast hash",
   "diet": "vegetarian",
@@ -27,8 +27,8 @@
    "a large frying pan with a lid",
    "a grater"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 25,
+  "prep_minutes": 10,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -52,18 +52,13 @@
   ],
   "ingredients": [
    {
-    "id": "potatoes",
-    "quantity": "800g",
-    "name": "potatoes"
-   },
-   {
     "id": "rapeseed-oil",
-    "quantity": "2 tbsp",
+    "quantity": "1 tbsp",
     "name": "rapeseed oil"
    },
    {
     "id": "butter",
-    "quantity": "25g",
+    "quantity": "15g",
     "name": "butter"
    },
    {
@@ -72,20 +67,35 @@
     "name": "leeks"
    },
    {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   },
+   {
     "id": "eggs",
     "quantity": "4",
     "name": "eggs"
    },
    {
     "id": "cheddar",
-    "quantity": "50g",
+    "quantity": "40g",
     "name": "cheddar"
    }
   ],
   "steps": [
-   "Cut the potatoes into 1cm cubes. Fry in the oil in a large frying pan, covered, for 15 minutes, stirring now and then.",
-   "Add the butter, sliced leeks, thyme leaves and a pinch of paprika. Fry uncovered for 8 minutes, until the leeks are soft and the potatoes golden. Season.",
-   "Make four hollows, crack in the eggs and scatter over the grated cheddar. Cover for 4 to 5 minutes, until the whites are set."
+   "Warm the oil and butter in a large frying pan. Fry the sliced leeks and mushrooms with the thyme leaves and a pinch of salt for 8 minutes, until soft and golden.",
+   "Stir in the drained beans, shredded kale and a pinch of paprika. Fry for 3 minutes, pressing some beans flat so they crisp. Season.",
+   "Make four hollows and crack in the eggs. Cover and cook for 4 minutes, until the whites are set. Grate over the cheddar to serve."
   ]
  },
  "attempts": 1,

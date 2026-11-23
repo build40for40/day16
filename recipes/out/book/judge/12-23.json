@@ -1,0 +1,43 @@
+{
+ "day": 357,
+ "title": "Cod pie with carrot and potato mash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is plain home food: potatoes, carrots, leeks, cod, milk, butter, cornflour, cheddar and frozen peas."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "All items are standard Tesco lines, and 600g cod fillet for four is a normal family purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only two pans, a masher, a whisk and a baking dish, with simple boiling, softening and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Quantities suit four, 3 tbsp cornflour will thicken 500ml milk enough to hold the cod's juices, and the raw cod chunks will cook through in 30 minutes at 200°C."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Thirty minutes of active work covers peeling and chopping, mashing, the 10-minute leek soften and the sauce, and the 45 minutes of cook time matches 15 minutes boiling plus 30 baking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming fish pie suits 23 December, and the 500g of carrots runs through both the mash and the filling, as the title promises."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner of fish, vegetables and potato with modest butter and cheese."
+  }
+ }
+}

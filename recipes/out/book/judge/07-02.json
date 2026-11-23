@@ -1,0 +1,43 @@
+{
+ "day": 183,
+ "title": "Seed crackers with celery and ricotta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Ground almonds, seeds, egg, ricotta, celery, chives and lemon are all plain whole foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard Tesco line at an everyday price, and 100g ground almonds and 100g seeds are not a treat purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a lined tray and an oven, and pressing out a seed dough is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "One egg binding 100g ground almonds and the seeds makes a workable sticky dough that crisps at 160°C fan in 20 to 25 minutes, and 250g ricotta with four celery sticks is a sensible snack for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Mixing, pressing out, chopping celery and chives and zesting a lemon fit in 20 minutes, and the 25-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, pepper is covered by 'Season', and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Four sticks of celery and their leaves make up much of the fresh, cool topping, which suits a July afternoon snack."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Nuts, seeds, egg, ricotta and celery make a satisfying, protein-rich snack of real food."
+  }
+ }
+}

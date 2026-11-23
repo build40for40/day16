@@ -1,43 +1,43 @@
 {
  "day": 94,
- "title": "Jacket potatoes with pulled pork and apple salad",
+ "title": "Salad leaf bowls with crispy pork and apple",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Pork, potatoes, yoghurt, cider vinegar, sugar and fresh produce are all ordinary home ingredients, with nothing factory-made."
+   "reason": "Everything is whole food or a basic condiment such as cider vinegar and wholegrain mustard."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every item, including boneless pork shoulder, is an everyday Tesco purchase at a normal price."
+   "reason": "Pork shoulder, new potatoes, salad leaves, apples and radishes are everyday Tesco items."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only an oven, a roasting tray, foil, forks and a bowl, and slow-roasting and shredding are beginner-friendly."
+   "reason": "It needs only a roasting tray, a knife and bowls, and the technique is simple roasting and tossing."
   },
   "works": {
-   "pass": true,
-   "reason": "Covered pork at 150°C fan for 3 hours will shred, the potatoes will bake through in 1½ hours, and 800g pork with four potatoes suits four, though the leaves go undressed."
+   "pass": false,
+   "reason": "Step 4 tosses 250g of delicate salad leaves straight into a tray just out of a 220°C oven with hot oily juices, so the hero leaves will collapse into a soggy wilted mass. They should be dressed in the bowls, or the tray left to cool first."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes covers rubbing the pork, oiling the potatoes, shredding and slicing, and 180 minutes matches the 3-hour roast."
+   "reason": "Twenty minutes is fair for halving the potatoes, cutting the pork and slicing the apples and radishes, and 20 plus 25 minutes of roasting matches the 45 printed."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and only water is added."
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
   },
   "seasonal_feel": {
-   "pass": false,
-   "reason": "The salad leaves are only tossed together 'to serve' beside a slow-roast pulled pork jacket potato, so the hero is a side garnish rather than the point of the dish."
+   "pass": true,
+   "reason": "A warm salad of spring leaves, radishes, new potatoes and stored apples suits early April, and the leaves are given in a generous quantity."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+   "reason": "The steps are short, plain British English that a neighbour could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Pork, jacket potatoes, yoghurt and a fresh apple and radish salad make a proper, appealing family meal."
+   "reason": "Pork, potatoes, leaves, apple and radish make a balanced, filling lunch a family would happily eat again."
   }
  }
 }

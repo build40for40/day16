@@ -1,0 +1,43 @@
+{
+ "day": 206,
+ "title": "Cinnamon eggy bread with blueberries",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Eggs, milk, wholemeal bread, butter, honey, Greek yoghurt, cinnamon and lemon are all ordinary home kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday supermarket item, and blueberries are good value in late July."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a small pan, a dish and a whisk, and soaking and frying bread is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four eggs and 150ml milk is enough to soak 8 slices for four people, and 2 minutes a side over a medium heat gives golden eggy bread with a quick blueberry compote."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Frying 8 slices in batches at 2 minutes a side fits within the 20 active minutes, and the 5 cook minutes match the berries simmering for 3 to 4 minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon zest and cinnamon, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A generous 300g of warm July blueberries is the star topping, and it is a light summer breakfast that suits the date."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, wholemeal bread, Greek yoghurt and fruit with only a tablespoon of honey make a filling, balanced family breakfast."
+  }
+ }
+}

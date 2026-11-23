@@ -1,0 +1,43 @@
+{
+ "day": 358,
+ "title": "Goat's cheese toasts with clementines and walnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Goat's cheese, bread, walnuts, honey, oil, thyme and clementines are all ordinary home foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Soft goat's cheese, walnuts and clementines are all everyday Tesco items, especially at Christmas."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, grater and bowl, and the techniques are simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four slices halved with 150g cheese and four clementines makes a sensible snack for four, and the zest comes off before the peeling, as it should."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers zesting, beating the cheese and peeling and slicing four clementines, and 2 minutes a side matches the 5 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Clementines on Christmas Eve suit the date, and with four of them plus the zest they are the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with cheese, fruit and nuts is a proper, appealing snack and not mostly sugar."
+  }
+ }
+}

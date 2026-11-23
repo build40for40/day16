@@ -1,0 +1,43 @@
+{
+ "day": 312,
+ "title": "Cheese and bacon scones with grape compote",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is plain home-kitchen fare: flour, butter, cheddar, bacon, yoghurt, milk, grapes, honey, cinnamon and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, bowl, baking tray and small pan, and rubbing in and patting out scone dough is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The flour-to-yoghurt-and-milk ratio gives a workable scone dough, 220°C for 15 to 18 minutes suits a scone round, and 400g of grapes plus yoghurt and eight scones feeds four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five active minutes covers frying the bacon, rubbing in, shaping, halving the grapes and minding the compote while the scones bake for the stated 18 minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "The 400g of grapes are a full component of the plate rather than a garnish, and warm scones with a hot compote suit a November morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Scones with cheese and bacon, plus fruit and Greek yoghurt, make a proper filling breakfast with protein and fruit."
+  }
+ }
+}

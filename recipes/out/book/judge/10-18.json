@@ -1,0 +1,43 @@
+{
+ "day": 291,
+ "title": "Turnip, fennel and barley pot with white beans",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple such as vegetable stock, tinned cannellini beans and pearl barley."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Turnips, fennel, kale, barley and tinned beans are all everyday supermarket items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large lidded pan, a knife and a board, and the technique is simple softening and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The amounts suit four for lunch: 150g barley, 500g turnips and a tin of beans in 1.2l stock, simmered covered for 35 minutes, gives tender barley in a brothy pot."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers the chopping, the peeling and cubing of 500g turnips and the 10-minute softening, and the 40 minutes of cooking matches the 35 plus 5 minutes in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears apart from water, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming barley and turnip pot suits mid-October, and the turnips are the main vegetable rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Barley, beans, turnips and kale make a filling, balanced vegan lunch a family would happily eat again."
+  }
+ }
+}

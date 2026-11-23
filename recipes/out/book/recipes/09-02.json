@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Pear and cinnamon flapjacks",
+  "title": "Pear and pumpkin seed flapjacks",
   "meal": "snack",
   "dish_form": "flapjack",
   "diet": "vegetarian",
@@ -38,10 +38,6 @@
     "name": "cinnamon"
    },
    {
-    "id": "ground-ginger",
-    "name": "ground ginger"
-   },
-   {
     "id": "salt",
     "name": "salt"
    }
@@ -54,12 +50,12 @@
    },
    {
     "id": "golden-syrup",
-    "quantity": "3 tbsp",
+    "quantity": "4 tbsp",
     "name": "golden syrup"
    },
    {
     "id": "brown-sugar",
-    "quantity": "50g",
+    "quantity": "75g",
     "name": "soft brown sugar"
    },
    {
@@ -73,17 +69,21 @@
     "name": "pumpkin seeds"
    },
    {
+    "id": "eggs",
+    "quantity": "1",
+    "name": "egg"
+   },
+   {
     "id": "pears",
     "quantity": "2",
     "name": "ripe pears"
    }
   ],
   "steps": [
-   "Heat the oven to 180°C (160°C fan). Butter a 20cm square tin.",
-   "Melt the butter, syrup and sugar in a saucepan. Stir in the oats, seeds, 1 tsp cinnamon, ½ tsp ginger and a pinch of salt.",
-   "Core and dice the pears, skins on, and fold them through.",
-   "Press firmly into the tin. Bake for 25 to 30 minutes, until golden at the edges.",
-   "Cool in the tin, then cut into 12 squares."
+   "Heat the oven to 180°C (160°C fan). Line a 20cm square tin.",
+   "Melt the butter, syrup and sugar in a saucepan. Off the heat, stir in the oats, seeds, beaten egg, 1 tsp cinnamon and a pinch of salt.",
+   "Press firmly into the tin. Core and thinly slice the pears, lay them over the top and press them in.",
+   "Bake for 30 minutes, until golden. Cool completely in the tin, then cut into 12 bars."
   ]
  },
  "attempts": 1,

@@ -17,16 +17,15 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Quick pickled cherry tomatoes on goat's cheese toast",
+  "title": "Pickled cherry tomatoes with goat's cheese and bread",
   "meal": "snack",
-  "dish_form": "quick pickle on toast",
+  "dish_form": "quick pickle",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "hob",
+  "kit": "no_cook",
   "utensils": [
-   "a small pan",
-   "a frying pan",
-   "a bowl"
+   "a knife and board",
+   "a large bowl"
   ],
   "prep_minutes": 15,
   "cook_minutes": 15,
@@ -49,24 +48,24 @@
   ],
   "ingredients": [
    {
-    "id": "white-wine-vinegar",
-    "quantity": "100ml",
-    "name": "white wine vinegar"
+    "id": "cider-vinegar",
+    "quantity": "75ml",
+    "name": "cider vinegar"
    },
    {
     "id": "caster-sugar",
-    "quantity": "1 tbsp",
+    "quantity": "1 tsp",
     "name": "caster sugar"
    },
    {
     "id": "cherry-tomatoes",
-    "quantity": "400g",
+    "quantity": "300g",
     "name": "cherry tomatoes"
    },
    {
-    "id": "radishes",
-    "quantity": "6",
-    "name": "radishes"
+    "id": "cucumber",
+    "quantity": "1/2",
+    "name": "cucumber"
    },
    {
     "id": "red-onions",
@@ -74,26 +73,26 @@
     "name": "red onion"
    },
    {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
     "id": "bread",
-    "quantity": "8 slices",
-    "name": "wholemeal bread"
+    "quantity": "1 small",
+    "name": "crusty loaf"
    },
    {
     "id": "goats-cheese",
     "quantity": "150g",
     "name": "soft goat's cheese"
-   },
-   {
-    "id": "olive-oil",
-    "quantity": "1 tbsp",
-    "name": "olive oil"
    }
   ],
   "steps": [
-   "Warm the vinegar, sugar, 1 tsp salt and 50ml water in a small pan until dissolved.",
-   "Halve the tomatoes, thinly slice the radishes and onion, and tip into a bowl with the chopped dill. Pour over the warm vinegar and leave for 15 minutes.",
-   "Toast the bread in a dry frying pan and spread with the goat's cheese.",
-   "Spoon the drained pickle over the toasts, then finish with a drizzle of oil and some pepper."
+   "Stir the vinegar, sugar, 1 tsp salt and 2 tbsp cold water in a large bowl until dissolved.",
+   "Halve the tomatoes, thinly slice the cucumber and onion, and add to the bowl with the chopped dill. Toss and leave for 15 minutes.",
+   "Drain off most of the liquid, stir in the oil and season with pepper.",
+   "Slice the bread, spread with the goat's cheese and spoon the tomatoes on top."
   ]
  },
  "attempts": 1,

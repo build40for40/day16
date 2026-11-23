@@ -17,18 +17,19 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Orange glazed bacon and potato hash",
+  "title": "Warm orange and bacon breakfast salad",
   "meal": "breakfast",
-  "dish_form": "hash",
+  "dish_form": "warm salad",
   "diet": "meat",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "a large frying pan with a lid",
-   "a small pan"
+   "a saucepan",
+   "a large frying pan",
+   "a small bowl"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 20,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -45,23 +46,8 @@
   "ingredients": [
    {
     "id": "potatoes",
-    "quantity": "600g",
+    "quantity": "500g",
     "name": "potatoes"
-   },
-   {
-    "id": "olive-oil",
-    "quantity": "2 tbsp",
-    "name": "olive oil"
-   },
-   {
-    "id": "bacon",
-    "quantity": "8",
-    "name": "rashers bacon"
-   },
-   {
-    "id": "spring-onions",
-    "quantity": "4",
-    "name": "spring onions"
    },
    {
     "id": "eggs",
@@ -69,26 +55,41 @@
     "name": "eggs"
    },
    {
+    "id": "bacon",
+    "quantity": "8",
+    "name": "rashers bacon"
+   },
+   {
     "id": "oranges",
-    "quantity": "3",
+    "quantity": "4",
     "name": "oranges"
    },
    {
-    "id": "honey",
-    "quantity": "1 tbsp",
-    "name": "honey"
+    "id": "dijon-mustard",
+    "quantity": "1 tsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
    },
    {
     "id": "watercress",
-    "quantity": "80g",
+    "quantity": "100g",
     "name": "watercress"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "3",
+    "name": "spring onions"
    }
   ],
   "steps": [
-   "Fry the potatoes, cut into small cubes, in the oil in a large lidded pan for 15 minutes, turning often, until golden.",
-   "Push them aside, crisp the bacon in the space, then stir in the sliced spring onions. Season.",
-   "Make four gaps, crack in the eggs, cover and cook for 3 to 4 minutes.",
-   "Bubble the juice of 1 orange with the honey until syrupy and spoon over the bacon. Serve with the watercress and the other oranges, peeled and sliced."
+   "Boil the cubed potatoes in salted water for 10 minutes, adding the eggs for the last 7. Cool the eggs in cold water.",
+   "Crisp the bacon in a frying pan. Lift out and fry the drained potatoes in the fat until golden.",
+   "Peel 3 oranges and slice into rounds. Whisk the juice of the fourth with the mustard and oil.",
+   "Toss the watercress and sliced spring onions with the dressing. Top with the oranges, potatoes, torn bacon and halved eggs. Season."
   ]
  },
  "attempts": 1,

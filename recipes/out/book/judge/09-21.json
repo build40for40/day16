@@ -1,0 +1,43 @@
+{
+ "day": 264,
+ "title": "Baked oats with grapes and apple",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, eggs, milk, butter, honey, fruit, almonds and yoghurt are all plain home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including red grapes and flaked almonds, is an everyday Tesco purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, bowl, whisk, grater and oven, with simple mixing and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The ratio of 200g oats to 500ml milk and 2 eggs, baked 30 to 35 minutes at 190°C (170°C fan), gives a properly set dish for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers grating one apple, halving the grapes and whisking, and the 35 minutes cooking matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, flaked almonds and red grapes match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm fruit bake suits late September, and 300g of grapes scattered across the top makes them the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, eggs, milk, fruit and yoghurt make a filling breakfast with only modest added honey."
+  }
+ }
+}

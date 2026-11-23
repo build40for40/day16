@@ -1,0 +1,43 @@
+{
+ "day": 286,
+ "title": "Tahini porridge with sticky figs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, apple, walnuts, figs, demerara sugar, tahini and cinnamon are all plain whole foods with nothing factory-built."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including the figs and tahini, is stocked at Tesco, and six figs for four is not a treat-level spend."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan and a grater, with simple simmering and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to 1 litre water gives a thick porridge for four in about six minutes, and the figs caramelise quickly with the sugar."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers grating an apple, halving figs and toasting walnuts, and the eight minutes of cooking matches the steps, so it fits a quick breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm porridge suits a mid-October morning, and the sticky fried figs are the named centrepiece rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The short, clear steps are in plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, fruit, walnuts and tahini make a filling breakfast with only a tablespoon of sugar across four bowls."
+  }
+ }
+}

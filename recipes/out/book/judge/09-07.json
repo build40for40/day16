@@ -1,0 +1,43 @@
+{
+ "day": 250,
+ "title": "Warm blackberries on toast with kipper ricotta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Kippers, ricotta, blackberries, honey, bread and watercress are all plain whole foods a grandparent could have had in."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including kipper fillets, ricotta and watercress, is an everyday Tesco line at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a frying pan, a bowl and a toaster are needed, and the techniques are simple."
+  },
+  "works": {
+   "pass": false,
+   "reason": "Piling honey-sweetened, jammy blackberries straight onto smoked kipper ricotta is a jarring sweet and smoky-fish clash most families would not enjoy at breakfast, so it is unlikely to come out as a good dish."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to flake the kippers, zest the lemon, beat the ricotta and toast eight slices, and the eight minutes of cooking matches the 4-minute simmer plus 3 to 4 minutes for the berries."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early September is peak blackberry time, and the warm berries are the main topping rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with fish, ricotta, fruit and watercress makes a filling breakfast of real food, with only a spoon of honey added."
+  }
+ }
+}

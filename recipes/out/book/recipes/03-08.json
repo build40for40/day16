@@ -17,17 +17,19 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Kipper and spring onion hash with eggs",
+  "title": "Grilled kippers with spring onion butter",
   "meal": "breakfast",
   "dish_form": "savoury breakfast plate",
   "diet": "fish",
-  "gluten_free": true,
-  "kit": "one_pot",
+  "gluten_free": false,
+  "kit": "oven",
   "utensils": [
-   "one large lidded frying pan"
+   "a grill pan lined with foil",
+   "a small bowl",
+   "a toaster"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 25,
+  "prep_minutes": 10,
+  "cook_minutes": 5,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -47,19 +49,9 @@
   ],
   "ingredients": [
    {
-    "id": "potatoes",
-    "quantity": "600g",
-    "name": "potatoes"
-   },
-   {
-    "id": "rapeseed-oil",
-    "quantity": "2 tbsp",
-    "name": "rapeseed oil"
-   },
-   {
-    "id": "kippers",
-    "quantity": "4",
-    "name": "kipper fillets"
+    "id": "butter",
+    "quantity": "50g",
+    "name": "soft butter"
    },
    {
     "id": "spring-onions",
@@ -67,16 +59,26 @@
     "name": "spring onions"
    },
    {
-    "id": "eggs",
+    "id": "kippers",
     "quantity": "4",
-    "name": "eggs"
+    "name": "kipper fillets"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
    }
   ],
   "steps": [
-   "Fry the cubed potatoes in the oil in a large lidded frying pan, covered, for 15 minutes, turning now and then.",
-   "Lay the kippers on top, cover and cook for 5 minutes. Lift out and flake the flesh from the skin and bones.",
-   "Stir in the sliced spring onions for 2 minutes, then fold in the kipper and chopped parsley.",
-   "Make four hollows and crack in the eggs. Cover and cook for 4 minutes, until the whites set. Serve with pepper and lemon wedges."
+   "Heat the grill to high. Mash the butter with the finely sliced spring onions, chopped parsley, lemon zest and plenty of pepper.",
+   "Lay the kippers skin side down on the lined grill pan and dot with half the butter. Grill for 4 to 5 minutes, until sizzling.",
+   "Meanwhile, toast the bread and spread with the rest of the butter.",
+   "Serve the kippers on the toast with the pan juices, watercress and lemon wedges."
   ]
  },
  "attempts": 1,

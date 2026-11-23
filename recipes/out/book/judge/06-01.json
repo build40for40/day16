@@ -1,0 +1,43 @@
+{
+ "day": 152,
+ "title": "Bacon, chard and courgettes on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bacon, courgettes, chard, garlic, bread and ricotta are all plain whole foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including chard and ricotta, is an everyday item at a mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a frying pan and a toaster are needed, and the technique is simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six rashers, two courgettes, 300g chard and four ricotta toasts make a sensible lunch for four, and the salty bacon, lemon and chilli season it well."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes of chopping and about ten to fifteen minutes at the hob is believable for a quick lunch."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Chard is the bulk of the topping, and a warm greens-on-toast lunch suits early June."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Greens, courgettes, bacon and ricotta on toast make a balanced, appealing family lunch."
+  }
+ }
+}

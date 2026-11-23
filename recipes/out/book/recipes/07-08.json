@@ -18,19 +18,19 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Warm chicken, green bean and pepper salad",
+  "title": "Paprika chicken, green bean and chickpea salad",
   "meal": "lunch",
   "dish_form": "salad",
   "diet": "meat",
   "gluten_free": true,
-  "kit": "hob_and_oven",
+  "kit": "hob",
   "utensils": [
-   "a roasting tray",
+   "a large frying pan",
    "a saucepan",
    "a large bowl"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 40,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
@@ -50,19 +50,9 @@
   ],
   "ingredients": [
    {
-    "id": "chicken-drumsticks",
-    "quantity": "8",
-    "name": "chicken drumsticks"
-   },
-   {
-    "id": "new-potatoes",
+    "id": "chicken-thighs",
     "quantity": "500g",
-    "name": "new potatoes"
-   },
-   {
-    "id": "peppers",
-    "quantity": "2",
-    "name": "red peppers"
+    "name": "boneless chicken thighs"
    },
    {
     "id": "olive-oil",
@@ -73,6 +63,16 @@
     "id": "green-beans",
     "quantity": "300g",
     "name": "green beans"
+   },
+   {
+    "id": "peppers",
+    "quantity": "2",
+    "name": "red peppers"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
    },
    {
     "id": "dijon-mustard",
@@ -96,18 +96,14 @@
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Toss the drumsticks, halved potatoes and sliced peppers with 1 tbsp oil, 2 tsp paprika and salt.",
-   "Roast for 40 minutes, until the chicken is cooked through.",
-   "Boil the trimmed beans for 4 minutes, then cool under the cold tap.",
-   "Whisk the remaining oil, mustard, vinegar and thinly sliced onion. Toss with the beans, rocket and tray veg. Season and top with the chicken."
+   "Toss the chicken, cut into strips, with 2 tsp paprika, salt and 1 tbsp oil. Fry for 8 to 10 minutes, until cooked through. Lift out.",
+   "Boil the trimmed beans for 4 minutes, then cool in cold water.",
+   "Fry the sliced peppers in the chicken pan for 5 minutes, then warm the drained chickpeas through.",
+   "Whisk the remaining oil, mustard, vinegar and thinly sliced onion. Toss with everything and the rocket. Season."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 85 words and runs 3 lines past the bottom of the page. Cut about 18 words."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

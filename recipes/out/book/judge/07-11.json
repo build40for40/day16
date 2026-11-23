@@ -1,0 +1,43 @@
+{
+ "day": 192,
+ "title": "Whiting on toast with aubergine and runner beans",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain store-cupboard staple such as capers, olive oil and crusty bread, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Aubergines, runner beans, tomatoes, basil and whiting fillets are all everyday-priced items at a mainstream supermarket in July."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only two frying pans, a knife, a board and a toaster or grill, and pan-frying fish fillets is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two aubergines with four tomatoes, 200g runner beans and four fillets on four slices of toast is a sensible lunch for four, and the frying times would cook everything through without burning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Cubing aubergines, slicing beans and garlic and chopping tomatoes, plus tending the frying pans, fits within the 40 minutes printed in total for a standard pace."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon, basil and chilli flakes, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm aubergine, tomato and runner bean pile on toast suits a July lunch, and the aubergine makes up the bulk of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, brief British English that a neighbour could follow without any restaurant jargon."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper meal of fish, plenty of vegetables and bread that a family would happily eat again."
+  }
+ }
+}

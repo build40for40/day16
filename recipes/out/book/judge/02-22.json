@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Halloumi, celeriac, leeks, kale, oil and spices are all plain whole foods with nothing factory-made."
+   "reason": "Halloumi, rapeseed oil, celeriac, leeks, kale, thyme and smoked paprika are all plain whole foods or ordinary cupboard staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at Tesco, and halloumi at 225g is a normal-priced block."
+   "reason": "Every ingredient, including the halloumi and celeriac, is stocked at everyday prices in Tesco and similar shops."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a large frying pan, a knife and a board, and the technique is simple frying."
+   "reason": "It needs only a knife, board and a large frying pan, and the technique is simple frying."
   },
   "works": {
    "pass": true,
-   "reason": "A whole celeriac in 1cm cubes, fried for about 25 minutes with three leeks and kale, gives a sensible hash for four, and the salty halloumi carries the seasoning."
+   "reason": "A whole celeriac in 1cm cubes will crowd one pan and steam more than brown, but 15 plus 10 minutes still cooks it tender, and salty halloumi with paprika and thyme gives enough flavour for four."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty-five minutes covers peeling and cubing a celeriac, washing and slicing leeks and shredding kale, and the steps add up to roughly the 25 minutes of cooking printed."
+   "reason": "Peeling and cubing a celeriac and slicing three leeks fits in 25 minutes of prep, and the 25 minutes of cook time matches the frying steps, give or take frying the halloumi."
   },
   "honest_ingredients": {
-   "pass": false,
-   "reason": "The seasoning list gives smoked paprika, but step 3 says '1 tsp paprika', which is a different cupboard spice, so the reader may reach for the wrong jar."
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Three leeks are a main component of a warming February hash rather than a garnish, though the title leads with celeriac."
+   "reason": "A warm fried hash suits late February, and three leeks cooked until golden are a main component rather than a garnish, even though celeriac leads the title."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, plain British English that a beginner can follow."
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "A vegetable-heavy hash with halloumi for protein is a proper, filling breakfast a family would eat again."
+   "reason": "It is a filling plate of vegetables with halloumi for protein, which a family would happily eat for a weekend breakfast."
   }
  }
 }

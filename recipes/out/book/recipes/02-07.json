@@ -17,75 +17,74 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Almond ricotta pancakes with cinnamon apples",
+  "title": "Apple and Cheddar rösti with fried eggs",
   "meal": "breakfast",
-  "dish_form": "pancakes",
+  "dish_form": "rösti",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "a small pan",
-   "a large frying pan",
-   "a mixing bowl",
-   "a whisk"
+   "a grater",
+   "a clean tea towel",
+   "a bowl",
+   "a large frying pan"
   ],
   "prep_minutes": 25,
-  "cook_minutes": 5,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
   "seasoning": [
    {
-    "id": "cinnamon",
-    "name": "cinnamon"
+    "id": "thyme",
+    "name": "thyme"
    },
    {
     "id": "salt",
     "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
    }
   ],
   "ingredients": [
    {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
     "id": "apples",
-    "quantity": "3",
+    "quantity": "2",
     "name": "eating apples"
    },
    {
-    "id": "butter",
-    "quantity": "30g",
-    "name": "butter"
-   },
-   {
-    "id": "honey",
-    "quantity": "1 tbsp",
-    "name": "honey"
-   },
-   {
-    "id": "ricotta",
-    "quantity": "250g",
-    "name": "ricotta"
-   },
-   {
     "id": "eggs",
-    "quantity": "4",
+    "quantity": "5",
     "name": "eggs"
    },
    {
-    "id": "ground-almonds",
-    "quantity": "100g",
-    "name": "ground almonds"
+    "id": "cornflour",
+    "quantity": "2 tbsp",
+    "name": "cornflour"
    },
    {
-    "id": "greek-yoghurt",
-    "quantity": "200g",
-    "name": "Greek yoghurt"
+    "id": "cheddar",
+    "quantity": "75g",
+    "name": "Cheddar"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
    }
   ],
   "steps": [
-   "Cook the sliced apples in half the butter with the honey and a good pinch of cinnamon for 6 to 8 minutes, until soft and golden.",
-   "Whisk the ricotta, eggs, ground almonds and a pinch of salt into a thick batter.",
-   "Melt a little butter in the frying pan. Cook spoonfuls of batter for 2 minutes a side, until set and golden. Turn them gently.",
-   "Stack the pancakes, spoon over the apples and add a dollop of yoghurt."
+   "Coarsely grate the potatoes and apples, skins on. Squeeze hard in a tea towel to get rid of the water.",
+   "Mix with 1 egg, the cornflour, grated Cheddar, thyme leaves and a good pinch of salt and pepper.",
+   "Heat some oil in the pan over a medium heat. Press in flat cakes and fry in batches for 4 to 5 minutes a side, until deep golden.",
+   "Fry the other eggs in the pan and serve on the rösti."
   ]
  },
  "attempts": 1,

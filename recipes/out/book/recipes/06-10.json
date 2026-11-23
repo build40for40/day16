@@ -17,18 +17,18 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Trout dip with cherry tomatoes and crunchy veg",
+  "title": "Roast cherry tomato dip with trout",
   "meal": "snack",
   "dish_form": "dip with crudités",
   "diet": "fish",
   "gluten_free": true,
-  "kit": "hob",
+  "kit": "oven",
   "utensils": [
-   "a lidded frying pan",
-   "a mixing bowl"
+   "a roasting tray",
+   "a stick blender"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 20,
+  "cook_minutes": 30,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
@@ -42,12 +42,12 @@
     "name": "black pepper"
    },
    {
-    "id": "dill",
-    "name": "dill"
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
    },
    {
-    "id": "chives",
-    "name": "chives"
+    "id": "basil",
+    "name": "basil"
    },
    {
     "id": "lemons",
@@ -56,24 +56,29 @@
   ],
   "ingredients": [
    {
+    "id": "cherry-tomatoes",
+    "quantity": "500g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
     "id": "trout",
     "quantity": "2",
     "name": "trout fillets"
    },
    {
-    "id": "creme-fraiche",
-    "quantity": "150ml",
-    "name": "crème fraîche"
-   },
-   {
-    "id": "horseradish",
-    "quantity": "1 tbsp",
-    "name": "horseradish sauce"
-   },
-   {
-    "id": "cherry-tomatoes",
-    "quantity": "300g",
-    "name": "cherry tomatoes"
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
    },
    {
     "id": "cucumber",
@@ -92,10 +97,10 @@
    }
   ],
   "steps": [
-   "Lay the trout skin side down in the pan with 100ml water. Cover and simmer gently for 6 to 8 minutes, until it flakes. Leave to cool.",
-   "Peel off the skin and flake the trout into the crème fraîche with the horseradish, chopped dill and lemon zest and juice. Season.",
-   "Quarter the cherry tomatoes and toss with snipped chives and a pinch of salt. Spoon over the dip.",
-   "Cut the cucumber, radishes and carrots into sticks for dipping."
+   "Heat the oven to 200°C (180°C fan). Toss the tomatoes and unpeeled garlic on the tray with the oil, 1 tsp paprika and salt. Roast for 15 minutes.",
+   "Add the trout, skin down, and roast for 10 minutes, until the tomatoes burst. Cool for 5 minutes.",
+   "Squeeze the garlic from its skins. Blend with the tomatoes, yoghurt, basil and a squeeze of lemon. Season.",
+   "Flake the trout over the dip. Serve with the veg cut into sticks."
   ]
  },
  "attempts": 1,

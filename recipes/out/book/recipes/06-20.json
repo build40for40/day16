@@ -18,18 +18,17 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Pork chops with beetroot and fennel risotto",
+  "title": "Pork chops with fennel and pea rice",
   "meal": "dinner",
-  "dish_form": "risotto",
+  "dish_form": "rice pot",
   "diet": "meat",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "a wide lidded casserole",
-   "a grater"
+   "a wide lidded pan"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 30,
+  "cook_minutes": 20,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -51,8 +50,8 @@
     "name": "lemon"
    },
    {
-    "id": "dill",
-    "name": "dill"
+    "id": "parsley",
+    "name": "parsley"
    }
   ],
   "ingredients": [
@@ -72,41 +71,31 @@
     "name": "fennel bulbs"
    },
    {
-    "id": "onions",
-    "quantity": "1",
-    "name": "onion"
-   },
-   {
     "id": "garlic",
     "quantity": "2",
     "name": "garlic cloves"
    },
    {
-    "id": "risotto-rice",
+    "id": "long-grain-rice",
     "quantity": "300g",
-    "name": "risotto rice"
-   },
-   {
-    "id": "beetroot",
-    "quantity": "3",
-    "name": "raw beetroot"
+    "name": "basmati rice"
    },
    {
     "id": "chicken-stock",
-    "quantity": "1.2 litres",
+    "quantity": "750ml",
     "name": "chicken stock"
    },
    {
-    "id": "parmesan",
-    "quantity": "50g",
-    "name": "Parmesan"
+    "id": "frozen-peas",
+    "quantity": "150g",
+    "name": "frozen peas"
    }
   ],
   "steps": [
-   "Season the chops and brown in the oil in a wide casserole, 3 minutes a side. Lift out.",
-   "Soften the sliced fennel, onion and garlic for 5 minutes. Stir in the rice and 1 tsp fennel seeds.",
-   "Add the grated beetroot and stock. Sit the chops on top, cover and simmer for 20 to 25 minutes, stirring now and then, until the rice is tender.",
-   "Stir in the grated Parmesan and lemon zest. Season and scatter with dill."
+   "Season the chops and brown in the oil in a wide lidded pan, 3 minutes a side. Lift out.",
+   "Soften the sliced fennel, garlic and 1 tsp fennel seeds for 5 minutes. Add the rice and stock, cover and simmer for 10 minutes.",
+   "Stir in the peas, sit the chops on top, cover and cook for 8 to 10 minutes, until the pork is cooked through.",
+   "Finish with lemon zest and juice and chopped parsley."
   ]
  },
  "attempts": 1,

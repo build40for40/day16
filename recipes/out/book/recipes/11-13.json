@@ -18,7 +18,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Haddock and sprout pasta with watercress",
+  "title": "Watercress pasta with haddock and sprouts",
   "meal": "dinner",
   "dish_form": "pasta",
   "diet": "fish",
@@ -26,7 +26,7 @@
   "kit": "hob",
   "utensils": [
    "a large pan",
-   "a wide pan with a lid",
+   "a stick blender and jug",
    "a grater"
   ],
   "prep_minutes": 15,
@@ -60,14 +60,9 @@
     "name": "brussels sprouts"
    },
    {
-    "id": "butter",
-    "quantity": "25g",
-    "name": "butter"
-   },
-   {
-    "id": "garlic",
-    "quantity": "2 cloves",
-    "name": "garlic"
+    "id": "watercress",
+    "quantity": "150g",
+    "name": "watercress"
    },
    {
     "id": "creme-fraiche",
@@ -75,26 +70,31 @@
     "name": "crème fraîche"
    },
    {
-    "id": "haddock",
-    "quantity": "400g",
-    "name": "skinless haddock"
-   },
-   {
-    "id": "watercress",
-    "quantity": "100g",
-    "name": "watercress"
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
    },
    {
     "id": "parmesan",
     "quantity": "30g",
     "name": "Parmesan"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "haddock",
+    "quantity": "400g",
+    "name": "skinless haddock"
    }
   ],
   "steps": [
-   "Cook the penne in salted water, adding the shredded sprouts for the last 3 minutes. Drain, saving a mug of water.",
-   "In a wide pan, soften the sliced garlic in butter. Stir in the crème fraîche and lemon zest.",
-   "Add the haddock in chunks, cover and simmer for 5 minutes, until it flakes.",
-   "Toss in the pasta, sprouts, a splash of water and the watercress until it wilts. Season, add lemon juice and grate over Parmesan."
+   "Boil the penne in salted water, adding shredded sprouts for the last 3 minutes. Drain, saving a mug of water.",
+   "Blend most of the watercress with the crème fraîche, garlic, Parmesan and lemon zest.",
+   "Melt the butter in the empty pan, add the haddock in chunks, cover and cook 4 minutes until it flakes.",
+   "Gently fold in the pasta, sprouts, sauce and a splash of water. Season, squeeze in lemon and top with the last watercress."
   ]
  },
  "attempts": 1,

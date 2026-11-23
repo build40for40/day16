@@ -1,0 +1,43 @@
+{
+ "day": 218,
+ "title": "Jacket potatoes with celery, apple and walnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, celery, apples, walnuts, Greek yoghurt, Stilton and watercress are all plain whole foods a grandparent would have kept."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including Stilton and watercress, is an everyday line at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only an oven, a tray, a bowl, a knife and a grater for the zest are needed, with no tricky technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four potatoes at 200°C for 75 minutes will be crisp and cooked, and the filling quantities suit four, with lemon and Stilton giving plenty of seasoning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to prick and oil the potatoes, slice the celery, dice the apples, chop the chives and zest the lemon, and the 75-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Crunchy raw celery is the heart of the cool filling, which suits an August lunch, with early apples and fresh watercress alongside."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English a neighbour would give, with no fuss or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Jacket potatoes with fresh veg and fruit, yoghurt, cheese and nuts make a filling, balanced family lunch."
+  }
+ }
+}

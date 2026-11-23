@@ -1,0 +1,43 @@
+{
+ "day": 190,
+ "title": "Celery and broad bean traybake with baked eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or a plain staple such as feta, eggs and olive oil, with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "New potatoes, celery, broad beans, eggs, feta, lemon and dill are all everyday supermarket buys in July."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray and simple roasting and egg-baking, well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "750g potatoes, a head of celery and eight eggs suit four, the 220°C roast and staged timings are sound, and the beans get about 15 minutes in total."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes of halving, chunking and podding is believable, and the 25, 5 and 8 to 10 minute stages add up to the 40 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used, with the lemon as zest and juice and the pepper covered by 'Season', and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roasted celery chunks lead a summery tray with new potatoes, broad beans and dill, which suits early July."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, vegetables, eggs and feta make a balanced, filling family dinner."
+  }
+ }
+}

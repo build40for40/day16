@@ -1,0 +1,43 @@
+{
+ "day": 187,
+ "title": "Baked peaches with redcurrants",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Peaches, redcurrants, honey, butter, oats, almonds, cinnamon and Greek yoghurt are all plain whole foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including a punnet of redcurrants in July, is a normal Tesco buy at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a small bowl and a baking dish, and rubbing in is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four peach halves topped with currants, honey and an oat crumble at 200°C for 20 to 25 minutes will soften and burst nicely for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Halving peaches, stripping currants, chopping almonds and rubbing in fits in 10 minutes, and 25 minutes of baking matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon are used, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm fruit bake suits early July, and 150g of redcurrants bursting into the juices is a real part of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, oats, nuts and yoghurt with only a little honey make a wholesome snack a family would happily eat again."
+  }
+ }
+}

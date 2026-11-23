@@ -1,0 +1,43 @@
+{
+ "day": 200,
+ "title": "Runner bean and split pea dal",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain cupboard staple: split peas, fresh vegetables, oil, spices, lemon and coriander."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Yellow split peas, runner beans, fresh chilli, coriander and the spices are all everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one lidded pan, a knife and a board, and the technique is simple simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g split peas in 1.2 litres of water with 400g runner beans makes a sensible dal for four, and 55 minutes of simmering should soften the peas, though older peas may need a little longer."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for slicing the onions and runner beans and chopping the tomatoes, and the steps add up to roughly the 60 minutes of cooking printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "400g of runner beans is a large share of the dish, so they are central rather than a garnish, and a dal suits a July lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A filling pulse-and-vegetable dal is real, sustaining food that a family would happily cook again."
+  }
+ }
+}

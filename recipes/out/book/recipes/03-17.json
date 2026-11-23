@@ -18,17 +18,18 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Chicken and celeriac barley with watercress",
+  "title": "Green watercress risotto with chicken and celeriac",
   "meal": "dinner",
-  "dish_form": "grain pot",
+  "dish_form": "risotto",
   "diet": "meat",
-  "gluten_free": false,
+  "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "a large lidded casserole"
+   "a wide heavy pan",
+   "a ladle"
   ],
-  "prep_minutes": 25,
-  "cook_minutes": 45,
+  "prep_minutes": 40,
+  "cook_minutes": 5,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -58,8 +59,8 @@
    },
    {
     "id": "chicken-thighs",
-    "quantity": "8",
-    "name": "chicken thighs"
+    "quantity": "6",
+    "name": "boneless chicken thighs"
    },
    {
     "id": "leeks",
@@ -67,19 +68,19 @@
     "name": "leeks"
    },
    {
-    "id": "garlic",
-    "quantity": "2 cloves",
-    "name": "garlic"
-   },
-   {
-    "id": "pearl-barley",
-    "quantity": "300g",
-    "name": "pearl barley"
-   },
-   {
     "id": "celeriac",
-    "quantity": "1 small",
+    "quantity": "½ small",
     "name": "celeriac"
+   },
+   {
+    "id": "watercress",
+    "quantity": "200g",
+    "name": "watercress"
+   },
+   {
+    "id": "risotto-rice",
+    "quantity": "300g",
+    "name": "risotto rice"
    },
    {
     "id": "chicken-stock",
@@ -87,21 +88,21 @@
     "name": "chicken stock"
    },
    {
-    "id": "creme-fraiche",
-    "quantity": "3 tbsp",
-    "name": "crème fraîche"
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
    },
    {
-    "id": "watercress",
-    "quantity": "100g",
-    "name": "watercress"
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan"
    }
   ],
   "steps": [
-   "Brown the seasoned chicken thighs, skin down, in the oil in a casserole for 8 minutes. Lift out.",
-   "Soften the sliced leeks and garlic for 5 minutes. Stir in the barley, cubed celeriac and thyme.",
-   "Add the stock, then the chicken skin up. Cover and simmer for 40 minutes, until the barley is tender.",
-   "Stir the crème fraîche, lemon juice and most of the watercress through the barley. Season and top with the chicken and remaining cress."
+   "Brown the diced chicken in the oil for 5 minutes. Add the sliced leeks, finely diced celeriac and chopped watercress stalks. Soften for 5 minutes.",
+   "Stir in the rice and thyme. Add the stock a ladle at a time, stirring, for 20 minutes, until the rice is just tender.",
+   "Stir in the chopped watercress leaves until wilted and bright green.",
+   "Beat in the butter, grated Parmesan and a squeeze of lemon. Season and serve."
   ]
  },
  "attempts": 1,

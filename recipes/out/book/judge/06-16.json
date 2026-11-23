@@ -1,0 +1,43 @@
+{
+ "day": 167,
+ "title": "Jacket potatoes with broccoli, peas and tahini",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain store-cupboard staple: potatoes, broccoli, tinned chickpeas, peas, tahini, lemon and herbs."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Baking potatoes, broccoli, chickpeas, tahini, spring onions and peas in the pod are all everyday Tesco items in June."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a bowl and a whisk, and the technique is simple baking and roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Large potatoes baked for an hour at 200°C, broccoli and chickpeas roasted for 20 minutes and peas for 5 minutes are sound timings, and the tahini, lemon and water ratio makes a pourable dressing for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is enough to pod 500g of peas, cut florets, slice garlic and spring onions, and whisk the dressing, and the 60-minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used and nothing unlisted appears; the step's '1 tsp paprika' clearly means the smoked paprika in the seasoning list, though it would be tidier to say 'smoked paprika'."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roasted broccoli is the main topping, backed by fresh June peas, mint and spring onions, which makes a light enough jacket for midsummer."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A filling plate of potato, broccoli, chickpeas and peas with a tahini dressing has protein and plenty of vegetables, and a family would happily eat it."
+  }
+ }
+}

@@ -24,11 +24,11 @@
   "gluten_free": false,
   "kit": "hob",
   "utensils": [
-   "a large frying pan",
+   "a large frying pan with a lid",
    "a toaster"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 10,
+  "prep_minutes": 18,
+  "cook_minutes": 2,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -88,10 +88,10 @@
    }
   ],
   "steps": [
-   "Warm the oil in a large frying pan. Fry the sliced onion and mushrooms over a high heat for 6 minutes, until browned.",
-   "Add the drained chickpeas, crushing a few, the sliced garlic and 2 tsp smoked paprika. Fry for 5 minutes, until crisp at the edges.",
-   "Stir in the shredded kale with a splash of water. Cook for 3 to 4 minutes, until wilted.",
-   "Season, squeeze over the lemon and pile onto hot toast."
+   "Warm the oil in a large frying pan. Fry the sliced onion and mushrooms over a high heat for 5 minutes, until browned.",
+   "Add the drained chickpeas, crushing a few, the sliced garlic and 2 tsp smoked paprika. Fry for 4 minutes.",
+   "Stir in the shredded kale and a splash of water. Cover and leave for 2 minutes, until wilted. Toast the bread meanwhile.",
+   "Season, squeeze over the lemon and pile onto the hot toast."
   ]
  },
  "attempts": 1,

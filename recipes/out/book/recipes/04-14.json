@@ -17,17 +17,18 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Smoky beans with crispy potatoes",
+  "title": "Crispy potatoes with smoky beans",
   "meal": "breakfast",
-  "dish_form": "breakfast pan",
+  "dish_form": "breakfast hash",
   "diet": "vegan",
   "gluten_free": true,
-  "kit": "one_pot",
+  "kit": "hob",
   "utensils": [
-   "one large frying pan with a lid"
+   "a large frying pan with a lid",
+   "a small pan"
   ],
   "prep_minutes": 12,
-  "cook_minutes": 22,
+  "cook_minutes": 20,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -87,10 +88,10 @@
    }
   ],
   "steps": [
-   "Cut the potatoes into 1cm cubes. Fry in the oil in a large pan, covered, for 10 minutes, then uncovered for 8 to 10 more, until golden.",
-   "Add the sliced spring onions, crushed garlic and 2 tsp smoked paprika. Fry for 1 minute.",
-   "Tip in the tomatoes and drained beans. Simmer for 5 minutes, until thick.",
-   "Stir in the spinach to wilt. Season and scatter with snipped chives."
+   "Fry the potatoes, cut into 1cm cubes, in 2 tbsp oil in the large pan, covered, for 10 minutes. Uncover and fry 8 to 10 minutes more, until crisp.",
+   "Meanwhile, soften the sliced spring onions and crushed garlic in the rest of the oil in the small pan. Stir in 2 tsp paprika.",
+   "Add the tomatoes and drained beans. Simmer for 8 minutes, then wilt in the spinach. Season.",
+   "Salt the potatoes, spoon the beans over and scatter with snipped chives."
   ]
  },
  "attempts": 1,

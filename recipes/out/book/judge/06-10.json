@@ -1,0 +1,43 @@
+{
+ "day": 161,
+ "title": "Roast cherry tomato dip with trout",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple, such as cherry tomatoes, garlic, trout, Greek yoghurt and raw veg."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Cherry tomatoes, trout fillets, Greek yoghurt and crudité veg are everyday supermarket items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray and a stick blender, and the techniques are simple."
+  },
+  "works": {
+   "pass": false,
+   "reason": "Blending 500g of juicy roasted cherry tomatoes, with no draining or reducing, into only 150g yoghurt (still warm, so it may split) gives a thin sauce rather than a dip that will cling to veg sticks."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "15 minutes of active work covers the veg sticks, blending and flaking, and the 30 minutes of cook time matches 15 + 10 minutes of roasting plus 5 of cooling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps and nothing unlisted appears, though the step says 'paprika' where the list says smoked paprika."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roast cherry tomatoes with raw radishes and cucumber suit early June, and the tomatoes are the body of the dip."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, brief British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a vegetable-heavy snack with trout and yoghurt for protein, which a family would happily eat."
+  }
+ }
+}

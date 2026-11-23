@@ -1,0 +1,43 @@
+{
+ "day": 225,
+ "title": "Gammon, white bean and pointed cabbage pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Gammon, tinned beans, stock, crème fraîche and mustard are all ordinary kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board and one wide lidded pan, with simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g gammon, two tins of beans and a whole cabbage make a good amount for four, the salty gammon and stock make extra salt unnecessary, and the liquid and timings are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "15 minutes covers the dicing and shredding, and the 20-minute cook time is close enough to the steps, since the chopping can be done while the gammon browns."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Gammon steaks match the gammon id, and every listed ingredient and seasoning is used with nothing unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A whole pointed cabbage gives the pot its bulk, and a quick, light bean pot finished with crème fraîche suits an August lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Protein, pulses and plenty of vegetables make a filling family meal."
+  }
+ }
+}

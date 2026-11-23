@@ -1,0 +1,43 @@
+{
+ "day": 242,
+ "title": "Potato, sweetcorn and chive frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, corn, spring onions, eggs, cheddar and chives are all plain kitchen and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including fresh corn cobs in late August, is an everyday supermarket buy."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan, bowl, whisk and grater, and a hob-only frittata is beginner-friendly."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g potatoes with 8 eggs makes a sensible frittata for four, and 12 minutes covered for thin slices then 10 minutes gently to set are realistic."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers slicing the potatoes, stripping two cobs and whisking, and the cook steps add up to about 24 minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "'Corn cobs' is fresh sweetcorn, and every listed ingredient and seasoning, including the chives, is used in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "New-season potatoes and fresh sweetcorn suit late August, and the potatoes form the body of the frittata."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British English steps with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, potatoes, corn and cheese make a filling, wholesome breakfast a family would cook again."
+  }
+ }
+}

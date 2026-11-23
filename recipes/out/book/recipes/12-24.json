@@ -17,57 +17,37 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Oatcakes with goat's cheese and clementines",
+  "title": "Goat's cheese toasts with clementines and walnuts",
   "meal": "snack",
-  "dish_form": "oatcakes with a topping",
+  "dish_form": "cheese on toast",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "hob_and_oven",
+  "kit": "hob",
   "utensils": [
-   "a mixing bowl",
-   "a small pan",
-   "a baking tray",
-   "a grater"
+   "a frying pan",
+   "a grater",
+   "a small bowl"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 25,
+  "prep_minutes": 10,
+  "cook_minutes": 5,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
   "seasoning": [
    {
-    "id": "salt",
-    "name": "salt"
+    "id": "thyme",
+    "name": "thyme"
    },
    {
     "id": "black-pepper",
     "name": "black pepper"
-   },
-   {
-    "id": "thyme",
-    "name": "thyme"
    }
   ],
   "ingredients": [
    {
-    "id": "oats",
-    "quantity": "200g",
-    "name": "porridge oats"
-   },
-   {
-    "id": "wholemeal-flour",
-    "quantity": "50g",
-    "name": "wholemeal flour"
-   },
-   {
-    "id": "bicarbonate-of-soda",
-    "quantity": "½ tsp",
-    "name": "bicarbonate of soda"
-   },
-   {
-    "id": "butter",
-    "quantity": "50g",
-    "name": "butter"
+    "id": "goats-cheese",
+    "quantity": "150g",
+    "name": "soft goat's cheese"
    },
    {
     "id": "clementines",
@@ -75,14 +55,19 @@
     "name": "clementines"
    },
    {
-    "id": "goats-cheese",
-    "quantity": "150g",
-    "name": "soft goat's cheese"
-   },
-   {
     "id": "walnuts",
     "quantity": "30g",
     "name": "walnuts"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
    },
    {
     "id": "honey",
@@ -91,11 +76,10 @@
    }
   ],
   "steps": [
-   "Heat the oven to 190°C (170°C fan). Mix the oats, flour, bicarb and a pinch of salt.",
-   "Stir in the melted butter and about 80ml hot water to make a firm dough.",
-   "Press out thinly on a floured board, cut 16 rounds with a glass and bake for 18 to 20 minutes, until crisp.",
-   "Beat the goat's cheese with one clementine's zest, thyme leaves and pepper. Peel and slice the rest.",
-   "Spread on the cooled oatcakes. Top with clementine, walnuts and honey."
+   "Beat the goat's cheese with the zest of one clementine, the thyme leaves and plenty of pepper.",
+   "Peel all the clementines and slice into thin rounds. Break up the walnuts.",
+   "Brush the bread with oil and toast in a frying pan for 2 minutes a side, until golden. Halve each slice.",
+   "Spread with the cheese, top with clementine and walnuts, and trickle over the honey."
   ]
  },
  "attempts": 1,

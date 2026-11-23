@@ -1,0 +1,43 @@
+{
+ "day": 184,
+ "title": "Blueberry compote with yoghurt and toasted oats",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Blueberries, honey, butter, oats, pumpkin seeds, Greek yoghurt, lemon and cinnamon are all plain kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a normal Tesco line, and 400g of blueberries in July is an everyday purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan, a frying pan and a grater, and simmering and toasting are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "100g berries and 125g yoghurt per person with a toasted oat topping is a sensible breakfast for four, and the timings are realistic."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Zesting, toasting and assembling fit in 10 minutes, and a 5-minute simmer plus a few minutes' toasting matches the 8 minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used, including lemon juice and zest and the cinnamon, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Blueberries are the main event, both warm compote and fresh, and a light fruit-and-yoghurt breakfast suits early July."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Greek yoghurt, fruit, oats and seeds make a filling breakfast with only a little honey."
+  }
+ }
+}

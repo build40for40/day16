@@ -18,19 +18,19 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Smoked mackerel and spelt bowls with red cabbage",
+  "title": "Roast red cabbage bowls with spelt and smoked mackerel",
   "meal": "lunch",
   "dish_form": "grain bowl",
   "diet": "fish",
   "gluten_free": false,
   "kit": "hob_and_oven",
   "utensils": [
-   "one saucepan",
    "a roasting tray",
-   "a mixing bowl"
+   "a saucepan",
+   "a sieve"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 25,
+  "prep_minutes": 15,
+  "cook_minutes": 30,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
@@ -42,43 +42,47 @@
    {
     "id": "black-pepper",
     "name": "black pepper"
+   },
+   {
+    "id": "fennel-seeds",
+    "name": "fennel seeds"
    }
   ],
   "ingredients": [
+   {
+    "id": "red-cabbage",
+    "quantity": "1",
+    "name": "red cabbage"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "200g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
    {
     "id": "spelt",
     "quantity": "200g",
     "name": "pearled spelt"
    },
    {
-    "id": "brussels-sprouts",
-    "quantity": "400g",
-    "name": "Brussels sprouts"
-   },
-   {
-    "id": "rapeseed-oil",
-    "quantity": "1 tbsp",
-    "name": "rapeseed oil"
-   },
-   {
-    "id": "red-cabbage",
-    "quantity": "1/4",
-    "name": "red cabbage"
-   },
-   {
     "id": "cider-vinegar",
-    "quantity": "2 tbsp",
+    "quantity": "1 tbsp",
     "name": "cider vinegar"
    },
    {
-    "id": "honey",
-    "quantity": "1 tsp",
-    "name": "honey"
+    "id": "apples",
+    "quantity": "1",
+    "name": "apple"
    },
    {
-    "id": "greek-yoghurt",
-    "quantity": "150g",
-    "name": "Greek yoghurt"
+    "id": "smoked-mackerel",
+    "quantity": "250g",
+    "name": "smoked mackerel"
    },
    {
     "id": "horseradish",
@@ -86,21 +90,15 @@
     "name": "horseradish sauce"
    },
    {
-    "id": "apples",
-    "quantity": "2",
-    "name": "apples"
-   },
-   {
-    "id": "smoked-mackerel",
-    "quantity": "250g",
-    "name": "smoked mackerel"
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
    }
   ],
   "steps": [
-   "Simmer the spelt in salted water for 25 minutes, until tender. Drain.",
-   "Meanwhile, roast the halved sprouts in the oil with a pinch of salt at 200°C (180°C fan) for 20 minutes, until charred.",
-   "Toss the shredded cabbage with the vinegar, honey and a pinch of salt. Leave to soften.",
-   "Stir the horseradish into the yoghurt. Fill bowls with spelt, sprouts, cabbage and sliced apple. Flake over the mackerel, spoon on the sauce and grind over pepper."
+   "Cut the cabbage into 8 wedges. Toss on a tray with the halved sprouts, oil, fennel seeds and salt. Roast at 200°C (180°C fan) for 30 minutes, until charred at the edges.",
+   "Meanwhile, simmer the spelt in salted water for 25 minutes. Drain and toss with the vinegar and diced apple.",
+   "Top the spelt with the cabbage, sprouts and flaked mackerel. Stir the horseradish into the yoghurt, spoon over and season."
   ]
  },
  "attempts": 1,

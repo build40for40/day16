@@ -5,35 +5,35 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything here is plain whole food: potatoes, veg, cod, garlic, capers, lemon, oil and chilli flakes."
+   "reason": "Potatoes, sprouts, garlic, broccoli, cod, capers, lemon, olive oil and chilli flakes are all plain home ingredients with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Cod fillets, purple sprouting broccoli, sprouts, potatoes and capers are all everyday Tesco items in late January."
+   "reason": "Tesco stocks cod fillets, purple sprouting broccoli, sprouts, capers and the rest at everyday prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a knife, board and one large roasting tray, and the technique is simple staged roasting."
+   "reason": "It needs only a large roasting tray, a knife and a zester or grater, and the technique is simple staged roasting."
   },
   "works": {
-   "pass": false,
-   "reason": "The sliced garlic goes in with the sprouts and roasts for 22 to 25 minutes at 220°C, so it is likely to scorch and turn bitter; adding whole bashed cloves, or adding the garlic with the broccoli, would fix it."
+   "pass": true,
+   "reason": "The staged roasting at 220°C cooks the potatoes about 45 minutes, the sprouts about 25 and the cod and broccoli 12 to 15, which should work for four, although the tray will be full."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes is realistic for halving the potatoes and sprouts, slicing the garlic, trimming the broccoli and zesting the lemon, and 20 + 10 + 15 minutes of roasting matches the 45 minutes printed."
+   "reason": "Twenty minutes is fair for halving potatoes and sprouts, trimming broccoli and zesting a lemon, and 20+10+15 matches the 45 cook minutes."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed item is used in the steps, including the lemon as zest and juice, the names match their ids, and nothing unlisted appears."
+   "reason": "Every listed item is used, \"sprouting broccoli\" is the same food as its id, and the steps use nothing unlisted."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A hot roast traybake suits late January, and the purple sprouting broccoli is a main vegetable roasted alongside the cod, not a garnish."
+   "reason": "A hot roast traybake suits late January, and the purple sprouting broccoli is a main vegetable of the dish rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear British English that a beginner could follow."
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language."
   },
   "hearty_healthy": {
    "pass": true,

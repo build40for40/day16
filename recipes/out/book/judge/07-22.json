@@ -1,0 +1,43 @@
+{
+ "day": 203,
+ "title": "Paprika chicken and roast pepper bulgur",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole ingredient or a plain staple, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Chicken thighs, peppers, bulgur, Greek yoghurt and the rest are everyday items at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Needs only a roasting tray, a bowl, a grater and a kettle, using simple tray-roasting and soaking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six boneless thighs at 220°C for 30 minutes cook through, and 200g bulgur soaked in 400ml boiling water gives enough grain for four with the roast veg."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers slicing four peppers and two onions, grating garlic and chopping parsley, and the 30-minute roast matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and nothing unlisted appears apart from water; 'paprika' in step one clearly means the listed smoked paprika."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roast peppers suit late July, and with the bulgur and tray juices they make up the bulk of this warm summer salad."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British-English steps, with no restaurant jargon or health preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chicken, plenty of roast veg, wholegrain bulgur and yoghurt make a filling, balanced lunch a family would happily eat again."
+  }
+ }
+}

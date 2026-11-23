@@ -18,18 +18,19 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Jacket potatoes with beef, ale and cavolo nero",
+  "title": "Cavolo nero and bacon stuffed jackets",
   "meal": "lunch",
-  "dish_form": "loaded jacket potato",
+  "dish_form": "twice-baked jacket potato",
   "diet": "meat",
-  "gluten_free": false,
+  "gluten_free": true,
   "kit": "hob_and_oven",
   "utensils": [
-   "one lidded casserole",
-   "a small bowl"
+   "a roasting tray",
+   "a large frying pan",
+   "a bowl"
   ],
   "prep_minutes": 25,
-  "cook_minutes": 150,
+  "cook_minutes": 90,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
@@ -41,46 +42,32 @@
    {
     "id": "black-pepper",
     "name": "black pepper"
-   },
-   {
-    "id": "thyme",
-    "name": "thyme"
    }
   ],
   "ingredients": [
-   {
-    "id": "rapeseed-oil",
-    "quantity": "1 tbsp",
-    "name": "rapeseed oil"
-   },
-   {
-    "id": "stewing-beef",
-    "quantity": "600g",
-    "name": "stewing beef"
-   },
-   {
-    "id": "plain-flour",
-    "quantity": "1 tbsp",
-    "name": "plain flour"
-   },
-   {
-    "id": "onions",
-    "quantity": "2",
-    "name": "onions"
-   },
-   {
-    "id": "ale",
-    "quantity": "400ml",
-    "name": "ale"
-   },
    {
     "id": "potatoes",
     "quantity": "4",
     "name": "large baking potatoes"
    },
    {
-    "id": "cavolo-nero",
+    "id": "bacon",
     "quantity": "200g",
+    "name": "smoked streaky bacon"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "400g",
     "name": "cavolo nero"
    },
    {
@@ -95,19 +82,31 @@
    },
    {
     "id": "creme-fraiche",
-    "quantity": "150ml",
+    "quantity": "100ml",
     "name": "crème fraîche"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "80g",
+    "name": "cheddar"
    }
   ],
   "steps": [
-   "Toss the cubed beef in the flour, salt and pepper. Brown in the oil in a casserole.",
-   "Add the sliced onions, thyme and ale. Cover and bake at 160°C (140°C fan) for 2½ hours, with the pricked potatoes beside it for the last 2.",
-   "Stir in the shredded cavolo nero for the final 10 minutes. Toss the shredded red cabbage with the vinegar and a pinch of salt.",
-   "Split the potatoes and pile on the beef, crème fraîche and cabbage."
+   "Prick the potatoes and bake at 200°C (180°C fan) for 1¼ hours.",
+   "Fry the chopped bacon until crisp. Add the butter, sliced garlic and shredded cavolo nero. Wilt for 5 minutes.",
+   "Toss the shredded red cabbage with the vinegar and salt to serve alongside.",
+   "Halve the potatoes. Mash the flesh with the crème fraîche, bacon mix and half the cheese, then season. Refill, top with the rest and bake for 15 minutes."
   ]
  },
- "attempts": 1,
- "rejections": [],
+ "attempts": 3,
+ "rejections": [
+  [
+   "The method is 86 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ],
+  [
+   "The method is 81 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

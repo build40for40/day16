@@ -1,0 +1,43 @@
+{
+ "day": 252,
+ "title": "Roast squash and chickpea bulgur with feta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a whole food or a plain cupboard staple: squash, onions, chickpeas, bulgur, stock, feta, lemon and parsley."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray and foil, and the method is simple roasting and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The bulgur-to-stock ratio of 1:2 under tightly sealed foil, the 220°C roast and the quantities of squash, chickpeas, bulgur and feta all suit four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for chunking an unpeeled squash, cutting onion wedges, making stock and chopping parsley, and the 20 plus 15 minutes in the steps matches the 35 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps under its true name, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roast butternut squash is the centre of a warm tray bake that suits early September."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family dinner of vegetables, pulses, wholegrain and cheese."
+  }
+ }
+}

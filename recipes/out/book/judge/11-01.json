@@ -1,0 +1,43 @@
+{
+ "day": 305,
+ "title": "Jerusalem artichoke and carrot soup with goat's cheese",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, onion, garlic, artichokes, carrots, stock, milk, goat's cheese and pumpkin seeds are all ordinary kitchen foods, with no jars or packet products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Jerusalem artichokes are the set hero and appear seasonally in larger supermarkets, and everything else is everyday stock at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one large pan and a stick blender for soup, both allowed, and the technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "About 850g of vegetables in 1 litre of stock plus 200ml milk, simmered 25 minutes and blended, gives a sensible soup for four, finished with cheese and toasted seeds."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Scrubbing and slicing 500g of artichokes, chopping the rest and toasting the seeds fits in about 15 minutes, and the 5 minutes softening plus 25 minutes simmering matches the 30 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the thyme, salt and pepper, is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot, earthy artichoke soup suits 1 November, and the artichokes are the body of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a vegetable-rich soup with cheese and seeds, a proper lunch a family would happily eat again."
+  }
+ }
+}

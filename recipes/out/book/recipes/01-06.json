@@ -18,18 +18,18 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Beef, swede and lentil pot with clementine",
+  "title": "Swede, bacon and lentil pot with clementine",
   "meal": "lunch",
-  "dish_form": "stew",
+  "dish_form": "lentil pot",
   "diet": "meat",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "one lidded casserole",
+   "one large lidded pan",
    "a wooden spoon"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 100,
+  "cook_minutes": 35,
   "time_note": "",
   "best_time": "midday",
   "freezes": true,
@@ -49,22 +49,13 @@
    {
     "id": "thyme",
     "name": "thyme"
-   },
-   {
-    "id": "bay",
-    "name": "bay leaves"
    }
   ],
   "ingredients": [
    {
-    "id": "rapeseed-oil",
-    "quantity": "1 tbsp",
-    "name": "rapeseed oil"
-   },
-   {
-    "id": "stewing-beef",
-    "quantity": "500g",
-    "name": "diced stewing beef"
+    "id": "bacon",
+    "quantity": "6 rashers",
+    "name": "smoked bacon"
    },
    {
     "id": "onions",
@@ -72,41 +63,41 @@
     "name": "onion"
    },
    {
-    "id": "chopped-tomatoes",
-    "quantity": "1 tin",
-    "name": "chopped tomatoes"
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
    },
    {
-    "id": "beef-stock",
-    "quantity": "900ml",
-    "name": "beef stock"
+    "id": "swede",
+    "quantity": "1 large",
+    "name": "swede"
+   },
+   {
+    "id": "green-lentils",
+    "quantity": "200g",
+    "name": "green lentils"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "1 litre",
+    "name": "chicken stock"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
    },
    {
     "id": "clementines",
     "quantity": "2",
     "name": "clementines"
-   },
-   {
-    "id": "swede",
-    "quantity": "1 small",
-    "name": "swede"
-   },
-   {
-    "id": "carrots",
-    "quantity": "2",
-    "name": "carrots"
-   },
-   {
-    "id": "green-lentils",
-    "quantity": "150g",
-    "name": "green lentils"
    }
   ],
   "steps": [
-   "Brown the beef in the oil in a casserole, in two batches. Add the chopped onion and cook for 5 minutes.",
-   "Stir in 1 tsp paprika, the tomatoes, stock, thyme, bay and the zest and juice of the clementines. Cover and simmer gently for 1 hour.",
-   "Add the cubed swede and carrots and the lentils. Cover and simmer for 40 minutes more, until the beef is tender.",
-   "Add a splash of water if it gets too thick. Season and serve in bowls."
+   "Fry the chopped bacon in a large pan until crisp. Add the chopped onion and garlic and soften for 5 minutes.",
+   "Stir in 1 tsp paprika, the thyme, the swede in 1 cm cubes, the lentils and stock. Cover and simmer for 25 minutes, until tender.",
+   "Add the shredded kale with the zest and juice of the clementines. Cook for 5 minutes.",
+   "Crush some swede into the broth to thicken it. Season and serve."
   ]
  },
  "attempts": 1,

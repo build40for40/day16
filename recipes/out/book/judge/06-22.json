@@ -1,0 +1,43 @@
+{
+ "day": 173,
+ "title": "Cherry and almond overnight oats",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, cherries, almonds, seeds, tahini, vanilla and lemon are all whole foods or simple cupboard staples, with no jarred sauces, plant milks or sweeteners."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is stocked at Tesco, and British cherries in late June are at their most affordable."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, knife and fork, and stoning cherries with a knife is within any beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to 600ml water plus crushed fruit and ground almonds sets to a sensible overnight-oat texture for four, with sweetness from the cherries and vanilla and a splash of water to adjust in the morning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Halving and stoning 400g of cherries, chopping almonds and zesting a lemon fits roughly within 15 minutes, and the overnight soak is honestly shown as unattended time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, including the seeds, the chopped almonds and the lemon, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A cold, no-cook breakfast suits midsummer, and cherries are both stirred through and piled on top, so they are clearly the point."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English instructions with no restaurant language or health preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, fruit, nuts, seeds and tahini make a filling, wholesome breakfast a family would happily repeat."
+  }
+ }
+}

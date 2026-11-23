@@ -17,7 +17,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Roast lamb chops with marrow and potatoes",
+  "title": "Roast lamb chops with marrow and chickpeas",
   "meal": "dinner",
   "dish_form": "roast",
   "diet": "meat",
@@ -28,7 +28,7 @@
    "a small bowl"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 50,
+  "cook_minutes": 40,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -56,9 +56,9 @@
   ],
   "ingredients": [
    {
-    "id": "potatoes",
-    "quantity": "600g",
-    "name": "new potatoes"
+    "id": "marrow",
+    "quantity": "½",
+    "name": "marrow (about 700g)"
    },
    {
     "id": "red-onions",
@@ -71,19 +71,14 @@
     "name": "olive oil"
    },
    {
-    "id": "marrow",
-    "quantity": "1",
-    "name": "marrow"
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
    },
    {
     "id": "cherry-tomatoes",
-    "quantity": "250g",
+    "quantity": "200g",
     "name": "cherry tomatoes"
-   },
-   {
-    "id": "garlic",
-    "quantity": "6",
-    "name": "garlic cloves"
    },
    {
     "id": "lamb-chops",
@@ -97,10 +92,10 @@
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes and wedged onions with 2 tbsp oil, the rosemary and salt in a roasting tray. Roast for 20 minutes.",
-   "Add the peeled, chunked marrow, the tomatoes and the whole garlic cloves. Roast for 15 minutes.",
-   "Oil and season the chops, sit them on top and roast for 12 to 15 minutes, until browned.",
-   "Stir chopped mint and a squeeze of lemon into the yoghurt to serve."
+   "Heat the oven to 220°C (200°C fan). Toss peeled, seeded marrow chunks and onion wedges with 2 tbsp oil, the rosemary and salt. Spread over a large tray and roast for 25 minutes.",
+   "Stir in the drained chickpeas and tomatoes. Push to the edges and lay the oiled, seasoned chops flat in the gaps.",
+   "Roast for 15 minutes, until the chops are browned.",
+   "Mix chopped mint and lemon juice into the yoghurt to serve."
   ]
  },
  "attempts": 1,

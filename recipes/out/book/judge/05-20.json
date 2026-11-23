@@ -1,0 +1,43 @@
+{
+ "day": 140,
+ "title": "Spring onion beans and mushrooms on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple: mushrooms, spring onions, garlic, tinned beans, spinach, lemon and bread."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan and a toaster or grill, with simple frying and wilting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The beans, mushrooms and spinach on four slices of toast make a sensible breakfast for four, and the timings and seasoning are clear enough to follow."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing the mushrooms, onions and garlic and about ten minutes at the pan fit within the 20 minutes printed, which suits a quick breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used and the names match their ids, though step 2 says '1 tsp paprika' where 'smoked paprika' would be clearer."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A bunch of spring onions is cooked into the beans and scattered fresh on top, which suits a May morning, and the dish is named for them."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Beans, mushrooms and spinach on toast is a filling plate of real food that a family would happily eat again."
+  }
+ }
+}

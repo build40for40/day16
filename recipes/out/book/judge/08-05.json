@@ -1,0 +1,43 @@
+{
+ "day": 217,
+ "title": "Blackberry and apple compote with crunchy oats",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Apples, blackberries, honey, oats, hazelnuts, Greek yoghurt, cinnamon and lemon are all plain kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket, and blackberries are cheap in August."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan and a frying pan, and simmering fruit and toasting oats are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g blackberries, 2 apples, 500g yoghurt and 80g oats with nuts make a sensible breakfast for four, and the simmer times suit diced apple and soft berries."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is believable for peeling and dicing two apples, chopping hazelnuts and stirring the toasting oats, and 8 minutes matches the 5 plus 3 minute simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears apart from water, and lemon is on the August fresh list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early August is blackberry season and the berries are the centre of the compote, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear and homely, in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, yoghurt, oats and nuts with only 2 tbsp honey make a filling, wholesome breakfast a family would happily eat again."
+  }
+ }
+}

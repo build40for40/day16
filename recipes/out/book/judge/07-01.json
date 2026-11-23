@@ -1,0 +1,43 @@
+{
+ "day": 182,
+ "title": "Roast pork steaks with peppers and green beans",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain cupboard staple: pork, vegetables, olive oil, spices and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pork shoulder steaks, new potatoes, peppers, green beans and fennel seeds are all everyday supermarket buys."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only one roasting tray is needed, and crushing fennel seeds is easy with a knife or rolling pin."
+  },
+  "works": {
+   "pass": true,
+   "reason": "At 220°C, the 20 minute head start on the potatoes and 27 minutes for the shoulder steaks should give tender veg and cooked-through pork, with the beans blistered in the last 12 minutes, enough for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is realistic for halving potatoes, cutting onions and peppers, trimming beans and seasoning the pork, and 20+15+12 matches the 47 minute cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A tray roast of new potatoes, peppers and 300g of green beans suits early July, and the beans are a real portion of the dish rather than a garnish, though the pork and peppers lead the title."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pork, potatoes and plenty of vegetables make a balanced family dinner."
+  }
+ }
+}

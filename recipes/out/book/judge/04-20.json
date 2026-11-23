@@ -1,35 +1,35 @@
 {
  "day": 110,
- "title": "Cheese and salad leaf squares",
+ "title": "Ricotta puff tart with lemony leaves",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Flour, butter, cheddar, eggs, milk, mustard and fresh leaves are all ordinary home kitchen staples."
+   "reason": "Puff pastry, ricotta, egg, cheese and fresh vegetables are all things a home cook would have kept or bought plainly."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+   "reason": "Ready-rolled puff pastry, ricotta, vegetarian hard cheese, bagged salad and radishes are everyday Tesco items."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "A bowl, whisk, grater and a 20cm square dish are ordinary kit, and mixing a batter is beginner-level."
+   "reason": "Only a baking tray, bowl and grater are needed, and scoring a border is well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "The 250g self-raising flour, 200ml milk, 2 eggs and 80g butter make a sound savoury scone batter for a 20cm dish, and 25 to 30 minutes at 200°C is right, giving plenty of squares for four."
+   "reason": "A 320g sheet with 250g ricotta filling, baked at 220°C for 20 to 25 minutes, gives a crisp tart that cuts into enough snack squares for four."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Grating, chopping leaves and spring onions, melting butter and mixing fit comfortably in 15 minutes, and the 30 minute bake matches the steps."
+   "reason": "Mixing the filling, zesting, snipping chives and slicing radishes and spring onions fits easily in 15 minutes, and the 25-minute bake matches the steps."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used, nothing unlisted appears, and the step's 'paprika' clearly refers to the listed smoked paprika."
+   "reason": "Every listed ingredient and seasoning, including lemon zest and juice and chives, is used, and nothing unlisted appears."
   },
   "seasonal_feel": {
-   "pass": false,
-   "reason": "The salad leaves, the hero, are chopped and baked into a 250g flour and 150g cheddar batter, so they wilt into green flecks and the dish eats as a cheese and spring onion bread rather than anything showing off fresh April leaves."
+   "pass": true,
+   "reason": "A full 100g pile of dressed leaves with radishes and spring onions makes the salad a real part of a light April afternoon snack, not a garnish."
   },
   "plain_voice": {
    "pass": true,
@@ -37,7 +37,7 @@
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "A cheesy egg-enriched savoury bake with greens and spring onion is a satisfying, real-food afternoon snack a family would happily make again."
+   "reason": "Ricotta, egg and cheese give protein and the fresh salad topping balances the pastry, making a satisfying snack a family would make again."
   }
  }
 }

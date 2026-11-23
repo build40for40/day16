@@ -1,0 +1,43 @@
+{
+ "day": 221,
+ "title": "Charred corn and brown rice salad with feta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Rice, corn cobs, olive oil, tomatoes, spring onions, feta, lemon, basil and smoked paprika are all ordinary home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a heavy frying pan and a sieve, and slicing kernels off a cob is within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g brown rice, four cobs, 250g tomatoes and 200g feta make a sound salad for four, and the cooking times and dressing are sensible."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes of charring, slicing and dressing fits while the rice boils for its 30 minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A charred sweetcorn salad suits an August lunch, and the corn is clearly the heart of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English a neighbour would follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholegrain rice, vegetables and feta make a filling, balanced lunch a family would happily eat again."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 213,
+ "title": "Charred sweetcorn scrambled eggs on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Corn, butter, spring onions, eggs, milk, bread and chives are all plain whole foods a grandparent would have had."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket, and corn cobs are cheap in August."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A frying pan, a bowl, a whisk and a toaster or grill are all ordinary kit, and scrambling eggs suits a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs, two cobs and four slices of toast make a sensible breakfast for four, and charring the corn before scrambling the eggs gently on low heat will work as written."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Stripping two cobs, slicing spring onions and beating eggs fits within 15 minutes, and the 5-minute char plus a quick scramble fits a quick breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Corn cobs and wholemeal bread match their ids, and the steps use every listed ingredient and seasoning with nothing unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh sweetcorn at its August peak is the point of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant flourishes."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, sweetcorn and wholemeal toast make a filling, real-food breakfast a family would happily repeat."
+  }
+ }
+}

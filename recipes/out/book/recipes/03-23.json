@@ -17,14 +17,14 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Apple and rhubarb compote with yoghurt and seeds",
+  "title": "Apple and rhubarb compote with honeyed seeds",
   "meal": "breakfast",
   "dish_form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "a saucepan with a lid",
+   "one saucepan",
    "a frying pan"
   ],
   "prep_minutes": 15,
@@ -36,6 +36,10 @@
    {
     "id": "cinnamon",
     "name": "cinnamon"
+   },
+   {
+    "id": "ground-ginger",
+    "name": "ground ginger"
    }
   ],
   "ingredients": [
@@ -56,13 +60,8 @@
    },
    {
     "id": "rhubarb",
-    "quantity": "300g",
+    "quantity": "400g",
     "name": "rhubarb"
-   },
-   {
-    "id": "vanilla-extract",
-    "quantity": "1 tsp",
-    "name": "vanilla extract"
    },
    {
     "id": "pumpkin-seeds",
@@ -75,27 +74,22 @@
     "name": "sunflower seeds"
    },
    {
-    "id": "almonds",
-    "quantity": "30g",
-    "name": "flaked almonds"
-   },
-   {
     "id": "greek-yoghurt",
     "quantity": "500g",
     "name": "Greek yoghurt"
    }
   ],
   "steps": [
-   "Simmer the peeled, chopped apples with the orange zest and juice, honey, cinnamon and 3 tbsp water, covered, for 8 minutes.",
-   "Add the rhubarb in short lengths and cook 5 minutes more, until soft but holding its shape. Stir in the vanilla.",
-   "Toast the seeds and almonds in a dry pan until golden.",
-   "Spoon yoghurt into bowls, top with the warm or cold compote and scatter over the seeds."
+   "Put the cored, chopped apples in a pan with the orange zest and juice, 1 tbsp honey, the cinnamon and 3 tbsp water. Cover and cook for 5 minutes.",
+   "Add the rhubarb in short lengths and the ginger. Simmer for 5 to 8 minutes, until soft but holding shape.",
+   "Toast the seeds in a dry pan until they pop. Stir in the remaining honey.",
+   "Spoon yoghurt into bowls and top with the compote and seeds."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "Vanilla extract is not a seasoning. Put it in the ingredients with a quantity."
+   "The method is 81 words and runs 1 lines past the bottom of the page. Cut about 6 words."
   ]
  ],
  "failures": [],

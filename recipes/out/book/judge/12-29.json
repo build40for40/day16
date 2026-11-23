@@ -1,0 +1,43 @@
+{
+ "day": 363,
+ "title": "Spiced apple and prune compote with walnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Apples, prunes, an orange, walnuts, Greek yoghurt, honey and cinnamon are all plain cupboard and fridge foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded saucepan, a frying pan, a knife and a board, and the technique is simple simmering and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six eating apples with 100g prunes, orange juice and 100ml water simmered covered for 10 to 12 minutes gives a soft compote that holds its shape, enough to top 500g yoghurt for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Coring six apples, halving prunes, zesting and juicing an orange and toasting walnuts fits in 15 minutes, and the 12-minute simmer matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, nothing unlisted apart from water is used, and each name matches its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm spiced apple compote suits a cold late-December morning, and the apples are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, Greek yoghurt and walnuts with only a spoonful of honey make a proper, satisfying breakfast a family would eat again."
+  }
+ }
+}

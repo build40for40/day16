@@ -1,0 +1,43 @@
+{
+ "day": 155,
+ "title": "Smoked haddock pancakes with gooseberries",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is plain home produce: gooseberries, smoked haddock, flour, eggs, milk, butter, crème fraîche and chives."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Smoked haddock, self-raising flour, crème fraîche and seasonal gooseberries are all everyday supermarket items in June."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan, a frying pan, a bowl and a whisk, and drop pancakes are within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 200g flour, 2 eggs and poaching milk make a thick drop-scone batter, 300g haddock suits four, and the sharp gooseberry sauce suits salty smoked fish."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers topping and tailing the gooseberries, poaching, flaking and mixing, and 15 minutes fits the simmering and batch frying."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early June is gooseberry time, and 300g of them as a sharp sauce against smoked fish is a real component, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, eggs and fruit make this a filling, real-food breakfast a family would happily repeat."
+  }
+ }
+}

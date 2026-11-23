@@ -17,20 +17,19 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Runner bean and sweetcorn fritters",
+  "title": "Runner bean and feta frittata",
   "meal": "dinner",
-  "dish_form": "fritters",
+  "dish_form": "frittata",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "hob",
+  "kit": "hob_and_oven",
   "utensils": [
-   "a saucepan",
+   "an ovenproof frying pan",
    "a mixing bowl",
-   "a large frying pan",
-   "a grater"
+   "a whisk"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 12,
+  "prep_minutes": 18,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -48,67 +47,62 @@
     "name": "chilli flakes"
    },
    {
-    "id": "chives",
-    "name": "chives"
+    "id": "basil",
+    "name": "basil"
    }
   ],
   "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
    {
     "id": "runner-beans",
     "quantity": "300g",
     "name": "runner beans"
    },
    {
-    "id": "self-raising-flour",
-    "quantity": "150g",
-    "name": "self-raising flour"
-   },
-   {
-    "id": "eggs",
-    "quantity": "3",
-    "name": "eggs"
-   },
-   {
-    "id": "milk",
-    "quantity": "150ml",
-    "name": "milk"
-   },
-   {
-    "id": "sweetcorn",
-    "quantity": "2",
-    "name": "sweetcorn cobs"
-   },
-   {
     "id": "spring-onions",
-    "quantity": "4",
+    "quantity": "6",
     "name": "spring onions"
    },
    {
-    "id": "cheddar",
-    "quantity": "75g",
-    "name": "mature cheddar"
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
    },
    {
-    "id": "rapeseed-oil",
-    "quantity": "3 tbsp",
-    "name": "rapeseed oil"
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
    },
    {
-    "id": "tomatoes",
-    "quantity": "400g",
-    "name": "tomatoes"
-   },
-   {
-    "id": "natural-yoghurt",
+    "id": "cherry-tomatoes",
     "quantity": "200g",
-    "name": "natural yoghurt"
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   },
+   {
+    "id": "bread",
+    "quantity": "1 loaf",
+    "name": "crusty bread"
+   },
+   {
+    "id": "salad-leaves",
+    "quantity": "100g",
+    "name": "salad leaves"
    }
   ],
   "steps": [
-   "Blanch the thinly sliced runner beans for 2 minutes, then cool under the cold tap.",
-   "Whisk the flour, eggs and milk into a thick batter. Stir in the beans, corn cut from the cobs, sliced spring onions, grated cheddar and a pinch of chilli. Season.",
-   "Fry spoonfuls in a little hot oil for 2 to 3 minutes a side, until golden.",
-   "Serve with sliced tomatoes and the yoghurt stirred with snipped chives."
+   "Heat the oven to 200°C (180°C fan). Fry the thinly sliced runner beans in the oil for 5 minutes.",
+   "Add the sliced spring onions, crushed garlic and a pinch of chilli for 2 minutes more.",
+   "Whisk the eggs with torn basil and season. Pour over the beans, then dot with halved tomatoes and crumbled feta.",
+   "Bake for 15 minutes, until just set. Serve in wedges with bread and salad leaves."
   ]
  },
  "attempts": 1,

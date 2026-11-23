@@ -17,29 +17,29 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Parsnip and lentil bake with crispy crumbs",
+  "title": "Lentil and kale bake with parsnip crumble",
   "meal": "dinner",
   "dish_form": "bake",
   "diet": "vegan",
   "gluten_free": false,
-  "kit": "oven",
+  "kit": "one_pot",
   "utensils": [
-   "a large baking dish",
-   "foil"
+   "an ovenproof casserole",
+   "a grater"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 75,
+  "cook_minutes": 40,
   "time_note": "",
   "best_time": "evening",
   "freezes": true,
   "seasoning": [
    {
-    "id": "thyme",
-    "name": "thyme"
-   },
-   {
     "id": "smoked-paprika",
     "name": "smoked paprika"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
    },
    {
     "id": "salt",
@@ -52,29 +52,24 @@
   ],
   "ingredients": [
    {
-    "id": "parsnips",
-    "quantity": "600g",
-    "name": "parsnips"
-   },
-   {
-    "id": "red-onions",
-    "quantity": "2",
-    "name": "red onions"
-   },
-   {
-    "id": "olive-oil",
-    "quantity": "3 tbsp",
-    "name": "olive oil"
-   },
-   {
-    "id": "puy-lentils",
-    "quantity": "200g",
-    "name": "puy lentils"
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
    },
    {
     "id": "garlic",
-    "quantity": "3 cloves",
+    "quantity": "2 cloves",
     "name": "garlic"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "red-lentils",
+    "quantity": "250g",
+    "name": "red lentils"
    },
    {
     "id": "chopped-tomatoes",
@@ -83,8 +78,8 @@
    },
    {
     "id": "vegetable-stock",
-    "quantity": "600ml",
-    "name": "hot vegetable stock"
+    "quantity": "700ml",
+    "name": "vegetable stock"
    },
    {
     "id": "kale",
@@ -92,16 +87,21 @@
     "name": "kale"
    },
    {
+    "id": "parsnips",
+    "quantity": "500g",
+    "name": "parsnips"
+   },
+   {
     "id": "breadcrumbs",
-    "quantity": "50g",
+    "quantity": "60g",
     "name": "breadcrumbs"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). In a large baking dish, toss chunky parsnips and onion wedges with half the oil, the thyme and paprika. Roast for 20 minutes.",
-   "Stir in the lentils, crushed garlic, tomatoes and hot stock. Cover with foil and bake for 40 minutes, until the lentils are tender.",
-   "Stir through the shredded kale and season.",
-   "Mix the crumbs with the rest of the oil, scatter over and bake uncovered for 15 minutes, until golden."
+   "Heat the oven to 200°C (180°C fan). In the casserole, soften the chopped onion and garlic in 1 tbsp oil for 5 minutes.",
+   "Add the lentils, tomatoes, stock and 1 tsp paprika. Simmer for 15 minutes, stirring now and then. Stir in the shredded kale and season.",
+   "Mix the grated parsnips with the crumbs, thyme leaves, the rest of the oil and a pinch of salt. Scatter over the lentils.",
+   "Bake for 20 to 25 minutes, until the top is golden and crisp."
   ]
  },
  "attempts": 1,

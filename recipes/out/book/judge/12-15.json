@@ -1,0 +1,43 @@
+{
+ "day": 349,
+ "title": "Swede and red lentil fritters with apple slaw",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a store-cupboard staple, and tahini is on the approved list."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Swede, red lentils, red cabbage, apples and tahini are all everyday supermarket items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan and a grater, and shallow-frying fritters is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "100g lentils in 300ml water gives a thick binding paste, 400g swede with flour makes a sensible batch for four at lunch, and thin fritters cooked 4 minutes a side will cook through."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "35 active minutes covers peeling and grating the swede, shredding the slaw and frying in batches, and 15 minutes cook matches the lentil simmer and cooling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including cumin and lemon, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Swede is the bulk of the fritters, and a warm fried lunch with red cabbage slaw suits mid-December."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, swede and a fresh cabbage and apple slaw make a filling, wholesome lunch a family would happily eat."
+  }
+ }
+}

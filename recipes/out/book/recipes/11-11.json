@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Mushroom, kale and halloumi hash",
+  "title": "Mushroom, kale and butter bean hash with eggs",
   "meal": "breakfast",
   "dish_form": "breakfast hash",
   "diet": "vegetarian",
@@ -26,8 +26,8 @@
   "utensils": [
    "one large frying pan with a lid"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 25,
+  "prep_minutes": 10,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -51,19 +51,9 @@
   ],
   "ingredients": [
    {
-    "id": "halloumi",
-    "quantity": "225g",
-    "name": "halloumi"
-   },
-   {
     "id": "rapeseed-oil",
-    "quantity": "3 tbsp",
+    "quantity": "2 tbsp",
     "name": "rapeseed oil"
-   },
-   {
-    "id": "potatoes",
-    "quantity": "800g",
-    "name": "potatoes"
    },
    {
     "id": "red-onions",
@@ -72,7 +62,7 @@
    },
    {
     "id": "mushrooms",
-    "quantity": "300g",
+    "quantity": "400g",
     "name": "mushrooms"
    },
    {
@@ -81,16 +71,26 @@
     "name": "garlic"
    },
    {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
     "id": "kale",
     "quantity": "100g",
     "name": "kale"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
    }
   ],
   "steps": [
-   "Fry the sliced halloumi in a little oil until golden on both sides. Lift out.",
-   "Add the rest of the oil and the potatoes, cut into 1cm cubes. Cover and fry for 15 minutes, turning now and then, until golden and tender.",
-   "Add the sliced onion, mushrooms, garlic, thyme leaves and 1 tsp paprika. Fry for 8 minutes, until the mushrooms brown.",
-   "Stir in the shredded kale with a splash of water until wilted. Season and top with the halloumi."
+   "Fry the sliced onion and mushrooms in the oil over a high heat for 6 minutes, until browned.",
+   "Add the sliced garlic, thyme leaves, 1 tsp paprika and drained beans. Fry for 3 minutes, pressing some beans flat.",
+   "Stir in the shredded kale with a splash of water until wilted. Season.",
+   "Make four hollows, crack in the eggs, cover and cook for 4 to 5 minutes, until the whites set."
   ]
  },
  "attempts": 1,

@@ -18,21 +18,20 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Split pea and parsnip soup with crispy sprouts",
+  "title": "Brussels sprout, parsnip and split pea soup",
   "meal": "lunch",
   "dish_form": "soup",
   "diet": "vegan",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "one large heavy pan",
-   "a stick blender"
+   "one large heavy pan"
   ],
   "prep_minutes": 25,
   "cook_minutes": 55,
   "time_note": "",
   "best_time": "midday",
-  "freezes": true,
+  "freezes": false,
   "seasoning": [
    {
     "id": "salt",
@@ -54,13 +53,8 @@
   "ingredients": [
    {
     "id": "olive-oil",
-    "quantity": "3 tbsp",
+    "quantity": "2 tbsp",
     "name": "olive oil"
-   },
-   {
-    "id": "brussels-sprouts",
-    "quantity": "300g",
-    "name": "Brussels sprouts"
    },
    {
     "id": "onions",
@@ -74,7 +68,7 @@
    },
    {
     "id": "parsnips",
-    "quantity": "3",
+    "quantity": "2",
     "name": "parsnips"
    },
    {
@@ -84,15 +78,25 @@
    },
    {
     "id": "vegetable-stock",
-    "quantity": "1.2 litres",
+    "quantity": "1.5 litres",
     "name": "vegetable stock"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "500g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
    }
   ],
   "steps": [
-   "Fry the halved sprouts in 1 tbsp oil in the pan for 5 minutes, until charred. Season and set aside.",
-   "Soften the chopped onion in the rest of the oil for 8 minutes. Add the sliced garlic, chopped parsnips, rinsed split peas, thyme and stock.",
-   "Cover and simmer for 50 minutes to 1 hour, until the peas collapse.",
-   "Blend until smooth, season and add a squeeze of lemon. Top each bowl with the sprouts."
+   "Soften the chopped onion in the oil for 8 minutes. Add the sliced garlic, diced parsnips, rinsed split peas, thyme and stock.",
+   "Cover and simmer for 45 minutes, until the peas are soft and starting to collapse.",
+   "Stir in the finely sliced sprouts and simmer for 5 to 6 minutes, until tender but still bright green.",
+   "Stir in the mustard and a squeeze of lemon. Season well and serve."
   ]
  },
  "attempts": 1,

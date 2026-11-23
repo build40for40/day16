@@ -1,0 +1,43 @@
+{
+ "day": 208,
+ "title": "Pork, aubergine and fennel rigatoni",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Pork mince, aubergines, tinned tomatoes, dried pasta and Parmesan are all plain whole foods or acceptable staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including rigatoni and fennel seeds, is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a saucepan, a knife and a grater, and uses simple frying and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two aubergines, 400g pork, a tin of tomatoes and 350g rigatoni make a well-seasoned sauce for four, and a splash of pasta water loosens it."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "About 10 minutes of chopping plus stirring the frying pan fits 15 minutes prep, and the 35 minutes overall matches the 26 minutes of hob steps for a quick dinner."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the fennel seeds, chilli and basil, is used, and the steps add nothing unlisted apart from pasta water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "July aubergines are fried golden and make up the bulk of the sauce, so they are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family pasta with meat, vegetables and tomatoes, which a family would happily eat again."
+  }
+ }
+}

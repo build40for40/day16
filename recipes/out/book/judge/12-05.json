@@ -1,0 +1,43 @@
+{
+ "day": 339,
+ "title": "Beetroot, walnut and feta fritters with garlicky kale",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple: beetroot, eggs, flour, walnuts, feta, kale, garlic, Greek yoghurt and bread."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price, including the walnuts and feta."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, sieve, bowl and frying pan, and shallow-frying fritters is well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g beetroot bound with 2 eggs and 100g flour, with walnuts, feta, kale, yoghurt and bread, makes a sensible dinner for four, and the frying time suits coarsely grated raw beetroot."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and grating the beetroot, frying in batches and wilting the kale fit comfortably within the 50 minutes printed in total."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the cumin and lemon, appears in the steps, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "The beetroot is the body of the fritters and the dish is a hot, filling winter dinner that suits early December."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or health preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Vegetable fritters with eggs, nuts and cheese, plus greens, yoghurt and bread, make a proper, appealing family meal."
+  }
+ }
+}

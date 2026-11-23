@@ -1,0 +1,43 @@
+{
+ "day": 229,
+ "title": "Split pea and marrow soup with broad beans",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain stock, with no jars, packet mixes or substitutes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Yellow split peas, marrow, broad beans, stock and the seasonings are all everyday supermarket items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one lidded pan and a knife, and simmering is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g split peas in 1.2 litres of stock with a small marrow makes a sensible thick soup for four, and 55 minutes is enough for unsoaked yellow split peas to collapse."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers chopping, peeling and seeding the marrow and podding 500g of broad beans, and the roughly 60 minutes of simmering matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the cumin, lemon and mint, is used, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "The marrow is a main body of the soup rather than a garnish, and the broad beans, mint and lemon keep it light enough for a mild August lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling pulse and vegetable soup with real flavour from the cumin, lemon and mint."
+  }
+ }
+}

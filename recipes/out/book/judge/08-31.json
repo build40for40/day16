@@ -1,0 +1,43 @@
+{
+ "day": 243,
+ "title": "Marrow and peach on toast with goat's cheese",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Marrow, peaches, garlic, bread, goat's cheese, olive oil, lemon and mint are all whole foods a grandparent might have kept, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Tesco sells sourdough, soft goat's cheese, peaches and marrow at everyday prices in late August."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan and a toaster or grill, and the techniques are peeling, cubing, frying and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "One small marrow fried until golden, plus garlic, chilli and lemon, piled on four thick slices of toast with goat's cheese and peach makes a sensible, well-seasoned light lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for peeling, seeding and cubing a small marrow, slicing garlic and peaches and toasting bread, and the 10-minute cook matches the 8 to 10 minutes of frying plus 1 minute for the garlic."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used, including the lemon, mint, chilli flakes and both portions of the oil, nothing unlisted appears, and sourdough is a fair name for crusty bread."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Marrow is the bulk of the topping and the point of the dish, and peaches with mint suit a warm last day of August."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English instructions a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper lunch of vegetables, fruit, cheese and bread that a family would happily eat again."
+  }
+ }
+}

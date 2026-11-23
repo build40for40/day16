@@ -1,0 +1,43 @@
+{
+ "day": 315,
+ "title": "Mushroom, kale and butter bean hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain kitchen staple: onion, mushrooms, garlic, tinned butter beans, kale, eggs, oil, paprika and thyme."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item on any Tesco shelf at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one large lidded frying pan and simple frying and egg-cracking that a beginner can manage."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g mushrooms, two tins of beans, 100g kale and four eggs make a sensible four-portion hash, with clear heats and timings and paprika, thyme and seasoning for flavour."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing the onion, mushrooms and garlic and shredding the kale fits roughly 10 minutes, and the steps add up to about 15 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and fresh thyme is on the November list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot, browned mushroom hash with kale suits a cold November morning, and the mushrooms lead the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Vegetables, pulses and eggs make a filling, balanced breakfast a family would happily eat again."
+  }
+ }
+}

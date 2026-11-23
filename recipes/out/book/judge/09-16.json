@@ -1,0 +1,43 @@
+{
+ "day": 259,
+ "title": "Squash and bacon soup with broccoli",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bacon, onion, garlic, squash, chicken stock, tinned butter beans, broccoli and sage are all ordinary home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A large pan and a stick blender for soup are ordinary kit, and the technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "1kg squash, a litre of stock, a tin of beans and a head of broccoli make a sensible thick soup for four, with clear timings and bacon for seasoning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes is fair for peeling and cubing the squash, chopping the rest and frying the bacon and onion, and 30 minutes matches the simmering."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming squash soup suits mid-September, and the squash is the body of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A filling soup with squash, beans, broccoli and bacon is a proper family dinner."
+  }
+ }
+}

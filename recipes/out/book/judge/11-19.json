@@ -1,0 +1,43 @@
+{
+ "day": 323,
+ "title": "Mushroom, chickpea and kale hash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is ordinary home food: oil, onion, mushrooms, tinned chickpeas, garlic, kale, bread, paprika and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan and a toaster, and the method is simple frying and wilting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two tins of chickpeas, 250g mushrooms and 200g kale on four slices of toast makes a sensible breakfast for four, and the timings and liquid are right for wilting the kale."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing an onion, mushrooms and garlic and shredding kale, then about nine minutes of attended frying, fits within 18 minutes of prep, and the 2 minutes of cook time matches the covered wilting."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm kale hash on toast suits a November morning, and 200g of kale is a main component, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling breakfast of pulses, vegetables and wholemeal toast that a family would happily eat again."
+  }
+ }
+}

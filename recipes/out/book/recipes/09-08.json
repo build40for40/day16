@@ -17,19 +17,19 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Red cabbage and lentil fritters",
+  "title": "Baked red cabbage and chickpea fritters",
   "meal": "lunch",
   "dish_form": "fritters",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "hob",
+  "kit": "oven",
   "utensils": [
-   "a saucepan",
-   "a sieve",
-   "a large frying pan"
+   "a mixing bowl",
+   "a masher",
+   "a roasting tray"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 20,
+  "cook_minutes": 25,
   "time_note": "",
   "best_time": "midday",
   "freezes": true,
@@ -53,9 +53,14 @@
   ],
   "ingredients": [
    {
-    "id": "red-lentils",
-    "quantity": "150g",
-    "name": "red lentils"
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "2 tins",
+    "name": "chickpeas"
    },
    {
     "id": "red-cabbage",
@@ -74,13 +79,8 @@
    },
    {
     "id": "plain-flour",
-    "quantity": "75g",
+    "quantity": "50g",
     "name": "plain flour"
-   },
-   {
-    "id": "sunflower-oil",
-    "quantity": "4 tbsp",
-    "name": "sunflower oil"
    },
    {
     "id": "natural-yoghurt",
@@ -94,14 +94,18 @@
    }
   ],
   "steps": [
-   "Simmer the lentils in plenty of water for 10 minutes, until just soft. Drain well and cool.",
-   "Mix the finely shredded cabbage and sliced spring onions with the lentils, eggs, flour, 2 tsp cumin and a good pinch of salt.",
-   "Heat a thin layer of oil in the pan. Fry flattened spoonfuls for 3 minutes a side, until crisp.",
+   "Heat the oven to 220°C (200°C fan). Oil a roasting tray with 2 tbsp oil.",
+   "Roughly mash the drained chickpeas. Mix in the shredded cabbage, sliced spring onions, eggs, flour, 2 tsp cumin and a pinch of salt.",
+   "Drop 12 flattened spoonfuls on the tray and brush with the remaining oil. Bake for 25 minutes, turning once.",
    "Stir chopped mint and lemon juice into the yoghurt. Serve with the fritters and salad."
   ]
  },
- "attempts": 1,
- "rejections": [],
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 80 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

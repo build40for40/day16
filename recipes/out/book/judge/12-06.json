@@ -1,0 +1,43 @@
+{
+ "day": 340,
+ "title": "Pear and clementine crumble with hazelnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Pears, clementines, honey, butter, ground almonds, demerara, hazelnuts and Greek yoghurt are all ordinary kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is on the shelves of any Tesco, and ground almonds and hazelnuts are normal baking-aisle buys at these amounts."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a bowl, a knife and an oven, and rubbing in is a beginner's technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four pears and six clementines under a 60g butter, 100g almond crumble at 190°C for 25 to 30 minutes gives a sensible warm snack for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Coring four pears, peeling and slicing six clementines, rubbing in and chopping hazelnuts fits about 15 minutes, and the 30-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm fruit crumble suits early December, and clementines are a main part of the fruit base rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, British and easy to follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, nuts and yoghurt with modest sugar make a proper snack a family would happily eat again."
+  }
+ }
+}

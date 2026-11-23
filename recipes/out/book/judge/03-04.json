@@ -1,43 +1,43 @@
 {
  "day": 63,
- "title": "Rhubarb and orange compote with yoghurt",
+ "title": "Orange and rhubarb compote with yoghurt",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Rhubarb, oranges, honey, almonds, Greek yoghurt and cinnamon are all plain whole foods any grandparent would have kept."
+   "reason": "Oranges, rhubarb, honey, almonds, Greek yoghurt and cinnamon are all plain whole foods a grandparent would keep."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient, including forced rhubarb in March, is an everyday item at Tesco."
+   "reason": "Forced rhubarb, oranges, almonds and Greek yoghurt are all everyday stock at Tesco in March."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a saucepan, a grater and a knife, and peeling and slicing an orange is within a beginner's reach."
+   "reason": "Only a small pan, a frying pan, a knife and a zester or grater are needed, and peeling oranges with a knife is within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "400g rhubarb with three oranges, 2 tbsp honey and 500g yoghurt makes four good bowls, and a covered 5 to 6 minute simmer suits tender March rhubarb."
+   "reason": "Rhubarb simmered for 5 minutes with orange juice, honey and cinnamon, then served over 125g of yoghurt each with almonds, gives a balanced, sensibly sized breakfast for four."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Toasting the almonds, zesting, peeling and slicing the oranges and cutting the rhubarb fit within 15 minutes, and the short simmer fits the 10 minutes of cooking."
+   "reason": "Zesting and peeling four oranges, chopping the rhubarb and almonds fits in 15 minutes, and a 5 minute simmer plus toasting the almonds fits 10."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and the cinnamon appear in the steps, and nothing unlisted is used apart from water."
+   "reason": "Every listed ingredient and the cinnamon is used in the steps, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "The oranges are a full partner in the dish: zest and juice in the compote, and sliced rounds stirred through it, which suits a chilly early March morning."
+   "reason": "A warm compote suits early March, and oranges lead both the title and the dish, alongside forced rhubarb."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+   "reason": "The steps are short, clear and in plain British English."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Fruit, Greek yoghurt and toasted almonds make a proper, filling breakfast with only modest added honey."
+   "reason": "Fruit, protein-rich yoghurt and nuts with a little honey make a proper breakfast a family would happily repeat."
   }
  }
 }

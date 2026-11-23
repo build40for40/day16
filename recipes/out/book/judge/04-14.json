@@ -1,43 +1,43 @@
 {
  "day": 104,
- "title": "Smoky beans with crispy potatoes",
+ "title": "Crispy potatoes with smoky beans",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Potatoes, tinned beans and tomatoes, spring onions, garlic, spinach, oil and smoked paprika are all plain home-kitchen foods."
+   "reason": "Potatoes, tinned tomatoes, tinned haricot beans, spinach and olive oil are all plain home staples, with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday Tesco item at an ordinary price."
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "A large frying pan with a lid and basic frying and simmering are all it needs."
+   "reason": "It needs only a frying pan with a lid and a small pan, using simple frying and simmering."
   },
   "works": {
-   "pass": false,
-   "reason": "The potatoes are fried until golden, then simmered for 5 minutes in the tinned tomatoes and beans, so they turn soft and the 'crispy potatoes' in the title won't survive; serving the beans over the potatoes instead would fix it."
+   "pass": true,
+   "reason": "600g potatoes with two tins of beans and a tin of tomatoes is a filling breakfast for four, and the covered-then-uncovered frying will cook 1cm cubes through and crisp them."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The steps add up to about 25 to 27 minutes of cooking (10 + 8–10 + 1 + 5 + wilting), not the 22 printed, making it roughly 37 minutes in all for a breakfast asked to be quick."
+   "pass": true,
+   "reason": "Dicing 600g potatoes and slicing spring onions and garlic fits in 12 minutes, and the 18 to 20 minutes of potato frying matches the 20 cook minutes, with the beans done alongside."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the chives, is used, and the steps add nothing unlisted."
+   "reason": "All listed items are used, the names match their ids, and the step's '2 tsp paprika' clearly refers to the listed smoked paprika."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Potatoes are the bulk of the dish and suit a cool mid-April morning, with spring onions and spinach in season."
+   "reason": "Stored potatoes are the bulk of a warm April breakfast hash, with garden spinach, spring onions and chives in season."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "Short, clear British instructions a beginner can follow."
+   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Potatoes, two tins of beans, tomatoes and spinach make a filling, wholesome breakfast with protein and vegetables."
+   "reason": "Potatoes, beans, tomatoes and spinach make a proper, filling breakfast of real food that a family would happily eat again."
   }
  }
 }

@@ -17,15 +17,15 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Rhubarb and orange compote with yoghurt",
+  "title": "Orange and rhubarb compote with yoghurt",
   "meal": "breakfast",
   "dish_form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "one saucepan",
-   "a grater"
+   "one small pan",
+   "a small frying pan"
   ],
   "prep_minutes": 15,
   "cook_minutes": 10,
@@ -40,13 +40,8 @@
   ],
   "ingredients": [
    {
-    "id": "almonds",
-    "quantity": "50g",
-    "name": "almonds"
-   },
-   {
     "id": "oranges",
-    "quantity": "3",
+    "quantity": "4",
     "name": "oranges"
    },
    {
@@ -60,16 +55,21 @@
     "name": "honey"
    },
    {
+    "id": "almonds",
+    "quantity": "50g",
+    "name": "almonds"
+   },
+   {
     "id": "greek-yoghurt",
     "quantity": "500g",
     "name": "Greek yoghurt"
    }
   ],
   "steps": [
-   "Toast the roughly chopped almonds in a dry saucepan until golden, then tip out.",
-   "Zest one orange. Cut the peel off all three, slice into rounds and save the juice.",
-   "Add the rhubarb, cut into 3cm lengths, to the pan with the zest, juice, honey, a pinch of cinnamon and 2 tbsp water. Cover and simmer for 5 to 6 minutes, until just tender.",
-   "Stir in the orange slices off the heat. Spoon over bowls of yoghurt and scatter with the almonds."
+   "Zest one orange. Cut the peel from all four, then slice into rounds, saving the juice.",
+   "Simmer the rhubarb, cut into short lengths, with the honey, zest, juice and a pinch of cinnamon for 5 minutes, until just tender.",
+   "Take off the heat and stir in the orange slices.",
+   "Toast the chopped almonds in a dry pan until golden. Spoon the warm compote over bowls of yoghurt and scatter with the almonds."
   ]
  },
  "attempts": 1,

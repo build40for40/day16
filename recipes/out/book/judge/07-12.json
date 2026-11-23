@@ -1,0 +1,43 @@
+{
+ "day": 193,
+ "title": "Plaice with pointed cabbage, potato and dill salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple: potatoes, cabbage, radishes, yoghurt, wholegrain mustard, plaice, flour and butter."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Plaice fillets, pointed cabbage, radishes and Greek yoghurt are all everyday items at Tesco and similar supermarkets."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a frying pan and a bowl, and the techniques are boiling, shredding and pan-frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four, the potato and fish timings are right for thin plaice fillets, and frying in two batches is something any cook would work out."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes of active work covers halving, shredding, slicing, dressing and frying the fish, and the 15-minute cook matches the potato boil."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon, dill and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A raw pointed cabbage and new potato salad with pan-fried plaice suits a July evening, and the cabbage forms the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, potatoes and plenty of fresh vegetables make a proper, balanced family dinner."
+  }
+ }
+}

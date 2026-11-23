@@ -1,0 +1,43 @@
+{
+ "day": 337,
+ "title": "Kippers with garlic mushrooms on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Kippers, butter, mushrooms, garlic, bread, thyme and lemon are all plain foods a grandparent would have kept."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Kippers, chestnut mushrooms and wholemeal bread are everyday items at Tesco and similar supermarkets."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grill tray and a frying pan, and the technique is simple grilling and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four kippers, 400g mushrooms and four slices of toast make a sensible breakfast for four, and the grill and frying times are right."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to slice 400g of mushrooms and the garlic, pick the thyme and make toast, and the grill and fry times fit within ten minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Each name matches its id, and every listed ingredient and seasoning, including thyme, lemon and pepper, is used in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm kipper and mushroom breakfast suits early December, and 400g of mushrooms makes them a main part of the plate, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oily fish, plenty of mushrooms and wholemeal toast make a filling breakfast of real food."
+  }
+ }
+}

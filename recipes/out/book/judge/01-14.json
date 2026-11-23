@@ -1,43 +1,43 @@
 {
  "day": 14,
- "title": "Chicken, mushroom and leek casserole",
+ "title": "Chicken, mushroom and butter bean stew",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is ordinary home food: chicken, vegetables, stock, crème fraîche and Dijon mustard."
+   "reason": "Everything is whole food or a plain staple; chicken stock, butter beans, crème fraîche and Dijon mustard are all acceptable cupboard items."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Drumsticks, leeks, mushrooms, kale, potatoes and crème fraîche are everyday Tesco items at normal prices."
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded casserole and simple browning and simmering."
+   "reason": "It needs only a lidded casserole and a knife and board, with simple browning and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "Eight drumsticks, 600g potatoes and 500ml stock simmered for 35 minutes makes a properly cooked, well-sauced casserole for four."
+   "reason": "The quantities suit four, 400ml stock with drained beans gives a proper stew, chicken chunks are cooked through after 15 minutes' simmering, and the crème fraîche and mustard season the sauce."
   },
   "honest_times": {
    "pass": false,
-   "reason": "The 20 minutes prep plus 45 minutes cook comes to over an hour, which is far past the quick weeknight pace asked for."
+   "reason": "The step timings add up to 31 minutes on the hob against 25 printed, and 15 minutes of prep cannot cover chopping 8 thighs, 2 leeks, 400g mushrooms, garlic and kale plus 11 minutes of hands-on browning and frying."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the thyme, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including the fresh thyme, is used in the steps, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A hearty casserole suits mid-January, and 400g of mushrooms makes them a main component rather than a garnish, though chicken leads the title."
+   "reason": "A warming chicken, leek, kale and mushroom stew suits mid-January, and 400g of mushrooms makes them a main component rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, clear British English a beginner could follow."
+   "reason": "The steps are short, clear British English that a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling one-pot meal of chicken, potatoes and plenty of vegetables that a family would happily eat again."
+   "reason": "It is a filling family meal of chicken, beans and three vegetables."
   }
  }
 }

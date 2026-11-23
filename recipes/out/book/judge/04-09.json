@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Rhubarb, butter, sugar, eggs, almonds and an orange are all plain home-kitchen ingredients."
+   "reason": "Rhubarb, butter, sugar, eggs, ground and flaked almonds, orange and ginger are all plain cupboard and garden foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Ground and flaked almonds, forced rhubarb and the other items are everyday stock at Tesco, at ordinary baking prices."
+   "reason": "Every ingredient is a standard supermarket line, and 200g of ground almonds is an everyday baking cost."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "Creaming by hand in a bowl and baking in a square tin needs only ordinary kit and beginner technique."
+   "reason": "It needs only a square tin, a bowl, a wooden spoon and a grater, and creaming by hand is well within a beginner's reach."
   },
   "works": {
    "pass": true,
-   "reason": "The frangipane ratio of 150g butter, 125g sugar, 3 eggs and 200g ground almonds in a 20cm tin, baked at 180°C for 40 to 45 minutes, sets well, and 300g rhubarb on top gives 12 good squares."
+   "reason": "The 150g butter, 125g sugar, 3 eggs and 200g ground almonds make a sound flourless frangipane that bakes through in a 20cm tin at 180°C in 40 to 45 minutes, and 12 squares is right for a family snack."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The cook time is printed as 75 minutes, but the steps give a bake of only 40 to 45 minutes, so the cook time does not match the method."
+   "pass": true,
+   "reason": "Twenty minutes is realistic for chopping rhubarb, zesting an orange and creaming by hand, and the 45 minute cook matches the bake time in the method."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and the ginger appear in the steps, flaked almonds are genuinely almonds, the orange is used for its zest and nothing unlisted is called for."
+   "reason": "Every listed item, including the orange as zest and the ground ginger, appears in the steps, and flaked almonds are honestly the almonds id."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Early April rhubarb is the star topping of a spring afternoon traybake."
+   "reason": "Rhubarb is at its peak in early April and is pressed over the whole top as the point of the traybake."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
+   "reason": "The steps are short, clear and in plain British English with no restaurant language."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is an almond-rich cake with fruit that a family would gladly eat as an afternoon snack, not mostly sugar or refined starch."
+   "reason": "It is a sensible afternoon snack built mainly on almonds, eggs and fruit rather than mostly sugar or refined flour."
   }
  }
 }

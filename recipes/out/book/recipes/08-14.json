@@ -17,15 +17,14 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Spinach dal with cucumber raita",
+  "title": "Cucumber and red lentil dal",
   "meal": "dinner",
   "dish_form": "dal",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "one large pan",
-   "a grater"
+   "one large pan"
   ],
   "prep_minutes": 15,
   "cook_minutes": 30,
@@ -33,6 +32,10 @@
   "best_time": "evening",
   "freezes": false,
   "seasoning": [
+   {
+    "id": "mustard-seeds",
+    "name": "mustard seeds"
+   },
    {
     "id": "cumin",
     "name": "cumin"
@@ -42,12 +45,8 @@
     "name": "turmeric"
    },
    {
-    "id": "garam-masala",
-    "name": "garam masala"
-   },
-   {
-    "id": "mint",
-    "name": "mint"
+    "id": "coriander",
+    "name": "coriander"
    },
    {
     "id": "salt",
@@ -71,9 +70,9 @@
     "name": "garlic cloves"
    },
    {
-    "id": "tomatoes",
-    "quantity": "4",
-    "name": "tomatoes"
+    "id": "chillies",
+    "quantity": "1",
+    "name": "green chilli"
    },
    {
     "id": "red-lentils",
@@ -81,26 +80,26 @@
     "name": "red lentils"
    },
    {
-    "id": "spinach",
-    "quantity": "200g",
-    "name": "spinach"
+    "id": "tomatoes",
+    "quantity": "3",
+    "name": "tomatoes"
    },
    {
     "id": "cucumber",
-    "quantity": "1",
-    "name": "cucumber"
+    "quantity": "2",
+    "name": "cucumbers"
    },
    {
     "id": "natural-yoghurt",
-    "quantity": "300g",
+    "quantity": "200g",
     "name": "natural yoghurt"
    }
   ],
   "steps": [
-   "Soften the sliced onion in the oil in a large pan for 8 minutes. Add the garlic, 1 tsp cumin and 1 tsp turmeric for 1 minute.",
-   "Add the chopped tomatoes, lentils and 1.2 litres water. Simmer for 20 to 25 minutes, stirring now and then, until thick.",
-   "Stir in the spinach and 1 tsp garam masala until wilted. Season with salt.",
-   "Grate the cucumber, squeeze it dry and mix with the yoghurt and chopped mint. Spoon over the dal."
+   "Fry 1 tsp each of mustard seeds and cumin in the oil until they pop. Soften the sliced onion, garlic and chilli for 5 minutes.",
+   "Add the lentils, chopped tomatoes, 1 tsp turmeric and 1 litre water. Simmer for 15 minutes.",
+   "Stir in the peeled, seeded cucumbers in thick chunks. Cook for 10 minutes, until just tender.",
+   "Season, scatter with coriander and serve with yoghurt."
   ]
  },
  "attempts": 1,

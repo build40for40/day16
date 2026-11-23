@@ -1,0 +1,43 @@
+{
+ "day": 333,
+ "title": "Roast pumpkin dip with crunchy veg",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple, and tahini is on the store cupboard list rather than being a factory-made sauce or mix."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pumpkin, tahini, Greek yoghurt and the crudité veg are all everyday items at a mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, masher and bowl, and the technique is just roasting and mashing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "700g of roast pumpkin mashed with garlic, tahini, 150g yoghurt and lemon makes a well-seasoned dip ample for four at 200°C for 30 minutes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers peeling and cubing the pumpkin, cutting the crudités and mashing, and the 30-minute roast matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and 'paprika' in the last step clearly means the listed smoked paprika."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm roast pumpkin dip suits late November, and the pumpkin is the body of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a vegetable-rich dip with yoghurt, tahini and seeds served with raw veg, a proper wholesome snack."
+  }
+ }
+}

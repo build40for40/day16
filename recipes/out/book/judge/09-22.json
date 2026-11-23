@@ -1,0 +1,43 @@
+{
+ "day": 265,
+ "title": "Chicken, celery and barley soup",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or good stock, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Celery, chicken thighs, pearl barley and stock are everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one lidded pan and two forks, and the techniques are simple softening, simmering and shredding."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six thighs, 150g barley and 1.2 litres of stock make a sensible, generous soup for four, and 40 minutes is right for tender barley."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers slicing a head of celery, the onion and carrots, ten minutes of softening, and shredding the chicken, and the 40-minute simmer matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme, lemon and parsley, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming barley soup suits late September, and a whole head of celery plus its leaves makes celery central rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps read as clear, plain British home-cook instructions."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling soup of chicken, barley and vegetables that a family would happily eat again."
+  }
+ }
+}

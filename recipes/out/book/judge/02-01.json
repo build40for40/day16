@@ -1,43 +1,43 @@
 {
  "day": 32,
- "title": "Lamb, cabbage and celeriac fritters",
+ "title": "Baked lamb, cabbage and celeriac fritters",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a plain whole food or a basic staple: lamb mince, cabbage, celeriac, eggs, flour, oil, yoghurt, lemon and cumin."
+   "reason": "Lamb mince, cabbage, celeriac, eggs, flour, yoghurt and lemon are all plain home staples with no factory-made products."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket."
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a frying pan, a grater and a bowl, and shallow-frying spoonfuls is well within a beginner's reach."
+   "reason": "It needs only a roasting tray, grater, bowl and knife, and the technique is simple mixing and baking."
   },
   "works": {
    "pass": true,
-   "reason": "Three eggs and 100g flour bind the 550g of finely shredded and grated veg plus the lamb, and thin fritters at 3 minutes a side will cook through; any cook will see they need to fry in batches."
+   "reason": "The egg and flour should bind the meat and vegetables, and thin fritters at 220°C for 25 minutes on a hot oiled tray will cook the lamb through; 300g lamb plus 550g veg makes a fair lunch for four."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The mix makes around 16 fritters, so the lamb's 8 minutes plus about three batches at 6 minutes each runs to roughly 26 minutes of hands-on frying, well past the 15 unattended cook minutes printed for a quick lunch."
+   "pass": true,
+   "reason": "Shredding cabbage, peeling and grating celeriac, mixing and spooning out 16 fritters fits about 20 minutes, and the 25-minute bake matches the steps."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the lemon zest and juice, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including cumin and lemon, is used in the steps, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Hot, filling fritters suit a cold February lunch, and 300g of shredded white cabbage is a main component, not a garnish."
+   "reason": "Hot baked fritters suit a February lunch, and white cabbage is a main bulk ingredient named in the title."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear and plainly worded in British English."
+   "reason": "The steps are short, clear British English a neighbour would give."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Lamb, eggs and plenty of veg with a yoghurt dip make a proper, satisfying family lunch."
+   "reason": "Lamb, cabbage and celeriac fritters with yoghurt make a proper balanced meal a family would eat again."
   }
  }
 }

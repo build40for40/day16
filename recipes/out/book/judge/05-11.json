@@ -1,0 +1,43 @@
+{
+ "day": 131,
+ "title": "Seared Little Gem and pea pasta with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain kitchen staple, and vegetable stock, crème fraîche and dried pasta are all acceptable."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Little Gems, penne, frozen peas, crème fraîche and vegetarian hard cheese are everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large pan, a frying pan and a grater, with simple boiling and searing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four, the eggs and pasta share the water sensibly, and the stock and crème fraîche sauce with lemon, cheese and mint should coat the penne and taste good."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is enough to quarter the lettuces, slice the garlic, grate the cheese and peel the eggs, and the cook time roughly matches 7 minutes of egg boiling followed by the pasta."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the lemon zest and mint, is used, nothing unlisted appears, and Little Gem and penne match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Four seared Little Gems are central to this light May dinner, so the lettuce is clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pasta with eggs, peas, lettuce and cheese makes a balanced, filling family dinner."
+  }
+ }
+}

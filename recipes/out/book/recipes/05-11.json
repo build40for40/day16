@@ -18,7 +18,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Cabbage, lettuce and pea carbonara",
+  "title": "Seared Little Gem and pea pasta with eggs",
   "meal": "dinner",
   "dish_form": "pasta",
   "diet": "vegetarian",
@@ -27,11 +27,10 @@
   "utensils": [
    "a large pan",
    "a large frying pan",
-   "a bowl and whisk",
    "a grater"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 10,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -49,20 +48,20 @@
     "name": "lemon"
    },
    {
-    "id": "chives",
-    "name": "chives"
+    "id": "mint",
+    "name": "mint"
    }
   ],
   "ingredients": [
    {
-    "id": "dried-pasta",
-    "quantity": "400g",
-    "name": "spaghetti"
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
    },
    {
-    "id": "frozen-peas",
-    "quantity": "200g",
-    "name": "frozen peas"
+    "id": "dried-pasta",
+    "quantity": "400g",
+    "name": "penne"
    },
    {
     "id": "butter",
@@ -70,9 +69,9 @@
     "name": "butter"
    },
    {
-    "id": "pointed-cabbage",
-    "quantity": "1",
-    "name": "pointed cabbage"
+    "id": "lettuce",
+    "quantity": "4",
+    "name": "Little Gem lettuces"
    },
    {
     "id": "garlic",
@@ -80,26 +79,31 @@
     "name": "garlic"
    },
    {
-    "id": "lettuce",
-    "quantity": "2",
-    "name": "Little Gem lettuces"
+    "id": "frozen-peas",
+    "quantity": "200g",
+    "name": "frozen peas"
    },
    {
-    "id": "eggs",
-    "quantity": "3",
-    "name": "eggs"
+    "id": "vegetable-stock",
+    "quantity": "150ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche"
    },
    {
     "id": "vegetarian-hard-cheese",
-    "quantity": "60g",
+    "quantity": "40g",
     "name": "vegetarian hard cheese"
    }
   ],
   "steps": [
-   "Boil the spaghetti in salted water for 10 minutes, adding the peas for the last 2.",
-   "Fry the shredded cabbage and sliced garlic in the butter for 5 minutes. Stir in the shredded lettuce until it wilts.",
-   "Whisk the eggs, grated cheese, lemon zest and plenty of pepper.",
-   "Save a mug of pasta water and drain. Off the heat, toss pasta, greens and egg with a splash of water until glossy. Add chives."
+   "Boil the eggs for 7 minutes, cool and peel. Cook the pasta in the same salted water.",
+   "Sear the quartered lettuces cut side down in the butter for 3 minutes, then lift out.",
+   "Soften the sliced garlic in the pan. Add peas and stock, simmer 3 minutes, then stir in crème fraîche and lemon zest.",
+   "Toss with the drained pasta, grated cheese and lettuce. Season, top with halved eggs and torn mint."
   ]
  },
  "attempts": 1,

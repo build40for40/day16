@@ -1,0 +1,43 @@
+{
+ "day": 356,
+ "title": "Celeriac and butter bean pot with pollock",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a cupboard staple; vegetable stock counts as good stock and tinned butter beans are allowed."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Celeriac, pollock fillets, kale, mushrooms and tinned butter beans are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole and a sieve, and the techniques are frying, simmering and steaming fish on top."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g celeriac, two tins of beans, 500ml stock and four fillets give a sensible brothy pot for four, and the 15-minute simmer and 6–8 minutes for the fish are realistic."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers peeling and cubing the celeriac and slicing the onion, mushrooms, garlic and kale, and 8+15+8 minutes matches the 30 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, including the lemon and the seasoned pollock, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm celeriac and bean pot suits 22 December, and 600g of celeriac makes it the backbone of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, beans and plenty of vegetables make a filling, balanced lunch a family would happily eat again."
+  }
+ }
+}

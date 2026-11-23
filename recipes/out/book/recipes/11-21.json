@@ -18,19 +18,20 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Squash, sprout and lentil bake",
+  "title": "Squash, sprout and lentil gratin",
   "meal": "dinner",
-  "dish_form": "bake",
+  "dish_form": "gratin",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "oven",
+  "kit": "hob_and_oven",
   "utensils": [
-   "a large baking dish",
-   "foil",
+   "a roasting tray",
+   "a saucepan",
+   "a sieve",
    "a grater"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 60,
+  "cook_minutes": 35,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -55,14 +56,14 @@
     "name": "butternut squash"
    },
    {
-    "id": "red-onions",
-    "quantity": "1",
-    "name": "red onion"
+    "id": "brussels-sprouts",
+    "quantity": "300g",
+    "name": "Brussels sprouts"
    },
    {
-    "id": "garlic",
-    "quantity": "2",
-    "name": "garlic cloves"
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
    },
    {
     "id": "puy-lentils",
@@ -70,37 +71,36 @@
     "name": "puy lentils"
    },
    {
-    "id": "vegetable-stock",
-    "quantity": "600ml",
-    "name": "vegetable stock"
-   },
-   {
-    "id": "brussels-sprouts",
-    "quantity": "300g",
-    "name": "Brussels sprouts"
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
    },
    {
     "id": "creme-fraiche",
-    "quantity": "100ml",
+    "quantity": "200ml",
     "name": "crème fraîche"
    },
    {
-    "id": "breadcrumbs",
-    "quantity": "50g",
-    "name": "breadcrumbs"
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
    },
    {
     "id": "cheddar",
     "quantity": "75g",
     "name": "vegetarian cheddar"
+   },
+   {
+    "id": "breadcrumbs",
+    "quantity": "40g",
+    "name": "breadcrumbs"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan).",
-   "Tip the peeled, cubed squash, sliced onion, crushed garlic, rinsed lentils, thyme leaves and stock into a large baking dish. Season.",
-   "Cover with foil and bake for 35 minutes.",
-   "Stir in the crème fraîche and halved sprouts. Scatter over the breadcrumbs mixed with the grated cheddar.",
-   "Bake uncovered for 20 to 25 minutes, until the lentils are tender and the top is golden."
+   "Heat the oven to 220°C (200°C fan). Toss the peeled, small cubed squash and halved sprouts in the tray with the oil, thyme leaves and seasoning. Roast for 25 minutes.",
+   "Meanwhile, simmer the lentils and peeled garlic in plenty of water for 20 minutes, until just tender. Drain and mash in the garlic.",
+   "Stir the lentils, crème fraîche and mustard through the veg. Season, then scatter over the grated cheddar and breadcrumbs.",
+   "Bake for 10 minutes, until bubbling and golden."
   ]
  },
  "attempts": 1,

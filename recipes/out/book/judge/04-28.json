@@ -1,43 +1,43 @@
 {
  "day": 118,
- "title": "Leek, cauliflower and chickpea hash",
+ "title": "Leek and new potato tray hash with eggs",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is whole food or a plain staple such as tinned chickpeas, eggs and Greek yoghurt."
+   "reason": "Potatoes, leeks, broccoli, eggs, Cheddar, oil and herbs are all plain kitchen and garden foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at any Tesco."
+   "reason": "Every ingredient, including purple sprouting broccoli in April, is an everyday Tesco item."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "A saucepan and a lidded frying pan are all it needs, and the techniques are simple."
+   "reason": "It needs only a roasting tray, knife and grater, and the technique is simple roasting and baking eggs."
   },
   "works": {
-   "pass": false,
-   "reason": "About 1.8kg of veg goes into one frying pan with only 2 tbsp oil (500g potatoes, a cauliflower, 3 leeks, a tin of chickpeas and spinach), so it will steam rather than 'fry until crisp' in 12 minutes, and there is little room left to crack in four eggs."
+   "pass": true,
+   "reason": "600g potatoes, three leeks, 200g broccoli and an egg each make a sensible breakfast for four, and the 220°C timings cook the potatoes through and set the eggs."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Chopping plus about 17 minutes of hands-on frying fits roughly within 25 minutes of prep, and the boiling and egg-setting account for the 15 minutes of cook time."
+   "reason": "Fifteen minutes is enough to halve the potatoes, wash and slice the leeks, trim the broccoli and grate the cheese, and 20+12+8 minutes matches the 40 cook minutes."
   },
   "honest_ingredients": {
-   "pass": false,
-   "reason": "The step says 'paprika' but the seasoning list has smoked paprika, and plain paprika is a separate cupboard item, so the reader may reach for the wrong jar."
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and the names match their ids."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Late-April leeks lead a warm hash that suits a cool spring morning."
+   "reason": "Three leeks with late-April sprouting broccoli make a warm tray breakfast that suits a cool spring morning, and the leeks are central rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are clear and plainly worded in British English."
+   "reason": "The steps are short, clear and in plain British English."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Vegetables, chickpeas, eggs and potatoes make a filling, balanced breakfast."
+   "reason": "Potatoes, two green vegetables, eggs and cheese make a filling, balanced cooked breakfast a family would want again."
   }
  }
 }

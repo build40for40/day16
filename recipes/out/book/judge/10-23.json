@@ -1,0 +1,43 @@
+{
+ "day": 296,
+ "title": "Fig and pear crumble with hazelnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, butter, flour, oats, sugar, honey, hazelnuts and Greek yoghurt are all ordinary home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Figs, pears and hazelnuts are all on mainstream supermarket shelves in October at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a bowl and fingertip rubbing-in, which suits a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight figs and three pears under a 100g flour, 75g butter and 50g oat topping at 190°C for 30 to 35 minutes gives a properly baked crumble for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers quartering figs, coring and chopping pears, chopping nuts and rubbing in, and the 35-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon and both halves of the cinnamon, is used, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm fig and pear crumble suits late October, and the figs are central to the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is mostly fruit with oats, nuts and yoghurt and only modest added sugar, a satisfying snack a family would make again."
+  }
+ }
+}

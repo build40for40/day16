@@ -1,0 +1,43 @@
+{
+ "day": 150,
+ "title": "Spring greens slaw on toast with cottage cheese",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is plain whole food or simple staples; tahini and cottage cheese are on the store cupboard list and nothing is a jarred sauce or packet mix."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including tahini and cottage cheese, is an everyday item at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A knife, grater, bowl, whisk, small pan and an ordinary toaster or grill are all it needs, and the technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Finely shredded and salted spring greens with carrot and radish make a good raw slaw, and the tahini dressing loosened with lemon and water is well balanced for four slices of toast."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is realistic for shredding greens, grating two carrots, slicing radishes and spring onions, whisking the dressing and toasting, and three minutes suits toasting the seeds."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A fresh raw slaw suits late May, and the spring greens are the bulk and point of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps read as clear, plain British English instructions with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with cottage cheese and a generous vegetable slaw is a satisfying, balanced snack a family would make again."
+  }
+ }
+}

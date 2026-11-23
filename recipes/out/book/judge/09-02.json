@@ -1,0 +1,43 @@
+{
+ "day": 245,
+ "title": "Pear and pumpkin seed flapjacks",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, golden syrup, brown sugar, oats, seeds, egg and pears are all plain cupboard and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item in any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a saucepan and a 20cm square tin are needed, and the technique is simple melting and pressing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The ratios are standard for a flapjack, the egg helps it hold with the wet pear topping, and 30 minutes at 180°C will set and colour it for 12 bars."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to melt, stir, core and slice two pears and press it all into the tin, and the 30-minute bake matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early September pears laid across the top are the feature of a baked afternoon snack that suits late summer."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oat-heavy bars with seeds, egg and fresh fruit make a reasonable family snack rather than pure sugar."
+  }
+ }
+}

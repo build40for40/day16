@@ -1,0 +1,43 @@
+{
+ "day": 246,
+ "title": "Creamy rice porridge with warm grapes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Pudding rice, milk, almonds, grapes, honey, cinnamon and lemon are all plain cupboard and fridge foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a standard Tesco line at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a heavy pan and a frying pan, and the technique is simple simmering and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "150g pudding rice in 1.3 litres of liquid for 30 to 35 minutes gives a creamy porridge for four, and the honeyed grapes and almonds balance it."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Halving the grapes, chopping and toasting the almonds and warming the fruit fit within 15 minutes alongside a 35-minute simmer, which matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm grapes are the topping that makes the dish, and a warm porridge suits an early September morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Milk, rice, fruit and almonds make a filling breakfast with only a tablespoon of honey across four bowls."
+  }
+ }
+}

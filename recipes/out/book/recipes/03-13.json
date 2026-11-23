@@ -18,7 +18,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Pollock, mushroom and orange soup",
+  "title": "Mushroom and leek soup with pollock",
   "meal": "lunch",
   "dish_form": "soup",
   "diet": "fish",
@@ -27,15 +27,15 @@
   "utensils": [
    "one large pan"
   ],
-  "prep_minutes": 20,
+  "prep_minutes": 25,
   "cook_minutes": 25,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
   "seasoning": [
    {
-    "id": "fennel-seeds",
-    "name": "fennel seeds"
+    "id": "thyme",
+    "name": "thyme"
    },
    {
     "id": "salt",
@@ -52,14 +52,14 @@
   ],
   "ingredients": [
    {
-    "id": "olive-oil",
-    "quantity": "2 tbsp",
-    "name": "olive oil"
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
    },
    {
-    "id": "onions",
-    "quantity": "1",
-    "name": "onion"
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
    },
    {
     "id": "garlic",
@@ -68,18 +68,13 @@
    },
    {
     "id": "mushrooms",
-    "quantity": "250g",
+    "quantity": "500g",
     "name": "mushrooms"
    },
    {
     "id": "potatoes",
-    "quantity": "400g",
+    "quantity": "300g",
     "name": "potatoes"
-   },
-   {
-    "id": "chopped-tomatoes",
-    "quantity": "1 tin",
-    "name": "chopped tomatoes"
    },
    {
     "id": "vegetable-stock",
@@ -87,9 +82,9 @@
     "name": "vegetable stock"
    },
    {
-    "id": "oranges",
-    "quantity": "1",
-    "name": "orange"
+    "id": "milk",
+    "quantity": "200ml",
+    "name": "milk"
    },
    {
     "id": "pollock",
@@ -103,11 +98,11 @@
    }
   ],
   "steps": [
-   "Warm the oil in a large pan. Soften the chopped onion and garlic with 1 tsp fennel seeds for 5 minutes.",
-   "Add the sliced mushrooms and fry for 5 minutes until golden.",
-   "Add the diced potatoes, tomatoes, stock and two strips of orange zest. Simmer for 15 minutes.",
-   "Add the pollock in chunks and the orange juice. Simmer gently for 5 minutes, until the fish flakes.",
-   "Season, scatter with chopped parsley and serve with bread."
+   "Melt the butter in a large pan. Soften the sliced leeks and garlic for 5 minutes.",
+   "Add the sliced mushrooms and thyme leaves. Fry for 8 minutes until golden.",
+   "Add the diced potatoes and stock. Simmer for 15 minutes, then crush a few potatoes to thicken.",
+   "Stir in the milk, add the pollock in chunks and simmer gently for 5 minutes, until it flakes.",
+   "Season, scatter with parsley and serve with bread."
   ]
  },
  "attempts": 1,

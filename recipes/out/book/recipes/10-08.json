@@ -25,10 +25,11 @@
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "one wide pan with a lid"
+   "one wide pan with a lid",
+   "a ladle"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 25,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -73,12 +74,12 @@
    },
    {
     "id": "white-wine",
-    "quantity": "150ml",
+    "quantity": "100ml",
     "name": "white wine"
    },
    {
     "id": "vegetable-stock",
-    "quantity": "1.2 litres",
+    "quantity": "850ml",
     "name": "hot vegetable stock"
    },
    {
@@ -98,10 +99,11 @@
    }
   ],
   "steps": [
-   "Melt the butter in a wide pan. Soften the chopped onion for 5 minutes.",
-   "Stir in the rice, the peeled pumpkin in small cubes and the chopped sage. Add the wine, then the hot stock. Cover and simmer for 15 minutes, stirring now and then.",
-   "Stir in the shredded sprouts. Lay the whiting on top, cover and cook for 6 minutes, until the fish flakes.",
-   "Fold in the Parmesan and a squeeze of lemon, breaking the fish into chunks. Season."
+   "Soften the chopped onion in the butter for 5 minutes.",
+   "Stir in the rice, small cubes of peeled pumpkin and chopped sage. Add the wine and let it bubble away.",
+   "Add the stock a ladle at a time over 18 minutes, stirring often, until the rice is just tender.",
+   "Stir in the shredded sprouts and lay the whiting on top. Cover for 5 minutes, until it flakes.",
+   "Fold in the Parmesan and lemon juice, breaking up the fish. Season."
   ]
  },
  "attempts": 1,

@@ -17,18 +17,17 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Leek, cauliflower and chickpea hash",
+  "title": "Leek and new potato tray hash with eggs",
   "meal": "breakfast",
   "dish_form": "breakfast hash",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "hob",
+  "kit": "one_tray",
   "utensils": [
-   "a saucepan",
-   "a large frying pan with a lid"
+   "a large roasting tray"
   ],
-  "prep_minutes": 25,
-  "cook_minutes": 15,
+  "prep_minutes": 15,
+  "cook_minutes": 40,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -46,8 +45,8 @@
     "name": "smoked paprika"
    },
    {
-    "id": "cumin",
-    "name": "cumin"
+    "id": "thyme",
+    "name": "thyme"
    },
    {
     "id": "chives",
@@ -57,17 +56,12 @@
   "ingredients": [
    {
     "id": "new-potatoes",
-    "quantity": "500g",
+    "quantity": "600g",
     "name": "new potatoes"
    },
    {
-    "id": "cauliflower",
-    "quantity": "1 small",
-    "name": "cauliflower"
-   },
-   {
     "id": "olive-oil",
-    "quantity": "2 tbsp",
+    "quantity": "3 tbsp",
     "name": "olive oil"
    },
    {
@@ -76,14 +70,9 @@
     "name": "leeks"
    },
    {
-    "id": "chickpeas",
-    "quantity": "1 tin",
-    "name": "chickpeas"
-   },
-   {
-    "id": "spinach",
-    "quantity": "100g",
-    "name": "spinach"
+    "id": "purple-sprouting-broccoli",
+    "quantity": "200g",
+    "name": "sprouting broccoli"
    },
    {
     "id": "eggs",
@@ -91,20 +80,24 @@
     "name": "eggs"
    },
    {
-    "id": "greek-yoghurt",
-    "quantity": "4 tbsp",
-    "name": "Greek yoghurt"
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "mature Cheddar"
    }
   ],
   "steps": [
-   "Boil the halved potatoes in salted water for 8 minutes, adding the cauliflower florets for the last 3. Drain.",
-   "Soften the sliced leeks in the oil in a large frying pan for 5 minutes. Add the potatoes, cauliflower and drained chickpeas. Fry for 12 minutes, turning often, until crisp.",
-   "Stir in 1 tsp each of paprika and cumin, then the spinach until wilted. Season.",
-   "Crack in the eggs, cover and cook for 5 minutes, until the whites set. Spoon over the yoghurt and scatter with chives."
+   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes in the tray with the oil, 1 tsp smoked paprika, the thyme and salt. Roast for 20 minutes.",
+   "Add the leeks, cut into thick rounds, and the broccoli. Roast for 12 minutes more, until golden.",
+   "Make four gaps, crack in the eggs and grate over the Cheddar. Bake for 6 to 8 minutes, until the whites set.",
+   "Season and scatter with chives."
   ]
  },
- "attempts": 1,
- "rejections": [],
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 82 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

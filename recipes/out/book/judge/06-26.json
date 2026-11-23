@@ -1,0 +1,43 @@
+{
+ "day": 177,
+ "title": "New potato and tomato hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain home staple: potatoes, olive oil, spring onions, tomatoes, eggs, smoked paprika and chives."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "All the ingredients are everyday items at any mainstream supermarket in June."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large frying pan with a lid and simple steam-then-fry and egg-cracking techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Steaming quartered new potatoes in a covered pan, frying them, then setting four eggs under a lid gives a sensible hash for four, and any water left over boils off while frying."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Sixteen minutes covers quartering the potatoes and chopping the tomatoes, spring onions and chives, and the step timings add up to the printed 20 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "400g of fresh tomatoes with new potatoes makes a warm, light June breakfast in which the tomatoes are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear, in British English and easy for a beginner to follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, tomatoes, spring onions and an egg each make a filling breakfast of real food that a family would happily eat again."
+  }
+ }
+}

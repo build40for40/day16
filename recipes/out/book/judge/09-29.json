@@ -1,0 +1,43 @@
+{
+ "day": 272,
+ "title": "Roast potatoes, halloumi and cherry tomatoes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, mushrooms, cherry tomatoes, halloumi, honey and herbs are all whole foods or simple cheeses with nothing factory-built."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including a 225g block of halloumi, is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large roasting tray, a knife and a board, and the technique is simple tossing and roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g potatoes, 400g tomatoes and 225g halloumi make a sensible breakfast for four, and 40 minutes at 220°C with staged additions will cook everything through without burning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Cubing potatoes, halving mushrooms, slicing halloumi and snipping chives fit in 15 minutes, and the 20+10+10 roasting matches the 40 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps under its true name, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A generous 400g of roasted, burst cherry tomatoes is right for late September and central to the plate rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, vegetables and halloumi make a filling, real-food cooked breakfast a family would happily repeat."
+  }
+ }
+}

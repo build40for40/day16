@@ -1,0 +1,43 @@
+{
+ "day": 147,
+ "title": "Spinach, asparagus and new potato hash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is whole food: potatoes, asparagus, spring onions, spinach, eggs, Greek yoghurt, oil and spices."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a Tesco staple, and British asparagus is at its cheapest in late May."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan and simple frying, so it suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Covering the halved new potatoes for 15 minutes, then frying for 5 more, should make them tender, and the quantities of spinach, asparagus and eggs suit four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is believable for halving potatoes and slicing asparagus, spring onions and chives, and the steps add up to roughly the 25 minutes of cooking printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the chives and smoked paprika, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm hash of spinach, asparagus and new potatoes suits late May, and the 200g of spinach is a real component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, two green vegetables, eggs and yoghurt make a balanced, filling breakfast a family would want again."
+  }
+ }
+}

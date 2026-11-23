@@ -17,17 +17,17 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Chicken, mushroom and leek casserole",
+  "title": "Chicken, mushroom and butter bean stew",
   "meal": "dinner",
-  "dish_form": "casserole",
+  "dish_form": "stew",
   "diet": "meat",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
    "a large casserole with a lid"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 45,
+  "prep_minutes": 15,
+  "cook_minutes": 25,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -47,9 +47,9 @@
   ],
   "ingredients": [
    {
-    "id": "chicken-drumsticks",
+    "id": "chicken-thighs",
     "quantity": "8",
-    "name": "chicken drumsticks"
+    "name": "boneless chicken thighs"
    },
    {
     "id": "olive-oil",
@@ -72,13 +72,13 @@
     "name": "garlic cloves"
    },
    {
-    "id": "potatoes",
-    "quantity": "600g",
-    "name": "small potatoes"
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
    },
    {
     "id": "chicken-stock",
-    "quantity": "500ml",
+    "quantity": "400ml",
     "name": "chicken stock"
    },
    {
@@ -98,10 +98,10 @@
    }
   ],
   "steps": [
-   "Season the drumsticks and brown them in the oil in a casserole for 8 minutes. Lift out.",
+   "Season the chicken, cut into chunks, and brown in the oil in a casserole for 6 minutes. Lift out.",
    "Fry the sliced leeks, quartered mushrooms and crushed garlic for 5 minutes, until the mushrooms colour.",
-   "Add the halved potatoes, thyme and stock. Sit the chicken on top, cover and simmer for 35 minutes.",
-   "Stir in the shredded kale, crème fraîche and mustard. Cook for 5 minutes more, until the kale wilts. Season."
+   "Return the chicken with the drained beans, thyme and stock. Cover and simmer for 15 minutes.",
+   "Stir in the shredded kale, crème fraîche and mustard. Cook for 5 minutes, until the kale wilts. Season."
   ]
  },
  "attempts": 1,

@@ -1,0 +1,43 @@
+{
+ "day": 260,
+ "title": "Pear and blackberry almond crumble",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, butter, ground almonds, hazelnuts, demerara sugar, cinnamon, lemon and Greek yoghurt are all plain home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is on a normal Tesco shelf, and 100g ground almonds plus 50g hazelnuts is an everyday baking spend."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a bowl, a knife and an oven, and rubbing in is a beginner's technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Five pears and 150g blackberries suit four, ripe pears need no extra sugar, and a butter, almond and hazelnut crumble bakes golden at 190°C in 25 to 30 minutes."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and chopping five pears, chopping a handful of hazelnuts and rubbing in fits 15 minutes, and the 30-minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Pears with blackberries in a warm crumble is right for mid-September, and the pears are the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Mostly fruit and nuts with yoghurt and only 40g sugar between four, it is a wholesome treat a family would make again."
+  }
+ }
+}

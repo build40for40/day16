@@ -1,43 +1,43 @@
 {
  "day": 38,
- "title": "Almond ricotta pancakes with cinnamon apples",
+ "title": "Apple and Cheddar rösti with fried eggs",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Apples, butter, honey, ricotta, eggs, ground almonds and Greek yoghurt are all plain whole foods a grandparent could have kept."
+   "reason": "Potatoes, apples, eggs, cornflour, Cheddar, oil and thyme are all ordinary kitchen staples."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is a standard Tesco line, and 100g of ground almonds and a tub of ricotta are everyday purchases rather than treats."
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a small pan, a frying pan, a bowl and a whisk, and frying spoonfuls of batter is within a confident beginner's reach."
+   "reason": "It needs only a grater, a tea towel, a bowl and a frying pan, and grating, squeezing and frying are within a confident beginner's reach."
   },
   "works": {
-   "pass": false,
-   "reason": "The batter of 4 eggs to 250g ricotta and only 100g ground almonds, with no flour, will be loose rather than the 'thick batter' promised, so the pancakes are likely to tear when turned; the frying heat is also not given."
+   "pass": true,
+   "reason": "Six hundred grams of squeezed potato with two apples, bound with an egg and cornflour, makes enough flat cakes for four, and frying each side for 4 to 5 minutes over a medium heat will cook them through, with one fried egg each."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Slicing the apples, frying them and frying the pancakes in batches comes to roughly the 25 active minutes printed, with the apples cooking while the batter is whisked."
+   "reason": "Grating, squeezing and frying in batches fits believably within the printed 40 minutes in total."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and 'eating apples' matches the apples id."
+   "reason": "Each name matches its id, every listed item, including the thyme and oil, is used in the steps, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Warm, buttery cinnamon apples from store suit a cold February morning, and three apples make them a real topping rather than a garnish."
+   "reason": "Stored apples grated through a hot potato rösti suit a February morning, and the apple is a main component rather than a garnish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short and clear, in plain British English, with no restaurant language or preaching."
+   "reason": "The steps are short, clear and in plain British English."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Eggs, ricotta, almonds, yoghurt and fruit make a filling, protein-rich breakfast with little sugar that a family would happily eat again."
+   "reason": "Potato, apple, cheese and eggs make a filling, proper breakfast that a family would want again."
   }
  }
 }

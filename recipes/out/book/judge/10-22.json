@@ -1,0 +1,43 @@
+{
+ "day": 295,
+ "title": "Roast pumpkin and smoked haddock salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple, such as pumpkin, potatoes, smoked haddock, eggs, milk, mustard and cider vinegar."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pumpkin, smoked haddock and watercress are all everyday Tesco items in October at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a saucepan and a frying pan, and boiling eggs and poaching fish are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "1kg pumpkin, 500g potatoes, 500g haddock and four eggs suit four people, halved small potatoes and pumpkin cubes roast through in 35 minutes at 200°C, and the dressing ratio is sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and cubing the pumpkin and halving the potatoes fit in 25 minutes, the eggs, fish and dressing can be done while the veg roasts, and the 35-minute roast matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including thyme and chives, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm roast pumpkin salad with smoked haddock suits late October, and the pumpkin is the bulk of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Roast veg, potatoes, fish and eggs make a filling, balanced family dinner."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 306,
+ "title": "Squash and red lentil soup with kale",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a cupboard staple, and vegetable stock counts as good stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Squash, red lentils, kale, pumpkin seeds and the rest are everyday items at any Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one heavy pan and a masher, with simple frying and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "1kg squash, 200g lentils, a tin of tomatoes and 1.2 litres of stock make a thick soup for four, and 20 minutes' simmering softens cubed squash and red lentils."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The 15 minutes of prep has to cover peeling and cubing 1kg of butternut squash, chopping the onion and garlic, shredding the kale, toasting the seeds and softening the onion for 5 minutes, which realistically runs nearer 25, so 40 minutes in all is slow for a quick dinner."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, each name matches its id, and lemon is on the November fresh list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming squash soup suits early November, and the squash is clearly the heart of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A filling soup of squash, lentils, tomatoes and kale is a proper family meal."
+  }
+ }
+}

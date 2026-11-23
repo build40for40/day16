@@ -1,0 +1,43 @@
+{
+ "day": 231,
+ "title": "Warm tomatoes on toast with ricotta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Tomatoes, garlic, olive oil, crusty bread, ricotta and basil are all plain whole foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including ricotta and fresh basil, is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan and a toaster or grill, and the technique is simple frying and assembling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six large tomatoes, 250g ricotta and four slices of toast make a sound light breakfast for four, though six sliced tomatoes will crowd one pan and soften rather than colour."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes to slice six tomatoes and a garlic clove, toast the bread and season the ricotta is realistic, and the 3 to 4 minutes in the pan matches the five-minute cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the basil and the split of the oil (2 tbsp in the pan, the rest to finish), is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm garden tomatoes are the heart of the dish and perfect for mid-August."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Tomatoes, ricotta and toast make a real-food breakfast with vegetables and protein that a family would happily repeat."
+  }
+ }
+}

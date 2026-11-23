@@ -17,32 +17,30 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Potato, mushroom and kale hash with eggs",
+  "title": "Crushed potatoes with leeks and soft eggs",
   "meal": "breakfast",
-  "dish_form": "hash",
+  "dish_form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "one_pot",
+  "kit": "hob",
   "utensils": [
-   "one large frying pan with a lid"
+   "one saucepan",
+   "one frying pan",
+   "a fork"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 25,
+  "cook_minutes": 12,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
   "seasoning": [
    {
-    "id": "thyme",
-    "name": "thyme"
-   },
-   {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
-   },
-   {
     "id": "salt",
     "name": "salt"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
    },
    {
     "id": "black-pepper",
@@ -52,40 +50,41 @@
   "ingredients": [
    {
     "id": "potatoes",
-    "quantity": "800g",
+    "quantity": "750g",
     "name": "potatoes"
-   },
-   {
-    "id": "rapeseed-oil",
-    "quantity": "3 tbsp",
-    "name": "rapeseed oil"
-   },
-   {
-    "id": "onions",
-    "quantity": "1",
-    "name": "onion"
-   },
-   {
-    "id": "mushrooms",
-    "quantity": "250g",
-    "name": "mushrooms"
-   },
-   {
-    "id": "kale",
-    "quantity": "100g",
-    "name": "kale"
    },
    {
     "id": "eggs",
     "quantity": "4",
     "name": "eggs"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "60g",
+    "name": "cheddar"
    }
   ],
   "steps": [
-   "Cut the potatoes into 1cm cubes. Fry in the oil in a large lidded pan for 15 minutes, turning often, until golden and tender.",
-   "Add the sliced onion and mushrooms, the thyme leaves and 1 tsp paprika. Fry for 5 minutes.",
-   "Stir in the shredded kale and a splash of water until wilted. Season.",
-   "Make four hollows, crack in the eggs, cover and cook for 4 minutes, until the whites set."
+   "Cut the potatoes into 2cm chunks and simmer in salted water for 12 minutes. Add the eggs for the last 7.",
+   "Meanwhile, soften the sliced leeks in the butter with the thyme leaves for 8 minutes.",
+   "Drain the potatoes. Cool the eggs in cold water and peel them.",
+   "Roughly crush the potatoes with the leeks, mustard and grated cheddar. Season.",
+   "Top with the halved eggs and plenty of black pepper."
   ]
  },
  "attempts": 1,

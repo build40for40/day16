@@ -17,23 +17,22 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Cheese and salad leaf squares",
+  "title": "Ricotta puff tart with lemony leaves",
   "meal": "snack",
-  "dish_form": "savoury bake",
+  "dish_form": "savoury tart",
   "diet": "vegetarian",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
+   "a baking tray",
    "a mixing bowl",
-   "a 20cm square baking dish",
-   "a grater",
-   "a whisk"
+   "a grater"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 30,
+  "cook_minutes": 25,
   "time_note": "",
   "best_time": "afternoon",
-  "freezes": true,
+  "freezes": false,
   "seasoning": [
    {
     "id": "salt",
@@ -44,8 +43,8 @@
     "name": "black pepper"
    },
    {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
+    "id": "lemons",
+    "name": "lemon"
    },
    {
     "id": "chives",
@@ -54,19 +53,24 @@
   ],
   "ingredients": [
    {
-    "id": "butter",
-    "quantity": "80g",
-    "name": "butter, melted"
+    "id": "puff-pastry",
+    "quantity": "320g sheet",
+    "name": "puff pastry"
    },
    {
-    "id": "self-raising-flour",
+    "id": "ricotta",
     "quantity": "250g",
-    "name": "self-raising flour"
+    "name": "ricotta"
    },
    {
-    "id": "cheddar",
-    "quantity": "150g",
-    "name": "grated cheddar"
+    "id": "eggs",
+    "quantity": "1",
+    "name": "egg"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "30g",
+    "name": "vegetarian hard cheese"
    },
    {
     "id": "salad-leaves",
@@ -74,31 +78,26 @@
     "name": "salad leaves"
    },
    {
+    "id": "radishes",
+    "quantity": "6",
+    "name": "radishes"
+   },
+   {
     "id": "spring-onions",
-    "quantity": "4",
+    "quantity": "2",
     "name": "spring onions"
    },
    {
-    "id": "eggs",
-    "quantity": "2",
-    "name": "eggs"
-   },
-   {
-    "id": "milk",
-    "quantity": "200ml",
-    "name": "milk"
-   },
-   {
-    "id": "dijon-mustard",
-    "quantity": "1 tsp",
-    "name": "Dijon mustard"
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Butter a 20cm square baking dish.",
-   "Mix the flour, 1 tsp paprika, most of the cheese and a good pinch of salt and pepper. Stir in the chopped leaves, sliced spring onions and snipped chives.",
-   "Whisk the eggs, milk, melted butter and mustard, then fold in until just combined.",
-   "Spread in the dish, top with the rest of the cheese and bake for 25 to 30 minutes, until golden. Cut into squares."
+   "Heat the oven to 220°C (200°C fan). Unroll the pastry onto a tray and score a 2cm border.",
+   "Beat the ricotta, egg, most of the cheese, snipped chives, lemon zest and seasoning. Spread inside the border.",
+   "Bake for 20 to 25 minutes, until puffed and deep golden. Cool for 5 minutes.",
+   "Toss the leaves, sliced radishes and spring onions with the oil and a squeeze of lemon. Pile on, grate over the last of the cheese and cut into squares."
   ]
  },
  "attempts": 1,

@@ -1,0 +1,43 @@
+{
+ "day": 277,
+ "title": "Spiced lamb and swede with rice",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Lamb mince, swede, tinned tomatoes, rice, peas, yoghurt and ordinary spices are all things a grandparent would have kept."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan, a saucepan and a sieve, and the techniques are simple browning, simmering and boiling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g lamb, a small swede and 300g rice suit four, and 20 minutes covered with a tin of tomatoes and 200ml water will make 1cm swede tender without the pan running dry."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and dicing the swede and chopping the onion can be done while the lamb browns, so 25 minutes of active work and about 30 minutes of simmering are believable."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the mint, appears in the steps, and nothing unlisted is used apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming spiced lamb and swede braise suits early October, and the swede is a main part of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British instructions that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family dinner of meat, vegetables, peas, rice and yoghurt."
+  }
+ }
+}

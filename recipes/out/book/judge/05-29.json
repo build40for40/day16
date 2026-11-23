@@ -1,0 +1,43 @@
+{
+ "day": 149,
+ "title": "Roast mackerel with asparagus and new potatoes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a traditional condiment; horseradish sauce sits alongside mustard as an ordinary cupboard jar."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "New potatoes, asparagus in season, mackerel fillets, crème fraîche and horseradish are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray and a bowl, and the technique is simple staged roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The staged timings at 220°C suit halved new potatoes, asparagus and skin-up mackerel fillets, and the quantities serve four sensibly."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Halving potatoes and trimming asparagus fit in 12 minutes, the sauce can be mixed while the tray roasts, and 20+8+8 matches the 36 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A late-May traybake with a generous 500g of asparagus as a main component suits the date and the weather."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oily fish, potatoes, asparagus and salad make a balanced, appealing family dinner."
+  }
+ }
+}

@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Kippers on toast with peppery blackberries",
+  "title": "Warm blackberries on toast with kipper ricotta",
   "meal": "breakfast",
   "dish_form": "on toast",
   "diet": "fish",
@@ -25,11 +25,11 @@
   "kit": "hob",
   "utensils": [
    "a frying pan",
-   "a toaster",
-   "a small bowl"
+   "a bowl",
+   "a toaster"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 6,
+  "cook_minutes": 8,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -41,33 +41,32 @@
    {
     "id": "lemons",
     "name": "lemon"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
    }
   ],
   "ingredients": [
    {
+    "id": "kippers",
+    "quantity": "2",
+    "name": "kipper fillets"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   },
+   {
     "id": "blackberries",
-    "quantity": "200g",
+    "quantity": "400g",
     "name": "blackberries"
    },
    {
-    "id": "cider-vinegar",
-    "quantity": "1 tbsp",
-    "name": "cider vinegar"
-   },
-   {
     "id": "honey",
-    "quantity": "1 tsp",
+    "quantity": "1 tbsp",
     "name": "honey"
-   },
-   {
-    "id": "butter",
-    "quantity": "30g",
-    "name": "butter"
-   },
-   {
-    "id": "kippers",
-    "quantity": "4",
-    "name": "kipper fillets"
    },
    {
     "id": "bread",
@@ -76,15 +75,15 @@
    },
    {
     "id": "watercress",
-    "quantity": "80g",
+    "quantity": "50g",
     "name": "watercress"
    }
   ],
   "steps": [
-   "Lightly crush the blackberries with the vinegar, honey and plenty of black pepper. Leave to sit.",
-   "Melt a knob of the butter in a frying pan. Fry the kippers skin side up for 3 minutes, turn and cook 2 minutes more.",
-   "Toast and butter the bread. Lift the kipper off its skin and bones in big flakes.",
-   "Pile watercress and kipper on the toast, squeeze over lemon and spoon on the blackberries."
+   "Simmer the kippers in a frying pan of water for 4 minutes. Drain and flake off the skin and bones.",
+   "Beat the kipper into the ricotta with the lemon zest and plenty of pepper.",
+   "Wipe the pan. Warm the blackberries with the honey and thyme for 3 to 4 minutes, until burst and jammy.",
+   "Toast the bread, spread with kipper ricotta and pile on the warm blackberries. Top with watercress."
   ]
  },
  "attempts": 1,

@@ -1,0 +1,43 @@
+{
+ "day": 178,
+ "title": "Turkey, fennel and chard pasta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or a basic like crème fraîche, Parmesan and dried pasta, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Turkey mince, fennel, chard, crème fraîche and Parmesan are all everyday items at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large pan, a frying pan and a grater, and uses simple browning and wilting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g pasta, 500g turkey and 300g chard make a sensible amount for four, and cooking the stalks before the leaves with pasta water to loosen the sauce should give a good result."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing one fennel bulb and two garlic cloves, separating the chard and grating the cheese fits 15 minutes, and the frying overlaps the 12 minutes the pasta boils, which suits a quick lunch."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, penne is fairly labelled as dried pasta, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "The 300g of chard is used both as fried stalks and wilted leaves, so it carries the dish rather than garnishing it, and a lemony pasta suits late June."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced meal of lean protein, plenty of greens and fennel, and pasta, which a family would happily eat."
+  }
+ }
+}

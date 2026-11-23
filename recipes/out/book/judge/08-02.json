@@ -1,0 +1,43 @@
+{
+ "day": 214,
+ "title": "Marrow, fennel and sausage tart",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Puff pastry, sausages, crème fraîche, mustard and Parmesan are all ordinary kitchen staples, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including the ready-rolled puff pastry sheet and pork sausages, is an everyday Tesco purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking tray, a bowl, a knife and a grater, and scoring pastry and skinning sausages are within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Salting and drying the marrow limits sogginess, small pieces of sausage meat cook through in 25 to 30 minutes at 200°C, and a 320g sheet with four sausages makes a fair lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and slicing the marrow and fennel, skinning the sausages, grating the cheese and spreading the base fit in about 18 minutes, and the 30-minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Marrow is the main topping on an August lunch tart, which suits the season and the weather."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper lunch with vegetables and meat on pastry that a family would happily eat again."
+  }
+ }
+}

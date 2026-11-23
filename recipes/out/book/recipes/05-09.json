@@ -17,88 +17,67 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Ham and cheese toasties with rhubarb relish",
+  "title": "Roast rhubarb with gammon and eggs",
   "meal": "breakfast",
-  "dish_form": "toastie",
+  "dish_form": "traybake",
   "diet": "meat",
-  "gluten_free": false,
-  "kit": "hob",
+  "gluten_free": true,
+  "kit": "one_tray",
   "utensils": [
-   "a small pan",
-   "a large frying pan",
-   "a grater"
+   "a large roasting tray"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 12,
+  "prep_minutes": 10,
+  "cook_minutes": 22,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
   "seasoning": [
    {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
     "id": "black-pepper",
     "name": "black pepper"
    },
    {
-    "id": "ground-ginger",
-    "name": "ground ginger"
+    "id": "thyme",
+    "name": "thyme"
    }
   ],
   "ingredients": [
    {
     "id": "rhubarb",
-    "quantity": "250g",
+    "quantity": "400g",
     "name": "rhubarb"
    },
    {
-    "id": "red-onions",
+    "id": "oranges",
     "quantity": "1",
-    "name": "red onion"
+    "name": "orange"
    },
    {
-    "id": "brown-sugar",
+    "id": "honey",
     "quantity": "2 tbsp",
-    "name": "soft brown sugar"
+    "name": "honey"
    },
    {
-    "id": "cider-vinegar",
-    "quantity": "2 tbsp",
-    "name": "cider vinegar"
-   },
-   {
-    "id": "bread",
-    "quantity": "8 slices",
-    "name": "wholemeal bread"
-   },
-   {
-    "id": "butter",
-    "quantity": "30g",
-    "name": "butter"
-   },
-   {
-    "id": "wholegrain-mustard",
+    "id": "olive-oil",
     "quantity": "1 tbsp",
-    "name": "wholegrain mustard"
+    "name": "olive oil"
    },
    {
-    "id": "ham",
-    "quantity": "200g",
-    "name": "sliced cooked ham"
+    "id": "gammon",
+    "quantity": "4",
+    "name": "gammon steaks"
    },
    {
-    "id": "cheddar",
-    "quantity": "150g",
-    "name": "mature cheddar"
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
    }
   ],
   "steps": [
-   "Simmer the sliced rhubarb and chopped onion with the sugar, vinegar, ginger and a pinch of salt for 10 minutes, until jammy.",
-   "Butter the bread on one side. Make four sandwiches, butter outside, filled with mustard, ham, grated cheddar and pepper.",
-   "Fry two at a time over a medium heat, pressing down, for 3 to 4 minutes a side until golden.",
-   "Halve and serve with the warm relish."
+   "Heat the oven to 220°C (200°C fan). Toss the rhubarb, cut into 4cm lengths, on the tray with the orange zest and juice, honey, thyme leaves and oil.",
+   "Snip the fat on the gammon so it stays flat. Nestle it among the rhubarb and roast for 12 minutes.",
+   "Turn the gammon, make four gaps and crack an egg into each. Roast for 8 to 10 minutes, until the whites are set.",
+   "Grind over pepper and spoon the sticky rhubarb over the gammon."
   ]
  },
  "attempts": 1,

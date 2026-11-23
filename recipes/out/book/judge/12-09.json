@@ -1,0 +1,43 @@
+{
+ "day": 343,
+ "title": "Pork, Savoy and apple soup with cider",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain staple, and chicken stock and dry cider are both acceptable."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pork mince, Savoy, apples, potatoes, cider and fennel seeds are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs one large pan and a wooden spoon, and the technique is simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g pork, 500g potatoes, half a Savoy and 1.2 litres of stock make a sensible hearty soup for four, and the potatoes get about 22 minutes, enough to soften."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes of active work is believable if the cabbage and apples are prepped while the soup simmers, and the 25-minute cook matches the 15 plus 6 to 8 minute simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and the names match their ids with nothing extra in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming pork, Savoy and apple soup suits a December evening, and the cabbage is central to it."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and written in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling soup of pork, potatoes, cabbage and carrots that a family would happily eat again."
+  }
+ }
+}

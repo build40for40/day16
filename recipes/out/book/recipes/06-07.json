@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Blackcurrant compote with yoghurt and toasted oats",
+  "title": "Blackcurrant and strawberry compote with yoghurt",
   "meal": "breakfast",
   "dish_form": "fruit compote with yoghurt",
   "diet": "vegetarian",
@@ -38,20 +38,25 @@
     "name": "lemon"
    },
    {
-    "id": "cinnamon",
-    "name": "cinnamon"
+    "id": "mint",
+    "name": "mint"
    }
   ],
   "ingredients": [
    {
     "id": "blackcurrants",
-    "quantity": "300g",
+    "quantity": "150g",
     "name": "blackcurrants"
    },
    {
     "id": "honey",
-    "quantity": "2 tbsp",
+    "quantity": "1 tbsp",
     "name": "honey"
+   },
+   {
+    "id": "strawberries",
+    "quantity": "300g",
+    "name": "strawberries"
    },
    {
     "id": "oats",
@@ -70,10 +75,10 @@
    }
   ],
   "steps": [
-   "Strip the blackcurrants from their stalks. Simmer with the honey and 2 tbsp water for 5 minutes, until they burst and turn jammy.",
-   "Add a squeeze of lemon and let it cool a little.",
-   "Toast the oats and seeds in a dry frying pan for 3 to 4 minutes, stirring, until golden. Add a pinch of cinnamon.",
-   "Spoon the yoghurt into bowls, swirl through the compote and scatter over the oats."
+   "Strip the blackcurrants from their stalks. Simmer with the honey and 2 tbsp water for 4 minutes, until they burst. No blackcurrants? Use raspberries.",
+   "Add the halved strawberries and a squeeze of lemon. Warm for 1 minute, then cool a little.",
+   "Toast the oats and seeds in a dry frying pan for 3 to 4 minutes, until golden.",
+   "Spoon the yoghurt into bowls. Top with the compote, the oats and torn mint."
   ]
  },
  "attempts": 1,

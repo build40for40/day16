@@ -1,11 +1,11 @@
 {
  "day": 5,
- "title": "Leek and potato hash with eggs",
+ "title": "Leek, mushroom and butter bean hash with eggs",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Potatoes, leeks, eggs, cheddar, butter, oil and herbs are all plain home staples."
+   "reason": "Leeks, mushrooms, tinned butter beans, kale, eggs, cheddar, butter and oil are all ordinary home staples."
   },
   "supermarket": {
    "pass": true,
@@ -13,31 +13,31 @@
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a lidded frying pan and a grater, and the techniques are simple."
+   "reason": "It needs only a large lidded frying pan and a grater, with simple frying and eggs cooked in hollows."
   },
   "works": {
    "pass": true,
-   "reason": "800g potatoes, 3 leeks and 4 eggs make a sensible hash for four, and the covered-then-uncovered frying and covered eggs will cook through."
+   "reason": "Three leeks, 250g mushrooms, two tins of beans, 100g kale and four eggs make a sensible hash for four, and the covered 4 minutes will set the whites."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "For a breakfast asked to be quick, 15 minutes prep plus 25 cooking makes 40 minutes, and the steps actually add up to 27–28 minutes of cooking (15 + 8 + 4–5), so it is neither quick nor matched to the printed cook time."
+   "pass": true,
+   "reason": "Ten minutes is believable for slicing the leeks and mushrooms, with the kale and beans readied while they fry, and the 8+3+4 minutes in the steps match the 15 cook minutes."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used and nothing unlisted appears, though the step says 'paprika' where 'smoked paprika' is listed."
+   "reason": "Every listed ingredient and seasoning is used, though step 2 says 'paprika' where the list says smoked paprika, which could be tightened."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm leek and potato hash suits a cold January morning, and the leeks are central to the dish."
+   "reason": "A hot leek-led hash with kale suits a cold January morning, and leeks are the base of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, clear British English a beginner could follow."
+   "reason": "The steps are clear, plain British English with no restaurant language."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Potatoes, leeks, eggs and cheese make a filling, real-food breakfast a family would happily eat."
+   "reason": "Vegetables, beans and eggs make a filling, balanced breakfast a family would happily repeat."
   }
  }
 }

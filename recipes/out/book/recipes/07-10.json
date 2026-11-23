@@ -17,7 +17,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Blackcurrant pancakes",
+  "title": "Oaty blackcurrant pancakes with peanut butter",
   "meal": "breakfast",
   "dish_form": "pancakes",
   "diet": "vegan",
@@ -30,7 +30,7 @@
    "a whisk"
   ],
   "prep_minutes": 25,
-  "cook_minutes": 5,
+  "cook_minutes": 10,
   "time_note": "",
   "best_time": "morning",
   "freezes": true,
@@ -56,39 +56,54 @@
    },
    {
     "id": "caster-sugar",
-    "quantity": "4 tbsp",
+    "quantity": "2 tbsp",
     "name": "caster sugar"
    },
    {
-    "id": "self-raising-flour",
-    "quantity": "250g",
-    "name": "self-raising flour"
+    "id": "wholemeal-flour",
+    "quantity": "150g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "oats",
+    "quantity": "100g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "ground-almonds",
+    "quantity": "50g",
+    "name": "ground almonds"
    },
    {
     "id": "baking-powder",
-    "quantity": "1 tsp",
+    "quantity": "2 tsp",
     "name": "baking powder"
    },
    {
     "id": "sunflower-oil",
-    "quantity": "3 tbsp",
+    "quantity": "2 tbsp",
     "name": "sunflower oil"
+   },
+   {
+    "id": "peanut-butter",
+    "quantity": "4 tbsp",
+    "name": "peanut butter"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds"
    }
   ],
   "steps": [
-   "Simmer 200g currants with 2 tbsp sugar and 2 tbsp water for 5 minutes. Add a squeeze of lemon.",
-   "Whisk the flour, baking powder, remaining sugar, lemon zest and a pinch each of cinnamon and salt.",
-   "Whisk in 300ml water and 2 tbsp oil, then fold in the rest of the currants.",
-   "Fry ladlefuls in a lightly oiled pan until bubbles show, then flip for a minute.",
-   "Serve stacked with the warm blackcurrants."
+   "Simmer 200g of the currants with the sugar and 2 tbsp water for 5 minutes. Add a squeeze of lemon.",
+   "Mix the flour, oats, almonds, baking powder and a pinch each of cinnamon and salt. Whisk in 400ml water and 1 tbsp oil, rest 5 minutes, then fold in the rest of the currants.",
+   "Fry ladlefuls in a lightly oiled pan for 2 to 3 minutes a side, until golden.",
+   "Loosen the peanut butter with a splash of warm water. Serve the stacks with the warm currants, peanut butter and seeds."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 84 words and runs 1 lines past the bottom of the page. Cut about 6 words."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

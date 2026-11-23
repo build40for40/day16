@@ -17,18 +17,18 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Beef meatball and salad leaf soup",
+  "title": "Crispy cumin beef on a big leafy salad",
   "meal": "dinner",
-  "dish_form": "hearty soup",
+  "dish_form": "warm salad",
   "diet": "meat",
   "gluten_free": false,
   "kit": "one_pot",
   "utensils": [
-   "one large pan",
-   "a grater"
+   "one large frying pan",
+   "a big serving bowl"
   ],
-  "prep_minutes": 25,
-  "cook_minutes": 25,
+  "prep_minutes": 20,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -42,40 +42,29 @@
     "name": "black pepper"
    },
    {
-    "id": "lemons",
-    "name": "lemon"
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
    }
   ],
   "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
    {
     "id": "beef-mince",
     "quantity": "400g",
     "name": "beef mince"
    },
    {
-    "id": "breadcrumbs",
-    "quantity": "40g",
-    "name": "breadcrumbs"
-   },
-   {
-    "id": "parmesan",
-    "quantity": "40g",
-    "name": "Parmesan"
-   },
-   {
-    "id": "olive-oil",
-    "quantity": "1 tbsp",
-    "name": "olive oil"
-   },
-   {
-    "id": "onions",
+    "id": "red-onions",
     "quantity": "1",
-    "name": "onion"
-   },
-   {
-    "id": "carrots",
-    "quantity": "2",
-    "name": "carrots"
+    "name": "red onion"
    },
    {
     "id": "garlic",
@@ -83,26 +72,41 @@
     "name": "garlic"
    },
    {
-    "id": "chicken-stock",
-    "quantity": "1.5 litres",
-    "name": "chicken stock"
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
    },
    {
-    "id": "dried-pasta",
-    "quantity": "150g",
-    "name": "small pasta shapes"
+    "id": "red-wine-vinegar",
+    "quantity": "1 tbsp",
+    "name": "red wine vinegar"
    },
    {
     "id": "salad-leaves",
-    "quantity": "150g",
+    "quantity": "250g",
     "name": "salad leaves"
+   },
+   {
+    "id": "radishes",
+    "quantity": "150g",
+    "name": "radishes"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "bread",
+    "quantity": "1 loaf",
+    "name": "crusty bread"
    }
   ],
   "steps": [
-   "Mix the mince, breadcrumbs, half the grated Parmesan, salt and pepper. Roll into small balls.",
-   "Brown them in the oil in a large pan, then lift out. Soften the chopped onion, carrots and garlic for 8 minutes.",
-   "Add the stock and meatballs and simmer for 10 minutes, then add the pasta for 8 minutes more.",
-   "Stir in the salad leaves until just wilted. Add a squeeze of lemon, season and top with the rest of the Parmesan."
+   "Fry the mince in the oil over a high heat for 10 minutes, until browned and crisp.",
+   "Add the sliced onion, crushed garlic, drained chickpeas and 2 tsp cumin. Fry for 5 minutes, then stir in the vinegar. Season.",
+   "Pile the leaves and sliced radishes into a big bowl and spoon the hot beef over.",
+   "Top with yoghurt mixed with chopped mint, and serve with bread."
   ]
  },
  "attempts": 1,

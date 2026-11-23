@@ -1,0 +1,43 @@
+{
+ "day": 127,
+ "title": "Asparagus, broad bean and pork frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food: potatoes, pork mince, broad beans, asparagus, eggs, Parmesan, rocket, fennel seeds and chives."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a mainstream Tesco line at an everyday price in May."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only an ovenproof frying pan, a whisk and a grater for the Parmesan, and the frittata technique suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs with potatoes, pork and vegetables makes a generous frittata for four, and 15 minutes at 200°C will set it in a large pan."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing, podding and about 18 minutes of frying fit roughly within the 30 minutes of prep printed, and the 15-minute bake matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Asparagus and broad beans in an early May frittata is right for the date, and the asparagus is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling lunch of eggs, pork, potatoes and green vegetables that a family would happily eat again."
+  }
+ }
+}

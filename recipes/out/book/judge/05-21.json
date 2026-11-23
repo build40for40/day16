@@ -1,0 +1,43 @@
+{
+ "day": 141,
+ "title": "Chicken salad with broad beans and asparagus",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple such as Dijon mustard and olive oil, with no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Chicken breasts, asparagus, broad beans, radishes, watercress and tarragon are all everyday supermarket lines in late May."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a saucepan and a small bowl, and the techniques are simple frying, boiling and whisking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Halved breasts fried for 4 to 5 minutes a side will cook through, 3 minutes suits the beans and asparagus, and 1kg of pods with three breasts makes a fair lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Podding 1kg of beans while the chicken fries, plus trimming, slicing and making the dressing, fits about 18 active minutes, and 12 minutes covers the frying and boiling."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm salad of fresh podded broad beans with asparagus and radishes suits late May, and the beans are a main component, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English instructions that a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a satisfying protein and vegetable lunch of real food that a family would happily eat."
+  }
+ }
+}

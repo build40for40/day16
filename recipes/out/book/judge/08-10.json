@@ -1,0 +1,43 @@
+{
+ "day": 222,
+ "title": "Roast lamb chops with marrow and chickpeas",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or basic staple: marrow, onions, tinned chickpeas, cherry tomatoes, lamb chops, Greek yoghurt, herbs and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a Tesco staple; eight lamb chops cost more than most dinners but are not a specialist buy."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a small bowl and a knife, with simple tray-roasting technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Roasting the marrow first drives off its water, and 15 minutes at 220°C cooks the chops through, with sensible amounts for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers peeling and chunking the marrow, wedging two onions and chopping the mint, and the 40 minutes of cooking matches the 25 plus 15 in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the third tablespoon of oil for the chops and the pepper in 'seasoned', is used, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Marrow is the main vegetable of an August tray roast with mint and tomatoes, which suits the date."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English with no restaurant jargon or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced family dinner of lamb, chickpeas and vegetables with a yoghurt sauce."
+  }
+ }
+}

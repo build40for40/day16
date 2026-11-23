@@ -17,7 +17,7 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Roast cauliflower and spelt with rocket and feta",
+  "title": "Roast mushroom bulgur with rocket pesto",
   "meal": "dinner",
   "dish_form": "traybake",
   "diet": "vegetarian",
@@ -25,10 +25,11 @@
   "kit": "one_tray",
   "utensils": [
    "a roasting tray",
-   "foil"
+   "foil",
+   "a grater"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 45,
+  "cook_minutes": 30,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -42,8 +43,8 @@
     "name": "black pepper"
    },
    {
-    "id": "cumin",
-    "name": "cumin"
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
    },
    {
     "id": "lemons",
@@ -52,24 +53,9 @@
   ],
   "ingredients": [
    {
-    "id": "spelt",
-    "quantity": "250g",
-    "name": "pearled spelt"
-   },
-   {
-    "id": "chickpeas",
-    "quantity": "1 tin",
-    "name": "chickpeas"
-   },
-   {
-    "id": "vegetable-stock",
-    "quantity": "750ml",
-    "name": "hot vegetable stock"
-   },
-   {
-    "id": "cauliflower",
-    "quantity": "1",
-    "name": "cauliflower"
+    "id": "mushrooms",
+    "quantity": "400g",
+    "name": "mushrooms"
    },
    {
     "id": "red-onions",
@@ -77,26 +63,46 @@
     "name": "red onions"
    },
    {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
+   },
+   {
     "id": "olive-oil",
-    "quantity": "2 tbsp",
+    "quantity": "5 tbsp",
     "name": "olive oil"
    },
    {
-    "id": "feta",
-    "quantity": "100g",
-    "name": "feta"
+    "id": "rocket",
+    "quantity": "120g",
+    "name": "rocket"
    },
    {
-    "id": "rocket",
-    "quantity": "100g",
-    "name": "rocket"
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "40g",
+    "name": "vegetarian hard cheese"
+   },
+   {
+    "id": "bulgur",
+    "quantity": "200g",
+    "name": "bulgur wheat"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Put the spelt and drained chickpeas in a roasting tray with the hot stock. Cover with foil and bake for 20 minutes.",
-   "Toss the cauliflower florets and onion wedges with the oil, 2 tsp cumin and salt.",
-   "Uncover, spread the veg on top and roast for 25 minutes, until browned.",
-   "Season with lemon juice and pepper, crumble over the feta and pile on the rocket."
+   "Heat the oven to 220°C (200°C fan). Toss the halved mushrooms, onion wedges and drained chickpeas with 2 tbsp oil, 1 tsp paprika and salt. Roast for 20 minutes.",
+   "Meanwhile, finely chop half the rocket with the walnuts and garlic. Stir in the grated cheese, 3 tbsp oil and lemon juice.",
+   "Stir the bulgur and 400ml boiling water into the tray. Cover with foil and bake for 10 minutes.",
+   "Fork through the pesto and remaining rocket. Season."
   ]
  },
  "attempts": 1,

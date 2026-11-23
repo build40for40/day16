@@ -1,0 +1,43 @@
+{
+ "day": 171,
+ "title": "Pork chops with fennel and pea rice",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or cupboard staple, and chicken stock counts as good stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pork chops, fennel, basmati, frozen peas and the rest are everyday Tesco lines at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one wide lidded pan, and browning and simmering are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g rice with 750ml stock, simmered covered for about 20 minutes with the chops on top, gives a soft one-pot rice and cooked-through chops for four, though it may be on the moist side."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing two fennel bulbs and garlic, browning the chops, softening and finishing fit in 20 active minutes, and the 10 plus 8 to 10 minute simmers match the 20 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids (basmati under long-grain-rice is allowed), and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fennel, doubled up with fennel seeds and paired with peas and lemon, is the point of a light midsummer dinner."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pork, rice, fennel and peas make a balanced, filling family dinner."
+  }
+ }
+}

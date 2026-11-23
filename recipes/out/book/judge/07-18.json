@@ -1,0 +1,43 @@
+{
+ "day": 199,
+ "title": "Blueberry and peach bircher",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, milk, natural yoghurt, honey, fresh fruit, lemon, cinnamon and pumpkin seeds are all ordinary kitchen staples with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item, and blueberries and peaches are at their cheapest in July."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a grater for the zest and a fork, with simple stirring and crushing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to 300ml milk and 200g yoghurt soaked overnight gives a sensible bircher for four, with enough fruit, sweetness and lemon to taste good."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers zesting, stirring, crushing berries and slicing two peaches, and the 480 minutes is the overnight soak given in the time note."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and the lemon is used as zest with nothing unlisted brought in."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A cold fruit bircher suits a July morning, and the blueberries are both stirred through and piled on top, so they are clearly the point."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, yoghurt, plenty of fruit and seeds make a filling, wholesome breakfast with only a little honey."
+  }
+ }
+}

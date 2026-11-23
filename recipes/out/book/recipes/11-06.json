@@ -17,7 +17,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Mustard chicken with roast Savoy and apples",
+  "title": "Mustard chicken with Savoy and butter beans",
   "meal": "dinner",
   "dish_form": "traybake",
   "diet": "meat",
@@ -27,8 +27,8 @@
    "a large roasting tray",
    "a small bowl"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 50,
+  "prep_minutes": 15,
+  "cook_minutes": 45,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -48,14 +48,9 @@
   ],
   "ingredients": [
    {
-    "id": "potatoes",
-    "quantity": "750g",
-    "name": "potatoes"
-   },
-   {
-    "id": "red-onions",
-    "quantity": "2",
-    "name": "red onions"
+    "id": "chicken-thighs",
+    "quantity": "8",
+    "name": "bone-in chicken thighs"
    },
    {
     "id": "olive-oil",
@@ -63,9 +58,9 @@
     "name": "olive oil"
    },
    {
-    "id": "chicken-thighs",
-    "quantity": "8",
-    "name": "bone-in chicken thighs"
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
    },
    {
     "id": "wholegrain-mustard",
@@ -84,24 +79,29 @@
    },
    {
     "id": "savoy-cabbage",
-    "quantity": "1",
+    "quantity": "½",
     "name": "Savoy cabbage"
    },
    {
-    "id": "apples",
-    "quantity": "2",
-    "name": "eating apples"
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). Toss the chunked potatoes and onion wedges with half the oil, the thyme and seasoning on a roasting tray.",
-   "Sit the seasoned chicken on top, skin up, and roast for 30 minutes.",
-   "Mix the mustard, honey, vinegar and remaining oil. Toss the Savoy and apple wedges in half and tuck around the chicken.",
-   "Brush the chicken with the rest. Roast for 20 minutes more, until the cabbage edges crisp."
+   "Heat the oven to 200°C (180°C fan). Rub the chicken with 1 tbsp oil, the thyme and seasoning.",
+   "Roast skin up on the tray with the onion wedges for 30 minutes.",
+   "Mix the mustard, honey and vinegar. Brush half over the chicken.",
+   "Tuck the shredded Savoy and drained beans around it with the rest of the oil. Roast 15 minutes more, until the cabbage crisps.",
+   "Stir the rest of the mustard mix through the cabbage and serve."
   ]
  },
- "attempts": 1,
- "rejections": [],
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 86 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

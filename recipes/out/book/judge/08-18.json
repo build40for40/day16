@@ -1,0 +1,43 @@
+{
+ "day": 230,
+ "title": "Roast chicken and cavolo nero salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Whole chicken, potatoes, cavolo nero, onion, tomatoes, Dijon mustard, lemon and rosemary are all plain home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, including the cavolo nero and the whole chicken, is an everyday line at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a bowl and a whisk, and roasting and massaging kale are within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eighty minutes at 200°C suits a 1.5kg chicken, the potatoes get 50 minutes in the fat, and the lemon-softened cavolo nero, tomatoes and mustard tray dressing make a sensible salad for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers chopping the rosemary, halving the potatoes and tomatoes, shredding and massaging the kale and tearing the chicken, and 90 minutes cook matches 30 plus 50 minutes roasting plus resting."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps under its true name, with pepper covered by 'Season', and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm roast chicken salad with raw cavolo nero as the leafy base suits a mid-August evening, and the kale is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour would follow without trouble."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Roast chicken, potatoes and plenty of greens and tomatoes make a filling, balanced family dinner."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 136,
+ "title": "Peppered strawberries and ricotta on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Strawberries, honey, almonds, ricotta and wholemeal bread are all plain foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is a standard, everyday-priced item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small frying pan, a toaster and a bowl, and the technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two slices each, with about 60g ricotta and 100g strawberries per person, makes a sensible breakfast for four, and the steps are clear."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers hulling the strawberries, toasting the almonds, zesting and making the toast, and the 10 cook minutes match the strawberries' standing time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon, mint and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Fresh strawberries are the point of this mid-May breakfast and suit the season."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "It reads plainly in British English with steps a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with ricotta, fruit and nuts is a balanced, appealing family breakfast with little added sugar."
+  }
+ }
+}

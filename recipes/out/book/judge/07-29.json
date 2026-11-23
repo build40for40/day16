@@ -1,0 +1,43 @@
+{
+ "day": 210,
+ "title": "Cavolo nero and kipper fritters",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Kippers, cavolo nero, flour, eggs, milk, spring onions and natural yoghurt are all plain home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Kipper fillets, cavolo nero and the rest are everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only bowls, a frying pan and a whisk, and shallow-frying fritters is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "150g flour, 2 eggs and 150ml milk make a sensible thick batter for 200g greens and four kippers, giving about a dozen fritters for four, and the salty kippers season them without added salt."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Thirty minutes of active work is believable for stripping the cavolo nero, flaking the kippers, mixing and frying in batches, with the 5-minute kipper soak as the unattended time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Cavolo nero is in season in late July, it is the main vegetable in the fritters, and a fritter lunch with a dill yoghurt dip suits summer."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, brief British English, like a cook explaining to a neighbour."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper lunch with oily fish, plenty of greens and a yoghurt dip, and a family would happily eat it."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 294,
+ "title": "Cider mussels and cabbage on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Mussels, butter, shallots, garlic, cabbage, dry cider, crème fraîche and crusty bread are all plain whole foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Tesco sells live mussels by the kilo at an everyday price, and the rest are staples."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded pan and a toaster or grill, and scrubbing and steaming mussels is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": false,
+   "reason": "The 200ml of cider plus the mussel liquor is never reduced before the crème fraîche goes in, so roughly 400ml of thin liquid gets piled onto four slices of toast and turns them soggy."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Thirty minutes covers scrubbing a kilo of mussels, shredding cabbage, picking the meat from the shells and toasting, and the 8 plus 5 minute steps roughly match the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including parsley and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Half a white cabbage gives the dish its bulk alongside October mussels, a warm lunch that suits autumn."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Mussels, plenty of cabbage and bread make a proper, satisfying lunch for a family."
+  }
+ }
+}

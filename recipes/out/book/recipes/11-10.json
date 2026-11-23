@@ -18,7 +18,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Roast Jerusalem artichokes with apple, sage and eggs",
+  "title": "Jerusalem artichoke, apple and egg traybake",
   "meal": "dinner",
   "dish_form": "traybake",
   "diet": "vegetarian",
@@ -68,9 +68,9 @@
     "name": "butter beans"
    },
    {
-    "id": "bramley-apples",
+    "id": "apples",
     "quantity": "2",
-    "name": "Bramley apples"
+    "name": "eating apples"
    },
    {
     "id": "kale",

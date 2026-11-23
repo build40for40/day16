@@ -1,0 +1,43 @@
+{
+ "day": 284,
+ "title": "Pork, swede and cider casserole",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Pork, root vegetables, apples, cider, stock and mustard are all ordinary home-kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including pork shoulder and dry cider, is an everyday item at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole, a knife and a board, and browning then simmering is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "800g pork with a swede, carrots and 600ml of liquid, simmered for 1 hour 50 minutes in total and reduced uncovered at the end, gives a tender, well-sauced casserole for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Thirty active minutes covers dicing, peeling, batch browning and softening the onions, and 110 minutes of cooking matches the 1 hour 30 minutes plus 20 minutes in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and 'eating apples' correctly matches the apples id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming cider casserole suits mid-October, and the chunked swede is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant jargon or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner of meat, root vegetables and fruit, made from real food."
+  }
+ }
+}

@@ -18,7 +18,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Lamb chop traybake with apple and spinach",
+  "title": "Lamb chops on creamy spinach and butter beans",
   "meal": "dinner",
   "dish_form": "traybake",
   "diet": "meat",
@@ -27,8 +27,8 @@
   "utensils": [
    "a large roasting tray"
   ],
-  "prep_minutes": 15,
-  "cook_minutes": 35,
+  "prep_minutes": 20,
+  "cook_minutes": 33,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -36,6 +36,10 @@
    {
     "id": "rosemary",
     "name": "rosemary"
+   },
+   {
+    "id": "nutmeg",
+    "name": "nutmeg"
    },
    {
     "id": "salt",
@@ -48,18 +52,13 @@
   ],
   "ingredients": [
    {
-    "id": "new-potatoes",
-    "quantity": "750g",
-    "name": "new potatoes"
-   },
-   {
     "id": "red-onions",
     "quantity": "2",
     "name": "red onions"
    },
    {
     "id": "garlic",
-    "quantity": "6",
+    "quantity": "4",
     "name": "garlic cloves"
    },
    {
@@ -73,25 +72,31 @@
     "name": "lamb chops"
    },
    {
-    "id": "wholegrain-mustard",
-    "quantity": "1 tbsp",
-    "name": "wholegrain mustard"
-   },
-   {
     "id": "bramley-apples",
     "quantity": "2",
     "name": "Bramley apples"
    },
    {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche"
+   },
+   {
     "id": "spinach",
-    "quantity": "200g",
+    "quantity": "600g",
     "name": "spinach"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes, onion wedges, whole garlic cloves and rosemary in the oil on a roasting tray. Season and roast for 20 minutes.",
-   "Rub the chops with the mustard and season. Add them to the tray with the cored apple wedges and roast for 15 minutes, until browned.",
-   "Lift out the chops to rest. Stir the spinach into the hot tray until it wilts, squashing in the soft garlic and apple."
+   "Heat the oven to 220°C (200°C fan). Roast the onion wedges, sliced garlic and rosemary in the oil on a big tray for 10 minutes.",
+   "Add the seasoned chops and cored apple wedges. Roast for 15 minutes, until browned.",
+   "Lift out the chops. Stir in the drained beans, crème fraîche and a grating of nutmeg, then the spinach in handfuls until it wilts. Season.",
+   "Return the chops and roast for 8 minutes, until bubbling."
   ]
  },
  "attempts": 1,

@@ -1,0 +1,43 @@
+{
+ "day": 236,
+ "title": "Haddock and roast marrow bulgur bowls",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole food or a plain staple: fish, vegetables, bulgur, oil, Greek yoghurt and spices."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Haddock fillets, marrow, bulgur and Greek yoghurt are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, bowls, a knife and a grater, and the techniques are simple roasting and soaking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 2:1 water-to-bulgur ratio, 30 minutes total roasting at 220°C and 10 to 12 minutes for the haddock all give a sound dish for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for peeling and cubing a marrow, cutting onions and making the sauce, and 32 minutes cook matches the 20 plus 12 in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Roast marrow with tomatoes and dill is a proper late-August dish, and the marrow makes up the bulk of the bowl."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, wholegrain bulgur, plenty of roast veg and a yoghurt sauce make a balanced lunch a family would eat."
+  }
+ }
+}

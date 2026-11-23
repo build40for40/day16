@@ -1,43 +1,43 @@
 {
  "day": 49,
- "title": "Cheddar rösti with garlic mushrooms",
+ "title": "Potato, mushroom and kale tray with baked eggs",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Potatoes, onion, cheddar, egg, mushrooms, butter, garlic and crème fraîche are all plain kitchen staples."
+   "reason": "Potatoes, mushrooms, kale, eggs, cheddar, olive oil and spices are all whole, home-kitchen ingredients."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday, cheap item at any Tesco."
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a grater, a tea towel and a frying pan, and the technique suits a confident beginner."
+   "reason": "It needs only a knife, board, grater and one roasting tray, with simple roasting and egg-baking technique."
   },
   "works": {
    "pass": true,
-   "reason": "The quantities suit four and the method is sound, though a cook will probably want more than a pinch of salt for 800g of potato."
+   "reason": "The quantities suit four, potatoes get enough time at 220°C to crisp, and eggs baked in gaps for 6 to 8 minutes will set."
   },
   "honest_times": {
    "pass": false,
-   "reason": "Frying 800g of rösti in batches at 5 minutes a side means at least two or three 10-minute batches, plus 6 minutes for the mushrooms, all of it attended at the hob, so the printed 15 unattended cook minutes is well short and the real total runs far past a quick breakfast."
+   "reason": "A quick breakfast was asked for, but the 25 + 10 + 8 minutes in the oven plus 12 minutes' prep comes to nearly an hour, which no busy parent would call quick in the morning."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears beyond the step's shorthand 'paprika' for the listed smoked paprika."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A hot potato rösti suits a February morning, and the potatoes are clearly the point of the dish."
+   "reason": "A hot roast potato and kale breakfast suits mid-February, and the potatoes are clearly the base of the dish."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear and written in plain British English."
+   "reason": "The steps are plain, clear British English a beginner could follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Potato, egg, cheese and mushrooms make a filling, real-food breakfast a family would happily eat again."
+   "reason": "Potatoes, vegetables, eggs and cheese make a filling, balanced family meal."
   }
  }
 }

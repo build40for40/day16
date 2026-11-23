@@ -1,43 +1,43 @@
 {
  "day": 23,
- "title": "Potato, mushroom and kale hash with eggs",
+ "title": "Crushed potatoes with leeks and soft eggs",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Potatoes, onion, mushrooms, kale, eggs, oil, thyme and paprika are all plain home ingredients."
+   "reason": "Potatoes, leeks, eggs, butter, wholegrain mustard, cheddar and thyme are all plain home-kitchen foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday, cheap item at Tesco or similar."
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a knife, a board and a large lidded frying pan, with simple frying technique."
+   "reason": "It needs only a saucepan, a frying pan, a fork and a grater, with simple boiling and softening."
   },
   "works": {
    "pass": true,
-   "reason": "The quantities suit four, 1cm cubes fried for 15 minutes with frequent turning will cook through, and the lid sets the eggs in 4 minutes."
+   "reason": "Simmering 2cm chunks for 12 minutes with the eggs in for the last 7 gives tender potatoes and soft-set yolks, and 750g of potatoes with 4 eggs suits four people at breakfast."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "At 15 minutes prep plus 25 minutes cook, this 40-minute breakfast is not quick, and the 15-minute potato fry 'turning often' is active work rather than unattended cook time."
+   "pass": true,
+   "reason": "Fifteen minutes of chopping, slicing, grating and egg peeling, plus a 12 minute simmer, is believable and fits the steps."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used, and nothing unlisted apart from water appears in the steps."
+   "reason": "Every listed ingredient and seasoning, including the thyme, is used in the steps, and nothing unlisted is added."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A hot potato hash with kale suits a cold late-January morning, and the potatoes are the heart of the dish."
+   "reason": "Crushed potatoes with January leeks make a warming winter plate, with the potatoes clearly at its centre."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are plain, clear British English that a beginner can follow."
+   "reason": "The steps are short, clear and in plain British English that a beginner can follow."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Potatoes, vegetables and eggs make a filling, balanced breakfast a family would want again."
+   "reason": "Potatoes, leeks, eggs and cheese make a filling, balanced savoury breakfast a family would make again."
   }
  }
 }

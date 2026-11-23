@@ -1,0 +1,43 @@
+{
+ "day": 169,
+ "title": "Cherry tomato eggs with spinach and feta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is whole, recognisable food: tomatoes, spinach, spring onions, garlic, eggs, feta, olive oil and herbs."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or similar, and nothing is a treat purchase."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large frying pan with a lid, and cracking eggs into hollows is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g tomatoes, 100g spinach and 8 eggs make a sensible two-egg breakfast each for four, and 5 to 6 minutes covered will set the whites without burning the jammy base."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers halving 500g of cherry tomatoes and slicing the onions and garlic, and the steps add up to about 15 to 17 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including basil and chilli flakes, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Jammy June cherry tomatoes form the base of the dish, which suits a summer morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that reads like a neighbour explaining it."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, vegetables and feta make a proper, protein-rich breakfast a family would happily repeat."
+  }
+ }
+}

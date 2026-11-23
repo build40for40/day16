@@ -1,0 +1,43 @@
+{
+ "day": 181,
+ "title": "Lettuce, pea and feta frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, eggs, feta, olive oil and fresh garden vegetables and herbs are all whole, everyday foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Little gems, radishes, spring onions, fresh peas in pods, feta, mint and lemons are all everyday supermarket buys in June."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan, a bowl and a knife, and a covered hob frittata is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs with peas, lettuce and feta, cooked gently under a lid for 12 minutes, gives a set frittata for four, and the salty feta and lemon dressing keep it well seasoned."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes covers podding the peas, slicing the onions and radishes, shredding the lettuce and beating the eggs, and the 15 minutes of cooking matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the little gems match the lettuce id, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Lettuce is both cooked into the frittata and served as the salad, which makes a fitting light lunch for the end of June."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, peas, feta and a fresh salad make a balanced, satisfying family lunch."
+  }
+ }
+}

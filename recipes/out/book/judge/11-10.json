@@ -1,0 +1,43 @@
+{
+ "day": 314,
+ "title": "Jerusalem artichoke, apple and egg traybake",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or plain staple: artichokes, onions, apples, kale, eggs, tinned butter beans, olive oil and bread."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Tesco stocks Jerusalem artichokes in November, and everything else is an everyday item at an ordinary price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large roasting tray and a knife, and cracking eggs into gaps is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g artichokes, two eggs each, a tin of beans and bread make a fair meal for four, and roasting at 200°C for about 45 minutes in stages should leave the artichokes tender and the egg whites set."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is fair for scrubbing and halving the artichokes and cutting the onions, apples and kale, and the 25, 10 and 8 to 10 minute roasting stages add up to the 45 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the sage, salt and pepper, appears in the steps, nothing unlisted is used, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot roasted traybake built on Jerusalem artichokes suits a November evening, and the artichokes are the main part of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, butter beans, roasted roots, kale and apple with bread make a filling, balanced family dinner."
+  }
+ }
+}

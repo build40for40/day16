@@ -1,0 +1,43 @@
+{
+ "day": 204,
+ "title": "Baked spelt with green beans and feta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple, and vegetable stock counts as good stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pearled spelt, feta, cherry tomatoes and green beans are all everyday lines at Tesco and similar supermarkets."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray and foil, and the technique is simple roasting and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g pearled spelt in 900ml hot stock, baked tightly covered for 40 minutes, will cook through, and the beans steam tender in the last 15 minutes, giving a sensible amount for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Cutting the onions into wedges, peeling the garlic and trimming the beans fits in 15 minutes, and the 15 + 25 + 15 minute steps add up to the 55 minute cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Green beans with cherry tomatoes, basil and feta suits late July, and the beans are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling wholegrain, vegetable and feta dinner a family would happily eat again."
+  }
+ }
+}

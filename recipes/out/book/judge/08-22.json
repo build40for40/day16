@@ -1,0 +1,43 @@
+{
+ "day": 234,
+ "title": "Baked plums with oat and almond crumbs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Plums, oats, almonds, sugar, oil, lemon and cinnamon are all ordinary cupboard and garden things."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket in late August."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a baking dish, a bowl and a knife are needed, and the technique is simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight plums with a 60g oat and 40g almond topping makes a fair snack for four, and 200°C for 20 to 25 minutes will soften the plums and brown the crumbs."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Stoning eight plums, chopping a handful of almonds and mixing the topping fits in 10 minutes, and the 25 minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Late August is the height of the British plum season, and the plums are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is fruit with oats and nuts and only modest sugar, a real-food snack a family would happily make again."
+  }
+ }
+}

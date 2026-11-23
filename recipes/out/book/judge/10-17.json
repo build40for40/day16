@@ -1,0 +1,43 @@
+{
+ "day": 290,
+ "title": "Baked apple and cinnamon oats with walnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, apples, eggs, milk, honey, walnuts, butter and Greek yoghurt are all plain home-kitchen foods with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item in any mainstream UK supermarket at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a bowl, a grater and a knife, and the technique is simple mixing and baking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats to 450ml milk with two eggs and two grated apples baked for 35 minutes at 190°C sets well and gives four generous breakfast portions."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Grating two apples, slicing one, chopping walnuts and mixing fits comfortably in 15 minutes, and the 35-minute bake matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted is introduced."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm apple bake suits a mid-October morning, and apples are grated through it and laid on top as the clear centre of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, fruit, eggs, milk, nuts and yoghurt make a filling, wholesome breakfast with only modest sweetening from the honey."
+  }
+ }
+}

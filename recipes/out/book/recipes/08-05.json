@@ -17,7 +17,7 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Blackberry and apple compote with yoghurt and honey oats",
+  "title": "Blackberry and apple compote with crunchy oats",
   "meal": "breakfast",
   "dish_form": "fruit compote with yoghurt",
   "diet": "vegetarian",
@@ -28,7 +28,7 @@
    "a frying pan"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 5,
+  "cook_minutes": 8,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -75,9 +75,9 @@
    }
   ],
   "steps": [
-   "Simmer the peeled, diced apples in a small pan with the cinnamon, 1 tbsp honey and 3 tbsp water for 5 minutes.",
-   "Add the blackberries and a squeeze of lemon. Cook for 3 minutes, until they just burst.",
-   "Toast the oats and chopped hazelnuts in a dry frying pan for 5 minutes, stirring. Stir in the rest of the honey.",
+   "Simmer the peeled, diced apples in a small pan with a pinch of cinnamon, 1 tbsp honey and 3 tbsp water for 5 minutes.",
+   "Add the blackberries and a squeeze of lemon. Cook for 3 minutes more, until they just burst.",
+   "Meanwhile, toast the oats and chopped hazelnuts in a dry frying pan, stirring, until golden. Stir in the rest of the honey.",
    "Spoon the yoghurt into bowls and top with the warm compote and crunchy oats."
   ]
  },

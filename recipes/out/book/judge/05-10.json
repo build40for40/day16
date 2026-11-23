@@ -1,0 +1,43 @@
+{
+ "day": 130,
+ "title": "Crisp plaice on toast with dill cucumber",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole, everyday food: fish, yoghurt, bread, butter, flour, vinegar, cucumber, watercress and herbs."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Plaice fillets, watercress, Greek yoghurt and the rest are on the shelves at Tesco at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a bowl, a grater for the zest and a toaster or grill, all used in simple techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four thin plaice fillets fried briefly, a whole quick-pickled cucumber and dill yoghurt on four slices of toast makes a balanced, well-seasoned lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing, chopping dill, zesting and toasting fit in 20 minutes, and the cucumber's 10-minute rest is unattended, as is the short frying."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the dill, lemon, salt and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A whole quick-pickled cucumber with dill is a main component of a light May lunch, not a garnish, and suits the season."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English that a neighbour would follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, wholemeal toast, yoghurt and fresh greens make a proper, appealing lunch."
+  }
+ }
+}

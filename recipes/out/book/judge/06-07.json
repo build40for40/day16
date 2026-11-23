@@ -1,0 +1,43 @@
+{
+ "day": 158,
+ "title": "Blackcurrant and strawberry compote with yoghurt",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, honey, oats, seeds, Greek yoghurt, lemon and mint are all ordinary home kitchen and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Fresh blackcurrants can be patchy in early June, but the step gives raspberries as a fallback and everything else is an everyday supermarket item."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a small pan and a frying pan are needed, and simmering fruit and dry-toasting oats are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "150g blackcurrants and 300g strawberries over 500g yoghurt with toasted oats and seeds makes a sensible breakfast for four, and the strawberries soften the tartness of the currants."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers stripping the currants, halving the strawberries and assembling, and the 4, 1 and 3 to 4 minute stages roughly match the 8 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and the raspberry substitute is on the June fresh list."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm fruit compote with yoghurt suits a June morning, and the blackcurrants give the compote its sharp character even though they are outweighed by the strawberries."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Greek yoghurt, fruit, oats and pumpkin seeds make a filling breakfast with only a spoon of honey."
+  }
+ }
+}

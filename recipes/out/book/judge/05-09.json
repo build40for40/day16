@@ -1,0 +1,43 @@
+{
+ "day": 129,
+ "title": "Roast rhubarb with gammon and eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Rhubarb, orange, honey, olive oil, gammon steaks, eggs and thyme are all plain home ingredients with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Gammon steaks, rhubarb in May, oranges, honey and eggs are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large roasting tray and simple chopping, zesting and egg cracking."
+  },
+  "works": {
+   "pass": false,
+   "reason": "Eggs cracked into gaps on a flat tray awash with a whole orange's juice and rhubarb liquid will run into the syrup rather than set neatly, and 4cm rhubarb roasted for 20 to 22 minutes at 220°C will collapse to mush and may catch with the honey."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes covers chopping the rhubarb, zesting and juicing the orange, picking thyme and snipping the gammon, and 12 plus 8 to 10 minutes matches the 22 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including thyme and black pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early May rhubarb is a main part of the dish as a sticky roasted sauce for the gammon, which suits a spring morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Gammon, eggs and roast fruit make a proper protein-led cooked breakfast with only a little honey."
+  }
+ }
+}

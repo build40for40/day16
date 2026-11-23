@@ -1,0 +1,43 @@
+{
+ "day": 198,
+ "title": "Tzatziki with garden crudités",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Plain Greek yoghurt, garlic, fresh herbs, lemon, olive oil and raw garden vegetables are all things a grandparent would have kept."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a sieve, a bowl and a knife, and the techniques are simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Half a salted, squeezed cucumber in 300g yoghurt with plenty of veg for dipping makes a well-balanced snack for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers grating, chopping herbs and cutting batons, and the 10 minutes matches the unattended salting in the sieve."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A cool cucumber dip with fresh garden veg suits mid-July, and the cucumber is both the dip and a crudité."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and plainly British, and crudités is a familiar word to home cooks."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Yoghurt and a big plate of raw vegetables make a wholesome snack a family would happily eat again."
+  }
+ }
+}

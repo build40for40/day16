@@ -1,0 +1,43 @@
+{
+ "day": 321,
+ "title": "Lamb, red cabbage and apple stew",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a kitchen staple, and chicken stock counts as good stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Lamb mince, red cabbage, apples and potatoes are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole, a knife and a board, and the technique is simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g lamb, half a cabbage, 600g potatoes and 500ml stock make a sensible stew for four, and cubed potatoes will be tender after 40 minutes' covered simmering."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Thirty minutes covers shredding the cabbage, chopping the onion and garlic, cubing the apples and potatoes and about 13 minutes of browning, and the 40-minute cook matches the simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the fresh thyme and cinnamon, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming red cabbage and apple stew suits mid-November, and the cabbage is central to the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short and clear in plain British English, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling one-pot meal of meat, vegetables, fruit and potatoes that a family would happily eat."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 227,
+ "title": "Pickled chard stalks with whipped feta on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Chard, cider vinegar, sugar, feta, yoghurt, oil and bread are all plain kitchen staples with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Rainbow chard, feta, Greek yoghurt and dill are all everyday items at Tesco and similar shops."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan, a frying pan and a bowl, and the techniques are simple slicing, mashing and wilting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The 1:1 vinegar and water brine, 200g feta for four toasts and 250g chard make a sensible snack for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers the slicing, mashing, wilting and toasting, and the 30-minute cook time matches the pickling rest."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used, 'rainbow chard' is a fair name for chard, and 'Season' covers the pepper."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "August chard is used both as pickled stalks and as wilted leaves, so it is clearly the point of a summer snack."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal toast with feta, yoghurt and plenty of chard is a real-food snack a family would happily eat."
+  }
+ }
+}

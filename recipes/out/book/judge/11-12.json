@@ -1,0 +1,43 @@
+{
+ "day": 316,
+ "title": "Golden turnip and pumpkin penne",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is a whole food or a plain cupboard staple: turnips, pumpkin, dried pasta, butter, hard cheese, lemon and herbs."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "All the ingredients are everyday supermarket lines, and wholemeal penne and vegetarian hard cheese are standard own-brand items."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a saucepan and a grater, with simple frying and boiling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g pasta with about 850g of veg suits four, and the pasta water, butter and cheese make a light sauce; a cook would naturally fry in a big pan or in batches to get the veg golden."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes to peel and dice the turnips and pumpkin, then grate, zest and chop while the veg fries, is realistic, and the 15-minute fry matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used in the steps, wholemeal penne is a fair name for dried pasta, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm pasta built mostly on golden fried turnips suits a November lunch, and the turnips are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British instructions that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholemeal pasta with a generous amount of root veg, butter and cheese makes a filling, real-food lunch a family would eat again."
+  }
+ }
+}

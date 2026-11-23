@@ -27,7 +27,7 @@
    "one large lidded pan",
    "a toaster or grill"
   ],
-  "prep_minutes": 25,
+  "prep_minutes": 30,
   "cook_minutes": 10,
   "time_note": "",
   "best_time": "midday",
@@ -45,7 +45,7 @@
   "ingredients": [
    {
     "id": "mussels",
-    "quantity": "1.5kg",
+    "quantity": "1kg",
     "name": "mussels"
    },
    {
@@ -85,10 +85,10 @@
    }
   ],
   "steps": [
-   "Scrub the mussels and pull off any beards. Throw away any open ones that won't close when tapped.",
+   "Scrub and debeard the mussels, throwing away any open ones that won't close when tapped.",
    "Melt the butter in a big lidded pan. Soften the sliced shallots, garlic and shredded cabbage for 8 minutes.",
-   "Add the cider and mussels. Cover and steam for 5 minutes, until opened, then stir in the crème fraîche and plenty of pepper.",
-   "Toast the bread. Pile on the cabbage and mussels, spoon over the juices and scatter with chopped parsley."
+   "Add the cider and mussels. Cover and steam for 5 minutes until open. Discard any still shut and pick the rest from their shells.",
+   "Stir the mussels, crème fraîche and plenty of pepper into the cabbage. Pile onto toast with chopped parsley."
   ]
  },
  "attempts": 1,

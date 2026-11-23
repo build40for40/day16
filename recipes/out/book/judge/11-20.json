@@ -1,0 +1,43 @@
+{
+ "day": 324,
+ "title": "Spiced cauliflower soup with crispy lamb",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Lamb mince, vegetables, stock, spices and Greek yoghurt are all ordinary kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only one large pan and a stick blender for soup are needed, and the techniques are simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A large cauliflower and a potato in 1.2 litres of stock make a sensible soup for four. The 250g of crisped spiced lamb is a fair topping, though 'the rest of the cumin' gives no total, so most cooks would simply add another teaspoon."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Chopping four vegetables plus 13 minutes of frying fits roughly within 20 minutes of prep, and the 20-minute simmer matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming blended cauliflower soup suits a cold November lunch, and the cauliflower is clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a vegetable-rich soup with a protein topping that a family would happily eat."
+  }
+ }
+}

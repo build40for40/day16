@@ -1,0 +1,43 @@
+{
+ "day": 195,
+ "title": "Courgette and cherry tomato frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient (eggs, courgettes, spring onions, cheese, tomatoes, basil, olive oil) is plain home-kitchen food."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "All the items, including vegetarian hard cheese, are everyday Tesco stock at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A lidded non-stick pan, grater, bowl and whisk are ordinary kit, and a hob frittata is within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs with two courgettes and 250g tomatoes, cooked covered and gently for 10 to 12 minutes, gives a set frittata that feeds four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers grating, slicing, halving, whisking and the five-minute fry, and the 12 minutes of cooking matches the final step, which suits a quick breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the basil, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Mid-July cherry tomatoes and courgettes suit a summer breakfast, and 250g of tomatoes across the top makes them central rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "An egg and vegetable frittata is a filling, real-food breakfast a family would happily eat again."
+  }
+ }
+}

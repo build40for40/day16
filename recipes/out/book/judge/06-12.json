@@ -1,0 +1,43 @@
+{
+ "day": 163,
+ "title": "Tomato, ham and cheddar tart",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Puff pastry, Dijon mustard, cheddar, cooked ham, tomatoes, egg, oil and rocket are all ordinary home kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A baking tray, grater and pastry brush are ordinary kit, and scoring a border on ready-rolled pastry is beginner-level."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A 320g sheet of ready-rolled puff at 220°C for 25 to 30 minutes, with cheese under the tomatoes, gives a crisp tart that makes a fair lunch for four with the rocket."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Grating 75g cheese, slicing 500g tomatoes, tearing ham and beating an egg fits in 15 minutes, and the 30 minute cook matches the bake."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Each name matches its id, and every listed ingredient and seasoning, including the thyme, salt and pepper, is used in the steps with nothing extra."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A tomato tart in mid-June suits the weather, and the tomatoes are the main topping."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pastry with ham, cheese, plenty of tomatoes and a rocket salad is a proper family lunch."
+  }
+ }
+}

@@ -1,43 +1,43 @@
 {
  "day": 67,
- "title": "Kipper and spring onion hash with eggs",
+ "title": "Grilled kippers with spring onion butter",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Potatoes, kippers, spring onions, eggs, oil, parsley and lemon are all plain home-kitchen foods."
+   "reason": "Kippers, butter, bread, watercress and herbs are all plain foods a grandparent would have had in the kitchen."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Kipper fillets and everything else are everyday items at Tesco and similar."
+   "reason": "Kipper fillets, watercress, spring onions and wholemeal bread are everyday Tesco items at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only one large lidded frying pan and simple frying, which suits a confident beginner."
+   "reason": "Only a grill pan, small bowl and toaster are needed, and the technique is simple mashing and grilling."
   },
   "works": {
    "pass": true,
-   "reason": "600g potatoes, four kipper fillets and four eggs make a sensible plate for four, and the salty kippers cover the seasoning."
+   "reason": "Four kipper fillets grilled for 4 to 5 minutes on toast with a flavoured butter makes a sound breakfast for four, and the kippers bring their own salt."
   },
   "honest_times": {
-   "pass": false,
-   "reason": "The 15 minutes prep plus 25 minutes cooking makes about 40 minutes, which is not the quick breakfast asked for, and the potatoes need turning throughout, so the cook time is not really unattended."
+   "pass": true,
+   "reason": "Slicing spring onions, chopping parsley and zesting a lemon fits in 10 minutes, and the 5 minute grill matches the steps."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed item, including the parsley, lemon and pepper, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including the lemon for zest and wedges, is used, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warm kipper hash suits early March, and a whole bunch of spring onions is folded through as a main flavour rather than scattered as a garnish."
+   "reason": "A whole bunch of spring onions goes into the named butter that flavours both the kippers and the toast, which suits a cool March morning."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear British home-cook instructions with no restaurant language."
+   "reason": "The steps are short, clear and in plain British English, with no fuss or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Potatoes, oily fish, eggs and spring onions make a proper, filling breakfast of real food."
+   "reason": "Oily fish on wholemeal toast with watercress is a proper, nourishing breakfast a family would happily repeat."
   }
  }
 }

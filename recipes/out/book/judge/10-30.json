@@ -1,0 +1,43 @@
+{
+ "day": 303,
+ "title": "Beef patties with braised Little Gem and peas",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or cupboard staple, and the chicken stock counts as good stock."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Beef mince, Little Gems, butter beans, frozen peas and crème fraîche are all everyday Tesco items."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan and a bowl, and the techniques are simple shaping, browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g mince makes eight small patties for four, browning then a covered 10-minute simmer cooks them through, and 300ml stock suits a braise of beans, peas and lettuce."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing spring onions, shaping patties and halving lettuces fits 20 minutes of prep, and 6 plus 3 plus 10 minutes in the steps matches the 20-minute cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and Little Gem is a fair name for lettuce."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm braised lettuce in stock is a sensible late-October way to use the hero, and the lettuce is a main part of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced family dinner of beef, beans, peas and greens."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 196,
+ "title": "Sweet pepper and feta frittata",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Peppers, onion, eggs, feta, rocket, basil, lemon and olive oil are all plain home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan and a bowl, and covering a frittata to set it on the hob is beginner-friendly."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight eggs, three peppers and 200g feta set gently under a lid makes a properly sized frittata for four, served with a lemon-dressed rocket salad."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing three peppers and an onion plus ten minutes of frying fits roughly within 15 minutes of prep, and the 10 to 12 minute covered set matches the 15 cook minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the basil and lemon, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A pepper and feta frittata with rocket is a light mid-July lunch, and the sweet fried peppers are the heart of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, feta and plenty of vegetables with a salad make a satisfying, wholesome family lunch."
+  }
+ }
+}

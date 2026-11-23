@@ -28,7 +28,7 @@
    "foil"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 50,
+  "cook_minutes": 35,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
@@ -92,18 +92,14 @@
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). On the tray, toss the squash chunks, skin on, and onion wedges with the oil, 2 tsp cumin and salt.",
-   "Roast for 25 minutes. Add the drained chickpeas and roast for 10 minutes more.",
-   "Stir in the bulgur and hot stock, cover tightly with foil and bake for 15 minutes.",
-   "Fluff with a fork, add the lemon juice and season. Scatter over the crumbled feta and chopped parsley."
+   "Heat the oven to 220°C (200°C fan). On the tray, toss 2cm chunks of squash, skin on, and onion wedges with the oil, 2 tsp cumin and salt.",
+   "Roast for 20 minutes, until browning at the edges.",
+   "Stir in the drained chickpeas, bulgur and hot stock. Cover tightly with foil and bake for 15 minutes.",
+   "Fluff with a fork, squeeze over the lemon and season. Scatter with crumbled feta and chopped parsley."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "Parsley belongs in the seasoning list, with any amount given in the method."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

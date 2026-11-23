@@ -1,0 +1,43 @@
+{
+ "day": 126,
+ "title": "Warm strawberry and orange compote with yoghurt",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Strawberries, orange, honey, vanilla, nuts, seeds and Greek yoghurt are all plain kitchen staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is a standard Tesco line at an ordinary price, with nothing specialist."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan, a frying pan and a knife, and simmering fruit and dry-toasting nuts suit a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g strawberries over 500g yoghurt with 110g nuts and seeds makes a sensible breakfast for four, and the 5-minute simmer with orange juice gives a jammy compote without burning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers hulling 500g strawberries, zesting and juicing an orange and chopping almonds, and the 5 plus 3 minutes of cooking match the 8 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the cinnamon and mint, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early-season strawberries are the main body of the dish, and a warm compote suits a cool May morning."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and read like everyday British home cooking."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fruit, protein-rich yoghurt, nuts and seeds with only a tablespoon of honey make a filling breakfast a family would happily repeat."
+  }
+ }
+}

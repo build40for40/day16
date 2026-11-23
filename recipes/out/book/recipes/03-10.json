@@ -18,16 +18,17 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Potato, kale and walnut traybake with watercress",
+  "title": "Halloumi traybake with watercress pesto",
   "meal": "dinner",
   "dish_form": "traybake",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "one_tray",
   "utensils": [
-   "a large roasting tray"
+   "a large roasting tray",
+   "a mixing bowl"
   ],
-  "prep_minutes": 15,
+  "prep_minutes": 18,
   "cook_minutes": 35,
   "time_note": "",
   "best_time": "evening",
@@ -40,10 +41,6 @@
    {
     "id": "black-pepper",
     "name": "black pepper"
-   },
-   {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
    },
    {
     "id": "lemons",
@@ -62,41 +59,46 @@
     "name": "red onions"
    },
    {
-    "id": "chickpeas",
-    "quantity": "1 tin",
-    "name": "chickpeas"
-   },
-   {
     "id": "olive-oil",
-    "quantity": "3 tbsp",
+    "quantity": "6 tbsp",
     "name": "olive oil"
    },
    {
+    "id": "halloumi",
+    "quantity": "250g",
+    "name": "halloumi"
+   },
+   {
     "id": "kale",
-    "quantity": "200g",
+    "quantity": "150g",
     "name": "kale"
    },
    {
-    "id": "walnuts",
-    "quantity": "75g",
-    "name": "walnuts"
-   },
-   {
     "id": "watercress",
-    "quantity": "100g",
+    "quantity": "200g",
     "name": "watercress"
    },
    {
-    "id": "feta",
-    "quantity": "150g",
-    "name": "feta"
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "30g",
+    "name": "veggie hard cheese"
    }
   ],
   "steps": [
-   "Heat the oven to 220°C (200°C fan). Toss the cubed potatoes, onion wedges and drained chickpeas on the tray with 2 tbsp oil, 2 tsp paprika and salt. Roast for 25 minutes.",
-   "Stir in the torn kale, walnuts and the last of the oil. Roast for 8 to 10 minutes, until the kale crisps at the edges.",
-   "Squeeze over the lemon, season and toss through the watercress so it just wilts.",
-   "Crumble over the feta and serve."
+   "Heat the oven to 220°C (200°C fan). Roast the cubed potatoes and onion wedges in 2 tbsp oil and salt for 25 minutes.",
+   "Add the sliced halloumi and torn kale, drizzle with 1 tbsp oil and roast for 10 minutes, until golden.",
+   "Finely chop half the watercress with the walnuts and garlic. Stir in the grated cheese, lemon juice and remaining oil.",
+   "Pile the rest of the watercress over the tray, season and spoon over the pesto."
   ]
  },
  "attempts": 1,

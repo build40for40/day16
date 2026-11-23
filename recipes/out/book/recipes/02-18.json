@@ -17,19 +17,17 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Cheddar rösti with garlic mushrooms",
+  "title": "Potato, mushroom and kale tray with baked eggs",
   "meal": "breakfast",
   "dish_form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "hob",
+  "kit": "one_tray",
   "utensils": [
-   "a grater",
-   "a clean tea towel",
-   "a large frying pan"
+   "a large roasting tray"
   ],
-  "prep_minutes": 20,
-  "cook_minutes": 15,
+  "prep_minutes": 12,
+  "cook_minutes": 45,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
@@ -43,6 +41,10 @@
     "name": "black pepper"
    },
    {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
     "id": "thyme",
     "name": "thyme"
    }
@@ -54,34 +56,14 @@
     "name": "potatoes"
    },
    {
-    "id": "onions",
-    "quantity": "1",
-    "name": "onion"
-   },
-   {
-    "id": "cheddar",
-    "quantity": "75g",
-    "name": "cheddar"
-   },
-   {
-    "id": "eggs",
-    "quantity": "1",
-    "name": "egg"
-   },
-   {
-    "id": "sunflower-oil",
-    "quantity": "3 tbsp",
-    "name": "sunflower oil"
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
    },
    {
     "id": "mushrooms",
-    "quantity": "300g",
+    "quantity": "250g",
     "name": "mushrooms"
-   },
-   {
-    "id": "butter",
-    "quantity": "15g",
-    "name": "butter"
    },
    {
     "id": "garlic",
@@ -89,16 +71,25 @@
     "name": "garlic cloves"
    },
    {
-    "id": "creme-fraiche",
-    "quantity": "4 tbsp",
-    "name": "crème fraîche"
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "cheddar, grated"
    }
   ],
   "steps": [
-   "Grate the potatoes and onion, then squeeze them dry in a clean tea towel.",
-   "Mix in the grated cheddar, egg and a pinch of salt. Fry spoonfuls in the oil, pressed flat, for 5 minutes a side until crisp. Cook in batches.",
-   "Wipe the pan. Fry the sliced mushrooms in the butter with the thyme for 5 minutes, add the crushed garlic for 1 minute and season.",
-   "Top the rösti with the mushrooms and crème fraîche."
+   "Heat the oven to 220°C (200°C fan). Toss 2cm cubes of potato with 3 tbsp oil, 1 tsp paprika, the thyme leaves and salt on a large tray. Roast for 25 minutes.",
+   "Stir in the halved mushrooms, sliced garlic, shredded kale and the last of the oil. Roast for 10 minutes.",
+   "Make four gaps, crack in the eggs and scatter over the cheddar. Bake for 6 to 8 minutes, until the whites set. Finish with pepper."
   ]
  },
  "attempts": 1,

@@ -1,0 +1,43 @@
+{
+ "day": 297,
+ "title": "Trout on toast with buttery grapes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Crème fraîche, horseradish sauce, butter, trout, grapes, bread and watercress are all ordinary home staples or fresh foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Trout fillets, red grapes, watercress and crème fraîche are all everyday Tesco lines at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan and a toaster or grill, and the technique is simple pan-frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four trout fillets fried skin side down for 4 minutes and turned for 1 is sound, and 200g grapes and 100g crème fraîche suit four slices of toast for four people."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers halving the grapes, snipping chives, mixing the sauce and toasting, and the 7 minutes matches the frying and warming in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including chives, lemon, salt and pepper, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm buttery grapes are named in the title and are a substantial topping rather than a garnish, which suits late October."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oily fish on wholemeal toast with watercress and fruit is a proper, filling breakfast a family would happily eat again."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 189,
+ "title": "Paprika chicken, green bean and chickpea salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Chicken, vegetables, tinned chickpeas, mustard, vinegar and oil are all ordinary kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, saucepan and bowl, with simple frying and boiling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g chicken, 300g beans, two peppers, a tin of chickpeas and rocket make a sensible lunch for four, and the 3 tbsp oil to 1 tbsp vinegar dressing is well balanced."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing the chicken, peppers and onion and trimming the beans fits 15 minutes, and the frying and boiling overlap to about 15 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm salad of green beans and peppers suits a July lunch, and the beans are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced meal of protein, pulses and plenty of vegetables that a family would happily eat."
+  }
+ }
+}

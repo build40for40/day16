@@ -1,0 +1,43 @@
+{
+ "day": 241,
+ "title": "Sweet pepper pasta with soft eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or a traditional staple such as capers, dried pasta and hard cheese."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Red peppers, cherry tomatoes, penne, eggs, capers and vegetarian hard cheese are everyday items at any Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a saucepan and a grater, and the techniques are simple softening and boiling."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g pasta, four peppers and one soft-boiled egg each make a balanced dinner for four, and the 7-minute eggs in boiling pasta water will come out jammy."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing four peppers, an onion and garlic, halving tomatoes, grating cheese and peeling eggs fits 20 minutes, and the 20 plus 5 minute pepper cooking matches the 25 cook minutes, with the pasta boiling alongside."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Red peppers and penne are honest names for their ids, every listed item and seasoning is used, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Slow-cooked sweet peppers with cherry tomatoes and basil are the heart of the dish and suit a late August evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Pasta with plenty of peppers and tomatoes, eggs and cheese is a filling, balanced family dinner."
+  }
+ }
+}
