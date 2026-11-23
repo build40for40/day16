@@ -1,0 +1,95 @@
+{
+ "slot": {
+  "day": 107,
+  "date": "2027-04-17",
+  "label": "17 April",
+  "month": 4,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Apple and orange bircher with hazelnuts",
+  "meal": "breakfast",
+  "dish_form": "bircher muesli",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "no_cook",
+  "utensils": [
+   "a large bowl",
+   "a grater",
+   "a knife and board"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 480,
+  "time_note": "oats soaked overnight",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "300ml",
+    "name": "milk"
+   },
+   {
+    "id": "oranges",
+    "quantity": "2",
+    "name": "oranges"
+   },
+   {
+    "id": "raisins",
+    "quantity": "50g",
+    "name": "sultanas"
+   },
+   {
+    "id": "apples",
+    "quantity": "4",
+    "name": "eating apples"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "The night before, stir the oats with the milk, orange zest and juice, sultanas and a pinch of cinnamon. Cover and chill.",
+   "In the morning, grate in two apples, skin and all, and stir through the yoghurt. Add a splash of milk if thick.",
+   "Roughly chop the hazelnuts. Core and thinly slice the other two apples.",
+   "Spoon into bowls, top with the apple slices and hazelnuts, and drizzle with honey."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

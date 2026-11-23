@@ -1,0 +1,43 @@
+{
+ "day": 50,
+ "title": "Carrot and beetroot slaw on goat's cheese toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or simple staple, such as carrots, beetroot, orange, honey, bread and goat's cheese."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Raw beetroot, soft goat's cheese and pumpkin seeds are all everyday items at Tesco and similar supermarkets."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a grater and a bowl, and the techniques are simple grating, dressing and toasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Three carrots and two beetroot dressed with orange, oil, vinegar and honey make enough slaw for eight slices of toast, and 150g of goat's cheese spreads across them for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes to grate five roots, make the dressing and toast and spread the bread is believable, and five minutes covers toasting the seeds, so it fits a quick lunch."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, cumin included, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored carrots and beetroot with European oranges suit February, and carrot leads the slaw rather than garnishing it."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling lunch of wholemeal toast, cheese, seeds and plenty of raw vegetables."
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "slot": {
+  "day": 74,
+  "date": "2027-03-15",
+  "label": "15 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spring-onions"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Mushroom and spring onion frittata",
+  "meal": "breakfast",
+  "dish_form": "frittata",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "an ovenproof frying pan",
+   "a bowl",
+   "a whisk",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "1 bunch",
+    "name": "spring onions"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "75g",
+    "name": "grated cheddar"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Fry the sliced mushrooms in the oil in an ovenproof pan for 5 minutes.",
+   "Add most of the sliced spring onions and cook for 1 minute.",
+   "Whisk the eggs with the cheddar, chopped parsley and seasoning. Pour in and cook gently for 3 minutes, until the edges set.",
+   "Bake for 10 to 12 minutes, until just firm. Top with the last spring onions and serve in wedges with toast."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

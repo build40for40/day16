@@ -1,0 +1,43 @@
+{
+ "day": 57,
+ "title": "Sausage, squash and sage pasta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Sausages, chicken stock, dried pasta and Parmesan are all ordinary kitchen staples, and there are no jars, stock pots or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only two pans and a masher, and the techniques are simple browning, simmering and mashing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Six sausages, a whole squash and 400g pasta suit four, 300ml stock covered for 15 minutes will soften diced squash, and the saved pasta water loosens the sauce."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers peeling and dicing a squash, chopping an onion and garlic, skinning the sausages and grating the cheese, and the stepped times of about 28 minutes are close to the 25 printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm squash and sausage pasta suits late February, and the squash forms the body of the sauce rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family meal of sausage, vegetables and pasta that people would happily cook again."
+  }
+ }
+}

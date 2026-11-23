@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 287,
+  "date": "2027-10-14",
+  "label": "14 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "jacket or loaded potato",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spring-onions",
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Jacket potatoes with Stilton, beans and pear",
+  "meal": "lunch",
+  "dish_form": "loaded jacket potato",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "oven",
+  "utensils": [
+   "a baking tray",
+   "a mixing bowl",
+   "a masher"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 85,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "4",
+    "name": "baking potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "1 tin",
+    "name": "butter beans"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "1 bunch",
+    "name": "spring onions"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "100g",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "blue-cheese",
+    "quantity": "100g",
+    "name": "Stilton"
+   },
+   {
+    "id": "pears",
+    "quantity": "2",
+    "name": "pears"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "30g",
+    "name": "walnuts"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Prick the potatoes, rub with oil and salt, and bake for 1 hour 15 minutes.",
+   "Halve them and scoop the flesh into a bowl. Mash with the drained beans, crème fraîche, sliced spring onions and half the crumbled Stilton. Season.",
+   "Pile back into the skins, top with the rest of the Stilton and bake for 10 minutes, until golden.",
+   "Toss sliced pears, watercress and walnuts with a squeeze of lemon and serve alongside."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

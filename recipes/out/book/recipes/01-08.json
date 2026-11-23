@@ -1,0 +1,97 @@
+{
+ "slot": {
+  "day": 8,
+  "date": "2027-01-08",
+  "label": "8 January",
+  "month": 1,
+  "meal": "snack",
+  "form": "scone or soda bread",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "purple-sprouting-broccoli"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Purple sprouting broccoli soda scones",
+  "meal": "snack",
+  "dish_form": "soda bread scones",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a baking tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "purple-sprouting-broccoli",
+    "quantity": "200g",
+    "name": "sprouting broccoli"
+   },
+   {
+    "id": "wholemeal-flour",
+    "quantity": "250g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "200g",
+    "name": "plain flour"
+   },
+   {
+    "id": "bicarbonate-of-soda",
+    "quantity": "1 tsp",
+    "name": "bicarbonate of soda"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Finely chop the broccoli, stalks and all.",
+   "Mix the flours, bicarb, 1 tsp salt, a pinch of chilli, the thyme leaves and the broccoli in a bowl.",
+   "Stir the oil and vinegar into 325ml cold water. Pour in and mix quickly to a soft dough.",
+   "Pat into a round on a floured tray, cut into 8 wedges and press on the seeds. Bake for 25 minutes, until golden."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

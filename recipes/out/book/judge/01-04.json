@@ -1,0 +1,43 @@
+{
+ "day": 4,
+ "title": "Sprout and apple slaw on toast with cheddar",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Sprouts, apples, walnuts, Greek yoghurt, mustard, honey, bread and cheddar are all ordinary home ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item is an everyday line at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, bowl, grater, knife and toaster, and the slicing is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "300g of sprouts with two apples, a lightly dressed slaw and 80g of cheddar over four slices of toast makes a sensible snack for four, and the lemon stops the apple browning."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes is realistic for slicing 300g of sprouts thinly, cutting the apple matchsticks and making the dressing, and the 10-minute rest matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon, is used, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Raw shredded sprouts are clearly the point of the dish, and a winter slaw on hot toast with cheddar suits early January."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a satisfying snack of vegetables, fruit, nuts, cheese and wholemeal bread with only a touch of honey."
+  }
+ }
+}

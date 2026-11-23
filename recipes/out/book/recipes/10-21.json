@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 294,
+  "date": "2027-10-21",
+  "label": "21 October",
+  "month": 10,
+  "meal": "lunch",
+  "form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "white-cabbage"
+  ],
+  "protein": "mussels",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cider mussels and cabbage on toast",
+  "meal": "lunch",
+  "dish_form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one large lidded pan",
+   "a toaster or grill"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "mussels",
+    "quantity": "1.5kg",
+    "name": "mussels"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "shallots",
+    "quantity": "2",
+    "name": "shallots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "white-cabbage",
+    "quantity": "½",
+    "name": "white cabbage"
+   },
+   {
+    "id": "cider",
+    "quantity": "200ml",
+    "name": "dry cider"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "100ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 thick slices",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Scrub the mussels and pull off any beards. Throw away any open ones that won't close when tapped.",
+   "Melt the butter in a big lidded pan. Soften the sliced shallots, garlic and shredded cabbage for 8 minutes.",
+   "Add the cider and mussels. Cover and steam for 5 minutes, until opened, then stir in the crème fraîche and plenty of pepper.",
+   "Toast the bread. Pile on the cabbage and mussels, spoon over the juices and scatter with chopped parsley."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

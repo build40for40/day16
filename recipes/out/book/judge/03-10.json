@@ -1,0 +1,43 @@
+{
+ "day": 69,
+ "title": "Potato, kale and walnut traybake with watercress",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is whole food or a plain staple: potatoes, onions, tinned chickpeas, kale, walnuts, watercress, feta, oil and spices."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "All of it is everyday Tesco stock at ordinary prices, including the watercress, feta and a small bag of walnuts."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board and a large roasting tray, and the technique is simple roasting and tossing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "800g potatoes with a tin of chickpeas, kale and feta makes a filling dinner for four, and 25 plus 10 minutes at 220°C will cook cubed potatoes and crisp the kale without burning it."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to cube the potatoes, cut the onion wedges, drain the chickpeas and tear the kale, and the steps add up to the 35 minutes of roasting printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon and paprika, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": false,
+   "reason": "Watercress is meant to be the hero, but here it is a handful tossed through at the very end of a potato, chickpea and kale traybake, so it reads as a garnish rather than the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with nothing a beginner would struggle to follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner of potatoes, pulses, greens, nuts and cheese."
+  }
+ }
+}

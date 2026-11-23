@@ -1,0 +1,43 @@
+{
+ "day": 83,
+ "title": "Pork chop, barley and spring greens bowls",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Barley, pork chops, greens, apples, mustard, cider vinegar and honey are all plain foods a grandparent would have had to hand."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a frying pan and a sieve, with simple simmering and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g barley, four chops and 300g greens make a sensible lunch for four, and the timings for the barley, chops and greens are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers the chopping, dressing and frying, and 35 minutes cook time matches the 30-minute barley simmer plus resting."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, and the steps add nothing unlisted apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm barley bowl with fried spring greens suits late March, and the greens are a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a balanced meal of wholegrain, lean protein, greens and fruit that a family would happily eat."
+  }
+ }
+}

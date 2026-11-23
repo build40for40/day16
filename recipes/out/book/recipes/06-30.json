@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 181,
+  "date": "2027-06-30",
+  "label": "30 June",
+  "month": 6,
+  "meal": "lunch",
+  "form": "frittata or omelette",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "lettuce"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Lettuce, pea and feta frittata",
+  "meal": "lunch",
+  "dish_form": "frittata",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan with a lid",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "1 bunch",
+    "name": "spring onions"
+   },
+   {
+    "id": "peas",
+    "quantity": "200g",
+    "name": "podded fresh peas"
+   },
+   {
+    "id": "lettuce",
+    "quantity": "2",
+    "name": "little gem lettuces"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   },
+   {
+    "id": "radishes",
+    "quantity": "150g",
+    "name": "radishes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   }
+  ],
+  "steps": [
+   "Soften the sliced spring onions in the butter in a large frying pan for 3 minutes. Stir in the peas and one shredded lettuce until wilted.",
+   "Beat the eggs with half the chopped mint and season. Pour in, crumble over the feta, cover and cook gently for 12 minutes, until just set.",
+   "Cut the other lettuce into wedges, add the sliced radishes and dress with the oil, lemon juice and remaining mint.",
+   "Serve the frittata in slices with the salad."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

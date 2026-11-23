@@ -1,0 +1,101 @@
+{
+ "slot": {
+  "day": 109,
+  "date": "2027-04-19",
+  "label": "19 April",
+  "month": 4,
+  "meal": "dinner",
+  "form": "traybake",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "spinach",
+   "bramley-apples"
+  ],
+  "protein": "lamb-chops",
+  "protein_hint": null,
+  "kit": "one_tray",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Lamb chop traybake with apple and spinach",
+  "meal": "dinner",
+  "dish_form": "traybake",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "rosemary",
+    "name": "rosemary"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "750g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "garlic",
+    "quantity": "6",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "lamb-chops",
+    "quantity": "8",
+    "name": "lamb chops"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "bramley-apples",
+    "quantity": "2",
+    "name": "Bramley apples"
+   },
+   {
+    "id": "spinach",
+    "quantity": "200g",
+    "name": "spinach"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes, onion wedges, whole garlic cloves and rosemary in the oil on a roasting tray. Season and roast for 20 minutes.",
+   "Rub the chops with the mustard and season. Add them to the tray with the cored apple wedges and roast for 15 minutes, until browned.",
+   "Lift out the chops to rest. Stir the spinach into the hot tray until it wilts, squashing in the soft garlic and apple."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

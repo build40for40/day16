@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 258,
+  "date": "2027-09-15",
+  "label": "15 September",
+  "month": 9,
+  "meal": "lunch",
+  "form": "jacket or loaded potato",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "red-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Jacket potatoes with split peas and red cabbage slaw",
+  "meal": "lunch",
+  "dish_form": "jacket potato",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a baking tray",
+   "one heavy pan",
+   "a grater"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 60,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "turmeric",
+    "name": "turmeric"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "coriander",
+    "name": "coriander"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "4",
+    "name": "baking potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "split-peas",
+    "quantity": "200g",
+    "name": "yellow split peas"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "½",
+    "name": "red cabbage"
+   },
+   {
+    "id": "apples",
+    "quantity": "1",
+    "name": "eating apple"
+   }
+  ],
+  "steps": [
+   "Prick the potatoes, rub with a little oil and salt, and bake at 200°C (180°C fan) for 1 hour.",
+   "Soften the chopped onion and garlic in the rest of the oil. Add the split peas, 1 tsp each of cumin and turmeric and 900ml water. Simmer for 45 minutes, until thick. Season.",
+   "Toss the shredded cabbage and grated apple with lemon juice, chopped coriander and salt.",
+   "Split the potatoes, fill with the split peas and top with the slaw."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 319,
+  "date": "2027-11-15",
+  "label": "15 November",
+  "month": 11,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "chard"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Chard and mushroom hash with eggs",
+  "meal": "breakfast",
+  "dish_form": "hash",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan",
+   "a large lidded frying pan"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "700g",
+    "name": "potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "butter",
+    "quantity": "20g",
+    "name": "butter"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "200g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "chard",
+    "quantity": "300g",
+    "name": "chard"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   }
+  ],
+  "steps": [
+   "Boil the diced potatoes in salted water for 8 minutes. Drain well.",
+   "Fry in the oil and butter with the sliced onion for 10 minutes, turning, until golden.",
+   "Stir in the sliced mushrooms, garlic, thyme and chopped chard stalks for 5 minutes, then the shredded leaves until wilted. Season.",
+   "Make four hollows, crack in the eggs, cover and cook for 4 to 5 minutes until the whites set. Scatter with chilli."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

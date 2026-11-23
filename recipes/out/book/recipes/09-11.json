@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 254,
+  "date": "2027-09-11",
+  "label": "11 September",
+  "month": 9,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "celeriac"
+  ],
+  "protein": "mussels",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Linguine with mussels and celeriac",
+  "meal": "lunch",
+  "dish_form": "pasta",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a wide pan with a lid",
+   "a colander"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "mussels",
+    "quantity": "1kg",
+    "name": "mussels"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "300g",
+    "name": "linguine"
+   },
+   {
+    "id": "celeriac",
+    "quantity": "400g",
+    "name": "celeriac"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "shallots",
+    "quantity": "2",
+    "name": "shallots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "white-wine",
+    "quantity": "150ml",
+    "name": "white wine"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "100ml",
+    "name": "crème fraîche"
+   }
+  ],
+  "steps": [
+   "Scrub the mussels and pull off the beards. Throw away any open ones that don't close when tapped.",
+   "Boil the linguine in salted water, adding the peeled, finely diced celeriac for the last 6 minutes.",
+   "Soften the chopped shallots and garlic in the butter in a wide pan. Add the wine and mussels, cover and steam for 4 minutes, until open.",
+   "Drain the pasta into the mussels. Stir in the crème fraîche, a pinch of chilli, lemon zest and juice and chopped parsley. Season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,116 @@
+{
+ "slot": {
+  "day": 225,
+  "date": "2027-08-13",
+  "label": "13 August",
+  "month": 8,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "pointed-cabbage"
+  ],
+  "protein": "gammon",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Gammon, white bean and pointed cabbage pot",
+  "meal": "lunch",
+  "dish_form": "bean pot",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one wide lidded pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "gammon",
+    "quantity": "400g",
+    "name": "gammon steaks"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "2 tins",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "400ml",
+    "name": "chicken stock"
+   },
+   {
+    "id": "pointed-cabbage",
+    "quantity": "1",
+    "name": "pointed cabbage"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "3 tbsp",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a wide pan. Brown the diced gammon for 5 minutes.",
+   "Add the sliced onion, diced carrots and thyme leaves. Soften for 5 minutes, then add the crushed garlic.",
+   "Tip in the drained beans and stock. Simmer for 10 minutes.",
+   "Add the shredded cabbage, cover and cook for 5 minutes.",
+   "Stir in the crème fraîche and mustard. Season with pepper and scatter with parsley."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 74 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

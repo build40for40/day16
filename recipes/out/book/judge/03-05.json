@@ -1,0 +1,43 @@
+{
+ "day": 64,
+ "title": "Cauliflower, parsnip and bacon hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Bacon, parsnips, cauliflower, onion, eggs, oil, herbs and smoked paprika are all ordinary kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large lidded frying pan, a knife and a board, and the technique is simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A whole cauliflower, three parsnips, six rashers and four eggs make a sensible lunch for four, and 25 minutes of frying will cook the diced veg through, though a big pan is needed to avoid steaming."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The steps add up to about 30 to 35 minutes on the hob (crisping the bacon, then 15 minutes, 10 minutes and 4 to 5 minutes), so the printed 25 minutes of cook time is too short."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, 'smoked bacon' matches the bacon id, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot cauliflower and parsnip hash suits a cold early-March lunch, and cauliflower is central to the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Plenty of vegetables, plus eggs and bacon for protein, make a satisfying family lunch."
+  }
+ }
+}

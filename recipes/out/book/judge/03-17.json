@@ -1,0 +1,43 @@
+{
+ "day": 76,
+ "title": "Chicken and celeriac barley with watercress",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a basic staple: chicken, leeks, barley, celeriac, stock, crème fraîche and watercress."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole plus a knife and board, and browning and simmering are beginner techniques."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight thighs, 300g pearl barley and 1.2 litres of stock simmered covered for 40 minutes is a sound ratio and timing for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and cubing a small celeriac, slicing leeks and browning the chicken fit within 25 minutes, and 45 minutes of cooking matches the 40-minute simmer plus finishing."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including thyme and lemon, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": false,
+   "reason": "The watercress is only stirred through and scattered over at the very end of what is really a chicken and celeriac barley stew, so the hero reads as a finishing green rather than the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling one-pot dinner with protein, wholegrain barley and vegetables that a family would happily eat again."
+  }
+ }
+}

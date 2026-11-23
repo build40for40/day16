@@ -1,0 +1,43 @@
+{
+ "day": 96,
+ "title": "Creamy leeks and mushrooms on toast with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Butter, leeks, mushrooms, crème fraîche, mustard, eggs and bread are all ordinary kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a saucepan and a toaster or grill, and poaching eggs is within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two leeks and 250g of mushrooms with crème fraîche, four eggs and four slices of toast make a sensible breakfast for four, and the timings are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is enough to wash and slice the leeks and mushrooms, poach the eggs and make the toast, and the 10 minute cook matches the frying step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, nothing unlisted is used apart from water, and wholemeal bread fits the bread id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Leeks are the bulk of the topping and a warm savoury breakfast suits early April."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, vegetables and wholemeal toast make a filling, real-food breakfast a family would happily repeat."
+  }
+ }
+}

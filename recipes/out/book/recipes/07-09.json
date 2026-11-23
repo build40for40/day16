@@ -1,0 +1,101 @@
+{
+ "slot": {
+  "day": 190,
+  "date": "2027-07-09",
+  "label": "9 July",
+  "month": 7,
+  "meal": "dinner",
+  "form": "traybake",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "celery",
+   "broad-beans"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "one_tray",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Celery and broad bean traybake with baked eggs",
+  "meal": "dinner",
+  "dish_form": "traybake",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "750g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "celery",
+    "quantity": "1 head",
+    "name": "celery"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "broad-beans",
+    "quantity": "1kg",
+    "name": "broad beans in pods"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the halved potatoes, chunked celery and onion wedges with the oil and salt on a roasting tray. Roast for 25 minutes.",
+   "Pod the broad beans, stir them in with the lemon zest and roast for 5 minutes.",
+   "Make eight gaps, crack in the eggs and bake for 8 to 10 minutes, until the whites set.",
+   "Scatter over the crumbled feta, dill and a squeeze of lemon. Season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

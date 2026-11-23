@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 44,
+  "date": "2027-02-13",
+  "label": "13 February",
+  "month": 2,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "turnips"
+  ],
+  "protein": null,
+  "protein_hint": "a whole grain",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Wholemeal pasta with turnips, sage and walnuts",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a wide frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "sage",
+    "name": "sage"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "wholemeal penne"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "200g",
+    "name": "cavolo nero"
+   },
+   {
+    "id": "turnips",
+    "quantity": "500g",
+    "name": "turnips"
+   },
+   {
+    "id": "butter",
+    "quantity": "50g",
+    "name": "butter"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "60g",
+    "name": "vegetarian hard cheese"
+   }
+  ],
+  "steps": [
+   "Boil the pasta in salted water for 10 to 12 minutes, adding the shredded cavolo nero for the last 3. Save a mug of water, then drain.",
+   "Meanwhile, fry the diced turnips in the butter in a wide pan for 10 minutes, until golden and tender.",
+   "Add the sliced garlic, sage leaves, walnuts and a pinch of chilli for 2 minutes.",
+   "Toss in the pasta and greens with half a lemon's juice, most of the grated cheese and a splash of the water. Season and top with the rest."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

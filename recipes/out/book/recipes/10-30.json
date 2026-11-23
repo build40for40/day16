@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 303,
+  "date": "2027-10-30",
+  "label": "30 October",
+  "month": 10,
+  "meal": "dinner",
+  "form": "fishcakes or patties",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "lettuce"
+  ],
+  "protein": "beef-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Beef patties with wedges and lettuce salad",
+  "meal": "dinner",
+  "dish_form": "patties",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a roasting tray",
+   "a grater",
+   "a large bowl"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 45,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "1kg",
+    "name": "potatoes"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "beef-mince",
+    "quantity": "500g",
+    "name": "beef mince"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "150g",
+    "name": "natural yoghurt"
+   },
+   {
+    "id": "wholegrain-mustard",
+    "quantity": "1 tsp",
+    "name": "wholegrain mustard"
+   },
+   {
+    "id": "lettuce",
+    "quantity": "2",
+    "name": "lettuces"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the potato wedges with the oil, paprika and salt on a tray. Roast for 20 minutes.",
+   "Mix the mince with half the finely chopped onion, the thyme leaves and pepper. Shape into 8 patties.",
+   "Add them to the tray and roast for 20 to 25 minutes, until browned and cooked through.",
+   "Stir the yoghurt with the mustard and snipped chives. Toss with the torn lettuce, grated carrot and the rest of the onion."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

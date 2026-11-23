@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 89,
+  "date": "2027-03-30",
+  "label": "30 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "oranges"
+  ],
+  "protein": "bacon",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Orange glazed bacon and potato hash",
+  "meal": "breakfast",
+  "dish_form": "hash",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan with a lid",
+   "a small pan"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "bacon",
+    "quantity": "8",
+    "name": "rashers bacon"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "oranges",
+    "quantity": "3",
+    "name": "oranges"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "watercress",
+    "quantity": "80g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Fry the potatoes, cut into small cubes, in the oil in a large lidded pan for 15 minutes, turning often, until golden.",
+   "Push them aside, crisp the bacon in the space, then stir in the sliced spring onions. Season.",
+   "Make four gaps, crack in the eggs, cover and cook for 3 to 4 minutes.",
+   "Bubble the juice of 1 orange with the honey until syrupy and spoon over the bacon. Serve with the watercress and the other oranges, peeled and sliced."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

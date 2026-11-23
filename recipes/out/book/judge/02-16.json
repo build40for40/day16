@@ -1,0 +1,43 @@
+{
+ "day": 47,
+ "title": "Chicken, bean and cavolo nero soup",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or an accepted staple such as tinned tomatoes, tinned beans, stock and Parmesan."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every item, cavolo nero and Parmesan included, is an everyday line at Tesco and similar shops."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan, two forks and a grater, and poaching then shredding chicken is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Two breasts poached for 20 minutes in 1.2 litres of stock with two tins of beans and 200g of greens gives a well-balanced, properly cooked soup for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers the chopping, stripping the cavolo nero, shredding the chicken and grating, and the steps add up to about 40 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, nothing unlisted is used, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming bean and greens soup suits mid-February, and the cavolo nero is a main component named in the title."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chicken, beans, vegetables and greens make a filling, balanced family dinner."
+  }
+ }
+}

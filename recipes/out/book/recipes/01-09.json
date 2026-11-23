@@ -1,0 +1,99 @@
+{
+ "slot": {
+  "day": 9,
+  "date": "2027-01-09",
+  "label": "9 January",
+  "month": 1,
+  "meal": "breakfast",
+  "form": "baked oats or breakfast loaf",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "oranges"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Baked oats with rhubarb and orange",
+  "meal": "breakfast",
+  "dish_form": "baked oats",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a baking dish",
+   "a mixing bowl",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "2 tbsp",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "apples"
+   },
+   {
+    "id": "oranges",
+    "quantity": "3",
+    "name": "oranges"
+   },
+   {
+    "id": "rhubarb",
+    "quantity": "300g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C (170°C fan). Oil a baking dish.",
+   "Mix the oats, baking powder, sugar, 1 tsp cinnamon and a pinch of salt. Grate in the apples and the zest of 2 oranges, then stir in their juice, the rest of the oil and 350ml water.",
+   "Spread in the dish, top with the chopped rhubarb and broken walnuts, and bake for 35 minutes, until set and golden.",
+   "Serve warm with slices of the last orange."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

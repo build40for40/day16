@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 43,
+  "date": "2027-02-12",
+  "label": "12 February",
+  "month": 2,
+  "meal": "lunch",
+  "form": "grain bowl",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "swede",
+   "clementines"
+  ],
+  "protein": "beef-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Roast swede and beef bulgur bowls",
+  "meal": "lunch",
+  "dish_form": "grain bowl",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a large roasting tray",
+   "a heatproof bowl"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "swede",
+    "quantity": "1",
+    "name": "small swede"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "beef-mince",
+    "quantity": "400g",
+    "name": "beef mince"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   },
+   {
+    "id": "bulgur",
+    "quantity": "200g",
+    "name": "bulgur wheat"
+   },
+   {
+    "id": "clementines",
+    "quantity": "4",
+    "name": "clementines"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "150g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the peeled, cubed swede with the oil, 2 tsp cumin and salt. Roast for 20 minutes.",
+   "Crumble the mince over with the sliced onion and 1 tsp paprika. Roast 15 minutes more, adding the kale for the last 5.",
+   "Soak the bulgur in 300ml boiling water for 15 minutes, covered.",
+   "Pile into bowls with sliced clementines, yoghurt and seeds. Season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

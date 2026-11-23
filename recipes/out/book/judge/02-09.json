@@ -1,0 +1,43 @@
+{
+ "day": 40,
+ "title": "Orange glazed gammon with sprouting broccoli",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, butter, mustard, gammon, oil, broccoli, garlic, orange and honey are all plain kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Gammon steaks and purple sprouting broccoli are both everyday lines at Tesco in February."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a pan, a lidded frying pan and a masher, with simple boiling, frying and steaming."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four, the gammon timing is sensible, and seasoning with pepper only rightly allows for the salty gammon."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes of active work covers halving potatoes, slicing garlic, juicing the orange and frying, and the 20-minute cook matches the potato boil."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, nothing unlisted appears apart from water, and 'sprouting broccoli' is the same food as its id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early purple sprouting broccoli with a warm glazed gammon and crushed potatoes suits a February evening, and 400g of broccoli is a real part of the plate, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, brief British instructions a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Gammon, potatoes and a good portion of greens make a proper family dinner."
+  }
+ }
+}

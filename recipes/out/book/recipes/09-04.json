@@ -1,0 +1,115 @@
+{
+ "slot": {
+  "day": 247,
+  "date": "2027-09-04",
+  "label": "4 September",
+  "month": 9,
+  "meal": "lunch",
+  "form": "lentil or bean pot",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "white-cabbage",
+   "celeriac"
+  ],
+  "protein": "lamb-neck",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Lamb, lentil and cabbage pot",
+  "meal": "lunch",
+  "dish_form": "lentil stew",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a large lidded casserole"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 70,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "bay",
+    "name": "bay leaves"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "lamb-neck",
+    "quantity": "500g",
+    "name": "lamb neck fillet"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "1 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "green-lentils",
+    "quantity": "200g",
+    "name": "green lentils"
+   },
+   {
+    "id": "celeriac",
+    "quantity": "½",
+    "name": "celeriac"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "1 litre",
+    "name": "chicken stock"
+   },
+   {
+    "id": "white-cabbage",
+    "quantity": "½",
+    "name": "white cabbage"
+   }
+  ],
+  "steps": [
+   "Brown the lamb, cut into chunks, in the oil in the casserole. Lift out.",
+   "Soften the chopped onion and carrots for 5 minutes, then add the sliced garlic, thyme and bay.",
+   "Return the lamb with the lentils, cubed celeriac and stock. Cover and simmer for 1 hour, until the lamb is tender.",
+   "Stir in the shredded cabbage for 10 minutes more. Season and add a squeeze of lemon."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

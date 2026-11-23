@@ -1,0 +1,86 @@
+{
+ "slot": {
+  "day": 67,
+  "date": "2027-03-08",
+  "label": "8 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "spring-onions"
+  ],
+  "protein": "kippers",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Kipper and spring onion hash with eggs",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large lidded frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "kippers",
+    "quantity": "4",
+    "name": "kipper fillets"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "1 bunch",
+    "name": "spring onions"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   }
+  ],
+  "steps": [
+   "Fry the cubed potatoes in the oil in a large lidded frying pan, covered, for 15 minutes, turning now and then.",
+   "Lay the kippers on top, cover and cook for 5 minutes. Lift out and flake the flesh from the skin and bones.",
+   "Stir in the sliced spring onions for 2 minutes, then fold in the kipper and chopped parsley.",
+   "Make four hollows and crack in the eggs. Cover and cook for 4 minutes, until the whites set. Serve with pepper and lemon wedges."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 20,
+ "title": "Orange and mustard glazed sausages with eggs on toast",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Sausages, honey, wholegrain mustard, eggs, butter and bread are all ordinary home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a roasting tray, frying pan and grater are needed, and the techniques are simple."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight sausages roasted for 25 minutes at 200°C, with four eggs on four slices of toast, makes a sensible breakfast for four, and the small honey and orange glaze will coat them nicely."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Ten minutes of active work covers zesting, juicing, turning the sausages, frying the eggs and toasting, and 25 minutes of cooking matches the two roasting stages."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot cooked breakfast suits late January, and orange gives the glaze its name and also comes as wedges on the side."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Clear, plain British instructions with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Sausages, eggs, wholemeal toast and fresh orange make a proper, satisfying family breakfast."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 95,
+ "title": "Turkey, potato and spinach curry",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a basic cupboard, fridge or garden item, and the curry powder and garam masala are plain ground spices rather than jar sauces or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Turkey mince, potatoes, spinach, radishes, yoghurt and the spices are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded pan, a knife and a grater, and the technique is simple frying and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g turkey, 500g potatoes, a tin of tomatoes and 300ml water simmered covered for 25 minutes gives a sensible, well-seasoned curry for four, finished with a radish raita."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Chopping two onions, cubing potatoes, grating garlic and radishes, an 8-minute soften and browning the mince fit 25 active minutes, and the 25-minute simmer matches the cook time."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming curry suits an April evening, and 200g of spinach wilted through in saag aloo style is a real part of the dish, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family dinner of lean meat, potatoes, tomatoes, spinach and yoghurt."
+  }
+ }
+}

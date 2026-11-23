@@ -1,0 +1,100 @@
+{
+ "slot": {
+  "day": 353,
+  "date": "2027-12-19",
+  "label": "19 December",
+  "month": 12,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "parsnips"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Parsnip and sprout hash with eggs",
+  "meal": "lunch",
+  "dish_form": "hash",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan with a lid"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 27,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "500g",
+    "name": "potatoes"
+   },
+   {
+    "id": "parsnips",
+    "quantity": "400g",
+    "name": "parsnips"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "200g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "butter",
+    "quantity": "20g",
+    "name": "butter"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large frying pan. Add the diced potatoes and parsnips with a pinch of salt, cover and cook for 12 minutes, stirring now and then.",
+   "Uncover, add the sliced onion, thyme leaves and 1 tsp paprika. Fry for 8 minutes until crisp at the edges.",
+   "Stir in the shredded sprouts and butter for 3 minutes. Season.",
+   "Make four hollows, crack in the eggs, cover and cook for 4 minutes, until the whites set."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 78,
+ "title": "Apple and orange griddle cakes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, baking powder, sugar, orange, oil, apples and golden syrup are all ordinary cupboard and fruit-bowl items."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday, cheap item at any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Only a bowl, grater, whisk and frying pan are needed, and fritter-style pancakes are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g flour to 250ml liquid plus two grated apples gives a thick, droppable batter that cooks through in 2 to 3 minutes a side, enough for four at breakfast."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers zesting, grating and mixing comfortably, and the thirty-minute total is roughly what mixing and frying a few batches takes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored apples are what is left in March, and they are grated through the batter and sliced on top, so they are the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and written in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Half-wholemeal pancakes packed with grated apple and only a little sugar and syrup make a reasonable family breakfast."
+  }
+ }
+}

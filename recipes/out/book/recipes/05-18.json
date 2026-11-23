@@ -1,0 +1,115 @@
+{
+ "slot": {
+  "day": 138,
+  "date": "2027-05-18",
+  "label": "18 May",
+  "month": 5,
+  "meal": "dinner",
+  "form": "risotto or grain pot",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "pointed-cabbage",
+   "lettuce"
+  ],
+  "protein": "stewing-beef",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Beef, barley and pointed cabbage pot",
+  "meal": "dinner",
+  "dish_form": "grain pot",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "one large casserole with a lid"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 105,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "bay",
+    "name": "bay leaves"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "stewing-beef",
+    "quantity": "500g",
+    "name": "stewing beef"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "carrots",
+    "quantity": "3",
+    "name": "carrots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "tomato-puree",
+    "quantity": "1 tbsp",
+    "name": "tomato purée"
+   },
+   {
+    "id": "beef-stock",
+    "quantity": "1.2 litres",
+    "name": "beef stock"
+   },
+   {
+    "id": "pearl-barley",
+    "quantity": "200g",
+    "name": "pearl barley"
+   },
+   {
+    "id": "pointed-cabbage",
+    "quantity": "1",
+    "name": "pointed cabbage"
+   }
+  ],
+  "steps": [
+   "Brown the beef in the oil in a casserole, in batches. Add the sliced onion and carrots and soften for 5 minutes.",
+   "Stir in the crushed garlic, tomato purée, thyme and bay. Pour in the stock, cover and simmer gently for 1 hour.",
+   "Add the rinsed barley and cook for 40 minutes more, until the beef is tender.",
+   "Stir in the shredded cabbage for 5 minutes. Season and scatter with chopped parsley."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 32,
+ "title": "Lamb, cabbage and celeriac fritters",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a basic staple: lamb mince, cabbage, celeriac, eggs, flour, oil, yoghurt, lemon and cumin."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a grater and a bowl, and shallow-frying spoonfuls is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Three eggs and 100g flour bind the 550g of finely shredded and grated veg plus the lamb, and thin fritters at 3 minutes a side will cook through; any cook will see they need to fry in batches."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The mix makes around 16 fritters, so the lamb's 8 minutes plus about three batches at 6 minutes each runs to roughly 26 minutes of hands-on frying, well past the 15 unattended cook minutes printed for a quick lunch."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon zest and juice, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Hot, filling fritters suit a cold February lunch, and 300g of shredded white cabbage is a main component, not a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and plainly worded in British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lamb, eggs and plenty of veg with a yoghurt dip make a proper, satisfying family lunch."
+  }
+ }
+}

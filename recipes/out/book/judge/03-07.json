@@ -1,0 +1,43 @@
+{
+ "day": 66,
+ "title": "Bramley and orange crumble",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Apples, orange, butter, flour, sugar, almonds, cinnamon and Greek yoghurt are all ordinary home kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including Bramleys and flaked almonds, is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking dish, a bowl and a grater, and rubbing in is beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The standard crumble proportions and 35 minutes at 200°C will soften four Bramleys under a golden topping, though the filling will be on the tart side."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and slicing four apples, zesting and rubbing in fit in 15 minutes, and the 35-minute bake matches the step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the cinnamon and yoghurt, is used, and flaked almonds are a fair label for the almonds id."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm Bramley crumble suits a chilly early March afternoon, and the apples are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps read plainly in British English and are easy for a beginner to follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A fruit-heavy crumble with almonds and yoghurt is real food that a family would happily eat again."
+  }
+ }
+}

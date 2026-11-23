@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 141,
+  "date": "2027-05-21",
+  "label": "21 May",
+  "month": 5,
+  "meal": "lunch",
+  "form": "salad",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "broad-beans",
+   "asparagus"
+  ],
+  "protein": "chicken-drumsticks",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Warm chicken, broad bean and asparagus salad",
+  "meal": "lunch",
+  "dish_form": "warm salad",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a roasting tray",
+   "a saucepan",
+   "a small bowl"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "paprika",
+    "name": "paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "chicken-drumsticks",
+    "quantity": "8",
+    "name": "chicken drumsticks"
+   },
+   {
+    "id": "new-potatoes",
+    "quantity": "500g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "broad-beans",
+    "quantity": "1kg",
+    "name": "broad beans in pods"
+   },
+   {
+    "id": "asparagus",
+    "quantity": "250g",
+    "name": "asparagus"
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "watercress",
+    "quantity": "100g",
+    "name": "watercress"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Toss the drumsticks and halved potatoes on a tray with 1 tbsp oil, the paprika and salt. Roast for 40 minutes, until golden.",
+   "Meanwhile pod the beans. Boil with the asparagus, cut into short lengths, for 3 minutes, then drain.",
+   "Whisk the rest of the oil with the mustard, lemon juice and chopped mint. Season.",
+   "Toss the beans, asparagus, potatoes and watercress in the dressing and top with the chicken."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

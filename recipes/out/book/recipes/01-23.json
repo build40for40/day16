@@ -1,0 +1,95 @@
+{
+ "slot": {
+  "day": 23,
+  "date": "2027-01-23",
+  "label": "23 January",
+  "month": 1,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Potato, mushroom and kale hash with eggs",
+  "meal": "breakfast",
+  "dish_form": "hash",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large frying pan with a lid"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "potatoes"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "3 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   }
+  ],
+  "steps": [
+   "Cut the potatoes into 1cm cubes. Fry in the oil in a large lidded pan for 15 minutes, turning often, until golden and tender.",
+   "Add the sliced onion and mushrooms, the thyme leaves and 1 tsp paprika. Fry for 5 minutes.",
+   "Stir in the shredded kale and a splash of water until wilted. Season.",
+   "Make four hollows, crack in the eggs, cover and cook for 4 minutes, until the whites set."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

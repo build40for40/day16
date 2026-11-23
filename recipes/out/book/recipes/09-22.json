@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 265,
+  "date": "2027-09-22",
+  "label": "22 September",
+  "month": 9,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "celery"
+  ],
+  "protein": "chicken-thighs",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Chicken, celery and barley soup",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "one large lidded pan",
+   "two forks"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "1 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "celery",
+    "quantity": "1",
+    "name": "head of celery"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "carrots",
+    "quantity": "2",
+    "name": "carrots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "chicken-thighs",
+    "quantity": "6",
+    "name": "boneless chicken thighs"
+   },
+   {
+    "id": "pearl-barley",
+    "quantity": "150g",
+    "name": "pearl barley"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "1.2 litres",
+    "name": "chicken stock"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large pan. Soften the sliced celery, onion and carrots with the crushed garlic, a few thyme sprigs and a pinch of salt for 10 minutes. Keep the celery leaves.",
+   "Add the whole chicken thighs, rinsed barley and stock. Cover and simmer for 40 minutes, until the barley is tender.",
+   "Lift out the chicken, shred it with two forks and return it to the pan.",
+   "Stir in a squeeze of lemon, the chopped parsley and celery leaves. Season and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

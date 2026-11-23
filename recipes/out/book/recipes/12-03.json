@@ -1,0 +1,87 @@
+{
+ "slot": {
+  "day": 337,
+  "date": "2027-12-03",
+  "label": "3 December",
+  "month": 12,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "mushrooms"
+  ],
+  "protein": "kippers",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Kippers with garlic mushrooms on toast",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a grill tray",
+   "a large frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "kippers",
+    "quantity": "4",
+    "name": "kippers"
+   },
+   {
+    "id": "butter",
+    "quantity": "50g",
+    "name": "butter"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "400g",
+    "name": "chestnut mushrooms"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Heat the grill to high. Lay the kippers skin side down on a tray, dot with a little butter and grill for 4 to 5 minutes, until hot through.",
+   "Melt most of the rest of the butter in a large frying pan. Fry the sliced mushrooms over a high heat for 6 to 8 minutes, until golden.",
+   "Stir in the sliced garlic and thyme leaves for a minute. Add a squeeze of lemon and plenty of pepper.",
+   "Toast and butter the bread. Serve with the kippers, mushrooms and lemon wedges."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

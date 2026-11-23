@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 62,
+  "date": "2027-03-03",
+  "label": "3 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "watercress"
+  ],
+  "protein": "pork-shoulder",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Sausage pasta with watercress and lemon",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 12,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "dried-pasta",
+    "quantity": "400g",
+    "name": "penne"
+   },
+   {
+    "id": "sausages",
+    "quantity": "6",
+    "name": "pork sausages"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "200ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "watercress",
+    "quantity": "100g",
+    "name": "watercress"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "30g",
+    "name": "Parmesan"
+   }
+  ],
+  "steps": [
+   "Boil the pasta in salted water for 10 to 12 minutes.",
+   "Meanwhile, squeeze the sausage meat from its skins and fry in the oil in small lumps for 8 minutes, until golden.",
+   "Add the sliced garlic and a pinch of chilli for a minute, then stir in the crème fraîche and lemon zest.",
+   "Drain, saving a cup of water. Toss the pasta into the sauce with the watercress and a splash of the water. Season, squeeze in lemon juice and grate over the Parmesan."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

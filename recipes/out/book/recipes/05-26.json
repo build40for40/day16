@@ -1,0 +1,116 @@
+{
+ "slot": {
+  "day": 146,
+  "date": "2027-05-26",
+  "label": "26 May",
+  "month": 5,
+  "meal": "dinner",
+  "form": "curry or dal",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "pointed-cabbage",
+   "new-potatoes"
+  ],
+  "protein": "lamb-mince",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Lamb keema with new potatoes and cabbage",
+  "meal": "dinner",
+  "dish_form": "curry",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a large casserole with a lid",
+   "a wooden spoon"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "garam-masala",
+    "name": "garam masala"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "coriander",
+    "name": "coriander"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "1 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "2",
+    "name": "onions"
+   },
+   {
+    "id": "lamb-mince",
+    "quantity": "500g",
+    "name": "lamb mince"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "new-potatoes",
+    "quantity": "500g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "pointed-cabbage",
+    "quantity": "1",
+    "name": "pointed cabbage"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "150g",
+    "name": "frozen peas"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "natural yoghurt"
+   }
+  ],
+  "steps": [
+   "Brown the sliced onions and lamb in the oil in a large casserole for 10 minutes, breaking up the mince.",
+   "Stir in the crushed garlic, 2 tsp each of cumin and garam masala and a pinch of chilli. Cook for 1 minute.",
+   "Add the halved potatoes, tomatoes, 300ml water and a little salt. Cover and simmer for 20 minutes.",
+   "Add the shredded cabbage and peas and cook uncovered for 8 minutes, until the cabbage wilts. Top with coriander and yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

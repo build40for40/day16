@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 69,
+  "date": "2027-03-10",
+  "label": "10 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "traybake",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "watercress",
+   "kale"
+  ],
+  "protein": null,
+  "protein_hint": "nuts or seeds",
+  "kit": "one_tray",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Potato, kale and walnut traybake with watercress",
+  "meal": "dinner",
+  "dish_form": "traybake",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a large roasting tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "potatoes"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "kale",
+    "quantity": "200g",
+    "name": "kale"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "75g",
+    "name": "walnuts"
+   },
+   {
+    "id": "watercress",
+    "quantity": "100g",
+    "name": "watercress"
+   },
+   {
+    "id": "feta",
+    "quantity": "150g",
+    "name": "feta"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan). Toss the cubed potatoes, onion wedges and drained chickpeas on the tray with 2 tbsp oil, 2 tsp paprika and salt. Roast for 25 minutes.",
+   "Stir in the torn kale, walnuts and the last of the oil. Roast for 8 to 10 minutes, until the kale crisps at the edges.",
+   "Squeeze over the lemon, season and toss through the watercress so it just wilts.",
+   "Crumble over the feta and serve."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

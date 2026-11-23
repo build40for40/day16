@@ -1,0 +1,43 @@
+{
+ "day": 44,
+ "title": "Wholemeal pasta with turnips, sage and walnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or staple: pasta, turnips, cavolo nero, butter, garlic, walnuts, hard cheese, sage and lemon."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Wholemeal penne, turnips, cavolo nero, walnuts and vegetarian hard cheese are everyday items at Tesco and similar shops."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a large pan, a frying pan and a grater, with simple boiling and frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "350g pasta with 500g turnips, greens, cheese and nuts is right for four, and the timings and the pasta water for the sauce are sensible."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling and dicing 500g of turnips, stripping the cavolo nero, slicing the garlic and grating the cheese fits in about 15 minutes, and the 15-minute cook matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Wholemeal penne is a fair name for dried pasta, and every listed ingredient and seasoning, including sage, chilli and lemon, is used in the steps with nothing extra."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Buttery fried turnips with sage and walnuts make a warming mid-February dinner, and the turnips are the centre of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family pasta made with wholemeal pasta, two vegetables, nuts and cheese."
+  }
+ }
+}

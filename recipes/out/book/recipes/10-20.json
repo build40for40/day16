@@ -1,0 +1,113 @@
+{
+ "slot": {
+  "day": 293,
+  "date": "2027-10-20",
+  "label": "20 October",
+  "month": 10,
+  "meal": "breakfast",
+  "form": "breakfast hash",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "leeks"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Leek and sweetcorn fritters with tomatoes",
+  "meal": "breakfast",
+  "dish_form": "fritters",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one large frying pan",
+   "a mixing bowl",
+   "a whisk",
+   "a grater"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "3 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "sweetcorn",
+    "quantity": "2",
+    "name": "corn cobs"
+   },
+   {
+    "id": "self-raising-flour",
+    "quantity": "150g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "eggs",
+    "quantity": "2",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "150ml",
+    "name": "milk"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "75g",
+    "name": "cheddar"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "300g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Soften the finely sliced leeks in 1 tbsp of the oil for 8 minutes. Cut the kernels from the corn.",
+   "Whisk the flour, eggs and milk to a thick batter. Stir in the leeks, corn, grated cheddar and 1 tsp paprika. Season.",
+   "Fry spoonfuls in a little oil for 3 minutes a side, until golden. Keep warm while you cook the rest.",
+   "Blister the halved tomatoes in the pan for 3 minutes. Serve with yoghurt and snipped chives."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

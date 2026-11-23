@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 87,
+  "date": "2027-03-28",
+  "label": "28 March",
+  "month": 3,
+  "meal": "dinner",
+  "form": "gratin or bake",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "parsnips"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Parsnip and lentil bake with crispy crumbs",
+  "meal": "dinner",
+  "dish_form": "bake",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a large baking dish",
+   "foil"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 75,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "parsnips",
+    "quantity": "600g",
+    "name": "parsnips"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "puy-lentils",
+    "quantity": "200g",
+    "name": "puy lentils"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "600ml",
+    "name": "hot vegetable stock"
+   },
+   {
+    "id": "kale",
+    "quantity": "150g",
+    "name": "kale"
+   },
+   {
+    "id": "breadcrumbs",
+    "quantity": "50g",
+    "name": "breadcrumbs"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). In a large baking dish, toss chunky parsnips and onion wedges with half the oil, the thyme and paprika. Roast for 20 minutes.",
+   "Stir in the lentils, crushed garlic, tomatoes and hot stock. Cover with foil and bake for 40 minutes, until the lentils are tender.",
+   "Stir through the shredded kale and season.",
+   "Mix the crumbs with the rest of the oil, scatter over and bake uncovered for 15 minutes, until golden."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

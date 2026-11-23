@@ -1,0 +1,43 @@
+{
+ "day": 93,
+ "title": "Bramley apple drop scones",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything here is plain home baking: flour, eggs, milk, butter, honey, Greek yoghurt and apples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream supermarket, and Bramleys are widely stocked."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a small pan, a bowl, a whisk, a grater and a frying pan, and drop scones are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g self-raising flour, 2 eggs and 250ml milk with a grated Bramley makes a sound drop-scone batter for four, and the stewed apple and yoghurt round it out."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty-five minutes of active work is believable for peeling two apples, mixing the batter and frying several batches, and the 5 minute cook matches the apple simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the butter for frying and the nutmeg, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored Bramleys suit early April, and the apple is both in the batter and on top, so it is the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, fruit and Greek yoghurt alongside modest sugar make this a proper family breakfast rather than a sugary treat."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 31,
+ "title": "Bramley apple porridge with walnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, milk, butter, brown sugar, walnuts, cinnamon and Bramleys are all plain kitchen staples, with no factory-made products."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only two pans and a wooden spoon, and the techniques are simple stewing and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "160g oats to 900ml liquid gives four creamy 40g portions, and two Bramleys stewed with sugar and a splash of water will collapse nicely."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Peeling two apples, chopping walnuts, toasting and stirring porridge fits about 15 active minutes, with the apples stewing alongside."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, names match their ids, and nothing unlisted apart from water appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm apple porridge suits a cold late-January morning, and the stewed Bramleys are the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a neighbour would follow without trouble."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, milk, fruit and walnuts make a filling, wholesome breakfast with only modest added sugar."
+  }
+ }
+}

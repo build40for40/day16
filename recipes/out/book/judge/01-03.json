@@ -1,0 +1,43 @@
+{
+ "day": 3,
+ "title": "Lamb, barley and kale broth",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Lamb, root vegetables, pearl barley, stock, kale and garden herbs are all plain home-kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Lamb neck fillet, swede, kale and pearl barley are all everyday Tesco lines at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, board and a lidded casserole, and uses simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g lamb, 100g barley and 1.7 litres of liquid simmered for 75 minutes gives a tender, well-proportioned broth for four, and 8 minutes is right for shredded kale."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "25 minutes covers dicing the lamb and vegetables plus 10 minutes of browning and softening, and 85 minutes of cook time fits a 75-minute simmer plus coming to the boil."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the names match their ids, and nothing beyond water is added."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot lamb and barley broth suits early January, and 200g of kale named in the title is a substantial part of the bowl."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British instructions a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lean lamb, barley, root vegetables and greens make a filling, balanced family dinner."
+  }
+ }
+}

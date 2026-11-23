@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 317,
+  "date": "2027-11-13",
+  "label": "13 November",
+  "month": 11,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "watercress",
+   "brussels-sprouts"
+  ],
+  "protein": "haddock",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Haddock and sprout pasta with watercress",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a wide pan with a lid",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "penne"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "300g",
+    "name": "brussels sprouts"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "200ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "haddock",
+    "quantity": "400g",
+    "name": "skinless haddock"
+   },
+   {
+    "id": "watercress",
+    "quantity": "100g",
+    "name": "watercress"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "30g",
+    "name": "Parmesan"
+   }
+  ],
+  "steps": [
+   "Cook the penne in salted water, adding the shredded sprouts for the last 3 minutes. Drain, saving a mug of water.",
+   "In a wide pan, soften the sliced garlic in butter. Stir in the crème fraîche and lemon zest.",
+   "Add the haddock in chunks, cover and simmer for 5 minutes, until it flakes.",
+   "Toss in the pasta, sprouts, a splash of water and the watercress until it wilts. Season, add lemon juice and grate over Parmesan."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

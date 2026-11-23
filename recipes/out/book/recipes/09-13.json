@@ -1,0 +1,113 @@
+{
+ "slot": {
+  "day": 256,
+  "date": "2027-09-13",
+  "label": "13 September",
+  "month": 9,
+  "meal": "snack",
+  "form": "scone or soda bread",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "green-beans"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Soda farls with green beans and white bean mash",
+  "meal": "snack",
+  "dish_form": "soda bread",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a mixing bowl",
+   "a large frying pan",
+   "a masher"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "plain-flour",
+    "quantity": "150g",
+    "name": "plain flour"
+   },
+   {
+    "id": "wholemeal-flour",
+    "quantity": "100g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "bicarbonate-of-soda",
+    "quantity": "1 tsp",
+    "name": "bicarbonate of soda"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "green-beans",
+    "quantity": "300g",
+    "name": "green beans"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "200g",
+    "name": "cherry tomatoes"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1 clove",
+    "name": "garlic"
+   }
+  ],
+  "steps": [
+   "Mix the flours, bicarb and a pinch of salt. Stir in 200ml water and the vinegar to a soft dough.",
+   "Pat into a round, cut into quarters and cook in a dry pan over a low heat for 8 minutes a side.",
+   "Mash the drained beans with 2 tbsp oil, lemon juice and seasoning.",
+   "Fry the halved green beans in the rest of the oil for 4 minutes. Add the halved tomatoes, sliced garlic and chilli for 2 more.",
+   "Split the farls, spread with the mash and pile on the beans."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

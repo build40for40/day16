@@ -1,0 +1,95 @@
+{
+ "slot": {
+  "day": 38,
+  "date": "2027-02-07",
+  "label": "7 February",
+  "month": 2,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Almond ricotta pancakes with cinnamon apples",
+  "meal": "breakfast",
+  "dish_form": "pancakes",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a large frying pan",
+   "a mixing bowl",
+   "a whisk"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "apples",
+    "quantity": "3",
+    "name": "eating apples"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "ground-almonds",
+    "quantity": "100g",
+    "name": "ground almonds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Cook the sliced apples in half the butter with the honey and a good pinch of cinnamon for 6 to 8 minutes, until soft and golden.",
+   "Whisk the ricotta, eggs, ground almonds and a pinch of salt into a thick batter.",
+   "Melt a little butter in the frying pan. Cook spoonfuls of batter for 2 minutes a side, until set and golden. Turn them gently.",
+   "Stack the pancakes, spoon over the apples and add a dollop of yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

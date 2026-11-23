@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 192,
+  "date": "2027-07-11",
+  "label": "11 July",
+  "month": 7,
+  "meal": "lunch",
+  "form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "aubergine",
+   "runner-beans"
+  ],
+  "protein": "whiting",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Whiting on toast with aubergine and runner beans",
+  "meal": "lunch",
+  "dish_form": "on toast",
+  "diet": "fish",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "two frying pans",
+   "a knife and board"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "basil",
+    "name": "basil"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "aubergine",
+    "quantity": "2",
+    "name": "aubergines"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "tomatoes",
+    "quantity": "4",
+    "name": "tomatoes"
+   },
+   {
+    "id": "runner-beans",
+    "quantity": "200g",
+    "name": "runner beans"
+   },
+   {
+    "id": "capers",
+    "quantity": "1 tbsp",
+    "name": "capers"
+   },
+   {
+    "id": "whiting",
+    "quantity": "4",
+    "name": "whiting fillets"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "crusty bread"
+   }
+  ],
+  "steps": [
+   "Fry the cubed aubergines in 3 tbsp of the oil for 12 minutes, until soft and golden.",
+   "Add the sliced garlic, a pinch of chilli flakes, the chopped tomatoes and finely sliced runner beans. Cook for 8 minutes. Stir in the capers and a squeeze of lemon. Season.",
+   "Season the whiting and fry in the rest of the oil in a second pan, 2 to 3 minutes a side.",
+   "Toast the bread. Pile on the aubergine, top with the fish and torn basil."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

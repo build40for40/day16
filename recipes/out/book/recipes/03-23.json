@@ -1,0 +1,103 @@
+{
+ "slot": {
+  "day": 82,
+  "date": "2027-03-23",
+  "label": "23 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Apple and rhubarb compote with yoghurt and seeds",
+  "meal": "breakfast",
+  "dish_form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan with a lid",
+   "a frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "apples",
+    "quantity": "4",
+    "name": "eating apples"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "rhubarb",
+    "quantity": "300g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "vanilla-extract",
+    "quantity": "1 tsp",
+    "name": "vanilla extract"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "50g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "sunflower-seeds",
+    "quantity": "50g",
+    "name": "sunflower seeds"
+   },
+   {
+    "id": "almonds",
+    "quantity": "30g",
+    "name": "flaked almonds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "500g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Simmer the peeled, chopped apples with the orange zest and juice, honey, cinnamon and 3 tbsp water, covered, for 8 minutes.",
+   "Add the rhubarb in short lengths and cook 5 minutes more, until soft but holding its shape. Stir in the vanilla.",
+   "Toast the seeds and almonds in a dry pan until golden.",
+   "Spoon yoghurt into bowls, top with the warm or cold compote and scatter over the seeds."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "Vanilla extract is not a seasoning. Put it in the ingredients with a quantity."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

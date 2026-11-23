@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 277,
+  "date": "2027-10-04",
+  "label": "4 October",
+  "month": 10,
+  "meal": "dinner",
+  "form": "pan fry with a side",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "swede"
+  ],
+  "protein": "lamb-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Spiced lamb and swede with rice",
+  "meal": "dinner",
+  "dish_form": "pan fry with a side",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan with a lid",
+   "a saucepan",
+   "a sieve"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "garam-masala",
+    "name": "garam masala"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "lamb-mince",
+    "quantity": "500g",
+    "name": "lamb mince"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "swede",
+    "quantity": "1",
+    "name": "small swede"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "long-grain-rice",
+    "quantity": "300g",
+    "name": "basmati rice"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "150g",
+    "name": "frozen peas"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "200g",
+    "name": "natural yoghurt"
+   }
+  ],
+  "steps": [
+   "Brown the lamb in a dry frying pan for 8 minutes. Add the chopped onion, garlic and swede in 1cm cubes. Fry for 10 minutes.",
+   "Stir in 2 tsp each of cumin and garam masala, the tomatoes and 200ml water. Cover and simmer for 20 minutes, until the swede is tender.",
+   "Meanwhile boil the rice in salted water for 10 to 12 minutes. Drain.",
+   "Add the peas to the lamb for 3 minutes. Season. Serve with rice and the yoghurt stirred with chopped mint."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,97 @@
+{
+ "slot": {
+  "day": 213,
+  "date": "2027-08-01",
+  "label": "1 August",
+  "month": 8,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "sweetcorn"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Charred sweetcorn scrambled eggs on toast",
+  "meal": "breakfast",
+  "dish_form": "scrambled eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a bowl",
+   "a whisk"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "sweetcorn",
+    "quantity": "2",
+    "name": "corn cobs"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "4 tbsp",
+    "name": "milk"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Slice the kernels off the cobs. Fry in half the butter over a high heat for 5 minutes, until charred in spots. Add the sliced spring onions for the last minute.",
+   "Beat the eggs with the milk and a pinch of salt. Toast the bread.",
+   "Turn the heat to low, add the rest of the butter and the eggs, and stir slowly until just set.",
+   "Pile onto the toast. Finish with snipped chives, pepper and a pinch of chilli."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

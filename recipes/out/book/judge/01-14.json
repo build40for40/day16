@@ -1,0 +1,43 @@
+{
+ "day": 14,
+ "title": "Chicken, mushroom and leek casserole",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is ordinary home food: chicken, vegetables, stock, crème fraîche and Dijon mustard."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Drumsticks, leeks, mushrooms, kale, potatoes and crème fraîche are everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole and simple browning and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Eight drumsticks, 600g potatoes and 500ml stock simmered for 35 minutes makes a properly cooked, well-sauced casserole for four."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The 20 minutes prep plus 45 minutes cook comes to over an hour, which is far past the quick weeknight pace asked for."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hearty casserole suits mid-January, and 400g of mushrooms makes them a main component rather than a garnish, though chicken leads the title."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling one-pot meal of chicken, potatoes and plenty of vegetables that a family would happily eat again."
+  }
+ }
+}

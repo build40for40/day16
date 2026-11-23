@@ -1,0 +1,43 @@
+{
+ "day": 99,
+ "title": "Rhubarb and almond squares",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Rhubarb, butter, sugar, eggs, almonds and an orange are all plain home-kitchen ingredients."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Ground and flaked almonds, forced rhubarb and the other items are everyday stock at Tesco, at ordinary baking prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "Creaming by hand in a bowl and baking in a square tin needs only ordinary kit and beginner technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The frangipane ratio of 150g butter, 125g sugar, 3 eggs and 200g ground almonds in a 20cm tin, baked at 180°C for 40 to 45 minutes, sets well, and 300g rhubarb on top gives 12 good squares."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The cook time is printed as 75 minutes, but the steps give a bake of only 40 to 45 minutes, so the cook time does not match the method."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the ginger appear in the steps, flaked almonds are genuinely almonds, the orange is used for its zest and nothing unlisted is called for."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Early April rhubarb is the star topping of a spring afternoon traybake."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is an almond-rich cake with fruit that a family would gladly eat as an afternoon snack, not mostly sugar or refined starch."
+  }
+ }
+}

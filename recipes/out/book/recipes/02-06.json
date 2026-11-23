@@ -1,0 +1,95 @@
+{
+ "slot": {
+  "day": 37,
+  "date": "2027-02-06",
+  "label": "6 February",
+  "month": 2,
+  "meal": "snack",
+  "form": "scone or soda bread",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "oranges"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Orange and sultana scones",
+  "meal": "snack",
+  "dish_form": "scones",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a grater",
+   "a baking tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "self-raising-flour",
+    "quantity": "350g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "baking-powder",
+    "quantity": "1 tsp",
+    "name": "baking powder"
+   },
+   {
+    "id": "butter",
+    "quantity": "85g",
+    "name": "cold butter"
+   },
+   {
+    "id": "caster-sugar",
+    "quantity": "3 tbsp",
+    "name": "caster sugar"
+   },
+   {
+    "id": "raisins",
+    "quantity": "75g",
+    "name": "sultanas"
+   },
+   {
+    "id": "oranges",
+    "quantity": "2",
+    "name": "oranges"
+   },
+   {
+    "id": "eggs",
+    "quantity": "1",
+    "name": "egg"
+   },
+   {
+    "id": "milk",
+    "quantity": "100ml",
+    "name": "milk"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 220°C (200°C fan) and flour a baking tray.",
+   "Rub the butter into the flour, baking powder and a pinch of salt until it looks like crumbs. Stir in the sugar, sultanas and zest of both oranges.",
+   "Beat the egg, milk and juice of one orange. Save a spoonful, then stir in the rest with a knife to a soft dough.",
+   "Pat out 3cm thick and cut into 8. Brush with the saved egg and bake for 12 to 15 minutes, until risen and golden."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,109 @@
+{
+ "slot": {
+  "day": 131,
+  "date": "2027-05-11",
+  "label": "11 May",
+  "month": 5,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "lettuce",
+   "pointed-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "eggs",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cabbage, lettuce and pea carbonara",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a large frying pan",
+   "a bowl and whisk",
+   "a grater"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "dried-pasta",
+    "quantity": "400g",
+    "name": "spaghetti"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "200g",
+    "name": "frozen peas"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "pointed-cabbage",
+    "quantity": "1",
+    "name": "pointed cabbage"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "lettuce",
+    "quantity": "2",
+    "name": "Little Gem lettuces"
+   },
+   {
+    "id": "eggs",
+    "quantity": "3",
+    "name": "eggs"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "60g",
+    "name": "vegetarian hard cheese"
+   }
+  ],
+  "steps": [
+   "Boil the spaghetti in salted water for 10 minutes, adding the peas for the last 2.",
+   "Fry the shredded cabbage and sliced garlic in the butter for 5 minutes. Stir in the shredded lettuce until it wilts.",
+   "Whisk the eggs, grated cheese, lemon zest and plenty of pepper.",
+   "Save a mug of pasta water and drain. Off the heat, toss pasta, greens and egg with a splash of water until glossy. Add chives."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

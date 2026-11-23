@@ -1,0 +1,100 @@
+{
+ "slot": {
+  "day": 147,
+  "date": "2027-05-27",
+  "label": "27 May",
+  "month": 5,
+  "meal": "breakfast",
+  "form": "breakfast hash",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spinach"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Spinach, asparagus and new potato hash",
+  "meal": "breakfast",
+  "dish_form": "breakfast hash",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a large frying pan with a lid"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "new-potatoes",
+    "quantity": "750g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "asparagus",
+    "quantity": "250g",
+    "name": "asparagus"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "spinach",
+    "quantity": "200g",
+    "name": "spinach"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Fry the halved potatoes in the oil, covered, for 15 minutes, turning now and then, until tender and golden.",
+   "Add the sliced asparagus and spring onions with 1 tsp smoked paprika. Fry uncovered for 5 minutes.",
+   "Stir in the spinach until it wilts. Season.",
+   "Make four hollows and crack in the eggs. Cover and cook for 4 to 5 minutes, until the whites set. Finish with chives and yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

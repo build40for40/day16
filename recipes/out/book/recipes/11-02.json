@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 306,
+  "date": "2027-11-02",
+  "label": "2 November",
+  "month": 11,
+  "meal": "dinner",
+  "form": "hearty soup",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "squash"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Squash and split pea soup with kale",
+  "meal": "dinner",
+  "dish_form": "hearty soup",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large heavy pan",
+   "a masher"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 55,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "3 tbsp",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "split-peas",
+    "quantity": "200g",
+    "name": "yellow split peas"
+   },
+   {
+    "id": "squash",
+    "quantity": "1kg",
+    "name": "butternut squash"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.4 litres",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   }
+  ],
+  "steps": [
+   "Toast the pumpkin seeds in the dry pan until they pop, then tip out.",
+   "Warm the oil and soften the chopped onion for 5 minutes. Stir in the garlic and 1 tsp each of cumin and smoked paprika.",
+   "Add the rinsed split peas, peeled and cubed squash and the stock. Simmer, partly covered, for 45 to 50 minutes, until the peas are soft.",
+   "Mash roughly, add the shredded kale and cook for 5 minutes. Season, add a squeeze of lemon and scatter over the seeds."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

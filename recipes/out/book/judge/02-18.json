@@ -1,0 +1,43 @@
+{
+ "day": 49,
+ "title": "Cheddar rösti with garlic mushrooms",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, onion, cheddar, egg, mushrooms, butter, garlic and crème fraîche are all plain kitchen staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday, cheap item at any Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a grater, a tea towel and a frying pan, and the technique suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The quantities suit four and the method is sound, though a cook will probably want more than a pinch of salt for 800g of potato."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "Frying 800g of rösti in batches at 5 minutes a side means at least two or three 10-minute batches, plus 6 minutes for the mushrooms, all of it attended at the hob, so the printed 15 unattended cook minutes is well short and the real total runs far past a quick breakfast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot potato rösti suits a February morning, and the potatoes are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and written in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potato, egg, cheese and mushrooms make a filling, real-food breakfast a family would happily eat again."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 109,
+ "title": "Lamb chop traybake with apple and spinach",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a plain whole food or a traditional cupboard item such as wholegrain mustard and olive oil."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Lamb chops, Bramleys, new potatoes and bagged spinach are all everyday Tesco lines."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a single roasting tray and simple roasting."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The timings, oven temperature and quantities give cooked potatoes and chops for four, and the Bramleys deliberately collapse into a sharp sauce for the lamb."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for halving the potatoes, cutting the onions and apples and rubbing the chops, and the 35-minute cook matches the 20 plus 15 minutes in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": false,
+   "reason": "The hero spinach is only 200g for four, about a spoonful each once wilted, and is stirred in at the very end of what is really a lamb chop and potato traybake, so it reads as an afterthought rather than the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear, plain British English with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chops, potatoes, onions, apple and greens make a proper family dinner."
+  }
+ }
+}

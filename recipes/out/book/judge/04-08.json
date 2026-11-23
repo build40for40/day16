@@ -1,0 +1,43 @@
+{
+ "day": 98,
+ "title": "Smoky hake and new potato stew",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple; the tinned tomatoes and vegetable stock are explicitly allowed."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Hake fillets, new potatoes and purple sprouting broccoli are all everyday Tesco lines in April at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "One lidded casserole and simple simmering are well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "750g potatoes, a tin of tomatoes and 500ml stock simmered for 15 minutes, then the fish and broccoli steamed on top for 6 to 8 minutes, gives a properly cooked, well-seasoned stew for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing an onion and garlic, halving the potatoes and trimming the broccoli fits 15 minutes, and the steps add up to about 28 minutes of cooking."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including parsley and lemon, is used in the steps under its true name, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "New potatoes are the bulk of the stew and lead the title, and a light fish stew suits a cool April evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no fuss or jargon."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Fish, potatoes, tomatoes and greens make a balanced, satisfying family dinner."
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 238,
+  "date": "2027-08-26",
+  "label": "26 August",
+  "month": 8,
+  "meal": "snack",
+  "form": "quick pickle or slaw",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "beetroot"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Beetroot and apple slaw on toast",
+  "meal": "snack",
+  "dish_form": "slaw on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a grater",
+   "a mixing bowl",
+   "a grill pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "dill",
+    "name": "dill"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "beetroot",
+    "quantity": "2",
+    "name": "raw beetroot"
+   },
+   {
+    "id": "apples",
+    "quantity": "1",
+    "name": "crisp apple"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tsp",
+    "name": "honey"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "goats-cheese",
+    "quantity": "125g",
+    "name": "soft goat's cheese"
+   }
+  ],
+  "steps": [
+   "Peel the beetroot, then coarsely grate it with the apple into a bowl.",
+   "Whisk the vinegar, oil, honey and a pinch of salt. Toss through the slaw with most of the chopped dill and leave for 10 minutes to soften.",
+   "Toast the bread under the grill until golden on both sides.",
+   "Spread with the goat's cheese, pile on the slaw and finish with the rest of the dill and black pepper."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

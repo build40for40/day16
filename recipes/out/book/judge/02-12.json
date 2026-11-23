@@ -1,0 +1,43 @@
+{
+ "day": 43,
+ "title": "Roast swede and beef bulgur bowls",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple: swede, mince, onion, kale, bulgur, clementines, Greek yoghurt and pumpkin seeds."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item in any Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray and a heatproof bowl, using simple roasting and soaking."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A small swede roasted at 220°C for 35 minutes will be tender, 400g of crumbled mince cooks through in 15 minutes, and 200g bulgur to 300ml water is a sound ratio for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Eighteen minutes covers peeling and cubing a small swede, slicing the onion and clementines and stripping the kale, and the 35-minute cook matches 20 plus 15 minutes of roasting."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used and nothing unlisted appears, though step 2 says 'paprika' where the list says smoked paprika and could say so."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Warm roast swede with beef and kale suits mid-February, and the swede is the base of the bowl rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling bowl of beef, whole grain, swede and kale that a family would happily eat."
+  }
+ }
+}

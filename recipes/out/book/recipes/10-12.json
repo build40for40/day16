@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 285,
+  "date": "2027-10-12",
+  "label": "12 October",
+  "month": 10,
+  "meal": "snack",
+  "form": "oatcakes with a topping",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "celery"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Oatcakes with butter beans and celery",
+  "meal": "snack",
+  "dish_form": "oatcakes with a topping",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a baking tray",
+   "a masher"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "oats",
+    "quantity": "150g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "wholemeal-flour",
+    "quantity": "50g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "bicarbonate-of-soda",
+    "quantity": "½ tsp",
+    "name": "bicarbonate of soda"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "1 tin",
+    "name": "butter beans"
+   },
+   {
+    "id": "tahini",
+    "quantity": "2 tbsp",
+    "name": "tahini"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "celery",
+    "quantity": "3",
+    "name": "celery sticks"
+   }
+  ],
+  "steps": [
+   "Mix the oats, flour, bicarb, a pinch of salt, 3 tbsp oil and 100ml boiling water to a firm dough.",
+   "Press thinly on a floured board, cut into 16 squares and bake at 190°C (170°C fan) for 20 to 25 minutes, until crisp.",
+   "Mash the drained beans with the tahini, crushed garlic, half the lemon juice and a splash of water. Season.",
+   "Toss the sliced celery and its leaves with chopped parsley, the rest of the lemon and oil. Spread the oatcakes and pile on."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

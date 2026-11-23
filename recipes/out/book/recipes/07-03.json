@@ -1,0 +1,89 @@
+{
+ "slot": {
+  "day": 184,
+  "date": "2027-07-03",
+  "label": "3 July",
+  "month": 7,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "blueberries"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Blueberry compote with yoghurt and toasted oats",
+  "meal": "breakfast",
+  "dish_form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 8,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "blueberries",
+    "quantity": "400g",
+    "name": "blueberries"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "butter",
+    "quantity": "15g",
+    "name": "butter"
+   },
+   {
+    "id": "oats",
+    "quantity": "60g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "30g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "500g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Simmer half the blueberries with 1 tbsp honey, a squeeze of lemon and 2 tbsp water for 5 minutes, until they burst.",
+   "Stir in the rest of the berries and some grated lemon zest, then take off the heat.",
+   "Melt the butter in a frying pan. Toast the oats and seeds with a pinch of cinnamon until golden, then stir in the last of the honey.",
+   "Spoon yoghurt into bowls, top with warm compote and scatter over the oats."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

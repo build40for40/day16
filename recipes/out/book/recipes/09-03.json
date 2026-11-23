@@ -1,0 +1,87 @@
+{
+ "slot": {
+  "day": 246,
+  "date": "2027-09-03",
+  "label": "3 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "grapes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Creamy rice porridge with warm grapes",
+  "meal": "breakfast",
+  "dish_form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a heavy pan",
+   "a small frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pudding-rice",
+    "quantity": "150g",
+    "name": "pudding rice"
+   },
+   {
+    "id": "milk",
+    "quantity": "1 litre",
+    "name": "whole milk"
+   },
+   {
+    "id": "almonds",
+    "quantity": "40g",
+    "name": "almonds"
+   },
+   {
+    "id": "grapes",
+    "quantity": "300g",
+    "name": "red grapes"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "Simmer the rice in the milk with 300ml water, a pinch of salt and the cinnamon for 30 to 35 minutes, stirring often, until thick and creamy.",
+   "Toast the roughly chopped almonds in a dry frying pan until golden. Tip out.",
+   "Warm the halved grapes with the honey and lemon zest in the same pan for 5 minutes, until they start to burst.",
+   "Spoon the porridge into bowls and top with the grapes, their juices and the almonds."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

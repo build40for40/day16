@@ -1,0 +1,100 @@
+{
+ "slot": {
+  "day": 104,
+  "date": "2027-04-14",
+  "label": "14 April",
+  "month": 4,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Smoky beans with crispy potatoes",
+  "meal": "breakfast",
+  "dish_form": "breakfast pan",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large frying pan with a lid"
+  ],
+  "prep_minutes": 12,
+  "cook_minutes": 22,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "haricot-beans",
+    "quantity": "2 tins",
+    "name": "haricot beans"
+   },
+   {
+    "id": "spinach",
+    "quantity": "100g",
+    "name": "spinach"
+   }
+  ],
+  "steps": [
+   "Cut the potatoes into 1cm cubes. Fry in the oil in a large pan, covered, for 10 minutes, then uncovered for 8 to 10 more, until golden.",
+   "Add the sliced spring onions, crushed garlic and 2 tsp smoked paprika. Fry for 1 minute.",
+   "Tip in the tomatoes and drained beans. Simmer for 5 minutes, until thick.",
+   "Stir in the spinach to wilt. Season and scatter with snipped chives."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

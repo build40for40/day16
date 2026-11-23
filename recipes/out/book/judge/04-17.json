@@ -1,0 +1,43 @@
+{
+ "day": 107,
+ "title": "Apple and orange bircher with hazelnuts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Oats, milk, oranges, sultanas, apples, Greek yoghurt, hazelnuts, honey and cinnamon are all plain home staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, hazelnuts included, is an everyday item at Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, a grater and a knife and board, with no technique beyond grating and slicing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g oats soaked in 300ml milk plus the juice of two oranges, then loosened with yoghurt and two grated apples, makes a sensible texture and amount for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Zesting, juicing, grating, slicing and chopping fit within 15 active minutes, and the 480 minutes is an honest overnight soak."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, the names match their ids, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Stored apples are still good in mid-April, and with four apples grated in and sliced on top they are clearly the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English, like a neighbour explaining it."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Oats, fruit, yoghurt and nuts make a filling, wholesome breakfast with only a modest drizzle of honey."
+  }
+ }
+}

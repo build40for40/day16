@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 214,
+  "date": "2027-08-02",
+  "label": "2 August",
+  "month": 8,
+  "meal": "lunch",
+  "form": "tart or quiche",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "marrow",
+   "fennel"
+  ],
+  "protein": "sausages",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Marrow, fennel and sausage tart",
+  "meal": "lunch",
+  "dish_form": "tart",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "one_tray",
+  "utensils": [
+   "a baking tray",
+   "a bowl"
+  ],
+  "prep_minutes": 18,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "fennel-seeds",
+    "name": "fennel seeds"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "puff-pastry",
+    "quantity": "320g",
+    "name": "puff pastry sheet"
+   },
+   {
+    "id": "marrow",
+    "quantity": "400g",
+    "name": "marrow"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tbsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "fennel",
+    "quantity": "1",
+    "name": "fennel bulb"
+   },
+   {
+    "id": "sausages",
+    "quantity": "4",
+    "name": "pork sausages"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "30g",
+    "name": "Parmesan"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Unroll the pastry on a baking tray and score a 2cm border.",
+   "Toss the peeled, deseeded and thinly sliced marrow with a pinch of salt. Leave 5 minutes, then pat dry.",
+   "Mix the crème fraîche and mustard and spread inside the border. Top with the marrow, thinly sliced fennel and sausage meat pinched into pieces.",
+   "Scatter with fennel seeds, thyme and grated Parmesan, drizzle with oil and season. Bake for 25 to 30 minutes, until puffed and golden."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

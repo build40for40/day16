@@ -1,0 +1,99 @@
+{
+ "slot": {
+  "day": 172,
+  "date": "2027-06-21",
+  "label": "21 June",
+  "month": 6,
+  "meal": "snack",
+  "form": "scone or soda bread",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "apricots"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Apricot and oat soda bread",
+  "meal": "snack",
+  "dish_form": "soda bread",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a large bowl",
+   "a whisk",
+   "a baking tray"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "wholemeal-flour",
+    "quantity": "250g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "200g",
+    "name": "plain flour"
+   },
+   {
+    "id": "oats",
+    "quantity": "50g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "bicarbonate-of-soda",
+    "quantity": "1 tsp",
+    "name": "bicarbonate of soda"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "2 tbsp",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "apricots",
+    "quantity": "5",
+    "name": "apricots"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "2 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Flour a baking tray.",
+   "Mix the flours, oats, bicarb, sugar, 1 tsp salt and ½ tsp cinnamon. Stir in the stoned, chopped apricots.",
+   "Whisk 350ml water with the vinegar and oil. Pour in and mix to a soft, sticky dough.",
+   "Shape a round on the tray, cut a deep cross and bake for 35 to 40 minutes, until it sounds hollow underneath. Cool before slicing."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

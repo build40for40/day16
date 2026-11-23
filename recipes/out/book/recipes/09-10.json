@@ -1,0 +1,93 @@
+{
+ "slot": {
+  "day": 253,
+  "date": "2027-09-10",
+  "label": "10 September",
+  "month": 9,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "raspberries"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Raspberry and apple bircher",
+  "meal": "breakfast",
+  "dish_form": "bircher muesli",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "no_cook",
+  "utensils": [
+   "a large bowl",
+   "a grater"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 480,
+  "time_note": "oats soaked overnight",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "apples"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "400ml",
+    "name": "milk"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "250g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "raspberries",
+    "quantity": "300g",
+    "name": "raspberries"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   }
+  ],
+  "steps": [
+   "The night before, grate the apples, skin and all, into a large bowl. Squeeze over half the lemon.",
+   "Stir in the oats, milk, yoghurt and a pinch of cinnamon. Cover and chill overnight.",
+   "In the morning, crush half the raspberries with the honey and ripple through. Loosen with milk if thick.",
+   "Top with the whole raspberries and roughly chopped hazelnuts."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

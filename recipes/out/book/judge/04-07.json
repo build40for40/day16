@@ -1,0 +1,43 @@
+{
+ "day": 97,
+ "title": "Spring greens and feta fritters",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a basic staple such as eggs, flour, milk, feta and oil."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Spring greens, feta, watercress and radishes are all everyday supermarket items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a bowl and a whisk, and the frying technique suits a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "250g greens bound with 3 eggs, 100g self-raising flour and 150g feta makes a thick batter and about a dozen fritters, which with the salad is a fair lunch for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers shredding, slicing, zesting and mixing, and 15 minutes fits the wilting plus frying in a couple of batches."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item is used, the lemon supplies both zest and juice, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Spring greens make up the bulk of the fritters, and a light fritter-and-cress lunch suits early April."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Greens, eggs and feta with a fresh salad make a balanced lunch a family would happily eat again."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 102,
+ "title": "Warm cumin lamb, spinach and radish salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or basic dairy: potatoes, onion, lamb, yoghurt, garlic, spinach, radishes, lemon, chives and cumin."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Lamb neck fillet, baby spinach, radishes and Greek yoghurt are everyday Tesco lines at ordinary prices for a family dinner."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, bowls, knife and grater, and the technique is simple roasting and tossing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Halved new potatoes get 35 minutes at 220°C, neck fillet roasted for 20 minutes comes out pink, and 500g lamb with 750g potatoes and 200g spinach is right for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "20 minutes covers halving potatoes, slicing onion, radishes and lamb and making the dressing, and 40 minutes cook fits the 15 plus 20 minutes roasting and the rest."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Lamb neck fillet matches lamb-neck, every listed ingredient and seasoning is used, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm salad of spinach, radishes, new potatoes and lamb suits mid-April, and the spinach forms the base of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Roast lamb, potatoes, greens and a yoghurt dressing make a substantial, balanced family dinner."
+  }
+ }
+}

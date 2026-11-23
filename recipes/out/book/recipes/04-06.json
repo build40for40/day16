@@ -1,0 +1,101 @@
+{
+ "slot": {
+  "day": 96,
+  "date": "2027-04-06",
+  "label": "6 April",
+  "month": 4,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "leeks"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Creamy leeks and mushrooms on toast with eggs",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a saucepan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "3 tbsp",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tsp",
+    "name": "Dijon mustard"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Melt the butter in a large frying pan. Cook the sliced leeks and mushrooms with the thyme leaves and a pinch of salt for 8 to 10 minutes, until soft and golden.",
+   "Stir in the crème fraîche and mustard. Season and keep warm.",
+   "Meanwhile, poach the eggs in gently simmering water for 3 minutes.",
+   "Toast the bread, spoon over the leeks, top each with an egg and snip over the chives."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

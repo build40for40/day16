@@ -1,0 +1,43 @@
+{
+ "day": 72,
+ "title": "Pollock, mushroom and orange soup",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or an accepted staple, such as tinned tomatoes, stock, bread and fennel seeds."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Pollock, mushrooms, oranges and the rest are everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan and simple frying and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "A litre of stock, a tin of tomatoes, 400g potatoes and 400g pollock make a sensible soup for four, and the timings will cook both the potatoes and the fish."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes covers the chopping, zesting and the short frying, and the remaining simmering roughly matches the 25 minutes printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, nothing unlisted is used, and the names match their ids."
+  },
+  "seasonal_feel": {
+   "pass": false,
+   "reason": "The title leads with pollock and the 250g of mushrooms are one element among potatoes, tomatoes, orange and fish, so on a mushroom day this reads as a fish soup rather than a dish built around mushrooms."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling soup of fish, potatoes and vegetables with bread, a proper family lunch."
+  }
+ }
+}

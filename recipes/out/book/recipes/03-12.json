@@ -1,0 +1,88 @@
+{
+ "slot": {
+  "day": 71,
+  "date": "2027-03-12",
+  "label": "12 March",
+  "month": 3,
+  "meal": "breakfast",
+  "form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "rhubarb"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Ginger porridge with rhubarb and hazelnuts",
+  "meal": "breakfast",
+  "dish_form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "two saucepans",
+   "a wooden spoon"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "ground-ginger",
+    "name": "ground ginger"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "rhubarb",
+    "quantity": "400g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "600ml",
+    "name": "milk"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Toast the hazelnuts in a dry pan until golden, then chop roughly.",
+   "In the same pan, simmer the rhubarb, cut into short lengths, with the honey, ½ tsp ginger and 3 tbsp water for 5 to 8 minutes, until just soft.",
+   "Meanwhile, simmer the oats, milk, 600ml water and a pinch of salt, stirring, for 5 minutes until creamy.",
+   "Top each bowl with rhubarb, yoghurt and the hazelnuts."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

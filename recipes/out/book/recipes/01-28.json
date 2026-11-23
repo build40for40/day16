@@ -1,0 +1,108 @@
+{
+ "slot": {
+  "day": 28,
+  "date": "2027-01-28",
+  "label": "28 January",
+  "month": 1,
+  "meal": "lunch",
+  "form": "jacket or loaded potato",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "swede"
+  ],
+  "protein": "mussels",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Jacket potatoes with swede and smoked mackerel",
+  "meal": "lunch",
+  "dish_form": "loaded jacket potato",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a baking tray",
+   "a saucepan",
+   "a frying pan",
+   "a masher"
+  ],
+  "prep_minutes": 22,
+  "cook_minutes": 60,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "4",
+    "name": "baking potatoes"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "swede",
+    "quantity": "1 small",
+    "name": "swede"
+   },
+   {
+    "id": "butter",
+    "quantity": "40g",
+    "name": "butter"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "horseradish",
+    "quantity": "1 tbsp",
+    "name": "horseradish sauce"
+   },
+   {
+    "id": "smoked-mackerel",
+    "quantity": "250g",
+    "name": "smoked mackerel"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Rub the potatoes with oil and salt and bake for 1 hour.",
+   "Boil the peeled, cubed swede for 20 minutes. Drain and mash with half the butter and plenty of pepper.",
+   "Soften the sliced leeks in the remaining butter for 8 minutes, then stir through the swede.",
+   "Mix the crème fraîche, horseradish and lemon juice. Split the potatoes, fill with swede and flaked mackerel, and top with the sauce."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 86 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

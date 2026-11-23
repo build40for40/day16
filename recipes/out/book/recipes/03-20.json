@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 79,
+  "date": "2027-03-20",
+  "label": "20 March",
+  "month": 3,
+  "meal": "lunch",
+  "form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes",
+   "rhubarb"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Pasta with potatoes, cavolo nero and beans",
+  "meal": "lunch",
+  "dish_form": "pasta",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "one_pot",
+  "utensils": [
+   "one large pan",
+   "a colander"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 12,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "500g",
+    "name": "potatoes"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "300g",
+    "name": "pasta shells"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "200g",
+    "name": "cavolo nero"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "4 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cannellini-beans",
+    "quantity": "1 tin",
+    "name": "cannellini beans"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "50g",
+    "name": "vegetarian hard cheese"
+   }
+  ],
+  "steps": [
+   "Boil the peeled potatoes, cut into 1.5cm cubes, with the pasta in a big pan of salted water for 10 minutes.",
+   "Add the shredded cavolo nero for the last 3 minutes. Save a mug of the water, then drain.",
+   "Warm the oil in the empty pan. Fry the sliced garlic and a pinch of chilli for 1 minute, then add the drained beans.",
+   "Return everything with a splash of the water, half the grated cheese and the juice of half a lemon. Toss, season and top with the rest."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

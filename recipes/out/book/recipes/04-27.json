@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 117,
+  "date": "2027-04-27",
+  "label": "27 April",
+  "month": 4,
+  "meal": "dinner",
+  "form": "roast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "rocket"
+  ],
+  "protein": null,
+  "protein_hint": "a whole grain",
+  "kit": "one_tray",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Roast cauliflower and spelt with rocket and feta",
+  "meal": "dinner",
+  "dish_form": "traybake",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "one_tray",
+  "utensils": [
+   "a roasting tray",
+   "foil"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 45,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "spelt",
+    "quantity": "250g",
+    "name": "pearled spelt"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "750ml",
+    "name": "hot vegetable stock"
+   },
+   {
+    "id": "cauliflower",
+    "quantity": "1",
+    "name": "cauliflower"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "2",
+    "name": "red onions"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   },
+   {
+    "id": "rocket",
+    "quantity": "100g",
+    "name": "rocket"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Put the spelt and drained chickpeas in a roasting tray with the hot stock. Cover with foil and bake for 20 minutes.",
+   "Toss the cauliflower florets and onion wedges with the oil, 2 tsp cumin and salt.",
+   "Uncover, spread the veg on top and roast for 25 minutes, until browned.",
+   "Season with lemon juice and pepper, crumble over the feta and pile on the rocket."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

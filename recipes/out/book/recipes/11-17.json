@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 321,
+  "date": "2027-11-17",
+  "label": "17 November",
+  "month": 11,
+  "meal": "dinner",
+  "form": "stew or casserole",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "red-cabbage"
+  ],
+  "protein": "lamb-mince",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Lamb, red cabbage and apple stew",
+  "meal": "dinner",
+  "dish_form": "stew",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a large casserole with a lid",
+   "a knife and board"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "lamb-mince",
+    "quantity": "500g",
+    "name": "lamb mince"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "½",
+    "name": "red cabbage"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "600g",
+    "name": "potatoes"
+   },
+   {
+    "id": "red-wine-vinegar",
+    "quantity": "2 tbsp",
+    "name": "red wine vinegar"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "1 tbsp",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "500ml",
+    "name": "chicken stock"
+   }
+  ],
+  "steps": [
+   "Brown the lamb in a large casserole for 8 minutes, breaking it up. Add the chopped onion and garlic and soften for 5 minutes.",
+   "Stir in 1 tsp cinnamon, the thyme leaves, the shredded cabbage and the cubed apples and potatoes.",
+   "Add the vinegar, sugar and stock. Cover and simmer gently for 40 minutes, stirring now and then, until the potatoes are tender.",
+   "Season well and serve in deep bowls."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

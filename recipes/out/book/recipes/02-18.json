@@ -1,0 +1,108 @@
+{
+ "slot": {
+  "day": 49,
+  "date": "2027-02-18",
+  "label": "18 February",
+  "month": 2,
+  "meal": "breakfast",
+  "form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Cheddar rösti with garlic mushrooms",
+  "meal": "breakfast",
+  "dish_form": "savoury breakfast plate",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a grater",
+   "a clean tea towel",
+   "a large frying pan"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "potatoes"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "75g",
+    "name": "cheddar"
+   },
+   {
+    "id": "eggs",
+    "quantity": "1",
+    "name": "egg"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "300g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "butter",
+    "quantity": "15g",
+    "name": "butter"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "4 tbsp",
+    "name": "crème fraîche"
+   }
+  ],
+  "steps": [
+   "Grate the potatoes and onion, then squeeze them dry in a clean tea towel.",
+   "Mix in the grated cheddar, egg and a pinch of salt. Fry spoonfuls in the oil, pressed flat, for 5 minutes a side until crisp. Cook in batches.",
+   "Wipe the pan. Fry the sliced mushrooms in the butter with the thyme for 5 minutes, add the crushed garlic for 1 minute and season.",
+   "Top the rösti with the mushrooms and crème fraîche."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

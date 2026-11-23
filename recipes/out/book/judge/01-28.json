@@ -1,0 +1,43 @@
+{
+ "day": 28,
+ "title": "Jacket potatoes with swede and smoked mackerel",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a basic condiment such as horseradish sauce and crème fraîche, which a grandparent's fridge would hold."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Baking potatoes, swede, leeks, smoked mackerel and crème fraîche are all everyday Tesco items at ordinary prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a baking tray, a saucepan, a frying pan and a masher, and the techniques are basic."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Four potatoes baked for an hour at 200°C, a small swede mash with leeks and 250g of mackerel make a properly filled lunch for four, and the timings are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "22 minutes covers peeling and cubing the swede, slicing the leeks, mashing and assembling, and the 60 minutes matches the potato bake, with everything else done in parallel."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the lemon, salt and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot jacket potato with buttery swede and leek mash suits late January, and the swede is a main filling rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, vegetables and oily fish make a filling, balanced meal that a family would happily eat again."
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 101,
+  "date": "2027-04-11",
+  "label": "11 April",
+  "month": 4,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "salad-leaves",
+   "rocket"
+  ],
+  "protein": "gammon",
+  "protein_hint": null,
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pea and salad leaf soup with gammon",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large pan",
+   "a stick blender"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "gammon",
+    "quantity": "300g",
+    "name": "gammon steak"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "400g",
+    "name": "potatoes"
+   },
+   {
+    "id": "chicken-stock",
+    "quantity": "1 litre",
+    "name": "chicken stock"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "200g",
+    "name": "frozen peas"
+   },
+   {
+    "id": "salad-leaves",
+    "quantity": "150g",
+    "name": "salad leaves"
+   },
+   {
+    "id": "rocket",
+    "quantity": "50g",
+    "name": "rocket"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "4 tbsp",
+    "name": "crème fraîche"
+   }
+  ],
+  "steps": [
+   "Brown the diced gammon in the butter in a large pan for 5 minutes. Lift out onto a plate.",
+   "Soften the sliced leeks for 8 minutes. Add the diced potatoes and stock and simmer for 15 minutes, until soft.",
+   "Add the peas, salad leaves and most of the rocket for 2 minutes, then blend until smooth.",
+   "Return the gammon to warm through. Top with crème fraîche, snipped chives, pepper and the last of the rocket."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

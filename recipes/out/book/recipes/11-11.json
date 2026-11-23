@@ -1,0 +1,100 @@
+{
+ "slot": {
+  "day": 315,
+  "date": "2027-11-11",
+  "label": "11 November",
+  "month": 11,
+  "meal": "breakfast",
+  "form": "breakfast hash",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "mushrooms"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Mushroom, kale and halloumi hash",
+  "meal": "breakfast",
+  "dish_form": "breakfast hash",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "one large frying pan with a lid"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "halloumi",
+    "quantity": "225g",
+    "name": "halloumi"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "3 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "potatoes"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "300g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "kale",
+    "quantity": "100g",
+    "name": "kale"
+   }
+  ],
+  "steps": [
+   "Fry the sliced halloumi in a little oil until golden on both sides. Lift out.",
+   "Add the rest of the oil and the potatoes, cut into 1cm cubes. Cover and fry for 15 minutes, turning now and then, until golden and tender.",
+   "Add the sliced onion, mushrooms, garlic, thyme leaves and 1 tsp paprika. Fry for 8 minutes, until the mushrooms brown.",
+   "Stir in the shredded kale with a splash of water until wilted. Season and top with the halloumi."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

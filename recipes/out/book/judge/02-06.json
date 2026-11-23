@@ -1,0 +1,43 @@
+{
+ "day": 37,
+ "title": "Orange and sultana scones",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, butter, sugar, sultanas, oranges, egg and milk are all plain home baking staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at an ordinary price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A bowl, grater, knife and baking tray are enough, and rubbing in is a beginner's technique."
+  },
+  "works": {
+   "pass": true,
+   "reason": "The ratios match a classic egg-enriched scone (350g flour, 85g butter, about 230ml liquid), and 220°C for 12 to 15 minutes will give eight risen scones."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Zesting, rubbing in and shaping fit in 15 minutes, and the 15-minute cook matches the bake time in the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and the salt are used, the sultanas match the raisins id, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Oranges are at their best in February, and the zest of two oranges plus juice flavours the whole scone."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The short, clear steps in British English read like a neighbour explaining a bake."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A homemade fruit scone with modest sugar, egg and fresh orange is a real-food snack a family would make again."
+  }
+ }
+}

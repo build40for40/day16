@@ -1,0 +1,93 @@
+{
+ "slot": {
+  "day": 245,
+  "date": "2027-09-02",
+  "label": "2 September",
+  "month": 9,
+  "meal": "snack",
+  "form": "flapjack or oat bar",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "pears"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Pear and cinnamon flapjacks",
+  "meal": "snack",
+  "dish_form": "flapjack",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "one saucepan",
+   "a 20cm square baking tin"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "ground-ginger",
+    "name": "ground ginger"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "butter",
+    "quantity": "125g",
+    "name": "butter"
+   },
+   {
+    "id": "golden-syrup",
+    "quantity": "3 tbsp",
+    "name": "golden syrup"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "50g",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "oats",
+    "quantity": "250g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "40g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "pears",
+    "quantity": "2",
+    "name": "ripe pears"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 180°C (160°C fan). Butter a 20cm square tin.",
+   "Melt the butter, syrup and sugar in a saucepan. Stir in the oats, seeds, 1 tsp cinnamon, ½ tsp ginger and a pinch of salt.",
+   "Core and dice the pears, skins on, and fold them through.",
+   "Press firmly into the tin. Bake for 25 to 30 minutes, until golden at the edges.",
+   "Cool in the tin, then cut into 12 squares."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,94 @@
+{
+ "slot": {
+  "day": 340,
+  "date": "2027-12-06",
+  "label": "6 December",
+  "month": 12,
+  "meal": "snack",
+  "form": "fruit pot or crumble",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "clementines"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Pear and clementine crumble with hazelnuts",
+  "meal": "snack",
+  "dish_form": "crumble",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "oven",
+  "utensils": [
+   "a baking dish",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pears",
+    "quantity": "4",
+    "name": "pears"
+   },
+   {
+    "id": "clementines",
+    "quantity": "6",
+    "name": "clementines"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "butter",
+    "quantity": "60g",
+    "name": "cold butter"
+   },
+   {
+    "id": "ground-almonds",
+    "quantity": "100g",
+    "name": "ground almonds"
+   },
+   {
+    "id": "demerara-sugar",
+    "quantity": "40g",
+    "name": "demerara sugar"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C (170°C fan). Toss the cored, chunked pears and peeled, sliced clementines in a baking dish with the honey.",
+   "Rub the butter into the almonds and sugar until crumbly. Stir in the chopped hazelnuts and 1 tsp cinnamon.",
+   "Scatter over the fruit and bake for 25 to 30 minutes, until golden and bubbling at the edges.",
+   "Serve warm with spoonfuls of yoghurt."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,94 @@
+{
+ "slot": {
+  "day": 242,
+  "date": "2027-08-30",
+  "label": "30 August",
+  "month": 8,
+  "meal": "breakfast",
+  "form": "eggs",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "potatoes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Potato, sweetcorn and chive frittata",
+  "meal": "breakfast",
+  "dish_form": "frittata",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large lidded frying pan",
+   "a bowl",
+   "a whisk",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "potatoes",
+    "quantity": "500g",
+    "name": "potatoes"
+   },
+   {
+    "id": "sweetcorn",
+    "quantity": "2",
+    "name": "corn cobs"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "cheddar"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large non-stick frying pan. Cook the thinly sliced potatoes with a pinch of salt, covered, for 12 minutes, turning now and then, until tender.",
+   "Stir in the corn, cut from the cobs, and the sliced spring onions for 2 minutes.",
+   "Whisk the eggs with the grated cheddar, snipped chives and pepper. Pour into the pan.",
+   "Cover and cook gently for 10 minutes, until just set in the middle. Cut into wedges."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

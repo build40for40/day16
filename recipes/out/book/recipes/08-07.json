@@ -1,0 +1,111 @@
+{
+ "slot": {
+  "day": 219,
+  "date": "2027-08-07",
+  "label": "7 August",
+  "month": 8,
+  "meal": "dinner",
+  "form": "pan fry with a side",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "runner-beans"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Runner beans and halloumi with crushed potatoes",
+  "meal": "dinner",
+  "dish_form": "pan fry with a side",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large pan",
+   "a large frying pan",
+   "a masher"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "750g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "halloumi",
+    "quantity": "225g",
+    "name": "halloumi"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "runner-beans",
+    "quantity": "400g",
+    "name": "runner beans"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "1 tin",
+    "name": "chickpeas"
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "250g",
+    "name": "cherry tomatoes"
+   }
+  ],
+  "steps": [
+   "Boil the halved potatoes in salted water for 15 to 20 minutes, until tender. Drain and crush with the butter, chopped mint and lemon zest.",
+   "Fry the sliced halloumi in a little of the oil until golden. Set aside.",
+   "Fry the sliced runner beans in the remaining oil for 5 minutes. Add the sliced garlic, 1 tsp paprika, drained chickpeas and halved tomatoes for 4 minutes more.",
+   "Season, squeeze over the lemon juice and top with the halloumi."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,43 @@
+{
+ "day": 119,
+ "title": "Warm chicken, new potato and radish salad",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or plain staple: chicken, potatoes, radishes, leaves, mustard, vinegar, oil and herbs."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a roasting tray, a knife and a board, and nothing harder than roasting and tossing."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Halved new potatoes and boneless thighs will both cook through in 35 to 40 minutes at 220°C, and 600g of potatoes, 8 thighs and 200g of leaves suits four, with a balanced mustard dressing made in the tray."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Halving the potatoes, slicing the radishes, spring onions and chicken, and snipping the chives fits in 15 minutes, and the 40-minute cook matches the roast."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, pepper is covered by 'Season', and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm leafy salad with new potatoes and radishes suits late April, and 200g of leaves forms the body of the dish rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear and in plain British English."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chicken, potatoes and plenty of fresh veg make a satisfying, balanced lunch a family would eat again."
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "day": 116,
+ "title": "Spinach and red lentil fritters",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Lentils, spinach, eggs, flour, feta, yoghurt and radishes are all plain home ingredients with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a saucepan, a sieve and a frying pan, and the techniques suit a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Simmered red lentils bound with egg, flour and feta make a workable fritter batter, and the quantities give about three fritters each for four at lunch."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The 15 cook minutes cannot cover the 10-minute lentil simmer plus frying the fritters in batches at 3 minutes a side, which is at least two rounds of 6 minutes, so the real time runs well past the printed 35 for a quick lunch."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used, the lemon for both zest and juice, and the steps use nothing unlisted apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "200g of April spinach is the heart of the fritters, with spring onions and radishes to match, which suits a late April lunch."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps read as plain, clear British home-cook instructions."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, spinach, eggs and feta with yoghurt and radishes make a filling, balanced lunch a family would eat again."
+  }
+ }
+}

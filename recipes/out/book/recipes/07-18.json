@@ -1,0 +1,93 @@
+{
+ "slot": {
+  "day": 199,
+  "date": "2027-07-18",
+  "label": "18 July",
+  "month": 7,
+  "meal": "breakfast",
+  "form": "overnight oats or bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "blueberries"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Blueberry and peach bircher",
+  "meal": "breakfast",
+  "dish_form": "bircher",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "no_cook",
+  "utensils": [
+   "a large bowl",
+   "a grater",
+   "a fork"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 480,
+  "time_note": "oats soaked overnight",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "300ml",
+    "name": "milk"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "200g",
+    "name": "natural yoghurt"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "blueberries",
+    "quantity": "300g",
+    "name": "blueberries"
+   },
+   {
+    "id": "peaches",
+    "quantity": "2",
+    "name": "peaches"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds"
+   }
+  ],
+  "steps": [
+   "Stir the oats, milk, yoghurt, honey, grated lemon zest and a pinch of cinnamon in a large bowl. Cover and chill overnight.",
+   "In the morning, lightly crush half the blueberries with a fork and stir them through. Loosen with a splash of milk if thick.",
+   "Slice the peaches. Spoon the bircher into bowls and top with the peaches, the rest of the blueberries and the pumpkin seeds."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

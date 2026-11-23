@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 132,
+  "date": "2027-05-12",
+  "label": "12 May",
+  "month": 5,
+  "meal": "snack",
+  "form": "dip with crudités",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "spinach"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spinach and feta dip with crunchy veg",
+  "meal": "snack",
+  "dish_form": "dip with crudités",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan",
+   "a sieve",
+   "a grater",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "dill",
+    "name": "dill"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "spinach",
+    "quantity": "200g",
+    "name": "spinach"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "250g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "feta",
+    "quantity": "100g",
+    "name": "feta"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "carrots",
+    "quantity": "3",
+    "name": "carrots"
+   },
+   {
+    "id": "cucumber",
+    "quantity": "1",
+    "name": "cucumber"
+   },
+   {
+    "id": "radishes",
+    "quantity": "1 bunch",
+    "name": "radishes"
+   }
+  ],
+  "steps": [
+   "Wilt the spinach in a pan with a splash of water for 2 minutes. Cool in a sieve, squeeze out the water and chop finely.",
+   "Mix with the grated garlic, yoghurt, crumbled feta, chopped dill and the lemon zest and juice. Season with pepper.",
+   "Spoon into a bowl and drizzle with the oil.",
+   "Cut the carrots and cucumber into sticks and halve the radishes for dipping."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

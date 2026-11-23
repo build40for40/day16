@@ -1,0 +1,98 @@
+{
+ "slot": {
+  "day": 348,
+  "date": "2027-12-14",
+  "label": "14 December",
+  "month": 12,
+  "meal": "breakfast",
+  "form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "clementines"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cinnamon porridge with sticky clementines",
+  "meal": "breakfast",
+  "dish_form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one saucepan",
+   "a frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "clementines",
+    "quantity": "6",
+    "name": "clementines"
+   },
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "600ml",
+    "name": "milk"
+   },
+   {
+    "id": "almonds",
+    "quantity": "50g",
+    "name": "flaked almonds"
+   },
+   {
+    "id": "butter",
+    "quantity": "1 tbsp",
+    "name": "butter"
+   },
+   {
+    "id": "demerara-sugar",
+    "quantity": "2 tbsp",
+    "name": "demerara sugar"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Zest 2 clementines into a saucepan with the oats, milk, 400ml water, a pinch of salt and ½ tsp cinnamon. Simmer, stirring, for 5 minutes until creamy.",
+   "Toast the almonds in a dry frying pan, then tip out. Peel all the clementines and slice into rounds.",
+   "Melt the butter and sugar in the frying pan, add the clementines and cook for 2 minutes until sticky.",
+   "Top the porridge with yoghurt, clementines, syrup and almonds."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 84 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

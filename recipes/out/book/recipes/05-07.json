@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 127,
+  "date": "2027-05-07",
+  "label": "7 May",
+  "month": 5,
+  "meal": "lunch",
+  "form": "frittata or omelette",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "asparagus",
+   "broad-beans"
+  ],
+  "protein": "pork-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Asparagus, broad bean and pork frittata",
+  "meal": "lunch",
+  "dish_form": "frittata",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a large ovenproof frying pan",
+   "a whisk"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "fennel-seeds",
+    "name": "fennel seeds"
+   },
+   {
+    "id": "chives",
+    "name": "chives"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "1 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "new-potatoes",
+    "quantity": "400g",
+    "name": "new potatoes"
+   },
+   {
+    "id": "pork-mince",
+    "quantity": "250g",
+    "name": "pork mince"
+   },
+   {
+    "id": "broad-beans",
+    "quantity": "500g",
+    "name": "broad beans in pods"
+   },
+   {
+    "id": "asparagus",
+    "quantity": "250g",
+    "name": "asparagus"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan, grated"
+   },
+   {
+    "id": "rocket",
+    "quantity": "100g",
+    "name": "rocket"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Fry the thinly sliced potatoes in the oil for 10 minutes, until golden.",
+   "Add the pork, 1 tsp fennel seeds and a pinch of salt. Fry until browned.",
+   "Add the podded beans, the asparagus in short lengths and a splash of water. Cover for 3 minutes.",
+   "Whisk the eggs with the Parmesan, snipped chives and seasoning. Pour in and bake for 15 minutes, until just set. Serve with rocket."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

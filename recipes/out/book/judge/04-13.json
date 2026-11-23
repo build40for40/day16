@@ -1,0 +1,43 @@
+{
+ "day": 103,
+ "title": "Orange and apricot soda bread",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Flour, bicarb, sugar, dried apricots, oranges, vinegar, oil and oats are all plain cupboard staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item on any Tesco shelf at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a bowl, jug, grater and baking tray, and shaping a soda bread round is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "500g flour with 1 tsp bicarb and 400ml of liquid soured by orange juice and vinegar is a sound soda bread ratio, and 35 to 40 minutes at 200°C suits a loaf of that size, which gives plenty for four as a snack."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Zesting and juicing two oranges, chopping the apricots and mixing fit within 15 active minutes, and the 40-minute cook matches the baking step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing beyond water is added."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Oranges are in season and lead both the flavour and the liquid of the loaf, and a warm bake suits an April afternoon."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are brief, plain British English that a beginner could follow, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "A half-wholemeal fruit soda bread with only a little sugar is a wholesome afternoon snack a family would happily make again."
+  }
+ }
+}

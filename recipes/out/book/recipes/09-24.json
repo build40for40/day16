@@ -1,0 +1,108 @@
+{
+ "slot": {
+  "day": 267,
+  "date": "2027-09-24",
+  "label": "24 September",
+  "month": 9,
+  "meal": "snack",
+  "form": "oatcakes with a topping",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "red-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Oatcakes with goat's cheese and red cabbage",
+  "meal": "snack",
+  "dish_form": "oatcakes with a topping",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "oven",
+  "utensils": [
+   "a mixing bowl",
+   "a rolling pin",
+   "a baking tray",
+   "a grater"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "caraway-seeds",
+    "name": "caraway seeds"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "wholemeal-flour",
+    "quantity": "50g",
+    "name": "wholemeal flour"
+   },
+   {
+    "id": "butter",
+    "quantity": "50g",
+    "name": "butter"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "1/4",
+    "name": "red cabbage"
+   },
+   {
+    "id": "apples",
+    "quantity": "1",
+    "name": "eating apple"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "2 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tsp",
+    "name": "honey"
+   },
+   {
+    "id": "goats-cheese",
+    "quantity": "150g",
+    "name": "soft goat's cheese"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 190°C (170°C fan). Rub the butter into the oats, flour and a pinch of salt, then stir in 100ml hot water.",
+   "Roll out 5mm thick, cut into 16 squares and bake for 20 to 25 minutes, until crisp.",
+   "Toss the shredded cabbage and grated apple with the vinegar, honey, 1 tsp caraway and a pinch of salt.",
+   "Once cool, spread with goat's cheese, top with the cabbage and add pepper."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 86 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

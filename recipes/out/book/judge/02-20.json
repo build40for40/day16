@@ -1,0 +1,43 @@
+{
+ "day": 51,
+ "title": "Hake, mushroom and leek pie",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or a staple. That covers butter, leeks, mushrooms, crème fraîche, Dijon mustard, frozen peas, hake and all-butter puff pastry."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, hake fillets included, is stocked by Tesco and its like at an everyday price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan and a baking dish, and laying a ready-rolled pastry lid is well within a beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Raw hake chunks cook through under a puff lid in 25 to 30 minutes at 200°C. The leeks, mushrooms, crème fraîche and peas give enough sauce for four, and 500g of fish is a sound amount."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "The prep is believable at 20 minutes: slicing two leeks, quartering mushrooms, eight minutes on the hob, mixing, cutting the fish and topping with pastry. The 30-minute bake matches the steps, which suits a quick dinner."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, thyme and lemon included, appears in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A hot pie suits a February evening, and at 300g the mushrooms are a main filling alongside the leeks and hake rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are clear and plain, in British English, with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a proper family dinner of fish, leeks, mushrooms and peas under a pastry lid."
+  }
+ }
+}

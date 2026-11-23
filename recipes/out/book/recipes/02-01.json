@@ -1,0 +1,103 @@
+{
+ "slot": {
+  "day": 32,
+  "date": "2027-02-01",
+  "label": "1 February",
+  "month": 2,
+  "meal": "lunch",
+  "form": "fritters",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "white-cabbage",
+   "celeriac"
+  ],
+  "protein": "lamb-mince",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Lamb, cabbage and celeriac fritters",
+  "meal": "lunch",
+  "dish_form": "fritters",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a grater",
+   "a mixing bowl"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "lamb-mince",
+    "quantity": "300g",
+    "name": "lamb mince"
+   },
+   {
+    "id": "white-cabbage",
+    "quantity": "300g",
+    "name": "white cabbage"
+   },
+   {
+    "id": "celeriac",
+    "quantity": "250g",
+    "name": "celeriac"
+   },
+   {
+    "id": "eggs",
+    "quantity": "3",
+    "name": "eggs"
+   },
+   {
+    "id": "plain-flour",
+    "quantity": "100g",
+    "name": "plain flour"
+   },
+   {
+    "id": "sunflower-oil",
+    "quantity": "3 tbsp",
+    "name": "sunflower oil"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Fry the lamb with 1 tsp cumin and a pinch of salt for 8 minutes, until browned. Spoon into a bowl, leaving the fat.",
+   "Add the finely shredded cabbage, grated celeriac, eggs, flour and another 1 tsp cumin. Season and mix well.",
+   "Heat the oil in the pan. Fry heaped spoonfuls, pressed flat, for 3 minutes a side until golden.",
+   "Stir lemon zest and juice into the yoghurt and serve with the fritters."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

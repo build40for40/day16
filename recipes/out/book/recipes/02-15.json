@@ -1,0 +1,102 @@
+{
+ "slot": {
+  "day": 46,
+  "date": "2027-02-15",
+  "label": "15 February",
+  "month": 2,
+  "meal": "lunch",
+  "form": "soup",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "brussels-sprouts",
+   "parsnips"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Split pea and parsnip soup with crispy sprouts",
+  "meal": "lunch",
+  "dish_form": "soup",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large heavy pan",
+   "a stick blender"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 55,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "300g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "parsnips",
+    "quantity": "3",
+    "name": "parsnips"
+   },
+   {
+    "id": "split-peas",
+    "quantity": "200g",
+    "name": "yellow split peas"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.2 litres",
+    "name": "vegetable stock"
+   }
+  ],
+  "steps": [
+   "Fry the halved sprouts in 1 tbsp oil in the pan for 5 minutes, until charred. Season and set aside.",
+   "Soften the chopped onion in the rest of the oil for 8 minutes. Add the sliced garlic, chopped parsnips, rinsed split peas, thyme and stock.",
+   "Cover and simmer for 50 minutes to 1 hour, until the peas collapse.",
+   "Blend until smooth, season and add a squeeze of lemon. Top each bowl with the sprouts."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

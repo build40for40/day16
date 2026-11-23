@@ -1,0 +1,119 @@
+{
+ "slot": {
+  "day": 274,
+  "date": "2027-10-01",
+  "label": "1 October",
+  "month": 10,
+  "meal": "dinner",
+  "form": "pie",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "heroes": [
+   "pumpkin",
+   "brussels-sprouts"
+  ],
+  "protein": null,
+  "protein_hint": "tinned beans or chickpeas",
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Butter bean and sprout pie with pumpkin mash",
+  "meal": "dinner",
+  "dish_form": "pie",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a large saucepan",
+   "a frying pan",
+   "a masher",
+   "a baking dish"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 40,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "nutmeg",
+    "name": "nutmeg"
+   },
+   {
+    "id": "sage",
+    "name": "sage"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pumpkin",
+    "quantity": "1kg",
+    "name": "pumpkin"
+   },
+   {
+    "id": "butter",
+    "quantity": "30g",
+    "name": "butter"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "brussels-sprouts",
+    "quantity": "300g",
+    "name": "Brussels sprouts"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "cornflour",
+    "quantity": "1 tbsp",
+    "name": "cornflour"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "300ml",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "100ml",
+    "name": "crème fraîche"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "80g",
+    "name": "cheddar"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Boil the peeled pumpkin chunks for 15 minutes, drain and mash with half the butter and some nutmeg.",
+   "Soften the sliced leeks, halved sprouts, garlic and chopped sage in the rest of the butter for 8 minutes.",
+   "Stir in the cornflour, then the stock, drained beans and crème fraîche. Simmer until thick. Season.",
+   "Tip into a baking dish, top with the mash and grated cheddar, and bake for 25 minutes until golden."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

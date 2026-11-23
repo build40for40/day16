@@ -1,0 +1,43 @@
+{
+ "day": 24,
+ "title": "Red lentil and kale soup with smoked paprika",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or cupboard staple: lentils, tinned tomatoes, stock, vegetables and spices."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large pan, a knife and a board, and the technique is simple simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g red lentils to 1.2 litres of stock with a tin of tomatoes makes a properly thick soup for four, and the timings, spicing and lemon finish are sound."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for chopping an onion, two carrots and garlic and stripping the kale, and the steps add up to roughly the 30 minutes of cooking printed."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warming lentil soup with 200g of shredded kale suits a cold late-January lunch, and the kale is a main component rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Lentils, vegetables and kale make a filling, wholesome lunch that a family would happily eat again."
+  }
+ }
+}

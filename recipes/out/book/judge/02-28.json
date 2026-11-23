@@ -1,0 +1,43 @@
+{
+ "day": 59,
+ "title": "Baked rhubarb and clementines with almond crumble",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Fruit, nuts, sugar, spices and rapeseed oil are all plain cupboard foods with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Forced rhubarb, clementines, ground almonds and hazelnuts are all everyday Tesco lines in late February."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a knife, a board, a bowl and a baking dish, and the method is simple tossing and scattering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "400g of rhubarb with six clementines and a 150g nut topping is a sensible snack for four, and 25 to 30 minutes at 190°C will soften the rhubarb and colour the crumble."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes covers cutting the rhubarb, peeling, slicing and juicing the clementines and chopping the hazelnuts, and the 30-minute bake matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and both spices appear in the steps, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm baked fruit crumble suits a cold late-February afternoon, and the clementines are a main part of the fruit rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is mostly fruit and nuts with only modest added sugar, a satisfying real-food snack a family would make again."
+  }
+ }
+}

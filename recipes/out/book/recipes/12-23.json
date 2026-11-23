@@ -1,0 +1,117 @@
+{
+ "slot": {
+  "day": 357,
+  "date": "2027-12-23",
+  "label": "23 December",
+  "month": 12,
+  "meal": "dinner",
+  "form": "pie",
+  "diet": "fish",
+  "gluten_free": false,
+  "heroes": [
+   "carrots"
+  ],
+  "protein": "cod",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cod pie with carrot and potato mash",
+  "meal": "dinner",
+  "dish_form": "pie",
+  "diet": "fish",
+  "gluten_free": true,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "two pans",
+   "a masher",
+   "a whisk",
+   "a baking dish"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 45,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "nutmeg",
+    "name": "nutmeg"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "potatoes",
+    "quantity": "800g",
+    "name": "potatoes"
+   },
+   {
+    "id": "carrots",
+    "quantity": "500g",
+    "name": "carrots"
+   },
+   {
+    "id": "butter",
+    "quantity": "50g",
+    "name": "butter"
+   },
+   {
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks"
+   },
+   {
+    "id": "milk",
+    "quantity": "500ml",
+    "name": "milk"
+   },
+   {
+    "id": "cornflour",
+    "quantity": "3 tbsp",
+    "name": "cornflour"
+   },
+   {
+    "id": "cod",
+    "quantity": "600g",
+    "name": "cod fillets"
+   },
+   {
+    "id": "frozen-peas",
+    "quantity": "100g",
+    "name": "frozen peas"
+   },
+   {
+    "id": "cheddar",
+    "quantity": "50g",
+    "name": "grated cheddar"
+   }
+  ],
+  "steps": [
+   "Boil the peeled potatoes and half the carrots, in chunks, for 15 minutes. Mash with half the butter and the nutmeg. Season.",
+   "Soften the sliced leeks and remaining diced carrots in the rest of the butter for 10 minutes.",
+   "Whisk the cornflour into the milk. Stir in with the thyme until thick. Add the chunked cod and peas.",
+   "Tip into the dish, top with mash and cheddar. Bake at 200°C (180°C fan) for 30 minutes, until golden."
+  ]
+ },
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 86 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

@@ -1,0 +1,89 @@
+{
+ "slot": {
+  "day": 216,
+  "date": "2027-08-04",
+  "label": "4 August",
+  "month": 8,
+  "meal": "snack",
+  "form": "flapjack or oat bar",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "figs"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Fig and pumpkin seed flapjacks",
+  "meal": "snack",
+  "dish_form": "flapjack",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a small pan",
+   "a 20cm square baking dish",
+   "baking paper"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 55,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "100ml",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "golden-syrup",
+    "quantity": "4 tbsp",
+    "name": "golden syrup"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "50g",
+    "name": "soft brown sugar"
+   },
+   {
+    "id": "oats",
+    "quantity": "250g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "40g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "figs",
+    "quantity": "6",
+    "name": "ripe figs"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 180°C (160°C fan). Line the dish with baking paper.",
+   "Warm the oil, syrup and sugar in a small pan until the sugar melts.",
+   "Stir in the oats, seeds, 1 tsp cinnamon, a pinch of salt and 4 chopped figs. Press firmly into the dish and top with the other 2 figs, sliced.",
+   "Bake for 25 minutes, until golden at the edges. Cool in the dish, then cut into 12 bars."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

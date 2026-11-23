@@ -1,0 +1,107 @@
+{
+ "slot": {
+  "day": 159,
+  "date": "2027-06-08",
+  "label": "8 June",
+  "month": 6,
+  "meal": "lunch",
+  "form": "frittata or omelette",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "chard",
+   "courgettes"
+  ],
+  "protein": null,
+  "protein_hint": "nuts or seeds",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Chard and courgette frittata with toasted seeds",
+  "meal": "lunch",
+  "dish_form": "frittata",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large non-stick frying pan with a lid",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "30g",
+    "name": "pumpkin seeds"
+   },
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "courgettes",
+    "quantity": "2",
+    "name": "courgettes"
+   },
+   {
+    "id": "spring-onions",
+    "quantity": "4",
+    "name": "spring onions"
+   },
+   {
+    "id": "chard",
+    "quantity": "200g",
+    "name": "chard"
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove"
+   },
+   {
+    "id": "eggs",
+    "quantity": "8",
+    "name": "eggs"
+   },
+   {
+    "id": "vegetarian-hard-cheese",
+    "quantity": "50g",
+    "name": "vegetarian hard cheese"
+   }
+  ],
+  "steps": [
+   "Toast the pumpkin seeds in the frying pan until they pop. Tip out.",
+   "Warm the oil and fry the grated courgettes and sliced spring onions for 5 minutes. Add the chopped chard and garlic and stir until wilted.",
+   "Beat the eggs with the grated cheese, chopped mint, lemon zest and seasoning. Pour in, cover and cook gently for 12 to 15 minutes, until just set.",
+   "Scatter with the seeds and cut into wedges."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

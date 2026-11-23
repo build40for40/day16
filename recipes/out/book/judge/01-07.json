@@ -1,0 +1,43 @@
+{
+ "day": 7,
+ "title": "Halloumi with honeyed turnips and kale",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Turnips, kale, tinned chickpeas, halloumi, honey and oil are all plain whole foods or simple cupboard staples."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including two blocks of halloumi and loose turnips, is an everyday line at a mainstream supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a frying pan, a saucepan and simple frying and softening."
+  },
+  "works": {
+   "pass": false,
+   "reason": "The last step asks you to push 500g of honey-glazed turnip wedges aside and fry 450g of sliced halloumi in the same pan, which won't fit in one layer, so the halloumi steams instead of browning while the honeyed turnips catch."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes is fair for cutting the turnips, slicing the onion, garlic and halloumi and shredding the kale, and about 20 minutes of cooking matches the steps."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm pan of golden turnips with kale and chickpeas suits early January, and the turnips are the main vegetable."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a beginner could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Chickpeas, kale, turnips and halloumi make a filling, balanced vegetarian dinner a family would eat again."
+  }
+ }
+}

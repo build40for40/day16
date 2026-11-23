@@ -1,0 +1,88 @@
+{
+ "slot": {
+  "day": 289,
+  "date": "2027-10-16",
+  "label": "16 October",
+  "month": 10,
+  "meal": "snack",
+  "form": "baked or stewed fruit",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "grapes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Roast grapes and pears with yoghurt",
+  "meal": "snack",
+  "dish_form": "baked fruit",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_tray",
+  "utensils": [
+   "a roasting tray",
+   "a sharp knife"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "afternoon",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "grapes",
+    "quantity": "500g",
+    "name": "red seedless grapes"
+   },
+   {
+    "id": "pears",
+    "quantity": "2",
+    "name": "pears"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "rapeseed-oil",
+    "quantity": "1 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "400g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Pull the grapes off their stalks and cut the pears into chunks.",
+   "Toss the fruit in a roasting tray with the honey, oil, a pinch of cinnamon and a few thyme sprigs.",
+   "Roast for 15 minutes, adding the walnuts for the last 5, until the grapes blister and burst.",
+   "Spoon the yoghurt into four bowls and top with the warm fruit, nuts and sticky juices."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

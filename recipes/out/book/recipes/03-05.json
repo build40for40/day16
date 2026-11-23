@@ -1,0 +1,108 @@
+{
+ "slot": {
+  "day": 64,
+  "date": "2027-03-05",
+  "label": "5 March",
+  "month": 3,
+  "meal": "lunch",
+  "form": "tart or quiche",
+  "diet": "meat",
+  "gluten_free": true,
+  "heroes": [
+   "cauliflower",
+   "parsnips"
+  ],
+  "protein": "bacon",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Cauliflower, parsnip and bacon hash with eggs",
+  "meal": "lunch",
+  "dish_form": "hash",
+  "diet": "meat",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a large frying pan with a lid"
+  ],
+  "prep_minutes": 25,
+  "cook_minutes": 25,
+  "time_note": "",
+  "best_time": "midday",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "thyme",
+    "name": "thyme"
+   },
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "parsley",
+    "name": "parsley"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "bacon",
+    "quantity": "6 rashers",
+    "name": "smoked bacon"
+   },
+   {
+    "id": "parsnips",
+    "quantity": "3",
+    "name": "parsnips"
+   },
+   {
+    "id": "cauliflower",
+    "quantity": "1",
+    "name": "cauliflower"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "eggs",
+    "quantity": "4",
+    "name": "eggs"
+   }
+  ],
+  "steps": [
+   "Fry the chopped bacon in the oil until crisp. Lift out, leaving the fat.",
+   "Add the diced parsnips and small cauliflower florets. Fry for 15 minutes, turning often.",
+   "Add the sliced onion, thyme and 1 tsp paprika. Cook for 10 minutes until golden. Stir in the bacon and season.",
+   "Crack the eggs into four hollows, cover and cook for 4 to 5 minutes until set. Scatter with parsley."
+  ]
+ },
+ "attempts": 3,
+ "rejections": [
+  [
+   "Parsley belongs in the seasoning list, with any amount given in the method.",
+   "The method is 83 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ],
+  [
+   "The method is 76 words and runs 1 lines past the bottom of the page. Cut about 6 words."
+  ]
+ ],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

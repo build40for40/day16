@@ -1,0 +1,43 @@
+{
+ "day": 46,
+ "title": "Split pea and parsnip soup with crispy sprouts",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Split peas, parsnips, onion, garlic, sprouts, oil, stock and lemon are all ordinary home staples with nothing factory-made."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient, including yellow split peas, is an everyday item at Tesco."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a heavy pan and a stick blender for the soup, which is allowed."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g split peas with three parsnips in 1.2 litres of stock makes a sensibly thick soup for four, and 50 minutes to an hour is a fair time for the peas to collapse."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Halving the sprouts, chopping the veg and the 13 minutes of frying fit roughly within 25 minutes, and the 55-minute cook matches the simmer."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme and lemon, is used, and nothing unlisted appears in the steps."
+  },
+  "seasonal_feel": {
+   "pass": false,
+   "reason": "The Brussels sprouts are only a crispy topping on what is really a split pea and parsnip soup, so the hero ingredient is a garnish rather than the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are plain, clear British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling pulse and vegetable soup that a family would happily eat for lunch."
+  }
+ }
+}

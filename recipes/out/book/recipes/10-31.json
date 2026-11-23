@@ -1,0 +1,94 @@
+{
+ "slot": {
+  "day": 304,
+  "date": "2027-10-31",
+  "label": "31 October",
+  "month": 10,
+  "meal": "breakfast",
+  "form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "figs"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Cinnamon pear porridge with fresh figs",
+  "meal": "breakfast",
+  "dish_form": "porridge",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "one saucepan",
+   "a small frying pan",
+   "a grater"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 8,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "oats",
+    "quantity": "200g",
+    "name": "porridge oats"
+   },
+   {
+    "id": "milk",
+    "quantity": "600ml",
+    "name": "milk"
+   },
+   {
+    "id": "pears",
+    "quantity": "2",
+    "name": "pears"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "figs",
+    "quantity": "6",
+    "name": "ripe figs"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "4 tbsp",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "Put the oats, milk, 400ml water, 1 tsp cinnamon and a pinch of salt in a pan. Grate in one pear, core and all but the stalk.",
+   "Simmer gently, stirring often, for 5 to 6 minutes until thick and creamy.",
+   "Meanwhile, toast the walnuts in a dry pan for 3 minutes, then roughly chop. Quarter the figs and slice the other pear.",
+   "Spoon the porridge into bowls. Top with yoghurt, figs, pear and walnuts, then drizzle with honey."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

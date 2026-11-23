@@ -1,0 +1,84 @@
+{
+ "slot": {
+  "day": 363,
+  "date": "2027-12-29",
+  "label": "29 December",
+  "month": 12,
+  "meal": "breakfast",
+  "form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "apples"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Spiced apple and prune compote with walnuts",
+  "meal": "breakfast",
+  "dish_form": "fruit compote with yoghurt",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a saucepan with a lid",
+   "a frying pan"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 12,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "apples",
+    "quantity": "6",
+    "name": "eating apples"
+   },
+   {
+    "id": "prunes",
+    "quantity": "100g",
+    "name": "prunes"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "walnuts",
+    "quantity": "50g",
+    "name": "walnuts"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "500g",
+    "name": "Greek yoghurt"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "Core the apples and cut into chunks. Put in a pan with the halved prunes, orange zest and juice, 1 tsp cinnamon and 100ml water.",
+   "Cover and simmer for 10 to 12 minutes, stirring once, until the apples are soft but hold their shape.",
+   "Toast the walnuts in a dry frying pan for 3 minutes, then chop roughly.",
+   "Spoon the yoghurt into bowls. Top with the warm compote, a little honey and the walnuts."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

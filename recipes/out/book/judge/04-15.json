@@ -1,0 +1,43 @@
+{
+ "day": 105,
+ "title": "New potato, cauliflower and walnut pesto pasta",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Every ingredient is a whole food or a basic cupboard item, such as walnuts, cheese, olive oil, pasta and fresh vegetables, with no jars or packet mixes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "New potatoes, cauliflower, penne, walnuts, vegetarian hard cheese, lemon and parsley are all everyday Tesco items at normal prices."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one pan, a knife and board, a grater and a bowl, and a hand-chopped pesto is within reach of a beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Potatoes get a head start before the pasta and florets, the quantities suit four, and the pesto is loosened with pasta water, so it should come out well balanced."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Fifteen minutes of active work is believable because the pesto is made while the pan boils, and twenty minutes covers 8 minutes for the potatoes plus about 10 for the pasta."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including salt, pepper, lemon and parsley, appears in the steps, penne is a fair name for dried pasta, and nothing unlisted is used."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Mid-April new potatoes lead the dish in the classic pasta, potato and pesto style, with spring parsley and cauliflower alongside."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "It is a filling family lunch with vegetables, nuts and cheese alongside the starch, not just plain refined carbohydrate."
+  }
+ }
+}

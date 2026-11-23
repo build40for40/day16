@@ -1,0 +1,104 @@
+{
+ "slot": {
+  "day": 282,
+  "date": "2027-10-09",
+  "label": "9 October",
+  "month": 10,
+  "meal": "breakfast",
+  "form": "pancakes or griddle cakes",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "grapes"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Ricotta pancakes with honey grapes",
+  "meal": "breakfast",
+  "dish_form": "pancakes",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a small pan",
+   "a large frying pan",
+   "a mixing bowl",
+   "a whisk"
+  ],
+  "prep_minutes": 30,
+  "cook_minutes": 5,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "grapes",
+    "quantity": "300g",
+    "name": "red grapes"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   },
+   {
+    "id": "eggs",
+    "quantity": "3",
+    "name": "eggs"
+   },
+   {
+    "id": "milk",
+    "quantity": "150ml",
+    "name": "milk"
+   },
+   {
+    "id": "self-raising-flour",
+    "quantity": "150g",
+    "name": "self-raising flour"
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter"
+   },
+   {
+    "id": "greek-yoghurt",
+    "quantity": "200g",
+    "name": "Greek yoghurt"
+   }
+  ],
+  "steps": [
+   "Halve the grapes and warm them in a small pan with the honey and a squeeze of lemon for 5 minutes, until juicy.",
+   "Whisk the ricotta, eggs, milk and lemon zest. Stir in the flour, a pinch of cinnamon and salt until just smooth.",
+   "Melt a little butter in a frying pan. Cook spoonfuls of batter for 2 minutes a side, until golden and set.",
+   "Stack the pancakes, add a spoonful of yoghurt and pour over the warm grapes."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

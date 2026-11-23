@@ -1,0 +1,43 @@
+{
+ "day": 104,
+ "title": "Smoky beans with crispy potatoes",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, tinned beans and tomatoes, spring onions, garlic, spinach, oil and smoked paprika are all plain home-kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at an ordinary price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "A large frying pan with a lid and basic frying and simmering are all it needs."
+  },
+  "works": {
+   "pass": false,
+   "reason": "The potatoes are fried until golden, then simmered for 5 minutes in the tinned tomatoes and beans, so they turn soft and the 'crispy potatoes' in the title won't survive; serving the beans over the potatoes instead would fix it."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The steps add up to about 25 to 27 minutes of cooking (10 + 8–10 + 1 + 5 + wilting), not the 22 printed, making it roughly 37 minutes in all for a breakfast asked to be quick."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the chives, is used, and the steps add nothing unlisted."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Potatoes are the bulk of the dish and suit a cool mid-April morning, with spring onions and spinach in season."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear British instructions a beginner can follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, two tins of beans, tomatoes and spinach make a filling, wholesome breakfast with protein and vegetables."
+  }
+ }
+}

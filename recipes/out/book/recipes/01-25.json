@@ -1,0 +1,112 @@
+{
+ "slot": {
+  "day": 25,
+  "date": "2027-01-25",
+  "label": "25 January",
+  "month": 1,
+  "meal": "dinner",
+  "form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "heroes": [
+   "jerusalem-artichokes",
+   "red-cabbage"
+  ],
+  "protein": "lamb-neck",
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Sausage pasta with Jerusalem artichokes and sage",
+  "meal": "dinner",
+  "dish_form": "pasta",
+  "diet": "meat",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a large pan",
+   "a colander"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "sage",
+    "name": "sage"
+   },
+   {
+    "id": "chilli-flakes",
+    "name": "chilli flakes"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "jerusalem-artichokes",
+    "quantity": "400g",
+    "name": "Jerusalem artichokes"
+   },
+   {
+    "id": "sausages",
+    "quantity": "6",
+    "name": "pork sausages"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "dried-pasta",
+    "quantity": "350g",
+    "name": "penne"
+   },
+   {
+    "id": "cavolo-nero",
+    "quantity": "150g",
+    "name": "cavolo nero"
+   },
+   {
+    "id": "parmesan",
+    "quantity": "40g",
+    "name": "Parmesan, grated"
+   }
+  ],
+  "steps": [
+   "Fry the scrubbed, thinly sliced artichokes in the oil in a large frying pan for 10 minutes, until golden.",
+   "Squeeze in the sausages from their skins, with the sliced onion, garlic, torn sage and a pinch of chilli. Fry for 8 minutes, breaking it up.",
+   "Boil the pasta, adding the shredded cavolo nero for the last 3 minutes. Drain, saving a cupful of water.",
+   "Toss it all with a splash of the water, the lemon zest and juice and the Parmesan. Season."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

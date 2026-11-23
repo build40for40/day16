@@ -1,0 +1,101 @@
+{
+ "slot": {
+  "day": 323,
+  "date": "2027-11-19",
+  "label": "19 November",
+  "month": 11,
+  "meal": "breakfast",
+  "form": "breakfast hash",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "kale"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Mushroom, chickpea and kale hash",
+  "meal": "breakfast",
+  "dish_form": "breakfast hash",
+  "diet": "vegan",
+  "gluten_free": false,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a toaster"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion"
+   },
+   {
+    "id": "mushrooms",
+    "quantity": "250g",
+    "name": "mushrooms"
+   },
+   {
+    "id": "chickpeas",
+    "quantity": "2 tins",
+    "name": "chickpeas"
+   },
+   {
+    "id": "garlic",
+    "quantity": "2 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "kale",
+    "quantity": "200g",
+    "name": "kale"
+   },
+   {
+    "id": "bread",
+    "quantity": "4 slices",
+    "name": "wholemeal bread"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large frying pan. Fry the sliced onion and mushrooms over a high heat for 6 minutes, until browned.",
+   "Add the drained chickpeas, crushing a few, the sliced garlic and 2 tsp smoked paprika. Fry for 5 minutes, until crisp at the edges.",
+   "Stir in the shredded kale with a splash of water. Cook for 3 to 4 minutes, until wilted.",
+   "Season, squeeze over the lemon and pile onto hot toast."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

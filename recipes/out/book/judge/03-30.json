@@ -1,0 +1,43 @@
+{
+ "day": 89,
+ "title": "Orange glazed bacon and potato hash",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, bacon, eggs, spring onions, oranges, honey and watercress are all ordinary kitchen and garden foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any mainstream UK supermarket."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded frying pan and a small pan, with simple frying."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Small potato cubes fried for 15 minutes, then crisped bacon and eggs steamed under a lid, give a sound breakfast for four that a cook can follow."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Twenty minutes to cube the potatoes, slice the onions, juice one orange and peel two more is believable, and the cook steps add up to roughly the printed 20 minutes."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": false,
+   "reason": "The oranges are a spoonful of honey glaze on the bacon plus sliced fruit on the side, so the hero is a garnish to a bacon and potato hash rather than the point of the dish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps read plainly in British English and a beginner could follow them."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, bacon, eggs, watercress and fresh orange make a filling breakfast of real food that a family would enjoy."
+  }
+ }
+}

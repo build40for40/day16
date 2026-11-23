@@ -1,0 +1,114 @@
+{
+ "slot": {
+  "day": 55,
+  "date": "2027-02-24",
+  "label": "24 February",
+  "month": 2,
+  "meal": "dinner",
+  "form": "stew or casserole",
+  "diet": "vegan",
+  "gluten_free": false,
+  "heroes": [
+   "white-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "split peas",
+  "kit": "one_pot",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Smoky split pea and cabbage stew",
+  "meal": "dinner",
+  "dish_form": "stew",
+  "diet": "vegan",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "a large casserole with a lid"
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 70,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": true,
+  "seasoning": [
+   {
+    "id": "smoked-paprika",
+    "name": "smoked paprika"
+   },
+   {
+    "id": "caraway-seeds",
+    "name": "caraway seeds"
+   },
+   {
+    "id": "bay",
+    "name": "bay leaves"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "2",
+    "name": "onions"
+   },
+   {
+    "id": "carrots",
+    "quantity": "3",
+    "name": "carrots"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3 cloves",
+    "name": "garlic"
+   },
+   {
+    "id": "split-peas",
+    "quantity": "250g",
+    "name": "yellow split peas"
+   },
+   {
+    "id": "chopped-tomatoes",
+    "quantity": "1 tin",
+    "name": "chopped tomatoes"
+   },
+   {
+    "id": "vegetable-stock",
+    "quantity": "1.2 litres",
+    "name": "vegetable stock"
+   },
+   {
+    "id": "white-cabbage",
+    "quantity": "½",
+    "name": "white cabbage"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   }
+  ],
+  "steps": [
+   "Warm the oil in a large casserole. Soften the chopped onions and carrots for 10 minutes.",
+   "Stir in the crushed garlic, 2 tsp paprika and 1 tsp caraway for a minute. Add the rinsed split peas, tomatoes, stock and 2 bay leaves. Simmer, lid on, for 40 minutes.",
+   "Stir in the shredded cabbage and cook for 20 minutes more, until the peas are soft and thick.",
+   "Add the vinegar and season well."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

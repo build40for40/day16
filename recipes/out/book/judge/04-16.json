@@ -1,0 +1,43 @@
+{
+ "day": 106,
+ "title": "Mushroom, carrot and butter bean barley pot",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a whole food or a plain cupboard staple such as tinned butter beans, pearl barley and stock, with no jars, packet mixes or substitutes."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a lidded casserole, a knife and a grater, with simple frying and simmering."
+  },
+  "works": {
+   "pass": true,
+   "reason": "200g barley in 1.2 litres of stock with 400g mushrooms, a tin of beans and spinach makes a loose but sound pot for four, and the timings for tender barley are right."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The page was asked to be quick, but the 35 to 40 minute barley simmer gives 20 prep plus 45 cook, over an hour, which is not a quick weeknight dinner."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed ingredient and seasoning, including the thyme, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "Browned mushrooms lead a gently warming barley pot that suits a cool mid-April evening."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "Short, clear steps in plain British English with no restaurant language or preaching."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Wholegrain barley, beans, mushrooms, carrots and spinach make a filling, balanced family meal."
+  }
+ }
+}

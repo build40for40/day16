@@ -1,0 +1,43 @@
+{
+ "day": 91,
+ "title": "Leek and egg pie with a new potato top",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Everything is a plain whole food or staple: potatoes, eggs, leeks, butter, cornflour, milk, spinach and Cheddar."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Every ingredient is an everyday item at any Tesco at a normal price."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only a couple of pans and a baking dish, and making a simple white sauce is well within a confident beginner's reach."
+  },
+  "works": {
+   "pass": true,
+   "reason": "Part-boiled sliced potatoes finish in the 25-minute bake, and 2 tbsp cornflour to 500ml milk gives a sauce that holds the leeks, spinach and six eggs for four."
+  },
+  "honest_times": {
+   "pass": true,
+   "reason": "Slicing leeks, boiling, making the sauce, peeling eggs and slicing potatoes fits 30 active minutes, and the 25-minute bake matches the last step."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the nutmeg and the chives, is used in the steps, and nothing unlisted appears apart from water."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm baked pie suits early April, and 800g of new potatoes forms the whole topping, so they are central rather than a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, plain British English that a neighbour could follow."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Eggs, cheese, leeks, spinach and potatoes make a filling, balanced family supper."
+  }
+ }
+}

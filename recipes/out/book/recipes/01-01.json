@@ -1,0 +1,85 @@
+{
+ "slot": {
+  "day": 1,
+  "date": "2027-01-01",
+  "label": "1 January",
+  "month": 1,
+  "meal": "breakfast",
+  "form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "rhubarb"
+  ],
+  "protein": null,
+  "protein_hint": null,
+  "kit": "any",
+  "pace": "standard"
+ },
+ "recipe": {
+  "title": "Roast rhubarb and ricotta on toast",
+  "meal": "breakfast",
+  "dish_form": "on toast",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "kit": "hob_and_oven",
+  "utensils": [
+   "a baking dish",
+   "a frying pan",
+   "a toaster"
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "time_note": "",
+  "best_time": "morning",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "name": "cinnamon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rhubarb",
+    "quantity": "400g",
+    "name": "rhubarb"
+   },
+   {
+    "id": "oranges",
+    "quantity": "1",
+    "name": "orange"
+   },
+   {
+    "id": "honey",
+    "quantity": "2 tbsp",
+    "name": "honey"
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts"
+   },
+   {
+    "id": "bread",
+    "quantity": "8 slices",
+    "name": "wholemeal bread"
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta"
+   }
+  ],
+  "steps": [
+   "Heat the oven to 200°C (180°C fan). Lay the rhubarb, cut into 4cm lengths, in a baking dish.",
+   "Add the orange zest and juice, the honey and a pinch of cinnamon. Roast for 12 to 15 minutes, until tender but holding its shape.",
+   "Toast the hazelnuts in a dry pan until golden, then chop roughly.",
+   "Toast the bread, spread thickly with ricotta and spoon over the rhubarb and its juices. Scatter with the nuts."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

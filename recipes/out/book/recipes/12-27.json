@@ -1,0 +1,106 @@
+{
+ "slot": {
+  "day": 361,
+  "date": "2027-12-27",
+  "label": "27 December",
+  "month": 12,
+  "meal": "dinner",
+  "form": "pan fry with a side",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "white-cabbage"
+  ],
+  "protein": null,
+  "protein_hint": "cheese",
+  "kit": "any",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Fried halloumi with caraway cabbage and beans",
+  "meal": "dinner",
+  "dish_form": "pan fry with a side",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "hob",
+  "utensils": [
+   "a large frying pan",
+   "a warm serving dish"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "caraway-seeds",
+    "name": "caraway seeds"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   },
+   {
+    "id": "black-pepper",
+    "name": "black pepper"
+   },
+   {
+    "id": "lemons",
+    "name": "lemon"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil"
+   },
+   {
+    "id": "white-cabbage",
+    "quantity": "1/2",
+    "name": "white cabbage"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples"
+   },
+   {
+    "id": "butter-beans",
+    "quantity": "2 tins",
+    "name": "butter beans"
+   },
+   {
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar"
+   },
+   {
+    "id": "halloumi",
+    "quantity": "450g",
+    "name": "halloumi"
+   },
+   {
+    "id": "honey",
+    "quantity": "1 tbsp",
+    "name": "honey"
+   }
+  ],
+  "steps": [
+   "Warm half the oil in a large frying pan. Fry the shredded cabbage and sliced onion with 1 tsp caraway and some salt for 10 minutes, until browning.",
+   "Add the sliced apples, drained beans and vinegar. Cook for 5 minutes, season with pepper and tip into a warm dish.",
+   "Fry the sliced halloumi in the rest of the oil for 2 minutes a side, until golden.",
+   "Drizzle with honey and lemon juice and serve on the cabbage."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

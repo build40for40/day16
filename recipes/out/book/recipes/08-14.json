@@ -1,0 +1,110 @@
+{
+ "slot": {
+  "day": 226,
+  "date": "2027-08-14",
+  "label": "14 August",
+  "month": 8,
+  "meal": "dinner",
+  "form": "curry or dal",
+  "diet": "vegetarian",
+  "gluten_free": false,
+  "heroes": [
+   "cucumber"
+  ],
+  "protein": null,
+  "protein_hint": "lentils",
+  "kit": "one_pot",
+  "pace": "quick"
+ },
+ "recipe": {
+  "title": "Spinach dal with cucumber raita",
+  "meal": "dinner",
+  "dish_form": "dal",
+  "diet": "vegetarian",
+  "gluten_free": true,
+  "kit": "one_pot",
+  "utensils": [
+   "one large pan",
+   "a grater"
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "time_note": "",
+  "best_time": "evening",
+  "freezes": false,
+  "seasoning": [
+   {
+    "id": "cumin",
+    "name": "cumin"
+   },
+   {
+    "id": "turmeric",
+    "name": "turmeric"
+   },
+   {
+    "id": "garam-masala",
+    "name": "garam masala"
+   },
+   {
+    "id": "mint",
+    "name": "mint"
+   },
+   {
+    "id": "salt",
+    "name": "salt"
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "rapeseed-oil",
+    "quantity": "2 tbsp",
+    "name": "rapeseed oil"
+   },
+   {
+    "id": "onions",
+    "quantity": "1",
+    "name": "onion"
+   },
+   {
+    "id": "garlic",
+    "quantity": "3",
+    "name": "garlic cloves"
+   },
+   {
+    "id": "tomatoes",
+    "quantity": "4",
+    "name": "tomatoes"
+   },
+   {
+    "id": "red-lentils",
+    "quantity": "300g",
+    "name": "red lentils"
+   },
+   {
+    "id": "spinach",
+    "quantity": "200g",
+    "name": "spinach"
+   },
+   {
+    "id": "cucumber",
+    "quantity": "1",
+    "name": "cucumber"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "300g",
+    "name": "natural yoghurt"
+   }
+  ],
+  "steps": [
+   "Soften the sliced onion in the oil in a large pan for 8 minutes. Add the garlic, 1 tsp cumin and 1 tsp turmeric for 1 minute.",
+   "Add the chopped tomatoes, lentils and 1.2 litres water. Simmer for 20 to 25 minutes, stirring now and then, until thick.",
+   "Stir in the spinach and 1 tsp garam masala until wilted. Season with salt.",
+   "Grate the cucumber, squeeze it dry and mix with the yoghurt and chopped mint. Spoon over the dal."
+  ]
+ },
+ "attempts": 1,
+ "rejections": [],
+ "failures": [],
+ "model": "claude-opus-5-5"
+}

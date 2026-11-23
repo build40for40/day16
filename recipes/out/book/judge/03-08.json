@@ -1,0 +1,43 @@
+{
+ "day": 67,
+ "title": "Kipper and spring onion hash with eggs",
+ "model": "claude-opus-5-5",
+ "judgement": {
+  "grandparents_cupboard": {
+   "pass": true,
+   "reason": "Potatoes, kippers, spring onions, eggs, oil, parsley and lemon are all plain home-kitchen foods."
+  },
+  "supermarket": {
+   "pass": true,
+   "reason": "Kipper fillets and everything else are everyday items at Tesco and similar."
+  },
+  "basic_kitchen": {
+   "pass": true,
+   "reason": "It needs only one large lidded frying pan and simple frying, which suits a confident beginner."
+  },
+  "works": {
+   "pass": true,
+   "reason": "600g potatoes, four kipper fillets and four eggs make a sensible plate for four, and the salty kippers cover the seasoning."
+  },
+  "honest_times": {
+   "pass": false,
+   "reason": "The 15 minutes prep plus 25 minutes cooking makes about 40 minutes, which is not the quick breakfast asked for, and the potatoes need turning throughout, so the cook time is not really unattended."
+  },
+  "honest_ingredients": {
+   "pass": true,
+   "reason": "Every listed item, including the parsley, lemon and pepper, is used in the steps, and nothing unlisted appears."
+  },
+  "seasonal_feel": {
+   "pass": true,
+   "reason": "A warm kipper hash suits early March, and a whole bunch of spring onions is folded through as a main flavour rather than scattered as a garnish."
+  },
+  "plain_voice": {
+   "pass": true,
+   "reason": "The steps are short, clear British home-cook instructions with no restaurant language."
+  },
+  "hearty_healthy": {
+   "pass": true,
+   "reason": "Potatoes, oily fish, eggs and spring onions make a proper, filling breakfast of real food."
+  }
+ }
+}
