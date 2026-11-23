@@ -16,11 +16,11 @@ document.documentElement.setAttribute('data-skin',s)})();
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&family=Inter+Tight:wght@400;500;800&family=Archivo:wght@500;900&family=Fraunces:opsz,wght@9..144,800&family=Hanken+Grotesk:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,600&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=Archivo:wght@500;900&family=Fraunces:opsz,wght@9..144,800&family=Hanken+Grotesk:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,600&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=DM+Mono:wght@400;500&display=swap">
 <style>
 /* One page, five skins. Base tokens are the Designer skin; each other skin overrides tokens and adds a little CSS under html[data-skin]. Tile colours are set from JS so text contrast is always picked per tile. */
 :root{--bg:#fff;--ink:#0b0b0b;--bd:var(--ink);--body:'Inter Tight',system-ui,sans-serif;--disp:'Inter Tight',system-ui,sans-serif;--dw:800;--dls:-.045em;--vtt:none;--ktt:uppercase;--bw:2px;--gap:0px;--rad:0px;--mono:'DM Mono',ui-monospace,monospace;--buyb:#e30613;--buyf:#fff;color-scheme:light}
-:root[data-skin="seasoned"]{--bg:#FBF7EF;--ink:#1E2A22;--bd:#E4DACA;--body:'Figtree',system-ui,sans-serif;--disp:'Figtree',system-ui,sans-serif;--dw:300;--dls:-.025em;--ktt:none;--bw:0px;--gap:clamp(8px,2vw,14px);--rad:12px}
+:root[data-skin="seasoned"]{--bg:#FBF7EF;--ink:#1E2A22}
 :root[data-skin="riso"]{--bg:#f3f0e6;--ink:#1c1b3a;--body:'Archivo',system-ui,sans-serif;--disp:'Archivo',system-ui,sans-serif;--dw:900;--dls:-.04em;--bw:0px;--gap:clamp(8px,2vw,14px)}
 :root[data-skin="garden"]{--bg:#f1f5ec;--ink:#14240f;--body:'Hanken Grotesk',system-ui,sans-serif;--disp:'Fraunces',Georgia,serif;--dw:800;--dls:-.03em}
 :root[data-skin="calm"]{--bg:#f6f2ec;--ink:#2d322e;--bd:#d9d3c8;--body:'DM Sans',system-ui,sans-serif;--disp:'DM Sans',system-ui,sans-serif;--dw:400;--dls:-.035em;--ktt:none;--bw:0px;--gap:clamp(8px,2vw,14px);--rad:clamp(14px,3.4vw,26px)}
@@ -52,7 +52,7 @@ h1{font-size:clamp(2.2rem,6.6vw,4.6rem);line-height:.98;margin:12px 0 14px;max-w
 .g a:hover{filter:brightness(1.08)}
 .g a:focus-visible{outline:3px solid currentColor;outline-offset:-7px}
 .t{font-variant-numeric:tabular-nums}
-#today{padding-block:clamp(48px,8vw,96px) 40px;scroll-margin-top:8px}
+#sample{scroll-margin-top:8px}
 .tag{font:500 .76rem var(--mono);letter-spacing:.12em;text-transform:uppercase;margin:0 0 18px}
 h2{font-size:clamp(2.2rem,6vw,4.4rem);line-height:.98;margin:0;max-width:16ch;text-wrap:balance}
 .dek{font-size:1.15rem;max-width:44ch;margin:18px 0 0}
@@ -79,16 +79,6 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 .fine{font:400 .72rem var(--mono);margin:0;padding-block:18px 28px;opacity:.7}
 @media(max-width:760px){.cols{grid-template-columns:1fr}}
 @media(max-width:520px){.g .s,.sk b{display:none}}
-/* Seasoned: the brand skin. Paper and oat tones do most of the work, Cavolo nero carries the text and the one dark band, and the current season's pair is the only colour. */
-[data-skin="seasoned"] .mark{font-weight:600;text-transform:lowercase;letter-spacing:-.035em}
-[data-skin="seasoned"] .k{font-weight:600;letter-spacing:.02em}
-[data-skin="seasoned"] .lede,[data-skin="seasoned"] .dek{color:#4B5A4E}
-[data-skin="seasoned"] .cols,[data-skin="seasoned"] .tot{border-top:1px solid #E4DACA}
-[data-skin="seasoned"] .steps li::before{color:#8C968C}
-[data-skin="seasoned"] .g a{transition:transform .2s}
-[data-skin="seasoned"] .g a:hover{filter:none;transform:translateY(-3px)}
-[data-skin="seasoned"] .buy a{border-radius:999px;font-weight:600}
-@media(prefers-reduced-motion:reduce){[data-skin="seasoned"] .g a{transition:none}}
 /* Riso */
 [data-skin="riso"] .mark{color:#ff4d8d}
 [data-skin="riso"] .dn{color:#2b4acb}
@@ -122,32 +112,23 @@ h3{font:500 .74rem var(--mono);letter-spacing:.14em;text-transform:uppercase;mar
 <h1>One recipe a day. In season, near you. Free.</h1>
 <p class="lede">Come back tomorrow for the next one. Or <a href="#buy">buy the book</a> and get all 365 at once.</p>
 <nav class="g" id="g" aria-label="Today at a glance">
-<a href="#today"><span class="k">Today</span><span><span class="v" id="t1"></span><span class="s" id="s1"></span></span></a>
-<a href="#today"><span class="k">Season</span><span><span class="v" id="t2"></span><span class="s" id="s2"></span></span></a>
-<a href="#today"><span class="k">Furthest</span><span><span class="v" id="t3"></span><span class="s">Furthest ingredient in today's recipe</span></span></a>
-<a href="#today"><span class="k">Ingredients</span><span><span class="v" id="t4"></span><span class="s">All in season where you live</span></span></a>
+<a href="#sample"><span class="k">Today</span><span><span class="v" id="t1"></span><span class="s" id="s1"></span></span></a>
+<a href="#sample"><span class="k">Season</span><span><span class="v" id="t2"></span><span class="s" id="s2"></span></span></a>
+<a href="#sample"><span class="k">Furthest</span><span><span class="v" id="t3"></span><span class="s">Furthest ingredient in today's recipe</span></span></a>
+<a href="#sample"><span class="k">Ingredients</span><span><span class="v" id="t4"></span><span class="s">All in season where you live</span></span></a>
 <a href="#buy"><span class="k">Tomorrow</span><span><span class="v t" id="cd"></span><span class="s" id="s5"></span></span></a>
-<a href="#today"><span class="k">Daily</span><span><span class="v">Free</span><span class="s">A new recipe every day</span></span></a>
+<a href="#sample"><span class="k">Daily</span><span><span class="v">Free</span><span class="s">A new recipe every day</span></span></a>
 <a href="#" id="reg"><span class="k">Where</span><span><span class="v" id="t7"></span><span class="s">Tap to change region</span></span></a>
 <a href="#buy"><span class="k">The book</span><span><span class="v">365</span><span class="s">Every recipe, all at once</span></span></a>
-<a href="#buy"><span class="k">Buy</span><span><span class="v">£12</span><span class="s">All 365 days</span></span></a>
+<a href="#buy"><span class="k">Buy</span><span><span class="v">£17.99</span><span class="s">All 365 days, plus shipping</span></span></a>
 </nav>
-<section id="today">
-<p class="tag" id="date"></p>
-<h2 id="title"></h2>
-<p class="dek" id="dek"></p>
-<div class="cols">
-<div><h3>Today's receipt</h3><ul class="ing" id="ing"></ul><div class="tot"><span>Total distance</span><span id="total"></span></div><p class="pn">Pantry, not counted: salt and black pepper.</p></div>
-<div><h3 id="meta"></h3><ol class="steps" id="steps"></ol></div>
-</div>
-</section>
 <section class="sample" id="sample">
 <p class="tag">A page from the book</p>
 <img src="sample-page.jpg" width="1152" height="1728" loading="lazy" alt="A page from Seasoned for 14 July: courgette and cherry tomato frittata, with a painted picture of the dish, the ingredients, the seasoning and four steps.">
 </section>
 </main>
 </div>
-<div class="buy" id="buy"><div class="wrap"><p>Want every day? Get all 365.<small>Free today. Tomorrow's unlocks at midnight. The book has the lot.</small></p><a href="#">Buy the book, £12</a></div></div>
+<div class="buy" id="buy"><div class="wrap"><p>Want every day? Get all 365.<small>Free today. Tomorrow's unlocks at midnight. The book has the lot.</small></p><a href="#">Buy the book, £17.99</a></div></div>
 <div class="wrap"><p class="fine">Sample recipes with illustrative distances.</p></div>
 <script>
 var R=[
@@ -162,10 +143,9 @@ ing:[["Broad beans, 500 g in pods",42],["Peas, 250 g in pods",42],["Fresh ricott
 steps:["Pod the broad beans and peas. Blanch the beans for 2 minutes, add the peas for the last 30 seconds, then cool in cold water.","Slip the broad beans out of their grey skins.","Crush beans and peas roughly with oil, lemon zest and juice, torn mint and salt.","Toast the sourdough. Spread with ricotta, pile on the smash and finish with oil."]}
 ];
 /* tile fill per skin: 0 = page colour, 'i' = ink, else a colour. Order: Today, Season, Furthest, Ingredients, Tomorrow, Daily, Where, Book, Buy */
-/* The brand skin shows one season at a time, as a single tile in its main colour: spring from March, summer from June, autumn from September, winter from December. */
-var PAIR=[["#7A1F3D","#3E5A3A"],["#E8708A","#A9C46C"],["#E0482F","#F6E59A"],["#D9822B","#8A7560"]][[0,0,1,1,1,2,2,2,3,3,3,0][new Date().getMonth()]];
 var SK={
-seasoned:{n:"Seasoned",tight:false,brand:true,sw:["#FBF7EF",PAIR[0],"#1E2A22"],t:[PAIR[0],"#F3ECDF","#E4DACA","#E4DACA","#F3ECDF","#F3ECDF","#F3ECDF","#E4DACA","i"]},
+/* Seasoned keeps the Designer grid and swaps in the brand colours: Paper, Cavolo nero, Butter, Beetroot and Tomato. */
+seasoned:{n:"Seasoned",tight:true,sw:["#E0482F","#7A1F3D","#F6E59A"],t:[0,0,"i","#F6E59A","#7A1F3D",0,0,0,"#E0482F"]},
 designer:{n:"Designer",tight:true,sw:["#e30613","#1f3fd1","#ffd400"],t:[0,0,"i","#ffd400","#1f3fd1",0,0,0,"#e30613"]},
 riso:{n:"Riso",tight:false,sw:["#ff4d8d","#2b4acb","#f3f0e6"],t:["#ff4d8d","#2b4acb","#ff4d8d","#2b4acb","#ffffff","#2b4acb","#ff4d8d","#2b4acb","i"]},
 garden:{n:"Garden",tight:true,sw:["#1f7a3d","#e8432b","#ffd25a"],t:[0,"#ffd25a","#1f7a3d",0,"#e8432b",0,"#cfe6b8",0,"i"]},
@@ -177,7 +157,7 @@ function rl(h){var n=parseInt(h.slice(1),16),c=[n>>16&255,n>>8&255,n&255].map(fu
 function pick(h){var l=rl(h);return (l+.05)/.05>1.05/(l+.05)?'#0b0b0b':'#ffffff'}
 function skin(k,save){var s=SK[k];root.setAttribute('data-skin',k);grid.classList.toggle('tight',s.tight);
 var cs=getComputedStyle(root),bg=cs.getPropertyValue('--bg').trim(),ink=cs.getPropertyValue('--ink').trim();
-tiles.forEach(function(a,i){var f=s.t[i],c=f===0?bg:f==='i'?ink:f,fg=f===0?ink:f==='i'?bg:pick(c);if(s.brand&&f!==0&&f!=='i')fg=fg==='#ffffff'?bg:ink;a.style.setProperty('--tb',c);a.style.setProperty('--tf',fg)});
+tiles.forEach(function(a,i){var f=s.t[i],c=f===0?bg:f==='i'?ink:f,fg=f===0?ink:f==='i'?bg:pick(c);a.style.setProperty('--tb',c);a.style.setProperty('--tf',fg)});
 var b=s.t[8],bb=b===0?bg:b==='i'?ink:b,bf=b==='i'?bg:pick(bb);root.style.setProperty('--buyb',bb);root.style.setProperty('--buyf',bf);
 $('skn').textContent=s.n;document.querySelectorAll('#sks button').forEach(function(x){x.setAttribute('aria-pressed',x.dataset.k===k)});
 if(save){try{localStorage.setItem('hb-skin',k)}catch(e){}}}
@@ -185,13 +165,9 @@ $('sks').innerHTML=keys.map(function(k){var w=SK[k].sw;return '<button type="but
 document.querySelectorAll('#sks button').forEach(function(b){b.addEventListener('click',function(){skin(b.dataset.k,true)})});
 function show(i){ri=i;var d=R[i],t=0,m=0;d.ing.forEach(function(x){t+=x[1];if(x[1]>m)m=x[1]});
 $('t1').textContent=d.short;$('s1').textContent=d.title;$('t2').textContent=d.season.split(' ')[1].replace(/^./,function(c){return c.toUpperCase()});$('s2').textContent=d.season+', '+d.n;
-$('t3').textContent=m+' mi';$('t4').textContent=d.ing.length;$('t7').textContent=d.sh;
-$('title').textContent=d.title;$('dek').textContent=d.dek;$('meta').textContent='Method · '+d.time;
-$('ing').innerHTML=d.ing.map(function(x){return '<li><span>'+x[0]+'</span><i></i><span class="mi">'+x[1]+' mi</span></li>'}).join('');$('total').textContent=t+' mi';
-$('steps').innerHTML=d.steps.map(function(s){return '<li><p>'+s+'</p></li>'}).join('')}
+$('t3').textContent=m+' mi';$('t4').textContent=d.ing.length;$('t7').textContent=d.sh;}
 var now=new Date(),doy=Math.round((Date.UTC(now.getFullYear(),now.getMonth(),now.getDate())-Date.UTC(now.getFullYear(),0,0))/864e5);
 $('dn').textContent='Day '+doy+' of 365';
-$('date').textContent=now.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})+' · Free today';
 $('s5').textContent='Day '+(doy+1)+' unlocks at midnight';
 function tick(){var n=new Date(),m=new Date(n);m.setHours(24,0,0,0);var s=Math.floor((m-n)/1000),p=function(x){return String(x).padStart(2,'0')};$('cd').textContent=p(Math.floor(s/3600))+':'+p(Math.floor(s%3600/60))+':'+p(s%60)}
 tick();setInterval(tick,1000);
