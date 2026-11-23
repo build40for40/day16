@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seasoned</title>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#ffffff}
+.page{position:relative;width:559px;height:794px;overflow:hidden;background:#ffffff;color:#1b1a17;font-family:'Zen Kaku Gothic New',system-ui,sans-serif;font-weight:300}
+.content{position:absolute;left:60px;top:56px;width:380px;display:flex;flex-direction:column}
+.picture{width:380px;height:196px;background:#f3f1ec;display:flex;align-items:center;justify-content:center;font-size:12px;color:#6b675f;object-fit:cover}
+h1{margin:26px 0 0;font-size:25px;line-height:31px;font-weight:400;letter-spacing:-0.2px}
+.note{font-size:12px;line-height:16px;color:#6b675f}
+.note b{font-weight:700;color:#1b1a17}
+.columns{margin-top:18px;width:410px;display:flex;gap:20px;align-items:flex-start;font-size:13px}
+.left{flex:0 0 150px;line-height:20px}
+.method{flex:1 1 0;min-width:0;line-height:20px}
+.heading{font-size:12px;line-height:16px;font-weight:700;letter-spacing:1px;margin-bottom:8px}
+.left .heading + div + .heading{margin-top:14px}
+ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+li{display:flex;gap:12px}
+li span:first-child{flex:0 0 8px;color:#6b675f}
+.date{position:absolute;right:28px;top:44px;text-align:right;white-space:nowrap}
+.date .number{font-size:40px;line-height:42px;font-weight:300;letter-spacing:-1px}
+.date .month{font-size:13px;line-height:18px;font-weight:400}
+.date .day{margin-top:6px;font-size:12px;line-height:16px;color:#767676}
+.season{position:absolute;right:44px;height:30px;display:flex;align-items:center;color:#767676}
+.season svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+.season.on{color:#1b1a17}
+.season.on svg{stroke-width:1.8}
+.year{position:absolute;right:27px;top:170px;width:1px;height:432px;background:#c9c6be}
+.gone{position:absolute;right:26px;top:170px;width:2px;background:#1b1a17}
+.today{position:absolute;right:24px;width:7px;height:7px;border-radius:50%;background:#1b1a17}
+.time{position:absolute;right:28px;top:668px;display:flex;flex-direction:column;align-items:flex-end;font-size:13px;line-height:24px;color:#767676}
+.time .on{color:#1b1a17;font-weight:700}
+@page{size:148mm 210mm;margin:0}
+@media print{.page{break-after:page}}
+</style>
+</head>
+<body>
+<svg aria-hidden="true" width="0" height="0" style="position:absolute">
+<symbol id="winter" viewBox="0 0 24 24"><path d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9"></path></symbol>
+<symbol id="spring" viewBox="0 0 24 24"><path d="M12 21v-9M12 12c0-4 3-6 7-6 0 4-3 6-7 6zM12 15c0-3-2-5-6-5 0 3 2 5 6 5z"></path></symbol>
+<symbol id="summer" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9L7 7M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"></path></symbol>
+<symbol id="autumn" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14M5 19l8-8"></path></symbol>
+</svg>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Rhubarb and orange compote with yoghurt and hazelnuts</h1>
+<div class="note" style="margin-top:14px">one saucepan, a grater</div>
+<div class="note" style="margin-top:4px"><b>22m</b>: 12m prep + 10m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>50g hazelnuts<br>3 oranges<br>400g forced rhubarb<br>2 tbsp honey<br>500g natural yoghurt</div>
+<div class="heading">seasoning</div>
+<div>ground ginger<br>cinnamon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Toast the hazelnuts in a dry pan until golden. Chop roughly.</span></li>
+<li><span>2</span><span>Add one orange's zest and juice, the rhubarb in 3cm lengths, the honey and a pinch of each spice.</span></li>
+<li><span>3</span><span>Cover and simmer for 5 to 8 minutes, until just soft. Cool a little.</span></li>
+<li><span>4</span><span>Fold in the other oranges, peeled and sliced. Serve on yoghurt with the nuts.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">5</div><div class="month">january</div><div class="day">day 5</div></div>
+<div role="img" aria-label="Season: winter">
+<span class="season on" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:5.3px"></div>
+<div class="today" style="top:171.8px"></div>
+<div class="time"><span class="on">30m</span><span>60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Split pea and parsnip stew with purple sprouting broccoli</h1>
+<div class="note" style="margin-top:14px">one large lidded pan</div>
+<div class="note" style="margin-top:4px"><b>85m</b>: 20m prep + 65m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>2 tbsp rapeseed oil<br>2 onions<br>3 cloves garlic<br>250g yellow split peas<br>1 tin chopped tomatoes<br>1.2l veg stock<br>3 parsnips<br>250g purple sprouting</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>cumin<br>turmeric<br>chilli flakes<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Soften the sliced onions in the oil for 8 minutes. Add the garlic, 2 tsp cumin, 1 tsp turmeric.</span></li>
+<li><span>2</span><span>Add the rinsed peas, tomatoes and stock. Cover and simmer for 30 minutes.</span></li>
+<li><span>3</span><span>Add the parsnip chunks. Simmer for 25 minutes, until the peas are soft.</span></li>
+<li><span>4</span><span>Lay the broccoli on top, cover and steam for 6 minutes. Season with lemon and chilli.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">18</div><div class="month">january</div><div class="day">day 18</div></div>
+<div role="img" aria-label="Season: winter">
+<span class="season on" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:20.7px"></div>
+<div class="today" style="top:187.2px"></div>
+<div class="time"><span>30m</span><span>60m</span><span class="on">90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Turnip, leek and cheddar tart with baked eggs</h1>
+<div class="note" style="margin-top:14px">a frying pan, a baking tray</div>
+<div class="note" style="margin-top:4px"><b>50m</b>: 20m prep + 30m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>25g butter<br>2 leeks<br>400g turnips<br>320g sheet puff pastry<br>150ml crème fraîche<br>80g grated cheddar<br>4 eggs</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>thyme</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Heat the oven to 200°C (180°C fan). Soften the sliced leeks and turnips in butter for 10 minutes.</span></li>
+<li><span>2</span><span>Lay the pastry on a tray, score a 2cm border and prick inside with a fork.</span></li>
+<li><span>3</span><span>Spread with crème fraîche, add the veg, thyme and cheese. Bake for 20 minutes, until golden.</span></li>
+<li><span>4</span><span>Crack on the eggs, season and bake for 8 minutes more, until the whites set.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">4</div><div class="month">february</div><div class="day">day 35</div></div>
+<div role="img" aria-label="Season: winter">
+<span class="season on" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:40.8px"></div>
+<div class="today" style="top:207.3px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Kipper and orange pâté on toast</h1>
+<div class="note" style="margin-top:14px">a heatproof bowl, a fork, a frying pan</div>
+<div class="note" style="margin-top:4px"><b>20m</b>: 15m prep + 5m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>300g kipper fillets<br>50g soft butter<br>3 tbsp crème fraîche<br>1 tsp horseradish sauce<br>2 oranges<br>4 slices wholemeal bread</div>
+<div class="heading">seasoning</div>
+<div>black pepper</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Cover the kippers with boiling water for 5 minutes. Drain and flake, dropping skin and bones.</span></li>
+<li><span>2</span><span>Mash with the butter, crème fraîche, horseradish, zest of one orange and plenty of pepper.</span></li>
+<li><span>3</span><span>Peel and slice both oranges. Toast the bread in a dry pan.</span></li>
+<li><span>4</span><span>Spread the toast with pâté and top with orange slices.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">17</div><div class="month">february</div><div class="day">day 48</div></div>
+<div role="img" aria-label="Season: winter">
+<span class="season on" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:56.2px"></div>
+<div class="today" style="top:222.7px"></div>
+<div class="time"><span class="on">30m</span><span>60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Beef and cabbage keema with potatoes</h1>
+<div class="note" style="margin-top:14px">one large casserole</div>
+<div class="note" style="margin-top:4px"><b>55m</b>: 25m prep + 30m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>1 tbsp rapeseed oil<br>2 onions<br>500g beef mince<br>4 cloves garlic<br>1 tin chopped tomatoes<br>500g potatoes<br>½ white cabbage<br>150g frozen peas<br>4 tbsp natural yoghurt</div>
+<div class="heading">seasoning</div>
+<div>salt<br>curry powder<br>cumin<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Soften the sliced onions in the oil for 8 minutes. Brown the beef, breaking it up.</span></li>
+<li><span>2</span><span>Stir in the crushed garlic, 2 tbsp curry powder and 1 tsp cumin for a minute.</span></li>
+<li><span>3</span><span>Add the tomatoes, cubed potatoes and 300ml water. Cover and simmer for 20 minutes.</span></li>
+<li><span>4</span><span>Stir in the shredded cabbage and peas for 10 minutes, until tender. Season with lemon and salt. Top with yoghurt.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">6</div><div class="month">march</div><div class="day">day 65</div></div>
+<div role="img" aria-label="Season: spring">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season on" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:76.3px"></div>
+<div class="today" style="top:242.8px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Porridge with apple and rhubarb compote</h1>
+<div class="note" style="margin-top:14px">two saucepans</div>
+<div class="note" style="margin-top:4px"><b>25m</b>: 10m prep + 15m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>50g hazelnuts<br>4 eating apples<br>2 sticks rhubarb<br>1 orange<br>1 tbsp soft brown sugar<br>200g porridge oats</div>
+<div class="heading">seasoning</div>
+<div>cinnamon<br>salt</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Toast the chopped hazelnuts in a dry pan until golden. Tip out.</span></li>
+<li><span>2</span><span>In the same pan, simmer the cubed apples and rhubarb with the orange juice, sugar and cinnamon for 10 minutes.</span></li>
+<li><span>3</span><span>Simmer the oats with 1.2 litres water and a pinch of salt for 5 minutes, stirring, until creamy.</span></li>
+<li><span>4</span><span>Top the porridge with the compote and hazelnuts.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">19</div><div class="month">march</div><div class="day">day 78</div></div>
+<div role="img" aria-label="Season: spring">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season on" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:91.7px"></div>
+<div class="today" style="top:258.2px"></div>
+<div class="time"><span class="on">30m</span><span>60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Apple and rhubarb pots with honey nuts</h1>
+<div class="note" style="margin-top:14px">a heavy pan, a frying pan</div>
+<div class="note" style="margin-top:4px"><b>50m</b>: 20m prep + 30m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>3 Bramley apples<br>300g rhubarb<br>1 orange<br>5 tbsp soft brown sugar<br>20g butter<br>75g almonds<br>75g hazelnuts<br>2 tbsp honey<br>400g natural yoghurt</div>
+<div class="heading">seasoning</div>
+<div>cinnamon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Simmer the peeled, chopped apples and rhubarb with the sugar, cinnamon and orange zest and juice for 10 to 12 minutes, until soft. Leave to cool.</span></li>
+<li><span>2</span><span>Melt the butter in a frying pan. Toast the chopped nuts for 4 minutes, stir in the honey until sticky, then tip onto a plate.</span></li>
+<li><span>3</span><span>Layer fruit and yoghurt in four bowls and scatter over the nuts.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">9</div><div class="month">april</div><div class="day">day 99</div></div>
+<div role="img" aria-label="Season: spring">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season on" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:116.6px"></div>
+<div class="today" style="top:283.1px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Puy lentil salad with radishes and orange</h1>
+<div class="note" style="margin-top:14px">one pan, a sieve, a large bowl, a whisk</div>
+<div class="note" style="margin-top:4px"><b>50m</b>: 20m prep + 30m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>250g puy lentils<br>3 oranges<br>4 tbsp olive oil<br>1 tsp Dijon mustard<br>1 small red onion<br>300g radishes<br>100g watercress<br>60g walnuts</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>parsley</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Simmer the lentils in plenty of water for 20 minutes, until just tender. Drain.</span></li>
+<li><span>2</span><span>Slice the peeled oranges over a big bowl. Whisk the juice with the oil, mustard, salt and pepper.</span></li>
+<li><span>3</span><span>Stir in the warm lentils and thinly sliced onion. Cool for 10 minutes.</span></li>
+<li><span>4</span><span>Fold in the sliced radishes, oranges, watercress and chopped parsley. Top with walnuts.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">18</div><div class="month">april</div><div class="day">day 108</div></div>
+<div role="img" aria-label="Season: spring">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season on" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:127.2px"></div>
+<div class="today" style="top:293.7px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Orange and ricotta pancakes with strawberries</h1>
+<div class="note" style="margin-top:14px">a mixing bowl, a whisk, a large frying pan</div>
+<div class="note" style="margin-top:4px"><b>35m</b>: 30m prep + 5m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>2 oranges<br>250g ricotta<br>3 eggs<br>150ml milk<br>150g self-raising flour<br>400g strawberries<br>1 tbsp honey<br>25g butter</div>
+<div class="heading">seasoning</div>
+<div>salt</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Zest both oranges. Whisk the ricotta, eggs, milk, zest and a pinch of salt, then fold in the flour.</span></li>
+<li><span>2</span><span>Slice the strawberries and toss with the honey and the juice of one orange.</span></li>
+<li><span>3</span><span>Melt a little butter in the pan. Fry spoonfuls of batter for 2 minutes a side, until golden.</span></li>
+<li><span>4</span><span>Peel and slice the other orange. Pile the fruit over the pancakes.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">6</div><div class="month">may</div><div class="day">day 126</div></div>
+<div role="img" aria-label="Season: spring">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season on" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:148.5px"></div>
+<div class="today" style="top:315px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Smashed cucumber salad with roast chicken</h1>
+<div class="note" style="margin-top:14px">a roasting tray, a large bowl, a grater</div>
+<div class="note" style="margin-top:4px"><b>105m</b>: 25m prep + 80m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>1.5kg whole chicken<br>2 tbsp olive oil<br>750g new potatoes<br>3 cucumbers<br>1 tbsp cider vinegar<br>150g radishes<br>4 spring onions<br>200g natural yoghurt<br>1 clove garlic</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>mint<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Oil and season the chicken. Roast at 200°C (180°C fan) for 30 minutes.</span></li>
+<li><span>2</span><span>Add the halved potatoes. Roast 50 minutes more, until the juices run clear.</span></li>
+<li><span>3</span><span>Bash 2 cucumbers into chunks. Toss with salt, vinegar, sliced radishes and onions.</span></li>
+<li><span>4</span><span>Grate the last cucumber into the yoghurt with crushed garlic, mint and lemon. Serve with the chicken.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">18</div><div class="month">may</div><div class="day">day 138</div></div>
+<div role="img" aria-label="Season: spring">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season on" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:162.7px"></div>
+<div class="today" style="top:329.2px"></div>
+<div class="time"><span>30m</span><span>60m</span><span class="on">90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Chard, cod and new potato frittata</h1>
+<div class="note" style="margin-top:14px">a saucepan, a large frying pan with a lid</div>
+<div class="note" style="margin-top:4px"><b>45m</b>: 20m prep + 25m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>400g new potatoes<br>2 tbsp olive oil<br>300g chard<br>4 spring onions<br>8 eggs<br>3 tbsp crème fraîche<br>300g skinless cod</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>dill<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Boil the sliced potatoes for 8 minutes. Drain.</span></li>
+<li><span>2</span><span>Fry the chard stalks and spring onions in the oil for 4 minutes. Wilt in the leaves.</span></li>
+<li><span>3</span><span>Beat the eggs, crème fraîche, dill, lemon zest and seasoning. Add potatoes and cod chunks to the pan and pour in the eggs.</span></li>
+<li><span>4</span><span>Cover and cook on a low heat for 12 to 15 minutes, until just set.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">5</div><div class="month">june</div><div class="day">day 156</div></div>
+<div role="img" aria-label="Season: summer">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season on" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:184px"></div>
+<div class="today" style="top:350.5px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Apricot and raspberry oat crumble</h1>
+<div class="note" style="margin-top:14px">a baking dish, a mixing bowl</div>
+<div class="note" style="margin-top:4px"><b>45m</b>: 15m prep + 30m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>8 apricots<br>300g raspberries<br>75g porridge oats<br>50g plain flour<br>40g almonds<br>2 tbsp soft brown sugar<br>4 tbsp rapeseed oil</div>
+<div class="heading">seasoning</div>
+<div>cinnamon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Heat the oven to 190°C (170°C fan). Halve and stone the apricots and tip into a baking dish with the raspberries.</span></li>
+<li><span>2</span><span>Rub the oats, flour, chopped almonds, sugar and a pinch of cinnamon with the oil until clumpy.</span></li>
+<li><span>3</span><span>Scatter over the fruit and bake for 25 to 30 minutes, until golden and bubbling.</span></li>
+<li><span>4</span><span>Leave to cool a little before eating.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">21</div><div class="month">june</div><div class="day">day 172</div></div>
+<div role="img" aria-label="Season: summer">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season on" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:203px"></div>
+<div class="today" style="top:369.5px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Smoky turkey and pepper pan fry with rice</h1>
+<div class="note" style="margin-top:14px">a large frying pan, a saucepan with a lid</div>
+<div class="note" style="margin-top:4px"><b>35m</b>: 25m prep + 10m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>300g basmati rice<br>1 tbsp olive oil<br>500g turkey mince<br>1 red onion<br>3 peppers<br>2 cloves garlic<br>1 tin chopped tomatoes<br>4 tbsp natural yoghurt</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>smoked paprika<br>cumin<br>parsley</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Simmer the rice in 600ml salted water, covered, for 12 minutes.</span></li>
+<li><span>2</span><span>Brown the turkey in the oil over a high heat, breaking it up.</span></li>
+<li><span>3</span><span>Add the sliced onion, peppers and garlic, 2 tsp paprika and the cumin. Fry for 8 minutes.</span></li>
+<li><span>4</span><span>Add the tomatoes and simmer for 5 minutes. Season, scatter with parsley, serve with rice and yoghurt.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">5</div><div class="month">july</div><div class="day">day 186</div></div>
+<div role="img" aria-label="Season: summer">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season on" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:219.6px"></div>
+<div class="today" style="top:386.1px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Blistered cherry tomatoes, mushrooms and eggs on toast</h1>
+<div class="note" style="margin-top:14px">a large frying pan with a lid</div>
+<div class="note" style="margin-top:4px"><b>22m</b>: 10m prep + 12m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>2 tbsp olive oil<br>250g mushrooms<br>400g cherry tomatoes<br>1 garlic clove<br>1 tbsp butter<br>4 eggs<br>4 slices wholemeal bread</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>thyme<br>chives</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Fry the sliced mushrooms in the oil in a large pan for 5 minutes, until golden.</span></li>
+<li><span>2</span><span>Add the tomatoes, sliced garlic and thyme. Cook for 5 minutes, until they burst. Season.</span></li>
+<li><span>3</span><span>Make four gaps, add the butter and crack in the eggs. Cover for 3 to 4 minutes, until the whites set.</span></li>
+<li><span>4</span><span>Serve on toast with snipped chives.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">18</div><div class="month">july</div><div class="day">day 199</div></div>
+<div role="img" aria-label="Season: summer">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season on" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:234.9px"></div>
+<div class="today" style="top:401.4px"></div>
+<div class="time"><span class="on">30m</span><span>60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Grape and plum crumble</h1>
+<div class="note" style="margin-top:14px">a baking dish, a mixing bowl</div>
+<div class="note" style="margin-top:4px"><b>50m</b>: 15m prep + 35m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>400g red grapes<br>4 plums<br>1 tbsp cornflour<br>100g plain flour<br>75g porridge oats<br>50g soft brown sugar<br>50g almonds<br>5 tbsp rapeseed oil</div>
+<div class="heading">seasoning</div>
+<div>cinnamon<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Heat the oven to 190°C (170°C fan). In a baking dish, toss the grapes and quartered plums with the cornflour, lemon zest and half the cinnamon.</span></li>
+<li><span>2</span><span>Rub the flour, oats, sugar, chopped almonds and remaining cinnamon with the oil until clumpy.</span></li>
+<li><span>3</span><span>Scatter over the fruit. Bake for 30 to 35 minutes, until golden and bubbling at the edges.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">4</div><div class="month">august</div><div class="day">day 216</div></div>
+<div role="img" aria-label="Season: summer">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season on" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:255.1px"></div>
+<div class="today" style="top:421.6px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Spiced split pea pot with marrow and broccoli</h1>
+<div class="note" style="margin-top:14px">one large pan with a lid</div>
+<div class="note" style="margin-top:4px"><b>80m</b>: 20m prep + 60m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>2 tbsp rapeseed oil<br>1 onion<br>3 cloves garlic<br>250g yellow split peas<br>1 tin chopped tomatoes<br>1 small marrow<br>1 head broccoli</div>
+<div class="heading">seasoning</div>
+<div>salt<br>cumin<br>turmeric<br>chilli flakes<br>lemon<br>coriander</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Soften the chopped onion in the oil in a big pan for 8 minutes. Stir in the garlic and spices.</span></li>
+<li><span>2</span><span>Add the rinsed split peas, tomatoes and 1.2 litres water. Simmer for 45 minutes, stirring often.</span></li>
+<li><span>3</span><span>Add the peeled, cubed marrow and broccoli florets. Cook 10 minutes, until tender.</span></li>
+<li><span>4</span><span>Season with salt and lemon juice. Top with coriander.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">17</div><div class="month">august</div><div class="day">day 229</div></div>
+<div role="img" aria-label="Season: summer">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season on" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:270.4px"></div>
+<div class="today" style="top:436.9px"></div>
+<div class="time"><span>30m</span><span>60m</span><span class="on">90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Smoked mackerel on toast with quick pickled plums</h1>
+<div class="note" style="margin-top:14px">two mixing bowls, a toaster or grill</div>
+<div class="note" style="margin-top:4px"><b>22m</b>: 12m prep + 10m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>4 ripe plums<br>2 tbsp cider vinegar<br>1 tsp honey<br>150g crème fraîche<br>2 tsp horseradish sauce<br>4 thick slices wholemeal bread<br>250g smoked mackerel<br>1 bag watercress</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>lemon<br>chives</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Stir the sliced plums with the vinegar, honey and a pinch of salt. Leave for 10 minutes.</span></li>
+<li><span>2</span><span>Mix the crème fraîche with the horseradish, lemon zest and snipped chives.</span></li>
+<li><span>3</span><span>Toast the bread. Spread with the crème fraîche and flake over the skinned mackerel.</span></li>
+<li><span>4</span><span>Top with the plums and watercress and finish with black pepper.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">7</div><div class="month">september</div><div class="day">day 250</div></div>
+<div role="img" aria-label="Season: autumn">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season on" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:295.3px"></div>
+<div class="today" style="top:461.8px"></div>
+<div class="time"><span class="on">30m</span><span>60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Fennel, bean and walnut patties with tomato salad</h1>
+<div class="note" style="margin-top:14px">a large frying pan, a masher, a grater</div>
+<div class="note" style="margin-top:4px"><b>35m</b>: 20m prep + 15m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>1 large fennel bulb<br>2 tins cannellini beans<br>75g walnuts<br>60g breadcrumbs<br>50g veggie hard cheese<br>1 egg<br>3 tbsp olive oil<br>300g cherry tomatoes<br>150g natural yoghurt</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>dill<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Grate the fennel and squeeze it dry. Roughly mash the drained beans.</span></li>
+<li><span>2</span><span>Mix in chopped walnuts, crumbs, grated cheese, egg, lemon zest, half the dill and seasoning. Shape 12 patties.</span></li>
+<li><span>3</span><span>Fry in the oil in batches, 4 minutes a side, until golden.</span></li>
+<li><span>4</span><span>Dress halved tomatoes with lemon juice. Stir the rest of the dill into the yoghurt.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">20</div><div class="month">september</div><div class="day">day 263</div></div>
+<div role="img" aria-label="Season: autumn">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season on" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:310.7px"></div>
+<div class="today" style="top:477.2px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Parsnip and red lentil dal with spinach</h1>
+<div class="note" style="margin-top:14px">one large pan</div>
+<div class="note" style="margin-top:4px"><b>45m</b>: 15m prep + 30m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>1 tbsp rapeseed oil<br>1 onion<br>2 cloves garlic<br>500g parsnips<br>250g red lentils<br>1 tin chopped tomatoes<br>900ml vegetable stock<br>200g spinach<br>4 tbsp natural yoghurt</div>
+<div class="heading">seasoning</div>
+<div>salt<br>curry powder<br>cumin<br>lemon<br>coriander</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Soften the chopped onion and garlic in the oil in a large pan for 5 minutes.</span></li>
+<li><span>2</span><span>Stir in 2 tbsp curry powder and 1 tsp cumin, then the diced parsnips, lentils, tomatoes and stock.</span></li>
+<li><span>3</span><span>Simmer for 25 minutes, stirring now and then, until the parsnips are tender.</span></li>
+<li><span>4</span><span>Wilt in the spinach. Season, add a squeeze of lemon and top with yoghurt and coriander.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">7</div><div class="month">october</div><div class="day">day 280</div></div>
+<div role="img" aria-label="Season: autumn">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season on" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:330.8px"></div>
+<div class="today" style="top:497.3px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Carrot, cheddar and thyme scones</h1>
+<div class="note" style="margin-top:14px">a mixing bowl, a grater, a baking tray</div>
+<div class="note" style="margin-top:4px"><b>35m</b>: 20m prep + 15m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>350g self-raising flour<br>1 tsp baking powder<br>85g cold butter<br>2 carrots<br>100g mature cheddar<br>1 egg<br>100ml milk</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>thyme</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Heat the oven to 220°C (200°C fan). Rub the butter into the flour, baking powder and salt.</span></li>
+<li><span>2</span><span>Stir in the grated carrots, most of the grated cheddar, thyme and pepper.</span></li>
+<li><span>3</span><span>Mix in the egg beaten with the milk, saving a splash, to make a soft dough.</span></li>
+<li><span>4</span><span>Pat 3cm thick, cut into 8, brush with egg and add the last cheese. Bake for 15 minutes.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">23</div><div class="month">october</div><div class="day">day 296</div></div>
+<div role="img" aria-label="Season: autumn">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season on" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:349.7px"></div>
+<div class="today" style="top:516.2px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Beef and barley pot with Brussels sprouts</h1>
+<div class="note" style="margin-top:14px">a large casserole with a lid, a wooden spoon</div>
+<div class="note" style="margin-top:4px"><b>65m</b>: 20m prep + 45m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>1 tbsp rapeseed oil<br>500g beef mince<br>1 onion<br>2 carrots<br>2 cloves garlic<br>1 tbsp tomato purée<br>250g pearl barley<br>1.2 litres beef stock<br>1 tsp Worcestershire sauce<br>400g Brussels sprouts</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>thyme</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Brown the mince in the oil in a casserole for 8 minutes.</span></li>
+<li><span>2</span><span>Soften the chopped onion, carrots and garlic with the thyme for 5 minutes. Stir in the purée.</span></li>
+<li><span>3</span><span>Add the barley, stock and Worcestershire. Cover and simmer for 35 minutes.</span></li>
+<li><span>4</span><span>Stir in the halved sprouts and simmer 10 minutes more, until tender. Season.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">6</div><div class="month">november</div><div class="day">day 310</div></div>
+<div role="img" aria-label="Season: autumn">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season on" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:366.3px"></div>
+<div class="today" style="top:532.8px"></div>
+<div class="time"><span>30m</span><span>60m</span><span class="on">90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Apple bircher with grapes and hazelnuts</h1>
+<div class="note" style="margin-top:14px">a large bowl, a grater</div>
+<div class="note" style="margin-top:4px"><b>8h 10m</b>: 10m prep + 8h cook, oats soaked overnight</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>2 apples<br>200g porridge oats<br>50g raisins<br>300g red grapes<br>50g hazelnuts</div>
+<div class="heading">seasoning</div>
+<div>cinnamon<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>The night before, grate the apples, skin and all, into a bowl with the lemon juice.</span></li>
+<li><span>2</span><span>Stir in the oats, raisins, a pinch of cinnamon and 500ml cold water. Cover and chill overnight.</span></li>
+<li><span>3</span><span>In the morning, loosen with a splash of water if thick.</span></li>
+<li><span>4</span><span>Spoon into bowls and top with the halved grapes and chopped hazelnuts.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">19</div><div class="month">november</div><div class="day">day 323</div></div>
+<div role="img" aria-label="Season: autumn">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season on" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:381.7px"></div>
+<div class="today" style="top:548.2px"></div>
+<div class="time"><span>30m</span><span>60m</span><span class="on">90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Kale, apple and carrot slaw with toasted seeds</h1>
+<div class="note" style="margin-top:14px">a frying pan, a large bowl, a grater</div>
+<div class="note" style="margin-top:4px"><b>25m</b>: 20m prep + 5m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>4 tbsp pumpkin seeds<br>2 tbsp sunflower seeds<br>200g kale<br>1 tbsp olive oil<br>2 carrots<br>2 eating apples<br>4 tbsp natural yoghurt<br>1 tsp wholegrain mustard<br>1 tsp honey</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>lemon</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Toast the seeds in a dry pan until they start to pop. Tip out to cool.</span></li>
+<li><span>2</span><span>Strip the kale from its stalks, shred finely and rub with the oil and a pinch of salt until it softens.</span></li>
+<li><span>3</span><span>Grate in the carrots and apples, skins and all.</span></li>
+<li><span>4</span><span>Mix the yoghurt, mustard, honey and juice of half the lemon. Season, toss through and scatter with the seeds.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">6</div><div class="month">december</div><div class="day">day 340</div></div>
+<div role="img" aria-label="Season: winter">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season on" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:401.8px"></div>
+<div class="today" style="top:568.3px"></div>
+<div class="time"><span class="on">30m</span><span>60m</span><span>90m</span></div>
+</div>
+<div class="page">
+<div class="content">
+<div class="picture" role="img" aria-label="Picture to come">picture</div>
+<h1>Roast carrots and chickpeas with kale, feta and orange</h1>
+<div class="note" style="margin-top:14px">a roasting tray, a grater, a small bowl</div>
+<div class="note" style="margin-top:4px"><b>48m</b>: 15m prep + 33m cook</div>
+<div class="columns">
+<div class="left">
+<div class="heading">ingredients</div>
+<div>750g carrots<br>2 tins chickpeas<br>3 tbsp olive oil<br>150g kale<br>30g pumpkin seeds<br>1 orange<br>1 tsp honey<br>200g feta</div>
+<div class="heading">seasoning</div>
+<div>salt<br>black pepper<br>cumin<br>chilli flakes</div>
+</div>
+<div class="method">
+<div class="heading">method</div>
+<ol>
+<li><span>1</span><span>Heat the oven to 200°C (180°C fan). On a tray, toss chunky carrots and drained chickpeas with 2 tbsp oil, 2 tsp cumin, the chilli and salt.</span></li>
+<li><span>2</span><span>Roast for 25 minutes. Add the torn kale and seeds, then roast 8 minutes more until crisp.</span></li>
+<li><span>3</span><span>Whisk the orange zest and juice, honey and last of the oil. Spoon over, crumble on the feta and add pepper.</span></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="date"><div class="number">19</div><div class="month">december</div><div class="day">day 353</div></div>
+<div role="img" aria-label="Season: winter">
+<span class="season" style="top:191px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span><span class="season" style="top:281px"><svg viewBox="0 0 24 24"><use href="#spring"></use></svg></span><span class="season" style="top:389px"><svg viewBox="0 0 24 24"><use href="#summer"></use></svg></span><span class="season" style="top:497px"><svg viewBox="0 0 24 24"><use href="#autumn"></use></svg></span><span class="season on" style="top:569px"><svg viewBox="0 0 24 24"><use href="#winter"></use></svg></span>
+</div>
+<div class="year"></div><div class="gone" style="height:417.2px"></div>
+<div class="today" style="top:583.7px"></div>
+<div class="time"><span>30m</span><span class="on">60m</span><span>90m</span></div>
+</div>
+</body>
+</html>

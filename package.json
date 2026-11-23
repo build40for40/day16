@@ -7,7 +7,8 @@
     "generate": "node --env-file-if-exists=.env recipes/generate.js",
     "check": "node recipes/check.js",
     "judge": "node --env-file-if-exists=.env recipes/judge.js",
-    "planted": "node --env-file-if-exists=.env recipes/planted.js"
+    "planted": "node --env-file-if-exists=.env recipes/planted.js",
+    "pages": "node pages/build.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",
