@@ -87,6 +87,7 @@ describe('the Stripe webhook', () => {
     })
     expect(calls.find((call) => call.url.includes('postmarkapp.com'))!.body).toMatchObject({
       To: 'reader@example.com',
+      ReplyTo: 'help@build40for40.com',
       Subject: 'Your copy of Seasoned is off to the printer',
     })
   })
