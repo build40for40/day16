@@ -63,3 +63,14 @@ Copying an expert's basket, healthy-eating games and top trumps, modernised gran
 - Recipe generator prompt.
 - Publishing, stock photos and page format.
 - Write the ultra processed definition.
+
+### Initial units of work
+
+Each has a card on the `day16` board.
+
+- Branding and landing page.
+- Recipe gen.
+- Book publishing.
+- Stock photo gen.
+- Page format and book structure.
+- Intro and glossary: the rationale.
