@@ -2,6 +2,7 @@
 //
 //   node book/build.ts            build dist/book/interior.html and print it to PDF
 //   node book/build.ts --no-pdf   build the HTML only
+//   node book/build.ts --ebook    print only dist/seasoned/seasoned.pdf, the free download on the site
 //
 // Run `npm run pages:book` first. This reads the recipe pages it built (pages/out/book/book.html),
 // the words in book/copy.json and the recipe data, and writes into dist/book/ (ignored by git):
@@ -11,12 +12,16 @@
 //   seasoned-interior-bw.pdf  the same, with grey pictures for a black and white print run
 //   pictures/, pictures-bw/ the illustrations resized for print (300 pixels per inch)
 //
-// Resizing uses the macOS `sips` tool and printing uses Google Chrome. Set CHROME_PATH if Chrome
+// The ebook has smaller pictures and runs anywhere with Chrome, so CI builds it on every deploy.
+// For the print files, resizing uses the macOS `sips` tool and printing uses Google Chrome. Set CHROME_PATH if Chrome
 // lives somewhere else. Needs Node 22.18 or newer.
 
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
+
+import sharp from "sharp";
 
 import { BOX, SEASONS, SEASON_TOPS } from "../pages/page.ts";
 
@@ -233,34 +238,62 @@ ${back.map((inner, index) => matter(inner, front.length + recipes.length + index
 `;
 }
 
-mkdirSync(out, { recursive: true });
+const keyOf = (slot: Slot) => {
+  const [day, month] = slot.label.split(" ");
+  return `${String(MONTHS.indexOf(month) + 1).padStart(2, "0")}-${day.padStart(2, "0")}`;
+};
 
-// Pictures at print size: the picture box is 3.5 inches wide, so 1120 pixels is a little over 300 per inch.
-const grayProfile = "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc";
-for (const [folder, gray] of [["pictures", false], ["pictures-bw", true]] as const) {
-  mkdirSync(join(out, folder), { recursive: true });
-  for (const { slot } of recipes) {
-    const [day, month] = slot.label.split(" ");
-    const key = `${String(MONTHS.indexOf(month) + 1).padStart(2, "0")}-${day.padStart(2, "0")}`;
-    const source = join(root, "pictures", "seasoned", `${key}.jpg`);
-    const target = join(out, folder, `${key}.jpg`);
-    if (!existsSync(source) || existsSync(target)) continue;
-    const options = ["-Z", "1120", "-s", "format", "jpeg", "-s", "formatOptions", "75"];
-    if (gray && existsSync(grayProfile)) options.push("--matchTo", grayProfile);
-    execFileSync("sips", [...options, source, "--out", target], { stdio: "ignore" });
-  }
+function print(html: string, pdf: string) {
+  const chrome = [process.env.CHROME_PATH, "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "/usr/bin/google-chrome", "/usr/bin/chromium"].find((path) => path && existsSync(path));
+  if (!chrome) throw new Error("Google Chrome was not found. Set CHROME_PATH to print the PDF.");
+  // Chrome's sandbox can't start on GitHub's Linux runners.
+  const sandbox = process.platform === "linux" ? ["--no-sandbox"] : [];
+  execFileSync(chrome, ["--headless=new", "--disable-gpu", ...sandbox, "--no-pdf-header-footer", "--virtual-time-budget=120000", `--print-to-pdf=${pdf}`, `file://${html}`], { stdio: "ignore" });
 }
 
-writeFileSync(join(out, "interior.html"), interior("pictures"));
-// For a black and white print run the pictures are grey and the badge is a plain dark pill.
-writeFileSync(join(out, "interior-bw.html"), interior("pictures-bw", ".badge.spring,.badge.summer,.badge.autumn,.badge.winter{background:#1E2A22;color:#ffffff}"));
 console.log(`Built ${total} pages: ${front.length} front, ${recipes.length} recipes, ${back.length} back.`);
 
-if (!process.argv.includes("--no-pdf")) {
-  const chrome = process.env.CHROME_PATH ?? "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-  if (!existsSync(chrome)) throw new Error("Google Chrome was not found. Set CHROME_PATH to print the PDF.");
-  for (const [html, pdf] of [["interior.html", "seasoned-interior.pdf"], ["interior-bw.html", "seasoned-interior-bw.pdf"]]) {
-    execFileSync(chrome, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--virtual-time-budget=120000", `--print-to-pdf=${join(out, pdf)}`, `file://${join(out, html)}`], { stdio: "ignore" });
-    console.log(`Printed dist/book/${pdf}`);
+if (process.argv.includes("--ebook")) {
+  // Pictures at twice the size they show on a screen, which keeps the whole book small enough to serve from the site.
+  const work = mkdtempSync(join(tmpdir(), "seasoned-ebook-"));
+  mkdirSync(join(work, "pictures"));
+  for (const { slot } of recipes) {
+    const source = join(root, "pictures", "seasoned", `${keyOf(slot)}.jpg`);
+    if (existsSync(source)) await sharp(source).resize({ width: 680 }).jpeg({ quality: 62, mozjpeg: true }).toFile(join(work, "pictures", `${keyOf(slot)}.jpg`));
+  }
+  writeFileSync(join(work, "ebook.html"), interior("pictures"));
+  const pdf = join(root, "dist", "seasoned", "seasoned.pdf");
+  mkdirSync(join(root, "dist", "seasoned"), { recursive: true });
+  print(join(work, "ebook.html"), pdf);
+  rmSync(work, { recursive: true });
+  const megabytes = statSync(pdf).size / 1e6;
+  if (megabytes > 25) throw new Error(`The ebook is ${megabytes.toFixed(1)} MB. Cloudflare serves files up to 25 MB.`);
+  console.log(`Printed dist/seasoned/seasoned.pdf (${megabytes.toFixed(1)} MB)`);
+} else {
+  mkdirSync(out, { recursive: true });
+
+  // Pictures at print size: the picture box is 3.5 inches wide, so 1120 pixels is a little over 300 per inch.
+  const grayProfile = "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc";
+  for (const [folder, gray] of [["pictures", false], ["pictures-bw", true]] as const) {
+    mkdirSync(join(out, folder), { recursive: true });
+    for (const { slot } of recipes) {
+      const source = join(root, "pictures", "seasoned", `${keyOf(slot)}.jpg`);
+      const target = join(out, folder, `${keyOf(slot)}.jpg`);
+      if (!existsSync(source) || existsSync(target)) continue;
+      const options = ["-Z", "1120", "-s", "format", "jpeg", "-s", "formatOptions", "75"];
+      if (gray && existsSync(grayProfile)) options.push("--matchTo", grayProfile);
+      execFileSync("sips", [...options, source, "--out", target], { stdio: "ignore" });
+    }
+  }
+
+  writeFileSync(join(out, "interior.html"), interior("pictures"));
+  // For a black and white print run the pictures are grey and the badge is a plain dark pill.
+  writeFileSync(join(out, "interior-bw.html"), interior("pictures-bw", ".badge.spring,.badge.summer,.badge.autumn,.badge.winter{background:#1E2A22;color:#ffffff}"));
+
+  if (!process.argv.includes("--no-pdf")) {
+    for (const [html, pdf] of [["interior.html", "seasoned-interior.pdf"], ["interior-bw.html", "seasoned-interior-bw.pdf"]]) {
+      print(join(out, html), join(out, pdf));
+      console.log(`Printed dist/book/${pdf}`);
+    }
   }
 }
