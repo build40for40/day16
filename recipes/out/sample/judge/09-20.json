@@ -1,43 +1,43 @@
 {
  "day": 263,
- "title": "Fennel, bean and walnut patties with tomato salad",
+ "title": "Fennel, walnut and white bean patties",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Every item is a plain staple: tinned beans, walnuts, breadcrumbs, cheese, egg, yoghurt and fresh produce."
+   "reason": "Beans, walnuts, feta, egg, breadcrumbs, yoghurt and fresh produce are all ordinary kitchen staples with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Fennel, cannellini beans, walnuts, vegetarian hard cheese and cherry tomatoes are all everyday Tesco lines."
+   "reason": "Every ingredient, including the walnuts and feta, is an everyday item at any mainstream UK supermarket."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a grater, a masher and a frying pan, and shaping and shallow-frying patties is within a beginner's reach."
+   "reason": "It needs only a frying pan, grater, bowl and masher, and grating, mashing and shallow-frying patties suit a confident beginner."
   },
   "works": {
    "pass": true,
-   "reason": "Two tins of beans with one fennel bulb, crumbs, cheese and an egg make a sensible bound mix for 12 patties, three each, and 4 minutes a side cooks them through."
+   "reason": "Softened fennel, two tins of mashed beans, egg and breadcrumbs make a firm enough mix for eight patties, a sensible amount for four with the tomatoes and yoghurt."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Grating, mashing, chopping and shaping fit roughly in 20 minutes, and two batches of 8 minutes come close to the 15 minutes of cooking printed."
+   "reason": "Twenty minutes covers grating, chopping, the 5-minute fennel fry and shaping, and 15 minutes matches frying the patties, which suits a quick dinner."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including dill and lemon, is used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning, including the oil split as 1 plus 2 plus 1 tbsp and the lemon zest and juice, is used, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Fennel, dill and cherry tomatoes suit a mild late-September evening, and the fennel leads the patties."
+   "reason": "Grated fennel, backed up by fennel seeds, flavours the patties, and a warm pan-fried supper with the last tomatoes suits late September."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear British English with no restaurant jargon or preaching."
+   "reason": "The steps are clear, plain British English with practical tips like cooking in batches."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Beans, walnuts, egg and cheese make a filling protein-rich patty, served with a fresh tomato salad and yoghurt."
+   "reason": "Beans, walnuts, feta and egg give protein, served with tomatoes and yoghurt as a satisfying family meal."
   }
  }
 }

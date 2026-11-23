@@ -1,43 +1,43 @@
 {
  "day": 186,
- "title": "Smoky turkey and pepper pan fry with rice",
+ "title": "Smoky turkey and peppers with rice",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is plain home food: rice, turkey mince, peppers, onion, garlic, tinned tomatoes, natural yoghurt and spices."
+   "reason": "Everything is a whole food or plain staple: rice, turkey mince, vegetables, tomato purée, natural yoghurt and spices, with no jars, stock pots or packet mixes."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every item is an everyday Tesco staple at a normal price."
+   "reason": "Basmati rice, turkey mince, peppers, cherry tomatoes, cucumber and yoghurt are all everyday Tesco lines at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a frying pan and a lidded saucepan, and the techniques are simple."
+   "reason": "It needs only a frying pan, a lidded saucepan and a grater, and the techniques are simple frying and absorption rice."
   },
   "works": {
    "pass": true,
-   "reason": "300g basmati in 600ml water and 500g turkey with three peppers and a tin of tomatoes make a well balanced, sensibly timed dinner for four."
+   "reason": "300g rice to 600ml water, 500g turkey and 3 peppers are sensible for four, the timings are realistic and the seasoning is covered by salt, smoked paprika, cumin and the cucumber yoghurt."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Chopping three peppers, an onion and garlic, then browning and frying for about 15 minutes, fits 25 minutes of prep, with the rice cooking alongside."
+   "reason": "Slicing an onion and three peppers, crushing garlic, halving tomatoes, grating cucumber and about 20 minutes of stirring at the hob fit within 30 minutes of active work, with the rice's 12 minutes plus resting matching the 15 minutes of cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning appears in the steps; the step's '2 tsp paprika' is plainly the listed smoked paprika given the 'smoky' title."
+   "reason": "Every listed ingredient and seasoning appears in the steps, with cumin and paprika covered by 'spices', and the steps use nothing that is not listed."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Three garden peppers in a quick summer pan fry suit early July, and the peppers are central to the dish."
+   "reason": "Three peppers form the bulk of the vegetables and sit in the title, and a quick pan fry with a cool cucumber yoghurt suits early July."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear and in plain British English."
+   "reason": "The steps are clear, plain British English with no restaurant language or health preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a balanced family meal of lean protein, plenty of vegetables, rice and yoghurt."
+   "reason": "It is a balanced family dinner of lean protein, plenty of vegetables, rice and yoghurt."
   }
  }
 }

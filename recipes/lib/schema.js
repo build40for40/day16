@@ -4,6 +4,13 @@ export const MEALS = ["breakfast", "lunch", "dinner", "snack"];
 export const DIETS = ["vegan", "vegetarian", "fish", "meat"];
 export const KITS = ["one_pot", "one_tray", "hob", "oven", "hob_and_oven", "no_cook"];
 
+const Line = z.object({
+  id: z.string().describe("The id of this ingredient from the fresh list or the store cupboard list"),
+  quantity: z.string().describe("Metric amount or count for four people, such as 400g, 2, 1 tbsp or a pinch. Empty when it is to taste"),
+  name: z.string().describe("Lower case name as printed after the quantity, such as 'leeks'"),
+  prep: z.string().describe("Short note printed after a comma, such as 'chopped' or 'to taste', or an empty string"),
+});
+
 export const Recipe = z.object({
   title: z.string().describe("Plain name of the dish, as a home cook would say it"),
   meal: z.enum(MEALS),
@@ -17,19 +24,8 @@ export const Recipe = z.object({
   time_note: z.string().describe("Anything to do ahead, such as 'oats soaked overnight', or an empty string"),
   best_time: z.enum(["morning", "midday", "afternoon", "evening", "any time"]),
   freezes: z.boolean(),
-  seasoning: z.array(
-    z.object({
-      id: z.string().describe("The id from the fresh list or the store cupboard list"),
-      name: z.string().describe("Lower case name as printed, such as 'thyme'"),
-    }),
-  ),
-  ingredients: z.array(
-    z.object({
-      id: z.string().describe("The id of this ingredient from the fresh list or the store cupboard list"),
-      quantity: z.string().describe("Metric amount or count for four people, such as 400g, 2 or 1 tbsp"),
-      name: z.string().describe("Lower case name as printed after the quantity, such as 'leeks'"),
-    }),
-  ),
+  ingredients: z.array(Line).describe("Everything except salt, pepper, spices and herbs, in the order used"),
+  seasoning: z.array(Line).describe("Salt, pepper, spices and herbs"),
   steps: z.array(z.string()),
 });
 

@@ -17,69 +17,92 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Apricot and raspberry oat crumble",
+  "title": "Raspberry and peach oat crumble",
   "meal": "snack",
   "dish_form": "crumble",
   "diet": "vegan",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "a baking dish",
-   "a mixing bowl"
+   "medium baking dish",
+   "mixing bowl"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 30,
+  "cook_minutes": 35,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": true,
-  "seasoning": [
-   {
-    "id": "cinnamon",
-    "name": "cinnamon"
-   }
-  ],
   "ingredients": [
    {
-    "id": "apricots",
-    "quantity": "8",
-    "name": "apricots"
+    "id": "peaches",
+    "quantity": "3",
+    "name": "peaches",
+    "prep": "sliced"
    },
    {
     "id": "raspberries",
     "quantity": "300g",
-    "name": "raspberries"
+    "name": "raspberries",
+    "prep": ""
+   },
+   {
+    "id": "cornflour",
+    "quantity": "1 tbsp",
+    "name": "cornflour",
+    "prep": ""
+   },
+   {
+    "id": "wholemeal-flour",
+    "quantity": "75g",
+    "name": "wholemeal flour",
+    "prep": ""
    },
    {
     "id": "oats",
     "quantity": "75g",
-    "name": "porridge oats"
-   },
-   {
-    "id": "plain-flour",
-    "quantity": "50g",
-    "name": "plain flour"
-   },
-   {
-    "id": "almonds",
-    "quantity": "40g",
-    "name": "almonds"
+    "name": "porridge oats",
+    "prep": ""
    },
    {
     "id": "brown-sugar",
-    "quantity": "2 tbsp",
-    "name": "soft brown sugar"
+    "quantity": "40g",
+    "name": "soft brown sugar",
+    "prep": ""
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "40g",
+    "name": "hazelnuts",
+    "prep": "chopped"
    },
    {
     "id": "rapeseed-oil",
     "quantity": "4 tbsp",
-    "name": "rapeseed oil"
+    "name": "rapeseed oil",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "quantity": "1 tsp",
+    "name": "cinnamon",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "quantity": "a pinch",
+    "name": "salt",
+    "prep": ""
    }
   ],
   "steps": [
-   "Heat the oven to 190°C (170°C fan). Halve and stone the apricots and tip into a baking dish with the raspberries.",
-   "Rub the oats, flour, chopped almonds, sugar and a pinch of cinnamon with the oil until clumpy.",
-   "Scatter over the fruit and bake for 25 to 30 minutes, until golden and bubbling.",
-   "Leave to cool a little before eating."
+   "Heat the oven to 190°C (170°C fan). Halve the peaches, pull out the stones and slice them. Toss in a medium baking dish with the raspberries, cornflour and half the cinnamon.",
+   "In a mixing bowl, stir together the flour, oats, sugar, hazelnuts, the rest of the cinnamon and the salt.",
+   "Pour in the oil and rub it through with your fingertips until the mixture clumps into rough crumbs.",
+   "Scatter the crumble evenly over the fruit without pressing it down.",
+   "Bake for 30 to 35 minutes, until the top is golden and crisp and the fruit is bubbling up at the edges.",
+   "Leave to cool for 10 minutes so the juices thicken, then spoon into bowls. It is good warm or cold, and leftovers keep in the fridge for 2 days."
   ]
  },
  "attempts": 1,

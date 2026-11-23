@@ -1,43 +1,43 @@
 {
  "day": 216,
- "title": "Grape and plum crumble",
+ "title": "Grape and blackberry oat crumble",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Fruit, flour, oats, sugar, almonds, oil, cinnamon and lemon are all ordinary home staples with nothing factory-made."
+   "reason": "Fruit, oats, flour, almonds, sugar, oil and cinnamon are all plain cupboard and garden staples with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at any mainstream supermarket."
+   "reason": "Seedless grapes, blackberries and everything else are everyday Tesco items at normal prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a baking dish, a mixing bowl and an oven, and rubbing in a crumble is beginner technique."
+   "reason": "It needs only a baking dish, a bowl and fingertip rubbing, which any beginner can manage."
   },
   "works": {
    "pass": true,
-   "reason": "400g grapes and 4 plums under a 225g oat and almond crumble bound with 5 tbsp oil, baked at 190°C for 30 to 35 minutes, gives a sound crumble for four."
+   "reason": "600g of fruit under a 75g oat, 75g flour and 4 tbsp oil crumble at 190°C for 25 to 30 minutes gives a sensible crumble for four, with cornflour to thicken the juices."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Quartering four plums, chopping almonds and rubbing the topping fits in 15 minutes, and the 35-minute bake matches the steps."
+   "reason": "Halving 400g grapes, chopping a few almonds and rubbing in fit within 15 minutes, and 30 minutes baking plus 10 minutes cooling matches the 40 minutes of cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning is used, the lemon is zested as listed, and nothing unlisted appears."
+   "reason": "Every listed ingredient and seasoning is used in the steps, red seedless grapes are honestly grapes, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Grapes make up most of the filling alongside August plums, so they are the point of the dish."
+   "reason": "Grapes are the main fruit at 400g, with early August blackberries in support, and a warm crumble suits the date."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear and in plain British English."
+   "reason": "The steps are clear, homely British English with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is mostly fruit with oats and almonds and only 50g of sugar across four portions, a fair, real-food afternoon snack."
+   "reason": "It is mostly fruit with oats, wholemeal flour and almonds and only 40g sugar for four, so it makes a real snack the family would want again."
   }
  }
 }

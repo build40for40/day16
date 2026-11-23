@@ -17,94 +17,119 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Roast carrots and chickpeas with kale, feta and orange",
+  "title": "Roast carrot and chickpea tray with feta",
   "meal": "lunch",
-  "dish_form": "traybake",
+  "dish_form": "warm traybake salad",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "one_tray",
   "utensils": [
-   "a roasting tray",
-   "a grater",
-   "a small bowl"
+   "large roasting tray",
+   "small bowl"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 33,
+  "cook_minutes": 25,
   "time_note": "",
   "best_time": "midday",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   },
-   {
-    "id": "cumin",
-    "name": "cumin"
-   },
-   {
-    "id": "chilli-flakes",
-    "name": "chilli flakes"
-   }
-  ],
   "ingredients": [
    {
     "id": "carrots",
-    "quantity": "750g",
-    "name": "carrots"
+    "quantity": "600g",
+    "name": "carrots",
+    "prep": ""
+   },
+   {
+    "id": "red-onions",
+    "quantity": "1",
+    "name": "red onion",
+    "prep": "cut into wedges"
    },
    {
     "id": "chickpeas",
-    "quantity": "2 tins",
-    "name": "chickpeas"
+    "quantity": "2 x 400g",
+    "name": "tins chickpeas",
+    "prep": "drained"
    },
    {
     "id": "olive-oil",
     "quantity": "3 tbsp",
-    "name": "olive oil"
+    "name": "olive oil",
+    "prep": ""
    },
    {
     "id": "kale",
-    "quantity": "150g",
-    "name": "kale"
+    "quantity": "100g",
+    "name": "kale",
+    "prep": "shredded"
    },
    {
     "id": "pumpkin-seeds",
-    "quantity": "30g",
-    "name": "pumpkin seeds"
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds",
+    "prep": ""
    },
    {
-    "id": "oranges",
+    "id": "lemons",
     "quantity": "1",
-    "name": "orange"
+    "name": "lemon",
+    "prep": "juiced"
    },
    {
     "id": "honey",
     "quantity": "1 tsp",
-    "name": "honey"
+    "name": "honey",
+    "prep": ""
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "150g",
+    "name": "natural yoghurt",
+    "prep": ""
    },
    {
     "id": "feta",
-    "quantity": "200g",
-    "name": "feta"
+    "quantity": "100g",
+    "name": "feta",
+    "prep": "crumbled"
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "cumin",
+    "quantity": "2 tsp",
+    "name": "cumin",
+    "prep": ""
+   },
+   {
+    "id": "smoked-paprika",
+    "quantity": "1 tsp",
+    "name": "smoked paprika",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "quantity": "1 tsp",
+    "name": "salt",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
    }
   ],
   "steps": [
-   "Heat the oven to 200°C (180°C fan). On a tray, toss chunky carrots and drained chickpeas with 2 tbsp oil, 2 tsp cumin, the chilli and salt.",
-   "Roast for 25 minutes. Add the torn kale and seeds, then roast 8 minutes more until crisp.",
-   "Whisk the orange zest and juice, honey and last of the oil. Spoon over, crumble on the feta and add pepper."
+   "Heat the oven to 220°C (200°C fan). Halve the carrots lengthways, then cut into fingers. Tip onto a roasting tray with the onion, chickpeas, 2 tbsp of the oil, the cumin, paprika and most of the salt. Toss well and spread out.",
+   "Roast for 20 minutes, until the carrots are starting to brown at the edges.",
+   "Rub the kale with the rest of the oil. Stir it through the tray with the pumpkin seeds and roast for 5 minutes more, until the kale is crisp at the edges and the carrots are tender.",
+   "Meanwhile, stir the lemon juice and honey into the yoghurt with the rest of the salt.",
+   "Season the tray with black pepper, scatter over the feta and spoon the lemon yoghurt on top. Serve warm."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 371 characters over 4 steps and runs 1 line past the bottom of the page. Cut about 31 characters."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

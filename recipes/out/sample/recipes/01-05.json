@@ -17,69 +17,74 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Rhubarb and orange compote with yoghurt and hazelnuts",
+  "title": "Rhubarb and orange compote with yoghurt",
   "meal": "breakfast",
   "dish_form": "fruit compote with yoghurt",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "one_pot",
+  "kit": "hob",
   "utensils": [
-   "one saucepan",
-   "a grater"
+   "medium saucepan with a lid",
+   "small frying pan",
+   "grater"
   ],
   "prep_minutes": 12,
   "cook_minutes": 10,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "ground-ginger",
-    "name": "ground ginger"
-   },
-   {
-    "id": "cinnamon",
-    "name": "cinnamon"
-   }
-  ],
   "ingredients": [
    {
-    "id": "hazelnuts",
-    "quantity": "50g",
-    "name": "hazelnuts"
-   },
-   {
     "id": "oranges",
-    "quantity": "3",
-    "name": "oranges"
+    "quantity": "2",
+    "name": "oranges",
+    "prep": ""
    },
    {
     "id": "rhubarb",
     "quantity": "400g",
-    "name": "forced rhubarb"
+    "name": "rhubarb",
+    "prep": "in 3cm pieces"
    },
    {
     "id": "honey",
     "quantity": "2 tbsp",
-    "name": "honey"
+    "name": "honey",
+    "prep": ""
+   },
+   {
+    "id": "hazelnuts",
+    "quantity": "50g",
+    "name": "hazelnuts",
+    "prep": ""
    },
    {
     "id": "natural-yoghurt",
     "quantity": "500g",
-    "name": "natural yoghurt"
+    "name": "natural yoghurt",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "ground-ginger",
+    "quantity": "1/4 tsp",
+    "name": "ground ginger",
+    "prep": ""
    }
   ],
   "steps": [
-   "Toast the hazelnuts in a dry pan until golden. Chop roughly.",
-   "Add one orange's zest and juice, the rhubarb in 3cm lengths, the honey and a pinch of each spice.",
-   "Cover and simmer for 5 to 8 minutes, until just soft. Cool a little.",
-   "Fold in the other oranges, peeled and sliced. Serve on yoghurt with the nuts."
+   "Grate the zest of one orange into a medium saucepan and squeeze in its juice. Cut the peel and pith from the second orange, slice into rounds, then quarter each round.",
+   "Add the rhubarb, honey and ginger to the pan. Cover and cook over a medium to low heat for 6 to 8 minutes, stirring gently once, until the rhubarb is soft but still holding its shape.",
+   "Meanwhile, toast the hazelnuts in a dry frying pan for 3 to 4 minutes, shaking the pan, until golden. Roughly chop.",
+   "Take the compote off the heat, fold in the orange pieces and leave to cool for a few minutes.",
+   "Spoon the yoghurt into bowls, top with the warm compote and scatter over the hazelnuts."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The method is 370 characters over 4 steps and runs 1 line past the bottom of the page. Cut about 31 characters."
+   "The method is 145 words and runs 2 lines past the bottom of the page. Cut about 14 words."
   ]
  ],
  "failures": [],

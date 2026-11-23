@@ -26,7 +26,7 @@ Where it suits the dish, favour things a reader could grow in a garden or on a w
 
 {{PANTRY}}
 
-Stock means a home-made or good bought stock. Water is never listed: give its amount in the method.
+Stock means a home-made or good bought stock. Water is listed as an ingredient when the recipe measures it.
 
 ## What counts as too processed
 
@@ -44,29 +44,24 @@ The test is a grandparent's kitchen cupboard. Flour, butter, tinned tomatoes, ti
 
 ## The page
 
-The book is A5 and every recipe sits on one page beside its picture, so the text is tight. A program measures each part against the printed page and rejects anything that overflows, so write to these sizes from the start.
+The book is A5 and every recipe sits on one page under its picture. A program lays each page out and rejects anything that runs off the bottom, so write to these sizes from the start.
 
-- **Title:** what a home cook would call it. No restaurant words, no puns. Sentence case, so a capital on the first word and on proper nouns only. At most {{MAX_TITLE_CHARS}} characters.
-- **Utensils:** the pans and tools as short lower case phrases ("one heavy pan", "a roasting tray"). Joined with commas they fit one line of {{MAX_UTENSILS_CHARS}} characters.
+- **Title:** what a home cook would call it. No restaurant words, no puns. Sentence case, so a capital on the first word and on proper nouns only. It fits one line at about {{TITLE_CHARS}} characters and may take two.
+- **Utensils:** the pans and tools, as short lower case phrases ("large saucepan with a lid", "roasting tray"). Joined with commas they should fit one line of {{UTENSILS_CHARS}} characters.
 - **Time note:** only when something must be done ahead ("oats soaked overnight"). Otherwise leave it empty.
-- **Seasoning:** salt, pepper, herbs, spices and lemon used as a seasoning go in their own list, as lower case names with no quantity ("salt", "thyme"). At most {{MAX_SEASONING}}. Where the amount matters, give it in the method ("2 tsp of the cumin"). Every seasoning listed is used in a step, and a plain "season" covers salt and pepper.
-- **Ingredients:** everything else, at most {{MAX_INGREDIENTS}}, in the order used. Each prints as quantity then name on a narrow column {{INGREDIENT_CHARS}} characters wide ("2 leeks", "250ml whole milk", "2 tins butter beans"), so keep each to one line where you can. Preparation ("sliced", "peeled") goes in the method, not here.
-- **Method:** {{MIN_STEPS}} to {{MAX_STEPS}} short steps. The column is {{METHOD_CHARS}} characters wide and holds about {{METHOD_LINES}} lines in total, counting every step. Each step starts on a new line, so a step that runs a few characters over costs a whole line. In practice that is {{METHOD_TOTAL_CHARS}} characters, or about 55 words, for the whole method: four steps of 60 to 90 characters each is the shape to aim for. That is very little, so choose dishes that come together simply, fold the preparation into the step ("Soften the sliced leeks"), and give one clear cue for doneness where it matters most. Oven temperatures as "200°C (180°C fan)".
+- **Ingredients:** at most {{MAX_INGREDIENTS}}, in the order used. Each prints as quantity, name and then an optional short prep note after a comma: "1 large onion, chopped". The column is {{LIST_CHARS}} characters wide, so a line longer than that wraps.
+- **Seasoning:** salt, pepper, spices and herbs go in their own list under the ingredients, in the same form: "1 tsp salt", "1 tbsp mild curry powder", "black pepper, to taste". At most {{MAX_SEASONING}}. Nothing else goes here.
+- **Ingredients and seasoning share one column** that holds about {{LIST_LINES}} printed lines in total.
+- **Method:** 4 to {{MAX_STEPS}} steps. The column is {{METHOD_CHARS}} characters wide and holds about {{METHOD_LINES}} lines. Aim for {{METHOD_LOW}} to {{METHOD_HIGH}} words for the whole method: more than {{METHOD_MAX}} will not fit, and first drafts usually run long, so count before you answer. Give the oven temperature as "200°C (180°C fan)", and say what done looks like ("until the leeks are soft and sweet").
 
-The three pages below show the length and voice to match.
+This method is the length and voice to match:
 
-Celeriac and apple soup with rye crumbs
-1. Warm the oil in a heavy pan. Soften the sliced leeks with a pinch of salt for 8 minutes.
-2. Add the cubed celeriac and apples, the thyme and 800 ml water. Simmer for 25 minutes, until the celeriac is soft.
-3. Blend with the milk until smooth. Season.
-4. Tear the rye into crumbs, toast in a dry pan until crisp, and scatter over each bowl.
+1. Heat the oil in a large saucepan over a medium heat. Add the onion with a pinch of the salt and cook for 8 minutes, stirring now and then, until soft and turning golden. Chop the parsnips while it cooks.
+2. Stir in the garlic and curry powder and cook for 1 minute, until it smells fragrant.
+3. Add the parsnips, lentils and stock and bring to the boil. Cover and simmer for 20 to 25 minutes, stirring now and then so nothing sticks, until the lentils have collapsed and the parsnips are tender.
+4. Stir in the spinach a handful at a time until it wilts, 1 to 2 minutes. Add a splash of water if the dal is thicker than you like.
+5. Squeeze in the lemon juice, then season with the rest of the salt and plenty of black pepper. Ladle into bowls and top each with a spoonful of yoghurt.
 
-Smashed broad beans, peas and ricotta on sourdough
-1. Pod the broad beans and peas. Blanch the beans for 2 minutes, add the peas for the last 30 seconds, then cool in cold water.
-2. Slip the broad beans out of their grey skins.
-3. Crush beans and peas roughly with oil, lemon zest and juice, torn mint and salt.
-4. Toast the sourdough. Spread with ricotta, pile on the smash and finish with oil.
-
-These are examples of size and tone, not templates. Vary the way dishes come together, the flavours and the shape of the titles from page to page, so the book feels like one book without its pages reading as copies of each other.
+That is an example of size and tone, not a template. Vary the way dishes come together, the flavours and the shape of the titles from page to page, so the book feels like one book without its pages reading as copies of each other.
 
 Write in British English, in a plain and friendly voice, the way a good cook would explain it to a neighbour. Don't use dashes to join clauses or to set off an aside: use a full stop or a comma. Write ranges with "to" (10 to 12 minutes).

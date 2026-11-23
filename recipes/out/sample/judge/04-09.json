@@ -1,43 +1,43 @@
 {
  "day": 99,
- "title": "Apple and rhubarb pots with honey nuts",
+ "title": "Bramley and rhubarb pots with almond crunch",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Apples, rhubarb, orange, sugar, butter, nuts, honey and natural yoghurt are all plain kitchen staples."
+   "reason": "Apples, rhubarb, orange, honey, butter, nuts, seeds and natural yoghurt are all plain kitchen staples with nothing factory-made."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every item is a routine Tesco buy, and 75g each of almonds and hazelnuts is an everyday cost."
+   "reason": "Bramleys, rhubarb, almonds, pumpkin seeds and natural yoghurt are everyday Tesco items at ordinary prices."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a pan, a frying pan, a knife and bowls, and simmering and toasting are beginner techniques."
+   "reason": "It needs only a saucepan, a small frying pan and glasses, using simple stewing and toasting."
   },
   "works": {
    "pass": true,
-   "reason": "Three Bramleys and 300g rhubarb stewed in orange juice with 5 tbsp sugar will collapse into a sharp-sweet compote that fills four pots with 400g yoghurt and toasted nuts."
+   "reason": "Bramleys collapse readily in 8 to 10 minutes covered with the orange juice, and 800g fruit with 400g yoghurt makes four generous snack pots."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Twenty minutes covers peeling and chopping the fruit, zesting the orange, chopping and toasting the nuts and layering, and 30 cook minutes fits the simmer plus cooling."
+   "reason": "Twenty minutes covers peeling and coring the apples, chopping and toasting, and the 40 cook minutes matches 10 minutes stewing plus 30 minutes cooling."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and the cinnamon are used in the steps, and nothing unlisted appears."
+   "reason": "Every listed ingredient and the cinnamon appear in the steps, names match their ids, and nothing unlisted is used."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Stored Bramleys with early forced rhubarb is a natural April pairing, and the apples are the bulk of the dish."
+   "reason": "Stored Bramleys with early garden rhubarb suit early April, and the apple is clearly the bulk and point of the pot."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, plain British instructions a neighbour would give."
+   "reason": "Clear, homely British instructions a beginner could follow without any restaurant language."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Fruit, yoghurt and nuts make a satisfying snack, and the sugar and honey are moderate when shared across four."
+   "reason": "Fruit, yoghurt, nuts and seeds with modest honey make a real-food snack a family would happily eat."
   }
  }
 }

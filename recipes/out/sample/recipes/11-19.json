@@ -17,71 +17,96 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Apple bircher with grapes and hazelnuts",
+  "title": "Apple and grape bircher with hazelnuts",
   "meal": "breakfast",
   "dish_form": "bircher",
   "diet": "vegan",
   "gluten_free": false,
   "kit": "no_cook",
   "utensils": [
-   "a large bowl",
-   "a grater"
+   "large bowl",
+   "grater",
+   "knife and board"
   ],
-  "prep_minutes": 10,
+  "prep_minutes": 15,
   "cook_minutes": 480,
   "time_note": "oats soaked overnight",
   "best_time": "morning",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "cinnamon",
-    "name": "cinnamon"
-   },
-   {
-    "id": "lemons",
-    "name": "lemon"
-   }
-  ],
   "ingredients": [
    {
-    "id": "apples",
+    "id": "oranges",
     "quantity": "2",
-    "name": "apples"
+    "name": "oranges",
+    "prep": "juiced"
    },
    {
     "id": "oats",
     "quantity": "200g",
-    "name": "porridge oats"
+    "name": "porridge oats",
+    "prep": ""
+   },
+   {
+    "id": "water",
+    "quantity": "300ml",
+    "name": "water",
+    "prep": ""
    },
    {
     "id": "raisins",
-    "quantity": "50g",
-    "name": "raisins"
+    "quantity": "2 tbsp",
+    "name": "raisins",
+    "prep": ""
+   },
+   {
+    "id": "apples",
+    "quantity": "2",
+    "name": "eating apples",
+    "prep": ""
    },
    {
     "id": "grapes",
     "quantity": "300g",
-    "name": "red grapes"
+    "name": "red grapes",
+    "prep": "halved"
    },
    {
     "id": "hazelnuts",
     "quantity": "50g",
-    "name": "hazelnuts"
+    "name": "hazelnuts",
+    "prep": "chopped"
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "2 tbsp",
+    "name": "pumpkin seeds",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "quantity": "1 tsp",
+    "name": "ground cinnamon",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "quantity": "a pinch",
+    "name": "salt",
+    "prep": ""
    }
   ],
   "steps": [
-   "The night before, grate the apples, skin and all, into a bowl with the lemon juice.",
-   "Stir in the oats, raisins, a pinch of cinnamon and 500ml cold water. Cover and chill overnight.",
-   "In the morning, loosen with a splash of water if thick.",
-   "Spoon into bowls and top with the halved grapes and chopped hazelnuts."
+   "The night before, squeeze the juice from the oranges into a large bowl. Stir in the oats, water, raisins, cinnamon and salt.",
+   "Coarsely grate the apples, skin and all, straight into the bowl. Stir well so the apple is coated in juice and stays pale. Cover and chill overnight, or for at least 6 hours.",
+   "In the morning, halve the grapes and roughly chop the hazelnuts.",
+   "Give the oats a good stir. They should be soft and creamy. Add a splash of water if they are thicker than you like.",
+   "Fold in half the grapes, then spoon into bowls. Scatter over the rest of the grapes, the hazelnuts and the pumpkin seeds, and eat straight away."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 352 characters over 4 steps and runs 1 line past the bottom of the page. Cut about 31 characters."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

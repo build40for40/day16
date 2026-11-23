@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Kippers, butter, crème fraîche, horseradish sauce, oranges and bread are all traditional household foods, with no factory-made products beyond a classic condiment."
+   "reason": "Kippers, oranges, butter, crème fraîche, horseradish, capers and bread are all ordinary larder and fridge foods."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Kipper fillets, oranges and the rest are everyday items at Tesco and similar shops, at ordinary prices."
+   "reason": "Kipper fillets, oranges, crème fraîche and capers are everyday items at Tesco and similar shops."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a bowl, a fork and a frying pan, and soaking, flaking and mashing are simple techniques."
+   "reason": "Only a kettle, bowls, a fork, a knife, a grater and a toaster are needed, and the technique is simple."
   },
   "works": {
    "pass": true,
-   "reason": "Soaking the kippers in boiling water, mashing them into a pâté and toasting the bread gives a well-seasoned, generous snack for four, with peppery horseradish balancing the smoky fish and orange."
+   "reason": "Softening 200g kippers in boiling water and mashing them with butter, crème fraîche and horseradish makes enough well-balanced pâté for eight slices of toast for four people."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Fifteen minutes is realistic for flaking, mashing, peeling the oranges and toasting, and the 5-minute cook matches the kipper soak."
+   "reason": "Fifteen minutes is realistic for segmenting oranges, skinning and flaking the fish, mashing and toasting, and the five-minute soak matches the cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and the pepper are used in the steps, the names match their ids, and nothing unlisted appears apart from water."
+   "reason": "Every listed ingredient and seasoning is used in the steps, and nothing unlisted appears apart from the boiling water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "February oranges appear as zest through the pâté and as a full topping of two sliced oranges, so they are a co-star rather than a garnish in a warming winter snack."
+   "reason": "Orange zest flavours the pâté and orange slices top each toast, a bright February pairing with smoky kippers."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, plain British English that a beginner could follow."
+   "reason": "The steps are clear, homely British English with no restaurant jargon or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Oily fish on wholemeal toast with fresh fruit is a proper, nourishing snack a family would happily make again."
+   "reason": "Oily fish on wholemeal toast with fresh fruit is a satisfying, nourishing snack."
   }
  }
 }

@@ -1,43 +1,43 @@
 {
  "day": 323,
- "title": "Apple bircher with grapes and hazelnuts",
+ "title": "Apple and grape bircher with hazelnuts",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Oats, apples, raisins, grapes, hazelnuts, lemon and cinnamon are all plain kitchen staples with nothing factory-made."
+   "reason": "Everything is a whole food: oats, fresh fruit, raisins, nuts, seeds and cinnamon, with no jars, packet mixes or plant milks."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every item is an everyday line at Tesco at a normal price."
+   "reason": "Oats, grapes, apples, oranges, hazelnuts and pumpkin seeds are all everyday items at Tesco."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a bowl, a grater and a knife, with simple grating, stirring and chopping."
+   "reason": "It needs only a bowl, a grater and a knife and board, and the technique is simple stirring and grating."
   },
   "works": {
    "pass": true,
-   "reason": "200g oats soaked in 500ml water with two grated apples gives a sensible set bircher for four, and the morning loosening step covers any thickness."
+   "reason": "The juice of two oranges plus 300ml water to 200g oats is a sensible soaking ratio, and with apple, grapes and nuts it gives four good bowls."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Grating two apples, squeezing a lemon, halving 300g grapes and chopping hazelnuts fits roughly ten minutes, and the 480 minutes is clearly the unattended overnight soak."
+   "reason": "About 15 minutes of active work covers juicing, grating, halving 300g of grapes and chopping nuts, and the 480 minutes is an unattended overnight soak as noted."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the lemon and cinnamon, is used in the steps, the names match their ids, and only water is added."
+   "reason": "Every listed ingredient and seasoning is used in the steps, the names match their ids, and nothing extra appears beyond a splash of water."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "At 300g for four, the grapes are a generous fruit topping rather than a garnish, and an overnight bircher with autumn apples suits a quick November breakfast."
+   "reason": "Grapes are a main part of the dish, both folded through and scattered on top, alongside November apples, and a bircher is a reasonable autumn breakfast."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps read plainly in British English and a beginner could follow them."
+   "reason": "The steps are clear, friendly British English, with no restaurant language or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Whole oats, fresh fruit and nuts make a filling, real-food breakfast that a family would happily eat again."
+   "reason": "Oats, fresh fruit, nuts and seeds make a filling, wholesome breakfast that a family would happily eat."
   }
  }
 }

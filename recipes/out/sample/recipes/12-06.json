@@ -17,88 +17,105 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Kale, apple and carrot slaw with toasted seeds",
+  "title": "Kale and apple slaw with pumpkin seeds",
   "meal": "snack",
   "dish_form": "slaw",
   "diet": "vegetarian",
   "gluten_free": true,
-  "kit": "hob",
+  "kit": "no_cook",
   "utensils": [
-   "a frying pan",
-   "a large bowl",
-   "a grater"
+   "large bowl",
+   "small bowl",
+   "grater",
+   "whisk"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 5,
+  "cook_minutes": 10,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   },
-   {
-    "id": "lemons",
-    "name": "lemon"
-   }
-  ],
   "ingredients": [
-   {
-    "id": "pumpkin-seeds",
-    "quantity": "4 tbsp",
-    "name": "pumpkin seeds"
-   },
-   {
-    "id": "sunflower-seeds",
-    "quantity": "2 tbsp",
-    "name": "sunflower seeds"
-   },
    {
     "id": "kale",
     "quantity": "200g",
-    "name": "kale"
+    "name": "kale",
+    "prep": "shredded"
    },
    {
-    "id": "olive-oil",
-    "quantity": "1 tbsp",
-    "name": "olive oil"
+    "id": "lemons",
+    "quantity": "1",
+    "name": "lemon",
+    "prep": "juiced"
    },
    {
     "id": "carrots",
     "quantity": "2",
-    "name": "carrots"
+    "name": "carrots",
+    "prep": "grated"
+   },
+   {
+    "id": "red-cabbage",
+    "quantity": "200g",
+    "name": "red cabbage",
+    "prep": "shredded"
    },
    {
     "id": "apples",
     "quantity": "2",
-    "name": "eating apples"
+    "name": "apples",
+    "prep": ""
    },
    {
-    "id": "natural-yoghurt",
-    "quantity": "4 tbsp",
-    "name": "natural yoghurt"
-   },
-   {
-    "id": "wholegrain-mustard",
-    "quantity": "1 tsp",
-    "name": "wholegrain mustard"
+    "id": "olive-oil",
+    "quantity": "3 tbsp",
+    "name": "olive oil",
+    "prep": ""
    },
    {
     "id": "honey",
     "quantity": "1 tsp",
-    "name": "honey"
+    "name": "honey",
+    "prep": ""
+   },
+   {
+    "id": "dijon-mustard",
+    "quantity": "1 tsp",
+    "name": "Dijon mustard",
+    "prep": ""
+   },
+   {
+    "id": "raisins",
+    "quantity": "40g",
+    "name": "raisins",
+    "prep": ""
+   },
+   {
+    "id": "pumpkin-seeds",
+    "quantity": "40g",
+    "name": "pumpkin seeds",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "salt",
+    "quantity": "½ tsp",
+    "name": "salt",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
    }
   ],
   "steps": [
-   "Toast the seeds in a dry pan until they start to pop. Tip out to cool.",
-   "Strip the kale from its stalks, shred finely and rub with the oil and a pinch of salt until it softens.",
-   "Grate in the carrots and apples, skins and all.",
-   "Mix the yoghurt, mustard, honey and juice of half the lemon. Season, toss through and scatter with the seeds."
+   "Strip the kale from its stalks and shred finely. Put it in a large bowl with half the lemon juice and the salt, then scrunch with your hands for 2 minutes until dark and soft.",
+   "Grate the carrots and shred the cabbage finely. Core the apples, cut them into thin matchsticks and toss in the rest of the lemon juice so they stay pale.",
+   "Whisk the oil, honey and mustard in a small bowl with plenty of black pepper.",
+   "Add the carrots, cabbage, apples and raisins to the kale, pour over the dressing and toss well. Leave for 10 minutes to settle.",
+   "Scatter over the pumpkin seeds and serve in small bowls. The slaw keeps in the fridge for a day, so add the seeds to each serving."
   ]
  },
  "attempts": 1,

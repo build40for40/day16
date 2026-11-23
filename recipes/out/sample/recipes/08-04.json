@@ -17,77 +17,97 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Grape and plum crumble",
+  "title": "Grape and blackberry oat crumble",
   "meal": "snack",
   "dish_form": "crumble",
   "diet": "vegan",
   "gluten_free": false,
   "kit": "oven",
   "utensils": [
-   "a baking dish",
-   "a mixing bowl"
+   "medium baking dish",
+   "mixing bowl"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 35,
+  "cook_minutes": 40,
   "time_note": "",
   "best_time": "afternoon",
-  "freezes": false,
-  "seasoning": [
-   {
-    "id": "cinnamon",
-    "name": "cinnamon"
-   },
-   {
-    "id": "lemons",
-    "name": "lemon"
-   }
-  ],
+  "freezes": true,
   "ingredients": [
    {
     "id": "grapes",
     "quantity": "400g",
-    "name": "red grapes"
+    "name": "red seedless grapes",
+    "prep": ""
    },
    {
-    "id": "plums",
-    "quantity": "4",
-    "name": "plums"
+    "id": "blackberries",
+    "quantity": "200g",
+    "name": "blackberries",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "quantity": "½",
+    "name": "lemon",
+    "prep": "juiced"
    },
    {
     "id": "cornflour",
     "quantity": "1 tbsp",
-    "name": "cornflour"
-   },
-   {
-    "id": "plain-flour",
-    "quantity": "100g",
-    "name": "plain flour"
+    "name": "cornflour",
+    "prep": ""
    },
    {
     "id": "oats",
     "quantity": "75g",
-    "name": "porridge oats"
+    "name": "porridge oats",
+    "prep": ""
    },
    {
-    "id": "brown-sugar",
-    "quantity": "50g",
-    "name": "soft brown sugar"
+    "id": "wholemeal-flour",
+    "quantity": "75g",
+    "name": "wholemeal flour",
+    "prep": ""
    },
    {
     "id": "almonds",
-    "quantity": "50g",
-    "name": "almonds"
+    "quantity": "30g",
+    "name": "almonds",
+    "prep": "chopped"
+   },
+   {
+    "id": "brown-sugar",
+    "quantity": "40g",
+    "name": "soft brown sugar",
+    "prep": ""
    },
    {
     "id": "rapeseed-oil",
-    "quantity": "5 tbsp",
-    "name": "rapeseed oil"
+    "quantity": "4 tbsp",
+    "name": "rapeseed oil",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "cinnamon",
+    "quantity": "1 tsp",
+    "name": "cinnamon",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "quantity": "a pinch",
+    "name": "salt",
+    "prep": ""
    }
   ],
   "steps": [
-   "Heat the oven to 190°C (170°C fan). In a baking dish, toss the grapes and quartered plums with the cornflour, lemon zest and half the cinnamon.",
-   "Rub the flour, oats, sugar, chopped almonds and remaining cinnamon with the oil until clumpy.",
-   "Scatter over the fruit. Bake for 30 to 35 minutes, until golden and bubbling at the edges."
+   "Heat the oven to 190°C (170°C fan). Halve the grapes and tip them into a medium baking dish with the blackberries.",
+   "Squeeze over the lemon juice, sprinkle on the cornflour and half the cinnamon, and toss until the fruit is lightly coated.",
+   "In a bowl, mix the oats, flour, almonds, sugar, the rest of the cinnamon and the salt. Pour in the oil and rub it through with your fingertips until the mix clumps into rough crumbs.",
+   "Scatter the crumble evenly over the fruit without pressing it down.",
+   "Bake for 25 to 30 minutes, until the topping is golden and crisp and purple juice bubbles up at the edges. Leave to cool for 10 minutes before spooning into bowls. It is just as good cold the next day."
   ]
  },
  "attempts": 1,

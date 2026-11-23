@@ -17,98 +17,123 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Smashed cucumber salad with roast chicken",
+  "title": "Roast chicken, cucumber and new potato salad",
   "meal": "dinner",
   "dish_form": "big salad",
   "diet": "meat",
   "gluten_free": true,
   "kit": "oven",
   "utensils": [
-   "a roasting tray",
-   "a large bowl",
-   "a grater"
+   "large roasting tray",
+   "mixing bowl",
+   "small bowl",
+   "large platter"
   ],
   "prep_minutes": 25,
-  "cook_minutes": 80,
+  "cook_minutes": 90,
   "time_note": "",
   "best_time": "evening",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   },
-   {
-    "id": "mint",
-    "name": "mint"
-   },
-   {
-    "id": "lemons",
-    "name": "lemon"
-   }
-  ],
   "ingredients": [
    {
     "id": "whole-chicken",
     "quantity": "1.5kg",
-    "name": "whole chicken"
+    "name": "whole chicken",
+    "prep": ""
    },
    {
     "id": "olive-oil",
     "quantity": "2 tbsp",
-    "name": "olive oil"
+    "name": "olive oil",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "quantity": "1",
+    "name": "lemon",
+    "prep": "halved"
    },
    {
     "id": "new-potatoes",
     "quantity": "750g",
-    "name": "new potatoes"
+    "name": "new potatoes",
+    "prep": "halved"
+   },
+   {
+    "id": "natural-yoghurt",
+    "quantity": "150g",
+    "name": "natural yoghurt",
+    "prep": ""
+   },
+   {
+    "id": "garlic",
+    "quantity": "1",
+    "name": "garlic clove",
+    "prep": "grated"
    },
    {
     "id": "cucumber",
-    "quantity": "3",
-    "name": "cucumbers"
-   },
-   {
-    "id": "cider-vinegar",
-    "quantity": "1 tbsp",
-    "name": "cider vinegar"
+    "quantity": "1",
+    "name": "cucumber",
+    "prep": "sliced"
    },
    {
     "id": "radishes",
-    "quantity": "150g",
-    "name": "radishes"
+    "quantity": "200g",
+    "name": "radishes",
+    "prep": "sliced"
    },
    {
     "id": "spring-onions",
     "quantity": "4",
-    "name": "spring onions"
+    "name": "spring onions",
+    "prep": "sliced"
    },
    {
-    "id": "natural-yoghurt",
-    "quantity": "200g",
-    "name": "natural yoghurt"
+    "id": "lettuce",
+    "quantity": "2",
+    "name": "little gem lettuces",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "salt",
+    "quantity": "1 tsp",
+    "name": "salt",
+    "prep": ""
    },
    {
-    "id": "garlic",
-    "quantity": "1 clove",
-    "name": "garlic"
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
+   },
+   {
+    "id": "mint",
+    "quantity": "15g",
+    "name": "mint",
+    "prep": "chopped"
+   },
+   {
+    "id": "dill",
+    "quantity": "15g",
+    "name": "dill",
+    "prep": "chopped"
    }
   ],
   "steps": [
-   "Oil and season the chicken. Roast at 200°C (180°C fan) for 30 minutes.",
-   "Add the halved potatoes. Roast 50 minutes more, until the juices run clear.",
-   "Bash 2 cucumbers into chunks. Toss with salt, vinegar, sliced radishes and onions.",
-   "Grate the last cucumber into the yoghurt with crushed garlic, mint and lemon. Serve with the chicken."
+   "Heat the oven to 200°C (180°C fan). Rub the chicken with half the oil and half the salt, push a lemon half inside and roast in a large tray for 30 minutes.",
+   "Toss the potatoes in the remaining oil and tuck them around the chicken. Roast for 50 minutes more, until golden and the chicken juices run clear. Rest for 10 minutes.",
+   "Meanwhile, mix the yoghurt, garlic, juice of the other lemon half and half the herbs. Toss the cucumber, radishes and spring onions with the remaining salt.",
+   "Tear the lettuce onto a platter and add the cucumber and potatoes. Pull the chicken into pieces, scatter it over and spoon on the tray juices.",
+   "Drizzle with the dressing and finish with the remaining herbs and plenty of black pepper."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The method is 448 characters over 5 steps and runs 5 lines past the bottom of the page. Cut about 155 characters."
+   "The method is 145 words and runs 1 lines past the bottom of the page. Cut about 7 words."
   ]
  ],
  "failures": [],

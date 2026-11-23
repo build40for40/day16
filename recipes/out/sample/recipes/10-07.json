@@ -17,98 +17,123 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Parsnip and red lentil dal with spinach",
+  "title": "Parsnip and puy lentil pot with cavolo nero",
   "meal": "lunch",
-  "dish_form": "dal",
+  "dish_form": "lentil pot",
   "diet": "vegetarian",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "one large pan"
+   "large saucepan with a lid",
+   "grater"
   ],
   "prep_minutes": 15,
-  "cook_minutes": 30,
+  "cook_minutes": 35,
   "time_note": "",
   "best_time": "midday",
   "freezes": true,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "curry-powder",
-    "name": "curry powder"
-   },
-   {
-    "id": "cumin",
-    "name": "cumin"
-   },
-   {
-    "id": "lemons",
-    "name": "lemon"
-   },
-   {
-    "id": "coriander",
-    "name": "coriander"
-   }
-  ],
   "ingredients": [
    {
-    "id": "rapeseed-oil",
-    "quantity": "1 tbsp",
-    "name": "rapeseed oil"
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil",
+    "prep": ""
    },
    {
-    "id": "onions",
-    "quantity": "1",
-    "name": "onion"
+    "id": "leeks",
+    "quantity": "2",
+    "name": "leeks",
+    "prep": "sliced"
    },
    {
     "id": "garlic",
-    "quantity": "2 cloves",
-    "name": "garlic"
+    "quantity": "2",
+    "name": "garlic cloves",
+    "prep": "grated"
    },
    {
     "id": "parsnips",
     "quantity": "500g",
-    "name": "parsnips"
+    "name": "parsnips",
+    "prep": "chopped"
    },
    {
-    "id": "red-lentils",
-    "quantity": "250g",
-    "name": "red lentils"
-   },
-   {
-    "id": "chopped-tomatoes",
-    "quantity": "1 tin",
-    "name": "chopped tomatoes"
+    "id": "puy-lentils",
+    "quantity": "200g",
+    "name": "puy lentils",
+    "prep": ""
    },
    {
     "id": "vegetable-stock",
     "quantity": "900ml",
-    "name": "vegetable stock"
+    "name": "vegetable stock",
+    "prep": ""
    },
    {
-    "id": "spinach",
-    "quantity": "200g",
-    "name": "spinach"
+    "id": "cavolo-nero",
+    "quantity": "150g",
+    "name": "cavolo nero",
+    "prep": "shredded"
    },
    {
-    "id": "natural-yoghurt",
+    "id": "wholegrain-mustard",
+    "quantity": "1 tbsp",
+    "name": "wholegrain mustard",
+    "prep": ""
+   },
+   {
+    "id": "creme-fraiche",
     "quantity": "4 tbsp",
-    "name": "natural yoghurt"
+    "name": "crème fraîche",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "quantity": "1/2",
+    "name": "lemon",
+    "prep": "juiced"
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "thyme",
+    "quantity": "4",
+    "name": "sprigs fresh thyme",
+    "prep": ""
+   },
+   {
+    "id": "bay",
+    "quantity": "2",
+    "name": "bay leaves",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "quantity": "1 tsp",
+    "name": "salt",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
    }
   ],
   "steps": [
-   "Soften the chopped onion and garlic in the oil in a large pan for 5 minutes.",
-   "Stir in 2 tbsp curry powder and 1 tsp cumin, then the diced parsnips, lentils, tomatoes and stock.",
-   "Simmer for 25 minutes, stirring now and then, until the parsnips are tender.",
-   "Wilt in the spinach. Season, add a squeeze of lemon and top with yoghurt and coriander."
+   "Heat the oil in a large saucepan over a medium heat. Add the leeks with a pinch of the salt and cook for 6 minutes, until soft. Peel and chop the parsnips meanwhile.",
+   "Stir in the garlic and thyme leaves for 1 minute, then add the parsnips, lentils, bay leaves and stock.",
+   "Bring to the boil, cover and simmer for 25 minutes, until the lentils are tender but hold their shape and the parsnips are soft.",
+   "Stir in the cavolo nero and cook uncovered for 5 minutes, until tender. Add a splash of water if it looks dry.",
+   "Off the heat, lift out the bay leaves and stir in the mustard, crème fraîche and lemon juice. Season with the rest of the salt and plenty of black pepper, then ladle into bowls."
   ]
  },
- "attempts": 1,
- "rejections": [],
+ "attempts": 2,
+ "rejections": [
+  [
+   "The method is 149 words and runs 1 lines past the bottom of the page. Cut about 7 words."
+  ]
+ ],
  "failures": [],
  "model": "claude-opus-5-5"
 }

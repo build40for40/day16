@@ -17,86 +17,104 @@
   "pace": "quick"
  },
  "recipe": {
-  "title": "Smoked mackerel on toast with quick pickled plums",
+  "title": "Smoked mackerel toast with warm plums",
   "meal": "breakfast",
   "dish_form": "toast",
   "diet": "fish",
   "gluten_free": false,
-  "kit": "oven",
+  "kit": "hob",
   "utensils": [
-   "two mixing bowls",
-   "a toaster or grill"
+   "small saucepan",
+   "mixing bowl",
+   "fork"
   ],
-  "prep_minutes": 12,
+  "prep_minutes": 15,
   "cook_minutes": 10,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   },
-   {
-    "id": "lemons",
-    "name": "lemon"
-   },
-   {
-    "id": "chives",
-    "name": "chives"
-   }
-  ],
   "ingredients": [
    {
     "id": "plums",
-    "quantity": "4",
-    "name": "ripe plums"
-   },
-   {
-    "id": "cider-vinegar",
-    "quantity": "2 tbsp",
-    "name": "cider vinegar"
+    "quantity": "6",
+    "name": "plums",
+    "prep": "stoned and quartered"
    },
    {
     "id": "honey",
-    "quantity": "1 tsp",
-    "name": "honey"
+    "quantity": "1 tbsp",
+    "name": "honey",
+    "prep": ""
    },
    {
-    "id": "creme-fraiche",
-    "quantity": "150g",
-    "name": "crème fraîche"
+    "id": "cider-vinegar",
+    "quantity": "1 tbsp",
+    "name": "cider vinegar",
+    "prep": ""
    },
    {
-    "id": "horseradish",
-    "quantity": "2 tsp",
-    "name": "horseradish sauce"
-   },
-   {
-    "id": "bread",
-    "quantity": "4 thick slices",
-    "name": "wholemeal bread"
+    "id": "water",
+    "quantity": "2 tbsp",
+    "name": "water",
+    "prep": ""
    },
    {
     "id": "smoked-mackerel",
     "quantity": "250g",
-    "name": "smoked mackerel"
+    "name": "smoked mackerel",
+    "prep": "skinned"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "150g",
+    "name": "crème fraîche",
+    "prep": ""
+   },
+   {
+    "id": "horseradish",
+    "quantity": "1 tbsp",
+    "name": "horseradish sauce",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "quantity": "½",
+    "name": "lemon",
+    "prep": "juiced"
+   },
+   {
+    "id": "bread",
+    "quantity": "8 slices",
+    "name": "wholemeal bread",
+    "prep": ""
    },
    {
     "id": "watercress",
-    "quantity": "1 bag",
-    "name": "watercress"
+    "quantity": "80g",
+    "name": "watercress",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "chives",
+    "quantity": "1 small bunch",
+    "name": "chives",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
    }
   ],
   "steps": [
-   "Stir the sliced plums with the vinegar, honey and a pinch of salt. Leave for 10 minutes.",
-   "Mix the crème fraîche with the horseradish, lemon zest and snipped chives.",
-   "Toast the bread. Spread with the crème fraîche and flake over the skinned mackerel.",
-   "Top with the plums and watercress and finish with black pepper."
+   "Put the plums in a small saucepan with the honey, vinegar and water. Cook over a medium heat for 8 to 10 minutes, stirring now and then, until the plums are soft and jammy but still hold their shape.",
+   "Meanwhile, flake the mackerel into a bowl, picking out any bones as you go.",
+   "Add the crème fraîche, horseradish and lemon juice and mash with a fork until spreadable but still a little chunky. Snip in most of the chives and season with plenty of black pepper.",
+   "Toast the bread. Spread each slice thickly with the mackerel, then top with a few sprigs of watercress.",
+   "Spoon over the warm plums and their juices, scatter with the rest of the chives and eat straight away."
   ]
  },
  "attempts": 1,

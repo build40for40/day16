@@ -5,39 +5,39 @@
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Everything is a plain whole food or cupboard staple, and curry powder, tinned tomatoes and frozen peas are all things a grandparent would keep."
+   "reason": "Everything is plain fresh food or ordinary cupboard staples such as curry powder, tinned tomatoes and stock."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Beef mince, white cabbage, potatoes, peas, yoghurt and curry powder are everyday Tesco items at ordinary prices."
+   "reason": "Every ingredient, including the cavolo nero, is an everyday item at Tesco."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only one casserole, a knife and a board, with simple softening, browning and simmering."
+   "reason": "It needs only a lidded casserole and a wooden spoon, and the technique is simple frying and simmering."
   },
   "works": {
    "pass": true,
-   "reason": "500g mince, 500g potatoes, half a cabbage and peas make a generous four portions, and a tin of tomatoes plus 300ml water suits a 20-minute covered simmer before the cabbage goes in."
+   "reason": "500g mince, 400g potatoes and half a cabbage make a sensible amount for four, and the liquid, seasoning and simmer times should give a tender, well-flavoured keema."
   },
   "honest_times": {
    "pass": true,
-   "reason": "25 minutes covers slicing onions, cubing potatoes, shredding cabbage and the softening and browning, and 20 plus 10 minutes of simmering matches the 30 cook minutes."
+   "reason": "About 12 minutes of chopping plus 14 minutes of browning fits the 25 minutes of prep, and 15 plus 12 plus 3 minutes of simmering matches the 30 minutes of cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning, including the lemon from the March fresh list, is used in the steps, and nothing unlisted appears apart from water."
+   "reason": "Every listed ingredient and seasoning is used in the steps, nothing unlisted appears, and every name matches its id."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "A warming one-pot curry suits early March, and half a white cabbage is a main component named in the title rather than a garnish."
+   "reason": "Half a white cabbage is central to a warming March curry and is named in the title."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, plain British English that a beginner could follow."
+   "reason": "The steps are clear, plain British English with useful cues such as browned, fragrant and tender."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "It is a filling family meal of beef, potatoes, cabbage and peas with a yoghurt topping, with plenty of vegetables and protein."
+   "reason": "It is a filling family dinner of mince, potatoes and plenty of greens."
   }
  }
 }

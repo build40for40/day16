@@ -22,68 +22,88 @@
   "dish_form": "pâté on toast",
   "diet": "fish",
   "gluten_free": false,
-  "kit": "hob",
+  "kit": "no_cook",
   "utensils": [
-   "a heatproof bowl",
-   "a fork",
-   "a frying pan"
+   "heatproof bowl",
+   "mixing bowl",
+   "fork",
+   "sharp knife",
+   "grater",
+   "toaster"
   ],
   "prep_minutes": 15,
   "cook_minutes": 5,
   "time_note": "",
   "best_time": "afternoon",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   }
-  ],
   "ingredients": [
    {
     "id": "kippers",
-    "quantity": "300g",
-    "name": "kipper fillets"
-   },
-   {
-    "id": "butter",
-    "quantity": "50g",
-    "name": "soft butter"
-   },
-   {
-    "id": "creme-fraiche",
-    "quantity": "3 tbsp",
-    "name": "crème fraîche"
-   },
-   {
-    "id": "horseradish",
-    "quantity": "1 tsp",
-    "name": "horseradish sauce"
+    "quantity": "200g",
+    "name": "kipper fillets",
+    "prep": ""
    },
    {
     "id": "oranges",
     "quantity": "2",
-    "name": "oranges"
+    "name": "oranges",
+    "prep": ""
+   },
+   {
+    "id": "butter",
+    "quantity": "25g",
+    "name": "butter",
+    "prep": "softened"
+   },
+   {
+    "id": "creme-fraiche",
+    "quantity": "100g",
+    "name": "crème fraîche",
+    "prep": ""
+   },
+   {
+    "id": "horseradish",
+    "quantity": "1 tsp",
+    "name": "horseradish sauce",
+    "prep": ""
    },
    {
     "id": "bread",
-    "quantity": "4 slices",
-    "name": "wholemeal bread"
+    "quantity": "8 slices",
+    "name": "wholemeal bread",
+    "prep": ""
+   },
+   {
+    "id": "capers",
+    "quantity": "1 tbsp",
+    "name": "capers",
+    "prep": "drained"
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "paprika",
+    "quantity": "2 pinches",
+    "name": "paprika",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
    }
   ],
   "steps": [
-   "Cover the kippers with boiling water for 5 minutes. Drain and flake, dropping skin and bones.",
-   "Mash with the butter, crème fraîche, horseradish, zest of one orange and plenty of pepper.",
-   "Peel and slice both oranges. Toast the bread in a dry pan.",
-   "Spread the toast with pâté and top with orange slices."
+   "Put the kippers in a heatproof bowl, cover with boiling water from the kettle and leave for 5 minutes to warm through and soften.",
+   "Meanwhile, finely grate the zest of one orange. Cut the peel and pith off both oranges with a sharp knife, then slice them into thin rounds.",
+   "Drain the kippers and pat dry. Peel off the skin, pick out any bones you can see and flake the flesh into a mixing bowl.",
+   "Add the butter, crème fraîche, horseradish, orange zest and a pinch of paprika. Squeeze in any juice from the orange trimmings and mash with a fork until fairly smooth but still a little rough. Season with black pepper.",
+   "Toast the bread. Spread thickly with the pâté, top with the orange slices and a few capers, and finish with the rest of the paprika."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 356 characters over 4 steps and runs 1 line past the bottom of the page. Cut about 31 characters."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }

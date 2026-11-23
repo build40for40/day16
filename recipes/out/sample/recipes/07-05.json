@@ -17,96 +17,134 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Smoky turkey and pepper pan fry with rice",
+  "title": "Smoky turkey and peppers with rice",
   "meal": "dinner",
   "dish_form": "pan fry with rice",
   "diet": "meat",
   "gluten_free": true,
   "kit": "hob",
   "utensils": [
-   "a large frying pan",
-   "a saucepan with a lid"
+   "large frying pan",
+   "saucepan with a lid",
+   "grater"
   ],
-  "prep_minutes": 25,
-  "cook_minutes": 10,
+  "prep_minutes": 30,
+  "cook_minutes": 15,
   "time_note": "",
   "best_time": "evening",
-  "freezes": true,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   },
-   {
-    "id": "smoked-paprika",
-    "name": "smoked paprika"
-   },
-   {
-    "id": "cumin",
-    "name": "cumin"
-   },
-   {
-    "id": "parsley",
-    "name": "parsley"
-   }
-  ],
+  "freezes": false,
   "ingredients": [
    {
     "id": "long-grain-rice",
     "quantity": "300g",
-    "name": "basmati rice"
+    "name": "basmati rice",
+    "prep": "rinsed"
+   },
+   {
+    "id": "water",
+    "quantity": "600ml",
+    "name": "water",
+    "prep": ""
    },
    {
     "id": "olive-oil",
     "quantity": "1 tbsp",
-    "name": "olive oil"
+    "name": "olive oil",
+    "prep": ""
    },
    {
     "id": "turkey-mince",
     "quantity": "500g",
-    "name": "turkey mince"
+    "name": "turkey mince",
+    "prep": ""
    },
    {
-    "id": "red-onions",
+    "id": "onions",
     "quantity": "1",
-    "name": "red onion"
+    "name": "onion",
+    "prep": "sliced"
    },
    {
     "id": "peppers",
     "quantity": "3",
-    "name": "peppers"
+    "name": "peppers",
+    "prep": "sliced"
    },
    {
     "id": "garlic",
-    "quantity": "2 cloves",
-    "name": "garlic"
+    "quantity": "2",
+    "name": "garlic cloves",
+    "prep": "crushed"
    },
    {
-    "id": "chopped-tomatoes",
-    "quantity": "1 tin",
-    "name": "chopped tomatoes"
+    "id": "tomato-puree",
+    "quantity": "1 tbsp",
+    "name": "tomato purée",
+    "prep": ""
+   },
+   {
+    "id": "cherry-tomatoes",
+    "quantity": "200g",
+    "name": "cherry tomatoes",
+    "prep": "halved"
+   },
+   {
+    "id": "cucumber",
+    "quantity": "½",
+    "name": "cucumber",
+    "prep": "grated"
    },
    {
     "id": "natural-yoghurt",
-    "quantity": "4 tbsp",
-    "name": "natural yoghurt"
+    "quantity": "200g",
+    "name": "natural yoghurt",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "smoked-paprika",
+    "quantity": "2 tsp",
+    "name": "smoked paprika",
+    "prep": ""
+   },
+   {
+    "id": "cumin",
+    "quantity": "1 tsp",
+    "name": "cumin",
+    "prep": ""
+   },
+   {
+    "id": "parsley",
+    "quantity": "1 small bunch",
+    "name": "parsley",
+    "prep": "chopped"
+   },
+   {
+    "id": "salt",
+    "quantity": "1 tsp",
+    "name": "salt",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
    }
   ],
   "steps": [
-   "Simmer the rice in 600ml salted water, covered, for 12 minutes.",
-   "Brown the turkey in the oil over a high heat, breaking it up.",
-   "Add the sliced onion, peppers and garlic, 2 tsp paprika and the cumin. Fry for 8 minutes.",
-   "Add the tomatoes and simmer for 5 minutes. Season, scatter with parsley, serve with rice and yoghurt."
+   "Put the rinsed rice, water and a pinch of salt in the saucepan. Bring to the boil, cover and cook on the lowest heat for 12 minutes, then rest off the heat.",
+   "Meanwhile, heat the oil in the frying pan over a high heat. Fry the turkey for 6 to 8 minutes, breaking it up, until browned.",
+   "Add the onion and peppers and fry for 8 minutes, stirring often, until soft and catching at the edges.",
+   "Stir in the garlic, spices and tomato purée for 1 minute. Add the tomatoes and a splash of water, cook for 3 minutes until saucy, then season with salt and pepper.",
+   "Squeeze the cucumber dry and mix into the yoghurt with a pinch of salt. Serve the turkey over the rice with parsley and a spoonful of yoghurt."
   ]
  },
  "attempts": 2,
  "rejections": [
   [
-   "The method is 386 characters over 4 steps and runs 1 line past the bottom of the page. Cut about 31 characters."
+   "The method is 153 words and runs 1 lines past the bottom of the page. Cut about 7 words."
   ]
  ],
  "failures": [],

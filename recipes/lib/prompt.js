@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
+import { fit } from "./checks.js";
 import { MONTHS, availability, byId, config, freshIn, pantry, root } from "./data.js";
 
 const KINDS = { veg: "Vegetables", fruit: "Fruit", herb: "Fresh herbs", meat: "Meat", fish: "Fish" };
@@ -44,22 +45,26 @@ export function freshList(month) {
 }
 
 export function recipeSystem() {
-  const { limits } = config;
-  const methodLines = Math.floor((limits.method_px - 3 * limits.method_gap_px) / limits.method_line_px);
+  const { limits, page } = config;
+  const room = fit({ title: "x", utensils: ["x"], ingredients: [], seasoning: [], steps: [] }).room - page.title_line_px;
+  const methodLines = Math.floor((room - page.method_header_px - 4 * page.step_gap_px) / page.line_px);
+  const methodWords = Math.floor((methodLines * 6.2) / 5) * 5;
   return fill(read("recipe.md"), {
     PANTRY: pantryList(),
     HANDS_ON_MAX: limits.hands_on_max,
     QUICK_MAX: limits.quick_max,
-    MAX_TITLE_CHARS: limits.max_title_chars,
-    MAX_UTENSILS_CHARS: limits.max_utensils_chars,
-    MAX_SEASONING: limits.max_seasoning,
+    TITLE_CHARS: page.title_chars,
+    UTENSILS_CHARS: page.utensils_chars,
     MAX_INGREDIENTS: limits.max_ingredients,
-    INGREDIENT_CHARS: limits.ingredient_chars_per_line,
-    MIN_STEPS: 3,
+    MAX_SEASONING: limits.max_seasoning,
+    LIST_CHARS: page.list_chars,
+    LIST_LINES: Math.floor((room - page.list_header_px - page.seasoning_header_px) / (page.line_px + page.list_gap_px)) - 1,
     MAX_STEPS: limits.max_steps,
-    METHOD_CHARS: limits.method_chars_per_line,
+    METHOD_CHARS: page.method_chars,
     METHOD_LINES: methodLines,
-    METHOD_TOTAL_CHARS: Math.floor(((methodLines - 2.5) * limits.method_chars_per_line) / 20) * 20,
+    METHOD_LOW: methodWords - 15,
+    METHOD_HIGH: methodWords,
+    METHOD_MAX: methodWords + 15,
   });
 }
 

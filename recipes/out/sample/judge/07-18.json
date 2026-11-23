@@ -1,43 +1,43 @@
 {
  "day": 199,
- "title": "Blistered cherry tomatoes, mushrooms and eggs on toast",
+ "title": "Roast cherry tomatoes and eggs on ricotta toast",
  "model": "claude-opus-5-5",
  "judgement": {
   "grandparents_cupboard": {
    "pass": true,
-   "reason": "Mushrooms, cherry tomatoes, garlic, eggs, butter, olive oil, bread and fresh herbs are all plain kitchen foods with nothing factory-made."
+   "reason": "Every ingredient is a plain kitchen staple: tomatoes, mushrooms, garlic, oil, balsamic, eggs, bread and ricotta."
   },
   "supermarket": {
    "pass": true,
-   "reason": "Every ingredient is an everyday item at Tesco or any mainstream supermarket at a normal price."
+   "reason": "Every ingredient is an everyday Tesco item at a normal price."
   },
   "basic_kitchen": {
    "pass": true,
-   "reason": "It needs only a large frying pan with a lid and a toaster or grill, and frying eggs in gaps in the pan is beginner technique."
+   "reason": "It needs only a roasting tray, a toaster and an oven, and cracking eggs into a tray is beginner technique."
   },
   "works": {
    "pass": true,
-   "reason": "The amounts suit four for breakfast (an egg, a slice of toast and a good spoonful of tomatoes and mushrooms each), the timings are sensible, and making the toast is a detail any cook would fill in."
+   "reason": "The quantities suit four, 200°C for 15 minutes then 8 to 10 minutes with the eggs is sound, and the ricotta toast soaks up the juices well."
   },
   "honest_times": {
    "pass": true,
-   "reason": "Ten minutes covers slicing the mushrooms and garlic, stripping the thyme, snipping the chives and toasting, and the 13 to 14 minutes of hob time in the steps is close enough to the 12 printed."
+   "reason": "Ten minutes is enough to halve mushrooms, slice garlic and toast and spread bread, and the 15 plus 10 minutes in the steps matches the 25 minute cook time."
   },
   "honest_ingredients": {
    "pass": true,
-   "reason": "Every listed ingredient and seasoning appears in the steps, the names match their ids, and nothing unlisted is used."
+   "reason": "Every listed ingredient and seasoning, including the basil and optional chilli flakes, is used in the steps, and nothing unlisted appears."
   },
   "seasonal_feel": {
    "pass": true,
-   "reason": "Burst cherry tomatoes are the centre of a light July breakfast, which suits midsummer."
+   "reason": "Roast cherry tomatoes lead the dish and suit a July breakfast."
   },
   "plain_voice": {
    "pass": true,
-   "reason": "The steps are short, clear British English that a beginner could follow."
+   "reason": "The steps are clear, friendly British English with no restaurant jargon or preaching."
   },
   "hearty_healthy": {
    "pass": true,
-   "reason": "Eggs, vegetables and wholemeal toast make a proper, filling breakfast that a family would happily cook again."
+   "reason": "Eggs, ricotta, vegetables and toast make a filling, balanced breakfast a family would want again."
   }
  }
 }

@@ -17,80 +17,103 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Blistered cherry tomatoes, mushrooms and eggs on toast",
+  "title": "Roast cherry tomatoes and eggs on ricotta toast",
   "meal": "breakfast",
   "dish_form": "savoury breakfast plate",
   "diet": "vegetarian",
   "gluten_free": false,
-  "kit": "hob",
+  "kit": "oven",
   "utensils": [
-   "a large frying pan with a lid"
+   "roasting tray",
+   "toaster"
   ],
   "prep_minutes": 10,
-  "cook_minutes": 12,
+  "cook_minutes": 25,
   "time_note": "",
   "best_time": "morning",
   "freezes": false,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   },
-   {
-    "id": "thyme",
-    "name": "thyme"
-   },
-   {
-    "id": "chives",
-    "name": "chives"
-   }
-  ],
   "ingredients": [
    {
-    "id": "olive-oil",
-    "quantity": "2 tbsp",
-    "name": "olive oil"
+    "id": "cherry-tomatoes",
+    "quantity": "500g",
+    "name": "cherry tomatoes",
+    "prep": ""
    },
    {
     "id": "mushrooms",
     "quantity": "250g",
-    "name": "mushrooms"
-   },
-   {
-    "id": "cherry-tomatoes",
-    "quantity": "400g",
-    "name": "cherry tomatoes"
+    "name": "mushrooms",
+    "prep": "halved"
    },
    {
     "id": "garlic",
-    "quantity": "1",
-    "name": "garlic clove"
+    "quantity": "2",
+    "name": "garlic cloves",
+    "prep": "sliced"
    },
    {
-    "id": "butter",
+    "id": "olive-oil",
+    "quantity": "2 tbsp",
+    "name": "olive oil",
+    "prep": ""
+   },
+   {
+    "id": "balsamic-vinegar",
     "quantity": "1 tbsp",
-    "name": "butter"
+    "name": "balsamic vinegar",
+    "prep": ""
    },
    {
     "id": "eggs",
     "quantity": "4",
-    "name": "eggs"
+    "name": "eggs",
+    "prep": ""
    },
    {
     "id": "bread",
-    "quantity": "4 slices",
-    "name": "wholemeal bread"
+    "quantity": "4",
+    "name": "thick slices of bread",
+    "prep": ""
+   },
+   {
+    "id": "ricotta",
+    "quantity": "250g",
+    "name": "ricotta",
+    "prep": ""
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "salt",
+    "quantity": "½ tsp",
+    "name": "salt",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
+   },
+   {
+    "id": "basil",
+    "quantity": "small bunch",
+    "name": "basil",
+    "prep": "torn"
+   },
+   {
+    "id": "chilli-flakes",
+    "quantity": "a pinch",
+    "name": "chilli flakes",
+    "prep": "optional"
    }
   ],
   "steps": [
-   "Fry the sliced mushrooms in the oil in a large pan for 5 minutes, until golden.",
-   "Add the tomatoes, sliced garlic and thyme. Cook for 5 minutes, until they burst. Season.",
-   "Make four gaps, add the butter and crack in the eggs. Cover for 3 to 4 minutes, until the whites set.",
-   "Serve on toast with snipped chives."
+   "Heat the oven to 200°C (180°C fan). Tip the tomatoes, mushrooms and garlic into a roasting tray with the oil, balsamic vinegar, salt and a good grind of pepper, and toss everything together.",
+   "Roast for 15 minutes, until the tomatoes are starting to split and the mushrooms have shrunk and turned golden.",
+   "Give the tray a stir, then make four gaps and crack an egg into each. Return to the oven for 8 to 10 minutes, until the whites are set and the yolks are still soft.",
+   "While the eggs cook, toast the bread and spread each slice thickly with ricotta.",
+   "Spoon the tomatoes, mushrooms and eggs over the toast with the juices from the tray. Scatter over the basil and add a pinch of chilli flakes if you like."
   ]
  },
  "attempts": 1,

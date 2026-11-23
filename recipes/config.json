@@ -16,18 +16,11 @@
   "limits": {
     "hands_on_max": 60,
     "quick_max": 20,
-    "max_ingredients": 10,
-    "ingredient_lines": 13,
-    "ingredient_chars_per_line": 19,
+    "max_ingredients": 12,
     "max_seasoning": 6,
-    "max_steps": 5,
-    "method_px": 288,
-    "method_chars_per_line": 31,
-    "method_line_px": 20,
-    "method_gap_px": 9,
-    "max_title_chars": 60,
-    "max_utensils_chars": 60,
-    "max_time_note_chars": 30
+    "max_steps": 6,
+    "max_title_lines": 2,
+    "max_utensils_lines": 2
   },
   "diet_mix": {
     "breakfast": {
@@ -331,5 +324,28 @@
       "salad cream",
       "xanthan"
     ]
+  },
+  "page": {
+    "content_px": 682,
+    "picture_px": 150,
+    "title_chars": 38,
+    "title_line_px": 27,
+    "title_margin_px": 18,
+    "utensils_chars": 66,
+    "utensils_margin_px": 10,
+    "time_px": 19,
+    "columns_margin_px": 20,
+    "line_px": 17,
+    "list_chars": 25,
+    "list_gap_px": 2,
+    "list_header_px": 23,
+    "seasoning_header_px": 35,
+    "method_chars": 41,
+    "method_header_px": 25,
+    "step_gap_px": 6,
+    "head_px": 380,
+    "title_scale": 1.66,
+    "list_px": 140,
+    "method_px": 232
   }
 }

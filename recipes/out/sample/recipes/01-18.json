@@ -18,101 +18,124 @@
   "pace": "standard"
  },
  "recipe": {
-  "title": "Split pea and parsnip stew with purple sprouting broccoli",
+  "title": "Smoky split pea stew with purple sprouting broccoli",
   "meal": "dinner",
   "dish_form": "stew",
   "diet": "vegan",
   "gluten_free": true,
   "kit": "one_pot",
   "utensils": [
-   "one large lidded pan"
+   "large casserole with a lid"
   ],
   "prep_minutes": 20,
-  "cook_minutes": 65,
+  "cook_minutes": 60,
   "time_note": "",
   "best_time": "evening",
-  "freezes": false,
-  "seasoning": [
-   {
-    "id": "salt",
-    "name": "salt"
-   },
-   {
-    "id": "black-pepper",
-    "name": "black pepper"
-   },
-   {
-    "id": "cumin",
-    "name": "cumin"
-   },
-   {
-    "id": "turmeric",
-    "name": "turmeric"
-   },
-   {
-    "id": "chilli-flakes",
-    "name": "chilli flakes"
-   },
-   {
-    "id": "lemons",
-    "name": "lemon"
-   }
-  ],
+  "freezes": true,
   "ingredients": [
    {
-    "id": "rapeseed-oil",
+    "id": "olive-oil",
     "quantity": "2 tbsp",
-    "name": "rapeseed oil"
+    "name": "olive oil",
+    "prep": ""
    },
    {
     "id": "onions",
+    "quantity": "1 large",
+    "name": "onion",
+    "prep": "chopped"
+   },
+   {
+    "id": "carrots",
     "quantity": "2",
-    "name": "onions"
+    "name": "carrots",
+    "prep": "diced"
    },
    {
     "id": "garlic",
     "quantity": "3 cloves",
-    "name": "garlic"
+    "name": "garlic",
+    "prep": "crushed"
    },
    {
     "id": "split-peas",
     "quantity": "250g",
-    "name": "yellow split peas"
+    "name": "yellow split peas",
+    "prep": "rinsed"
    },
    {
     "id": "chopped-tomatoes",
-    "quantity": "1 tin",
-    "name": "chopped tomatoes"
+    "quantity": "400g",
+    "name": "chopped tomatoes",
+    "prep": ""
    },
    {
     "id": "vegetable-stock",
-    "quantity": "1.2l",
-    "name": "veg stock"
+    "quantity": "1.2 litres",
+    "name": "veg stock",
+    "prep": ""
    },
    {
     "id": "parsnips",
-    "quantity": "3",
-    "name": "parsnips"
+    "quantity": "500g",
+    "name": "parsnips",
+    "prep": "in chunks"
    },
    {
     "id": "purple-sprouting-broccoli",
     "quantity": "250g",
-    "name": "purple sprouting"
+    "name": "purple sprouting",
+    "prep": ""
+   },
+   {
+    "id": "lemons",
+    "quantity": "1/2",
+    "name": "lemon",
+    "prep": "juiced"
+   }
+  ],
+  "seasoning": [
+   {
+    "id": "smoked-paprika",
+    "quantity": "2 tsp",
+    "name": "smoked paprika",
+    "prep": ""
+   },
+   {
+    "id": "cumin",
+    "quantity": "1 tsp",
+    "name": "ground cumin",
+    "prep": ""
+   },
+   {
+    "id": "bay",
+    "quantity": "2",
+    "name": "bay leaves",
+    "prep": ""
+   },
+   {
+    "id": "salt",
+    "quantity": "1 tsp",
+    "name": "salt",
+    "prep": ""
+   },
+   {
+    "id": "black-pepper",
+    "quantity": "",
+    "name": "black pepper",
+    "prep": "to taste"
    }
   ],
   "steps": [
-   "Soften the sliced onions in the oil for 8 minutes. Add the garlic, 2 tsp cumin, 1 tsp turmeric.",
-   "Add the rinsed peas, tomatoes and stock. Cover and simmer for 30 minutes.",
-   "Add the parsnip chunks. Simmer for 25 minutes, until the peas are soft.",
-   "Lay the broccoli on top, cover and steam for 6 minutes. Season with lemon and chilli."
+   "Heat the oil in a large casserole over a medium heat. Add the onion and carrots with a pinch of the salt and cook for 10 minutes, stirring now and then, until soft.",
+   "Stir in the garlic, smoked paprika and cumin and cook for 1 minute, until fragrant.",
+   "Add the split peas, tomatoes, stock and bay. Bring to the boil, then cover and simmer for 25 minutes. Peel and chop the parsnips while it cooks.",
+   "Stir in the parsnips and simmer, covered, for 20 to 25 minutes more, until the split peas are soft and the parsnips tender. Add a splash of water if it gets too thick.",
+   "Lay the broccoli on top, cover and cook for 5 to 6 minutes until just tender. Squeeze in the lemon, then season with the rest of the salt and plenty of pepper."
   ]
  },
- "attempts": 2,
- "rejections": [
-  [
-   "The method is 351 characters over 4 steps and runs 1 line past the bottom of the page. Cut about 31 characters."
-  ]
- ],
+ "attempts": 1,
+ "rejections": [],
  "failures": [],
  "model": "claude-opus-5-5"
 }
